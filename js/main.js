@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Generic "fake submit" handler for newsletter + contact forms.
+  // Generic "fake submit" handler for newsletter forms.
   // This is a static front-end demo: forms are not wired to a backend yet.
   document.querySelectorAll('form[data-demo-form]').forEach(function (form) {
     form.addEventListener('submit', function (e) {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var button = form.querySelector('button[type="submit"]');
       if (button) {
         var originalText = button.textContent;
-        button.textContent = 'Submitting…';
+        button.textContent = 'Boarding…';
         button.disabled = true;
         setTimeout(function () {
           button.textContent = originalText;
@@ -38,38 +38,23 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Job filter chips (visual filtering on jobs.html)
+  // Category filter chips (visual filtering on archive pages)
   var chips = document.querySelectorAll('.chip[data-filter]');
-  var jobCards = document.querySelectorAll('.job-card[data-region]');
-  if (chips.length && jobCards.length) {
+  var filterCards = document.querySelectorAll('[data-tag]');
+  if (chips.length && filterCards.length) {
     chips.forEach(function (chip) {
       chip.addEventListener('click', function () {
         chips.forEach(function (c) { c.classList.remove('is-active'); });
         chip.classList.add('is-active');
         var filter = chip.getAttribute('data-filter');
-        jobCards.forEach(function (card) {
-          if (filter === 'all' || card.getAttribute('data-region') === filter) {
+        filterCards.forEach(function (card) {
+          if (filter === 'all' || card.getAttribute('data-tag') === filter) {
             card.style.display = '';
           } else {
             card.style.display = 'none';
           }
         });
       });
-    });
-  }
-
-  // Anonymous toggle on stories.html submission form
-  var anonCheckbox = document.querySelector('#anon-submit');
-  var nameField = document.querySelector('#story-name-group');
-  if (anonCheckbox && nameField) {
-    anonCheckbox.addEventListener('change', function () {
-      if (anonCheckbox.checked) {
-        nameField.style.opacity = '0.45';
-        nameField.querySelector('input').setAttribute('disabled', 'disabled');
-      } else {
-        nameField.style.opacity = '1';
-        nameField.querySelector('input').removeAttribute('disabled');
-      }
     });
   }
 
