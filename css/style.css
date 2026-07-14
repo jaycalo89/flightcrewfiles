@@ -129,6 +129,51 @@ p{margin:0 0 1em;color:var(--muted);}
 .nav-links a:hover,.nav-links a.active{color:var(--blue-300);}
 .nav-links a.active{color:var(--gold-400);}
 .nav-links a:hover::after,.nav-links a.active::after{width:100%;}
+
+/* ===== Dropdown nav (Stories / Community / Resources) ===== */
+.has-dropdown{position:relative;padding-bottom:18px;margin-bottom:-18px;}
+.dropdown-trigger{
+  display:inline-flex;align-items:center;gap:6px;background:none;border:none;cursor:pointer;
+  color:rgba(246,248,252,0.78);font-size:.78rem;letter-spacing:.1em;
+  text-transform:uppercase;font-weight:500;padding:6px 0;position:relative;
+  transition:color .2s ease;font-family:'Oswald',sans-serif;
+}
+.dropdown-trigger::after{
+  content:"";position:absolute;left:0;bottom:0;width:0;height:2px;
+  background:var(--blue-400);transition:width .25s ease;
+}
+.dropdown-trigger:hover{color:var(--blue-300);}
+.dropdown-trigger:hover::after{width:100%;}
+.dropdown-trigger.active{color:var(--gold-400);}
+.dropdown-trigger .chevron{width:11px;height:11px;stroke:currentColor;transition:transform .25s ease;flex-shrink:0;}
+.has-dropdown:hover .dropdown-trigger .chevron,
+.has-dropdown.is-open .dropdown-trigger .chevron{transform:rotate(180deg);}
+
+.dropdown-menu{
+  list-style:none;margin:0;padding:10px;position:absolute;top:100%;left:50%;
+  min-width:220px;background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border:1px solid var(--border-gold);border-radius:var(--radius-md);
+  box-shadow:var(--shadow-glow);z-index:1100;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transform:translate(-50%,-6px);
+  transition:opacity .22s ease,transform .22s ease,visibility 0s linear .22s;
+}
+.has-dropdown:hover .dropdown-menu,
+.has-dropdown.is-open .dropdown-menu{
+  opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0);
+  transition:opacity .22s ease,transform .22s ease,visibility 0s;
+}
+.dropdown-menu li{margin:0;}
+.dropdown-menu a{
+  display:block;padding:10px 14px;border-radius:8px;
+  font-size:.82rem;letter-spacing:.03em;text-transform:none;
+  color:rgba(246,248,252,0.82);font-family:'Inter',sans-serif;font-weight:500;
+  transition:background .18s ease,color .18s ease,padding-left .18s ease;
+}
+.dropdown-menu a:hover,.dropdown-menu a.active{
+  background:rgba(212,175,55,0.1);color:var(--gold-400);padding-left:19px;
+}
+
 .nav-cta{display:flex;align-items:center;gap:16px;flex-shrink:0;}
 .nav-toggle{
   display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;
@@ -147,6 +192,19 @@ p{margin:0 0 1em;color:var(--muted);}
 }
 .mobile-panel a.active{color:var(--gold-400);}
 .mobile-panel .btn{margin-top:16px;}
+
+.mobile-dropdown-toggle{
+  display:flex;align-items:center;justify-content:space-between;width:100%;
+  background:none;border:none;color:rgba(246,248,252,0.85);padding:14px 4px;
+  font-size:.95rem;text-align:left;letter-spacing:.04em;font-family:'Oswald',sans-serif;
+  text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,0.06);cursor:pointer;
+}
+.mobile-dropdown-toggle.active{color:var(--gold-400);}
+.mobile-dropdown-toggle .chevron{width:14px;height:14px;stroke:var(--gold-400);transition:transform .25s ease;flex-shrink:0;}
+.mobile-dropdown-toggle.is-open .chevron{transform:rotate(180deg);}
+.mobile-submenu{max-height:0;overflow:hidden;transition:max-height .3s ease;background:rgba(255,255,255,0.02);}
+.mobile-submenu.is-open{max-height:420px;}
+.mobile-submenu a{padding-left:20px;font-size:.88rem;color:rgba(246,248,252,0.7);}
 
 body.nav-open .mobile-panel{display:flex;}
 body.nav-open .nav-toggle span:nth-child(1){transform:translateY(7px) rotate(45deg);}
@@ -273,6 +331,18 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .card-link{color:var(--blue-300);font-weight:600;font-size:.85rem;letter-spacing:.03em;display:inline-flex;align-items:center;gap:6px;font-family:'Oswald',sans-serif;text-transform:uppercase;}
 .card-link svg{width:14px;height:14px;stroke:var(--gold-400);transition:transform .2s ease;}
 .card-link:hover svg{transform:translateX(4px);}
+
+.mission-section{
+  border-top:1px solid var(--border-soft);
+  border-bottom:1px solid var(--border-soft);
+  position:relative;
+}
+.mission-inner{max-width:820px;}
+.mission-lede{font-size:1.05rem;line-height:1.75;color:rgba(246,248,252,0.72);}
+.mission-tagline{
+  margin-top:20px;font-family:'Oswald',sans-serif;font-size:1.15rem;
+  letter-spacing:.02em;color:var(--gold-400);text-transform:none;
+}
 
 .dark-section{
   background:linear-gradient(160deg,var(--navy-950),var(--navy-900));
@@ -442,6 +512,202 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   transition:.2s ease;font-family:'Oswald',sans-serif;text-transform:uppercase;
 }
 .chip.is-active,.chip:hover{background:var(--accent);color:var(--navy-950);border-color:var(--accent);font-weight:600;}
+
+/* ===== Bookshelf ===== */
+.affiliate-note{
+  border:1px solid var(--border-gold);border-radius:var(--radius-md);
+  background:rgba(212,175,55,0.06);padding:16px 22px;font-size:.85rem;
+  color:rgba(246,248,252,0.68);margin-bottom:6px;
+}
+.affiliate-note strong{color:var(--gold-400);}
+
+.book-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border-radius:var(--radius-lg);overflow:hidden;
+  border:1px solid var(--border-soft);box-shadow:var(--shadow-soft);
+  display:flex;flex-direction:column;
+  transition:transform .25s ease,border-color .25s ease;
+}
+.book-card:hover{transform:translateY(-5px);border-color:var(--accent);}
+.book-cover{
+  position:relative;aspect-ratio:3/4;overflow:hidden;
+  display:flex;flex-direction:column;justify-content:space-between;padding:20px;
+  background:
+    radial-gradient(circle at 30% 12%, color-mix(in srgb, var(--accent) 38%, transparent), transparent 60%),
+    linear-gradient(150deg,var(--navy-700),var(--navy-950));
+}
+.book-cover::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='110' height='110'%3E%3Cg fill='none' stroke='%23e8c766' stroke-opacity='0.16'%3E%3Ccircle cx='55' cy='55' r='46'/%3E%3Cpath d='M55 9 L55 101 M9 55 L101 55'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:130px 130px;
+}
+.book-format-badge{
+  position:relative;z-index:1;align-self:flex-start;
+  font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;
+  color:var(--navy-950);background:var(--gold-400);padding:5px 11px;border-radius:999px;
+  font-family:'Oswald',sans-serif;
+}
+.book-cover-icon{position:relative;z-index:1;display:flex;justify-content:center;}
+.book-cover-icon svg{width:44px;height:44px;stroke:var(--accent);filter:drop-shadow(0 0 10px color-mix(in srgb, var(--accent) 55%, transparent));}
+.book-cover-title{position:relative;z-index:1;text-align:center;}
+.book-cover-title .bc-title{
+  font-family:'Oswald',sans-serif;font-weight:700;font-size:.98rem;
+  text-transform:uppercase;color:var(--white);line-height:1.28;letter-spacing:.01em;
+}
+.book-cover-title .bc-author{
+  display:block;margin-top:8px;font-size:.68rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--gold-300);font-family:'Oswald',sans-serif;
+}
+.book-body{padding:22px 24px 26px;display:flex;flex-direction:column;flex:1;}
+.book-body h3{font-size:1.05rem;text-transform:none;margin-bottom:2px;}
+.book-author-line{
+  font-size:.76rem;color:var(--muted-light);margin-bottom:12px;
+  font-family:'Oswald',sans-serif;letter-spacing:.06em;text-transform:uppercase;
+}
+.book-desc{font-size:.92rem;flex:1;}
+.book-meta{font-size:.76rem;color:var(--muted-light);margin:0 0 14px;}
+.book-ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;}
+.book-ctas .btn{padding:11px 20px;font-size:.72rem;}
+
+.mag-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border-gold);
+  box-shadow:var(--shadow-glow);display:flex;flex-direction:column;
+  transition:transform .25s ease;
+}
+.mag-card:hover{transform:translateY(-5px);}
+
+.pick-ribbon{
+  position:absolute;top:14px;right:-30px;z-index:2;transform:rotate(38deg);
+  background:linear-gradient(135deg,var(--gold-400),var(--gold-600));color:var(--navy-950);
+  font-family:'Oswald',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;padding:4px 34px;box-shadow:0 6px 14px -4px rgba(0,0,0,0.5);
+}
+
+@keyframes pulse-dot{0%,100%{opacity:1;}50%{opacity:.35;}}
+.live-dot{display:inline-flex;align-items:center;gap:7px;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#39e6c5;font-family:'Oswald',sans-serif;font-weight:600;}
+.live-dot::before{content:"";width:7px;height:7px;border-radius:50%;background:#39e6c5;box-shadow:0 0 8px #39e6c5;animation:pulse-dot 1.8s infinite;flex-shrink:0;}
+
+/* ===== This Day In Aviation History (homepage) ===== */
+.history-event-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border:1px solid var(--border-gold);border-radius:var(--radius-lg);
+  padding:28px 26px;box-shadow:var(--shadow-soft);
+}
+.history-event-card .hec-year{
+  font-family:'Oswald',sans-serif;font-weight:700;font-size:2rem;color:var(--gold-400);
+  display:block;margin-bottom:10px;letter-spacing:.02em;
+}
+.history-event-card h3{font-size:1.02rem;text-transform:none;margin-bottom:8px;}
+.history-event-card p{font-size:.9rem;margin-bottom:0;color:rgba(246,248,252,0.62);}
+.tdih-note{font-size:.8rem;color:var(--muted-light);margin-top:22px;}
+
+/* ===== Listen Live (ATC scanner directory) ===== */
+.station-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border:1px solid var(--border-soft);border-radius:var(--radius-lg);
+  padding:26px 26px 24px;transition:transform .25s ease,border-color .25s ease;
+  display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow-soft);
+}
+.station-card:hover{transform:translateY(-5px);border-color:var(--accent);}
+.station-head{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+.station-icao{
+  font-family:'Oswald',sans-serif;font-weight:700;letter-spacing:.08em;
+  color:var(--navy-950);background:var(--accent);padding:4px 11px;border-radius:6px;font-size:.78rem;
+}
+.station-region{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-light);font-family:'Oswald',sans-serif;}
+.station-card h3{font-size:1.08rem;text-transform:none;margin-bottom:0;}
+.station-card p{font-size:.88rem;}
+
+/* ===== Live Flights (Flightradar24 embed) ===== */
+.fr24-frame{
+  border:1px solid var(--border-gold);border-radius:var(--radius-lg);overflow:hidden;
+  box-shadow:var(--shadow-glow);background:var(--navy-900);
+}
+.fr24-frame-head{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:16px 22px;border-bottom:1px solid var(--border-soft);
+  background:linear-gradient(90deg,var(--navy-900),var(--navy-850));
+}
+.fr24-frame-head .brand-word{font-size:.95rem;}
+.fr24-embed{width:100%;height:640px;border:0;display:block;background:var(--navy-950);}
+@media (max-width:700px){.fr24-embed{height:440px;}}
+
+/* ===== Glossary ===== */
+.az-nav{
+  display:flex;flex-wrap:wrap;gap:8px;margin:36px 0 0;padding:14px 0;
+  position:sticky;top:70px;z-index:60;
+  background:rgba(3,6,15,0.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--border-soft);border-top:1px solid var(--border-soft);
+}
+.az-letter{
+  width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+  background:rgba(255,255,255,0.03);border:1px solid var(--border-soft);color:var(--muted);
+  font-family:'Oswald',sans-serif;font-size:.76rem;font-weight:600;text-transform:uppercase;
+  transition:.2s ease;flex-shrink:0;
+}
+.az-letter:hover{background:var(--gold-500);color:var(--navy-950);border-color:var(--gold-500);}
+.az-letter.is-empty{opacity:.28;pointer-events:none;}
+.glossary-letter-group{margin:54px 0 0;scroll-margin-top:150px;}
+.glossary-letter-heading{
+  font-family:'Oswald',sans-serif;font-size:2.2rem;color:var(--gold-400);
+  border-bottom:2px solid var(--border-gold);padding-bottom:10px;margin-bottom:24px;
+}
+.term-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border:1px solid var(--border-soft);border-radius:var(--radius-md);
+  padding:20px 22px;
+}
+.term-card h3{font-size:1rem;text-transform:none;margin-bottom:6px;color:var(--white);}
+.term-card p{font-size:.88rem;margin-bottom:0;}
+
+/* ===== Fear of Flying ===== */
+.stat-tile{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border:1px solid var(--border-gold);border-radius:var(--radius-lg);
+  padding:32px 24px;text-align:center;
+}
+.stat-tile strong{display:block;font-family:'Oswald',sans-serif;font-size:2.1rem;color:var(--gold-400);margin-bottom:10px;line-height:1.1;}
+.stat-tile span{font-size:.85rem;color:var(--muted);}
+.breathing-card{
+  background:linear-gradient(150deg,rgba(46,143,255,0.1),rgba(212,175,55,0.04));
+  border:1px solid var(--border-soft);border-radius:var(--radius-lg);padding:28px 26px;
+}
+.breathing-card h3{font-size:1.05rem;text-transform:none;}
+.breathing-steps{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 0;padding:0;list-style:none;}
+.breathing-steps li{
+  background:rgba(255,255,255,0.05);border:1px solid var(--border-soft);border-radius:999px;
+  padding:8px 16px;font-size:.8rem;color:var(--ink);font-family:'Oswald',sans-serif;letter-spacing:.03em;
+}
+.pilot-qa{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));border-radius:var(--radius-lg);
+  border:1px solid var(--border-soft);padding:24px 26px;
+}
+.pilot-qa .q{font-family:'Oswald',sans-serif;font-size:.96rem;color:var(--gold-400);margin-bottom:8px;text-transform:none;font-weight:600;}
+.pilot-qa .a{font-size:.9rem;margin-bottom:0;color:var(--muted);}
+
+/* ===== Tip Line ===== */
+.tip-form{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));border:1px solid var(--border-gold);
+  border-radius:var(--radius-lg);padding:40px;box-shadow:var(--shadow-glow);
+}
+.form-row{margin-bottom:20px;display:flex;flex-direction:column;gap:8px;}
+.form-row label{font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-light);}
+.form-row input,.form-row select,.form-row textarea{
+  padding:14px 16px;border-radius:var(--radius-sm);border:1px solid rgba(255,255,255,0.18);
+  background:rgba(255,255,255,0.03);color:var(--white);font-family:inherit;font-size:.92rem;
+}
+.form-row textarea{resize:vertical;min-height:150px;}
+.form-row input:focus,.form-row select:focus,.form-row textarea:focus{outline:none;border-color:var(--blue-400);}
+.form-row select option{background:var(--navy-800);color:var(--white);}
+.form-check{display:flex;align-items:flex-start;gap:10px;font-size:.86rem;color:var(--muted);}
+.form-check input{width:16px;height:16px;margin-top:3px;flex-shrink:0;}
+.tip-confidentiality{
+  border:1px solid var(--border-soft);border-radius:var(--radius-md);
+  background:rgba(46,143,255,0.06);padding:18px 20px;font-size:.85rem;color:rgba(246,248,252,0.7);
+  margin-bottom:0;
+}
+.tip-confidentiality strong{color:var(--blue-300);}
 
 /* ===== Utility ===== */
 .mt-0{margin-top:0;}

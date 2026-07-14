@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
-<title>Aviation History — Flight Crew Files</title>
-<meta name="description" content="The legendary, record-breaking and history-changing moments that built modern aviation — from Kitty Hawk to the jet age.">
+<title>Live Flights — Real-Time Flight Tracker | Flight Crew Files</title>
+<meta name="description" content="Track thousands of aircraft in real time with our embedded Flightradar24 live flight map — see what's flying overhead anywhere in the world, right now.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -36,7 +36,7 @@
           <li><a href="crew.html">Crew</a></li>
           </ul>
         </li>
-        <li><a href="history.html" class="active">History</a></li>
+        <li><a href="history.html">History</a></li>
         <li><a href="news.html">News</a></li>
         <li class="has-dropdown">
           <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
@@ -47,10 +47,10 @@
           </ul>
         </li>
         <li class="has-dropdown">
-          <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="dropdown-trigger active" type="button" aria-haspopup="true" aria-expanded="false">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
           <ul class="dropdown-menu">
           <li><a href="listen-live.html">Listen Live</a></li>
-          <li><a href="live-flights.html">Live Flights</a></li>
+          <li><a href="live-flights.html" class="active">Live Flights</a></li>
           <li><a href="glossary.html">Glossary</a></li>
           <li><a href="bookshelf.html">Bookshelf</a></li>
           </ul>
@@ -74,7 +74,7 @@
       <a href="pilots.html">Pilots</a>
       <a href="crew.html">Crew</a>
     </div>
-    <a href="history.html" class="active">History</a>
+    <a href="history.html">History</a>
     <a href="news.html">News</a>
     <button class="mobile-dropdown-toggle active" type="button">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
     <div class="mobile-submenu">
@@ -82,10 +82,10 @@
       <a href="tipline.html">Tip Line</a>
       <a href="fear-of-flying.html">Fear of Flying</a>
     </div>
-    <button class="mobile-dropdown-toggle active" type="button">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-    <div class="mobile-submenu">
+    <button class="mobile-dropdown-toggle active is-open" type="button">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="mobile-submenu is-open">
       <a href="listen-live.html">Listen Live</a>
-      <a href="live-flights.html">Live Flights</a>
+      <a href="live-flights.html" class="active">Live Flights</a>
       <a href="glossary.html">Glossary</a>
       <a href="bookshelf.html">Bookshelf</a>
     </div>
@@ -93,55 +93,54 @@
   </div>
 </header>
 
-<section class="page-hero" style="--accent:#e0a530;">
+<section class="page-hero">
   <div class="container">
-    <span class="eyebrow">Legends Of Flight</span>
-    <h1 class="section-title">Aviation History</h1>
-    <p class="section-lede">From a twelve-second flight on a windy North Carolina beach to supersonic passenger travel, these are the moments that turned aviation from a dream into the safest way to cross the planet.</p>
+    <span class="live-dot">Tracking Live</span>
+    <h1 class="section-title" style="margin-top:16px;">Live Flights</h1>
+    <p class="section-lede">Thousands of aircraft, tracked in real time. Zoom into any airport, follow a specific tail number, or just watch the world's air traffic move — powered by Flightradar24.</p>
   </div>
 </section>
 
-<section class="section">
+<section class="section-tight">
   <div class="container">
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="t-label">December 17, 1903 — Kitty Hawk, NC</span>
-        <h4>The First Powered Flight</h4>
-        <p style="margin:0;">Orville Wright flew 120 feet in 12 seconds aboard the Wright Flyer — shorter than the wingspan of most airliners today, and the single moment that started everything.</p>
+
+    <div class="fr24-frame">
+      <div class="fr24-frame-head">
+        <span class="live-dot">Live Data Feed</span>
+        <a href="https://www.flightradar24.com/" class="card-link" target="_blank" rel="noopener">Open Full Map On Flightradar24 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">May 20–21, 1927 — New York to Paris</span>
-        <h4>Lindbergh Crosses the Atlantic Alone</h4>
-        <p style="margin:0;">Charles Lindbergh flew the Spirit of St. Louis solo across the Atlantic in 33.5 hours, turning aviation overnight from a curiosity into a global obsession.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="t-label">1937 — Somewhere Over the Pacific</span>
-        <h4>Amelia Earhart Disappears</h4>
-        <p style="margin:0;">Attempting to circle the globe by air, Earhart and navigator Fred Noonan vanished near Howland Island. No confirmed wreckage has ever been recovered, and the disappearance remains aviation's most enduring mystery.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="t-label">October 14, 1947 — Mojave Desert, CA</span>
-        <h4>The Sound Barrier Falls</h4>
-        <p style="margin:0;">Chuck Yeager piloted the Bell X-1 past Mach 1, proving that supersonic flight — long believed to be impossible or fatal — was survivable and controllable.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="t-label">1958 — The Dawn of the Jet Age</span>
-        <h4>Commercial Jets Change Everything</h4>
-        <p style="margin:0;">The introduction of jet airliners cut transatlantic travel time nearly in half, made flying accessible to the middle class, and reshaped how the entire world traveled, worked and vacationed.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="t-label">March 27, 1977 — Tenerife, Canary Islands</span>
-        <h4>Aviation's Deadliest Day</h4>
-        <p style="margin:0;">Two Boeing 747s collided on a fog-covered runway, killing 583 people in the deadliest accident in aviation history. The tragedy directly led to standardized aviation English phraseology and modern Crew Resource Management — changes credited with preventing countless accidents since.</p>
-      </div>
-      <div class="timeline-item">
-        <span class="t-label">1976–2003 — Twenty-Seven Years of Supersonic Travel</span>
-        <h4>Concorde: Flying Faster Than Sound, Commercially</h4>
-        <p style="margin:0;">Concorde carried passengers across the Atlantic in under three and a half hours at twice the speed of sound — a feat of commercial aviation engineering that, decades later, still hasn't been repeated.</p>
-      </div>
+      <iframe
+        class="fr24-embed"
+        src="https://www.flightradar24.com/simple_index.php?lat=30&amp;lon=10&amp;z=3"
+        title="Flightradar24 live flight tracker"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
 
-    <div class="ad-slot">Advertisement</div>
+    <p class="affiliate-note" style="margin-top:24px;">This map is an embedded live view from Flightradar24, a third-party flight tracking service — we are not affiliated with Flightradar24. Coverage depends on ADS-B receiver density, so some regions (mid-ocean, parts of Africa and Asia, and some military or general aviation traffic) may show gaps. If the map doesn't load, use the link above to view it directly on flightradar24.com.</p>
+  </div>
+</section>
+
+<section class="section dark-section">
+  <div class="container">
+    <span class="eyebrow gold center">Get The Most Out Of It</span>
+    <h2 class="section-title center">How to read the live map</h2>
+    <div class="gold-divider center"></div>
+    <div class="grid grid-3" style="margin-top:44px;">
+      <div class="value-block">
+        <h3>Click Any Aircraft</h3>
+        <p>Every icon on the map represents a real, currently airborne aircraft. Click one to see its flight number, altitude, speed, origin and destination.</p>
+      </div>
+      <div class="value-block">
+        <h3>Zoom Into An Airport</h3>
+        <p>Scroll or pinch to zoom into any airport and watch its actual arrival and departure sequencing happen in real time.</p>
+      </div>
+      <div class="value-block">
+        <h3>Watch The Patterns</h3>
+        <p>Zoom back out around sunrise over Europe or Asia and you'll see entire wake-up waves of departures move across the map at once.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -214,7 +213,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes. UAP/UFO content reflects publicly reported accounts and does not assert official conclusions. Not affiliated with any airline, government or aviation authority.</p>
+      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes. The live map on this page is provided by Flightradar24; we are not affiliated with Flightradar24, any airline, government or aviation authority.</p>
       <p>Cleared for takeoff.</p>
     </div>
   </div>

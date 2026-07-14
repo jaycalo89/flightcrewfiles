@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
-<title>Aviation History — Flight Crew Files</title>
-<meta name="description" content="The legendary, record-breaking and history-changing moments that built modern aviation — from Kitty Hawk to the jet age.">
+<title>Pilot Stories — Flight Crew Files</title>
+<meta name="description" content="Stories from the flight deck — the training, judgment calls and quiet confidence behind the men and women in command, not just the headline moments.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -25,18 +25,18 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li class="has-dropdown">
-          <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="dropdown-trigger active" type="button" aria-haspopup="true" aria-expanded="false">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
           <ul class="dropdown-menu">
           <li><a href="scary.html">Scary</a></li>
           <li><a href="heroic.html">Heroic</a></li>
           <li><a href="bizarre.html">Bizarre</a></li>
           <li><a href="uap.html">UAP Files</a></li>
           <li><a href="passengers.html">Passengers</a></li>
-          <li><a href="pilots.html">Pilots</a></li>
+          <li><a href="pilots.html" class="active">Pilots</a></li>
           <li><a href="crew.html">Crew</a></li>
           </ul>
         </li>
-        <li><a href="history.html" class="active">History</a></li>
+        <li><a href="history.html">History</a></li>
         <li><a href="news.html">News</a></li>
         <li class="has-dropdown">
           <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
@@ -64,17 +64,17 @@
   </div>
   <div class="mobile-panel">
     <a href="index.html">Home</a>
-    <button class="mobile-dropdown-toggle active" type="button">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-    <div class="mobile-submenu">
+    <button class="mobile-dropdown-toggle active is-open" type="button">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="mobile-submenu is-open">
       <a href="scary.html">Scary</a>
       <a href="heroic.html">Heroic</a>
       <a href="bizarre.html">Bizarre</a>
       <a href="uap.html">UAP Files</a>
       <a href="passengers.html">Passengers</a>
-      <a href="pilots.html">Pilots</a>
+      <a href="pilots.html" class="active">Pilots</a>
       <a href="crew.html">Crew</a>
     </div>
-    <a href="history.html" class="active">History</a>
+    <a href="history.html">History</a>
     <a href="news.html">News</a>
     <button class="mobile-dropdown-toggle active" type="button">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
     <div class="mobile-submenu">
@@ -95,49 +95,93 @@
 
 <section class="page-hero" style="--accent:#e0a530;">
   <div class="container">
-    <span class="eyebrow">Legends Of Flight</span>
-    <h1 class="section-title">Aviation History</h1>
-    <p class="section-lede">From a twelve-second flight on a windy North Carolina beach to supersonic passenger travel, these are the moments that turned aviation from a dream into the safest way to cross the planet.</p>
+    <span class="eyebrow">From The Flight Deck</span>
+    <h1 class="section-title">Pilot Stories</h1>
+    <p class="section-lede">Profiles of the men and women in command — the years of training, the split-second judgment calls, and the quiet confidence built long before the moment anyone notices it. Not just the headline saves, but the job itself.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <div class="timeline">
-      <div class="timeline-item">
-        <span class="t-label">December 17, 1903 — Kitty Hawk, NC</span>
-        <h4>The First Powered Flight</h4>
-        <p style="margin:0;">Orville Wright flew 120 feet in 12 seconds aboard the Wright Flyer — shorter than the wingspan of most airliners today, and the single moment that started everything.</p>
+    <div class="filter-row">
+      <button class="chip is-active" data-filter="all">All Stories</button>
+      <button class="chip" data-filter="career">Career-Defining Moments</button>
+      <button class="chip" data-filter="training">Training &amp; Judgment</button>
+      <button class="chip" data-filter="legendary">Legendary Captains</button>
+      <button class="chip" data-filter="behind">Behind The Yoke</button>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="article-card" data-tag="legendary" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/></svg></div>
+        <div class="article-body">
+          <span class="date">Legendary Captain</span>
+          <h3>The Captain Who Practiced For A Day Like This</h3>
+          <p>Long before his aircraft lost all hydraulics, this captain had spent years flying cargo planes by engine thrust alone for fun — a hobby that turned out to help save 184 lives.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">May 20–21, 1927 — New York to Paris</span>
-        <h4>Lindbergh Crosses the Atlantic Alone</h4>
-        <p style="margin:0;">Charles Lindbergh flew the Spirit of St. Louis solo across the Atlantic in 33.5 hours, turning aviation overnight from a curiosity into a global obsession.</p>
+
+      <div class="article-card" data-tag="training" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg></div>
+        <div class="article-body">
+          <span class="date">Training &amp; Judgment</span>
+          <h3>Ten Thousand Hours For Ninety Seconds</h3>
+          <p>Behind every calm cockpit voice recording is a career of recurrent training most passengers never think about — simulator sessions built entirely around the worst day that, statistically, will probably never come.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">1937 — Somewhere Over the Pacific</span>
-        <h4>Amelia Earhart Disappears</h4>
-        <p style="margin:0;">Attempting to circle the globe by air, Earhart and navigator Fred Noonan vanished near Howland Island. No confirmed wreckage has ever been recovered, and the disappearance remains aviation's most enduring mystery.</p>
+
+      <div class="article-card" data-tag="career" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg></div>
+        <div class="article-body">
+          <span class="date">Career-Defining Moment</span>
+          <h3>Her First Command, On The Worst Night Of The Year</h3>
+          <p>A newly upgraded captain's first flight as pilot-in-command happened to fall during one of the worst weather nights of the decade — and she brought it in without a single complaint from the cabin.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">October 14, 1947 — Mojave Desert, CA</span>
-        <h4>The Sound Barrier Falls</h4>
-        <p style="margin:0;">Chuck Yeager piloted the Bell X-1 past Mach 1, proving that supersonic flight — long believed to be impossible or fatal — was survivable and controllable.</p>
+
+      <div class="article-card" data-tag="legendary" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v6M12 22v-6M2 12h6M22 12h-6"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div class="article-body">
+          <span class="date">Legendary Captain</span>
+          <h3>The Airline Captain Who Used To Fly Fighters</h3>
+          <p>Military flying experience doesn't always show up on a resume passengers see, but it shows up in the cockpit — steady hands built long before the airline ever hired them.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">1958 — The Dawn of the Jet Age</span>
-        <h4>Commercial Jets Change Everything</h4>
-        <p style="margin:0;">The introduction of jet airliners cut transatlantic travel time nearly in half, made flying accessible to the middle class, and reshaped how the entire world traveled, worked and vacationed.</p>
+
+      <div class="article-card" data-tag="behind" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg></div>
+        <div class="article-body">
+          <span class="date">Behind The Yoke</span>
+          <h3>What's Actually Happening During A "Normal" Landing</h3>
+          <p>A first officer walks through everything happening in the final ninety seconds before touchdown that passengers never notice — cross-checks, callouts, and constant quiet communication.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">March 27, 1977 — Tenerife, Canary Islands</span>
-        <h4>Aviation's Deadliest Day</h4>
-        <p style="margin:0;">Two Boeing 747s collided on a fog-covered runway, killing 583 people in the deadliest accident in aviation history. The tragedy directly led to standardized aviation English phraseology and modern Crew Resource Management — changes credited with preventing countless accidents since.</p>
+
+      <div class="article-card" data-tag="training" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20 20 4M4 4l16 16"/></svg></div>
+        <div class="article-body">
+          <span class="date">Training &amp; Judgment</span>
+          <h3>The Simulator Session That Changed A Career</h3>
+          <p>One captain describes the exact training scenario — a rejected takeoff at the worst possible speed — that reshaped how she approached every single flight afterward.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <span class="t-label">1976–2003 — Twenty-Seven Years of Supersonic Travel</span>
-        <h4>Concorde: Flying Faster Than Sound, Commercially</h4>
-        <p style="margin:0;">Concorde carried passengers across the Atlantic in under three and a half hours at twice the speed of sound — a feat of commercial aviation engineering that, decades later, still hasn't been repeated.</p>
+
+      <div class="article-card" data-tag="career" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2c2 3 3 6.5 3 10s-1 8-3 10c-2-2-3-6.5-3-10s1-7 3-10z"/><path d="M2 12c3-2 6.5-3 10-3s8 1 10 3c-2 2-6.5 3-10 3s-7-1-10-3z"/></svg></div>
+        <div class="article-body">
+          <span class="date">Career-Defining Moment</span>
+          <h3>Forty Years, One Final Flight</h3>
+          <p>On a retiring captain's last trip before mandatory retirement age, the entire cockpit crew and half the cabin knew — and gave him a send-off he never expected.</p>
+        </div>
+      </div>
+
+      <div class="article-card" data-tag="behind" style="--accent:#e0a530;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12h20M12 2v20"/></svg></div>
+        <div class="article-body">
+          <span class="date">Behind The Yoke</span>
+          <h3>Why Pilots Fly The Same Route For Decades</h3>
+          <p>Seniority, family life and a genuine love of a specific city keep some captains flying the same route for twenty years or more — and they'll tell you it never really gets old.</p>
+        </div>
       </div>
     </div>
 
@@ -214,7 +258,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes. UAP/UFO content reflects publicly reported accounts and does not assert official conclusions. Not affiliated with any airline, government or aviation authority.</p>
+      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes. Not affiliated with any airline, government or aviation authority.</p>
       <p>Cleared for takeoff.</p>
     </div>
   </div>

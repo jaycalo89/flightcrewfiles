@@ -24,13 +24,37 @@
     <nav>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="scary.html">Scary</a></li>
-        <li><a href="heroic.html" class="active">Heroic</a></li>
-        <li><a href="bizarre.html">Bizarre</a></li>
-        <li><a href="uap.html">UAP Files</a></li>
-        <li><a href="news.html">News</a></li>
+        <li class="has-dropdown">
+          <button class="dropdown-trigger active" type="button" aria-haspopup="true" aria-expanded="false">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          <ul class="dropdown-menu">
+          <li><a href="scary.html">Scary</a></li>
+          <li><a href="heroic.html" class="active">Heroic</a></li>
+          <li><a href="bizarre.html">Bizarre</a></li>
+          <li><a href="uap.html">UAP Files</a></li>
+          <li><a href="passengers.html">Passengers</a></li>
+          <li><a href="pilots.html">Pilots</a></li>
+          <li><a href="crew.html">Crew</a></li>
+          </ul>
+        </li>
         <li><a href="history.html">History</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">News</a></li>
+        <li class="has-dropdown">
+          <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          <ul class="dropdown-menu">
+          <li><a href="about.html">Submit a Story</a></li>
+          <li><a href="tipline.html">Tip Line</a></li>
+          <li><a href="fear-of-flying.html">Fear of Flying</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <button class="dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+          <ul class="dropdown-menu">
+          <li><a href="listen-live.html">Listen Live</a></li>
+          <li><a href="live-flights.html">Live Flights</a></li>
+          <li><a href="glossary.html">Glossary</a></li>
+          <li><a href="bookshelf.html">Bookshelf</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
     <div class="nav-cta">
@@ -40,13 +64,31 @@
   </div>
   <div class="mobile-panel">
     <a href="index.html">Home</a>
-    <a href="scary.html">Scary</a>
-    <a href="heroic.html" class="active">Heroic</a>
-    <a href="bizarre.html">Bizarre</a>
-    <a href="uap.html">UAP Files</a>
-    <a href="news.html">News</a>
+    <button class="mobile-dropdown-toggle active is-open" type="button">Stories <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="mobile-submenu is-open">
+      <a href="scary.html">Scary</a>
+      <a href="heroic.html" class="active">Heroic</a>
+      <a href="bizarre.html">Bizarre</a>
+      <a href="uap.html">UAP Files</a>
+      <a href="passengers.html">Passengers</a>
+      <a href="pilots.html">Pilots</a>
+      <a href="crew.html">Crew</a>
+    </div>
     <a href="history.html">History</a>
-    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <button class="mobile-dropdown-toggle active" type="button">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="mobile-submenu">
+      <a href="about.html">Submit a Story</a>
+      <a href="tipline.html">Tip Line</a>
+      <a href="fear-of-flying.html">Fear of Flying</a>
+    </div>
+    <button class="mobile-dropdown-toggle active" type="button">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+    <div class="mobile-submenu">
+      <a href="listen-live.html">Listen Live</a>
+      <a href="live-flights.html">Live Flights</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="bookshelf.html">Bookshelf</a>
+    </div>
     <a href="#newsletter" class="btn btn-gold btn-block">Get The Briefing</a>
   </div>
 </header>
@@ -189,6 +231,9 @@
           <li><a href="heroic.html">Heroic Moments</a></li>
           <li><a href="bizarre.html">Bizarre &amp; Strange</a></li>
           <li><a href="uap.html">UAP Files</a></li>
+          <li><a href="passengers.html">Passengers</a></li>
+          <li><a href="pilots.html">Pilots</a></li>
+          <li><a href="crew.html">Crew</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -196,8 +241,12 @@
         <ul>
           <li><a href="news.html">Aviation News</a></li>
           <li><a href="history.html">Aviation History</a></li>
-          <li><a href="index.html#fear-of-flying">Fear of Flying</a></li>
+          <li><a href="fear-of-flying.html">Fear of Flying</a></li>
+          <li><a href="listen-live.html">Listen Live</a></li>
+          <li><a href="live-flights.html">Live Flights</a></li>
+          <li><a href="glossary.html">Glossary</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="bookshelf.html">Bookshelf</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -205,6 +254,7 @@
         <ul>
           <li><a href="index.html#newsletter">Newsletter</a></li>
           <li><a href="about.html">Submit A Story</a></li>
+          <li><a href="tipline.html">Tip Line</a></li>
         </ul>
       </div>
     </div>

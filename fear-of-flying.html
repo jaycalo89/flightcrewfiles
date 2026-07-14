@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
-<title>About — Flight Crew Files</title>
-<meta name="description" content="Flight Crew Files is an independent, anonymously-run aviation enthusiast magazine covering scary stories, heroic moments, bizarre incidents, UAP files, news and history.">
+<title>Fear of Flying — A Calmer Way to Think About It | Flight Crew Files</title>
+<meta name="description" content="A warm, supportive guide for nervous flyers: reassuring statistics, what turbulence really is, simple breathing techniques, and plain explanations of every strange sound and sensation on a flight.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -41,9 +41,9 @@
         <li class="has-dropdown">
           <button class="dropdown-trigger active" type="button" aria-haspopup="true" aria-expanded="false">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
           <ul class="dropdown-menu">
-          <li><a href="about.html" class="active">Submit a Story</a></li>
+          <li><a href="about.html">Submit a Story</a></li>
           <li><a href="tipline.html">Tip Line</a></li>
-          <li><a href="fear-of-flying.html">Fear of Flying</a></li>
+          <li><a href="fear-of-flying.html" class="active">Fear of Flying</a></li>
           </ul>
         </li>
         <li class="has-dropdown">
@@ -78,9 +78,9 @@
     <a href="news.html">News</a>
     <button class="mobile-dropdown-toggle active is-open" type="button">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
     <div class="mobile-submenu is-open">
-      <a href="about.html" class="active">Submit a Story</a>
+      <a href="about.html">Submit a Story</a>
       <a href="tipline.html">Tip Line</a>
-      <a href="fear-of-flying.html">Fear of Flying</a>
+      <a href="fear-of-flying.html" class="active">Fear of Flying</a>
     </div>
     <button class="mobile-dropdown-toggle active" type="button">Resources <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
     <div class="mobile-submenu">
@@ -95,80 +95,146 @@
 
 <section class="page-hero">
   <div class="container">
-    <span class="badge-anon">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-      Anonymous Editorial Team
-    </span>
-    <h1 class="section-title" style="margin-top:16px;">Told By The People Who Were There. Written By Us.</h1>
-    <p class="section-lede">Flight Crew Files is run by a small, anonymous team of aviation obsessives — former and current crew, avgeeks, and a couple of people who still can't watch a landing without narrating it under their breath.</p>
+    <span class="badge-anon">For The Nervous Flyer</span>
+    <h1 class="section-title" style="margin-top:16px;">You're Going To Be Okay Up There.</h1>
+    <p class="section-lede">We know — this is a site that also runs stories about scary flights. But most of our readers love aviation and still get a knot in their stomach before boarding, so we built this page just for you. No dramatics here, just the facts, the physics and a few tools that actually help.</p>
   </div>
 </section>
 
-<section class="section">
+<!-- ===== Reassuring Statistics ===== -->
+<section class="section" id="stats">
+  <div class="container">
+    <span class="eyebrow">Let's Start With The Facts</span>
+    <h2 class="section-title">The numbers are genuinely on your side</h2>
+    <p class="section-lede">You don't have to take our word for it — commercial aviation's safety record is one of the best-documented in the world.</p>
+    <div class="gold-divider"></div>
+
+    <div class="grid grid-4" style="margin-top:44px;">
+      <div class="stat-tile">
+        <strong>Safer Than The Drive</strong>
+        <span>Statistically, the car ride to the airport is widely considered riskier than the flight itself.</span>
+      </div>
+      <div class="stat-tile">
+        <strong>Millions Of Flights</strong>
+        <span>Commercial airliners complete tens of millions of flights a year worldwide — the overwhelming majority land exactly as planned.</span>
+      </div>
+      <div class="stat-tile">
+        <strong>Built With Backups</strong>
+        <span>Engines, hydraulics, electrical systems and navigation are all designed with redundancy, so one failure is never the whole story.</span>
+      </div>
+      <div class="stat-tile">
+        <strong>Always Improving</strong>
+        <span>Decades of advances in training, weather forecasting and aircraft design have made flying safer with each passing generation.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== What turbulence really is ===== -->
+<section class="section dark-section" id="turbulence">
   <div class="container">
     <div class="hero-grid" style="align-items:center;">
       <div>
-        <span class="eyebrow">Why Anonymous</span>
-        <h2 class="section-title">Crew talk more honestly when their name isn't attached.</h2>
-        <p style="max-width:520px;">A lot of what makes this magazine worth reading — the close calls, the near-misses, the moments that never made it into an official report — comes from people still working in the industry. Airlines aren't always thrilled about crew speaking publicly about scary flights, weird passengers, or things they saw out the cockpit window that they can't explain. So we keep our masthead anonymous, verify what we can, and let the stories do the talking.</p>
-        <a href="index.html#newsletter" class="btn btn-outline" style="margin-top:10px;">Join The Newsletter</a>
+        <span class="eyebrow gold">The Big One</span>
+        <h2 class="section-title">What turbulence actually is</h2>
+        <p style="max-width:520px;">Turbulence is just bumpy air — nothing more mysterious than that. It happens when air moving at different speeds or temperatures bumps into itself, the same way a boat rocks crossing another boat's wake. It's uncomfortable. It is not, on its own, dangerous. Modern airliner wings are tested by flexing them upward far beyond anything they'll ever encounter in real turbulence — engineers push them until they nearly touch above the fuselage before they're certified to fly.</p>
+        <a href="glossary.html#letter-t" class="btn btn-outline" style="margin-top:10px;">See More Terms In The Glossary</a>
       </div>
-      <div class="timeline" style="margin-top:0;">
-        <div class="timeline-item">
-          <span class="t-label">How We Started</span>
-          <h4>A Group Chat That Got Out of Hand</h4>
-          <p style="margin:0;">Flight Crew Files began as a handful of aviation enthusiasts trading stories and case files back and forth — until there were too many good ones not to publish.</p>
+      <div class="grid" style="margin-top:0;">
+        <div class="fear-box">
+          <span class="step-num">1</span>
+          <h3>Clear-Air Turbulence</h3>
+          <p>Invisible, choppy air near the jet stream — the kind that can catch a smooth flight off guard. Pilots reroute around known pockets when they can.</p>
         </div>
-        <div class="timeline-item">
-          <span class="t-label">How We Verify</span>
-          <h4>Public Record First, Then The Story</h4>
-          <p style="margin:0;">Historical, heroic and UAP case files are cross-checked against publicly available investigation reports, news archives and official statements before we publish.</p>
+        <div class="fear-box">
+          <span class="step-num">2</span>
+          <h3>Thermal & Convective Turbulence</h3>
+          <p>Rising columns of warm air, often near storms, that bump the aircraft as it climbs or descends through them.</p>
         </div>
-        <div class="timeline-item">
-          <span class="t-label">How We Publish</span>
-          <h4>Crew Submissions, Reviewed and Anonymized</h4>
-          <p style="margin:0;">Scary, bizarre and funny first-person stories are submitted by readers and crew, then edited and stripped of identifying details before they ever reach the site.</p>
+        <div class="fear-box">
+          <span class="step-num">3</span>
+          <h3>Wake Turbulence</h3>
+          <p>The swirling air trailing another aircraft's wingtips — the reason air traffic control spaces planes apart on approach.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section dark-section">
+<!-- ===== Breathing Techniques ===== -->
+<section class="section" id="breathing">
   <div class="container">
-    <span class="eyebrow center">What We Stand For</span>
-    <h2 class="section-title center">The rules we hold ourselves to</h2>
+    <span class="eyebrow">Something To Do With Your Hands (And Lungs)</span>
+    <h2 class="section-title">Three breathing techniques that actually help</h2>
+    <p class="section-lede">Simple, quiet, and nobody around you will even notice you're doing them.</p>
+    <div class="gold-divider"></div>
+
+    <div class="grid grid-3" style="margin-top:44px;">
+      <div class="breathing-card">
+        <h3>Box Breathing</h3>
+        <p>Used by pilots and first responders to stay calm under pressure. Trace a slow square with your breath.</p>
+        <ul class="breathing-steps">
+          <li>Inhale 4s</li>
+          <li>Hold 4s</li>
+          <li>Exhale 4s</li>
+          <li>Hold 4s</li>
+        </ul>
+      </div>
+      <div class="breathing-card">
+        <h3>The 4-7-8 Technique</h3>
+        <p>A longer exhale than inhale signals your nervous system to relax. Repeat for four or five rounds.</p>
+        <ul class="breathing-steps">
+          <li>Inhale 4s</li>
+          <li>Hold 7s</li>
+          <li>Exhale 8s</li>
+        </ul>
+      </div>
+      <div class="breathing-card">
+        <h3>5-4-3-2-1 Grounding</h3>
+        <p>Not breathing exactly, but pairs well with it — gently pulls your mind out of "what if" and into the cabin around you.</p>
+        <ul class="breathing-steps">
+          <li>5 things you see</li>
+          <li>4 you can touch</li>
+          <li>3 you hear</li>
+          <li>2 you smell</li>
+          <li>1 you taste</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Pilot Explanations ===== -->
+<section class="section dark-section" id="pilot-explains">
+  <div class="container">
+    <span class="eyebrow gold center">From The Flight Deck</span>
+    <h2 class="section-title center">What pilots want you to know about every sound</h2>
     <div class="gold-divider center"></div>
-    <div class="grid grid-3" style="margin-top:50px;">
-      <div class="value-block">
-        <h3>We Report Accounts, Not Verdicts</h3>
-        <p>Especially on UAP Files — we present what pilots, controllers and agencies have actually said, without pretending to know more than they do.</p>
-      </div>
-      <div class="value-block">
-        <h3>We Respect the People In the Stories</h3>
-        <p>Real emergencies happened to real people. We aim for gripping, honest storytelling — never mockery of anyone's worst day at work.</p>
-      </div>
-      <div class="value-block">
-        <h3>We Take Fear of Flying Seriously</h3>
-        <p>This is a magazine built on dramatic stories, so we make space for readers who love aviation but still need the facts that calm them down.</p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="hero-grid" style="align-items:center;">
-      <div class="form-card" style="background:linear-gradient(160deg,var(--navy-800),var(--navy-850));border-color:var(--border-soft);padding:36px;">
-        <span class="tag" style="background:var(--gold-500);color:var(--navy-950);">Submissions</span>
-        <h3 style="text-transform:none;font-size:1.3rem;">Got a story?</h3>
-        <p>Pilot, crew, frequent flyer, or someone who witnessed something you still can't explain — we want to hear it. Every submission is reviewed and anonymized before publication.</p>
-        <a href="index.html#newsletter" class="btn btn-blue" style="margin-top:6px;">Submit Your Story</a>
+    <div class="grid grid-2" style="margin-top:44px;">
+      <div class="pilot-qa">
+        <p class="q">"What's that loud thunk right after takeoff?"</p>
+        <p class="a">That's the landing gear retracting into the aircraft. It's a scheduled, expected part of every single departure.</p>
       </div>
-      <div>
-        <span class="eyebrow">One More Thing</span>
-        <h2 class="section-title">This is entertainment and journalism about aviation — not a substitute for official investigation.</h2>
-        <p style="max-width:520px;">Flight Crew Files is an independent enthusiast publication. We are not an airline, regulator, investigative body, or affiliated with any government agency. Historical and incident details are drawn from public reporting; UAP case files reflect accounts as described by the witnesses and agencies involved.</p>
+      <div class="pilot-qa">
+        <p class="q">"Why do the engines suddenly go quiet after we lift off?"</p>
+        <p class="a">Pilots pull power back from full takeoff thrust to a quieter climb setting — it's a routine procedure, not a problem.</p>
+      </div>
+      <div class="pilot-qa">
+        <p class="q">"Why does the plane bank so steeply in a turn?"</p>
+        <p class="a">It usually just feels steep. Airline turns are gentle, and the aircraft itself is capable of banking far more than it ever will commercially.</p>
+      </div>
+      <div class="pilot-qa">
+        <p class="q">"What's that whining sound before landing?"</p>
+        <p class="a">That's the flaps and slats extending from the wings, adding lift so the aircraft can fly safely and comfortably at a slower speed.</p>
+      </div>
+      <div class="pilot-qa">
+        <p class="q">"Is turbulence ever actually dangerous?"</p>
+        <p class="a">For the aircraft, essentially no — it's built for far more than you'll ever feel. Keeping your seatbelt on is mainly to keep you comfortable, not the plane safe.</p>
+      </div>
+      <div class="pilot-qa">
+        <p class="q">"What if an engine fails?"</p>
+        <p class="a">Airliners are certified to take off, climb and land safely on one engine, and pilots train for exactly this scenario in the simulator every year.</p>
       </div>
     </div>
   </div>
@@ -243,7 +309,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes. UAP/UFO content reflects publicly reported accounts and does not assert official conclusions. Not affiliated with any airline, government or aviation authority.</p>
+      <p class="footer-disclaimer">© <span data-year>2026</span> Flight Crew Files. All rights reserved. Flight Crew Files is an independent enthusiast publication for entertainment and informational purposes, and this page is not a substitute for medical or mental health advice. Not affiliated with any airline, government or aviation authority.</p>
       <p>Cleared for takeoff.</p>
     </div>
   </div>
