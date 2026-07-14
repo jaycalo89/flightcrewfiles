@@ -297,6 +297,21 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .hero-hud .hud-br{bottom:28px;right:24px;}
 @media (max-width:860px){.hero-hud{display:none;}}
 
+.cleared-badge{
+  display:flex;flex-direction:column;align-items:center;text-align:center;
+  padding:70px 20px;
+}
+.cleared-badge-icon{
+  width:52px;height:52px;color:var(--gold-400);margin-bottom:22px;
+  filter:drop-shadow(0 0 20px rgba(212,175,55,0.5));
+}
+.cleared-badge-text{
+  font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;
+  font-size:clamp(2.1rem,5.2vw,3.8rem);letter-spacing:.14em;color:var(--white);
+  text-shadow:0 0 46px rgba(212,175,55,0.4);line-height:1.15;
+}
+.cleared-badge .gold-divider{margin-top:30px;}
+
 .hero-card{
   position:relative;overflow:hidden;
   background:rgba(255,255,255,0.03);border:1px solid var(--border-gold);
