@@ -366,15 +366,15 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .card-link:hover svg{transform:translateX(4px);}
 
 .mission-section{
-  border-top:1px solid var(--border-soft);
-  border-bottom:1px solid var(--border-soft);
+  border-top:1px solid var(--gold-500);
+  border-bottom:1px solid var(--gold-500);
   position:relative;
-  padding:clamp(110px,15vw,190px) 0;
+  padding:clamp(150px,19vw,240px) 0;
 }
-.mission-inner{max-width:920px;}
-.mission-inner .section-title{font-size:clamp(2.3rem,4.6vw,3.8rem);margin-bottom:0;}
-.mission-inner .gold-divider{margin:32px auto 40px;}
-.mission-lede{font-size:clamp(1.16rem,1.7vw,1.4rem);line-height:1.9;color:rgba(246,248,252,0.8);}
+.mission-inner{max-width:1040px;}
+.mission-inner .section-title{font-size:clamp(2.8rem,5.6vw,4.6rem);margin-bottom:0;}
+.mission-inner .gold-divider{margin:40px auto 48px;}
+.mission-lede{font-size:clamp(1.3rem,2vw,1.6rem);line-height:1.95;color:rgba(246,248,252,0.85);}
 .mission-tagline{
   margin-top:20px;font-family:'Oswald',sans-serif;font-size:1.15rem;
   letter-spacing:.02em;color:var(--gold-400);text-transform:none;
