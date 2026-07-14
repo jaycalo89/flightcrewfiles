@@ -297,20 +297,16 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .hero-hud .hud-br{bottom:28px;right:24px;}
 @media (max-width:860px){.hero-hud{display:none;}}
 
-.cleared-badge{
-  display:flex;flex-direction:column;align-items:center;text-align:center;
-  padding:70px 20px;
+.cleared-caption{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:12px 26px;border-radius:999px;
+  border:1px solid var(--border-gold);
+  background:linear-gradient(135deg,rgba(212,175,55,0.1),rgba(212,175,55,0.03));
+  box-shadow:0 0 34px rgba(212,175,55,0.14),inset 0 1px 0 rgba(255,255,255,0.04);
+  font-family:'Oswald',sans-serif;font-size:.78rem;font-weight:600;
+  letter-spacing:.32em;text-transform:uppercase;color:var(--gold-400);
 }
-.cleared-badge-icon{
-  width:52px;height:52px;color:var(--gold-400);margin-bottom:22px;
-  filter:drop-shadow(0 0 20px rgba(212,175,55,0.5));
-}
-.cleared-badge-text{
-  font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;
-  font-size:clamp(2.1rem,5.2vw,3.8rem);letter-spacing:.14em;color:var(--white);
-  text-shadow:0 0 46px rgba(212,175,55,0.4);line-height:1.15;
-}
-.cleared-badge .gold-divider{margin-top:30px;}
+.cleared-caption svg{width:16px;height:16px;stroke:var(--gold-400);flex-shrink:0;}
 
 .hero-card{
   position:relative;overflow:hidden;
