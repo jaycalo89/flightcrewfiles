@@ -197,33 +197,25 @@ NON_ALNUM_RE = re.compile(r"[^a-z0-9\s]")
 # --------------------------------------------------------------------------
 
 MIN_TITLE_LENGTH = 20
-MIN_DESCRIPTION_LENGTH = 50
+MIN_DESCRIPTION_LENGTH = 30
 MAX_ARTICLE_AGE = timedelta(days=7)
 CLOCK_SKEW_ALLOWANCE = timedelta(hours=1)  # tolerate feeds with slightly-future timestamps
 TITLE_SIMILARITY_THRESHOLD = 0.85  # same-story dedup across feeds
+URL_CHECK_TIMEOUT = 8  # seconds; short since this runs once per article
 
-AVIATION_KEYWORDS = {
-    "aircraft", "aeroplane", "airplane", "airline", "airlines", "airliner",
-    "airport", "airspace", "airworthiness", "airworthy", "aviation", "aviator",
-    "aerospace", "boeing", "airbus", "embraer", "bombardier", "cessna",
-    "cockpit", "pilot", "pilots", "copilot", "faa", "easa", "icao", "iata",
-    "ntsb", "tsa", "flight", "flights", "flying", "runway", "taxiway",
-    "tarmac", "jet", "jetliner", "turbulence", "fuselage", "airfield",
-    "cabin crew", "flight attendant", "air traffic", "mayday", "black box",
-    "flight recorder", "helicopter", "drone", "uas", "uap", "ufo",
-    "cargo plane", "charter flight", "commercial jet", "emergency landing",
-    "airworthiness directive", "grounded fleet", "midair", "mid-air",
-    "hijack", "turboprop", "airfare", "layover", "flight delay",
-    "flight cancellation", "air travel", "airman", "airmen", "hangar",
-}
+# Title must contain at least one of these (case-insensitive) to be kept.
+TITLE_KEYWORDS = [
+    "aviation", "flight", "aircraft", "airline", "pilot", "airport", "plane",
+    "UAP", "UFO", "helicopter", "runway", "cockpit", "airspace", "Boeing",
+    "Airbus", "FAA", "NTSB", "airways", "aerial", "crash", "emergency",
+    "landing", "takeoff", "turbulence", "cabin crew",
+]
 
 
-def is_aviation_related(title, description):
-    """Heuristic relevance check: title/description must reference aviation
-    subject matter, since fetching every article's full page body would be
-    slow and fragile against anti-bot/paywall responses."""
-    text = f"{title or ''} {description or ''}".lower()
-    return any(keyword in text for keyword in AVIATION_KEYWORDS)
+def has_required_title_keyword(title):
+    """True if the title contains at least one required keyword (case-insensitive)."""
+    text = (title or "").lower()
+    return any(keyword.lower() in text for keyword in TITLE_KEYWORDS)
 
 
 def _registrable_domain(netloc):
@@ -260,6 +252,67 @@ def is_within_lookback(published_at, max_age=MAX_ARTICLE_AGE):
     return -CLOCK_SKEW_ALLOWANCE <= age <= max_age
 
 
+def is_bare_url(url):
+    """True if url is missing, has no host, or points at a bare homepage
+    (no path, or just '/', and no query string) rather than a specific article."""
+    if not url:
+        return True
+    try:
+        parsed = urllib.parse.urlparse(url)
+    except ValueError:
+        return True
+    if not parsed.scheme or not parsed.netloc:
+        return True
+    path = parsed.path or ""
+    if path in ("", "/") and not parsed.query:
+        return True
+    return False
+
+
+def _resolve_final_url(url):
+    """Follow the link (HEAD, falling back to GET if the server rejects HEAD)
+    and return the final URL after any redirects. Raises HTTPError/URLError
+    on failure."""
+    last_exc = None
+    for method in ("HEAD", "GET"):
+        req = urllib.request.Request(url, headers={"User-Agent": "flightcrewfiles-setup/1.0"}, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=URL_CHECK_TIMEOUT) as resp:
+                return resp.geturl()
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                raise
+            if method == "HEAD" and exc.code in (403, 405, 501):
+                last_exc = exc
+                continue  # some servers reject HEAD; retry with GET
+            raise
+    raise last_exc
+
+
+def verify_url_reachable(url):
+    """Follow the article link and reject it if it 404s or redirects to an
+    unrelated/homepage page. Other HTTP errors (403/503/...) and network
+    errors (timeout/DNS/connection) are treated as unverifiable rather than
+    rejected outright, since anti-bot blocking of automated requests is
+    common on news sites and shouldn't disqualify an otherwise valid article."""
+    req_domain = _registrable_domain(urllib.parse.urlparse(url).netloc)
+    try:
+        final_url = _resolve_final_url(url)
+    except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            return False, "URL returned a 404 error"
+        return True, None
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return True, None
+
+    if is_bare_url(final_url):
+        return False, "URL redirects to a homepage/unrelated page"
+    final_domain = _registrable_domain(urllib.parse.urlparse(final_url).netloc)
+    if final_domain and req_domain and final_domain != req_domain:
+        return False, "URL redirects to an unrelated domain"
+    return True, None
+
+
 def normalize_title(title):
     """Lowercase/punctuation-stripped title, used only for fuzzy same-story
     matching across different feeds -- not stored or displayed."""
@@ -276,14 +329,20 @@ def validate_article(article, feed_url):
 
     if len(title) < MIN_TITLE_LENGTH:
         return False, f"title shorter than {MIN_TITLE_LENGTH} chars"
-    if len(description) < MIN_DESCRIPTION_LENGTH:
+    if not has_required_title_keyword(title):
+        return False, "title has no required aviation keyword"
+    if is_bare_url(url):
+        return False, "missing URL or URL is a bare homepage with no article path"
+    if not description or len(description) < MIN_DESCRIPTION_LENGTH:
         return False, f"description missing or shorter than {MIN_DESCRIPTION_LENGTH} chars"
     if not domain_matches_feed(url, feed_url):
         return False, "article URL domain doesn't match source feed domain"
-    if not is_aviation_related(title, description):
-        return False, "no aviation-related content detected"
     if not is_within_lookback(article.get("published_at")):
         return False, "not published within the last 7 days"
+    # Network check last -- only pay for it once the cheap checks already passed.
+    ok, reason = verify_url_reachable(url)
+    if not ok:
+        return False, reason
     return True, None
 
 

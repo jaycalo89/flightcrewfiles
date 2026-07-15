@@ -1,8 +1,125 @@
 {
-  "generated_at": "2026-07-15T03:58:20.738788+00:00",
+  "generated_at": "2026-07-15T15:53:58.742642+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 30,
+  "count": 25,
   "articles": [
+    {
+      "title": "NASA, Boeing’s Wisk Aero Make Self-Flying Aircraft Breakthrough",
+      "description": "Boeing’s eVTOL (electric vertical takeoff and landing) air taxi unit Wisk Aero believes it has made a breakthrough in testing that it is conducting with NASA under a five-year Space Act agreement . Wisk said Wednesday that it simulated the simultaneous orchestration of three uncrewed aircraft,…",
+      "url": "https://www.flyingmag.com/nasa-boeing-wisk-self-flying-electric-air-taxi/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-15T15:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Frontier Airlines Reportedly Loses Canada Player's Luggage",
+      "description": "By most measures, Canadian right back Alistair Johnston had a relatively successful 2026 FIFA World Cup. Indeed, the 27-year-old defender started all five of his country's games at the tournament, helping them to keep two clean sheets before eventually being knocked out in the round of 16 by…",
+      "url": "https://simpleflying.com/frontier-airlines-reportedly-loses-canada-players-luggage/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-07-15T14:25:03Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/314-frontier-airlines-airbus-a319-eqroy-_-shutterstock.jpg"
+    },
+    {
+      "title": "The Boeing Jet Already Sitting In American Airlines' Fleet That Could Quietly Replace Its 47 Oldest Widebodies",
+      "description": "In June 2026, American Airlines CEO Robert Isom confirmed that his airline has issued formal Requests for Proposals (RFPs) to Boeing and Airbus for a new widebody order. This was unexpected, as American Airlines has increasingly been focused on its domestic network while keeping the long-haul…",
+      "url": "https://simpleflying.com/boeing-jet-already-sitting-american-airlines-fleet-quietly-replace-47-oldest-widebodies/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-07-15T14:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-jet-widebody.jpg"
+    },
+    {
+      "title": "9 Jets Declared Fuel Emergencies After A British Airways A320 Blocked Gatwick's Runway",
+      "description": "A total of 14 flights bound for London Gatwick Airport (LGW) were forced to divert in the early hours of Wednesday morning, with nine of them declaring fuel emergencies and squawking 7700. This occurred after a British Airways Airbus A320 became disabled on the airport's only operational runway,…",
+      "url": "https://simpleflying.com/gatwick-airport-fuel-emergency-british-airways-a320-blocked/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-07-15T13:53:35Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/easyjet-plane-at-the-gate-gatwick-airport.jpg"
+    },
+    {
+      "title": "United Passenger Gets Entire Boeing 737 To Himself After British Airways Abandoned Him",
+      "description": "A United Airlines passenger ended up as the sole occupant on board a Boeing 737 after he was reportedly abandoned by British Airways at Cincinnati Northern Kentucky Airport on the 4th of July.",
+      "url": "https://simpleflying.com/video/united-passenger-gets-entire-boeing-737-to-himself-after-british-airways-abandoned-him/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-07-15T12:31:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/ba-abandon-united-rescue.jpg"
+    },
+    {
+      "title": "Electra powers up turbogenerator pact with Safran Helicopter Engines",
+      "description": "Production agreement includes initial 250-unit order for new Arrano-based TG600 system. Safran Helicopter Engines (SHE) has been selected to supply its TG600 turbogenerator to the Electra EL9 Ultra Short hybrid-electric aircraft. Building on a memorandum of understanding signed by the pair in 2023,…",
+      "url": "https://www.flightglobal.com/archive/2026/07/electra-powers-up-turbogenerator-pact-with-safran-helicopter-engines/",
+      "source": "FlightGlobal",
+      "author": "Dominic Perry",
+      "published_at": "2026-07-15T12:01:55Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Electra-EL9-Ultra-Short-c-Electra-480x270.jpg"
+    },
+    {
+      "title": "Pilots Cherish Many Rites of Passage",
+      "description": "Milestones in our lives, such as weddings, graduations, religious ceremonies, and significant birthdays usually involve a celebration. But I’d say nearly every pilot looks at their first solo flight as a major rite of passage they never forget. It marks the first time a person realizes they’re…",
+      "url": "https://www.flyingmag.com/pilots-cherish-many-rites-of-passage/",
+      "source": "Flying Magazine",
+      "author": "Martha Lunken",
+      "published_at": "2026-07-15T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Singapore Airlines Cuts 16 Long-Haul Destinations: See The Full List",
+      "description": "Singapore Airlines is Asia's second-largest operator by international available seat miles. This is due to only flying internationally, having many widebody aircraft (some with very high capacities), and an average stage length of 2,363 nautical miles (4,376 km). OAG shows that it ranks second in…",
+      "url": "https://simpleflying.com/singapore-airlines-cuts-16-long-haul-destinations-see-the-full-list/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-07-15T11:00:31Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/1111-2.jpg"
+    },
+    {
+      "title": "EASA flight-training overhaul allows use of devices based on ‘capability signature’",
+      "description": "More flexible qualification framework lessens dependence on full-flight simulators. Europe’s safety regulator has embarked on an implementation programme after overhauling the qualification framework for flight-simulation training devices. The change shifts away from the previous regulatory…",
+      "url": "https://www.flightglobal.com/archive/2026/07/easa-flight-training-overhaul-allows-use-of-devices-based-on-capability-signature/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-07-15T10:27:03Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/fstd-c-EASA-480x360.jpeg"
+    },
+    {
+      "title": "How Much Do Widebody Pilots Earn?",
+      "description": "In the aviation world, the widebody or long-haul pilot represents the pinnacle of the career path, operating the largest machines on the planet across oceans and continents. For anyone looking at the flight deck from the outside, curiosity often centers on what it is like to be one of these pilots,…",
+      "url": "https://simpleflying.com/how-much-widebody-pilots-earn/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-07-15T10:02:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/widebody-pilots.jpg"
+    },
+    {
+      "title": "Why The World's Newest Airline Picked The Boeing 787-9 & Safran Unity Suites To Challenge The Big 3 Gulf Carriers",
+      "description": "Saudi Arabia's newest airline could have chosen almost any strategy to establish itself in one of the world's most competitive long-haul markets. It could have competed on fares, built a larger network first, or developed an entirely luxurious premium cabin. Instead, Riyadh Air has taken a…",
+      "url": "https://simpleflying.com/why-worlds-newest-airline-picked-boeing-787-9-safran-unity-suites-challenge-big-3-gulf-carriers/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-07-15T08:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-787-9.jpg"
+    },
+    {
+      "title": "Germany’s first Quadriga-programme Eurofighter makes flight debut",
+      "description": "New aircraft is one of 58 on order for Berlin. Airbus Defence & Space has flown its first Tranche 4 Eurofighter to have been produced for the German air force as part of Berlin’s Project Quadriga acquisition. Conducted from the company’s Manching final assembly site near Munich on 14 July, the…",
+      "url": "https://www.flightglobal.com/defence/2026/07/germanys-first-quadriga-programme-eurofighter-makes-flight-debut/",
+      "source": "FlightGlobal",
+      "author": "Craig Hoyle",
+      "published_at": "2026-07-15T07:59:49Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/image-480x316.jpeg"
+    },
+    {
+      "title": "Here's What A British Airways Widebody Captain Actually Earns In 2026 Vs. A Rookie First Officer",
+      "description": "British Airways pilots earn between £40,000 and £225,000+ ($54,000 to over $300,000) per year, with pay varying significantly depending on rank, seniority, fleet, and other factors. British Airways is the largest airline in the United Kingdom, although easyJet, Virgin Atlantic, Ryanair, and TUI…",
+      "url": "https://simpleflying.com/what-british-airways-widebody-captain-actually-earns-2026-rookie-first-officer/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-07-15T05:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/earns-in-2026.jpg"
+    },
     {
       "title": "Boeing books 121 June orders, accelerates deliveries",
       "description": "The airframer in June delivered more aircraft than in any month in several years. Boeing in June padded its backlog with orders for 108 737 Max, most of them from unidentified buyers, while also landing deals for nine 777s, including five of its in-development 777-8 Freighter. The company disclosed…",
@@ -11,87 +128,6 @@
       "author": "Jon Hemmerdinger",
       "published_at": "2026-07-15T03:23:36Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/233714_jb_Boeing_day1_0725-480x320.jpg"
-    },
-    {
-      "title": "‘Formidable’ fuel crisis set to drag China’s ‘Big Three’ to steeper half-year losses",
-      "description": "Air China, China Eastern Airlines and China Southern Airlines were profitable in the first quarter of the year. China’s three largest carriers have forecast heavy losses for the first half of the year, as they confront the “formidable challenge” of significantly higher fuel costs. In separate…",
-      "url": "https://www.flightglobal.com/strategy/2026/07/formidable-fuel-crisis-set-to-drag-chinas-big-three-to-steeper-half-year-losses/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-07-15T03:07:12Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/04/China-Southern-Guangzhou-c-NGCHIYUI_Shutterstock-480x320.jpg"
-    },
-    {
-      "title": "Qantas' Seasonal Perth–Rome Route Is Secretly A Project Sunrise Stress Test",
-      "description": "Qantas ’ Project Sunrise has been one of the aviation industry’s closely watched initiatives. It is designed to connect Australia’s East Coast with cities such as London and New York nonstop. To support these ambitions, Airbus has developed a dedicated ultra-long-haul version of the Airbus…",
-      "url": "https://simpleflying.com/qantas-seasonal-perth-rome-route-secretly-project-sunrise-stress-test/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-07-15T01:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/seasonal-perth-rome.jpg"
-    },
-    {
-      "title": "The $300 Million Math Problem Behind America's F-47 6th-Gen Fighter Fleet",
-      "description": "The race to build the first sixth-generation fighter jet is well underway, with the United States and the People's Republic of China competing to be the first to produce a fully combat-capable example. While the People's Liberation Army Air Force made headlines in late 2024 by test-flying two…",
-      "url": "https://simpleflying.com/300-million-math-problem-behind-americas-f-47-6th-gen-fleet/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-07-15T00:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/300mil.jpg"
-    },
-    {
-      "title": "Boeing Records 314 First-Half Deliveries, Its Strongest Since 2018",
-      "description": "American plane maker Boeing is celebrating its strongest first half of the year, with a total of 314 recorded deliveries, its highest since before the pandemic (2018). Boeing's strong results continue to reflect the recovery of the 737 MAX , with a total of 243 of the type delivered, along with the…",
-      "url": "https://simpleflying.com/boeing-strongest-first-half-314-deliveries-strongest-2018/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-07-14T22:36:43Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/shutterstock_1544062007-1.jpg"
-    },
-    {
-      "title": "This Is Why US Airlines Keep The Seatbelt Sign On Far Longer Than Ryanair Or Singapore Airlines",
-      "description": "Cruising over the continental United States in perfectly tranquil air, you may notice that even though the cabin is completely still, the illuminated seatbelt sign continues to beam overhead, keeping hundreds of passengers trapped in their seats for hours on end. The seatbelt sign offers a small…",
-      "url": "https://simpleflying.com/why-us-airlines-keep-seatbelt-sign-longer-ryanair-singapore-airlines/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-07-14T22:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/seatbelt-sign.jpg"
-    },
-    {
-      "title": "Why United Airlines Doesn't Want Its Airbus A320s Anymore",
-      "description": "Many US airlines are now modernizing their fleet by switching to more efficient and sustainable jets. United Airlines is not an exception and is currently accelerating a fleet modernization that will soon make one of its most familiar workhorses, the Airbus A320 , a rare sight in its livery. But…",
-      "url": "https://simpleflying.com/why-united-airlines-doesnt-want-airbus-a320-fleet-anymore/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-07-14T21:30:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/shutterstock_2639483453_cropped.jpg"
-    },
-    {
-      "title": "Emirates Completes 100th Aircraft Retrofit In $5B Fleet Makeover Project",
-      "description": "Emirates has reached another milestone in its ongoing fleet renewal strategy after completing the refurbishment of its 100th aircraft. The achievement comes less than four years after the airline launched its ambitious cabin modernization program and represents a significant step in a project that…",
-      "url": "https://simpleflying.com/emirates-100-aircraft-retrofit-5b-fleet-makeover/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-07-14T20:35:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/untitled-design-77.jpg"
-    },
-    {
-      "title": "Shocking: United Airlines' New 16-Hour Ultra-Long Route Is Only 53% Full",
-      "description": "United Airlines is the second-largest operator between the US and Australia/New Zealand. In the 12 months to March 2026, the US Department of Transportation (DOT) shows that the carrier transported 850,000 round-trip passengers and had a quarter of the market. It was United's most traffic to date.",
-      "url": "https://simpleflying.com/shocking-united-airlines-new-17-hour-ultra-long-route-is-only-53pc-full/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-07-14T20:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/024-united-airlines-boeing-787-9-markus-mainka-_-robin-guess-_-shutterstock.jpg"
-    },
-    {
-      "title": "Lockheed's SR-72 Hypersonic Successor To The Blackbird Still Hasn't Flown & Here's Why",
-      "description": "The Lockheed SR-71 Blackbird was a marvel of Cold War engineering, and to the perplexity and dismay of many, it was retired in 1989 (temporarily) and 1998 (permanently) without a direct replacement. Many enthusiasts were happy when Lockheed Martin publicly unveiled the SR-72 \"Son of Blackbird\"…",
-      "url": "https://simpleflying.com/lockheed-sr-72-hypersonic-succesor-blackbird-still-hasnt-flown-why/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-07-14T20:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/sr-72-hypersonic.jpg"
     },
     {
       "title": "The Most Modern Fleet in General Aviation",
@@ -103,15 +139,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/Tecnam_Banner.jpeg?w=1024"
     },
     {
-      "title": "WestJet set to lease first Boeing 737 Max 10",
-      "description": "Aviation Capital Group will deliver the first Boeing 737 Max 10 to the Canadian airline. WestJet will take delivery of the first Boeing 737 Max 10 by the end of the year under a lease agreement in place with Aviation Capital Group. The first Max 10 is one of 13 aircraft WestJet will take from the…",
-      "url": "https://www.flightglobal.com/strategy/2026/07/westjet-to-lease-first-boeing-737-max-10/",
-      "source": "FlightGlobal",
-      "author": "Edward Russell",
-      "published_at": "2026-07-14T18:32:50Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Westjet-480x320.jpg"
-    },
-    {
       "title": "uAvionix and Jeppesen’s SkyPlay Brings ForeFlight to Cockpit",
       "description": "Pilots tired of translating flight plans, checklists, and charts between electronic flight bags (EFBs) and the instrument panel will soon have reason to rejoice. uAvionix and Jeppesen ForeFlight on Tuesday introduced SkyPlay , a new integration that will embed the popular flight planning platform…",
       "url": "https://www.flyingmag.com/uavionix-jeppesen-skyplay-foreflight-integration/",
@@ -119,42 +146,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-07-14T18:30:00Z",
       "image": null
-    },
-    {
-      "title": "Lufthansa’s 1st A350-1000, 700th Airbus Jet Arrives With Striking 100 Years Livery",
-      "description": "Lufthansa has taken delivery of its first Airbus A350-1000 , marking the arrival of the largest twin-engine aircraft ever to join the airline's fleet. The aircraft is notable not only because it introduces a new flagship widebody, but also because it represents the 700th Airbus aircraft delivered…",
-      "url": "https://simpleflying.com/lufthansa-1st-a350-1000-700th-airbus-100-years-livery/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-07-14T18:02:55Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/untitled-design-76.jpg"
-    },
-    {
-      "title": "How The F-22's F119 Engine Solved 3 Problems The Industry Called Mutually Exclusive",
-      "description": "The Lockheed Martin F-22 Raptor was built as a generational leap over the existing F-15 Eagle. The F-15 Eagle was designed as an air superiority fighter , but by the 1980s, the Air Force felt it might not have the \"unfair\" advantage that they wanted, as the Soviet Union developed the Su-27 and…",
-      "url": "https://simpleflying.com/how-f-22-f119-engine-solved-3-problems-industry-called-mutally-exclusive/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-07-14T18:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/f-22-s-f119-engine.jpg"
-    },
-    {
-      "title": "Training and Safety Tip: Maintain weather awareness",
-      "description": "Most pilots can tell at least one story about a flight that did not go as planned because of unpredicted weather along the route. We all know that weather forecasts aren’t perfect, but that can lead to concerns regarding the safety of the flight.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/14/training-and-safety-tip-maintain-weather-awareness?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-14T17:59:00Z",
-      "image": null
-    },
-    {
-      "title": "Boeing to pitch MQ-28 Ghost Bat at prospective UK need",
-      "description": "Australian-developed CCA aimed at future operational requirement. Boeing will be promoting its MQ-28 Ghost Bat at the Farnborough air show, in anticipation of a future UK requirement for an operational collaborative combat aircraft (CCA). “We definitely see some applicability in terms of its…",
-      "url": "https://www.flightglobal.com/fixed-wing/2026/07/boeing-to-pitch-mq-28-ghost-bat-at-prospective-uk-need/",
-      "source": "FlightGlobal",
-      "author": "Craig Hoyle",
-      "published_at": "2026-07-14T17:49:54Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Ghost-Bat-480x320.jpg"
     },
     {
       "title": "‘Miracle on the Hudson’ Pilot Sully Sullenberger Diagnosed With Alzheimer’s",
@@ -166,15 +157,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2014/03/httpswww.flyingmag.comsitesflyingmag.comfilesimport2014sitesallfiles_images20140320famous-plane-hudson-river.jpg?w=1000"
     },
     {
-      "title": "Embraer Unveils Phenom 300EV With Autoland, Other Upgrades",
-      "description": "Embraer on Tuesday unveiled the newest member of the world’s most popular family of light business jets. As soon as 2028, the manufacturer’s Phenom 300E—the fastest light jet in production—will be joined by an upgraded Phenom 300EV variant, the “EV,” denoting “evolution.” The new model will add 430…",
-      "url": "https://www.flyingmag.com/embraer-phenom-300ev-light-business-jet/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-07-14T16:50:48Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/image.jpeg?w=1024"
-    },
-    {
       "title": "This 2007 Diamond DA40-FP Is a Proven ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2007 Diamond DA40. Standing out in…",
       "url": "https://www.flyingmag.com/this-2007-diamond-da40-fp-is-a-proven-aircraftforsale-top-pick/",
@@ -184,93 +166,66 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-single-engine-piston-diamond-da40-for-sale-601721-ed53675dead8a931-800X600-1.jpg?w=800"
     },
     {
-      "title": "South Korea signs for two Global 6500-based electronic warfare aircraft",
-      "description": "Seoul will purchase two of the long-range Bombardier jets, in addition to the four examples already on order as airborne early warning and control assets. South Korea has formalised an agreement with Canadian airframer Bombardier to purchase two Global 6500 business jets, which will be converted…",
-      "url": "https://www.flightglobal.com/archive/2026/07/south-korea-signs-for-two-global-6500-based-electronic-warfare-aircraft/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-07-14T14:46:54Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/06/Aeris-X-c-L3Harris-480x268.jpg"
-    },
-    {
-      "title": "Frontier and four other Indigo-backed carriers to equip more than 1,000 aircraft with Starlink",
-      "description": "Denver-based carrier joins growing list of North American airlines to opt for the SpaceX service. Frontier Airlines is to install SpaceX’s Starlink in-flight Wi-Fi service on its entire fleet as part of a programme that will see five Indigo Partners-backed carriers equip more than 1,000 aircraft…",
-      "url": "https://www.flightglobal.com/archive/2026/07/frontier-and-four-other-indigo-backed-carriers-to-equip-more-than-1000-aircraft-with-starlink/",
-      "source": "FlightGlobal",
-      "author": "Kerry Reals",
-      "published_at": "2026-07-14T14:33:55Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Frontier-A320neo-480x334.jpeg"
-    },
-    {
-      "title": "Canada’s champion: How the A220 has adapted under Airbus ownership",
-      "description": "Change has been the constant companion of the former CSeries, and as the twinjet marks a decade in service, the programme continues to evolve. To say that a lot has happened since the A220 entered service on 15 July 2016 would be, well, a colossal understatement. For one, back when launch customer…",
-      "url": "https://www.flightglobal.com/archive/2026/07/canadas-champion-how-the-a220-has-adapted-under-airbus-ownership/",
-      "source": "FlightGlobal",
-      "author": "Dominic Perry",
-      "published_at": "2026-07-14T14:32:28Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Airbus_Canada_-87438-480x320.jpg"
-    },
-    {
-      "title": "Elusive and lethal: why VTOL, stealthy X-BAT meets so many modern mission needs",
-      "description": "As current conflicts prove, the nature of aerial warfare is transforming almost faster than technology and capabilities can advance. However, one innovative platform – from a young company that has become a major disruptor in the sector – could prove a versatile and cost-effective solution for…",
-      "url": "https://www.flightglobal.com/paid-content/2026/07/elusive-and-lethal-why-vtol-stealthy-x-bat-meets-so-many-modern-mission-needs/",
-      "source": "FlightGlobal",
-      "author": "Murdo Morrison",
-      "published_at": "2026-07-14T14:07:25Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/2026_Apr_27_X-BAT_SM-480x322.jpg"
-    },
-    {
-      "title": "South Korea to field EPAWSS electronic countermeasures system for F-15K fleet",
-      "description": "The BAE-produced Eagle Passive Active Warning Survivability System is meant to help the non-stealth F-15 survive against modern air defences. South Korea will field an advanced electronic warfare system on its fleet of Boeing F-15K Slam Eagle fighters meant to protect the jets from modern…",
-      "url": "https://www.flightglobal.com/archive/2026/07/south-korea-to-field-epawss-electronic-countermeasures-system-for-f-15k-fleet/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-07-14T13:25:47Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/06/F-15K-with-Amraams-e1781159546474-480x302.jpg"
-    },
-    {
-      "title": "GetJet invests in own MRO capabilities to reduce reliance on external providers",
-      "description": "Lithuanian group plans to keep its fleet at 20 aircraft. Lithuanian wet-lease specialist GetJet Airlines is to invest in developing its in-house technical capabilities as it bids to reduce its reliance on external MRO providers. It comes as the carrier, which is part of GetJet Group, reported a net…",
-      "url": "https://www.flightglobal.com/archive/2026/07/getjet-invests-in-own-mro-capabilities-to-reduce-reliance-on-external-providers/",
-      "source": "FlightGlobal",
-      "author": "Kerry Reals",
-      "published_at": "2026-07-14T13:24:43Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/GetJet-Airlines-480x269.jpeg"
-    },
-    {
-      "title": "Beyond the Practice Area: Mastering That First Dual Cross-Country",
-      "description": "The first dual-instruction, cross-country flight is one of the most task-saturating lessons a student pilot can undertake. The flight is likely the longest lesson you’ll have done to date, and it may be the first time you’ve had a lesson outside the practice area. When training is under Part 141,…",
-      "url": "https://www.flyingmag.com/beyond-the-practice-area-mastering-that-first-dual-cross-country/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-14T13:00:00Z",
+      "title": "Sharing aviation, changing minds",
+      "description": "Just 30 miles apart, two very different Southern California airports welcomed thousands of visitors on the same day, in different ways, but with a shared mission: connecting with their communities.",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/09/sharing-aviation-changing-minds?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-09T21:49:18Z",
       "image": null
     },
     {
-      "title": "SpaceX Targets Starship Return to Form on Flight 13",
-      "description": "SpaceX announced it made several hardware and software modifications to its massive Starship rocket as it prepares for what could be the vehicle’s most critical test flight yet. The launch provider said over the weekend it is targeting a 90-minute launch window that opens at 6:45 p.m. EDT on…",
-      "url": "https://www.flyingmag.com/spacex-starship-return-flight-13/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-07-14T12:00:00Z",
+      "title": "NTSB confirms plug was Rob Holland's undoing",
+      "description": "The final NTSB report on the April 24, 2025, landing accident that killed legendary aerobatic competitor and performer Rob Holland draws the same conclusion that was evident in the early stages of the investigation: A loose fitting, part of a custom modification, jammed the elevator in the final…",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/09/ntsb-confirms-plug-was-rob-hollands-undoing?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-09T21:17:21Z",
       "image": null
     },
     {
-      "title": "U.K. Air Taxi Leader Delays Certification to 2029",
-      "description": "American Airlines and other carriers who placed conditional orders for U.K. manufacturer Vertical Aerospace’s Valo, an eVTOL (electric vertical takeoff and landing) air taxi, will not receive the aircraft until 2029 at the earliest. Vertical—considered the U.K.’s leading air taxi developer by…",
-      "url": "https://www.flyingmag.com/uk-air-taxi-leader-vertical-delay-cert-2029/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-07-13T17:00:00Z",
+      "title": "Socata GA pilots rendezvous with French aerobatic team",
+      "description": "A spur-of-the-moment idea morphed into a one-of-a-kind get together between general aviation pilots flying Socata TB30 Epsilon piston-engine military trainers and their jet counterparts flying the blue-white-and-red livery of the French Air and Space Force during a stopover at Martin State Airport…",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/09/socata-ga-pilots-rendezvous-with-french-aerobatic-team?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-09T18:40:02Z",
       "image": null
     },
     {
-      "title": "Jeppesen ForeFlight Simplifies Flight Planning With AI-Powered ClearNOTAMs App",
-      "description": "One of the most challenging parts of being a pilot is gathering “all available information before a flight” as required by regulation. This is especially true when it comes to sifting through information dispersed in the form of Notices to Airmen (NOTAMs). Jeppesen ForeFlight is trying to make…",
-      "url": "https://www.flyingmag.com/jeppesen-foreflight-simplifies-flight-planning-with-ai-powered-clearnotams-app/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-13T16:02:48Z",
+      "title": "AOPA Foundation to Expand High School Aviation Education with Maintenance and Manufacturing Curriculum",
+      "description": "FREDERICK, Md.—The Aircraft Owners and Pilots Association (AOPA) Foundation announced today that it will add a maintenance and manufacturing pathway to its High School Aviation STEM Curriculum, the free, nationally recognized program that has reached more than 130,000 students since it launched in…",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/09/pr-aopa-foundation-expand-high-school-aviation-education-with-maintenance-manufacturing-curriculum?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-09T17:41:00Z",
+      "image": null
+    },
+    {
+      "title": "Aircraft Maintenance: Preparing for summer travel",
+      "description": "With EAA AirVenture Oshkosh in Wisconsin around the corner, thousands of pilots are preparing to take their aircraft on long cross country trips. Inevitably, some of those pilots will find themselves facing a challenging maintenance issue far from home. Preparation is the key here, and a little…",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/08/aircraft-maintenance-preparing-for-summer-travel?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-09T00:30:00Z",
+      "image": null
+    },
+    {
+      "title": "The A&P who built a business while logging flight hours",
+      "description": "At 23, Philip Krzyszton owns a 1965 Mooney, flies cargo, operates a growing mobile aircraft maintenance company known as AircraftMD , and holds both his pilot and airframe and powerplant certificates. He did it all without taking on debt.",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/08/the-aandp-who-built-a-business-while-logging-flight-hours?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-08T18:18:02Z",
+      "image": null
+    },
+    {
+      "title": "How to spot hard-to-find airports",
+      "description": "In the era of GPS with “direct to” and “nearest” functions, it might be hard to believe that it could be difficult to spot your destination airport. You should see it at the end of the magenta line, right? However, some airports can be tricky to find, even with the latest technology. Old-school…",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/08/how-to-spot-hard-to-find-airports?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-08T18:16:18Z",
       "image": null
     }
   ]
