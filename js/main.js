@@ -97,6 +97,89 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Story submission tabs (tipline.html) — 5 story types, one form panel each.
+  var storyTabs = document.querySelectorAll('.story-tab');
+  if (storyTabs.length) {
+    storyTabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        var target = tab.getAttribute('data-tab');
+        storyTabs.forEach(function (t) {
+          t.classList.remove('is-active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        tab.classList.add('is-active');
+        tab.setAttribute('aria-selected', 'true');
+        document.querySelectorAll('.story-panel').forEach(function (panel) {
+          panel.classList.toggle('is-active', panel.getAttribute('data-panel') === target);
+        });
+      });
+    });
+  }
+
+  // "Start a Discussion" buttons (community.html) — scroll to the shared
+  // submission form and pre-select its category.
+  var discussButtons = document.querySelectorAll('.discuss-btn');
+  if (discussButtons.length) {
+    discussButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var category = btn.getAttribute('data-category');
+        var categorySelect = document.getElementById('disc-category');
+        if (categorySelect && category) { categorySelect.value = category; }
+        var target = document.getElementById('start-discussion');
+        if (target) { target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        var titleField = document.getElementById('disc-title');
+        if (titleField) { setTimeout(function () { titleField.focus(); }, 500); }
+      });
+    });
+  }
+
+  // Real form submissions (FormSubmit.co, static-site-friendly, no backend of
+  // our own) for the forum's discussion form and the tipline's 5 story forms.
+  // Submissions are emailed to the editorial inbox, which doubles as the
+  // moderation queue. Unlike data-demo-form above, these actually send.
+  var FORMSUBMIT_ENDPOINT = 'https://formsubmit.co/ajax/jaycalo89@gmail.com';
+  document.querySelectorAll('form[data-live-form]').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var msg = form.querySelector('[data-form-message]');
+      var errorMsg = form.querySelector('[data-form-error]');
+      var button = form.querySelector('button[type="submit"]');
+      var subject = form.getAttribute('data-subject') || 'New Submission — Flight Crew Files';
+      var originalText = button ? button.textContent : '';
+
+      if (errorMsg) { errorMsg.classList.remove('show'); }
+      if (msg) { msg.classList.remove('show'); }
+      if (button) { button.textContent = 'Sending…'; button.disabled = true; }
+
+      var formData = new FormData(form);
+      formData.append('_subject', subject);
+      formData.append('_template', 'table');
+      formData.append('_captcha', 'false');
+
+      fetch(FORMSUBMIT_ENDPOINT, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      }).then(function (res) {
+        if (!res.ok) { throw new Error('Request failed'); }
+        return res.json();
+      }).then(function () {
+        if (msg) {
+          msg.classList.add('show');
+          setTimeout(function () { msg.classList.remove('show'); }, 8000);
+        }
+        form.reset();
+      }).catch(function () {
+        if (errorMsg) {
+          errorMsg.classList.add('show');
+          setTimeout(function () { errorMsg.classList.remove('show'); }, 8000);
+        }
+      }).finally(function () {
+        if (button) { button.textContent = originalText; button.disabled = false; }
+      });
+    });
+  });
+
   // Footer year
   var yearEl = document.querySelector('[data-year]');
   if (yearEl) { yearEl.textContent = new Date().getFullYear(); }

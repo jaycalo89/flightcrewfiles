@@ -43,6 +43,7 @@
         <li class="has-dropdown">
           <button class="dropdown-trigger active" type="button" aria-haspopup="true" aria-expanded="false">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
           <ul class="dropdown-menu">
+          <li><a href="community.html">Discussion Forum</a></li>
           <li><a href="about.html">Submit a Story</a></li>
           <li><a href="tipline.html" class="active">Tip Line</a></li>
           <li><a href="fear-of-flying.html">Fear of Flying</a></li>
@@ -55,6 +56,7 @@
           <li><a href="live-flights.html">Live Flights</a></li>
           <li><a href="glossary.html">Glossary</a></li>
           <li><a href="bookshelf.html">Bookshelf</a></li>
+          <li><a href="index.html#social-buzz">Social Buzz</a></li>
           </ul>
         </li>
       </ul>
@@ -81,6 +83,7 @@
     <a href="news.html">News</a>
     <button class="mobile-dropdown-toggle active is-open" type="button">Community <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
     <div class="mobile-submenu is-open">
+      <a href="community.html">Discussion Forum</a>
       <a href="about.html">Submit a Story</a>
       <a href="tipline.html" class="active">Tip Line</a>
       <a href="fear-of-flying.html">Fear of Flying</a>
@@ -91,6 +94,7 @@
       <a href="live-flights.html">Live Flights</a>
       <a href="glossary.html">Glossary</a>
       <a href="bookshelf.html">Bookshelf</a>
+      <a href="index.html#social-buzz">Social Buzz</a>
     </div>
     <a href="#newsletter" class="btn btn-gold btn-block">Get The Briefing</a>
   </div>
@@ -119,7 +123,7 @@
       Confidential Tip Line
     </span>
     <h1 class="section-title" style="margin-top:16px;">Got Something We Should Know?</h1>
-    <p class="section-lede">Pilot, crew, dispatcher, controller, mechanic, frequent flyer, or someone who just witnessed something they can't explain — this is the direct line. No name required. No account to create. Just the story.</p>
+    <p class="section-lede">Pilot, crew, dispatcher, controller, mechanic, frequent flyer, or someone who just witnessed something they can't explain — this is the direct line. Pick the type of story below, tell us what happened, and hit send. No name required. No account to create.</p>
   </div>
 </section>
 
@@ -153,43 +157,242 @@
       </div>
 
       <div class="tip-form">
-        <span class="tag" style="background:var(--gold-500);color:var(--navy-950);">Submit A Tip</span>
+        <span class="tag" style="background:var(--gold-500);color:var(--navy-950);">Submit A Story</span>
         <h3 style="text-transform:none;font-size:1.3rem;margin-bottom:6px;">Tell us what happened.</h3>
-        <p style="margin-bottom:22px;">Every submission is read by a real person on our small editorial team.</p>
+        <p style="margin-bottom:22px;">Every submission is read by a real person on our small editorial team, then reviewed before anything is published.</p>
 
-        <form data-demo-form>
-          <div class="form-row">
-            <label for="tip-category">What kind of tip is this?</label>
-            <select id="tip-category" name="category">
-              <option value="scary">Scary Story / Close Call</option>
-              <option value="heroic">Heroic Moment</option>
-              <option value="bizarre">Bizarre &amp; Strange</option>
-              <option value="uap">UAP Sighting</option>
-              <option value="news">News Tip</option>
-              <option value="other">Something Else</option>
-            </select>
-          </div>
+        <div class="story-tabs" role="tablist" aria-label="Story type">
+          <button class="story-tab is-active" type="button" data-tab="personal" role="tab" aria-selected="true">Personal Story</button>
+          <button class="story-tab" type="button" data-tab="witnessed" role="tab" aria-selected="false">Witnessed Incident</button>
+          <button class="story-tab" type="button" data-tab="uap" role="tab" aria-selected="false">UAP Sighting</button>
+          <button class="story-tab" type="button" data-tab="funny" role="tab" aria-selected="false">Funny Story</button>
+          <button class="story-tab" type="button" data-tab="heroic" role="tab" aria-selected="false">Heroic Moment</button>
+        </div>
 
-          <div class="form-row">
-            <label for="tip-story">Your story or tip</label>
-            <textarea id="tip-story" name="story" required placeholder="Tell us what happened — as much or as little detail as you're comfortable sharing."></textarea>
-          </div>
+        <div class="story-panel is-active" data-panel="personal" role="tabpanel">
+          <form data-live-form data-subject="New Personal Story — Flight Crew Files">
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="personal-name">Name (optional)</label>
+              <input type="text" id="personal-name" name="Name" placeholder="Leave blank to stay fully anonymous">
+            </div>
+            <div class="form-row">
+              <label for="personal-category">Story category</label>
+              <select id="personal-category" name="Category">
+                <option value="Personal Story" selected>Personal Story</option>
+                <option value="Witnessed Incident">Witnessed Incident</option>
+                <option value="UAP Sighting">UAP Sighting</option>
+                <option value="Funny Story">Funny Story</option>
+                <option value="Heroic Moment">Heroic Moment</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="personal-title">Title</label>
+              <input type="text" id="personal-title" name="Title" required placeholder="Give your story a headline">
+            </div>
+            <div class="form-row">
+              <label for="personal-story">Full story</label>
+              <textarea id="personal-story" name="Story" required placeholder="Tell us what happened to you, in your own words — as much detail as you're comfortable sharing."></textarea>
+            </div>
+            <div class="form-row-split">
+              <div class="form-row">
+                <label for="personal-location">Location (optional)</label>
+                <input type="text" id="personal-location" name="Location" placeholder="City, airport, or route">
+              </div>
+              <div class="form-row">
+                <label for="personal-date">Date (optional)</label>
+                <input type="date" id="personal-date" name="Date">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="personal-email">Contact email (optional)</label>
+              <input type="email" id="personal-email" name="Contact Email" placeholder="So we can follow up if we need to">
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Send It In</button>
+            <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
+            <span class="form-error-msg" data-form-error style="text-align:center;margin-top:14px;">Something went wrong sending that. Please try again, or email us directly.</span>
+          </form>
+        </div>
 
-          <div class="form-row">
-            <label for="tip-contact">Contact method (optional)</label>
-            <input type="text" id="tip-contact" name="contact" placeholder="Email, or leave blank to stay fully anonymous">
-          </div>
+        <div class="story-panel" data-panel="witnessed" role="tabpanel">
+          <form data-live-form data-subject="New Witnessed Incident — Flight Crew Files">
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="witnessed-name">Name (optional)</label>
+              <input type="text" id="witnessed-name" name="Name" placeholder="Leave blank to stay fully anonymous">
+            </div>
+            <div class="form-row">
+              <label for="witnessed-category">Story category</label>
+              <select id="witnessed-category" name="Category">
+                <option value="Personal Story">Personal Story</option>
+                <option value="Witnessed Incident" selected>Witnessed Incident</option>
+                <option value="UAP Sighting">UAP Sighting</option>
+                <option value="Funny Story">Funny Story</option>
+                <option value="Heroic Moment">Heroic Moment</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="witnessed-title">Title</label>
+              <input type="text" id="witnessed-title" name="Title" required placeholder="Give your story a headline">
+            </div>
+            <div class="form-row">
+              <label for="witnessed-story">Full story</label>
+              <textarea id="witnessed-story" name="Story" required placeholder="Tell us what you saw — as much detail as you remember."></textarea>
+            </div>
+            <div class="form-row-split">
+              <div class="form-row">
+                <label for="witnessed-location">Location (optional)</label>
+                <input type="text" id="witnessed-location" name="Location" placeholder="City, airport, or route">
+              </div>
+              <div class="form-row">
+                <label for="witnessed-date">Date (optional)</label>
+                <input type="date" id="witnessed-date" name="Date">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="witnessed-email">Contact email (optional)</label>
+              <input type="email" id="witnessed-email" name="Contact Email" placeholder="So we can follow up if we need to">
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Send It In</button>
+            <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
+            <span class="form-error-msg" data-form-error style="text-align:center;margin-top:14px;">Something went wrong sending that. Please try again, or email us directly.</span>
+          </form>
+        </div>
 
-          <div class="form-row">
-            <label class="form-check" style="flex-direction:row;">
-              <input type="checkbox" id="tip-insider" name="insider">
-              <span>I'm current or former aviation crew / industry insider</span>
-            </label>
-          </div>
+        <div class="story-panel" data-panel="uap" role="tabpanel">
+          <form data-live-form data-subject="New UAP Sighting — Flight Crew Files">
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="uap-name">Name (optional)</label>
+              <input type="text" id="uap-name" name="Name" placeholder="Leave blank to stay fully anonymous">
+            </div>
+            <div class="form-row">
+              <label for="uap-category">Story category</label>
+              <select id="uap-category" name="Category">
+                <option value="Personal Story">Personal Story</option>
+                <option value="Witnessed Incident">Witnessed Incident</option>
+                <option value="UAP Sighting" selected>UAP Sighting</option>
+                <option value="Funny Story">Funny Story</option>
+                <option value="Heroic Moment">Heroic Moment</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="uap-title">Title</label>
+              <input type="text" id="uap-title" name="Title" required placeholder="Give your story a headline">
+            </div>
+            <div class="form-row">
+              <label for="uap-story">Full story</label>
+              <textarea id="uap-story" name="Story" required placeholder="Describe what you saw: shape, movement, duration, and altitude if you can estimate it."></textarea>
+            </div>
+            <div class="form-row-split">
+              <div class="form-row">
+                <label for="uap-location">Location (optional)</label>
+                <input type="text" id="uap-location" name="Location" placeholder="City, airport, or route">
+              </div>
+              <div class="form-row">
+                <label for="uap-date">Date (optional)</label>
+                <input type="date" id="uap-date" name="Date">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="uap-email">Contact email (optional)</label>
+              <input type="email" id="uap-email" name="Contact Email" placeholder="So we can follow up if we need to">
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Send It In</button>
+            <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
+            <span class="form-error-msg" data-form-error style="text-align:center;margin-top:14px;">Something went wrong sending that. Please try again, or email us directly.</span>
+          </form>
+        </div>
 
-          <button type="submit" class="btn btn-gold btn-block">Send It In</button>
-          <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
-        </form>
+        <div class="story-panel" data-panel="funny" role="tabpanel">
+          <form data-live-form data-subject="New Funny Story — Flight Crew Files">
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="funny-name">Name (optional)</label>
+              <input type="text" id="funny-name" name="Name" placeholder="Leave blank to stay fully anonymous">
+            </div>
+            <div class="form-row">
+              <label for="funny-category">Story category</label>
+              <select id="funny-category" name="Category">
+                <option value="Personal Story">Personal Story</option>
+                <option value="Witnessed Incident">Witnessed Incident</option>
+                <option value="UAP Sighting">UAP Sighting</option>
+                <option value="Funny Story" selected>Funny Story</option>
+                <option value="Heroic Moment">Heroic Moment</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="funny-title">Title</label>
+              <input type="text" id="funny-title" name="Title" required placeholder="Give your story a headline">
+            </div>
+            <div class="form-row">
+              <label for="funny-story">Full story</label>
+              <textarea id="funny-story" name="Story" required placeholder="Tell us the story — the funnier the better."></textarea>
+            </div>
+            <div class="form-row-split">
+              <div class="form-row">
+                <label for="funny-location">Location (optional)</label>
+                <input type="text" id="funny-location" name="Location" placeholder="City, airport, or route">
+              </div>
+              <div class="form-row">
+                <label for="funny-date">Date (optional)</label>
+                <input type="date" id="funny-date" name="Date">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="funny-email">Contact email (optional)</label>
+              <input type="email" id="funny-email" name="Contact Email" placeholder="So we can follow up if we need to">
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Send It In</button>
+            <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
+            <span class="form-error-msg" data-form-error style="text-align:center;margin-top:14px;">Something went wrong sending that. Please try again, or email us directly.</span>
+          </form>
+        </div>
+
+        <div class="story-panel" data-panel="heroic" role="tabpanel">
+          <form data-live-form data-subject="New Heroic Moment — Flight Crew Files">
+            <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <label for="heroic-name">Name (optional)</label>
+              <input type="text" id="heroic-name" name="Name" placeholder="Leave blank to stay fully anonymous">
+            </div>
+            <div class="form-row">
+              <label for="heroic-category">Story category</label>
+              <select id="heroic-category" name="Category">
+                <option value="Personal Story">Personal Story</option>
+                <option value="Witnessed Incident">Witnessed Incident</option>
+                <option value="UAP Sighting">UAP Sighting</option>
+                <option value="Funny Story">Funny Story</option>
+                <option value="Heroic Moment" selected>Heroic Moment</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="heroic-title">Title</label>
+              <input type="text" id="heroic-title" name="Title" required placeholder="Give your story a headline">
+            </div>
+            <div class="form-row">
+              <label for="heroic-story">Full story</label>
+              <textarea id="heroic-story" name="Story" required placeholder="Tell us who did what, and how it turned out."></textarea>
+            </div>
+            <div class="form-row-split">
+              <div class="form-row">
+                <label for="heroic-location">Location (optional)</label>
+                <input type="text" id="heroic-location" name="Location" placeholder="City, airport, or route">
+              </div>
+              <div class="form-row">
+                <label for="heroic-date">Date (optional)</label>
+                <input type="date" id="heroic-date" name="Date">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="heroic-email">Contact email (optional)</label>
+              <input type="email" id="heroic-email" name="Contact Email" placeholder="So we can follow up if we need to">
+            </div>
+            <button type="submit" class="btn btn-gold btn-block">Send It In</button>
+            <span class="newsletter-inline-msg" data-form-message style="text-align:center;margin-top:14px;">Received — thank you for trusting us with this.</span>
+            <span class="form-error-msg" data-form-error style="text-align:center;margin-top:14px;">Something went wrong sending that. Please try again, or email us directly.</span>
+          </form>
+        </div>
       </div>
 
     </div>
@@ -254,11 +457,13 @@
           <li><a href="glossary.html">Glossary</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="bookshelf.html">Bookshelf</a></li>
+          <li><a href="index.html#social-buzz">Social Buzz</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Community</h4>
         <ul>
+          <li><a href="community.html">Discussion Forum</a></li>
           <li><a href="index.html#newsletter">Newsletter</a></li>
           <li><a href="about.html">Submit A Story</a></li>
           <li><a href="tipline.html">Tip Line</a></li>
