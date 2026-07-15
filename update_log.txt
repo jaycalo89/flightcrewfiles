@@ -1,0 +1,155 @@
+[2026-07-14 20:22:43] ============================================================
+[2026-07-14 20:22:43] Flight Crew Files update run starting
+[2026-07-14 20:22:43] START  Fetch YouTube videos
+[2026-07-14 20:22:52] FAILED Fetch YouTube videos -> HTTP Error 400: Bad Request
+[2026-07-14 20:22:52] Traceback (most recent call last):
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 117, in fetch_youtube_videos
+    data = http_get_json(url)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 75, in http_get_json
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+[2026-07-14 20:22:52] START  Fetch aviation news
+[2026-07-14 20:22:52] FAILED Fetch aviation news -> HTTP Error 401: Unauthorized
+[2026-07-14 20:22:52] Traceback (most recent call last):
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 196, in fetch_aviation_news
+    return fetch_newsapi(
+        api_key,
+    ...<2 lines>...
+        page_size=20,
+    )
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 168, in fetch_newsapi
+    data = http_get_json(url)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 75, in http_get_json
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+[2026-07-14 20:22:52] START  Fetch UAP news
+[2026-07-14 20:22:53] FAILED Fetch UAP news -> HTTP Error 401: Unauthorized
+[2026-07-14 20:22:53] Traceback (most recent call last):
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 205, in fetch_uap_news
+    return fetch_newsapi(
+        api_key,
+    ...<2 lines>...
+        page_size=20,
+    )
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 168, in fetch_newsapi
+    data = http_get_json(url)
+  File "\\wsl.localhost\Ubuntu-26.04\home\jayca\projects\flightcrewfiles\setup_flightcrewfiles.py", line 75, in http_get_json
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Users\Jayca\AppData\Local\Python\pythoncore-3.14-64\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+[2026-07-14 20:22:53] START  Generate sitemap.xml
+[2026-07-14 20:22:53] OK     Generate sitemap.xml -> 18
+[2026-07-14 20:22:53] Flight Crew Files update run finished in 9.9s
+[2026-07-14 21:27:53] ============================================================
+[2026-07-14 21:27:53] Flight Crew Files update run starting
+[2026-07-14 21:27:53] WARNING YOUTUBE_API_KEY not found in .env or environment
+[2026-07-14 21:27:53] WARNING NEWSAPI_KEY not found in .env or environment
+[2026-07-14 21:27:53] START  Fetch YouTube videos
+[2026-07-14 21:27:53] FAILED Fetch YouTube videos -> YOUTUBE_API_KEY is not set in .env
+[2026-07-14 21:27:53] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 102, in fetch_youtube_videos
+    raise RuntimeError("YOUTUBE_API_KEY is not set in .env")
+RuntimeError: YOUTUBE_API_KEY is not set in .env
+
+[2026-07-14 21:27:53] START  Fetch aviation news
+[2026-07-14 21:27:53] FAILED Fetch aviation news -> NEWSAPI_KEY is not set in .env
+[2026-07-14 21:27:53] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 196, in fetch_aviation_news
+    return fetch_newsapi(
+        api_key,
+    ...<2 lines>...
+        page_size=20,
+    )
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 158, in fetch_newsapi
+    raise RuntimeError("NEWSAPI_KEY is not set in .env")
+RuntimeError: NEWSAPI_KEY is not set in .env
+
+[2026-07-14 21:27:53] START  Fetch UAP news
+[2026-07-14 21:27:53] FAILED Fetch UAP news -> NEWSAPI_KEY is not set in .env
+[2026-07-14 21:27:53] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 258, in run_step
+    result = func(*args)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 205, in fetch_uap_news
+    return fetch_newsapi(
+        api_key,
+    ...<2 lines>...
+        page_size=20,
+    )
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 158, in fetch_newsapi
+    raise RuntimeError("NEWSAPI_KEY is not set in .env")
+RuntimeError: NEWSAPI_KEY is not set in .env
+
+[2026-07-14 21:27:53] START  Generate sitemap.xml
+[2026-07-14 21:27:53] OK     Generate sitemap.xml -> 18
+[2026-07-14 21:27:53] Flight Crew Files update run finished in 0.0s
+[2026-07-14 21:40:22] ============================================================
+[2026-07-14 21:40:22] Flight Crew Files update run starting
+[2026-07-14 21:40:22] START  Fetch YouTube videos
+[2026-07-14 21:40:24] OK     Fetch YouTube videos -> 39
+[2026-07-14 21:40:24] START  Fetch aviation news
+[2026-07-14 21:40:24] OK     Fetch aviation news -> 20
+[2026-07-14 21:40:24] START  Fetch UAP news
+[2026-07-14 21:40:25] OK     Fetch UAP news -> 19
+[2026-07-14 21:40:25] START  Generate sitemap.xml
+[2026-07-14 21:40:25] OK     Generate sitemap.xml -> 18
+[2026-07-14 21:40:25] Flight Crew Files update run finished in 2.6s
