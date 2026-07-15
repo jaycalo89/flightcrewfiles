@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:53:30.290778+00:00",
+  "generated_at": "2026-07-15T15:57:00.867279+00:00",
   "count": 39,
   "queries": [
     "aviation incident news",
@@ -379,6 +379,16 @@
       "matched_query": "UAP pilot sighting"
     },
     {
+      "video_id": "TcTAAYum0HA",
+      "title": "UAP: The RAF Saw a &#39;Perfect Flying Saucer&#39; (Real Declassified CIA File)",
+      "description": "A real, declassified 1952 CIA memo records that RAF officials and pilots over Yorkshire saw what the report calls a \"perfect flying ...",
+      "channel": "The UAP Harold",
+      "published_at": "2026-07-02T21:39:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/TcTAAYum0HA/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TcTAAYum0HA",
+      "matched_query": "UAP pilot sighting"
+    },
+    {
       "video_id": "b06BQckgCEo",
       "title": "Former Navy pilot says pilots &quot;bury their heads in the sand&quot; when it comes to UFO sightings",
       "description": "Former Navy F/A-18 pilot Ryan Graves told Pennsylvania lawmakers that pilots and flight crews are still encountering unexplained ...",
@@ -386,16 +396,6 @@
       "published_at": "2026-07-02T01:00:01Z",
       "thumbnail": "https://i.ytimg.com/vi/b06BQckgCEo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=b06BQckgCEo",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
-      "video_id": "PD3p8kWe6s8",
-      "title": "Avvistamento UFO, ripreso sopra il Sahara, Egitto (11 ottobre 2024) 🇪🇬",
-      "description": "Il mistero del mattino: UFO sigariforme sui cieli del Sahara ​Un incredibile avvistamento ha infiammato il web, riportandoci alla ...",
-      "channel": "Ufoglobal Italia",
-      "published_at": "2026-06-28T10:42:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/PD3p8kWe6s8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=PD3p8kWe6s8",
       "matched_query": "UAP pilot sighting"
     }
   ]

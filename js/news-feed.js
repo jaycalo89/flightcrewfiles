@@ -166,7 +166,7 @@
 
         if (!relevant.length) {
           if (!isRefresh) {
-            feedEl.innerHTML = '<div class="nf-empty">No aviation stories in the feed right now — check back soon.</div>';
+            feedEl.innerHTML = '<div class="nf-empty">Loading latest aviation news&hellip;</div>';
           }
           return;
         }
@@ -187,7 +187,7 @@
         applyFilter();
       }).catch(function () {
         if (!isRefresh) {
-          feedEl.innerHTML = '<div class="nf-empty">The live feed couldn&rsquo;t be loaded right now. Please check back shortly.</div>';
+          feedEl.innerHTML = '<div class="nf-empty">Loading latest aviation news&hellip;</div>';
         }
       });
     }
