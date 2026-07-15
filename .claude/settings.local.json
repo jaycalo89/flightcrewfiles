@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Skill(run)"
+      "Skill(run)",
+      "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" \"https://aviationweek.com/rss.xml\")",
+      "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" \"https://simpleflying.com/feed/\")"
     ]
   }
 }

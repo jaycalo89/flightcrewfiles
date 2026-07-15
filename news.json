@@ -1,187 +1,277 @@
 {
-  "generated_at": "2026-07-15T01:40:24.853895+00:00",
-  "query": "aviation OR airline OR airplane OR aircraft",
-  "count": 20,
+  "generated_at": "2026-07-15T03:51:25.094786+00:00",
+  "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
+  "count": 30,
   "articles": [
     {
-      "title": "Erling Haaland brings taxidermied raccoon back to Norway after saying 'goodbye' to US World Cup run",
-      "description": "Erling Haaland and his taxidermy raccoon have touched back down in Norway after a sensational performance in his first FIFA World Cup “It followed me home,” Haaland joked in a post on social media after fans quickly circulated the photos of the Norwegian socc…",
-      "url": "https://freerepublic.com/focus/f-news/4387849/posts",
-      "source": "Freerepublic.com",
-      "author": "MSN",
-      "published_at": "2026-07-14T01:19:53Z",
+      "title": "Boeing books 121 June orders, accelerates deliveries",
+      "description": "The airframer in June delivered more aircraft than in any month in several years. Boeing in June padded its backlog with orders for 108 737 Max, most of them from unidentified buyers, while also landing deals for nine 777s, including five of its in-development 777-8 Freighter. The company disclosed…",
+      "url": "https://www.flightglobal.com/airframers/2026/07/boeing-books-121-june-orders-accelerates-deliveries/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-07-15T03:23:36Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/233714_jb_Boeing_day1_0725-480x320.jpg"
+    },
+    {
+      "title": "‘Formidable’ fuel crisis set to drag China’s ‘Big Three’ to steeper half-year losses",
+      "description": "Air China, China Eastern Airlines and China Southern Airlines were profitable in the first quarter of the year. China’s three largest carriers have forecast heavy losses for the first half of the year, as they confront the “formidable challenge” of significantly higher fuel costs. In separate…",
+      "url": "https://www.flightglobal.com/strategy/2026/07/formidable-fuel-crisis-set-to-drag-chinas-big-three-to-steeper-half-year-losses/",
+      "source": "FlightGlobal",
+      "author": "Alfred Chua",
+      "published_at": "2026-07-15T03:07:12Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/04/China-Southern-Guangzhou-c-NGCHIYUI_Shutterstock-480x320.jpg"
+    },
+    {
+      "title": "Qantas' Seasonal Perth–Rome Route Is Secretly A Project Sunrise Stress Test",
+      "description": "Qantas ’ Project Sunrise has been one of the aviation industry’s closely watched initiatives. It is designed to connect Australia’s East Coast with cities such as London and New York nonstop. To support these ambitions, Airbus has developed a dedicated ultra-long-haul version of the Airbus…",
+      "url": "https://simpleflying.com/qantas-seasonal-perth-rome-route-secretly-project-sunrise-stress-test/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-07-15T01:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/seasonal-perth-rome.jpg"
+    },
+    {
+      "title": "The $300 Million Math Problem Behind America's F-47 6th-Gen Fighter Fleet",
+      "description": "The race to build the first sixth-generation fighter jet is well underway, with the United States and the People's Republic of China competing to be the first to produce a fully combat-capable example. While the People's Liberation Army Air Force made headlines in late 2024 by test-flying two…",
+      "url": "https://simpleflying.com/300-million-math-problem-behind-americas-f-47-6th-gen-fleet/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-07-15T00:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/300mil.jpg"
+    },
+    {
+      "title": "Boeing Records 314 First-Half Deliveries, Its Strongest Since 2018",
+      "description": "American plane maker Boeing is celebrating its strongest first half of the year, with a total of 314 recorded deliveries, its highest since before the pandemic (2018). Boeing's strong results continue to reflect the recovery of the 737 MAX , with a total of 243 of the type delivered, along with the…",
+      "url": "https://simpleflying.com/boeing-strongest-first-half-314-deliveries-strongest-2018/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-07-14T22:36:43Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/shutterstock_1544062007-1.jpg"
+    },
+    {
+      "title": "This Is Why US Airlines Keep The Seatbelt Sign On Far Longer Than Ryanair Or Singapore Airlines",
+      "description": "Cruising over the continental United States in perfectly tranquil air, you may notice that even though the cabin is completely still, the illuminated seatbelt sign continues to beam overhead, keeping hundreds of passengers trapped in their seats for hours on end. The seatbelt sign offers a small…",
+      "url": "https://simpleflying.com/why-us-airlines-keep-seatbelt-sign-longer-ryanair-singapore-airlines/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-07-14T22:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/seatbelt-sign.jpg"
+    },
+    {
+      "title": "Why United Airlines Doesn't Want Its Airbus A320s Anymore",
+      "description": "Many US airlines are now modernizing their fleet by switching to more efficient and sustainable jets. United Airlines is not an exception and is currently accelerating a fleet modernization that will soon make one of its most familiar workhorses, the Airbus A320 , a rare sight in its livery. But…",
+      "url": "https://simpleflying.com/why-united-airlines-doesnt-want-airbus-a320-fleet-anymore/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-07-14T21:30:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/shutterstock_2639483453_cropped.jpg"
+    },
+    {
+      "title": "Emirates Completes 100th Aircraft Retrofit In $5B Fleet Makeover Project",
+      "description": "Emirates has reached another milestone in its ongoing fleet renewal strategy after completing the refurbishment of its 100th aircraft. The achievement comes less than four years after the airline launched its ambitious cabin modernization program and represents a significant step in a project that…",
+      "url": "https://simpleflying.com/emirates-100-aircraft-retrofit-5b-fleet-makeover/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-07-14T20:35:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/untitled-design-77.jpg"
+    },
+    {
+      "title": "Shocking: United Airlines' New 16-Hour Ultra-Long Route Is Only 53% Full",
+      "description": "United Airlines is the second-largest operator between the US and Australia/New Zealand. In the 12 months to March 2026, the US Department of Transportation (DOT) shows that the carrier transported 850,000 round-trip passengers and had a quarter of the market. It was United's most traffic to date.",
+      "url": "https://simpleflying.com/shocking-united-airlines-new-17-hour-ultra-long-route-is-only-53pc-full/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-07-14T20:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/024-united-airlines-boeing-787-9-markus-mainka-_-robin-guess-_-shutterstock.jpg"
+    },
+    {
+      "title": "Lockheed's SR-72 Hypersonic Successor To The Blackbird Still Hasn't Flown & Here's Why",
+      "description": "The Lockheed SR-71 Blackbird was a marvel of Cold War engineering, and to the perplexity and dismay of many, it was retired in 1989 (temporarily) and 1998 (permanently) without a direct replacement. Many enthusiasts were happy when Lockheed Martin publicly unveiled the SR-72 \"Son of Blackbird\"…",
+      "url": "https://simpleflying.com/lockheed-sr-72-hypersonic-succesor-blackbird-still-hasnt-flown-why/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-07-14T20:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/sr-72-hypersonic.jpg"
+    },
+    {
+      "title": "The Most Modern Fleet in General Aviation",
+      "description": "The global aviation industry faces a familiar tension with the promise of revolutionary technology on one hand and the immediate demands of operators, flight schools, and private owners on the other. Italian aircraft manufacturer Tecnam has built its strategy around refusing to choose between the…",
+      "url": "https://www.flyingmag.com/the-most-modern-fleet-in-general-aviation/",
+      "source": "Flying Magazine",
+      "author": "Matt Herr",
+      "published_at": "2026-07-14T19:39:11Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/Tecnam_Banner.jpeg?w=1024"
+    },
+    {
+      "title": "WestJet set to lease first Boeing 737 Max 10",
+      "description": "Aviation Capital Group will deliver the first Boeing 737 Max 10 to the Canadian airline. WestJet will take delivery of the first Boeing 737 Max 10 by the end of the year under a lease agreement in place with Aviation Capital Group. The first Max 10 is one of 13 aircraft WestJet will take from the…",
+      "url": "https://www.flightglobal.com/strategy/2026/07/westjet-to-lease-first-boeing-737-max-10/",
+      "source": "FlightGlobal",
+      "author": "Edward Russell",
+      "published_at": "2026-07-14T18:32:50Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Westjet-480x320.jpg"
+    },
+    {
+      "title": "uAvionix and Jeppesen’s SkyPlay Brings ForeFlight to Cockpit",
+      "description": "Pilots tired of translating flight plans, checklists, and charts between electronic flight bags (EFBs) and the instrument panel will soon have reason to rejoice. uAvionix and Jeppesen ForeFlight on Tuesday introduced SkyPlay , a new integration that will embed the popular flight planning platform…",
+      "url": "https://www.flyingmag.com/uavionix-jeppesen-skyplay-foreflight-integration/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-14T18:30:00Z",
       "image": null
     },
     {
-      "title": "Stocks in news: Tata Elxsi, HCL Tech, ICICI Pru AMC, Biocon, SpiceJet",
-      "description": "Indian markets closed nearly unchanged after a volatile trading session on Monday.  Tata Elxsi and L&T Tech shares are in focus as they announce first quarter results.  HCL Tech reported a twenty percent year-on-year net profit growth and declared an interim …",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-tata-elxsi-hcl-tech-icici-pru-amc-biocon-spicejet/articleshow/132378731.cms",
-      "source": "The Times of India",
-      "author": "Akash Podishetti",
-      "published_at": "2026-07-14T01:12:40Z",
-      "image": "https://img.etimg.com/thumb/msid-132378725,width-1200,height-630,imgsize-605584,overlay-etmarkets/articleshow.jpg"
+      "title": "Lufthansa’s 1st A350-1000, 700th Airbus Jet Arrives With Striking 100 Years Livery",
+      "description": "Lufthansa has taken delivery of its first Airbus A350-1000 , marking the arrival of the largest twin-engine aircraft ever to join the airline's fleet. The aircraft is notable not only because it introduces a new flagship widebody, but also because it represents the 700th Airbus aircraft delivered…",
+      "url": "https://simpleflying.com/lufthansa-1st-a350-1000-700th-airbus-100-years-livery/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-07-14T18:02:55Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/untitled-design-76.jpg"
     },
     {
-      "title": "Osprey Daylite Expandable 26+6 Travel Pack (Blue Spikemoss/Alkaline) $65 + Free S&H",
-      "description": "Amazon has Osprey Daylite Expandable 26+6 Travel Pack (Blue Spikemoss/Alkaline) on sale for $65. Shipping is free.\r\n\r\nOsprey also has Osprey Daylite Expandable 26+6 Travel Pack (Blue Spikemoss/Alkalin",
-      "url": "https://slickdeals.net/f/19756134-65-osprey-daylite-expandable-26-6-travel-pack-blue-spikemoss-alkaline-at-amazon",
-      "source": "Slickdeals.net",
-      "author": "phoinix",
-      "published_at": "2026-07-14T01:04:35Z",
-      "image": "https://slickdeals.net/attachment/1/1/7/1/5/2/7/450x450/20973435.thumb"
+      "title": "How The F-22's F119 Engine Solved 3 Problems The Industry Called Mutually Exclusive",
+      "description": "The Lockheed Martin F-22 Raptor was built as a generational leap over the existing F-15 Eagle. The F-15 Eagle was designed as an air superiority fighter , but by the 1980s, the Air Force felt it might not have the \"unfair\" advantage that they wanted, as the Soviet Union developed the Su-27 and…",
+      "url": "https://simpleflying.com/how-f-22-f119-engine-solved-3-problems-industry-called-mutally-exclusive/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-07-14T18:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/f-22-s-f119-engine.jpg"
     },
     {
-      "title": "FReeper Canteen ~ Road Trip: Kirtland Air Force Base, New Mexico ~ 14 JULY 2026",
-      "description": "~The FReeper Canteen Presents~ Road Trip: Kirtland Air Force Base, New MexicoKirtland Air Force Base is a United States Air Force base located in the southeast quadrant of the Albuquerque, New Mexico urban area, adjacent to the Albuquerque International Sunpo…",
-      "url": "https://freerepublic.com/focus/f-news/4387847/posts",
-      "source": "Freerepublic.com",
-      "author": "Serving The Best Troops, Families, And Veterans In The World!!",
-      "published_at": "2026-07-14T01:00:27Z",
+      "title": "Training and Safety Tip: Maintain weather awareness",
+      "description": "Most pilots can tell at least one story about a flight that did not go as planned because of unpredicted weather along the route. We all know that weather forecasts aren’t perfect, but that can lead to concerns regarding the safety of the flight.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/14/training-and-safety-tip-maintain-weather-awareness?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-14T17:59:00Z",
       "image": null
     },
     {
-      "title": "Albert Speer, The Chief Architect Of The Third Reich Who Painted Himself As A ‘Good Nazi’",
-      "description": "Although Albert Speer designed some of Nazi Germany's most prominent buildings and served as the Minister of Armaments and War Production during World War II, he later claimed that he had no knowledge of the Holocaust.\nThe post Albert Speer, The Chief Archite…",
-      "url": "https://allthatsinteresting.com/albert-speer",
-      "source": "Allthatsinteresting.com",
-      "author": "Rivy Lyon",
-      "published_at": "2026-07-14T01:00:00Z",
-      "image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2026/07/albert-speer-and-adolf-hitler-design-germania-featured.jpg"
+      "title": "Boeing to pitch MQ-28 Ghost Bat at prospective UK need",
+      "description": "Australian-developed CCA aimed at future operational requirement. Boeing will be promoting its MQ-28 Ghost Bat at the Farnborough air show, in anticipation of a future UK requirement for an operational collaborative combat aircraft (CCA). “We definitely see some applicability in terms of its…",
+      "url": "https://www.flightglobal.com/fixed-wing/2026/07/boeing-to-pitch-mq-28-ghost-bat-at-prospective-uk-need/",
+      "source": "FlightGlobal",
+      "author": "Craig Hoyle",
+      "published_at": "2026-07-14T17:49:54Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Ghost-Bat-480x320.jpg"
     },
     {
-      "title": "Success may not matter if you aren't doing what you love",
-      "description": "Article URL: https://12gramsofcarbon.com/p/founders-guide-success-may-not-matter\nComments URL: https://news.ycombinator.com/item?id=48900790\nPoints: 3\n# Comments: 0",
-      "url": "https://12gramsofcarbon.com/p/founders-guide-success-may-not-matter",
-      "source": "12gramsofcarbon.com",
-      "author": "theahura",
-      "published_at": "2026-07-14T00:26:00Z",
-      "image": "https://substackcdn.com/image/fetch/$s_!QlXh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3557261b-1042-49bf-90ff-186ceef7bf5f_1200x600.jpeg"
+      "title": "‘Miracle on the Hudson’ Pilot Sully Sullenberger Diagnosed With Alzheimer’s",
+      "description": "Sully Sullenberger, the pilot who became a household name after safely landing a disabled US Airways flight on the Hudson River in 2009, has been diagnosed with Alzheimer’s disease. In a statement posted on his personal website on Tuesday, Sullenberger, 75, said he is receiving treatment at UCSF…",
+      "url": "https://www.flyingmag.com/miracle-on-the-hudson-pilot-sully-sullenberger-diagnosed-with-alzheimers/",
+      "source": "Flying Magazine",
+      "author": "Zach Vasile",
+      "published_at": "2026-07-14T17:01:43Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2014/03/httpswww.flyingmag.comsitesflyingmag.comfilesimport2014sitesallfiles_images20140320famous-plane-hudson-river.jpg?w=1000"
     },
     {
-      "title": "Arnold Schwarzenegger’s ‘Eraser’ Turns 30: Director Chuck Russell Spills on the Fan-Favorite Thriller",
-      "description": "The film is now available in a gorgeous 4K edition from Warner Bros. Home Entertainment\nThe post Arnold Schwarzenegger’s ‘Eraser’ Turns 30: Director Chuck Russell Spills on the Fan-Favorite Thriller appeared first on TheWrap.",
-      "url": "https://www.thewrap.com/creative-content/movies/eraser-director-chuck-russell-interview-30-anniversary/",
-      "source": "TheWrap",
-      "author": "Drew Taylor",
-      "published_at": "2026-07-14T00:25:52Z",
-      "image": "https://www.thewrap.com/wp-content/uploads/2026/07/Eraser.jpg"
+      "title": "Embraer Unveils Phenom 300EV With Autoland, Other Upgrades",
+      "description": "Embraer on Tuesday unveiled the newest member of the world’s most popular family of light business jets. As soon as 2028, the manufacturer’s Phenom 300E—the fastest light jet in production—will be joined by an upgraded Phenom 300EV variant, the “EV,” denoting “evolution.” The new model will add 430…",
+      "url": "https://www.flyingmag.com/embraer-phenom-300ev-light-business-jet/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-14T16:50:48Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/image.jpeg?w=1024"
     },
     {
-      "title": "US airstrikes reported near Saravan amid Iran conflict escalation",
-      "description": "The escalation may lead to Iran closing its airspace, affecting regional security and global market dynamics significantly.\nThe post US airstrikes reported near Saravan amid Iran conflict escalation appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/us-airstrikes-reported-near-saravan-amid-iran-conflict-escalation/",
-      "source": "Crypto Briefing",
-      "author": "Estefano Gomez",
-      "published_at": "2026-07-14T00:22:48Z",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/13202247/2013-saravan-earthquake-is-located-in-iran-1-800x420.jpeg"
+      "title": "This 2007 Diamond DA40-FP Is a Proven ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2007 Diamond DA40. Standing out in…",
+      "url": "https://www.flyingmag.com/this-2007-diamond-da40-fp-is-a-proven-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-07-14T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-single-engine-piston-diamond-da40-for-sale-601721-ed53675dead8a931-800X600-1.jpg?w=800"
     },
     {
-      "title": "US airstrikes trigger loud explosions in Konarak, Iran",
-      "description": "The airstrikes risk escalating regional tensions, potentially leading to airspace closures and impacting both military and civilian aviation.\nThe post US airstrikes trigger loud explosions in Konarak, Iran appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/us-airstrikes-trigger-loud-explosions-in-konarak-iran/",
-      "source": "Crypto Briefing",
-      "author": "Estefano Gomez",
-      "published_at": "2026-07-14T00:20:59Z",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/13202058/iranian-navy-frigate-struck-in-port-in-konarak-iran-3-1-800x420.jpeg"
+      "title": "South Korea signs for two Global 6500-based electronic warfare aircraft",
+      "description": "Seoul will purchase two of the long-range Bombardier jets, in addition to the four examples already on order as airborne early warning and control assets. South Korea has formalised an agreement with Canadian airframer Bombardier to purchase two Global 6500 business jets, which will be converted…",
+      "url": "https://www.flightglobal.com/archive/2026/07/south-korea-signs-for-two-global-6500-based-electronic-warfare-aircraft/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-07-14T14:46:54Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/06/Aeris-X-c-L3Harris-480x268.jpg"
     },
     {
-      "title": "Best Credit Cards for Points, Travel & Rewards + Live Q&A",
-      "description": "We've gotten to take some pretty amazing vacations as a family all thanks to Credit Card points.  If you are using credit carefully and wisely it can really be a huge win for you when you have the right cards and right plan to earn points. Note: If you aren't…",
-      "url": "https://www.southernsavers.com/best-credit-cards-for-points-travel-rewards-live-qa/",
-      "source": "Southernsavers.com",
-      "author": "Jenny",
-      "published_at": "2026-07-14T00:19:05Z",
-      "image": "https://www.southernsavers.com/wp-content/uploads/2026/07/best-credit-cards-for-travel.jpg"
+      "title": "Frontier and four other Indigo-backed carriers to equip more than 1,000 aircraft with Starlink",
+      "description": "Denver-based carrier joins growing list of North American airlines to opt for the SpaceX service. Frontier Airlines is to install SpaceX’s Starlink in-flight Wi-Fi service on its entire fleet as part of a programme that will see five Indigo Partners-backed carriers equip more than 1,000 aircraft…",
+      "url": "https://www.flightglobal.com/archive/2026/07/frontier-and-four-other-indigo-backed-carriers-to-equip-more-than-1000-aircraft-with-starlink/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-07-14T14:33:55Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Frontier-A320neo-480x334.jpeg"
     },
     {
-      "title": "Bahrain claims interception of Iranian air attacks amid regional tensions",
-      "description": "The interception claim, if true, may stabilize regional tensions, reducing the likelihood of Iran closing its airspace amid ongoing conflicts.\nThe post Bahrain claims interception of Iranian air attacks amid regional tensions appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/bahrain-claims-interception-of-iranian-air-attacks-amid-regional-tensions/",
-      "source": "Crypto Briefing",
-      "author": "Estefano Gomez",
-      "published_at": "2026-07-14T00:13:13Z",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/13201312/iran-attacks-us-military-site-in-bahrain-2-1-800x420.jpeg"
+      "title": "Canada’s champion: How the A220 has adapted under Airbus ownership",
+      "description": "Change has been the constant companion of the former CSeries, and as the twinjet marks a decade in service, the programme continues to evolve. To say that a lot has happened since the A220 entered service on 15 July 2016 would be, well, a colossal understatement. For one, back when launch customer…",
+      "url": "https://www.flightglobal.com/archive/2026/07/canadas-champion-how-the-a220-has-adapted-under-airbus-ownership/",
+      "source": "FlightGlobal",
+      "author": "Dominic Perry",
+      "published_at": "2026-07-14T14:32:28Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Airbus_Canada_-87438-480x320.jpg"
     },
     {
-      "title": "Plane hijacker awaiting deportation freed by Dem-appointed ‘activist’ judge",
-      "description": "“This is yet another example of an activist judge trying to thwart President Trump’s mandate from the American people to remove criminal illegal aliens from our country,'' DHS Acting Assistant Secretary Lauren Bis raged in a statement.",
-      "url": "https://nypost.com/2026/07/13/us-news/plane-hijacker-awaiting-deportation-freed-by-dem-appointed-activist-judge/",
-      "source": "New York Post",
-      "author": "Alex Diaz",
-      "published_at": "2026-07-14T00:12:05Z",
-      "image": "https://nypost.com/wp-content/uploads/sites/2/2026/07/134288306.jpg?quality=75&strip=all&w=1200"
+      "title": "Elusive and lethal: why VTOL, stealthy X-BAT meets so many modern mission needs",
+      "description": "As current conflicts prove, the nature of aerial warfare is transforming almost faster than technology and capabilities can advance. However, one innovative platform – from a young company that has become a major disruptor in the sector – could prove a versatile and cost-effective solution for…",
+      "url": "https://www.flightglobal.com/paid-content/2026/07/elusive-and-lethal-why-vtol-stealthy-x-bat-meets-so-many-modern-mission-needs/",
+      "source": "FlightGlobal",
+      "author": "Murdo Morrison",
+      "published_at": "2026-07-14T14:07:25Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/2026_Apr_27_X-BAT_SM-480x322.jpg"
     },
     {
-      "title": "NAMA, NCAA face off over ticket levy sharing",
-      "description": "NAMA and NCAA are in a dispute over the 5% Ticket Sales Charge sharing formula. Learn how this impacts Nigeria’s aviation industry and safety oversight.\n\nRead More: https://punchng.com/nama-ncaa-face-off-over-ticket-levy-sharing/",
-      "url": "https://punchng.com/?p=2189918",
-      "source": "The Punch",
-      "author": "Punch Newspapers",
-      "published_at": "2026-07-14T00:09:33Z",
-      "image": "https://punchng.com/wp-content/uploads/2026/07/Umar_1783985942-1200x630.webp"
+      "title": "South Korea to field EPAWSS electronic countermeasures system for F-15K fleet",
+      "description": "The BAE-produced Eagle Passive Active Warning Survivability System is meant to help the non-stealth F-15 survive against modern air defences. South Korea will field an advanced electronic warfare system on its fleet of Boeing F-15K Slam Eagle fighters meant to protect the jets from modern…",
+      "url": "https://www.flightglobal.com/archive/2026/07/south-korea-to-field-epawss-electronic-countermeasures-system-for-f-15k-fleet/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-07-14T13:25:47Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/06/F-15K-with-Amraams-e1781159546474-480x302.jpg"
     },
     {
-      "title": "NAMA and the imperative of a safer airspace",
-      "description": "Explore how NAMA’s continuous investment in technology and human capital is crucial for maintaining a safer airspace in Nigeria amidst rising costs and evo\n\nRead More: https://punchng.com/nama-and-the-imperative-of-a-safer-airspace/",
-      "url": "https://punchng.com/nama-and-the-imperative-of-a-safer-airspace/",
-      "source": "The Punch",
-      "author": "Punch Newspapers",
-      "published_at": "2026-07-14T00:06:41Z",
-      "image": "https://punchng.com/wp-content/uploads/2026/06/NAMA-724x630.webp"
+      "title": "GetJet invests in own MRO capabilities to reduce reliance on external providers",
+      "description": "Lithuanian group plans to keep its fleet at 20 aircraft. Lithuanian wet-lease specialist GetJet Airlines is to invest in developing its in-house technical capabilities as it bids to reduce its reliance on external MRO providers. It comes as the carrier, which is part of GetJet Group, reported a net…",
+      "url": "https://www.flightglobal.com/archive/2026/07/getjet-invests-in-own-mro-capabilities-to-reduce-reliance-on-external-providers/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-07-14T13:24:43Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/GetJet-Airlines-480x269.jpeg"
     },
     {
-      "title": "Explosion reported in Bushehr, Iran’s nuclear plant city",
-      "description": "The explosion in Bushehr could escalate regional military tensions, potentially leading to increased security measures and airspace restrictions.\nThe post Explosion reported in Bushehr, Iran’s nuclear plant city appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/explosion-reported-in-bushehr-irans-nuclear-plant-city/",
-      "source": "Crypto Briefing",
-      "author": "Estefano Gomez",
-      "published_at": "2026-07-14T00:02:41Z",
-      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/13200240/a-local-s-guide-to-iran-cond-nast-traveler-34-1-800x420.jpeg"
+      "title": "Beyond the Practice Area: Mastering That First Dual Cross-Country",
+      "description": "The first dual-instruction, cross-country flight is one of the most task-saturating lessons a student pilot can undertake. The flight is likely the longest lesson you’ll have done to date, and it may be the first time you’ve had a lesson outside the practice area. When training is under Part 141,…",
+      "url": "https://www.flyingmag.com/beyond-the-practice-area-mastering-that-first-dual-cross-country/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-07-14T13:00:00Z",
+      "image": null
     },
     {
-      "title": "The System That Needed Lindsey Graham",
-      "description": "The senator died Saturday night of an aortic dissection, at seventy-one, in the middle of a campaign for a fifth term. His communications director cited the medical examiner’s preliminary finding: a rupture in the body’s largest artery, the consequence of art…",
-      "url": "https://original.antiwar.com/thomas_karat/2026/07/13/the-system-that-needed-lindsey-graham/",
-      "source": "Antiwar.com",
-      "author": "Thomas S. Karat",
-      "published_at": "2026-07-14T00:00:42Z",
-      "image": "https://dyn3qbr4ue2vr.cloudfront.net/2026/07/lg-tk2.jpg"
+      "title": "SpaceX Targets Starship Return to Form on Flight 13",
+      "description": "SpaceX announced it made several hardware and software modifications to its massive Starship rocket as it prepares for what could be the vehicle’s most critical test flight yet. The launch provider said over the weekend it is targeting a 90-minute launch window that opens at 6:45 p.m. EDT on…",
+      "url": "https://www.flyingmag.com/spacex-starship-return-flight-13/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-14T12:00:00Z",
+      "image": null
     },
     {
-      "title": "The World Made Anew",
-      "description": "Rather, the Left—and some on the Right—are furious whenever Trump tweets, says, or does something that offends their delicate sense of taste, tradition, and decorum. Their outrage leads them to ignore whether this “Art of the Deal” theater ultimately leaves t…",
-      "url": "https://victorhanson.com/the-world-made-anew/",
-      "source": "Victorhanson.com",
-      "author": "July 14, 2026",
-      "published_at": "2026-07-14T00:00:00Z",
-      "image": "https://victorhanson.com/wp-content/uploads/2026/07/20260714_vdh_world_made_anew.jpg"
+      "title": "U.K. Air Taxi Leader Delays Certification to 2029",
+      "description": "American Airlines and other carriers who placed conditional orders for U.K. manufacturer Vertical Aerospace’s Valo, an eVTOL (electric vertical takeoff and landing) air taxi, will not receive the aircraft until 2029 at the earliest. Vertical—considered the U.K.’s leading air taxi developer by…",
+      "url": "https://www.flyingmag.com/uk-air-taxi-leader-vertical-delay-cert-2029/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-13T17:00:00Z",
+      "image": null
     },
     {
-      "title": "Why the most endangered sea turtles in the world are getting stranded very far from home",
-      "description": "An endangered sea turtle named Lucky washed up in Nova Scotia last year. Scientists are trying to solve the mystery of why she and other turtles are traveling so far north.",
-      "url": "https://www.nationalgeographic.com/animals/article/cold-stunned-sea-turtle-lucky",
-      "source": "National Geographic",
-      "author": "@NatGeo",
-      "published_at": "2026-07-14T00:00:00Z",
-      "image": "https://i.natgeofe.com/n/c48b4e7d-4f55-47c5-81c7-8a626548c1b5/Lucky_Close-up_16x9.jpg?w=1200"
-    },
-    {
-      "title": "Delta posts $19.8bn revenue despite record fuel costs",
-      "description": "Delta Air Lines reported $19.8bn in operating revenue and $1.4bn pre-tax profit in Q2 2026, overcoming record fuel costs due to strong demand.\n\nRead More: https://punchng.com/delta-posts-19-8bn-revenue-despite-record-fuel-costs/",
-      "url": "https://punchng.com/delta-posts-19-8bn-revenue-despite-record-fuel-costs/",
-      "source": "The Punch",
-      "author": "Punch Newspapers",
-      "published_at": "2026-07-13T23:51:07Z",
-      "image": "https://punchng.com/wp-content/uploads/2026/07/images-52_1783985864.webp"
-    },
-    {
-      "title": "CBN buffer boosts confidence in naira stability",
-      "description": "The CBN’s massive liquidity buffer and strategic reforms are strengthening the naira, boosting confidence in its stability and attracting foreign investmen\n\nRead More: https://punchng.com/cbn-buffer-boosts-confidence-in-naira-stability/",
-      "url": "https://punchng.com/cbn-buffer-boosts-confidence-in-naira-stability/",
-      "source": "The Punch",
-      "author": "Punch Newspapers",
-      "published_at": "2026-07-13T23:37:08Z",
-      "image": "https://punchng.com/wp-content/uploads/2026/06/CBN-headquarters.webp"
+      "title": "Jeppesen ForeFlight Simplifies Flight Planning With AI-Powered ClearNOTAMs App",
+      "description": "One of the most challenging parts of being a pilot is gathering “all available information before a flight” as required by regulation. This is especially true when it comes to sifting through information dispersed in the form of Notices to Airmen (NOTAMs). Jeppesen ForeFlight is trying to make…",
+      "url": "https://www.flyingmag.com/jeppesen-foreflight-simplifies-flight-planning-with-ai-powered-clearnotams-app/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-07-13T16:02:48Z",
+      "image": null
     }
   ]
 }

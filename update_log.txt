@@ -153,3 +153,43 @@ RuntimeError: NEWSAPI_KEY is not set in .env
 [2026-07-14 21:40:25] START  Generate sitemap.xml
 [2026-07-14 21:40:25] OK     Generate sitemap.xml -> 18
 [2026-07-14 21:40:25] Flight Crew Files update run finished in 2.6s
+[2026-07-14 23:49:23] ============================================================
+[2026-07-14 23:49:23] Flight Crew Files update run starting
+[2026-07-14 23:49:23] START  Fetch YouTube videos
+[2026-07-14 23:49:25] OK     Fetch YouTube videos -> 39
+[2026-07-14 23:49:25] START  Fetch aviation news
+[2026-07-14 23:49:25]        Aviation Week: 10 articles from https://www.aviationweek.com/rss.xml
+[2026-07-14 23:49:26]        Simple Flying: 10 articles from https://simpleflying.com/feed
+[2026-07-14 23:49:27]        FlightGlobal: 10 articles from https://www.flightglobal.com/rss
+[2026-07-14 23:49:28]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-14 23:49:31]        AOPA: 98 articles from https://www.aopa.org/news-and-media/all-news/rss
+[2026-07-14 23:49:32]        Flying Magazine: 10 articles from https://www.flyingmag.com/feed
+[2026-07-14 23:49:32]        1 of 6 feed(s) failed for news.json
+[2026-07-14 23:49:32] OK     Fetch aviation news -> 30
+[2026-07-14 23:49:32] START  Fetch UAP news
+[2026-07-14 23:49:40]        The Black Vault: 25 articles from https://theblackvault.com/casefiles/feed
+[2026-07-14 23:49:41]        UFOs: Scientific Research: 25 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default
+[2026-07-14 23:49:41] OK     Fetch UAP news -> 30
+[2026-07-14 23:49:41] START  Generate sitemap.xml
+[2026-07-14 23:49:41] OK     Generate sitemap.xml -> 19
+[2026-07-14 23:49:41] Flight Crew Files update run finished in 17.9s
+[2026-07-14 23:51:15] ============================================================
+[2026-07-14 23:51:15] Flight Crew Files update run starting
+[2026-07-14 23:51:15] START  Fetch YouTube videos
+[2026-07-14 23:51:17] OK     Fetch YouTube videos -> 39
+[2026-07-14 23:51:17] START  Fetch aviation news
+[2026-07-14 23:51:17]        Aviation Week: 10 articles from https://www.aviationweek.com/rss.xml
+[2026-07-14 23:51:18]        Simple Flying: 10 articles from https://simpleflying.com/feed
+[2026-07-14 23:51:19]        FlightGlobal: 10 articles from https://www.flightglobal.com/rss
+[2026-07-14 23:51:20]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-14 23:51:24]        AOPA: 98 articles from https://www.aopa.org/news-and-media/all-news/rss
+[2026-07-14 23:51:25]        Flying Magazine: 10 articles from https://www.flyingmag.com/feed
+[2026-07-14 23:51:25]        1 of 6 feed(s) failed for news.json
+[2026-07-14 23:51:25] OK     Fetch aviation news -> 30
+[2026-07-14 23:51:25] START  Fetch UAP news
+[2026-07-14 23:51:34]        The Black Vault: 25 articles from https://theblackvault.com/casefiles/feed
+[2026-07-14 23:51:35]        UFOs: Scientific Research: 25 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default
+[2026-07-14 23:51:35] OK     Fetch UAP news -> 30
+[2026-07-14 23:51:35] START  Generate sitemap.xml
+[2026-07-14 23:51:35] OK     Generate sitemap.xml -> 19
+[2026-07-14 23:51:35] Flight Crew Files update run finished in 19.6s

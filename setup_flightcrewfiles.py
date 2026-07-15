@@ -10,15 +10,19 @@ everything to update_log.txt. Each step is independent -- if one fails
 (bad API key, quota exceeded, network error), the rest still run.
 """
 
+import email.utils
 import glob
+import html
 import json
 import os
+import re
 import sys
 import time
 import traceback
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -75,6 +79,13 @@ def http_get_json(url):
     with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
         body = resp.read().decode("utf-8")
     return json.loads(body)
+
+
+def http_get_bytes(url):
+    """GET a URL and return raw bytes (for XML parsing). Raises on any failure."""
+    req = urllib.request.Request(url, headers={"User-Agent": "flightcrewfiles-setup/1.0"})
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+        return resp.read()
 
 
 def write_json(filename, data):
@@ -149,65 +160,234 @@ def fetch_youtube_videos(api_key):
 
 
 # --------------------------------------------------------------------------
-# Step 2: Aviation news -> news.json
+# Step 2: Aviation news -> news.json / uap_news.json (RSS, no API key)
 # --------------------------------------------------------------------------
 
-def fetch_newsapi(api_key, query, filename, page_size=20):
-    """Shared NewsAPI /v2/everything fetch, used for both general and UAP news."""
-    if not api_key:
-        raise RuntimeError("NEWSAPI_KEY is not set in .env")
+# (feed_url, friendly source name) -- friendly name is used as the "source"
+# field in the output JSON, matching what NewsAPI used to supply.
+AVIATION_FEEDS = [
+    ("https://www.aviationweek.com/rss.xml", "Aviation Week"),
+    ("https://simpleflying.com/feed", "Simple Flying"),
+    ("https://www.flightglobal.com/rss", "FlightGlobal"),
+    ("https://avherald.com/h?archive", "The Aviation Herald"),
+    ("https://www.aopa.org/news-and-media/all-news/rss", "AOPA"),
+    ("https://www.flyingmag.com/feed", "Flying Magazine"),
+]
 
-    params = {
-        "q": query,
-        "language": "en",
-        "sortBy": "publishedAt",
-        "pageSize": str(page_size),
-        "apiKey": api_key,
+# theblackvault.com doesn't publish a feed at /documentdb/feed (404); their
+# real UFO/UAP case-files RSS lives at /casefiles/feed, so that's used here.
+UAP_FEEDS = [
+    ("https://theblackvault.com/casefiles/feed", "The Black Vault"),
+    ("https://ufos-scientificresearch.blogspot.com/feeds/posts/default", "UFOs: Scientific Research"),
+]
+
+ATOM_NS = "{http://www.w3.org/2005/Atom}"
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
+DC_NS = "{http://purl.org/dc/elements/1.1/}"
+
+TAG_RE = re.compile(r"<[^>]+>")
+WHITESPACE_RE = re.compile(r"\s+")
+IMG_SRC_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+
+
+def clean_text(raw, max_len=300):
+    """Strip HTML tags/entities from a feed field and trim to a NewsAPI-like excerpt."""
+    if not raw:
+        return None
+    # Some feeds (e.g. Aviation Week) double-escape their HTML entities.
+    text = html.unescape(html.unescape(raw))
+    text = TAG_RE.sub(" ", text)
+    text = WHITESPACE_RE.sub(" ", text).strip()
+    if not text:
+        return None
+    if len(text) > max_len:
+        text = text[:max_len].rsplit(" ", 1)[0] + "…"
+    return text
+
+
+def parse_feed_date(raw):
+    """Parse an RFC822 (RSS) or ISO8601 (Atom) date into an ISO8601 UTC string."""
+    if not raw:
+        return None
+    raw = raw.strip()
+    try:
+        dt = email.utils.parsedate_to_datetime(raw)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.astimezone(timezone.utc).replace(microsecond=0)
+        return dt.isoformat().replace("+00:00", "Z")
+    except (TypeError, ValueError):
+        pass
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.astimezone(timezone.utc).replace(microsecond=0)
+        return dt.isoformat().replace("+00:00", "Z")
+    except ValueError:
+        return None
+
+
+def extract_image(item):
+    """Best-effort image extraction: <enclosure>, media:content/thumbnail, then a
+    regex sniff of the first <img> in content:encoded or description."""
+    enclosure = item.find("enclosure")
+    if enclosure is not None:
+        url = enclosure.get("url")
+        type_ = enclosure.get("type", "")
+        if url and (not type_ or type_.startswith("image")):
+            return url
+
+    media_el = item.find(f"{MEDIA_NS}content")
+    if media_el is None:
+        media_el = item.find(f"{MEDIA_NS}thumbnail")
+    if media_el is not None and media_el.get("url"):
+        return media_el.get("url")
+
+    for html_blob in (item.findtext(f"{CONTENT_NS}encoded"), item.findtext("description")):
+        if html_blob:
+            match = IMG_SRC_RE.search(html_blob)
+            if match:
+                return match.group(1)
+    return None
+
+
+def parse_rss_item(item, source_name):
+    """Parse a single RSS 2.0 <item> into the news.json article shape."""
+    title = clean_text(item.findtext("title"), max_len=200)
+    link = item.findtext("link")
+    link = link.strip() if link else None
+    if not title or not link:
+        return None
+
+    description = clean_text(item.findtext(f"{CONTENT_NS}encoded") or item.findtext("description"))
+    author = clean_text(item.findtext(f"{DC_NS}creator") or item.findtext("author"), max_len=100)
+
+    return {
+        "title": title,
+        "description": description,
+        "url": link,
+        "source": source_name,
+        "author": author,
+        "published_at": parse_feed_date(item.findtext("pubDate")),
+        "image": extract_image(item),
     }
-    url = "https://newsapi.org/v2/everything?" + urllib.parse.urlencode(params)
-    data = http_get_json(url)
 
-    if data.get("status") != "ok":
-        raise RuntimeError(f"NewsAPI error for query '{query}': {data.get('message', 'unknown error')}")
 
-    articles = []
-    for a in data.get("articles", []):
-        articles.append({
-            "title": a.get("title"),
-            "description": a.get("description"),
-            "url": a.get("url"),
-            "source": (a.get("source") or {}).get("name"),
-            "author": a.get("author"),
-            "published_at": a.get("publishedAt"),
-            "image": a.get("urlToImage"),
-        })
+def parse_atom_entry(entry, source_name):
+    """Parse a single Atom <entry> (e.g. Blogger feeds) into the news.json article shape."""
+    title = clean_text(entry.findtext(f"{ATOM_NS}title"), max_len=200)
+
+    link = None
+    for link_el in entry.findall(f"{ATOM_NS}link"):
+        if link_el.get("rel", "alternate") == "alternate" and link_el.get("href"):
+            link = link_el.get("href")
+            break
+    if not link:
+        any_link = entry.find(f"{ATOM_NS}link")
+        link = any_link.get("href") if any_link is not None else None
+
+    if not title or not link:
+        return None
+
+    content_html = entry.findtext(f"{ATOM_NS}content")
+    description = clean_text(content_html or entry.findtext(f"{ATOM_NS}summary"))
+
+    author = None
+    author_el = entry.find(f"{ATOM_NS}author/{ATOM_NS}name")
+    if author_el is not None:
+        author = clean_text(author_el.text, max_len=100)
+
+    published_at = parse_feed_date(
+        entry.findtext(f"{ATOM_NS}published") or entry.findtext(f"{ATOM_NS}updated")
+    )
+
+    image = None
+    if content_html:
+        match = IMG_SRC_RE.search(content_html)
+        if match:
+            image = match.group(1)
+
+    return {
+        "title": title,
+        "description": description,
+        "url": link,
+        "source": source_name,
+        "author": author,
+        "published_at": published_at,
+        "image": image,
+    }
+
+
+def fetch_one_feed(url, source_name):
+    """Fetch and parse a single RSS or Atom feed into a list of article dicts."""
+    body = http_get_bytes(url)
+    root = ET.fromstring(body)
+    root_tag = root.tag.split("}")[-1]  # strip namespace, if any
+
+    if root_tag == "rss":
+        channel = root.find("channel")
+        items = channel.findall("item") if channel is not None else []
+        return [a for a in (parse_rss_item(i, source_name) for i in items) if a]
+
+    if root_tag == "feed":
+        entries = root.findall(f"{ATOM_NS}entry")
+        return [a for a in (parse_atom_entry(e, source_name) for e in entries) if a]
+
+    raise RuntimeError(f"unrecognized feed format (root element <{root_tag}>)")
+
+
+def fetch_rss_news(feeds, filename, query_label, cap=30):
+    """Fetch a list of (url, source_name) RSS/Atom feeds, merge, dedupe, sort by
+    recency, and save. Each feed is isolated -- one bad feed logs a warning and
+    is skipped rather than failing the whole run."""
+    all_articles = []
+    seen_urls = set()
+    feed_errors = []
+
+    for url, source_name in feeds:
+        try:
+            fetched = fetch_one_feed(url, source_name)
+            added = 0
+            for article in fetched:
+                if article["url"] in seen_urls:
+                    continue
+                seen_urls.add(article["url"])
+                all_articles.append(article)
+                added += 1
+            log(f"       {source_name}: {added} articles from {url}")
+        except Exception as exc:  # noqa: BLE001 - one bad feed shouldn't kill the rest
+            feed_errors.append(f"{source_name} ({url}): {exc}")
+            log(f"       WARN {source_name} feed failed -> {exc}")
+
+    all_articles.sort(key=lambda a: a["published_at"] or "", reverse=True)
+    articles = all_articles[:cap]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "query": query,
+        "query": query_label,
         "count": len(articles),
         "articles": articles,
     }
     write_json(filename, payload)
+
+    if feed_errors:
+        log(f"       {len(feed_errors)} of {len(feeds)} feed(s) failed for {filename}")
+    if not articles and feed_errors:
+        raise RuntimeError("All feeds failed: " + "; ".join(feed_errors))
+
     return len(articles)
 
 
-def fetch_aviation_news(api_key):
-    return fetch_newsapi(
-        api_key,
-        query='aviation OR airline OR airplane OR aircraft',
-        filename="news.json",
-        page_size=20,
-    )
+def fetch_aviation_news():
+    label = "RSS: " + ", ".join(name for _, name in AVIATION_FEEDS)
+    return fetch_rss_news(AVIATION_FEEDS, "news.json", label, cap=30)
 
 
-def fetch_uap_news(api_key):
-    return fetch_newsapi(
-        api_key,
-        query='UAP OR UFO OR "unidentified aerial phenomena" OR "unidentified flying object"',
-        filename="uap_news.json",
-        page_size=20,
-    )
+def fetch_uap_news():
+    label = "RSS: " + ", ".join(name for _, name in UAP_FEEDS)
+    return fetch_rss_news(UAP_FEEDS, "uap_news.json", label, cap=30)
 
 
 # --------------------------------------------------------------------------
@@ -271,23 +451,20 @@ def main():
 
     env = load_env(ENV_PATH)
     youtube_key = env.get("YOUTUBE_API_KEY") or os.environ.get("YOUTUBE_API_KEY")
-    newsapi_key = env.get("NEWSAPI_KEY") or os.environ.get("NEWSAPI_KEY")
 
     if not youtube_key:
         log("WARNING YOUTUBE_API_KEY not found in .env or environment")
-    if not newsapi_key:
-        log("WARNING NEWSAPI_KEY not found in .env or environment")
 
     results = {}
 
     print("\n[1/4] Fetching latest aviation videos from YouTube...")
     results["videos"] = run_step("Fetch YouTube videos", fetch_youtube_videos, youtube_key)
 
-    print("\n[2/4] Fetching latest aviation news...")
-    results["news"] = run_step("Fetch aviation news", fetch_aviation_news, newsapi_key)
+    print("\n[2/4] Fetching latest aviation news from RSS feeds...")
+    results["news"] = run_step("Fetch aviation news", fetch_aviation_news)
 
-    print("\n[3/4] Fetching UAP-specific news...")
-    results["uap_news"] = run_step("Fetch UAP news", fetch_uap_news, newsapi_key)
+    print("\n[3/4] Fetching UAP-specific news from RSS feeds...")
+    results["uap_news"] = run_step("Fetch UAP news", fetch_uap_news)
 
     print("\n[4/4] Generating sitemap.xml...")
     results["sitemap"] = run_step("Generate sitemap.xml", generate_sitemap)
