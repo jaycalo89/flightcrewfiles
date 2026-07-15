@@ -206,8 +206,59 @@
     setInterval(updateTimestamp, 30 * 1000);
   }
 
+  // ---------- Compact live feed (homepage) ----------
+  function initHomeFeed() {
+    var feedEl = document.getElementById('home-news-feed');
+    if (!feedEl) return;
+
+    function buildCard(article) {
+      var card = document.createElement('article');
+      card.className = 'nf-card is-visible';
+      card.innerHTML =
+        '<div class="nf-card-head">' +
+          '<span class="nf-source"></span>' +
+          '<span class="vf-dot">&bull;</span>' +
+          '<span class="nf-time"></span>' +
+        '</div>' +
+        '<h3 class="nf-headline"></h3>' +
+        '<p class="nf-excerpt"></p>' +
+        '<a class="read-report" target="_blank" rel="noopener">Read More &rarr;</a>';
+
+      card.querySelector('.nf-source').textContent = article.source || 'Unknown Source';
+      card.querySelector('.nf-time').textContent = timeAgo(article.published_at);
+      card.querySelector('.nf-headline').textContent = article.title || '';
+      card.querySelector('.nf-excerpt').textContent = article.description || '';
+      card.querySelector('.read-report').href = article.url;
+
+      return card;
+    }
+
+    function load() {
+      fetchNews().then(function (data) {
+        var latest = (data.articles || [])
+          .filter(isAviationRelevant)
+          .sort(function (a, b) { return new Date(b.published_at) - new Date(a.published_at); })
+          .slice(0, 6);
+
+        if (!latest.length) {
+          feedEl.innerHTML = '<div class="nf-empty">No aviation stories in the feed right now — check back soon.</div>';
+          return;
+        }
+
+        feedEl.innerHTML = '';
+        latest.forEach(function (article) { feedEl.appendChild(buildCard(article)); });
+      }).catch(function () {
+        feedEl.innerHTML = '<div class="nf-empty">The live feed couldn&rsquo;t be loaded right now. Please check back shortly.</div>';
+      });
+    }
+
+    load();
+    setInterval(load, REFRESH_MS);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initTicker();
     initFeed();
+    initHomeFeed();
   });
 })();
