@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:57:00.867279+00:00",
+  "generated_at": "2026-07-15T16:08:38.140152+00:00",
   "count": 39,
   "queries": [
     "aviation incident news",
@@ -199,13 +199,13 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "lAwgvRNuq_Y",
-      "title": "What Is the Black Box in a Plane? | Why Is It Orange?",
-      "description": "What is the black box? What is the black box in a plane? How does the black box work, and what does the black box record?",
-      "channel": "The Engineer's Notebook",
-      "published_at": "2026-07-13T19:05:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/lAwgvRNuq_Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=lAwgvRNuq_Y",
+      "video_id": "oayrSGghwxE",
+      "title": "CCCP-76569 Cockpit Voice Recorder (October 18th, 1989)",
+      "description": "Also known as the 1989 Soviet Air Force IL-76 crash) Cause: Uncontained engine failure leading to engine seperation and loss of ...",
+      "channel": "Archive Of CVR & ATC Recordings",
+      "published_at": "2026-07-13T18:58:21Z",
+      "thumbnail": "https://i.ytimg.com/vi/oayrSGghwxE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=oayrSGghwxE",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -379,16 +379,6 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "TcTAAYum0HA",
-      "title": "UAP: The RAF Saw a &#39;Perfect Flying Saucer&#39; (Real Declassified CIA File)",
-      "description": "A real, declassified 1952 CIA memo records that RAF officials and pilots over Yorkshire saw what the report calls a \"perfect flying ...",
-      "channel": "The UAP Harold",
-      "published_at": "2026-07-02T21:39:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/TcTAAYum0HA/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TcTAAYum0HA",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
       "video_id": "b06BQckgCEo",
       "title": "Former Navy pilot says pilots &quot;bury their heads in the sand&quot; when it comes to UFO sightings",
       "description": "Former Navy F/A-18 pilot Ryan Graves told Pennsylvania lawmakers that pilots and flight crews are still encountering unexplained ...",
@@ -396,6 +386,16 @@
       "published_at": "2026-07-02T01:00:01Z",
       "thumbnail": "https://i.ytimg.com/vi/b06BQckgCEo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=b06BQckgCEo",
+      "matched_query": "UAP pilot sighting"
+    },
+    {
+      "video_id": "PD3p8kWe6s8",
+      "title": "Avvistamento UFO, ripreso sopra il Sahara, Egitto (11 ottobre 2024) 🇪🇬",
+      "description": "Il mistero del mattino: UFO sigariforme sui cieli del Sahara ​Un incredibile avvistamento ha infiammato il web, riportandoci alla ...",
+      "channel": "Ufoglobal Italia",
+      "published_at": "2026-06-28T10:42:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/PD3p8kWe6s8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=PD3p8kWe6s8",
       "matched_query": "UAP pilot sighting"
     }
   ]
