@@ -234,7 +234,7 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   padding:8px 22px 8px 16px;font-family:'Oswald',sans-serif;font-size:.7rem;
   letter-spacing:.16em;text-transform:uppercase;color:var(--gold-400);font-weight:700;
 }
-.ticker-track{display:inline-block;padding-left:160px;animation:ticker-scroll 38s linear infinite;}
+.ticker-track{display:inline-block;padding-left:160px;animation:ticker-scroll 114s linear infinite;}
 .ticker-track span{
   display:inline-block;padding:9px 34px 9px 0;font-size:.82rem;color:var(--muted);
 }

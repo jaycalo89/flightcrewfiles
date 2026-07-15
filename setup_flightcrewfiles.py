@@ -10,6 +10,7 @@ everything to update_log.txt. Each step is independent -- if one fails
 (bad API key, quota exceeded, network error), the rest still run.
 """
 
+import difflib
 import email.utils
 import glob
 import html
@@ -23,7 +24,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ENV_PATH = os.path.join(SCRIPT_DIR, ".env")
@@ -189,6 +190,123 @@ DC_NS = "{http://purl.org/dc/elements/1.1/}"
 TAG_RE = re.compile(r"<[^>]+>")
 WHITESPACE_RE = re.compile(r"\s+")
 IMG_SRC_RE = re.compile(r'<img[^>]+src=["\']([^"\']+)["\']', re.IGNORECASE)
+NON_ALNUM_RE = re.compile(r"[^a-z0-9\s]")
+
+# --------------------------------------------------------------------------
+# Article quality validation
+# --------------------------------------------------------------------------
+
+MIN_TITLE_LENGTH = 20
+MIN_DESCRIPTION_LENGTH = 50
+MAX_ARTICLE_AGE = timedelta(days=7)
+CLOCK_SKEW_ALLOWANCE = timedelta(hours=1)  # tolerate feeds with slightly-future timestamps
+TITLE_SIMILARITY_THRESHOLD = 0.85  # same-story dedup across feeds
+
+AVIATION_KEYWORDS = {
+    "aircraft", "aeroplane", "airplane", "airline", "airlines", "airliner",
+    "airport", "airspace", "airworthiness", "airworthy", "aviation", "aviator",
+    "aerospace", "boeing", "airbus", "embraer", "bombardier", "cessna",
+    "cockpit", "pilot", "pilots", "copilot", "faa", "easa", "icao", "iata",
+    "ntsb", "tsa", "flight", "flights", "flying", "runway", "taxiway",
+    "tarmac", "jet", "jetliner", "turbulence", "fuselage", "airfield",
+    "cabin crew", "flight attendant", "air traffic", "mayday", "black box",
+    "flight recorder", "helicopter", "drone", "uas", "uap", "ufo",
+    "cargo plane", "charter flight", "commercial jet", "emergency landing",
+    "airworthiness directive", "grounded fleet", "midair", "mid-air",
+    "hijack", "turboprop", "airfare", "layover", "flight delay",
+    "flight cancellation", "air travel", "airman", "airmen", "hangar",
+}
+
+
+def is_aviation_related(title, description):
+    """Heuristic relevance check: title/description must reference aviation
+    subject matter, since fetching every article's full page body would be
+    slow and fragile against anti-bot/paywall responses."""
+    text = f"{title or ''} {description or ''}".lower()
+    return any(keyword in text for keyword in AVIATION_KEYWORDS)
+
+
+def _registrable_domain(netloc):
+    netloc = (netloc or "").lower().split(":")[0]  # drop port
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+    return netloc
+
+
+def domain_matches_feed(article_url, feed_url):
+    """Reject articles whose link resolves to a different domain than the
+    feed itself (e.g. ad redirects, syndicated pickups, tracking wrappers)."""
+    try:
+        article_domain = _registrable_domain(urllib.parse.urlparse(article_url).netloc)
+        feed_domain = _registrable_domain(urllib.parse.urlparse(feed_url).netloc)
+    except ValueError:
+        return False
+    if not article_domain or not feed_domain:
+        return False
+    return article_domain == feed_domain
+
+
+def is_within_lookback(published_at, max_age=MAX_ARTICLE_AGE):
+    """True if published_at parses and falls within the last `max_age`."""
+    if not published_at:
+        return False
+    try:
+        dt = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    age = datetime.now(timezone.utc) - dt
+    return -CLOCK_SKEW_ALLOWANCE <= age <= max_age
+
+
+def normalize_title(title):
+    """Lowercase/punctuation-stripped title, used only for fuzzy same-story
+    matching across different feeds -- not stored or displayed."""
+    text = NON_ALNUM_RE.sub("", title.lower())
+    text = WHITESPACE_RE.sub(" ", text).strip()
+    return text
+
+
+def validate_article(article, feed_url):
+    """Apply all article-quality checks. Returns (is_valid, reason_if_rejected)."""
+    title = article.get("title") or ""
+    description = article.get("description") or ""
+    url = article.get("url") or ""
+
+    if len(title) < MIN_TITLE_LENGTH:
+        return False, f"title shorter than {MIN_TITLE_LENGTH} chars"
+    if len(description) < MIN_DESCRIPTION_LENGTH:
+        return False, f"description missing or shorter than {MIN_DESCRIPTION_LENGTH} chars"
+    if not domain_matches_feed(url, feed_url):
+        return False, "article URL domain doesn't match source feed domain"
+    if not is_aviation_related(title, description):
+        return False, "no aviation-related content detected"
+    if not is_within_lookback(article.get("published_at")):
+        return False, "not published within the last 7 days"
+    return True, None
+
+
+def dedupe_similar_titles(articles, threshold=TITLE_SIMILARITY_THRESHOLD):
+    """Drop articles whose normalized title is near-identical to one already
+    kept (e.g. the same wire story picked up by two different outlets).
+    Assumes `articles` is already sorted most-recent-first, so the freshest
+    copy of a duplicated story is the one that's kept."""
+    kept = []
+    kept_norms = []
+    dropped = 0
+    for article in articles:
+        norm = normalize_title(article["title"])
+        is_dup = any(
+            difflib.SequenceMatcher(None, norm, other_norm).ratio() >= threshold
+            for other_norm in kept_norms
+        )
+        if is_dup:
+            dropped += 1
+            continue
+        kept.append(article)
+        kept_norms.append(norm)
+    return kept, dropped
 
 
 def clean_text(raw, max_len=300):
@@ -345,23 +463,35 @@ def fetch_rss_news(feeds, filename, query_label, cap=30):
     all_articles = []
     seen_urls = set()
     feed_errors = []
+    total_rejected = 0
 
     for url, source_name in feeds:
         try:
             fetched = fetch_one_feed(url, source_name)
             added = 0
+            rejected = 0
             for article in fetched:
                 if article["url"] in seen_urls:
+                    continue
+                is_valid, reason = validate_article(article, url)
+                if not is_valid:
+                    rejected += 1
                     continue
                 seen_urls.add(article["url"])
                 all_articles.append(article)
                 added += 1
-            log(f"       {source_name}: {added} articles from {url}")
+            total_rejected += rejected
+            log(f"       {source_name}: {added} articles from {url} ({rejected} rejected by validation)")
         except Exception as exc:  # noqa: BLE001 - one bad feed shouldn't kill the rest
             feed_errors.append(f"{source_name} ({url}): {exc}")
             log(f"       WARN {source_name} feed failed -> {exc}")
 
     all_articles.sort(key=lambda a: a["published_at"] or "", reverse=True)
+    all_articles, dropped_dupes = dedupe_similar_titles(all_articles)
+    if dropped_dupes:
+        log(f"       {dropped_dupes} cross-feed duplicate article(s) removed")
+    if total_rejected:
+        log(f"       {total_rejected} article(s) rejected by validation across all feeds")
     articles = all_articles[:cap]
 
     payload = {
