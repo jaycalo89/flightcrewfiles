@@ -123,6 +123,9 @@ def fetch_youtube_videos(api_key):
             "type": "video",
             "order": "date",
             "maxResults": "10",
+            "relevanceLanguage": "en",
+            "regionCode": "US",
+            "videoEmbeddable": "true",
             "key": api_key,
         }
         url = "https://www.googleapis.com/youtube/v3/search?" + urllib.parse.urlencode(params)

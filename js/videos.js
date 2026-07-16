@@ -66,6 +66,19 @@ document.addEventListener('DOMContentLoaded', function () {
     return String(n);
   }
 
+  // This is an English-language site; the YouTube search that builds videos.json
+  // only hints at language (relevanceLanguage isn't a hard filter), so a few
+  // non-English clips can still slip through. Drop titles that are mostly
+  // non-ASCII rather than show them untranslated in the feed.
+  function looksEnglish(text) {
+    if (!text) return true;
+    var asciiCount = 0;
+    for (var i = 0; i < text.length; i++) {
+      if (text.charCodeAt(i) < 128) asciiCount++;
+    }
+    return (asciiCount / text.length) >= 0.7;
+  }
+
   function buildCard(item) {
     var category = item._category;
     var accent = CATEGORY_ACCENT[category] || '#2e8fff';
@@ -218,14 +231,15 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch('videos.json')
     .then(function (res) { return res.json(); })
     .then(function (data) {
-      allItems = (data.items || []).slice().sort(function (a, b) {
-        return new Date(b.published_at) - new Date(a.published_at);
-      });
+      allItems = (data.items || [])
+        .filter(function (item) { return looksEnglish(item.title); })
+        .sort(function (a, b) {
+          return new Date(b.published_at) - new Date(a.published_at);
+        });
       allItems.forEach(function (item) { item._category = categorize(item); });
 
       if (breakingEl) {
-        var count = data.count || allItems.length;
-        breakingEl.innerHTML = '<strong>' + count + '</strong> aviation videos live right now &mdash; new footage added daily.';
+        breakingEl.innerHTML = '<strong>' + allItems.length + '</strong> aviation videos live right now &mdash; new footage added daily.';
       }
 
       applyFilter('all');

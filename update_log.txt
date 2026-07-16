@@ -279,3 +279,25 @@ RuntimeError: NEWSAPI_KEY is not set in .env
 [2026-07-15 12:08:53] START  Generate sitemap.xml
 [2026-07-15 12:08:53] OK     Generate sitemap.xml -> 19
 [2026-07-15 12:08:53] Flight Crew Files update run finished in 17.9s
+[2026-07-16 16:46:51] ============================================================
+[2026-07-16 16:46:51] Flight Crew Files update run starting
+[2026-07-16 16:46:51] START  Fetch YouTube videos
+[2026-07-16 16:46:53] OK     Fetch YouTube videos -> 40
+[2026-07-16 16:46:53] START  Fetch aviation news
+[2026-07-16 16:46:53]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-16 16:46:55]        Simple Flying: 7 articles from https://simpleflying.com/feed (3 rejected by validation)
+[2026-07-16 16:47:00]        FlightGlobal: 7 articles from https://www.flightglobal.com/rss (3 rejected by validation)
+[2026-07-16 16:47:01]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-16 16:47:07]        AOPA: 4 articles from https://www.aopa.org/news-and-media/all-news/rss (94 rejected by validation)
+[2026-07-16 16:47:14]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-16 16:47:14]        114 article(s) rejected by validation across all feeds
+[2026-07-16 16:47:14]        1 of 6 feed(s) failed for news.json
+[2026-07-16 16:47:14] OK     Fetch aviation news -> 24
+[2026-07-16 16:47:14] START  Fetch UAP news
+[2026-07-16 16:47:16]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-16 16:47:17]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-16 16:47:17]        50 article(s) rejected by validation across all feeds
+[2026-07-16 16:47:17] OK     Fetch UAP news -> 0
+[2026-07-16 16:47:17] START  Generate sitemap.xml
+[2026-07-16 16:47:17] OK     Generate sitemap.xml -> 25
+[2026-07-16 16:47:17] Flight Crew Files update run finished in 26.0s
