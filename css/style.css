@@ -531,6 +531,7 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .newsletter-form input:focus{outline:none;border-color:var(--blue-400);}
 .newsletter-inline-msg{font-size:.8rem;color:var(--gold-400);margin-top:10px;display:none;width:100%;}
 .newsletter-inline-msg.show{display:block;}
+.beehiiv-embed{min-width:320px;flex:1 1 320px;}
 
 /* ===== Ad slot ===== */
 .ad-slot{
@@ -681,19 +682,24 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .station-card h3{font-size:1.08rem;text-transform:none;margin-bottom:0;}
 .station-card p{font-size:.88rem;}
 
-/* ===== Live Flights (Flightradar24 embed) ===== */
+/* ===== Live Flights (Flightradar24 link-out) ===== */
 .fr24-frame{
   border:1px solid var(--border-gold);border-radius:var(--radius-lg);overflow:hidden;
   box-shadow:var(--shadow-glow);background:var(--navy-900);
 }
-.fr24-frame-head{
-  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
-  padding:16px 22px;border-bottom:1px solid var(--border-soft);
-  background:linear-gradient(90deg,var(--navy-900),var(--navy-850));
+.fr24-cta{
+  display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;
+  padding:64px 40px;
+  background:
+    radial-gradient(500px 260px at 50% 0%, rgba(212,175,55,0.14), transparent 70%),
+    linear-gradient(160deg,var(--navy-900),var(--navy-800));
 }
-.fr24-frame-head .brand-word{font-size:.95rem;}
-.fr24-embed{width:100%;height:640px;border:0;display:block;background:var(--navy-950);}
-@media (max-width:700px){.fr24-embed{height:440px;}}
+.fr24-cta .live-dot{margin-bottom:4px;}
+.fr24-cta-icon{width:44px;height:44px;stroke:var(--gold-400);filter:drop-shadow(0 0 12px rgba(232,199,102,0.35));}
+.fr24-cta-title{font-size:1.6rem;color:var(--white);text-transform:none;margin:0;}
+.fr24-cta-text{max-width:480px;color:var(--muted-light);margin-bottom:6px;}
+.fr24-cta-btn{padding:16px 34px;font-size:.9rem;display:inline-flex;align-items:center;gap:10px;}
+@media (max-width:700px){.fr24-cta{padding:44px 24px;}}
 
 /* ===== Glossary ===== */
 .az-nav{
@@ -1174,26 +1180,6 @@ body.nav-open .mobile-panel{
 }
 .form-error-msg.show{display:block;}
 
-/* ===== Social Buzz (homepage) ===== */
-.social-buzz-col{display:flex;flex-direction:column;gap:14px;}
-.social-buzz-head{display:flex;align-items:center;gap:12px;}
-.social-buzz-icon{
-  width:42px;height:42px;border-radius:10px;flex-shrink:0;
-  display:flex;align-items:center;justify-content:center;
-  background:rgba(212,175,55,0.1);border:1px solid var(--border-gold);
-}
-.social-buzz-icon svg{width:22px;height:22px;stroke:var(--gold-400);}
-.social-buzz-head h3{margin-bottom:0;font-size:1.15rem;text-transform:none;color:var(--white);}
-.social-placeholder{
-  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
-  min-height:220px;padding:36px 24px;text-align:center;
-  border:1.5px dashed var(--border-gold);border-radius:var(--radius-lg);
-  background:rgba(212,175,55,0.04);
-}
-.social-placeholder svg{width:34px;height:34px;stroke:var(--gold-400);opacity:.8;}
-.social-placeholder p{margin:0;color:var(--muted-light);font-size:.9rem;}
-.social-follow-btn{min-height:44px;}
-@media (max-width:640px){.social-buzz-col{align-items:center;text-align:center;}.social-buzz-head{flex-direction:column;}}
 .nf-empty{grid-column:1/-1;text-align:center;padding:50px 24px;color:var(--muted-light);}
 
 /* ===== Comments (story pages) — Giscus, positioned before the newsletter section ===== */

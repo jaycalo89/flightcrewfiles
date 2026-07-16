@@ -53,30 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Generic "fake submit" handler for newsletter forms.
-  // This is a static front-end demo: forms are not wired to a backend yet.
-  document.querySelectorAll('form[data-demo-form]').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var msg = form.querySelector('[data-form-message]');
-      var button = form.querySelector('button[type="submit"]');
-      if (button) {
-        var originalText = button.textContent;
-        button.textContent = 'Boarding…';
-        button.disabled = true;
-        setTimeout(function () {
-          button.textContent = originalText;
-          button.disabled = false;
-        }, 1400);
-      }
-      if (msg) {
-        msg.classList.add('show');
-        setTimeout(function () { msg.classList.remove('show'); }, 6000);
-      }
-      form.reset();
-    });
-  });
-
   // Category filter chips (visual filtering on archive pages)
   var chips = document.querySelectorAll('.chip[data-filter]');
   var filterCards = document.querySelectorAll('[data-tag]');

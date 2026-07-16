@@ -6,7 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
 <title>Live Flights — Real-Time Flight Tracker | Flight Crew Files</title>
-<meta name="description" content="Track thousands of aircraft in real time with our embedded Flightradar24 live flight map — see what's flying overhead anywhere in the world, right now.">
+<meta name="description" content="Track thousands of aircraft in real time on Flightradar24 — see what's flying overhead anywhere in the world, right now.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Flight Crew Files">
+<meta property="og:title" content="Live Flights — Real-Time Flight Tracker | Flight Crew Files">
+<meta property="og:description" content="Track thousands of aircraft in real time on Flightradar24 — see what's flying overhead anywhere in the world, right now.">
+<meta property="og:image" content="https://flightcrewfiles.com/og-image.jpg">
+<meta property="og:url" content="https://flightcrewfiles.com/live-flights.html">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -87,21 +94,15 @@
 <section class="section-tight">
   <div class="container">
 
-    <div class="fr24-frame">
-      <div class="fr24-frame-head">
-        <span class="live-dot">Live Data Feed</span>
-        <a href="https://www.flightradar24.com/" class="card-link" target="_blank" rel="noopener">Open Full Map On Flightradar24 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      </div>
-      <iframe
-        class="fr24-embed"
-        src="https://www.flightradar24.com/simple_index.php?lat=30&amp;lon=10&amp;z=3"
-        title="Flightradar24 live flight tracker"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+    <div class="fr24-frame fr24-cta">
+      <span class="live-dot">Live Data Feed</span>
+      <svg class="fr24-cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M21 3 3 10.5l7 2.2L14 20l2.2-7L21 3Z"/></svg>
+      <h2 class="fr24-cta-title">Track Live Flights on Flightradar24</h2>
+      <p class="fr24-cta-text">Watch thousands of aircraft moving in real time — zoom into any airport, follow a specific tail number, or explore live air traffic anywhere in the world.</p>
+      <a href="https://www.flightradar24.com/" class="btn btn-gold fr24-cta-btn" target="_blank" rel="noopener">Open Flightradar24 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
 
-    <p class="affiliate-note" style="margin-top:24px;">This map is an embedded live view from Flightradar24, a third-party flight tracking service — we are not affiliated with Flightradar24. Coverage depends on ADS-B receiver density, so some regions (mid-ocean, parts of Africa and Asia, and some military or general aviation traffic) may show gaps. If the map doesn't load, use the link above to view it directly on flightradar24.com.</p>
+    <p class="affiliate-note" style="margin-top:24px;">Flightradar24 is a third-party flight tracking service — we are not affiliated with Flightradar24. Coverage depends on ADS-B receiver density, so some regions (mid-ocean, parts of Africa and Asia, and some military or general aviation traffic) may show gaps.</p>
   </div>
 </section>
 
@@ -134,11 +135,9 @@
         <h3>Get The Pre-Flight Briefing.</h3>
         <p>New scary stories, heroic saves, unexplained cases and UAP files — delivered to your inbox weekly, no spam, ever.</p>
       </div>
-      <form class="newsletter-form" data-demo-form>
-        <input type="email" required placeholder="Your email address" aria-label="Email address">
-        <button type="submit" class="btn btn-gold">Subscribe</button>
-        <span class="newsletter-inline-msg" data-form-message>You're cleared for boarding — welcome aboard.</span>
-      </form>
+      <div class="newsletter-form beehiiv-embed">
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="b7d6594e-32c5-45c4-ade3-3e5046a08887"></script>
+      </div>
     </div>
   </div>
 </section>
@@ -187,7 +186,6 @@
           <li><a href="glossary.html">Glossary</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="bookshelf.html">Bookshelf</a></li>
-          <li><a href="index.html#social-buzz">Social Buzz</a></li>
         </ul>
       </div>
       <div class="footer-col">
