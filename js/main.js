@@ -180,6 +180,43 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Cookie consent banner — shows once per browser (localStorage-persisted),
+  // Accept/Decline both dismiss it and record the choice. Injected via JS so
+  // every page picks it up automatically from this one shared script.
+  (function () {
+    var STORAGE_KEY = 'fcf-cookie-consent';
+    try {
+      if (localStorage.getItem(STORAGE_KEY)) return;
+    } catch (e) {
+      return; // localStorage unavailable (private browsing lockdown, etc.) -- skip silently
+    }
+
+    var banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-label', 'Cookie consent');
+    banner.innerHTML =
+      '<p class="cookie-banner-text">We use cookies for site functionality and to support the ads that keep Flight Crew Files free. ' +
+      'See our <a href="privacy-policy.html">Privacy Policy</a> for details.</p>' +
+      '<div class="cookie-banner-actions">' +
+        '<button type="button" class="cookie-btn cookie-btn-decline" data-cookie-choice="declined">Decline</button>' +
+        '<button type="button" class="cookie-btn cookie-btn-accept" data-cookie-choice="accepted">Accept</button>' +
+      '</div>';
+    document.body.appendChild(banner);
+
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { banner.classList.add('is-visible'); });
+    });
+
+    banner.querySelectorAll('[data-cookie-choice]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        try { localStorage.setItem(STORAGE_KEY, btn.getAttribute('data-cookie-choice')); } catch (e) {}
+        banner.classList.remove('is-visible');
+        setTimeout(function () { banner.remove(); }, 400);
+      });
+    });
+  })();
+
   // Footer year
   var yearEl = document.querySelector('[data-year]');
   if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
