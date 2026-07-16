@@ -532,6 +532,14 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .newsletter-inline-msg{font-size:.8rem;color:var(--gold-400);margin-top:10px;display:none;width:100%;}
 .newsletter-inline-msg.show{display:block;}
 .beehiiv-embed{min-width:320px;flex:1 1 320px;}
+.beehiiv-wrapper{
+  background:#0a0e1a;
+  border:2px solid #c9a84c;
+  border-radius:8px;
+  padding:20px;
+  max-width:600px;
+  margin:0 auto;
+}
 
 /* ===== Ad slot ===== */
 .ad-slot{
