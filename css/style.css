@@ -600,6 +600,38 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .error-actions{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:38px;}
 @media (max-width:560px){.error-actions{flex-direction:column;align-items:stretch;}}
 
+/* ===== Story card social share ===== */
+.share-row{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  margin-top:18px;padding-top:16px;border-top:1px solid var(--border-soft);
+  position:relative;
+}
+.share-label{
+  font-family:'Oswald',sans-serif;font-size:.66rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted-light);font-weight:700;
+}
+.share-buttons{display:flex;align-items:center;gap:8px;}
+.share-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:32px;height:32px;border-radius:50%;padding:0;cursor:pointer;
+  border:1.5px solid var(--gold-500);color:var(--gold-400);
+  background:rgba(212,175,55,0.06);transition:transform .2s ease,background .2s ease,color .2s ease,box-shadow .2s ease;
+}
+.share-btn svg{width:15px;height:15px;flex-shrink:0;}
+.share-btn:hover{
+  background:linear-gradient(135deg,var(--gold-400),var(--gold-600));color:var(--navy-950);
+  transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(212,175,55,0.6);
+}
+.share-copy .icon-check{display:none;}
+.share-row.is-copied .share-copy{background:var(--gold-500);border-color:var(--gold-500);color:var(--navy-950);}
+.share-row.is-copied .share-copy .icon-link{display:none;}
+.share-row.is-copied .share-copy .icon-check{display:block;}
+.share-copied-msg{
+  font-size:.72rem;font-weight:600;color:var(--gold-400);
+  opacity:0;transform:translateX(-4px);transition:opacity .2s ease,transform .2s ease;
+}
+.share-row.is-copied .share-copied-msg{opacity:1;transform:translateX(0);}
+
 /* ===== Footer ===== */
 .site-footer{background:var(--navy-950);color:rgba(246,248,252,0.6);padding:70px 0 30px;border-top:1px solid var(--border-soft);}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px;}
