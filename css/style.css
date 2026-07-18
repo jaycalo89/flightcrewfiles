@@ -1088,11 +1088,11 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .vf-time{font-size:.74rem;color:var(--muted-light);letter-spacing:.02em;}
 
 .vf-embed{
-  position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;
+  position:relative;width:100%;aspect-ratio:16/9;height:auto;overflow:hidden;
   border-radius:var(--radius-md);background:#000;margin-bottom:16px;
   border:1px solid var(--border-soft);
 }
-.vf-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.vf-embed iframe{display:block;width:100%;height:100%;border:0;}
 
 /* ===== Latest From The Skies (homepage) ===== */
 .lfs-card{
@@ -1181,11 +1181,51 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   background-size:400% 100%;animation:vf-shimmer 1.6s ease infinite;
 }
 .vf-skeleton-media{
-  width:100%;padding-bottom:56.25%;border-radius:var(--radius-md);margin-bottom:16px;
+  width:100%;aspect-ratio:16/9;border-radius:var(--radius-md);margin-bottom:16px;
   background:linear-gradient(90deg,rgba(255,255,255,0.05) 25%,rgba(255,255,255,0.12) 37%,rgba(255,255,255,0.05) 63%);
   background-size:400% 100%;animation:vf-shimmer 1.6s ease infinite;
 }
 @keyframes vf-shimmer{0%{background-position:100% 0;}100%{background-position:0 0;}}
+
+/* ===== CLS fixes: reserve space for async-loaded homepage sections ===== */
+/* Heights measured from real rendered output (Chrome, 1280/820/390 viewports) so the
+   skeleton -> live-content swap never changes container height. */
+#lfs-grid{min-height:970px;}
+#home-news-feed{min-height:840px;}
+#lfs-grid .vf-skeleton{min-height:469px;}
+#home-news-feed .vf-skeleton{min-height:415px;}
+@media (max-width:980px){
+  #lfs-grid{min-height:1460px;}
+  #home-news-feed{min-height:1260px;}
+  #lfs-grid .vf-skeleton{min-height:473px;}
+  #home-news-feed .vf-skeleton{min-height:414px;}
+}
+@media (max-width:640px){
+  #lfs-grid{min-height:2800px;}
+  #home-news-feed{min-height:1900px;}
+  #lfs-grid .vf-skeleton{min-height:456px;}
+  #home-news-feed .vf-skeleton{min-height:306px;}
+}
+
+.beehiiv-wrapper{height:480px;}
+@media (max-width:480px){.beehiiv-wrapper{height:820px;}}
+
+.featured-card,#this-day,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
+  content-visibility:auto;
+}
+.featured-card{contain-intrinsic-height:auto 601px;}
+#this-day{contain-intrinsic-height:auto 650px;}
+.newsletter{contain-intrinsic-height:auto 570px;}
+#fear-of-flying{contain-intrinsic-height:auto 921px;}
+#from-archives{contain-intrinsic-height:auto 763px;}
+.ad-slot{contain-intrinsic-height:auto 49px;}
+@media (max-width:640px){
+  .featured-card{contain-intrinsic-height:auto 943px;}
+  #this-day{contain-intrinsic-height:auto 1221px;}
+  .newsletter{contain-intrinsic-height:auto 1114px;}
+  #fear-of-flying{contain-intrinsic-height:auto 1490px;}
+  #from-archives{contain-intrinsic-height:auto 1729px;}
+}
 
 .vf-sentinel{
   display:flex;align-items:center;justify-content:center;gap:10px;padding:36px 0;
