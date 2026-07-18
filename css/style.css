@@ -1424,3 +1424,22 @@ body.nav-open .mobile-panel{
   .cookie-banner-actions{width:100%;}
   .cookie-btn{flex:1;}
 }
+
+/* ===== Related Stories (story pages, above the discussion section) ===== */
+.related-stories-label{
+  font-family:'Oswald',sans-serif;font-size:.75rem;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-400);font-weight:600;text-align:center;margin:0 0 32px;
+}
+.related-card{
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border:1.5px solid var(--gold-500);border-radius:var(--radius-lg);
+  padding:30px 28px;box-shadow:var(--shadow-soft);
+  display:flex;flex-direction:column;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.related-card:hover{transform:translateY(-5px);box-shadow:0 24px 50px -20px rgba(212,175,55,0.4);}
+.related-card h3{font-size:1.1rem;margin-bottom:10px;text-transform:none;}
+.related-card p{font-size:.92rem;color:var(--muted);margin-bottom:24px;flex-grow:1;}
+.related-card .btn{align-self:flex-start;}
+.related-card .btn svg{width:16px;height:16px;stroke:currentColor;transition:transform .2s ease;}
+.related-card .btn:hover svg{transform:translateX(4px);}
