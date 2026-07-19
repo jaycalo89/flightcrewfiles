@@ -1,5 +1,5 @@
 // Flight Crew Files — Live Video Feed (videos.html)
-// Fetches videos.json, categorizes items, and renders an infinite-scroll-style feed.
+// Fetches videos-data.json, categorizes items, and renders an infinite-scroll-style feed.
 document.addEventListener('DOMContentLoaded', function () {
   var feedEl = document.getElementById('vf-feed');
   var sentinelEl = document.getElementById('vf-sentinel');
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return String(n);
   }
 
-  // This is an English-language site; the YouTube search that builds videos.json
+  // This is an English-language site; the YouTube search that builds videos-data.json
   // only hints at language (relevanceLanguage isn't a hard filter), so a few
   // non-English clips can still slip through. Drop titles that are mostly
   // non-ASCII rather than show them untranslated in the feed.
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  fetch('videos.json')
+  fetch('videos-data.json')
     .then(function (res) { return res.json(); })
     .then(function (data) {
       allItems = (data.items || [])

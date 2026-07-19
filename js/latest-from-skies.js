@@ -1,5 +1,5 @@
 // Flight Crew Files — "Latest From The Skies" homepage video strip.
-// Pulls the 6 newest items straight from videos.json, so it reflects
+// Pulls the 6 newest items straight from videos-data.json, so it reflects
 // whatever the daily video-fetch run (setup_flightcrewfiles.py) last wrote —
 // no separate refresh logic needed here.
 document.addEventListener('DOMContentLoaded', function () {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return 'News';
   }
 
-  // This is an English-language site; videos.json's keyword-matched YouTube
+  // This is an English-language site; videos-data.json's keyword-matched YouTube
   // search only hints at language, so drop titles that are mostly non-ASCII
   // rather than show them untranslated in a homepage feature.
   function looksEnglish(text) {
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return card;
   }
 
-  fetch('videos.json')
+  fetch('videos-data.json')
     .then(function (res) { return res.json(); })
     .then(function (data) {
       var items = (data.items || [])

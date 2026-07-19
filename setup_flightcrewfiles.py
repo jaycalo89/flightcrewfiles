@@ -97,7 +97,7 @@ def write_json(filename, data):
 
 
 # --------------------------------------------------------------------------
-# Step 1: YouTube videos -> videos.json
+# Step 1: YouTube videos -> videos-data.json
 # --------------------------------------------------------------------------
 
 YOUTUBE_QUERIES = [
@@ -159,7 +159,7 @@ def fetch_youtube_videos(api_key):
         "queries": YOUTUBE_QUERIES,
         "items": items,
     }
-    write_json("videos.json", payload)
+    write_json("videos-data.json", payload)
     return len(items)
 
 

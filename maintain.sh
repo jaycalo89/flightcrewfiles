@@ -186,7 +186,7 @@ def count(path, key):
         print(f"ERROR reading {path}: {exc}")
         return -1
 
-videos = count('videos.json', 'items')
+videos = count('videos-data.json', 'items')
 news = count('news.json', 'articles')
 uap = count('uap_news.json', 'articles')
 sitemap_ok = os.path.exists('sitemap.xml') and os.path.getsize('sitemap.xml') > 0
@@ -212,7 +212,7 @@ PYEOF
   CRITICAL_FAILURE=0
 
   if [ "$VIDEOS_COUNT" -lt 20 ] 2>/dev/null; then
-    log "ERROR videos.json has only $VIDEOS_COUNT items (expected >= 20)"
+    log "ERROR videos-data.json has only $VIDEOS_COUNT items (expected >= 20)"
     CRITICAL_FAILURE=1
   fi
   if [ "$NEWS_COUNT" -lt 10 ] 2>/dev/null; then
@@ -252,7 +252,7 @@ git_push_with_token() {
 commit_and_push() {
   cd "$REPO_DIR" || { log "ERROR Cannot cd to $REPO_DIR"; PUSH_OK=0; return 1; }
 
-  git add videos.json news.json uap_news.json sitemap.xml
+  git add videos-data.json news.json uap_news.json sitemap.xml
 
   if git diff --cached --quiet; then
     log "INFO  No changes to commit this run"
@@ -345,7 +345,7 @@ run_weekly_tasks() {
     log "INFO  GTMETRIX_API_KEY not set — skipping speed test"
   fi
 
-  log "INFO  Checking external links in videos.json and news.json"
+  log "INFO  Checking external links in videos-data.json and news.json"
   python3 - <<'PYEOF' >> "$LOG" 2>&1
 import json, urllib.request, urllib.error
 
@@ -358,7 +358,7 @@ def urls_from(path, key, field):
         print(f"ERROR reading {path}: {exc}")
         return []
 
-targets = urls_from('videos.json', 'items', 'url') + urls_from('news.json', 'articles', 'url')
+targets = urls_from('videos-data.json', 'items', 'url') + urls_from('news.json', 'articles', 'url')
 broken = 0
 for url in targets:
     try:
