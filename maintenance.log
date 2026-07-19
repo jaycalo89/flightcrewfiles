@@ -1,0 +1,242 @@
+[2026-07-19 13:31:14] ============================================================
+[2026-07-19 13:31:14] Starting daily maintenance run
+[2026-07-19 13:31:15] INFO  8.8.8.8 already present in /etc/resolv.conf
+[2026-07-19 13:31:15] OK    Internet connectivity confirmed
+[2026-07-19 13:31:15] INFO  Running setup_flightcrewfiles.py
+[2026-07-19 13:31:15] ============================================================
+[2026-07-19 13:31:15] Flight Crew Files update run starting
+
+[1/4] Fetching latest aviation videos from YouTube...
+[2026-07-19 13:31:15] START  Fetch YouTube videos
+[2026-07-19 13:31:15] FAILED Fetch YouTube videos -> HTTP Error 400: Bad Request
+
+[2/4] Fetching latest aviation news from RSS feeds...
+[2026-07-19 13:31:15] START  Fetch aviation news
+[2026-07-19 13:31:16]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 13:31:18]        Simple Flying: 7 articles from https://simpleflying.com/feed (3 rejected by validation)
+[2026-07-19 13:31:21]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-07-19 13:31:22]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 13:31:23]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 13:31:24]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 13:31:24]        119 article(s) rejected by validation across all feeds
+[2026-07-19 13:31:24]        1 of 6 feed(s) failed for news.json
+[2026-07-19 13:31:24] OK     Fetch aviation news -> 19
+
+[3/4] Fetching UAP-specific news from RSS feeds...
+[2026-07-19 13:31:24] START  Fetch UAP news
+[2026-07-19 13:31:27]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 13:31:28]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 13:31:28]        50 article(s) rejected by validation across all feeds
+[2026-07-19 13:31:28] OK     Fetch UAP news -> 0
+
+[4/4] Generating sitemap.xml...
+[2026-07-19 13:31:28] START  Generate sitemap.xml
+[2026-07-19 13:31:28] OK     Generate sitemap.xml -> 29
+[2026-07-19 13:31:28] Flight Crew Files update run finished in 12.8s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        0
+News articles fetched: 19
+UAP articles fetched:  0
+Sitemap pages listed:  29
+Time taken:            12.8s
+
+Errors (1):
+- videos: HTTP Error 400: Bad Request
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+[2026-07-19 13:31:28] WARN  setup_flightcrewfiles.py exited with status 1 (some feeds may have failed — it degrades per-step on its own)
+Verify: videos=40 news=19 uap=0 sitemap_ok=True
+[2026-07-19 13:31:28] WARN  uap_news.json is empty this run (non-fatal)
+[main 8ed6f64] auto update feeds 2026-07-19
+ 4 files changed, 636 insertions(+), 657 deletions(-)
+[2026-07-19 13:31:28] OK    git commit created
+[2026-07-19 13:31:28] WARN  GITHUB_TOKEN not set — attempting push with existing git credentials
+To https://github.com/jaycalo89/flightcrewfiles.git
+   efc979a..8ed6f64  main -> main
+[2026-07-19 13:31:29] OK    git push succeeded
+[2026-07-19 13:31:29] WARN  TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set — skipping notification
+[2026-07-19 13:31:29] INFO  ---- Weekly tasks (Sunday) ----
+[2026-07-19 13:31:29] INFO  GTMETRIX_API_KEY not set — skipping speed test
+[2026-07-19 13:31:29] INFO  Checking external links in videos.json and news.json
+Link check complete: 59 checked, 0 broken
+[2026-07-19 13:32:09] Maintenance run complete
+[2026-07-19 13:32:09] ============================================================
+[2026-07-19 14:03:46] ============================================================
+[2026-07-19 14:03:46] Starting daily maintenance run
+[2026-07-19 14:03:46] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-07-19 14:03:47] OK    Internet connectivity confirmed
+[2026-07-19 14:03:47] INFO  Running setup_flightcrewfiles.py
+[2026-07-19 14:03:47] ============================================================
+[2026-07-19 14:03:47] Flight Crew Files update run starting
+
+[1/4] Fetching latest aviation videos from YouTube...
+[2026-07-19 14:03:47] START  Fetch YouTube videos
+[2026-07-19 14:03:49] OK     Fetch YouTube videos -> 40
+
+[2/4] Fetching latest aviation news from RSS feeds...
+[2026-07-19 14:03:49] START  Fetch aviation news
+[2026-07-19 14:03:50]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:03:52]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:03:56]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:03:57]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:03:59]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:04:00]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:04:00]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:04:00]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:04:00] OK     Fetch aviation news -> 19
+
+[3/4] Fetching UAP-specific news from RSS feeds...
+[2026-07-19 14:04:00] START  Fetch UAP news
+[2026-07-19 14:04:04]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:04:04]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:04:04]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:04:04] OK     Fetch UAP news -> 0
+
+[4/4] Generating sitemap.xml...
+[2026-07-19 14:04:04] START  Generate sitemap.xml
+[2026-07-19 14:04:04] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:04:04] Flight Crew Files update run finished in 17.3s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 19
+UAP articles fetched:  0
+Sitemap pages listed:  29
+Time taken:            17.3s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=19 uap=0 sitemap_ok=True
+[2026-07-19 14:04:04] WARN  uap_news.json is empty this run (non-fatal)
+[main a22a22d] auto update feeds 2026-07-19
+ 3 files changed, 422 insertions(+), 422 deletions(-)
+[2026-07-19 14:04:04] OK    git commit created
+To https://github.com/jaycalo89/flightcrewfiles.git
+   8ed6f64..a22a22d  main -> main
+[2026-07-19 14:04:05] OK    git push succeeded
+[2026-07-19 14:04:07] INFO  ---- Weekly tasks (Sunday) ----
+[2026-07-19 14:04:07] INFO  GTMETRIX_API_KEY not set — skipping speed test
+[2026-07-19 14:04:07] INFO  Checking external links in videos.json and news.json
+Link check complete: 59 checked, 0 broken
+[2026-07-19 14:04:49] Maintenance run complete
+[2026-07-19 14:04:49] ============================================================
+[2026-07-19 14:05:16] ============================================================
+[2026-07-19 14:05:16] Starting daily maintenance run
+[2026-07-19 14:05:16] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-07-19 14:05:17] OK    Internet connectivity confirmed
+[2026-07-19 14:05:17] INFO  Running setup_flightcrewfiles.py
+[2026-07-19 14:05:18] ============================================================
+[2026-07-19 14:05:18] Flight Crew Files update run starting
+
+[1/4] Fetching latest aviation videos from YouTube...
+[2026-07-19 14:05:18] START  Fetch YouTube videos
+[2026-07-19 14:05:25] OK     Fetch YouTube videos -> 40
+
+[2/4] Fetching latest aviation news from RSS feeds...
+[2026-07-19 14:05:25] START  Fetch aviation news
+[2026-07-19 14:05:26]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:05:28]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:05:30]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:05:31]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:05:33]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:05:34]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:05:34]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:05:34]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:05:34] OK     Fetch aviation news -> 19
+
+[3/4] Fetching UAP-specific news from RSS feeds...
+[2026-07-19 14:05:34] START  Fetch UAP news
+[2026-07-19 14:05:37]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:05:37]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:05:37]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:05:37] OK     Fetch UAP news -> 0
+
+[4/4] Generating sitemap.xml...
+[2026-07-19 14:05:37] START  Generate sitemap.xml
+[2026-07-19 14:05:37] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:05:37] Flight Crew Files update run finished in 19.9s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 19
+UAP articles fetched:  0
+Sitemap pages listed:  29
+Time taken:            19.9s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=19 uap=0 sitemap_ok=True
+[2026-07-19 14:05:55] ============================================================
+[2026-07-19 14:05:55] Starting daily maintenance run
+[2026-07-19 14:05:55] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-07-19 14:05:55] OK    Internet connectivity confirmed
+[2026-07-19 14:05:55] INFO  Running setup_flightcrewfiles.py
+[2026-07-19 14:05:55] ============================================================
+[2026-07-19 14:05:55] Flight Crew Files update run starting
+
+[1/4] Fetching latest aviation videos from YouTube...
+[2026-07-19 14:05:55] START  Fetch YouTube videos
+[2026-07-19 14:05:57] OK     Fetch YouTube videos -> 40
+
+[2/4] Fetching latest aviation news from RSS feeds...
+[2026-07-19 14:05:57] START  Fetch aviation news
+[2026-07-19 14:05:58]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:06:00]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:06:03]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:06:04]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:06:07]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:06:09]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:06:09]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:06:09]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:06:09] OK     Fetch aviation news -> 19
+
+[3/4] Fetching UAP-specific news from RSS feeds...
+[2026-07-19 14:06:09] START  Fetch UAP news
+[2026-07-19 14:06:11]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:06:12]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:06:12]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:06:12] OK     Fetch UAP news -> 0
+
+[4/4] Generating sitemap.xml...
+[2026-07-19 14:06:12] START  Generate sitemap.xml
+[2026-07-19 14:06:12] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:06:12] Flight Crew Files update run finished in 16.2s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 19
+UAP articles fetched:  0
+Sitemap pages listed:  29
+Time taken:            16.2s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=19 uap=0 sitemap_ok=True
+[2026-07-19 14:06:12] WARN  uap_news.json is empty this run (non-fatal)
+[main 8e9e7fd] auto update feeds 2026-07-19
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+[2026-07-19 14:06:12] OK    git commit created
+To https://github.com/jaycalo89/flightcrewfiles.git
+   a22a22d..8e9e7fd  main -> main
+[2026-07-19 14:06:13] OK    git push succeeded
+[2026-07-19 14:06:13] INFO  ---- Weekly tasks (Sunday) ----
+[2026-07-19 14:06:13] INFO  GTMETRIX_API_KEY not set — skipping speed test
+[2026-07-19 14:06:13] INFO  Checking external links in videos.json and news.json
+Link check complete: 59 checked, 0 broken
+[2026-07-19 14:06:57] Maintenance run complete
+[2026-07-19 14:06:57] ============================================================
+[2026-07-19 14:20:35] ============================================================
+[2026-07-19 14:20:35] Starting daily maintenance run
+[2026-07-19 14:20:35] WARN  Skipping DNS fix — passwordless sudo not available for this cron user

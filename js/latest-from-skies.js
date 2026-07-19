@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
     card.className = 'lfs-card';
     card.style.setProperty('--accent', accent);
     card.innerHTML =
-      '<div class="vf-embed"><iframe width="560" height="315" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' +
+      '<div class="vf-embed"><iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' +
       '<div class="lfs-card-body">' +
         '<span class="vf-tag"></span>' +
         '<h3 class="lfs-title"></h3>' +

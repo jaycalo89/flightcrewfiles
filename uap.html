@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="css/style.min.css">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
@@ -114,6 +115,17 @@
     <span class="eyebrow">Pilot &amp; Military Reports</span>
     <h1 class="section-title">UAP Files</h1>
     <p class="section-lede">Unidentified Aerial Phenomena, documented by the people trained hardest not to see things that aren't there: commercial pilots, air traffic controllers and military aircrew. These are real, publicly reported cases — we present the accounts, not conclusions.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <div class="uap-map-header">
+      <span class="eyebrow">Global Case Map</span>
+      <h2 class="section-title">Documented UAP Encounters — Worldwide</h2>
+      <p class="section-lede">Ten of the most well-documented sightings in aviation and military history, plotted where they were reported. Click a marker for the case name and year.</p>
+    </div>
+    <div id="uap-map" class="uap-map"></div>
   </div>
 </section>
 
@@ -320,5 +332,7 @@
 <script src="js/main.min.js"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/uap-map.min.js"></script>
 </body>
 </html>

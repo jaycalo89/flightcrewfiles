@@ -301,3 +301,138 @@ RuntimeError: NEWSAPI_KEY is not set in .env
 [2026-07-16 16:47:17] START  Generate sitemap.xml
 [2026-07-16 16:47:17] OK     Generate sitemap.xml -> 25
 [2026-07-16 16:47:17] Flight Crew Files update run finished in 26.0s
+[2026-07-19 13:21:06] ============================================================
+[2026-07-19 13:21:06] Flight Crew Files update run starting
+[2026-07-19 13:21:06] START  Fetch YouTube videos
+[2026-07-19 13:21:08] OK     Fetch YouTube videos -> 40
+[2026-07-19 13:21:08] START  Fetch aviation news
+[2026-07-19 13:21:09]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 13:21:10]        Simple Flying: 7 articles from https://simpleflying.com/feed (3 rejected by validation)
+[2026-07-19 13:21:13]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-07-19 13:21:14]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 13:21:16]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 13:21:23]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 13:21:23]        119 article(s) rejected by validation across all feeds
+[2026-07-19 13:21:23]        1 of 6 feed(s) failed for news.json
+[2026-07-19 13:21:23] OK     Fetch aviation news -> 19
+[2026-07-19 13:21:23] START  Fetch UAP news
+[2026-07-19 13:21:26]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 13:21:27]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 13:21:27]        50 article(s) rejected by validation across all feeds
+[2026-07-19 13:21:27] OK     Fetch UAP news -> 0
+[2026-07-19 13:21:27] START  Generate sitemap.xml
+[2026-07-19 13:21:27] OK     Generate sitemap.xml -> 29
+[2026-07-19 13:21:27] Flight Crew Files update run finished in 20.3s
+[2026-07-19 13:31:15] ============================================================
+[2026-07-19 13:31:15] Flight Crew Files update run starting
+[2026-07-19 13:31:15] START  Fetch YouTube videos
+[2026-07-19 13:31:15] FAILED Fetch YouTube videos -> HTTP Error 400: Bad Request
+[2026-07-19 13:31:15] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 630, in run_step
+    result = func(*args)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 132, in fetch_youtube_videos
+    data = http_get_json(url)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 80, in http_get_json
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+[2026-07-19 13:31:15] START  Fetch aviation news
+[2026-07-19 13:31:16]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 13:31:18]        Simple Flying: 7 articles from https://simpleflying.com/feed (3 rejected by validation)
+[2026-07-19 13:31:21]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-07-19 13:31:22]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 13:31:23]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 13:31:24]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 13:31:24]        119 article(s) rejected by validation across all feeds
+[2026-07-19 13:31:24]        1 of 6 feed(s) failed for news.json
+[2026-07-19 13:31:24] OK     Fetch aviation news -> 19
+[2026-07-19 13:31:24] START  Fetch UAP news
+[2026-07-19 13:31:27]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 13:31:28]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 13:31:28]        50 article(s) rejected by validation across all feeds
+[2026-07-19 13:31:28] OK     Fetch UAP news -> 0
+[2026-07-19 13:31:28] START  Generate sitemap.xml
+[2026-07-19 13:31:28] OK     Generate sitemap.xml -> 29
+[2026-07-19 13:31:28] Flight Crew Files update run finished in 12.8s
+[2026-07-19 14:03:47] ============================================================
+[2026-07-19 14:03:47] Flight Crew Files update run starting
+[2026-07-19 14:03:47] START  Fetch YouTube videos
+[2026-07-19 14:03:49] OK     Fetch YouTube videos -> 40
+[2026-07-19 14:03:49] START  Fetch aviation news
+[2026-07-19 14:03:50]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:03:52]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:03:56]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:03:57]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:03:59]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:04:00]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:04:00]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:04:00]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:04:00] OK     Fetch aviation news -> 19
+[2026-07-19 14:04:00] START  Fetch UAP news
+[2026-07-19 14:04:04]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:04:04]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:04:04]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:04:04] OK     Fetch UAP news -> 0
+[2026-07-19 14:04:04] START  Generate sitemap.xml
+[2026-07-19 14:04:04] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:04:04] Flight Crew Files update run finished in 17.3s
+[2026-07-19 14:05:18] ============================================================
+[2026-07-19 14:05:18] Flight Crew Files update run starting
+[2026-07-19 14:05:18] START  Fetch YouTube videos
+[2026-07-19 14:05:25] OK     Fetch YouTube videos -> 40
+[2026-07-19 14:05:25] START  Fetch aviation news
+[2026-07-19 14:05:26]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:05:28]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:05:30]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:05:31]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:05:33]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:05:34]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:05:34]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:05:34]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:05:34] OK     Fetch aviation news -> 19
+[2026-07-19 14:05:34] START  Fetch UAP news
+[2026-07-19 14:05:37]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:05:37]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:05:37]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:05:37] OK     Fetch UAP news -> 0
+[2026-07-19 14:05:37] START  Generate sitemap.xml
+[2026-07-19 14:05:37] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:05:37] Flight Crew Files update run finished in 19.9s
+[2026-07-19 14:05:55] ============================================================
+[2026-07-19 14:05:55] Flight Crew Files update run starting
+[2026-07-19 14:05:55] START  Fetch YouTube videos
+[2026-07-19 14:05:57] OK     Fetch YouTube videos -> 40
+[2026-07-19 14:05:57] START  Fetch aviation news
+[2026-07-19 14:05:58]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-19 14:06:00]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-07-19 14:06:03]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-07-19 14:06:04]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-19 14:06:07]        AOPA: 2 articles from https://www.aopa.org/news-and-media/all-news/rss (96 rejected by validation)
+[2026-07-19 14:06:09]        Flying Magazine: 6 articles from https://www.flyingmag.com/feed (4 rejected by validation)
+[2026-07-19 14:06:09]        119 article(s) rejected by validation across all feeds
+[2026-07-19 14:06:09]        1 of 6 feed(s) failed for news.json
+[2026-07-19 14:06:09] OK     Fetch aviation news -> 19
+[2026-07-19 14:06:09] START  Fetch UAP news
+[2026-07-19 14:06:11]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-19 14:06:12]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-19 14:06:12]        50 article(s) rejected by validation across all feeds
+[2026-07-19 14:06:12] OK     Fetch UAP news -> 0
+[2026-07-19 14:06:12] START  Generate sitemap.xml
+[2026-07-19 14:06:12] OK     Generate sitemap.xml -> 29
+[2026-07-19 14:06:12] Flight Crew Files update run finished in 16.2s
