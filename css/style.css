@@ -1751,3 +1751,24 @@ body.nav-open .mobile-panel{
 .weather-radar p{margin-bottom:16px;}
 .weather-radar iframe{display:block;width:100%;}
 @media (max-width:600px){.weather-radar{padding:24px 20px;}.weather-radar iframe{height:360px;}}
+
+/* ===== Archive hub pages (pilot/fa/passenger-archives.html) ===== */
+.archive-jump{display:flex;flex-wrap:wrap;gap:10px;}
+.archive-jump a{
+  display:inline-flex;padding:8px 18px;border-radius:999px;
+  border:1px solid var(--border-gold);color:var(--gold-400);
+  font-family:'Oswald',sans-serif;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;
+  transition:background .2s ease,border-color .2s ease;
+}
+.archive-jump a:hover{background:rgba(212,175,55,0.1);border-color:var(--gold-400);}
+
+.related-links{
+  margin-top:14px;padding-top:12px;border-top:1px dashed rgba(255,255,255,0.1);
+  font-size:.82rem;color:var(--muted-light);
+}
+.related-links strong{
+  color:var(--gold-400);font-family:'Oswald',sans-serif;font-size:.66rem;
+  letter-spacing:.1em;text-transform:uppercase;margin-right:8px;font-weight:700;
+}
+.related-links a{color:var(--blue-300);text-decoration:underline;text-decoration-color:rgba(143,199,255,0.3);text-underline-offset:3px;}
+.related-links a:hover{color:var(--blue-400);}

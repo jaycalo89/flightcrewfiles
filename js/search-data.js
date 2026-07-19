@@ -1,5 +1,8 @@
 // Auto-generated search index — do not hand-edit; see build script in project scratch notes.
 const SEARCH_INDEX = [
+  {title:"The Pilot Files",desc:"A deeper archive of documented pilot stories — heroic saves, close calls, life on the flight deck, legendary aviators and lesser-known accounts, every case sourced and verified.",url:"pilot-archives.html",tag:"Pilots"},
+  {title:"The Cabin Crew Files",desc:"A deeper archive of documented flight attendant stories — emergencies handled from the jump seat, insider career knowledge and life above the clouds, every case sourced and verified.",url:"fa-archives.html",tag:"Crew"},
+  {title:"The Passenger Files",desc:"A deeper archive of documented passenger experiences — survival stories, strange encounters, medical emergencies and acts of kindness, every case sourced and verified.",url:"passenger-archives.html",tag:"Passengers"},
   {title:"Flight Crew Files — Home",desc:"Terrifying cockpit stories, heroic pilots, bizarre incidents, pilot-documented UAP encounters, aviation news and history.",url:"index.html",tag:"Home"},
   {title:"Aviation News",desc:"The latest aviation industry news — new aircraft, route launches, regulation changes and the stories shaping commercial and military aviation.",url:"news.html",tag:"News"},
   {title:"Case Files & Stories",desc:"Every case file in one place — scary stories, heroic saves, bizarre incidents, UAP files, black box recordings, and stories from passengers, pilots and crew.",url:"stories.html",tag:"Stories"},
