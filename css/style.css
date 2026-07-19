@@ -1443,3 +1443,9 @@ body.nav-open .mobile-panel{
 .related-card .btn{align-self:flex-start;}
 .related-card .btn svg{width:16px;height:16px;stroke:currentColor;transition:transform .2s ease;}
 .related-card .btn:hover svg{transform:translateX(4px);}
+
+/* ===== Incident date stamp (story cards) ===== */
+.story-date{
+  display:block;font-style:italic;font-weight:500;
+  font-size:.78rem;color:var(--gold-400);margin:0 0 10px;
+}
