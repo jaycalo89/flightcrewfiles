@@ -12,6 +12,7 @@ const SEARCH_INDEX = [
   {title:"Pilot Stories",desc:"Stories from the flight deck — the training, judgment calls and quiet confidence behind the men and women in command.",url:"pilots.html",tag:"Pilots"},
   {title:"Crew Stories",desc:"Stories from the cabin — the flight attendants who spot trouble first and keep two hundred strangers calm at once.",url:"crew.html",tag:"Crew"},
   {title:"Aviation History",desc:"The legendary, record-breaking and history-changing moments that built modern aviation — from Kitty Hawk to the jet age.",url:"history.html",tag:"History"},
+  {title:"The Evolution of Flight",desc:"From the Wright Flyer to classified hypersonic test aircraft — the fighters, spy planes and airliners that changed aviation forever, including the secret Skunk Works programs behind decades of UFO reports.",url:"evolution.html",tag:"History"},
   {title:"Community Forum",desc:"Talk aviation news, UAP files, scary stories, pilot life, cabin crew life and fear of flying with the Flight Crew Files community.",url:"community.html",tag:"Community"},
   {title:"Resources",desc:"Live ATC scanners, real-time flight tracking, an aviation glossary, our recommended reading list, and calm-flying resources — all in one place.",url:"resources.html",tag:"Resources"},
   {title:"Tip Line — Anonymous Submissions",desc:"Aviation insiders: submit a story or tip to Flight Crew Files confidentially. No name required, reviewed and anonymized before anything is published.",url:"tipline.html",tag:"Tip Line"},
