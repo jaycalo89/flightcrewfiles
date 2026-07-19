@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  fetch('videos-data.json')
+  fetch('videos-data.json?v=' + Date.now())
     .then(function (res) { return res.json(); })
     .then(function (data) {
       allItems = (data.items || [])

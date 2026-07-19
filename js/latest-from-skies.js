@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return card;
   }
 
-  fetch('videos-data.json')
+  fetch('videos-data.json?v=' + Date.now())
     .then(function (res) { return res.json(); })
     .then(function (data) {
       var items = (data.items || [])
