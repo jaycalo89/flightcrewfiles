@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
   var widget = document.getElementById('poll-widget');
   if (!widget) return;
 
-  var POLL_KEY = 'fcf-poll-extraordinary-aircraft-v1';
-  var BASE_VOTES = { sr71: 428, u2: 156, f117: 211, concorde: 179, b2: 187 };
+  var POLL_KEY = 'fcf-poll-best-airline-v1';
+  var BASE_VOTES = { emirates: 356, singapore: 412, qatar: 298, cathay: 143, ana: 187 };
   var LABELS = {
-    sr71: 'SR-71 Blackbird',
-    u2: 'U-2 Spy Plane',
-    f117: 'F-117 Nighthawk',
-    concorde: 'Concorde',
-    b2: 'B-2 Spirit'
+    emirates: 'Emirates',
+    singapore: 'Singapore Airlines',
+    qatar: 'Qatar Airways',
+    cathay: 'Cathay Pacific',
+    ana: 'ANA All Nippon Airways'
   };
 
   var optionsEl = document.getElementById('poll-options');
