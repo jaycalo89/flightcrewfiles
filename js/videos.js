@@ -79,6 +79,20 @@ document.addEventListener('DOMContentLoaded', function () {
     return (asciiCount / text.length) >= 0.7;
   }
 
+  // Click-to-play thumbnail facade instead of an eager iframe: some YouTube
+  // videos restrict embedding, which shows a broken/blocked placeholder
+  // inside an always-on iframe. Showing the real thumbnail and only
+  // creating the iframe on click sidesteps that and avoids loading a full
+  // batch of YouTube players up front on every scroll.
+  function activateEmbed(facade, videoId, title) {
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
+    iframe.title = title;
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    iframe.allowFullscreen = true;
+    facade.replaceWith(iframe);
+  }
+
   function buildCard(item) {
     var category = item._category;
     var accent = CATEGORY_ACCENT[category] || '#2e8fff';
@@ -96,7 +110,10 @@ document.addEventListener('DOMContentLoaded', function () {
           '<span class="vf-meta"><span class="vf-tag">' + category + '</span><span class="vf-dot">&bull;</span><span class="vf-time"></span></span>' +
         '</div>' +
       '</div>' +
-      '<div class="vf-embed"><iframe loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' +
+      '<div class="vf-embed lfs-embed-facade" role="button" tabindex="0">' +
+        '<img class="lfs-thumb" loading="lazy" alt="">' +
+        '<span class="lfs-play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>' +
+      '</div>' +
       '<div class="vf-card-body">' +
         '<h3 class="vf-title"><a target="_blank" rel="noopener"></a></h3>' +
         '<p class="vf-desc"></p>' +
@@ -114,9 +131,17 @@ document.addEventListener('DOMContentLoaded', function () {
     article.querySelector('.vf-channel').textContent = channel;
     article.querySelector('.vf-time').textContent = timeAgo(item.published_at);
 
-    var iframe = article.querySelector('.vf-embed iframe');
-    iframe.src = 'https://www.youtube.com/embed/' + item.video_id;
-    iframe.title = title;
+    var facade = article.querySelector('.lfs-embed-facade');
+    var thumb = article.querySelector('.lfs-thumb');
+    thumb.src = 'https://i.ytimg.com/vi/' + item.video_id + '/hqdefault.jpg';
+    thumb.alt = title;
+    facade.setAttribute('aria-label', 'Play video: ' + title);
+
+    var play = function () { activateEmbed(facade, item.video_id, title); };
+    facade.addEventListener('click', play);
+    facade.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(); }
+    });
 
     var titleLink = article.querySelector('.vf-title a');
     titleLink.textContent = title;
