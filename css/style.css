@@ -1094,6 +1094,22 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 }
 .vf-embed iframe{display:block;width:100%;height:100%;border:0;}
 
+/* ===== Click-to-play thumbnail facade (Latest From The Skies) ===== */
+.lfs-embed-facade{cursor:pointer;}
+.lfs-embed-facade .lfs-thumb{width:100%;height:100%;object-fit:cover;display:block;background:var(--navy-900);}
+.lfs-play-btn{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:60px;height:60px;border-radius:50%;
+  background:rgba(3,6,15,0.55);border:2px solid var(--gold-500);
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .2s ease,background .2s ease,border-color .2s ease;
+}
+.lfs-play-btn svg{width:24px;height:24px;fill:var(--gold-400);margin-left:3px;}
+.lfs-embed-facade:hover .lfs-play-btn,.lfs-embed-facade:focus-visible .lfs-play-btn{
+  transform:translate(-50%,-50%) scale(1.12);background:rgba(212,175,55,0.25);border-color:var(--gold-400);
+}
+.lfs-embed-facade:focus-visible{outline:2px solid var(--gold-400);outline-offset:2px;}
+
 /* ===== Latest From The Skies (homepage) ===== */
 .lfs-card{
   background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
