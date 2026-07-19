@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-07-19T17:31:24.986861+00:00",
+  "generated_at": "2026-07-19T18:04:00.814268+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 19,
   "articles": [
+    {
+      "title": "Airbus migrating A321XLR wing and single-slotted flap technology to A321neo",
+      "description": "Airbus to incorporate batch of improvements on popular single-aisle model, and test production maturity of some on A320neo line. Airbus is to migrate A321XLR technology – including its revised wing design – to the A321neo, while other enhancements for the single-aisle family will initially be…",
+      "url": "https://www.flightglobal.com/archive/2026/07/airbus-migrating-a321xlr-wing-and-single-slotted-flap-technology-to-a321neo/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-07-19T17:50:00Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/A321XLR-c-AIrbus-1-480x320.jpeg"
+    },
     {
       "title": "5 Airlines’ Premium Economy Seats With The World’s Longest Legroom In 2026",
       "description": "Premium Economy has evolved dramatically over the past decade, transforming from a modest upgrade from standard economy into a clearly defined cabin designed for long-haul comfort. What was once little more than an economy seat with extra pitch has become a meaningful middle ground for travelers…",
@@ -65,15 +74,6 @@
       "author": "Chris Loh",
       "published_at": "2026-07-19T12:26:11Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/starlux-metallic.jpg"
-    },
-    {
-      "title": "Delta Air Lines Broke A Decade Of Airbus Widebody Loyalty To Give Boeing 1 Order",
-      "description": "Delta Air Lines sent shockwaves across the commercial aviation sector earlier this year by announcing a firm order for 30 Boeing 787-10 Dreamliners aircraft, accompanied by options for up to 30 more. The order brings with it the carrier's first direct procurement of the modern widebody family,…",
-      "url": "https://simpleflying.com/delta-air-lines-broke-decade-airbus-widebody-loyalty-give-boeing-1-order/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-07-19T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/delta-air-lines-broke-a-decade-of-airbus-widebody-loyalty-to-give-boeing-1-order.jpg"
     },
     {
       "title": "FAA approves Leap-1B high-pressure turbine durability kit",
