@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 24 24" fill="none" role="img" aria-labelledby="fcf-logo-title">
+  <title id="fcf-logo-title">Flight Crew Files</title>
+  <path d="M12 3 L21 19 L12 13.5 L3 19 Z" fill="#c9a84c" stroke="#0a0e1a" stroke-width="0.6" stroke-linejoin="round"/>
+  <line x1="12" y1="3" x2="12" y2="13.5" stroke="#0a0e1a" stroke-width="0.6" stroke-linecap="round"/>
+  <circle cx="12" cy="7" r="1.1" fill="#0a0e1a"/>
+</svg>
