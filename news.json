@@ -1,61 +1,160 @@
 {
-  "generated_at": "2026-07-16T20:47:14.546372+00:00",
+  "generated_at": "2026-07-19T17:31:24.986861+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 19,
   "articles": [
     {
-      "title": "The Real Reason Why Delta Air Lines' Newest Airbus Jets Are Being Sidelined & Older Boeings Are Filling In",
-      "description": "Delta Air Lines has been forced to turn to older aircraft while plagued by groundings of some of its newest Airbus jets. The Big Three US carrier has heavily gone in for models from the French manufacturer to bolster its narrowbody fleet in recent years. However, the rollout of these has not been…",
-      "url": "https://simpleflying.com/real-reason-delta-air-lines-newest-airbus-jets-sidelined-older-boeins-filling/",
+      "title": "5 Airlines’ Premium Economy Seats With The World’s Longest Legroom In 2026",
+      "description": "Premium Economy has evolved dramatically over the past decade, transforming from a modest upgrade from standard economy into a clearly defined cabin designed for long-haul comfort. What was once little more than an economy seat with extra pitch has become a meaningful middle ground for travelers…",
+      "url": "https://simpleflying.com/5-airlines-with-premium-economy-seats-worlds-longest-legroom-2026/",
       "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-07-16T20:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/the-real-reason-why-delta-air-lines-newest-airbus-jets-are-being-sidelined-older-boeings-are-filling-in.jpg"
+      "author": "Josh Eyre",
+      "published_at": "2026-07-19T17:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/longest-legroom.jpg"
     },
     {
-      "title": "Baltimore-Philadelphia? Southwest Airlines Unveils 15 New Routes For Spring 2027",
-      "description": "The world's largest low-cost carrier , Southwest Airlines is adding extra capacity for the back-to-school season, with the airline adding new and exciting routes for Spring 2027. The airline is adding more departures than ever before from Austin Bergstrom International Airport (AUS) and Orlando…",
-      "url": "https://simpleflying.com/baltimore-philadelphia-southwest-airlines-unveils-15-new-routes-spring-2027/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-07-16T19:56:48Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/southwest-airline-image.jpg"
+      "title": "Boeing maintains 20-year demand forecast despite slower air travel demand",
+      "description": "Executive says air travel demand “fundaments” remain ‘intact”. Despite an air travel demand slowdown this year, Boeing is maintaining its expectation that airlines over 20 years will require 43,625 additional passenger and cargo jets, a figure largely unchanged from expectations it published in…",
+      "url": "https://www.flightglobal.com/airframers/2026/07/boeing-maintains-20-year-demand-forecast-despite-slower-air-travel-demand/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-07-19T17:11:02Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/boeingeverett97_26881-480x320.jpg"
     },
     {
-      "title": "What American Airlines Elites Lose When They Book Basic Economy In 2026",
-      "description": "American Airlines made two rounds of changes to its Basic Economy fare class between December 2025 and May 2026 that fundamentally altered what the ticket provides to AAdvantage loyalty program members. Tickets purchased after December 17, 2025, earn zero AAdvantage miles and zero Loyalty Points.…",
-      "url": "https://simpleflying.com/what-american-airlines-elites-lose-book-basic-economy-2026/",
+      "title": "Why Qatar Airways Announced Then Abruptly Scrapped 1st Nonstop Las Vegas Flights",
+      "description": "Qatar Airways has an impressive network of long-haul destinations in the United States of America. Indeed, current scheduling data made available by Cirium , an aviation analytics company, shows that the Qatari flag carrier and one world member flies to a grand total of 11 US cities from its main…",
+      "url": "https://simpleflying.com/qatar-airways-las-vegas-flights-history/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-07-16T19:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-american-airlines-elites-flying-basic-economy-in-2026-are-now-just-their-fare-class.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-07-19T16:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/qatar_airways_approaching_to_the_boarding_gate_cropped.jpg"
+    },
+    {
+      "title": "Airlines Are Now Selling Business Class Seats Like Smartphones: Inches & 4K Screens Replacing Soft Service",
+      "description": "Air France 's La Première first class suite won the 2026 iF Design Award in March. The jury's citation praised its modular architecture, material craftsmanship, and multi-zone layout. What the jury did not specifically mention, but what Air France leads with in every commercial communication, is…",
+      "url": "https://simpleflying.com/airlines-now-selling-business-class-seats-smartphones-inches-4k-screens-replacing-soft-service/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-07-19T16:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/airlines-are-now-selling-business-class-seats-like-smartphones-inches-4k-screens-replacing-soft-service.jpg"
+    },
+    {
+      "title": "Why A Microscopic Defect Can Ground A Boeing 787 That Has Flown Safely For 15 Years",
+      "description": "When aircraft deliveries are suspended, the public usually assumes the underlying issue is obvious and substantial: an engine problem, a significant structural irregularity, or another defect that can be readily seen and understood. Few would expect the trigger to be a manufacturing deviation…",
+      "url": "https://simpleflying.com/why-microscopic-defect-ground-boeing-787-flown-safely-15-years/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-07-19T14:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/microscopic-787.jpg"
+    },
+    {
+      "title": "Boeing Tore Apart An Emirates-Bound 777X Rather Than Pay The Huge Rework Costs",
+      "description": "US planemaker Boeing has quietly scrapped one of its earliest-built Boeing 777-9 airframes, tearing down a jet that had sat unflown at its Everett facility since 2019. Partially wearing the colors of Emirates , the widebody was intended to join the Middle Eastern carrier, but was instead taken…",
+      "url": "https://simpleflying.com/boeing-tore-apart-emirates-777x-rework-costs/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-07-19T12:32:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/emirates_boeing_777x_airplanes.jpg"
+    },
+    {
+      "title": "What American Airlines Should Have Done? STARLUX Airlines Receives “Silver Airsorayama” A350-1000",
+      "description": "Airbus has delivered an A350-1000 to Taiwanese carrier STARLUX Airlines with an eye-catching metallic livery!",
+      "url": "https://simpleflying.com/video/what-american-airlines-should-have-done-starlux-airlines-receives-silver-airsorayama-a350-1000/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-07-19T12:26:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/starlux-metallic.jpg"
+    },
+    {
+      "title": "Delta Air Lines Broke A Decade Of Airbus Widebody Loyalty To Give Boeing 1 Order",
+      "description": "Delta Air Lines sent shockwaves across the commercial aviation sector earlier this year by announcing a firm order for 30 Boeing 787-10 Dreamliners aircraft, accompanied by options for up to 30 more. The order brings with it the carrier's first direct procurement of the modern widebody family,…",
+      "url": "https://simpleflying.com/delta-air-lines-broke-decade-airbus-widebody-loyalty-give-boeing-1-order/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-07-19T10:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/delta-air-lines-broke-a-decade-of-airbus-widebody-loyalty-to-give-boeing-1-order.jpg"
+    },
+    {
+      "title": "FAA approves Leap-1B high-pressure turbine durability kit",
+      "description": "Updates are specific to the variant of the CFM engine powering Boeing’s 737 Max, matching a similar fix already approved for Airbus A320neo-family jets. The Federal Aviation Administration has certificated high-pressure turbine (HPT) and fuel nozzle durability improvements for CFM International…",
+      "url": "https://www.flightglobal.com/airframers/2026/07/faa-approves-leap-1b-high-pressure-turbine-durability-kit/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-07-18T18:40:30Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/leap1bcwirestockimages_shutterstock_839085-480x319.jpg"
+    },
+    {
+      "title": "FAA returns to Boeing full authority to issue airworthiness certificates",
+      "description": "Move reflects confidence by the US regulator in Boeing’s 737 Max and 787 quality and processes. The US Federal Aviation Administration (FAA) has returned to Boeing authority to issue airworthiness certificates for 737 Max and 787 aircraft, after having revoked that authority amid quality and safety…",
+      "url": "https://www.flightglobal.com/airframers/2026/07/faa-returns-to-boeing-full-authority-to-issue-airworthiness-certificates/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-07-18T14:09:46Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/boeingrenton29_192760-480x720.jpg"
+    },
+    {
+      "title": "Runway overrun protection for Embraer E2 jets approved by EASA",
+      "description": "System to alert pilots previously secured certification from Brazilian regulator. Embraer has secured European approval for a runway overrun protection system on the E2 family of regional aircraft. The Runway Overrun Awareness and Alerting System was recently certified by the Brazilian regulator…",
+      "url": "https://www.flightglobal.com/archive/2026/07/runway-overrun-protection-for-embraer-e2-jets-approved-by-easa/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-07-17T19:05:32Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/E2-c-Embraer-480x314.jpeg"
+    },
+    {
+      "title": "This 1975 Cessna 310R Is a Spacious, Fast, and Refreshened ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Cessna 310R. There is something…",
+      "url": "https://www.flyingmag.com/this-1975-cessna-310r-is-a-spacious-fast-and-refreshened-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-07-17T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Runway Closure at Thun Field Forces Scramble for Local Operators",
+      "description": "Facing a critical four-month shutdown starting July 27, tenants and flight schools at Pierce County Airport-Thun Field (KPLU) in South Hill, Washington, are rushing to relocate as the facility begins a $7.18 million federally funded project to replace its aging runway. “[Runway 17-35] is reaching…",
+      "url": "https://www.flyingmag.com/runway-closure-at-thun-field-forces-scramble-for-local-operators/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-07-17T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/KPLU-about-to-be-a-ghost-town.jpeg?w=1024"
+    },
+    {
+      "title": "$800K ‘Boom Prize’ Challenges Amateurs to Build Supersonic Airplanes",
+      "description": "Famed U.S. Air Force aviator Chuck Yeager was the first to exceed the speed of sound in 1947, flying a rocket-powered Bell X-1. Nearly 80 years later, $800,000 in prize money is up for grabs for the first to break the sound barrier with an amateur-built, air-breathing aircraft. Boom Supersonic CEO…",
+      "url": "https://www.flyingmag.com/800k-boom-prize-supersonic-amateur-airplanes/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-17T14:00:00Z",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f6eb.png"
+    },
+    {
+      "title": "Air Taxi Firms Plan Tesla-Like Network of Electric Aircraft Chargers",
+      "description": "Tesla revolutionized electric automobiles by building thousands of interoperable chargers that it opened up to the broader industry. A pair of air taxi manufacturers aim to do the same for electric aircraft. Thursday marked the launch of America’s Consortium for Electric Skyways (ACES), a…",
+      "url": "https://www.flyingmag.com/beta-archer-air-taxi-electric-charging-network/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-17T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Administrator Goes In Depth on the FAA’s Next Act",
+      "description": "Bryan Bedford took over leadership of the FAA in July 2025 after a long career in commercial aviation, including senior roles at Republic Airways and Frontier Airlines. He is an instrument-rated pilot, an aircraft owner, and one of the few recent agency leaders to arrive in Washington, D.C., with…",
+      "url": "https://www.flyingmag.com/administrator-goes-in-depth-on-the-faas-next-act/",
+      "source": "Flying Magazine",
+      "author": "Ryan Ewing",
+      "published_at": "2026-07-17T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "Disaster relief aviation group awards Texas pilots for flood response",
       "description": "Operation Airdrop awarded its first-ever Wings of Hope Award, one year after floods in central Texas killed 139 people during the Fourth of July weekend in 2025.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/16/disaster-relief-aviation-group-awards-texas-pilots-for-flood-response?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/16/disaster-relief-aviation-group-awards-texas-pilots-for-flood-response?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-16T17:39:29Z",
       "image": null
-    },
-    {
-      "title": "Boeing touts potential of AESA radar addition for Apache",
-      "description": "More capable sensor would boost detection of airborne threats. Boeing is advancing further enhancements for its AH-64E Apache to boost the platform’s ability to engage non-traditional threats such as one-way attack drones. The US Army has used the attack helicopter to “great effect” in the…",
-      "url": "https://www.flightglobal.com/defence/2026/07/boeing-touts-potential-of-aesa-radar-addition-for-apache/",
-      "source": "FlightGlobal",
-      "author": "Craig Hoyle",
-      "published_at": "2026-07-16T17:10:56Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Apache-Army-National-Guard-480x320.jpg"
-    },
-    {
-      "title": "The 8 Longest Airbus A350-1000 Flights In The World In 2026",
-      "description": "The Airbus A350-1000 is essentially the Boeing 777-200LR of today, as it has enough range to connect virtually any two cities on Earth while carrying a massive payload. Unlike the 777-200LR, however, it's also incredibly fuel-efficient, even on a shorter hop from New York to London, which makes it…",
-      "url": "https://simpleflying.com/8-longest-airbus-a350-1000-flights-world-2026/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-07-16T17:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/the-8-longest-airbus-a350-1000-flights-in-the-world-in-2026.jpg"
     },
     {
       "title": "This 2015 CubCrafters Carbon Cub SS Is a Rugged ‘AircraftForSale’ Top Pick",
@@ -67,156 +166,12 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-single-engine-piston-cubcrafters-carbon-cub-ss-for-sale-601733-de348f07df7e8b39-800X600-1.jpg?w=800"
     },
     {
-      "title": "The Two-Hangar Generation: What Successful Pilots Fly When No One’s Watching",
-      "description": "The longer I am in aviation, the more I find two-hangar pilots. These are the ones that have the business jet on limited charter with the management company , and a second hangar at the local airstrip. It is the second hangar that catches my attention, because it is the aircraft in that second…",
-      "url": "https://www.flyingmag.com/the-two-hangar-generation-what-successful-pilots-fly-when-no-ones-watching/",
-      "source": "Flying Magazine",
-      "author": "Tripp Thurston",
-      "published_at": "2026-07-16T15:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Boeing builds momentum with 737 Max, 777-9 and production advances ahead of Farnborough",
-      "description": "Executives detail redesigns of the 737 Max’s engine anti-ice and angle-of-attack systems, alongside flight-test headway with new widebody-twin. Ahead of this year’s signature aviation event in Farnborough, Boeing has more wind at its back than at any time in recent memory. The company has hiked…",
-      "url": "https://www.flightglobal.com/airframers/2026/07/boeing-reveals-final-steps-toward-737-max-7-certification-and-outlines-progress-on-max-10-and-777-9/",
-      "source": "FlightGlobal",
-      "author": "Jon Hemmerdinger",
-      "published_at": "2026-07-16T14:57:07Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Screenshot-2026-07-16-at-4.15.50-PM-480x313.jpg"
-    },
-    {
-      "title": "Why Virgin Atlantic Is Targeting The 40 RAF Pilots Keeping Britain's F-35 Fleet Flyable",
-      "description": "The United Kingdom only has around four dozen trained F-35B fighter jet pilots and around 150 Eurofighter Typhoon fighter jet pilots. Losing even a handful of these hard-to-replace pilots to commercial airlines is painful. They are targeted by British airlines, with Virgin Atlantic directly…",
-      "url": "https://simpleflying.com/why-virgin-atlantic-targeting-40-raf-pilots-britain-f-35-fleet-flyable/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-07-16T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-virgin-atlantic-is-targeting-the-40-raf-pilots-keeping-britain-s-f-35-fleet-flyable.jpg"
-    },
-    {
-      "title": "Sporty’s Becomes Authorized Distributor of Jeppesen ForeFlight Education Tools",
-      "description": "Sporty’s Pilot Shop, a powerhouse provider of aviation supplies and educational support, has announced a new partnership with Jeppesen ForeFlight . Sporty’s will now distribute aviation education products for pilots who wish to use the technology to its fullest capacity. According to Sporty’s, the…",
-      "url": "https://www.flyingmag.com/sportys-becomes-authorized-distributor-of-jeppesen-foreflight-education-tools/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-16T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/jepp-ff-sportys.jpg?w=776"
-    },
-    {
-      "title": "Taking Over An Airport: The Untold Logistics Of Farnborough 2026",
-      "description": "There are now four days to go until the Farnborough International Airshow 2026 kicks off on Monday, July 20. Ahead of this year's exciting event, Simple Flying's Managing Editor Tom Boon had the chance to sit down with Joe Muir, the Aerospace Commercial Director at Farnborough International. In our…",
-      "url": "https://simpleflying.com/farnborough-airshow-aerospace-commercial-director-interview/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-07-16T13:43:50Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/shutterstock_2492512329_cropped.jpg"
-    },
-    {
-      "title": "Russian government reveals significant price hikes for new aircraft models",
-      "description": "Investment figures revised for batch of more than 60 MC-21s, SJ-100s and Tu-214s. Revised Russian government documents detailing investment in the acquisition of more than 60 new-build aircraft have revealed a substantial price hike for the batch. The investment covers the acquisition of 18…",
-      "url": "https://www.flightglobal.com/archive/2026/07/russian-government-reveals-significant-price-hikes-for-new-aircraft-models/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-07-16T13:17:25Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/MC-21-c-Rostec-480x322.jpeg"
-    },
-    {
-      "title": "Aer Lingus Cuts 3 US Routes: See The Major Flight Changes Now [Map & List]",
-      "description": "Aer Lingus recently revealed that widespread cuts to the airline's network might materialize. It was suggested that this could easily affect the airline's fast-growing US operations . Now three routes will end: Dublin Airport (DUB) to Denver International Airport (DEN), Harry Reid International…",
-      "url": "https://simpleflying.com/aer-lingus-cuts-3-us-routes-see-the-major-flight-changes-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-07-16T13:15:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/aer-lingus-a330-300-mock-up.jpg"
-    },
-    {
-      "title": "How to Get a Helicopter Mechanic Job",
-      "description": "Helicopters serve many important functions. From medical transportation to news broadcasting to aerial firefighting, their versatility allows them to perform missions that cannot be conducted by fixed-wing aircraft. Those interested in helicopters can consider pursuing a career as a helicopter…",
-      "url": "https://www.flyingmag.com/how-to-get-a-helicopter-mechanic-job/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-07-16T13:00:00Z",
-      "image": null
-    },
-    {
-      "title": "United Airlines expects to be fully recovering fuel costs by fourth quarter",
-      "description": "US carrier’s operating profits slip 17% to $1.1 billion in second quarter. United Airlines expects to be recovering all of its additional fuel costs through higher fares by the fourth quarter after today disclosing an operating profit of almost $1.1 billion in the second quarter. The Star Alliance…",
-      "url": "https://www.flightglobal.com/strategy/2026/07/united-airlines-expects-to-be-fully-recovering-fuel-costs-by-fourth-quarter/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-07-16T12:28:52Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/United-Boeing-737-8-480x320.jpg"
-    },
-    {
-      "title": "Lufthansa Group names ITA board member as new Brussels Airlines chief",
-      "description": "Lorenza Maggio replaces Dorothea von Boxberg, who is stepping down in August. Brussels Airlines chief executive Dorothea von Boxberg is leaving the company in August and will be replaced by ITA Airways board member Lorenza Maggio. Lufthansa Group’s board has selected Maggio, who serves as chief…",
-      "url": "https://www.flightglobal.com/archive/2026/07/lufthansa-group-names-ita-board-member-as-new-brussels-airlines-chief/",
-      "source": "FlightGlobal",
-      "author": "Kerry Reals",
-      "published_at": "2026-07-16T12:27:36Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Lorenza-Maggio-480x270.jpeg"
-    },
-    {
-      "title": "EcoDemonstrator Explorer to flight test Next Generation Inlet",
-      "description": "Modified Rolls-Royce-powered Boeing 787-9 destined for Lufthansa will be used to evaluate acoustic performance of shorter nacelle structure. Boeing and partners Rolls-Royce and Lufthansa will later this month begin flight tests of a 787 equipped with a package of innovations – including a short…",
-      "url": "https://www.flightglobal.com/archive/2026/07/ecodemonstrator-explorer-to-flight-test-next-generation-inlet/",
-      "source": "FlightGlobal",
-      "author": "Dominic Perry",
-      "published_at": "2026-07-16T12:01:08Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/787_Eco_Dem-Explorer-c-Boeing-scaled-e1784133027959-480x336.jpg"
-    },
-    {
-      "title": "Redbird Elevates Flight Simulator Fidelity With New Avionics Upgrades",
-      "description": "One of the best aspects of Redbird Flight Simulations ’ aviation training devices (ATDs) is that with a change of the plexigas instrument panel and a swap out of the throttle quadrant you can be flying a different airplane. Those aircraft are about to become more realistic as Wednesday Redbird…",
-      "url": "https://www.flyingmag.com/redbird-elevates-flight-simulator-fidelity-with-new-avionics-upgrades/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-16T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/Redbird-Enhanced-G1000-Panel-E001-2.jpeg?w=1024"
-    },
-    {
-      "title": "Hard lessons: Safety chief navigates a demanding path to restore Boeing’s reputation",
-      "description": "Don Ruhmann believes transparency and shared responsibility are crucial to rebuilding credibility for the US airframer. As Boeing emerged from arguably its darkest period in recent history, its reputation blighted by the two-year 737 Max grounding, the company embarked on a determined effort to…",
-      "url": "https://www.flightglobal.com/archive/2026/07/hard-lessons-safety-chief-navigates-a-demanding-path-to-restore-boeings-reputation/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-07-16T08:34:37Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Don-Ruhmann-headshot-crop-c-Boeing-480x351.jpeg"
-    },
-    {
       "title": "New display brings ForeFlight into the panel",
       "description": "Pilots who rely on ForeFlight for flight planning will soon be able to view the popular navigation app's display of charts, procedures, and flight information in the instrument panel.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/16/new-display-brings-foreflight-into-the-panel?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/16/new-display-brings-foreflight-into-the-panel?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-16T07:32:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1969 Beechcraft Baron 55 Is a High-Utility ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1969 Beechcraft Baron 55. Renowned…",
-      "url": "https://www.flyingmag.com/this-1969-beechcraft-baron-55-is-a-high-utility-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-07-15T17:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-multi-engine-piston-beechcraft-baron-55-for-sale-601715-4fc6804dad6f0a18-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "Sharing aviation, changing minds",
-      "description": "Just 30 miles apart, two very different Southern California airports welcomed thousands of visitors on the same day, in different ways, but with a shared mission: connecting with their communities.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/09/sharing-aviation-changing-minds?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-09T21:49:18Z",
-      "image": null
-    },
-    {
-      "title": "NTSB confirms plug was Rob Holland's undoing",
-      "description": "The final NTSB report on the April 24, 2025, landing accident that killed legendary aerobatic competitor and performer Rob Holland draws the same conclusion that was evident in the early stages of the investigation: A loose fitting, part of a custom modification, jammed the elevator in the final…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/09/ntsb-confirms-plug-was-rob-hollands-undoing?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-09T21:17:21Z",
       "image": null
     }
   ]
