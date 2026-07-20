@@ -651,6 +651,8 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 }
 .footer-social a:hover{border-color:var(--blue-400);}
 .footer-social svg{width:16px;height:16px;stroke:rgba(246,248,252,0.75);}
+.footer-social a.tiktok-link svg{stroke:none;fill:var(--gold-400);}
+.footer-social a.tiktok-link:hover{border-color:var(--gold-400);}
 .footer-bottom{
   border-top:1px solid rgba(255,255,255,0.08);padding-top:26px;
   display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
