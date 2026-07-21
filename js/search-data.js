@@ -11,6 +11,7 @@ const SEARCH_INDEX = [
   {title:"Bizarre & Strange Incidents",desc:"Unexplained aviation incidents, freak coincidences, unsolved mysteries and the funniest passenger and crew stories in the sky.",url:"bizarre.html",tag:"Bizarre & Strange"},
   {title:"UAP Files",desc:"Documented UAP and UFO encounters reported by commercial pilots, air traffic control and military aircrew — case files, radar data and firsthand accounts.",url:"uap.html",tag:"UAP Files"},
   {title:"Black Box Files",desc:"Famous air traffic control and cockpit voice recorder audio, declassified and archived — tragedies, miracles and UAP radio calls.",url:"blackbox.html",tag:"Black Box Files"},
+  {title:"Helios 522: The Ghost Flight",desc:"A Boeing 737 lost cabin pressure minutes after takeoff from Cyprus and flew on alone for nearly three hours while everyone aboard lost consciousness. The full, source-verified case file on Helios Airways Flight 522.",url:"helios522.html",tag:"Black Box Files"},
   {title:"Passenger Stories",desc:"Real stories told from the cabin seat — the passengers who saved a life, spotted trouble first, or ended up living the most memorable flight of their lives.",url:"passengers.html",tag:"Passengers"},
   {title:"Pilot Stories",desc:"Stories from the flight deck — the training, judgment calls and quiet confidence behind the men and women in command.",url:"pilots.html",tag:"Pilots"},
   {title:"Crew Stories",desc:"Stories from the cabin — the flight attendants who spot trouble first and keep two hundred strangers calm at once.",url:"crew.html",tag:"Crew"},

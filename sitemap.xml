@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flightcrewfiles.com/helios522.html</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://flightcrewfiles.com/heroic.html</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
