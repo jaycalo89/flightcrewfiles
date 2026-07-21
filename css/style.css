@@ -303,6 +303,17 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .hero-hud .hud-br{bottom:28px;right:24px;}
 @media (max-width:860px){.hero-hud{display:none;}}
 
+/* ===== Decorative pull-quote mark — shared across every pull quote, blockquote and memorial card site-wide ===== */
+.quote-mark{
+  display:block;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:3.4rem;
+  line-height:.3;
+  color:#c9a84c;
+  margin-bottom:10px;
+}
+.quote-mark::before{content:"\201C";}
+
 .hero-card{
   position:relative;overflow:hidden;
   background:rgba(255,255,255,0.03);border:1px solid var(--border-gold);
@@ -315,7 +326,7 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   line-height:1;pointer-events:none;
 }
 .hero-card .tag{position:relative;z-index:1;}
-.hero-card .quote-mark{font-family:'Oswald',serif;font-size:3rem;color:var(--gold-500);line-height:.3;display:block;margin-bottom:6px;position:relative;z-index:1;}
+.hero-card .quote-mark{position:relative;z-index:1;}
 .hero-card p{
   color:rgba(246,248,252,0.92);font-family:'Oswald',sans-serif;font-size:1.2rem;
   font-style:normal;text-transform:none;font-weight:400;letter-spacing:.2px;line-height:1.5;
