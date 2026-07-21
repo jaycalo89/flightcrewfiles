@@ -313,7 +313,7 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   margin-bottom:10px;
 }
 .quote-mark::before{
-  content:"\201C";
+  content:'\201C';
   font-family:Georgia,'Times New Roman',serif;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -323,6 +323,17 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   display:block;
   line-height:0.6;
 }
+/* Closing quote sits inline at the end of the actual quoted text, not on the decorative opening mark itself */
+.quote-mark + p::after{
+  content:'\201D';
+  color:#c9a84c;
+  font-family:Georgia,'Times New Roman',serif;
+  margin-left:2px;
+}
+
+blockquote{position:relative;}
+blockquote::before{content:'\201C';color:#c9a84c;font-family:Georgia,'Times New Roman',serif;margin-right:4px;}
+blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New Roman',serif;margin-left:4px;}
 
 .hero-card{
   position:relative;overflow:hidden;
