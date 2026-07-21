@@ -312,7 +312,17 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
   color:#c9a84c;
   margin-bottom:10px;
 }
-.quote-mark::before{content:"\201C";}
+.quote-mark::before{
+  content:"\201C";
+  font-family:Georgia,'Times New Roman',serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+  font-size:4rem;
+  color:#c9a84c;
+  display:block;
+  line-height:0.6;
+}
 
 .hero-card{
   position:relative;overflow:hidden;
