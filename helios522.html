@@ -108,6 +108,20 @@
   .helios-figure figcaption a{color:var(--blue-400);text-decoration:none;}
   .helios-figure figcaption a:hover{text-decoration:underline;}
 
+  .helios-memorial{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px;
+    background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
+    border:1px solid var(--gold-600);border-radius:var(--radius-lg);
+    padding:44px 30px;box-shadow:var(--shadow-soft);
+  }
+  .helios-memorial .quote-mark{font-family:'Oswald',serif;font-size:2.6rem;color:var(--gold-500);line-height:.4;margin-bottom:4px;}
+  .helios-memorial h4{
+    font-family:'Oswald',sans-serif;font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--white);margin:0;
+  }
+  .helios-memorial .m-role{font-size:.86rem;color:var(--muted-light);margin:2px 0 18px;}
+  .helios-memorial .m-line{font-family:'Oswald',sans-serif;font-size:1.15rem;font-style:italic;color:var(--gold-400);margin:0;}
+
   .helios-map{
     background:linear-gradient(160deg,var(--navy-900),var(--navy-950));
     border:1px solid var(--border-soft);border-radius:var(--radius-lg);
@@ -396,9 +410,11 @@
     </div>
 
     <div class="grid grid-2" style="align-items:center;">
-      <div class="helios-photo">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
-        <span>Andreas Prodromou, cabin crew</span>
+      <div class="helios-memorial">
+        <span class="quote-mark">"</span>
+        <h4>Andreas Prodromou</h4>
+        <p class="m-role">25 years old · Cabin Crew, Helios Airways</p>
+        <p class="m-line">He died trying.</p>
       </div>
       <div>
         <p>For more than two hours, while everyone else aboard Flight 522 lay unconscious, Prodromou moved through the aircraft breathing from portable oxygen. At 11:49, he reached the flight deck, entered using the door's access code, and took the empty captain's seat — presumably having found First Officer Charalambous unresponsive and Captain Merten already gone from his seat.</p>
