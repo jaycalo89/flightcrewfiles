@@ -315,13 +315,11 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .quote-mark::before{
   content:'\201C';
   font-family:Georgia,'Times New Roman',serif;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  text-rendering:optimizeLegibility;
   font-size:4rem;
   color:#c9a84c;
   display:block;
   line-height:0.6;
+  -webkit-font-smoothing:antialiased;
 }
 /* Closing quote sits inline at the end of the actual quoted text, not on the decorative opening mark itself */
 .quote-mark + p::after{
