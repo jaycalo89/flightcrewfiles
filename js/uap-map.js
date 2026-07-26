@@ -67,6 +67,12 @@ document.addEventListener('DOMContentLoaded', function () {
       name: 'Stephenville', year: '2008', location: 'Stephenville, Texas',
       description: 'Hundreds of residents watched a massive, fast, silent object cross the sky, followed by what looked like military jets in pursuit. The Air Force reversed its initial denial to confirm F-16s were in the area, and FAA radar data later obtained via FOIA showed an unexplained target among them.',
       credibility: 'Official'
+    },
+    {
+      id: 'valentich-1978', lat: -39.4, lng: 143.7, url: 'frederick-valentich.html',
+      name: 'The Pilot Who Vanished', year: '1978', location: 'Bass Strait, Australia',
+      description: 'A 20-year-old trainee pilot radioed Melbourne air traffic control to report an aircraft orbiting above him — metallic, shining, with a green light. Six minutes and forty-seven seconds later, the transmission ended in a burst of metallic noise. Neither Frederick Valentich nor his Cessna was ever found.',
+      credibility: 'Official'
     }
   ];
 
@@ -92,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
         '<div class="uap-popup-location">' + escapeHtml(s.location) + '</div>' +
         '<p class="uap-popup-desc">' + s.description + '</p>' +
         '<span class="uap-cred-badge ' + credClass + '">' + escapeHtml(s.credibility) + '</span>' +
-        '<a class="uap-popup-link" href="uap.html#' + s.id + '">Read Full Case File &rarr;</a>' +
+        '<a class="uap-popup-link" href="' + (s.url || ('uap.html#' + s.id)) + '">Read Full Case File &rarr;</a>' +
       '</div>'
     );
   }

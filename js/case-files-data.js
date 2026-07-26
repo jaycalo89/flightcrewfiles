@@ -41,5 +41,14 @@ const CASE_FILES = [
     date: "December 1945",
     excerpt: "The flight leader's last transmissions described broken compasses, an ocean that “didn't look right,” and white water that wasn't there. The rescue plane sent after them disappeared too. No wreckage from either aircraft was ever found.",
     url: "bizarre.html"
+  },
+  {
+    title: "The Pilot Who Vanished",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "Case Open",
+    date: "October 1978",
+    excerpt: "Twenty-year-old Frederick Valentich radioed Melbourne air traffic control from his Cessna over Bass Strait to report an aircraft orbiting above him — metallic, shining, with a green light. Six minutes and forty-seven seconds later, mid-transmission, his radio call ended in a burst of metallic noise. Neither he nor his aircraft was ever found.",
+    url: "frederick-valentich.html"
   }
 ];
