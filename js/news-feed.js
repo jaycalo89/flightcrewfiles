@@ -46,6 +46,116 @@
     return (letters.slice(0, 2) || '?').toUpperCase();
   }
 
+  // ---------- FCF Take: one original line of context per headline ----------
+  // Matched against keywords in the headline only, most-specific rule first.
+  var AIRCRAFT_MODEL_RE = /\b(737(?:\s?max)?|747|757|767|777x?|787|a220|a300|a310|a320(?:neo)?|a321(?:neo|xlr)?|a330|a350|a380|md-\d+|dc-\d+)\b/i;
+
+  function hashPick(seed, count) {
+    var hash = 0;
+    for (var i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+    return hash % count;
+  }
+
+  var TAKE_RULES = [
+    {
+      re: /\bufo\b|\buap\b|unidentified (aerial|flying)|flying saucer|extraterrestrial/i,
+      takes: [
+        'Reports like this stay unresolved for years because pilots still have no low-stakes way to log something strange without risking their certificate — that gap is the real story.',
+        'The part worth watching here isn’t the object itself, it’s whether the radar and cockpit data behind the report ever gets released.'
+      ]
+    },
+    {
+      re: /crash|\bcrashe[sd]\b|\bmayday\b|emergency landing|ditch(?:ed|ing)?/i,
+      takes: [
+        'Details from an event like this tend to resurface years later as a line in a training syllabus or an emergency-procedures update.',
+        'Survivability numbers in incidents like this are exactly what shapes future cabin safety and evacuation standards.'
+      ]
+    },
+    {
+      re: /\bntsb\b|inquiry|investigation reveals|probe find|inquiry reveals/i,
+      takes: [
+        'Findings from investigations like this rarely change headlines, but they routinely change checklists and maintenance sign-off procedures.',
+        'This is the kind of report that gets read closely inside the industry long after the news cycle around it has moved on.'
+      ]
+    },
+    {
+      re: /near-miss|near miss|close call|runway incursion|forgot he'?d cleared/i,
+      takes: [
+        'Near-misses like this get less coverage than crashes, but they’re the clearer signal of where the system is actually strained.',
+        'Controller and crew workload in incidents like this is usually the first thing to get scrutinized once the transcripts are released.'
+      ]
+    },
+    {
+      re: /strike|walkout|\bunion\b|industrial action|picket/i,
+      takes: [
+        'Labor disputes at the ground-handling or contractor level rarely make headlines until they start grounding flights — worth watching before it reaches a route you fly.',
+        'This is the kind of labor story that looks small right up until it cancels a bank of departures at a major hub.'
+      ]
+    },
+    {
+      re: /\b(air force|military|airstrike|air strike|missile|pentagon|defense department|\bnavy\b|\barmy\b|warplane|fighter jet)\b/i,
+      takes: [
+        'Force-structure stories like this rarely get airline-passenger attention, but they signal where defense aviation budgets and airframes are actually headed.',
+        'Numbers like these are the kind of quiet structural shift that only becomes obvious a decade later.'
+      ]
+    },
+    {
+      re: /\bfaa\b.*(rule|regulat|clearance|tool|policy)|regulat\w*|\bbill\b|\bact\b\)?\s*(advances|passed)?/i,
+      takes: [
+        'Regulatory changes like this move slowly and get little coverage, but they’re usually what a cockpit procedure looks like five years from now.',
+        'Worth tracking less for the announcement and more for how it eventually gets written into the operating rules pilots actually fly under.'
+      ]
+    },
+    {
+      re: /pilot demand|pilot shortage|hiring|forecast/i,
+      takes: [
+        'Workforce forecasts like this shape everything from flight-school enrollment to first-officer pay scales a few years out.',
+        'Numbers like these are worth remembering next time a route gets cut or a training pipeline gets squeezed.'
+      ]
+    },
+    {
+      re: /route|destination|network|expansion|launches?\b/i,
+      takes: [
+        'Network moves like this are as much a hiring and fleet-planning signal as they are a travel story.',
+        'Route announcements like this are usually the clearest early read on where an airline thinks demand is actually heading.'
+      ]
+    },
+    {
+      re: /aircraftforsale|top pick|for sale/i,
+      takes: [
+        'Worth a look even if you’re not buying — used-aircraft listings like this are a decent read on where general aviation values are trending.'
+      ]
+    }
+  ];
+
+  function generateFcfTake(title) {
+    var text = title || '';
+    for (var i = 0; i < TAKE_RULES.length; i++) {
+      var rule = TAKE_RULES[i];
+      if (rule.re.test(text)) {
+        var takes = rule.takes;
+        return takes[hashPick(text, takes.length)];
+      }
+    }
+
+    var modelMatch = text.match(AIRCRAFT_MODEL_RE);
+    if (modelMatch) {
+      var model = modelMatch[0].toUpperCase();
+      var modelTakes = [
+        'Fleet and design stories like this one about the ' + model + ' matter because they play out over decades, long after the initial announcement is forgotten.',
+        'Changes to the ' + model + ' program tend to ripple into route planning, resale values and training requirements well before most flyers notice.'
+      ];
+      return modelTakes[hashPick(text, modelTakes.length)];
+    }
+
+    var fallback = [
+      'Small stories like this are usually how bigger industry shifts get telegraphed first.',
+      'Worth a beat of attention — this is the kind of item that reads as routine right up until it isn’t.',
+      'Not a headline-grabber on its own, but it’s exactly the kind of detail that matters if you follow this industry closely.'
+    ];
+    return fallback[hashPick(text, fallback.length)];
+  }
+
   function fetchNews() {
     return fetch('news.json').then(function (res) { return res.json(); });
   }
@@ -106,6 +216,7 @@
         '</div>' +
         '<span class="vf-tag"></span>' +
         '<h3 class="nf-headline"></h3>' +
+        '<p class="nf-take"><span class="nf-take-label">FCF Take:</span><span class="nf-take-text"></span></p>' +
         '<p class="nf-excerpt"></p>' +
         '<a class="read-report" target="_blank" rel="noopener">Read Full Story &rarr;</a>';
 
@@ -114,6 +225,7 @@
       card.querySelector('.nf-time').textContent = timeAgo(article.published_at);
       card.querySelector('.vf-tag').textContent = category;
       card.querySelector('.nf-headline').textContent = article.title || '';
+      card.querySelector('.nf-take-text').textContent = generateFcfTake(article.title);
       card.querySelector('.nf-excerpt').textContent = article.description || '';
       card.querySelector('.read-report').href = article.url;
 

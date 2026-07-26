@@ -480,3 +480,25 @@ urllib.error.HTTPError: HTTP Error 400: Bad Request
 [2026-07-19 15:19:03] START  Generate sitemap.xml
 [2026-07-19 15:19:03] OK     Generate sitemap.xml -> 29
 [2026-07-19 15:19:03] Flight Crew Files update run finished in 23.9s
+[2026-07-25 18:01:38] ============================================================
+[2026-07-25 18:01:38] Flight Crew Files update run starting
+[2026-07-25 18:01:38] START  Fetch YouTube videos
+[2026-07-25 18:01:41] OK     Fetch YouTube videos -> 40
+[2026-07-25 18:01:41] START  Fetch aviation news
+[2026-07-25 18:01:41]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-07-25 18:01:44]        Simple Flying: 9 articles from https://simpleflying.com/feed (1 rejected by validation)
+[2026-07-25 18:01:46]        FlightGlobal: 3 articles from https://www.flightglobal.com/rss (7 rejected by validation)
+[2026-07-25 18:01:47]        WARN The Aviation Herald feed failed -> syntax error: line 2, column 0
+[2026-07-25 18:01:57]        AOPA: 7 articles from https://www.aopa.org/news-and-media/all-news/rss (92 rejected by validation)
+[2026-07-25 18:02:09]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-07-25 18:02:09]        113 article(s) rejected by validation across all feeds
+[2026-07-25 18:02:09]        1 of 6 feed(s) failed for news.json
+[2026-07-25 18:02:09] OK     Fetch aviation news -> 26
+[2026-07-25 18:02:09] START  Fetch UAP news
+[2026-07-25 18:02:13]        The Black Vault: 0 articles from https://theblackvault.com/casefiles/feed (25 rejected by validation)
+[2026-07-25 18:02:13]        UFOs: Scientific Research: 0 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (25 rejected by validation)
+[2026-07-25 18:02:13]        50 article(s) rejected by validation across all feeds
+[2026-07-25 18:02:13] OK     Fetch UAP news -> 0
+[2026-07-25 18:02:13] START  Generate sitemap.xml
+[2026-07-25 18:02:13] OK     Generate sitemap.xml -> 34
+[2026-07-25 18:02:13] Flight Crew Files update run finished in 35.2s
