@@ -12,13 +12,14 @@
 
   function buildCard(entry) {
     var card = document.createElement('div');
-    card.className = 'article-card';
+    card.className = 'case-file-card';
     card.style.setProperty('--accent', entry.accent || '#2e8fff');
     card.innerHTML =
-      '<div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">' +
+      '<span class="cf-stamp">Declassified</span>' +
+      '<div class="case-file-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">' +
         (ICONS[entry.tag] || DEFAULT_ICON) +
       '</svg></div>' +
-      '<div class="article-body">' +
+      '<div class="case-file-body">' +
         '<span class="date"></span>' +
         '<h3></h3>' +
         '<span class="story-date"></span>' +
