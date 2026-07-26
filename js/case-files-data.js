@@ -50,5 +50,13 @@ const CASE_FILES = [
     date: "October 1978",
     excerpt: "Twenty-year-old Frederick Valentich radioed Melbourne air traffic control from his Cessna over Bass Strait to report an aircraft orbiting above him — metallic, shining, with a green light. Six minutes and forty-seven seconds later, mid-transmission, his radio call ended in a burst of metallic noise. Neither he nor his aircraft was ever found.",
     url: "frederick-valentich.html"
+  },
+  {
+    title: "The Plane That Lost Its Roof",
+    tag: "Heroic Moments",
+    accent: "#e8c766",
+    date: "April 1988",
+    excerpt: "At 24,000 feet, 18 feet of Aloha Airlines Flight 243's roof tore away explosively, sweeping flight attendant Clarabelle Lansing into the sky — she was never found. Captain Robert Schornstheimer and First Officer Mimi Tompkins flew the open, structurally broken 737 to a safe landing on Maui, bringing all 94 other people aboard home alive.",
+    url: "aloha-airlines-243.html"
   }
 ];
