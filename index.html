@@ -136,8 +136,10 @@
   <div class="container">
     <div class="poll-widget" id="poll-widget">
       <div class="poll-header">
-        <span class="tag" style="background:var(--gold-500);">Community Poll</span>
-        <div><span class="poll-live-badge"><span class="poll-live-dot"></span>Live</span></div>
+        <div class="poll-header-row">
+          <span class="tag" style="background:var(--gold-500);">Community Poll</span>
+          <span class="poll-live-badge"><span class="poll-live-dot"></span>Live</span>
+        </div>
         <h3 class="poll-question">Which is the BEST airline in the world?</h3>
       </div>
 
@@ -145,42 +147,37 @@
         <button type="button" class="poll-option" data-option="emirates" aria-pressed="false">
           <span class="poll-option-label">
             <span class="poll-option-name">Emirates</span>
-            <span class="poll-option-pct"></span>
+            <span class="poll-option-meta"><span class="poll-option-pct"></span><span class="poll-option-votes"></span></span>
           </span>
           <span class="poll-bar-track"><span class="poll-bar-fill"></span></span>
-          <span class="poll-option-votes"></span>
         </button>
         <button type="button" class="poll-option" data-option="singapore" aria-pressed="false">
           <span class="poll-option-label">
             <span class="poll-option-name">Singapore Airlines</span>
-            <span class="poll-option-pct"></span>
+            <span class="poll-option-meta"><span class="poll-option-pct"></span><span class="poll-option-votes"></span></span>
           </span>
           <span class="poll-bar-track"><span class="poll-bar-fill"></span></span>
-          <span class="poll-option-votes"></span>
         </button>
         <button type="button" class="poll-option" data-option="qatar" aria-pressed="false">
           <span class="poll-option-label">
             <span class="poll-option-name">Qatar Airways</span>
-            <span class="poll-option-pct"></span>
+            <span class="poll-option-meta"><span class="poll-option-pct"></span><span class="poll-option-votes"></span></span>
           </span>
           <span class="poll-bar-track"><span class="poll-bar-fill"></span></span>
-          <span class="poll-option-votes"></span>
         </button>
         <button type="button" class="poll-option" data-option="cathay" aria-pressed="false">
           <span class="poll-option-label">
             <span class="poll-option-name">Cathay Pacific</span>
-            <span class="poll-option-pct"></span>
+            <span class="poll-option-meta"><span class="poll-option-pct"></span><span class="poll-option-votes"></span></span>
           </span>
           <span class="poll-bar-track"><span class="poll-bar-fill"></span></span>
-          <span class="poll-option-votes"></span>
         </button>
         <button type="button" class="poll-option" data-option="ana" aria-pressed="false">
           <span class="poll-option-label">
             <span class="poll-option-name">ANA All Nippon Airways</span>
-            <span class="poll-option-pct"></span>
+            <span class="poll-option-meta"><span class="poll-option-pct"></span><span class="poll-option-votes"></span></span>
           </span>
           <span class="poll-bar-track"><span class="poll-bar-fill"></span></span>
-          <span class="poll-option-votes"></span>
         </button>
       </div>
 
@@ -225,20 +222,21 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="case-files">
   <div class="container">
-    <span class="eyebrow">This Week's Case File</span>
-    <h2 class="section-title" style="margin-bottom:36px;">Flight 19: Five Bombers, One Radio Call, No Wreckage</h2>
-    <div class="featured-card">
-      <div class="featured-media">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 2c2 3 3 6.5 3 10s-1 8-3 10c-2-2-3-6.5-3-10s1-7 3-10z"/><path d="M2 12c3-2 6.5-3 10-3s8 1 10 3c-2 2-6.5 3-10 3s-7-1-10-3z"/></svg>
-      </div>
-      <div class="featured-body">
-        <span class="tag">Bizarre &amp; Unexplained</span>
-        <h2>On a clear afternoon in December 1945, five Navy Avenger bombers took off from Fort Lauderdale on a routine training run — and vanished.</h2>
-        <p>The flight leader's last transmissions described broken compasses, an ocean that “didn't look right,” and white water that wasn't there. The rescue plane sent after them disappeared too. No wreckage from either aircraft was ever found. Eight decades later, Flight 19 remains one of aviation's most argued-over mysteries — official reports blame disorientation and weather, but the missing radio logs and the search plane's own vanishing still fuel the legend that helped put the Bermuda Triangle on the map.</p>
-        <a href="bizarre.html" class="card-link">Read The Full Case File <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      </div>
+    <span class="eyebrow center" style="display:flex;justify-content:center;">Case Files</span>
+    <h2 class="section-title center">Dig Into The Full Case Files</h2>
+    <div class="gold-divider center"></div>
+    <p class="section-lede center" style="margin:14px auto 0;">Deep, source-verified deep-dives into the stories that keep readers up at night.</p>
+
+    <div class="grid grid-3" id="case-files-grid" style="margin-top:50px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see this week's case files, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+
+    <div style="text-align:center;margin-top:44px;">
+      <a href="stories.html" class="btn btn-gold-outline">Browse All Case Files &amp; Stories <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
   </div>
 </section>
@@ -425,6 +423,8 @@
 <script src="js/news-feed.min.js" defer></script>
 <script src="js/latest-from-skies.min.js" defer></script>
 <script src="js/poll.min.js" defer></script>
+<script src="js/case-files-data.min.js" defer></script>
+<script src="js/case-files.min.js" defer></script>
 
 <!-- Google Analytics — moved to end of body; dataLayer queue works regardless of load order -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
