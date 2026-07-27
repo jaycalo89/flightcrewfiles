@@ -64,8 +64,8 @@
     background:rgba(212,175,55,0.1);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
   }
   .ss-teaser-stamp::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold-400);box-shadow:0 0 8px var(--gold-400);flex-shrink:0;animation:pulse-dot 1.6s infinite;}
-  .ss-teaser h2{font-size:clamp(2.4rem,6.5vw,4.2rem);color:var(--gold-400);text-shadow:0 0 44px rgba(212,175,55,0.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.02em;}
-  .ss-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.04em;color:rgba(246,248,252,0.8);margin-bottom:50px;}
+  .ss-teaser h2{font-size:clamp(2.4rem,6.5vw,4.2rem);color:#c9a84c;text-shadow:0 0 44px rgba(201,168,76,0.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.02em;}
+  .ss-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.04em;color:#c9a84c;margin-bottom:50px;}
   .ss-teaser-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:46px;}
   @media (max-width:980px){.ss-teaser-grid{grid-template-columns:repeat(2,1fr);}}
   @media (max-width:600px){.ss-teaser-grid{grid-template-columns:1fr;}}
@@ -81,10 +81,12 @@
   .ss-teaser-card-media{height:190px;overflow:hidden;background:#000;}
   .ss-teaser-card-media img{width:100%;height:100%;object-fit:cover;display:block;}
   .ss-teaser-card-body{padding:20px;}
-  .ss-teaser-card-body h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em;color:#ffffff;}
+  .ss-teaser-card-body h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em;color:#c9a84c;}
   .ss-teaser-card-body p{font-family:'Inter',sans-serif;font-size:.9rem;color:#c9a84c;margin:0;font-style:normal;font-weight:500;letter-spacing:.03em;line-height:1.6;}
   .ss-teaser-cta{position:relative;z-index:1;text-align:center;}
   .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
+  .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
+  .ss-teaser-cta .btn-gold:hover{background:rgba(201,168,76,0.12);border-color:#c9a84c;color:#c9a84c;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(201,168,76,0.45);}
 </style>
 </head>
 <body>
@@ -227,7 +229,7 @@
       </a>
       <a class="ss-teaser-card" href="horten-ho229.html">
         <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/horten-ho229.jpg" alt="The captured Horten Ho 229 flying wing prototype" loading="lazy" style="object-fit:contain;background:#111;">
+          <img src="images/secret-skies/horten-ho229.jpg" alt="The preserved Horten Ho 229 V3 flying wing at the Smithsonian's Udvar-Hazy restoration hangar" loading="lazy" style="object-fit:contain;background:#111;">
         </div>
         <div class="ss-teaser-card-body">
           <h3>Horten Ho 229</h3>
