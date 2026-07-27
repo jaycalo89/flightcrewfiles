@@ -58,5 +58,14 @@ const CASE_FILES = [
     date: "April 1988",
     excerpt: "At 24,000 feet, 18 feet of Aloha Airlines Flight 243's roof tore away explosively, sweeping flight attendant Clarabelle Lansing into the sky — she was never found. Captain Robert Schornstheimer and First Officer Mimi Tompkins flew the open, structurally broken 737 to a safe landing on Maui, bringing all 94 other people aboard home alive.",
     url: "aloha-airlines-243.html"
+  },
+  {
+    title: "The Plane That Caused The UFO Panic",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "Declassified",
+    date: "August 1955",
+    excerpt: "Built in 88 days by Lockheed's secret Skunk Works division and flown by CIA officers who signed away their identities, the U-2 spy plane flew so high Soviet missiles couldn't reach it. The CIA has officially confirmed it caused more than half of all UFO reports filed in America during the late 1950s and 1960s — plus the full story of Gary Powers' 1960 shootdown over the USSR.",
+    url: "u2-spy-plane.html"
   }
 ];
