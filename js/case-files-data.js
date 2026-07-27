@@ -76,5 +76,14 @@ const CASE_FILES = [
     date: "March 2014",
     excerpt: "A Boeing 777 carrying 239 people vanishes from radar over the South China Sea with no distress call. Satellite data later showed it flew on, alone and unresponsive, for nearly seven more hours into the Southern Indian Ocean. More than a decade — and the largest search in aviation history — later, most of the aircraft has never been found.",
     url: "mh370.html"
+  },
+  {
+    title: "The First Pilot To Die Chasing A UFO",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "Unresolved",
+    date: "January 1948",
+    excerpt: "Captain Thomas Mantell, a decorated WWII pilot, climbed his P-51 Mustang toward a massive metallic object over Kentucky without oxygen equipment and never leveled off. His last radio words described something enormous. Over the next four years, the Air Force gave three different explanations for what he died chasing — and never fully settled the question.",
+    url: "captain-mantell.html"
   }
 ];
