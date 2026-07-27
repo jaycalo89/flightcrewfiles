@@ -312,9 +312,11 @@ document.addEventListener('DOMContentLoaded', function () {
       var searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(e.title + ' aviation history');
       var titleAttr = e.imageCredit ? ' title="Photo: ' + e.imageCredit.replace(/"/g, '&quot;') + '"' : '';
       return '<div class="history-event-card">' +
-        '<div class="hec-media"><img src="' + e.image + '" alt="' + e.title + '" loading="lazy"' + titleAttr + '><span class="hec-year">' + e.year + '</span></div>' +
+        '<div class="hec-media"><img src="' + e.image + '" alt="' + e.title + '" loading="lazy"' + titleAttr + '></div>' +
         '<div class="hec-body">' +
-          '<h3>' + e.title + '</h3><p>' + e.text + '</p>' +
+          '<h3>' + e.title + '</h3>' +
+          '<span class="hec-year-label">— ' + e.year + '</span>' +
+          '<p>' + e.text + '</p>' +
           '<a class="hec-readmore" href="' + searchUrl + '" target="_blank" rel="noopener">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>' +
         '</div>' +
       '</div>';
