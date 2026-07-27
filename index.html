@@ -87,6 +87,74 @@
   .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
   .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
   .ss-teaser-cta .btn-gold:hover{background:rgba(201,168,76,0.12);border-color:#c9a84c;color:#c9a84c;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(201,168,76,0.45);}
+
+  /* ===== Live ATC homepage teaser ===== */
+  .atc-teaser{
+    position:relative;overflow:hidden;padding:130px 0 110px;
+    background:
+      repeating-linear-gradient(135deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 14px),
+      radial-gradient(1100px 560px at 15% 0%, rgba(255,77,77,0.11), transparent 60%),
+      radial-gradient(900px 480px at 100% 100%, rgba(212,175,55,0.1), transparent 55%),
+      linear-gradient(180deg,#000103 0%,var(--navy-950) 55%,#02040a 100%);
+    border-top:1px solid var(--border-gold);border-bottom:1px solid var(--border-gold);
+  }
+  .atc-teaser-head{position:relative;z-index:1;}
+  .atc-radar{
+    position:absolute;top:-80px;right:-140px;left:auto;
+    width:640px;height:640px;max-width:none;border-radius:50%;
+    pointer-events:none;z-index:0;opacity:.5;
+    background:repeating-radial-gradient(circle,rgba(255,77,77,.15) 0px,rgba(255,77,77,.15) 1px,transparent 1px,transparent 54px);
+  }
+  .atc-radar::after{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(from 0deg,rgba(255,77,77,0) 0deg,rgba(255,77,77,0) 265deg,rgba(255,77,77,.45) 300deg,rgba(255,77,77,0) 340deg);
+    animation:radar-spin 5s linear infinite;
+  }
+  @media (prefers-reduced-motion:reduce){.atc-radar::after{animation:none;}}
+  .atc-teaser-badge{
+    display:inline-flex;align-items:center;gap:9px;padding:7px 16px;border-radius:999px;
+    border:1px solid rgba(255,77,77,0.4);background:rgba(255,77,77,0.08);
+    font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
+    color:#ff4d4d;font-weight:700;margin-bottom:22px;
+  }
+  .atc-teaser-badge .nav-live-dot{width:8px;height:8px;}
+  .atc-teaser h2{font-size:clamp(2.4rem,6.5vw,4.2rem);color:#c9a84c;text-shadow:0 0 44px rgba(201,168,76,0.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.02em;}
+  .atc-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.02em;color:rgba(246,248,252,0.85);margin-bottom:50px;max-width:640px;}
+
+  .atc-teaser-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:40px;}
+  @media (max-width:860px){.atc-teaser-grid{grid-template-columns:1fr;}}
+  .atc-teaser-card{
+    display:block;background:#0d1117;
+    border:1px solid var(--border-soft);border-top:2px solid #c9a84c;border-radius:var(--radius-lg);overflow:hidden;
+    box-shadow:var(--shadow-soft);text-align:left;padding:28px 26px;
+    transition:border-color .25s ease,transform .25s ease,box-shadow .25s ease;
+  }
+  .atc-teaser-card:hover{
+    border-color:var(--gold-500);border-top-color:#c9a84c;transform:translateY(-4px);
+    box-shadow:var(--shadow-soft),0 0 24px rgba(255,77,77,.25);
+  }
+  .atc-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
+  .atc-card-code{font-family:'Oswald',sans-serif;font-weight:700;font-size:2.3rem;letter-spacing:.04em;color:#c9a84c;line-height:1;}
+  .atc-card-live{
+    display:inline-flex;align-items:center;gap:6px;font-family:'Oswald',sans-serif;font-size:.66rem;
+    letter-spacing:.14em;text-transform:uppercase;color:#ff4d4d;font-weight:700;
+  }
+  .atc-card-live .nav-live-dot{width:7px;height:7px;}
+  .atc-teaser-card h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.05rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em;color:#ffffff;}
+  .atc-teaser-card p{font-family:'Inter',sans-serif;font-size:.9rem;color:rgba(246,248,252,0.75);margin:0 0 20px;line-height:1.6;}
+  .atc-card-listen{
+    display:inline-flex;align-items:center;gap:8px;font-family:'Oswald',sans-serif;font-size:.76rem;
+    letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#c9a84c;
+  }
+  .atc-card-listen svg{width:14px;height:14px;stroke:currentColor;transition:transform .2s ease;}
+  .atc-teaser-card:hover .atc-card-listen svg{transform:translateX(4px);}
+
+  .atc-teaser-cta{position:relative;z-index:1;text-align:center;}
+  .atc-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
+  .atc-teaser-cta-note{
+    display:block;margin-top:16px;font-family:'Oswald',sans-serif;font-size:.74rem;
+    letter-spacing:.1em;text-transform:uppercase;color:var(--muted-light);
+  }
 </style>
 </head>
 <body>
@@ -115,6 +183,7 @@
         <input type="search" name="q" class="nav-search-input" placeholder="Search..." aria-label="Search Flight Crew Files">
         <button type="submit" class="nav-search-btn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
       </form>
+      <a href="listen-live.html" class="nav-live-badge"><span class="nav-live-dot"></span><span class="nav-live-label">Live ATC</span></a>
       <a href="#newsletter" class="btn btn-gold btn-sm">Get The Briefing</a>
       <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
@@ -130,6 +199,7 @@
     <a href="community.html">Community Hub</a>
     <a href="resources.html">Resources</a>
     <a href="tipline.html">Submit Your Story</a>
+    <a href="listen-live.html" class="mobile-live-link"><span class="nav-live-dot"></span><span class="nav-live-label">Live ATC</span></a>
     <a href="#newsletter" class="btn btn-gold btn-block">Get The Briefing</a>
   </div>
 </header>
@@ -240,6 +310,52 @@
 
     <div class="ss-teaser-cta">
       <a href="secret-skies.html" class="btn btn-gold">Explore All Classified Aircraft <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="atc-teaser" id="live-atc-teaser">
+  <div class="container">
+    <div class="atc-teaser-head">
+      <div class="atc-radar" aria-hidden="true"></div>
+      <span class="atc-teaser-badge"><span class="nav-live-dot"></span>Live</span>
+      <h2>Air Traffic Control — Live Now</h2>
+      <p class="atc-teaser-sub">Real pilots. Real controllers. Real emergencies. Listen in.</p>
+    </div>
+
+    <div class="atc-teaser-grid">
+      <a class="atc-teaser-card" href="listen-live.html#kjfk">
+        <div class="atc-card-top">
+          <span class="atc-card-code">JFK</span>
+          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
+        </div>
+        <h3>New York JFK</h3>
+        <p>The world's busiest airspace.</p>
+        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="atc-teaser-card" href="listen-live.html#eham">
+        <div class="atc-card-top">
+          <span class="atc-card-code">AMS</span>
+          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
+        </div>
+        <h3>Amsterdam Schiphol</h3>
+        <p>Europe's most complex approach.</p>
+        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="atc-teaser-card" href="listen-live.html#wsss">
+        <div class="atc-card-top">
+          <span class="atc-card-code">SIN</span>
+          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
+        </div>
+        <h3>Singapore Changi</h3>
+        <p>Gateway between East and West.</p>
+        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+
+    <div class="atc-teaser-cta">
+      <a href="listen-live.html" class="btn btn-gold">Access All 11 Airports Worldwide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <span class="atc-teaser-cta-note">Updated feeds — 24 hours a day</span>
     </div>
   </div>
 </section>

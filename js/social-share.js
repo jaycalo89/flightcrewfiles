@@ -3,13 +3,13 @@
 // Cards don't have individual permalinks, so all three buttons share the
 // current page's canonical URL; only the X/Twitter text differs per card.
 document.addEventListener('DOMContentLoaded', function () {
-  var cards = document.querySelectorAll('.article-card, .case-file, .timeline-item, .file-card');
+  var cards = document.querySelectorAll('.article-card, .case-file, .timeline-item, .file-card, .station-card');
   if (!cards.length) return;
 
   var pageUrl = location.origin + location.pathname;
-  var encodedUrl = encodeURIComponent(pageUrl);
 
-  function buildShareRow(title) {
+  function buildShareRow(title, url) {
+    var encodedUrl = encodeURIComponent(url);
     var row = document.createElement('div');
     row.className = 'share-row';
     row.innerHTML =
@@ -33,9 +33,19 @@ document.addEventListener('DOMContentLoaded', function () {
   cards.forEach(function (card) {
     var titleEl = card.querySelector('.file-title') || card.querySelector('h3') || card.querySelector('h4');
     var title = titleEl ? titleEl.textContent.trim() : document.title;
-    var target = card.querySelector('.article-body') || card.querySelector('.file-body') || card;
 
-    var row = buildShareRow(title);
+    // Station cards (Listen Live) get their own deep-linkable URL via the
+    // card's id, so sharing a specific airport takes visitors straight back
+    // to that card instead of the top of the page.
+    var url = pageUrl;
+    if (card.classList.contains('station-card') && card.id) {
+      url = pageUrl + '#' + card.id;
+      title = 'Live ATC — ' + title;
+    }
+
+    var target = card.querySelector('.station-share') || card.querySelector('.article-body') || card.querySelector('.file-body') || card;
+
+    var row = buildShareRow(title, url);
     target.appendChild(row);
 
     var copyBtn = row.querySelector('.share-copy');
@@ -47,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
       function fallbackCopy() {
         var ta = document.createElement('textarea');
-        ta.value = pageUrl;
+        ta.value = url;
         ta.style.position = 'fixed';
         ta.style.opacity = '0';
         document.body.appendChild(ta);
@@ -57,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showCopied();
       }
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(pageUrl).then(showCopied).catch(fallbackCopy);
+        navigator.clipboard.writeText(url).then(showCopied).catch(fallbackCopy);
       } else {
         fallbackCopy();
       }

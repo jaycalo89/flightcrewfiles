@@ -56,6 +56,7 @@
         <input type="search" name="q" class="nav-search-input" placeholder="Search..." aria-label="Search Flight Crew Files">
         <button type="submit" class="nav-search-btn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
       </form>
+      <a href="listen-live.html" class="nav-live-badge"><span class="nav-live-dot"></span><span class="nav-live-label">Live ATC</span></a>
       <a href="#newsletter" class="btn btn-gold btn-sm">Get The Briefing</a>
       <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
@@ -71,6 +72,7 @@
     <a href="community.html">Community Hub</a>
     <a href="resources.html" class="active">Resources</a>
     <a href="tipline.html">Submit Your Story</a>
+    <a href="listen-live.html" class="mobile-live-link"><span class="nav-live-dot"></span><span class="nav-live-label">Live ATC</span></a>
     <a href="#newsletter" class="btn btn-gold btn-block">Get The Briefing</a>
   </div>
 </header>
@@ -91,17 +93,18 @@
   </div>
 </div>
 
-<section class="page-hero">
+<section class="atc-hero">
   <div class="container">
-    <span class="live-dot">Community Feeds Online</span>
-    <h1 class="section-title" style="margin-top:16px;">Listen Live: Air Traffic Control</h1>
-    <p class="section-lede">Real tower, ground and approach chatter from some of the busiest airports on Earth — streamed by the volunteer scanner network at LiveATC.net. Pick a station below and listen in.</p>
+    <span class="atc-hero-badge"><span class="nav-live-dot"></span>11 Feeds Online</span>
+    <h1>YOU ARE NOW ENTERING CONTROLLED AIRSPACE</h1>
+    <p class="section-lede">Listen to real air traffic control communications from the world's busiest airports — real pilots, real controllers, streamed live by the volunteer scanner network at LiveATC.net.</p>
+    <div class="atc-freq-wave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </div>
 </section>
 
 <section class="section-tight">
   <div class="container">
-    <p class="affiliate-note"><strong>How this works:</strong> These feeds are hosted and streamed by LiveATC.net, a community-run network of volunteer radio scanners positioned near airports worldwide. Tapping “Listen” opens that airport's live stream directly on LiveATC.net in a new tab, which gives you the most stable playback and lets you pick the exact frequency (tower, ground, approach) currently online. Feeds are run by volunteers and occasionally go offline for maintenance or interference — that's normal.</p>
+    <p class="affiliate-note"><strong>How this works:</strong> Every station below has a one-tap <strong>Quick Listen</strong> that streams that airport's tower frequency right here on the page — nothing loads until you press play, and starting a new station stops whatever was already playing. &#8220;Listen via LiveATC&#8221; opens that airport's full live stream directly on LiveATC.net in a new tab, where you can pick the exact frequency (tower, ground, approach) currently online — the most stable option if a quick-listen feed is down. These are volunteer-run feeds, so they occasionally go offline for maintenance or interference; that's normal.</p>
   </div>
 </section>
 
@@ -114,48 +117,108 @@
 
     <div class="grid grid-4" style="margin-top:40px;">
 
-      <div class="station-card">
+      <div class="station-card" id="kjfk">
         <div class="station-head">
           <span class="station-icao">KJFK</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>New York JFK</h3>
         <span class="station-region">Queens, New York, USA</span>
         <p>One of the world's busiest international gateways — expect a steady stream of heavy jets, tight sequencing and classic New York controller cadence.</p>
-        <a href="https://www.liveatc.net/search/?icao=KJFK" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> weekday mornings 6&ndash;9am and evenings 4&ndash;8pm ET, when transatlantic arrivals overlap the domestic banks.<span class="station-peak-tag" data-tz="America/New_York" data-ranges='[["06:00","09:00"],["16:00","20:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="kjfk_twr" data-label="KJFK Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to KJFK Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=KJFK" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="klax">
         <div class="station-head">
           <span class="station-icao">KLAX</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Los Angeles International</h3>
         <span class="station-region">Los Angeles, California, USA</span>
         <p>Four parallel runways and near-constant departures make LAX one of the most active — and easiest to follow — towers on the network.</p>
-        <a href="https://www.liveatc.net/search/?icao=KLAX" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> late evening 9pm&ndash;1am PT, when trans-Pacific widebodies land back to back.<span class="station-peak-tag" data-tz="America/Los_Angeles" data-ranges='[["21:00","23:59"],["00:00","01:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="klax_twr" data-label="LAX Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to LAX Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=KLAX" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="kord">
         <div class="station-head">
           <span class="station-icao">KORD</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Chicago O'Hare</h3>
         <span class="station-region">Chicago, Illinois, USA</span>
         <p>A sprawling eight-runway hub where ground control alone can sound like a puzzle — a favorite among scanner regulars.</p>
-        <a href="https://www.liveatc.net/search/?icao=KORD" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> early morning 6&ndash;9am and early evening 4&ndash;7pm CT connection banks.<span class="station-peak-tag" data-tz="America/Chicago" data-ranges='[["06:00","09:00"],["16:00","19:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="kord1n2_twr_n" data-label="ORD Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to ORD Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=KORD" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="katl">
         <div class="station-head">
           <span class="station-icao">KATL</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Atlanta Hartsfield-Jackson</h3>
         <span class="station-region">Atlanta, Georgia, USA</span>
         <p>The world's busiest airport by passenger traffic — a near-relentless cadence of arrivals and departures around the clock.</p>
-        <a href="https://www.liveatc.net/search/?icao=KATL" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> nearly nonstop, but 7&ndash;9am and 5&ndash;8pm ET are the heaviest banks.<span class="station-peak-tag" data-tz="America/New_York" data-ranges='[["07:00","09:00"],["17:00","20:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="katl_twr" data-label="ATL Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to ATL Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=KATL" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
     </div>
@@ -171,96 +234,236 @@
 
     <div class="grid grid-3" style="margin-top:40px;">
 
-      <div class="station-card">
+      <div class="station-card" id="eham">
         <div class="station-head">
-          <span class="station-icao">EGLL</span>
-          <span class="live-dot">Live</span>
+          <span class="station-icao">EHAM</span>
+          <span class="live-dot red">Live</span>
         </div>
-        <h3>London Heathrow</h3>
-        <span class="station-region">London, United Kingdom</span>
-        <p>Europe's busiest airport, famous for tightly choreographed arrivals stacking in over the English countryside.</p>
-        <a href="https://www.liveatc.net/search/?icao=EGLL" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <h3>Amsterdam Schiphol</h3>
+        <span class="station-region">Amsterdam, Netherlands</span>
+        <p>One of Europe's busiest hubs, famous for parallel and offset runways — including the remote Polderbaan — that make for a genuinely complex approach environment.</p>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> weekday mornings 7&ndash;10am and afternoons 1&ndash;4pm CET.<span class="station-peak-tag" data-tz="Europe/Amsterdam" data-ranges='[["07:00","10:00"],["13:00","16:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="eham_twr_0624" data-label="Schiphol Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Schiphol Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=EHAM" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="lszh">
         <div class="station-head">
-          <span class="station-icao">LFPG</span>
-          <span class="live-dot">Live</span>
+          <span class="station-icao">LSZH</span>
+          <span class="live-dot red">Live</span>
         </div>
-        <h3>Paris Charles de Gaulle</h3>
-        <span class="station-region">Paris, France</span>
-        <p>A major long-haul hub with a distinct bilingual rhythm to its tower and approach control transmissions.</p>
-        <a href="https://www.liveatc.net/search/?icao=LFPG" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <h3>Zurich Airport</h3>
+        <span class="station-region">Zurich, Switzerland</span>
+        <p>Switzerland's primary international gateway, with tightly coordinated approaches over residential terrain that keep controllers razor-precise.</p>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> weekday mornings 7&ndash;9am and evenings 5&ndash;8pm CET.<span class="station-peak-tag" data-tz="Europe/Zurich" data-ranges='[["07:00","09:00"],["17:00","20:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="lszh1_twr" data-label="Zurich Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Zurich Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=LSZH" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="eidw">
         <div class="station-head">
-          <span class="station-icao">EDDF</span>
-          <span class="live-dot">Live</span>
+          <span class="station-icao">EIDW</span>
+          <span class="live-dot red">Live</span>
         </div>
-        <h3>Frankfurt Airport</h3>
-        <span class="station-region">Frankfurt, Germany</span>
-        <p>Continental Europe's busiest cargo and passenger hub, with dense, precisely spaced traffic through the day.</p>
-        <a href="https://www.liveatc.net/search/?icao=EDDF" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <h3>Dublin Airport</h3>
+        <span class="station-region">Dublin, Ireland</span>
+        <p>Ireland's busiest airport and a major transatlantic gateway, with a steady mix of European short-haul and US-bound long-haul departures.</p>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> early morning 6&ndash;9am transatlantic departure bank, GMT/IST.<span class="station-peak-tag" data-tz="Europe/Dublin" data-ranges='[["06:00","09:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="eidw8" data-label="Dublin">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Dublin">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=EIDW" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ===== Middle East & Asia-Pacific ===== -->
+<!-- ===== Asia-Pacific ===== -->
 <section class="section" id="apac">
   <div class="container">
     <span class="eyebrow">Region</span>
-    <h2 class="section-title">Middle East &amp; Asia-Pacific</h2>
+    <h2 class="section-title">Asia-Pacific</h2>
     <div class="gold-divider"></div>
 
     <div class="grid grid-4" style="margin-top:40px;">
 
-      <div class="station-card">
+      <div class="station-card" id="wsss">
         <div class="station-head">
-          <span class="station-icao">OMDB</span>
-          <span class="live-dot">Live</span>
+          <span class="station-icao">WSSS</span>
+          <span class="live-dot red">Live</span>
         </div>
-        <h3>Dubai International</h3>
-        <span class="station-region">Dubai, United Arab Emirates</span>
-        <p>The world's busiest airport for international passengers — a constant procession of widebody long-haul traffic.</p>
-        <a href="https://www.liveatc.net/search/?icao=OMDB" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <h3>Singapore Changi</h3>
+        <span class="station-region">Singapore</span>
+        <p>Consistently rated among the world's best airports, and the definitive crossroads between European, South Asian and Pacific air traffic.</p>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> overnight 11pm&ndash;3am SGT, when East-West long-haul connections peak.<span class="station-peak-tag" data-tz="Asia/Singapore" data-ranges='[["23:00","23:59"],["00:00","03:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="wsss3" data-label="Singapore Changi">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Singapore Changi">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=WSSS" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="rjtt">
         <div class="station-head">
           <span class="station-icao">RJTT</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Tokyo Haneda</h3>
         <span class="station-region">Tokyo, Japan</span>
         <p>Precision-run and courteous, Haneda's controllers manage one of Asia's tightest traffic flows with calm efficiency.</p>
-        <a href="https://www.liveatc.net/search/?icao=RJTT" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> morning 7&ndash;10am and evening 5&ndash;8pm JST domestic banks.<span class="station-peak-tag" data-tz="Asia/Tokyo" data-ranges='[["07:00","10:00"],["17:00","20:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="rjtt_twr" data-label="Haneda Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Haneda Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=RJTT" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="vhhh">
         <div class="station-head">
           <span class="station-icao">VHHH</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Hong Kong International</h3>
         <span class="station-region">Hong Kong</span>
         <p>Built on reclaimed land in the Pearl River Delta, with a busy mix of passenger and heavy cargo operations.</p>
-        <a href="https://www.liveatc.net/search/?icao=VHHH" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> morning 8&ndash;11am and evening 6&ndash;9pm HKT.<span class="station-peak-tag" data-tz="Asia/Hong_Kong" data-ranges='[["08:00","11:00"],["18:00","21:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="vhhh5" data-label="Hong Kong Intl">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Hong Kong International">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=VHHH" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
-      <div class="station-card">
+      <div class="station-card" id="yssy">
         <div class="station-head">
           <span class="station-icao">YSSY</span>
-          <span class="live-dot">Live</span>
+          <span class="live-dot red">Live</span>
         </div>
         <h3>Sydney Kingsford Smith</h3>
         <span class="station-region">Sydney, Australia</span>
         <p>Hemmed in by the harbor and residential suburbs, Sydney runs some of the most tightly managed approach paths in the Pacific.</p>
-        <a href="https://www.liveatc.net/search/?icao=YSSY" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+        <div class="station-times">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          <span><strong>Best listening times:</strong> morning 6&ndash;9am domestic peak, evening 6&ndash;10pm international arrivals.<span class="station-peak-tag" data-tz="Australia/Sydney" data-ranges='[["06:00","09:00"],["18:00","22:00"]]'><span class="nav-live-dot"></span>Peak now</span></span>
+        </div>
+        <div class="station-actions">
+          <div class="quick-listen" data-feed="yssy1_twr" data-label="Sydney Tower">
+            <button type="button" class="quick-listen-btn" aria-label="Quick listen to Sydney Tower">
+              <svg class="icon-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+            </button>
+            <span class="quick-listen-status">Quick listen</span>
+            <span class="quick-listen-eq"><span></span><span></span><span></span></span>
+          </div>
+          <a href="https://www.liveatc.net/search/?icao=YSSY" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Listen via LiveATC</a>
+          <div class="station-share"></div>
+        </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- ===== What You Might Hear ===== -->
+<section class="section dark-section" id="glossary-preview">
+  <div class="container">
+    <span class="eyebrow gold">New To This?</span>
+    <h2 class="section-title">What You Might Hear</h2>
+    <p class="section-lede">ATC phraseology is deliberately terse and standardized worldwide. Here's a quick key to a few phrases that come up constantly.</p>
+    <div class="atc-glossary" style="margin-top:34px;">
+      <div class="atc-term-card">
+        <strong>&#8220;Cleared for takeoff&#8221; / &#8220;Cleared to land&#8221;</strong>
+        <span>Explicit permission to depart or land on a specific runway — nothing moves without it.</span>
+      </div>
+      <div class="atc-term-card">
+        <strong>&#8220;Roger&#8221; vs. &#8220;Wilco&#8221;</strong>
+        <span>&#8220;Roger&#8221; just means the message was received and understood — not agreement. &#8220;Wilco&#8221; means &#8220;will comply.&#8221;</span>
+      </div>
+      <div class="atc-term-card">
+        <strong>&#8220;Squawk [code]&#8221;</strong>
+        <span>An instruction to set a specific transponder code. &#8220;Squawk 7700&#8221; is the universal code for a general emergency.</span>
+      </div>
+      <div class="atc-term-card">
+        <strong>&#8220;Go around&#8221;</strong>
+        <span>An aborted landing — the aircraft climbs back out to try the approach again, for reasons ranging from routine spacing to a real problem.</span>
+      </div>
+      <div class="atc-term-card">
+        <strong>&#8220;Heavy&#8221;</strong>
+        <span>A callsign suffix for aircraft over 300,000 lbs, warning other pilots to expect wake turbulence behind it.</span>
+      </div>
+      <div class="atc-term-card">
+        <strong>&#8220;Say again&#8221;</strong>
+        <span>A request to repeat the last transmission — used constantly, and never a sign anything is wrong.</span>
+      </div>
     </div>
   </div>
 </section>
@@ -360,5 +563,7 @@
 
 <script src="js/main.min.js"></script>
 <script src="js/news-feed.min.js"></script>
+<script src="js/social-share.min.js" defer></script>
+<script src="js/atc-listen.min.js" defer></script>
 </body>
 </html>

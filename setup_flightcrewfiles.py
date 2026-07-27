@@ -246,10 +246,25 @@ UAP_KEYWORDS = [
 ]
 
 
+# Keywords listed here must match as a standalone word (regex \b boundaries)
+# rather than a plain substring. "craft" alone would otherwise match inside
+# unrelated words like "spacecraft" or "crafted".
+WHOLE_WORD_KEYWORDS = {"craft"}
+
+
 def has_required_title_keyword(title, keywords=TITLE_KEYWORDS):
-    """True if the title contains at least one required keyword (case-insensitive)."""
+    """True if the title contains at least one required keyword (case-insensitive).
+    Most keywords match anywhere in the title (substring); keywords listed in
+    WHOLE_WORD_KEYWORDS must match as a standalone word instead."""
     text = (title or "").lower()
-    return any(keyword.lower() in text for keyword in keywords)
+    for keyword in keywords:
+        kw = keyword.lower()
+        if kw in WHOLE_WORD_KEYWORDS:
+            if re.search(r"\b" + re.escape(kw) + r"\b", text):
+                return True
+        elif kw in text:
+            return True
+    return False
 
 
 def _registrable_domain(netloc):
@@ -592,6 +607,14 @@ def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS
                 added += 1
             total_rejected += rejected
             log(f"       {source_name}: {added} articles from {url} ({rejected} rejected by validation)")
+        except ET.ParseError as exc:
+            # Some feeds (e.g. The Aviation Herald's "?archive" page) intermittently
+            # serve malformed/non-well-formed XML. That's a transient upstream
+            # issue, not something actionable here, so it's skipped quietly --
+            # logged to the file for troubleshooting, but not surfaced as a WARN
+            # or counted in feed_errors (which would fail the whole run if every
+            # other feed also happened to be down).
+            log(f"       {source_name} feed skipped (malformed XML) -> {exc}", also_print=False)
         except Exception as exc:  # noqa: BLE001 - one bad feed shouldn't kill the rest
             feed_errors.append(f"{source_name} ({url}): {exc}")
             log(f"       WARN {source_name} feed failed -> {exc}")

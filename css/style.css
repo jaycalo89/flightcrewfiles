@@ -180,6 +180,33 @@ p{margin:0 0 1em;color:var(--muted);}
 }
 
 .nav-cta{display:flex;align-items:center;gap:16px;flex-shrink:0;}
+
+/* ===== Persistent "Live ATC" nav badge (all pages) ===== */
+.nav-live-badge{
+  display:inline-flex;align-items:center;gap:7px;flex-shrink:0;white-space:nowrap;
+  padding:7px 14px;border-radius:999px;
+  border:1px solid rgba(255,77,77,0.4);background:rgba(255,77,77,0.07);
+  font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold-400);font-weight:700;
+  transition:border-color .2s ease,background .2s ease,transform .2s ease,color .2s ease;
+}
+.nav-live-badge:hover{border-color:#ff4d4d;background:rgba(255,77,77,0.14);color:var(--gold-300);transform:translateY(-1px);}
+.nav-live-dot{
+  width:7px;height:7px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;
+  animation:pulse-dot 1.4s infinite;flex-shrink:0;
+}
+.mobile-panel .mobile-live-link{
+  display:flex;align-items:center;gap:10px;color:var(--gold-400);font-weight:700;
+}
+.mobile-panel .mobile-live-link .nav-live-dot{width:8px;height:8px;}
+@media (max-width:520px){
+  .nav-live-badge{padding:6px 11px;font-size:.62rem;gap:6px;}
+}
+@media (max-width:360px){
+  .nav-live-badge .nav-live-label{display:none;}
+  .nav-live-badge{padding:7px;border-radius:50%;}
+}
+
 .nav-toggle{
   display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;
 }
@@ -840,6 +867,121 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .station-region{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-light);font-family:'Oswald',sans-serif;}
 .station-card h3{font-size:1.08rem;text-transform:none;margin-bottom:0;}
 .station-card p{font-size:.88rem;}
+
+/* ---- Red "live" modifier for ATC station cards (distinct from the site's
+   generic teal .live-dot, used to match the nav badge / homepage red theme) ---- */
+.live-dot.red{color:#ff4d4d;}
+.live-dot.red::before{background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;}
+
+/* ---- Dramatic ATC hero (listen-live.html) ---- */
+.atc-hero{
+  position:relative;overflow:hidden;padding:110px 0 70px;
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
+    radial-gradient(1000px 480px at 50% -10%, rgba(255,77,77,0.14), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(212,175,55,0.08), transparent 55%),
+    linear-gradient(180deg,#000103 0%,var(--navy-950) 55%,#02040a 100%);
+  border-bottom:1px solid var(--border-gold);text-align:center;
+}
+.atc-hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 0%, transparent 55%, rgba(0,0,0,0.75) 100%);
+}
+.atc-hero .container{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;}
+.atc-hero-badge{
+  display:inline-flex;align-items:center;gap:9px;padding:7px 18px;border-radius:999px;
+  border:2px solid rgba(255,77,77,0.55);background:rgba(255,77,77,0.1);
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;
+  color:#ff4d4d;font-weight:700;margin-bottom:24px;
+}
+.atc-hero-badge .nav-live-dot{width:8px;height:8px;}
+.atc-hero h1{
+  font-size:clamp(1.9rem,5.2vw,3.3rem);line-height:1.08;color:var(--white);
+  text-shadow:0 0 34px rgba(255,77,77,0.28);margin-bottom:16px;max-width:920px;
+}
+.atc-hero .section-lede{max-width:680px;font-size:1.1rem;margin:0 auto;}
+.atc-freq-wave{display:flex;align-items:flex-end;gap:4px;height:28px;margin:26px 0 4px;}
+.atc-freq-wave span{
+  width:4px;border-radius:2px;background:linear-gradient(180deg,#ff4d4d,var(--gold-400));
+  animation:freq-bounce 1.2s ease-in-out infinite;
+}
+.atc-freq-wave span:nth-child(1){height:40%;animation-delay:-1.1s;}
+.atc-freq-wave span:nth-child(2){height:70%;animation-delay:-0.9s;}
+.atc-freq-wave span:nth-child(3){height:100%;animation-delay:-0.7s;}
+.atc-freq-wave span:nth-child(4){height:55%;animation-delay:-0.5s;}
+.atc-freq-wave span:nth-child(5){height:85%;animation-delay:-0.3s;}
+.atc-freq-wave span:nth-child(6){height:35%;animation-delay:-0.1s;}
+.atc-freq-wave span:nth-child(7){height:65%;animation-delay:-0.6s;}
+@keyframes freq-bounce{0%,100%{transform:scaleY(.35);}50%{transform:scaleY(1);}}
+@media (prefers-reduced-motion:reduce){.atc-freq-wave span{animation:none;height:60% !important;}}
+
+/* ---- Best listening times + quick-listen + share, inside .station-card ---- */
+.station-times{
+  display:flex;align-items:flex-start;gap:8px;
+  font-size:.78rem;color:rgba(246,248,252,0.68);line-height:1.5;
+  background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);
+  border-radius:var(--radius-md);padding:10px 12px;
+}
+.station-times svg{width:14px;height:14px;stroke:var(--gold-400);flex-shrink:0;margin-top:2px;}
+.station-times strong{color:var(--gold-400);font-family:'Oswald',sans-serif;font-weight:600;}
+.station-peak-tag{
+  display:inline-flex;align-items:center;gap:5px;margin-left:8px;
+  font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#ff4d4d;font-weight:700;white-space:nowrap;
+}
+.station-peak-tag .nav-live-dot{width:6px;height:6px;}
+.station-peak-tag{display:none;}
+.station-peak-tag.is-active{display:inline-flex;}
+
+.station-actions{display:flex;flex-direction:column;gap:10px;margin-top:auto;padding-top:4px;}
+.quick-listen{
+  display:flex;align-items:center;gap:10px;
+  border:1px solid var(--border-soft);border-radius:var(--radius-md);
+  background:rgba(255,255,255,0.02);padding:8px 10px;
+}
+.quick-listen-btn{
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  width:34px;height:34px;border-radius:50%;border:1px solid var(--accent);background:rgba(255,255,255,0.04);
+  color:var(--accent);cursor:pointer;transition:background .2s ease,transform .15s ease;
+}
+.quick-listen-btn:hover{background:rgba(255,255,255,0.09);}
+.quick-listen-btn:active{transform:scale(.94);}
+.quick-listen-btn svg{width:14px;height:14px;stroke:currentColor;fill:currentColor;}
+.quick-listen-btn .icon-pause{display:none;}
+.quick-listen.is-playing .quick-listen-btn .icon-play{display:none;}
+.quick-listen.is-playing .quick-listen-btn .icon-pause{display:block;}
+.quick-listen-status{
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.05em;color:var(--muted-light);
+  flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.quick-listen.is-playing .quick-listen-status{color:#ff4d4d;}
+.quick-listen.has-error .quick-listen-status{color:#e05b5b;}
+.quick-listen-eq{display:none;align-items:flex-end;gap:2px;height:14px;flex-shrink:0;}
+.quick-listen.is-playing .quick-listen-eq{display:flex;}
+.quick-listen-eq span{width:3px;border-radius:1px;background:#ff4d4d;animation:freq-bounce 1s ease-in-out infinite;}
+.quick-listen-eq span:nth-child(1){height:40%;animation-delay:-0.8s;}
+.quick-listen-eq span:nth-child(2){height:100%;animation-delay:-0.4s;}
+.quick-listen-eq span:nth-child(3){height:60%;animation-delay:-0.1s;}
+
+.station-share{display:flex;align-items:center;gap:10px;}
+.station-share .share-label{
+  font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-light);
+}
+.station-share .share-buttons{display:flex;gap:8px;}
+
+/* ---- "What You Might Hear" explainer ---- */
+.atc-glossary{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+@media (max-width:700px){.atc-glossary{grid-template-columns:1fr;}}
+.atc-term-card{
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-900));
+  border:1px solid var(--border-soft);border-radius:var(--radius-md);
+  padding:16px 18px;
+}
+.atc-term-card strong{
+  display:block;font-family:'Oswald',sans-serif;font-size:.92rem;letter-spacing:.03em;
+  color:var(--gold-400);margin-bottom:5px;
+}
+.atc-term-card span{font-size:.86rem;color:rgba(246,248,252,0.72);line-height:1.55;}
 
 /* ===== Live Flights (Flightradar24 link-out) ===== */
 .fr24-frame{
