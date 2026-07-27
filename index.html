@@ -36,35 +36,52 @@
 <style>
   /* ===== Secret Skies homepage teaser ===== */
   .ss-teaser{
-    position:relative;overflow:hidden;padding:80px 0;
+    position:relative;overflow:hidden;padding:130px 0 110px;
     background:
       repeating-linear-gradient(135deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 14px),
-      radial-gradient(900px 460px at 85% 0%, rgba(212,175,55,0.12), transparent 60%),
+      radial-gradient(1100px 560px at 85% 0%, rgba(212,175,55,0.14), transparent 60%),
       linear-gradient(180deg,#000103 0%,var(--navy-950) 55%,#02040a 100%);
     border-top:1px solid var(--border-gold);border-bottom:1px solid var(--border-gold);
   }
+  .ss-teaser-head{position:relative;z-index:1;}
+  .ss-radar{
+    position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+    width:640px;height:640px;max-width:none;border-radius:50%;
+    pointer-events:none;z-index:0;opacity:.55;
+    background:repeating-radial-gradient(circle,rgba(212,175,55,.16) 0px,rgba(212,175,55,.16) 1px,transparent 1px,transparent 54px);
+  }
+  .ss-radar::after{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(from 0deg,rgba(212,175,55,0) 0deg,rgba(212,175,55,0) 265deg,rgba(212,175,55,.4) 300deg,rgba(212,175,55,0) 340deg);
+    animation:radar-spin 5s linear infinite;
+  }
+  @keyframes radar-spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+  @media (prefers-reduced-motion:reduce){.ss-radar::after{animation:none;}}
   .ss-teaser-stamp{
     display:inline-flex;align-items:center;gap:10px;
-    font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;
-    color:var(--gold-400);border:2px solid var(--gold-600);padding:7px 16px;border-radius:3px;
-    background:rgba(212,175,55,0.08);margin-bottom:20px;animation:bb-flicker 4.5s infinite;
+    font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--gold-400);border:2px solid var(--gold-600);padding:8px 18px;border-radius:3px;
+    background:rgba(212,175,55,0.1);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
   }
   .ss-teaser-stamp::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold-400);box-shadow:0 0 8px var(--gold-400);flex-shrink:0;animation:pulse-dot 1.6s infinite;}
-  .ss-teaser h2{font-size:clamp(2rem,5vw,3.2rem);color:var(--gold-400);text-shadow:0 0 34px rgba(212,175,55,0.25);margin-bottom:10px;text-transform:uppercase;}
-  .ss-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.05rem;letter-spacing:.03em;color:rgba(246,248,252,0.75);margin-bottom:44px;}
-  .ss-teaser-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:40px;}
-  @media (max-width:860px){.ss-teaser-grid{grid-template-columns:1fr;}}
+  .ss-teaser h2{font-size:clamp(2.4rem,6.5vw,4.2rem);color:var(--gold-400);text-shadow:0 0 44px rgba(212,175,55,0.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.02em;}
+  .ss-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.04em;color:rgba(246,248,252,0.8);margin-bottom:50px;}
+  .ss-teaser-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:46px;}
+  @media (max-width:980px){.ss-teaser-grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:600px){.ss-teaser-grid{grid-template-columns:1fr;}}
   .ss-teaser-card{
     background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
     border:1px solid var(--border-soft);border-radius:var(--radius-lg);overflow:hidden;
     box-shadow:var(--shadow-soft);text-align:left;transition:border-color .25s ease,transform .25s ease;
   }
   .ss-teaser-card:hover{border-color:var(--gold-500);transform:translateY(-4px);}
-  .ss-teaser-card-media{height:180px;overflow:hidden;background:#000;}
+  .ss-teaser-card-media{height:190px;overflow:hidden;background:#000;}
   .ss-teaser-card-media img{width:100%;height:100%;object-fit:cover;display:block;}
   .ss-teaser-card-body{padding:20px 22px 24px;}
   .ss-teaser-card-body h3{font-size:1.05rem;margin-bottom:8px;text-transform:none;color:var(--white);}
   .ss-teaser-card-body p{font-size:.88rem;color:var(--muted);margin:0;font-style:italic;}
+  .ss-teaser-cta{position:relative;z-index:1;text-align:center;}
+  .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
 </style>
 </head>
 <body>
@@ -170,9 +187,12 @@
 
 <section class="ss-teaser" id="secret-skies-teaser">
   <div class="container">
-    <span class="ss-teaser-stamp">Classified</span>
-    <h2>The Secret Skies</h2>
-    <p class="ss-teaser-sub">Aircraft they didn't want you to know about.</p>
+    <div class="ss-teaser-head">
+      <div class="ss-radar" aria-hidden="true"></div>
+      <span class="ss-teaser-stamp">Classified</span>
+      <h2>The Secret Skies</h2>
+      <p class="ss-teaser-sub">Aircraft they didn't want you to know about.</p>
+    </div>
 
     <div class="ss-teaser-grid">
       <a class="ss-teaser-card" href="u2-spy-plane.html">
@@ -184,7 +204,25 @@
           <p>The plane that caused the UFO panic. Still flying today.</p>
         </div>
       </a>
-      <a class="ss-teaser-card" href="secret-skies.html#nazi-experimental">
+      <a class="ss-teaser-card" href="f117-nighthawk.html">
+        <div class="ss-teaser-card-media">
+          <img src="images/secret-skies/f-117-nighthawk.jpg" alt="F-117 Nighthawk stealth fighter" loading="lazy">
+        </div>
+        <div class="ss-teaser-card-body">
+          <h3>F-117 Nighthawk</h3>
+          <p>The invisible killer. Flew combat for 7 years in total secrecy.</p>
+        </div>
+      </a>
+      <a class="ss-teaser-card" href="a12-oxcart.html">
+        <div class="ss-teaser-card-media">
+          <img src="images/secret-skies/a12-oxcart.jpg" alt="Lockheed A-12 Oxcart in flight" loading="lazy">
+        </div>
+        <div class="ss-teaser-card-body">
+          <h3>A-12 Oxcart</h3>
+          <p>Faster than the Blackbird. Flown by the CIA's own officers.</p>
+        </div>
+      </a>
+      <a class="ss-teaser-card" href="horten-ho229.html">
         <div class="ss-teaser-card-media">
           <img src="images/secret-skies/horten-ho229.jpg" alt="The captured Horten Ho 229 flying wing prototype" loading="lazy" style="object-fit:contain;background:#111;">
         </div>
@@ -193,18 +231,11 @@
           <p>Nazi flying wing. Stealth properties discovered decades later.</p>
         </div>
       </a>
-      <a class="ss-teaser-card" href="secret-skies.html#american-black-projects">
-        <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/sr-71-blackbird.jpg" alt="SR-71 Blackbird in flight" loading="lazy">
-        </div>
-        <div class="ss-teaser-card-body">
-          <h3>SR-71 Blackbird</h3>
-          <p>Mach 3.2. It outran missiles. We retired it anyway.</p>
-        </div>
-      </a>
     </div>
 
-    <a href="secret-skies.html" class="btn btn-gold">Explore All Classified Aircraft <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="ss-teaser-cta">
+      <a href="secret-skies.html" class="btn btn-gold">Explore All Classified Aircraft <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
   </div>
 </section>
 
@@ -460,6 +491,10 @@
           <li><a href="evolution.html">Evolution of Flight</a></li>
           <li><a href="u2-spy-plane.html">The U-2 Spy Plane</a></li>
           <li><a href="secret-skies.html">The Secret Skies</a></li>
+          <li><a href="f117-nighthawk.html">F-117 Nighthawk</a></li>
+          <li><a href="a12-oxcart.html">A-12 Oxcart</a></li>
+          <li><a href="horten-ho229.html">Horten Ho 229</a></li>
+          <li><a href="sr71-blackbird.html">SR-71 Blackbird</a></li>
           <li><a href="pilot-archives.html">The Pilot Files</a></li>
           <li><a href="fa-archives.html">The Cabin Crew Files</a></li>
           <li><a href="passenger-archives.html">The Passenger Files</a></li>
