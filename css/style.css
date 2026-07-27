@@ -1862,6 +1862,7 @@ body.nav-open .mobile-panel{
 @media (max-width:900px){.news-poll-layout{grid-template-columns:1fr;gap:50px;}}
 .news-poll-news{min-width:0;}
 .news-poll-sidebar{min-width:0;}
+.news-view-all{display:flex;justify-content:center;margin:44px 0 0;}
 
 /* ===== Weekly Poll (homepage sidebar) — medium sizing: readable, not dominant ===== */
 .poll-widget{
