@@ -20,6 +20,35 @@ document.addEventListener('DOMContentLoaded', function () {
     return el.value;
   }
 
+  var MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  // Relative time for anything published in the last week (reads naturally
+  // for a "latest" feed); an absolute "Month D, YYYY" date beyond that, since
+  // "23 days ago" is harder to place than a real date.
+  function formatPublished(publishedAt) {
+    if (!publishedAt) return '';
+    var published = new Date(publishedAt);
+    if (isNaN(published.getTime())) return '';
+
+    var now = new Date();
+    var diffMs = now - published;
+    var diffDays = Math.floor(diffMs / 86400000);
+
+    if (diffMs < 0) {
+      // Clock skew between the feed and the visitor's device -- just show the date.
+      return MONTH_NAMES[published.getMonth()] + ' ' + published.getDate() + ', ' + published.getFullYear();
+    }
+    if (diffDays < 1) {
+      var diffHours = Math.floor(diffMs / 3600000);
+      if (diffHours < 1) return 'Just now';
+      return diffHours + (diffHours === 1 ? ' hour ago' : ' hours ago');
+    }
+    if (diffDays === 1) return 'Yesterday';
+    if (diffDays < 7) return diffDays + ' days ago';
+
+    return MONTH_NAMES[published.getMonth()] + ' ' + published.getDate() + ', ' + published.getFullYear();
+  }
+
   function categorize(item) {
     var content = ((item.title || '') + ' ' + (item.description || '')).toLowerCase();
     if (/\bufo\b|\buap\b|alien|unidentified|flying saucer/.test(content)) return 'UAP';
@@ -80,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
       '<div class="lfs-card-body">' +
         '<span class="vf-tag"></span>' +
         '<h3 class="lfs-title"></h3>' +
+        '<span class="lfs-date"></span>' +
         '<p class="lfs-desc"></p>' +
         '<a class="btn btn-gold lfs-watch-btn" target="_blank" rel="noopener">Watch Now</a>' +
       '</div>';
@@ -96,8 +126,16 @@ document.addEventListener('DOMContentLoaded', function () {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(); }
     });
 
+    var dateText = formatPublished(item.published_at);
+
     card.querySelector('.vf-tag').textContent = category;
     card.querySelector('.lfs-title').textContent = title;
+    var dateEl = card.querySelector('.lfs-date');
+    if (dateText) {
+      dateEl.textContent = dateText;
+    } else {
+      dateEl.remove();
+    }
     card.querySelector('.lfs-desc').textContent = description;
     card.querySelector('.lfs-watch-btn').href = item.url;
 
