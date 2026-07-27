@@ -67,5 +67,14 @@ const CASE_FILES = [
     date: "August 1955",
     excerpt: "Built in 88 days by Lockheed's secret Skunk Works division and flown by CIA officers who signed away their identities, the U-2 spy plane flew so high Soviet missiles couldn't reach it. The CIA has officially confirmed it caused more than half of all UFO reports filed in America during the late 1950s and 1960s — plus the full story of Gary Powers' 1960 shootdown over the USSR.",
     url: "u2-spy-plane.html"
+  },
+  {
+    title: "MH370: The Plane That Vanished",
+    tag: "Bizarre & Unexplained",
+    accent: "#b06bff",
+    stamp: "Case Open",
+    date: "March 2014",
+    excerpt: "A Boeing 777 carrying 239 people vanishes from radar over the South China Sea with no distress call. Satellite data later showed it flew on, alone and unresponsive, for nearly seven more hours into the Southern Indian Ocean. More than a decade — and the largest search in aviation history — later, most of the aircraft has never been found.",
+    url: "mh370.html"
   }
 ];

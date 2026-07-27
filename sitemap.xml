@@ -127,6 +127,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flightcrewfiles.com/mh370.html</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://flightcrewfiles.com/listen-live.html</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
