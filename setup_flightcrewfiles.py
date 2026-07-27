@@ -183,7 +183,20 @@ AVIATION_FEEDS = [
 UAP_FEEDS = [
     ("https://theblackvault.com/casefiles/feed", "The Black Vault"),
     ("https://ufos-scientificresearch.blogspot.com/feeds/posts/default", "UFOs: Scientific Research"),
+    ("https://www.mysterywire.com/feed/", "Mystery Wire"),
+    # livescience.com doesn't publish a per-tag feed (the /tags/UFOs/rss URL
+    # 404s) -- their general feed is used instead and narrowed down to UFO
+    # coverage by UAP_KEYWORDS, the same pattern AVIATION_FEEDS already uses.
+    ("https://www.livescience.com/feeds/all", "Live Science"),
 ]
+
+# Dedicated UAP sources: every article they publish is on-topic by
+# definition, so these domains skip the title-keyword check entirely rather
+# than relying on a headline happening to contain one of UAP_KEYWORDS.
+UAP_KEYWORD_EXEMPT_DOMAINS = {
+    "theblackvault.com",
+    "ufos-scientificresearch.blogspot.com",
+}
 
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 MEDIA_NS = "{http://search.yahoo.com/mrss/}"
@@ -202,6 +215,11 @@ NON_ALNUM_RE = re.compile(r"[^a-z0-9\s]")
 MIN_TITLE_LENGTH = 20
 MIN_DESCRIPTION_LENGTH = 30
 MAX_ARTICLE_AGE = timedelta(days=7)
+# UAP_FEEDS are slow-cadence case-file/archive blogs, not daily wires -- The
+# Black Vault's newest "casefiles" post at the time of writing is ~9 months
+# old, so the 7-day aviation-news window would reject every single one of
+# them regardless of keywords. Give UAP feeds a full year of headroom instead.
+UAP_MAX_ARTICLE_AGE = timedelta(days=365)
 CLOCK_SKEW_ALLOWANCE = timedelta(hours=1)  # tolerate feeds with slightly-future timestamps
 TITLE_SIMILARITY_THRESHOLD = 0.85  # same-story dedup across feeds
 URL_CHECK_TIMEOUT = 8  # seconds; short since this runs once per article
@@ -214,11 +232,24 @@ TITLE_KEYWORDS = [
     "landing", "takeoff", "turbulence", "cabin crew",
 ]
 
+# Separate keyword list for UAP_FEEDS validation. UAP article headlines
+# ("Pentagon Whistleblower Testifies on Recovered Craft") routinely contain
+# none of the aviation-industry words above, which is why every UAP article
+# was being rejected -- these are the terms that actually show up in UAP
+# reporting instead.
+UAP_KEYWORDS = [
+    "ufo", "uap", "unidentified", "anomalous", "sighting", "encounter",
+    "extraterrestrial", "classified", "disclosure", "pentagon", "aaro",
+    "whistleblower", "grusch", "congressional", "craft", "aerial phenomenon",
+    "flying saucer", "roswell", "area 51", "black vault", "tic tac", "nimitz",
+    "rendlesham", "skinwalker", "recovered", "non-human", "intelligence",
+]
 
-def has_required_title_keyword(title):
+
+def has_required_title_keyword(title, keywords=TITLE_KEYWORDS):
     """True if the title contains at least one required keyword (case-insensitive)."""
     text = (title or "").lower()
-    return any(keyword.lower() in text for keyword in TITLE_KEYWORDS)
+    return any(keyword.lower() in text for keyword in keywords)
 
 
 def _registrable_domain(netloc):
@@ -324,24 +355,39 @@ def normalize_title(title):
     return text
 
 
-def validate_article(article, feed_url):
-    """Apply all article-quality checks. Returns (is_valid, reason_if_rejected)."""
+def validate_article(article, feed_url, keywords=TITLE_KEYWORDS, keyword_exempt_domains=None, max_age=MAX_ARTICLE_AGE):
+    """Apply all article-quality checks. Returns (is_valid, reason_if_rejected).
+
+    `keywords` lets callers swap in a different required-keyword list (e.g.
+    UAP_KEYWORDS for UAP_FEEDS instead of the aviation-industry TITLE_KEYWORDS).
+    `keyword_exempt_domains` skips the keyword check entirely for dedicated
+    single-topic sources (e.g. theblackvault.com) where every article is
+    on-topic regardless of what words appear in the headline -- all other
+    checks (length, URL shape, description, feed-domain match, freshness,
+    reachability) still apply.
+    """
     title = article.get("title") or ""
     description = article.get("description") or ""
     url = article.get("url") or ""
 
     if len(title) < MIN_TITLE_LENGTH:
         return False, f"title shorter than {MIN_TITLE_LENGTH} chars"
-    if not has_required_title_keyword(title):
-        return False, "title has no required aviation keyword"
+
+    is_exempt_domain = False
+    if keyword_exempt_domains:
+        article_domain = _registrable_domain(urllib.parse.urlparse(url).netloc)
+        is_exempt_domain = article_domain in keyword_exempt_domains
+
+    if not is_exempt_domain and not has_required_title_keyword(title, keywords):
+        return False, "title has no required keyword"
     if is_bare_url(url):
         return False, "missing URL or URL is a bare homepage with no article path"
     if not description or len(description) < MIN_DESCRIPTION_LENGTH:
         return False, f"description missing or shorter than {MIN_DESCRIPTION_LENGTH} chars"
     if not domain_matches_feed(url, feed_url):
         return False, "article URL domain doesn't match source feed domain"
-    if not is_within_lookback(article.get("published_at")):
-        return False, "not published within the last 7 days"
+    if not is_within_lookback(article.get("published_at"), max_age=max_age):
+        return False, f"not published within the last {max_age.days} days"
     # Network check last -- only pay for it once the cheap checks already passed.
     ok, reason = verify_url_reachable(url)
     if not ok:
@@ -518,7 +564,7 @@ def fetch_one_feed(url, source_name):
     raise RuntimeError(f"unrecognized feed format (root element <{root_tag}>)")
 
 
-def fetch_rss_news(feeds, filename, query_label, cap=30):
+def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS, keyword_exempt_domains=None, max_age=MAX_ARTICLE_AGE):
     """Fetch a list of (url, source_name) RSS/Atom feeds, merge, dedupe, sort by
     recency, and save. Each feed is isolated -- one bad feed logs a warning and
     is skipped rather than failing the whole run."""
@@ -535,7 +581,9 @@ def fetch_rss_news(feeds, filename, query_label, cap=30):
             for article in fetched:
                 if article["url"] in seen_urls:
                     continue
-                is_valid, reason = validate_article(article, url)
+                is_valid, reason = validate_article(
+                    article, url, keywords=keywords, keyword_exempt_domains=keyword_exempt_domains, max_age=max_age
+                )
                 if not is_valid:
                     rejected += 1
                     continue
@@ -579,7 +627,11 @@ def fetch_aviation_news():
 
 def fetch_uap_news():
     label = "RSS: " + ", ".join(name for _, name in UAP_FEEDS)
-    return fetch_rss_news(UAP_FEEDS, "uap_news.json", label, cap=30)
+    return fetch_rss_news(
+        UAP_FEEDS, "uap_news.json", label, cap=30,
+        keywords=UAP_KEYWORDS, keyword_exempt_domains=UAP_KEYWORD_EXEMPT_DOMAINS,
+        max_age=UAP_MAX_ARTICLE_AGE,
+    )
 
 
 # --------------------------------------------------------------------------

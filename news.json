@@ -1,88 +1,151 @@
 {
-  "generated_at": "2026-07-25T22:02:09.954696+00:00",
+  "generated_at": "2026-07-27T18:41:53.821127+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 26,
   "articles": [
     {
-      "title": "How Airbus Solved The A380's Wing Crack Issue Before It Grounded The Fleet",
-      "description": "The Airbus A380 is the largest passenger airliner ever built. Airbus launched the double-decker to compete directly with Boeing's 747 and targeted airlines that needed a high-capacity aircraft for long-haul routes between major hubs. The aircraft entered commercial service in 2007 with Singapore…",
-      "url": "https://simpleflying.com/how-airbus-solve-a380-wing-crack-issue-before-grounded-fleet/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-07-25T22:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a380-s-wing-crack.jpg"
+      "title": "Flight Instructor Wins AOPA Sweepstakes Aviat Husky",
+      "description": "OSHKOSH, Wis.—The Aircraft Owners and Pilots Association (AOPA) announced at EAA AirVenture that Ashley Almquist is the winner of AOPA’s Sweepstakes Aviat Husky. Her new airplane, a 2024 Aviat Husky A-1C-200, is a versatile, two-seat tailwheel airplane known for its impressive handling and…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/27/pr-flight-instructor-wins-aopa-sweepstakes-aviat-husky?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-07-27T19:27:23Z",
+      "image": null
     },
     {
-      "title": "The Airbus A350's Days As The World's Widest Twinjet Are Numbered",
-      "description": "Since its introduction, the Airbus A350 has been widely regarded as one of the leaders in twin-aisle cabin comfort. However, Boeing’s next-generation 777X is set to challenge that status. With changes in fuselage design, cabin layout, and materials, the Boeing 777X promises a wider internal cabin…",
-      "url": "https://simpleflying.com/why-airbus-a350-is-no-longer-worlds-widest-widebody-twinjet-anymore/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-07-25T21:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/delta-air-lines-widebody-strategy-why-the-airbus-a350-a330-work-together.jpg"
+      "title": "Archer, Anduril Self-Flying Aircraft Could Serve as ‘Loyal Wingman’",
+      "description": "California-based Archer Aviation and Anduril have unveiled an autonomous, hybrid-electric, runway-independent aircraft platform—one the partners believe could handle commercial cargo operations or serve as a “loyal wingman” for crewed fighter jets, among other uses. Archer CEO and founder Adam…",
+      "url": "https://www.flyingmag.com/archer-anduril-autonomous-loyal-wingman/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-27T18:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/image_2929b2.jpeg?w=1024"
     },
     {
-      "title": "Why The Aircraft Boeing Never Built Is Now The Most Expensive Gap In Every US Airline's Network",
-      "description": "For decades, Boeing's commercial aircraft lineup followed a logical progression. Airlines could move from the Boeing 737 to the Boeing 757 , then to the Boeing 767, before stepping into larger widebody aircraft such as the Boeing 777 and Boeing 787. Every major capacity segment had a purpose-built…",
-      "url": "https://simpleflying.com/boeing-midsize-aircraft-network-gap/",
+      "title": "453 Boeing 737 MAXs May Face New FAA-Mandated Seat Track Inspections",
+      "description": "The Federal Aviation Administration (FAA) has proposed a new airworthiness directive (AD) that would require inspections of seat track assemblies on 453 Boeing 737 MAX aircraft registered in the United States. The announcement comes after identifying a potential manufacturing issue that could…",
+      "url": "https://simpleflying.com/453-boeing-737-max-face-faa-mandated-seat-inspections/",
       "source": "Simple Flying",
       "author": "Jack McGarity",
-      "published_at": "2026-07-25T21:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/will-boeing-build-the-797.jpeg"
+      "published_at": "2026-07-27T18:02:48Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/adobe-express-file-2025-11-05t015150-852.jpg"
     },
     {
-      "title": "NTSB: Controller Forgot He'd Cleared American 737 For Takeoff In June Boston Near-Miss",
-      "description": "After a Delta pilot averted disaster at Boston Logan International Airport (BOS) last month, an initial report shows that air traffic control mistakenly gave clearance to an American Airlines Boeing 737-800 to take off, as the Delta Air Lines Airbus A319-100 was coming in to land. The United States…",
-      "url": "https://simpleflying.com/ntsb-boston-logan-near-miss-controller-forgot-takeoff-clearance/",
+      "title": "Boeing expects next-aircraft development will accelerate as certification work winds down",
+      "description": "Executive says completing outstanding certifications and ramping production will ready Boeing to focus on future aircraft. While Boeing does not appear close to launching a next-generation aircraft, the company intends to ramp up development work for such an aircraft after it completes…",
+      "url": "https://www.flightglobal.com/airframers/2026/07/boeing-expects-next-aircraft-development-will-accelerate-as-certification-work-winds-down/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-07-27T17:40:57Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/233714_jb_Boeing_day1_0776-1-480x320.jpg"
+    },
+    {
+      "title": "Southwest Airlines Launches 6-Hour Flights On This New Route Next Week [Map]",
+      "description": "As the end of July is nearly here, it is worth examining Southwest Airlines' new routes starting in August. The self-described hybrid operator has scheduled four additions, which will be covered separately another time. They include Hollywood Burbank Airport (BUR) to Honolulu International Airport…",
+      "url": "https://simpleflying.com/southwest-airlines-launches-6-hour-flights-on-this-new-route-next-week/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-07-25T20:28:10Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/american-airlines-boeing-737-800-takeoff.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-07-27T17:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/why-southwest-airlines-won-t-even-bat-an-eye-at-the-boeing-737-max-9-or-max-10.jpg"
     },
     {
-      "title": "Ryanair & Wizz Air Among 9 Airlines Facing Gatwick Refuelling Strike Groundings",
-      "description": "Chaos could descend on one of Europe's busiest airports should a strike proceed for those who are employed by Menzies on the Shell contract at London Gatwick Airport (LGW). The group is threatening to strike for action over pay, as they are represented by Unite, the country's leading union.",
-      "url": "https://simpleflying.com/gatwick-refueling-strike-9-airlines-grounded/",
+      "title": "Delta Air Lines Just Hit A Milestone No US Airline Has Ever Reached & Economy Passengers Quietly Paid For It",
+      "description": "As reported by CNBC , Delta Air Lines' earnings report for Q4 2025 shows that the carrier's premium cabin revenue ($5.7 billion) has surpassed main cabin revenue ($5.62 billion). This is a small gap, but it represents a significant profit difference. McKinsey data from 2024 reveals that Delta Air…",
+      "url": "https://simpleflying.com/delta-hit-milestone-no-us-airline-ever-reaches-economy-passengers-quietly-paid-for-it/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-07-25T19:07:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/ryanair-airplanes-at-gatwick-airport.jpg"
+      "author": "Louis Hardiman",
+      "published_at": "2026-07-27T17:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/delta-air-lines-1.jpg"
     },
     {
-      "title": "Breeze Airways Launches 17 New Destinations In Massive Expansion [Full List]",
-      "description": "Now that we are almost a month into the third quarter of the year, Breeze Airways impressive network growth compared to 2025 is becoming evident. Indeed, according to scheduling data made available by Cirium , an aviation analytics company, comparing the carrier's Q3 network in 2025 with its…",
-      "url": "https://simpleflying.com/breeze-airways-new-destinations/",
+      "title": "Autonomous, VTOL Aircraft Tech Debuts at Oshkosh, Farnborough",
+      "description": "This year’s EAA AirVenture in Oshkosh, Wisconsin, and the U.K.’s Farnborough International Airshow lived up to their reputations as they showcased novel aircraft technology that could one day become normalized. Boston-based Merlin Labs provided a possible glimpse of the future at Oshkosh, landing…",
+      "url": "https://www.flyingmag.com/autonomous-vtol-aircraft-oshkosh-farnborough/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-07-27T16:30:00Z",
+      "image": "https://www.youtube.com/embed/204IefC-QGM"
+    },
+    {
+      "title": "The Engineers' Debate: Why The Airbus A330neo & Boeing 787-9 Have 5 Key Wing Differences",
+      "description": "The Airbus A330neo and Boeing 787-9 Dreamliner have become important parts of many airlines' long-haul strategies. Both aircraft are popular with operators and passengers, and they compete for many of the same routes. Boeing launched the 787 Dreamliner program, which includes the 787-8, 787-9, and…",
+      "url": "https://simpleflying.com/why-airbus-a330neo-boeing-787-9-5-key-wing-differences/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-07-27T16:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-787-9-1.jpg"
+    },
+    {
+      "title": "Why Airlines Don’t Want First Class Anymore",
+      "description": "In recent years, travellers have noticed a subtle yet significant shift in the configuration of aircraft cabins. Once a hallmark of luxury and exclusivity, first class sections are quietly disappearing from the fleets of many major airlines. These changes have sparked curiosity among both frequent…",
+      "url": "https://simpleflying.com/airlines-dont-want-first-class/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-07-27T15:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/firstclass-269079-1-1-1.jpg"
+    },
+    {
+      "title": "Why Both Pilots Stop Talking For The Final 1,000 Feet Of Every Climb & Descent",
+      "description": "Passengers looking closely at the timing of a commercial flight might notice a subtle change in the cabin environment during the final stages of a climb or descent. This guide introduces the concept of the micro-sterile cockpit window, explaining its vital role in modern aviation safety and what…",
+      "url": "https://simpleflying.com/why-both-pilots-stop-talking-final-1000-feet-climb-descent/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-07-27T15:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/1-000-feet-pilot.jpg"
+    },
+    {
+      "title": "Austrian Airlines Crew Finds Stowaway In Embraer E190 Cabin Ahead Of Flight To Vienna",
+      "description": "The crew of an Austrian Airlines flight from Košice International Airport (KSC) in Slovakia to Vienna International Airport (VIE) in neighboring Austria made an unlikely discovery upon boarding their aircraft in the early hours of Thursday morning. Specifically, they were greeted by a male stowaway…",
+      "url": "https://simpleflying.com/austrian-airlines-embraer-e190-cabin-stowaway/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-07-25T19:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/099-breeze-airways-embraer-e190-semrah-odobasic-_-shutterstock.jpg"
+      "published_at": "2026-07-27T14:44:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/shutterstock_2442054561_cropped.jpg"
     },
     {
-      "title": "The US Air Force Is Quietly Shrinking Below 5,000 Aircraft For The 1st Time In Its History",
-      "description": "The United States Air Force (USAF) is in the midst of a watershed moment as its first sixth-generation stealth bomber comes online while also rapidly investing in low-cost uncrewed platforms. As the world's largest military air power is contending with the dual threat axis of asymmetric and…",
-      "url": "https://simpleflying.com/usaf-quietly-shrinking-below-5000-aircraft-1st-time-history/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-07-25T18:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/the-us-air-force-is-quietly-shrinking-below-5-000-aircraft-for-the-1st-time-in-its-history.jpg"
+      "title": "This 1965 Cessna 150F Is a Ready-to-Fly ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1965 Cessna 150F. The Cessna 150 has…",
+      "url": "https://www.flyingmag.com/this-1965-cessna-150f-is-a-ready-to-fly-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-07-27T14:39:21Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-single-engine-piston-cessna-150f-for-sale-601755-2fe81f524e3bf792-800X600-1.jpg?w=800"
     },
     {
-      "title": "Is It True That American Airlines Accidentally Flew A Non-ETOPS Airbus A321 To Hawaii?",
-      "description": "The headline here is not intended to be deceiving. American Airlines really did, by its own account, send a non-ETOPS-certified Airbus A321 on a long-haul flight from Los Angeles International Airport (LAX) to Daniel K. Inouye International Airport (HNL) in Honolulu in August 2015.",
-      "url": "https://simpleflying.com/true-american-airlines-accidentally-flew-non-etops-airbus-a321-to-hawaii/",
-      "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-07-25T17:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/is-it-true-that-american-airlines-accidentally-flew-a-non-etops-airbus-a321-to-hawaii.jpg"
+      "title": "Helicopter Alliance on the acquisition trail to grow full-service offering",
+      "description": "US subsidiary Ace Aeronautics also is expanding footprint to cope with higher order volumes. Czech Republic-headquartered rotorcraft group Helicopter Alliance is lining up a slew of acquisitions as it looks to grow its full end-to-end service offering for customers. Already the owner of US…",
+      "url": "https://www.flightglobal.com/archive/2026/07/helicopter-alliance-on-the-acquisition-trail-to-grow-full-service-offering/",
+      "source": "FlightGlobal",
+      "author": "Dominic Perry",
+      "published_at": "2026-07-27T13:48:04Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/UH-60-c-Helicopter-Alliance-1-480x360.jpeg"
     },
     {
-      "title": "The RQ-4 Global Hawk Drone Costs More Per Flight Hour To Operate Than The U-2 Spy Plane It Was Built To Replace",
-      "description": "While the Lockheed Martin U-2 spy plane, also affectionately known as the \"Dragon Lady,\" is set to begin retiring shortly, its replacement, the Northrop Grumman RQ-4 Global Hawk, has been in operational service for more than two decades. Although both have provided exceptional intelligence,…",
-      "url": "https://simpleflying.com/rq4-global-hawk-vs-u2-operating-costs/",
+      "title": "Hitting airline SAF targets will require ‘step-change’ in technology advancements",
+      "description": "Delta Air Lines is among a flurry of carriers to have made recent announcements on sustainable aviation fuel initiatives, but there is a steep hill to climb towards achieving net zero. Delta Air Lines will focus on developing sustainable aviation fuel (SAF) availability at five US airports over the…",
+      "url": "https://www.flightglobal.com/archive/2026/07/hitting-airline-saf-targets-will-require-step-change-in-technology-advancements/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-07-27T13:43:55Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Delta-SAF-480x270.jpeg"
+    },
+    {
+      "title": "The Complications Boeing Ran Into When It Developed The Engines On Its Most Modern Aircraft Families",
+      "description": "Modern commercial aircraft engines are expected to deliver far more than raw thrust. Airlines demand lower fuel consumption, airports require reduced noise, regulators continue tightening environmental standards, and passengers increasingly expect quieter cabins. Meeting every one of those…",
+      "url": "https://simpleflying.com/complications-boeing-ran-into-develop-engines-most-modern-aircraft-families/",
       "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-07-25T17:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/u2-cover.jpg"
+      "author": "Steven Walker",
+      "published_at": "2026-07-27T13:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/modern-aircraft-families.jpg"
+    },
+    {
+      "title": "Conflicting accounts and absent records obscure details of Challenger road-landing incident",
+      "description": "Nigerian investigators still clarifying circumstances of occurrence after US-registered executive jet aborted approach to Asaba. Nigerian investigators are still unravelling the circumstances behind a Bombardier Challenger 601 business jet’s inadvertently landing on a road under construction ,…",
+      "url": "https://www.flightglobal.com/archive/2026/07/conflicting-accounts-and-absent-records-obscure-details-of-challenger-road-landing-incident/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-07-27T07:32:28Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/N989BC-incident-c-via-TwitterXsource-unknown-480x319.jpg"
     },
     {
       "title": "When Is Flight Training Actually Tax Deductible?",
@@ -103,24 +166,6 @@
       "image": null
     },
     {
-      "title": "Voepass ATR 72 icing crash inquiry reveals culture of poor maintenance discipline",
-      "description": "Brazilian probe finds strained resources and pressure to meet flight schedules meant aircraft were knowingly released and operated in degraded condition. Pressure to ensure continuous aircraft availability despite limited resources led to poor maintenance discipline at Brazilian carrier Voepass,…",
-      "url": "https://www.flightglobal.com/archive/2026/07/voepass-atr-72-icing-crash-inquiry-reveals-culture-of-poor-maintenance-discipline/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-07-24T21:08:38Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Voepass-ATR-crash-c-CENIPA-480x334.jpg"
-    },
-    {
-      "title": "Beond looks to open European premium routes to Saudi Arabia’s Red Sea resort airport",
-      "description": "Leisure carrier unveils pact to build on earlier Milan route with kingdom’s air connectivity committee. Premium leisure carrier Beond is looking to link several European cities with Saudi Arabia’s Red Sea international airport, under a co-operation agreement. The tentative pact between the carrier…",
-      "url": "https://www.flightglobal.com/archive/2026/07/beond-looks-to-open-european-premium-routes-to-saudi-arabias-red-sea-resort-airport/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-07-24T20:20:29Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/Beond-Red-Sea-c-Beond-480x356.jpeg"
-    },
-    {
       "title": "This 1994 Steen Skybolt 250 Is a Nimble, Back-to-Basics ‘AircraftForSale’ Top Pick",
       "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1994 Steen Skybolt. You just do not…",
       "url": "https://www.flyingmag.com/this-1994-steen-skybolt-250-is-a-nimble-back-to-basics-aircraftforsale-top-pick/",
@@ -139,57 +184,12 @@
       "image": null
     },
     {
-      "title": "Next era of flight: Control systems and the electric revolution",
-      "description": "6 August 2026 at 3pm London This webinar is exclusively sponsored by Honeywell Aerospace. It is free to attend Think electric aircraft and battery-powered propulsion will likely spring to mind. Yet the electric transition in aviation goes beyond the challenge of developing electric and…",
-      "url": "https://www.flightglobal.com/events-webinars/2026/07/next-era-of-flight-control-systems-and-the-electric-revolution/",
-      "source": "FlightGlobal",
-      "author": "Chris Wright",
-      "published_at": "2026-07-24T14:32:50Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/07/8th-Aug-Webinar-480x319.jpg"
-    },
-    {
-      "title": "Photos From Oshkosh: Illustrations on an Airplane",
-      "description": "The Aircraft Owners and Pilots Association (AOPA) teamed up with Scheme Designers on a publicity wrap for its next giveaway airplane, a Piper Archer. At EAA AirVenture Oshkosh , artist Noah Heckel used acrylic markers to draw on the plastic wrap that covers the aircraft and took requests from the…",
-      "url": "https://www.flyingmag.com/photos-from-oshkosh-illustrations-on-an-airplane/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-23T20:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/IMG_5365.jpeg?w=1024"
-    },
-    {
       "title": "An airplane-like eVTOL?",
       "description": "Skyfly exhibited its updated Axe electric vertical takeoff and landing aircraft at EAA AirVenture Oshkosh in Wisconsin following the debut of its prototype at the company's first AirVenture display in 2025.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/july/23/an-airplane-like-evtol?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-23T19:46:30Z",
-      "image": null
-    },
-    {
-      "title": "FAA Debuts New Tool for Digital Departure Clearances",
-      "description": "The FAA is moving forward with the development and rollout of a new digital tool that will allow general and business aviation pilots to request departure clearances through approved flight applications instead of via radio. FAA Deputy Administrator Chris Rocheleau unveiled the new system, known as…",
-      "url": "https://www.flyingmag.com/faa-debuts-new-tool-for-digital-departure-clearances/",
-      "source": "Flying Magazine",
-      "author": "Zach Vasile",
-      "published_at": "2026-07-23T16:54:11Z",
-      "image": null
-    },
-    {
-      "title": "This 1964 Piper PA-28-235 Cherokee Pathfinder Is a Well-Conditioned ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1964 Piper PA-28-235 Cherokee…",
-      "url": "https://www.flyingmag.com/this-1964-piper-pa-28-235-cherokee-pathfinder-is-a-well-conditioned-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-07-23T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/07/aircraft-single-engine-piston-piper-pa-28-235-cherokee-pathfinder-for-sale-601741-e9365d3b4b138af9-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "Piper Aircraft Secures New Fleet Order From ATP Flight School",
-      "description": "Piper Aircraft and ATP Flight School will go home from EAA AirVenture with a firm fleet order for six new training aircraft, with options for 25 additional airplanes in 2027. ATP, one of the world’s largest Piper training fleet operators, said during Monday’s formal announcement at Oshkosh,…",
-      "url": "https://www.flyingmag.com/piper-aircraft-secures-new-fleet-order-from-atp-flight-school/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-07-23T14:00:00Z",
       "image": null
     },
     {
