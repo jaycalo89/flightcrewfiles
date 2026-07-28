@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var url = pageUrl;
     if (card.classList.contains('station-card') && card.id) {
       url = pageUrl + '#' + card.id;
-      title = 'Live ATC — ' + title;
+      title = 'Live ATC: ' + title;
     }
 
     var target = card.querySelector('.station-share') || card.querySelector('.article-body') || card.querySelector('.file-body') || card;

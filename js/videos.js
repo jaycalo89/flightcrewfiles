@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (!visibleItems.length) {
       var empty = document.createElement('div');
       empty.className = 'vf-empty';
-      empty.textContent = 'No footage in this category yet — check back soon.';
+      empty.textContent = 'No footage in this category yet. Check back soon.';
       feedEl.appendChild(empty);
       sentinelEl.hidden = true;
       return;

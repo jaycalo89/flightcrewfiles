@@ -52,12 +52,12 @@
 
         audio.addEventListener('playing', function () {
           wrap.classList.add(CLASS_PLAYING);
-          status.textContent = 'Live now — ' + label;
+          status.textContent = 'Live now: ' + label;
         });
         audio.addEventListener('error', function () {
           wrap.classList.remove(CLASS_PLAYING);
           wrap.classList.add(CLASS_ERROR);
-          status.textContent = 'Feed offline — try Listen via LiveATC below';
+          status.textContent = 'Feed offline. Try Listen via LiveATC below';
           if (currentAudio === audio) {
             currentAudio = null;
             currentWrap = null;

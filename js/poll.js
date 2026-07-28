@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (voted) {
-      totalEl.textContent = total.toLocaleString() + ' votes this week — you picked the ' + LABELS[state.choice];
+      totalEl.textContent = total.toLocaleString() + ' votes this week, you picked the ' + LABELS[state.choice];
     } else {
-      totalEl.textContent = 'Cast your vote — results update instantly';
+      totalEl.textContent = 'Cast your vote. Results update instantly';
     }
   }
 

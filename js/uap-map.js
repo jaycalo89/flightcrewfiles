@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       id: 'roswell-1947', lat: 33.3943, lng: -104.5230,
       name: 'Roswell Incident', year: '1947', location: 'Roswell, New Mexico',
-      description: 'A rancher’s discovery of strange debris led the local Army Air Field to announce it had recovered a "flying disc" — a story retracted within a day for a weather balloon explanation. The Air Force later admitted even that cover story was hiding a classified program, and persistent witness claims of recovered wreckage and pressured silence have never been officially substantiated.',
+      description: 'A rancher’s discovery of strange debris led the local Army Air Field to announce it had recovered a "flying disc," a story retracted within a day for a weather balloon explanation. The Air Force later admitted even that cover story was hiding a classified program, and persistent witness claims of recovered wreckage and pressured silence have never been officially substantiated.',
       credibility: 'Military'
     },
     {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       id: 'nimitz-2004', lat: 32.0, lng: -119.0,
       name: 'Nimitz "Tic Tac"', year: '2004', location: 'Pacific Ocean, off California',
-      description: 'Navy F/A-18 pilots training with the USS Nimitz carrier group were vectored onto a radar contact that dropped from 80,000 feet to sea level in seconds. They described a smooth, tic-tac-shaped object with no wings or exhaust that outran their jets — footage the Department of Defense later confirmed as authentic.',
+      description: 'Navy F/A-18 pilots training with the USS Nimitz carrier group were vectored onto a radar contact that dropped from 80,000 feet to sea level in seconds. They described a smooth, tic-tac-shaped object with no wings or exhaust that outran their jets. Footage the Department of Defense later confirmed as authentic.',
       credibility: 'Military'
     },
     {
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       id: 'shag-harbour-1967', lat: 43.4716, lng: -65.7458,
       name: 'Shag Harbour', year: '1967', location: 'Shag Harbour, Nova Scotia',
-      description: 'At least eleven witnesses watched a large lit object descend into the Atlantic and vanish beneath the surface. The Royal Canadian Navy searched the seafloor for days and found nothing — one of the only crashes any government has ever officially filed as a UFO.',
+      description: 'At least eleven witnesses watched a large lit object descend into the Atlantic and vanish beneath the surface. The Royal Canadian Navy searched the seafloor for days and found nothing: one of the only crashes any government has ever officially filed as a UFO.',
       credibility: 'Official'
     },
     {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
       id: 'valentich-1978', lat: -39.4, lng: 143.7, url: 'frederick-valentich.html',
       name: 'The Pilot Who Vanished', year: '1978', location: 'Bass Strait, Australia',
-      description: 'A 20-year-old trainee pilot radioed Melbourne air traffic control to report an aircraft orbiting above him — metallic, shining, with a green light. Six minutes and forty-seven seconds later, the transmission ended in a burst of metallic noise. Neither Frederick Valentich nor his Cessna was ever found.',
+      description: 'A 20-year-old trainee pilot radioed Melbourne air traffic control to report an aircraft orbiting above him, metallic, shining, with a green light. Six minutes and forty-seven seconds later, the transmission ended in a burst of metallic noise. Neither Frederick Valentich nor his Cessna was ever found.',
       credibility: 'Official'
     }
   ];

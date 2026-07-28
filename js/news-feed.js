@@ -140,7 +140,7 @@
         if (!emptyEl) {
           emptyEl = document.createElement('div');
           emptyEl.className = 'nf-empty';
-          emptyEl.textContent = 'No stories in this category right now — check back soon.';
+          emptyEl.textContent = 'No stories in this category right now. Check back soon.';
           feedEl.appendChild(emptyEl);
         }
       } else if (emptyEl) {
@@ -241,7 +241,7 @@
           .slice(0, 6);
 
         if (!latest.length) {
-          feedEl.innerHTML = '<div class="nf-empty">No aviation stories in the feed right now — check back soon.</div>';
+          feedEl.innerHTML = '<div class="nf-empty">No aviation stories in the feed right now. Check back soon.</div>';
           return;
         }
 

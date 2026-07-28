@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .slice(0, 6);
 
       if (!items.length) {
-        gridEl.innerHTML = '<div class="nf-empty">No footage available right now — check back soon.</div>';
+        gridEl.innerHTML = '<div class="nf-empty">No footage available right now. Check back soon.</div>';
         return;
       }
 
