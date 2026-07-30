@@ -266,7 +266,7 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .ticker-track span{
   display:inline-block;padding:13px 34px 13px 0;font-size:.8rem;color:var(--muted);
 }
-.ticker-track span::after{content:"•";color:var(--blue-500);margin-left:34px;}
+.ticker-track span::after{content:"|";color:var(--blue-500);margin-left:34px;}
 .ticker-track a{color:inherit;transition:color .2s ease;}
 .ticker-track a:hover{color:var(--gold-400);}
 @keyframes ticker-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}

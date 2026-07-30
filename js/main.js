@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function () {
         '<div class="hec-media"><img src="' + e.image + '" alt="' + e.title + '" loading="lazy"' + titleAttr + '></div>' +
         '<div class="hec-body">' +
           '<h3>' + e.title + '</h3>' +
-          '<span class="hec-year-label">— ' + e.year + '</span>' +
+          '<span class="hec-year-label">- ' + e.year + '</span>' +
           '<p>' + e.text + '</p>' +
           '<a class="hec-readmore" href="' + searchUrl + '" target="_blank" rel="noopener">Read More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>' +
         '</div>' +
