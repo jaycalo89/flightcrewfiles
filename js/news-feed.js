@@ -50,6 +50,21 @@
     return fetch('news.json').then(function (res) { return res.json(); });
   }
 
+  function sanitizeText(text) {
+    return (text || '')
+      .replace(/â€"/g, '-')
+      .replace(/â€™/g, "'")
+      .replace(/â€¢/g, '')
+      .replace(/â€œ/g, '"')
+      .replace(/â€/g, '"')
+      .replace(/â€˜/g, "'")
+      .replace(/Â·/g, '')
+      .replace(/Â/g, '')
+      .replace(/\u00e2\u0080\u0094/g, '-')
+      .replace(/\u00e2\u0080\u0099/g, "'")
+      .trim();
+  }
+
   // ---------- Ticker (every page) ----------
   function initTicker() {
     var track = document.getElementById('site-ticker-track');
@@ -65,7 +80,8 @@
 
       var html = items.map(function (a) {
         var cat = categorize(a).toUpperCase();
-        return '<span>' + cat + ': <a href="' + a.url + '" target="_blank" rel="noopener">' + a.title + '</a></span>';
+        var title = sanitizeText(a.title);
+        return '<span>' + cat + ': <a href="' + a.url + '" target="_blank" rel="noopener">' + title + '</a></span>';
       }).join('');
 
       track.innerHTML = html + html; // duplicate once for the seamless scroll loop
