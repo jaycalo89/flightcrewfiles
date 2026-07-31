@@ -85,5 +85,13 @@ const CASE_FILES = [
     date: "January 1948",
     excerpt: "Captain Thomas Mantell, a decorated WWII pilot, climbed his P-51 Mustang toward a massive metallic object over Kentucky without oxygen equipment and never leveled off. His last radio words described something enormous. Over the next four years, the Air Force gave three different explanations for what he died chasing, and never fully settled the question.",
     url: "captain-mantell.html"
+  },
+  {
+    title: "The Day Two Jumbos Collided",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    date: "March 1977",
+    excerpt: "A bomb threat diverted dozens of flights to a small, fog-bound regional airport in the Canary Islands. Two Boeing 747s ended up on the same runway at the same time. 583 people died without either aircraft ever leaving the ground, still the deadliest accident in aviation history.",
+    url: "tenerife-disaster.html"
   }
 ];
