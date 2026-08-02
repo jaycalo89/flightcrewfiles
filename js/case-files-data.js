@@ -93,5 +93,14 @@ const CASE_FILES = [
     date: "March 1977",
     excerpt: "A bomb threat diverted dozens of flights to a small, fog-bound regional airport in the Canary Islands. Two Boeing 747s ended up on the same runway at the same time. 583 people died without either aircraft ever leaving the ground, still the deadliest accident in aviation history.",
     url: "tenerife-disaster.html"
+  },
+  {
+    title: "The Disappearance Of Amelia Earhart",
+    tag: "Bizarre & Unexplained",
+    accent: "#b06bff",
+    stamp: "Case Open",
+    date: "July 1937",
+    excerpt: "Amelia Earhart and navigator Fred Noonan vanished over the central Pacific attempting to circle the globe near the equator. No confirmed wreckage has ever been recovered, and a Purdue-led expedition is still actively searching for the aircraft today, still the most famous unsolved disappearance in aviation history.",
+    url: "amelia-earhart.html"
   }
 ];

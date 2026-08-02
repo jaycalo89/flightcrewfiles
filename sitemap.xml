@@ -253,6 +253,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flightcrewfiles.com/amelia-earhart.html</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://flightcrewfiles.com/terms-of-service.html</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
