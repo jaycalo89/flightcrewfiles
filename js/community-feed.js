@@ -23,6 +23,15 @@
     return String(n);
   }
 
+  // Badge text is shortened for display ("HACKER NEWS" / "STACK EXCHANGE" via
+  // the .community-tag uppercase style) -- the full "Aviation Stack Exchange"
+  // name stays intact in the underlying data.
+  function shortSource(source) {
+    if (!source) return 'Community';
+    if (source.indexOf('Stack Exchange') !== -1) return 'Stack Exchange';
+    return source;
+  }
+
   function buildCard(post) {
     var card = document.createElement('article');
     card.className = 'community-card';
@@ -37,7 +46,7 @@
         '<span class="community-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H5l2.6-2.6A8.5 8.5 0 1 1 21 11.5Z"/></svg><span></span></span>' +
       '</div>';
 
-    card.querySelector('.community-tag').textContent = post.source || 'Aviation Community';
+    card.querySelector('.community-tag').textContent = shortSource(post.source);
     card.querySelector('.community-time').textContent = timeAgo(post.created_utc);
     var link = card.querySelector('h3 a');
     link.href = post.url;
