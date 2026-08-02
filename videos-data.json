@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:15:12.924477+00:00",
+  "generated_at": "2026-08-02T17:21:01.018084+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -16,6 +16,16 @@
       "published_at": "2026-08-02T17:01:19Z",
       "thumbnail": "https://i.ytimg.com/vi/H9WIsx7sgtY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=H9WIsx7sgtY",
+      "matched_query": "aviation incident news"
+    },
+    {
+      "video_id": "6xC-XJI-ovU",
+      "title": "Helicopter Crash Mid-Air Caught on Camera in Greece",
+      "description": "Witness the unbelievable moment two helicopters collide mid-air over Psatha, Greece. This shocking footage captures the ...",
+      "channel": "MMPAL",
+      "published_at": "2026-08-02T17:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/6xC-XJI-ovU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6xC-XJI-ovU",
       "matched_query": "aviation incident news"
     },
     {
@@ -96,16 +106,6 @@
       "published_at": "2026-08-02T10:26:41Z",
       "thumbnail": "https://i.ytimg.com/vi/-spqIQIYbvQ/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=-spqIQIYbvQ",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "mm0XKHqE9FI",
-      "title": "Tourist plane crashes during flight over Peru’s Nazca Lines #Shorts",
-      "description": "Watch the full briefing: https://youtu.be/JZ1ra_Mk574 A tourist plane crashes over Peru's Nazca Lines, killing 13; a Moscow ...",
-      "channel": "WildNews",
-      "published_at": "2026-08-02T09:59:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/mm0XKHqE9FI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=mm0XKHqE9FI",
       "matched_query": "aviation incident news"
     },
     {
@@ -219,16 +219,6 @@
       "matched_query": "aviation emergency landing"
     },
     {
-      "video_id": "PSqlvVFJNRs",
-      "title": "🔴Boeing 747-400 ENGINE FIRE | 468 Passengers Emergency Landing | X-PLANE 11",
-      "description": "Boeing 747-400 declares an emergency moments after takeoff — an ENGINE has caught FIRE and is shooting out flames.",
-      "channel": "Techno Blog",
-      "published_at": "2026-08-02T16:09:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/PSqlvVFJNRs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=PSqlvVFJNRs",
-      "matched_query": "aviation emergency landing"
-    },
-    {
       "video_id": "JEuup4umfh0",
       "title": "MAYDAY. Engine failure. Air Canada airplane makes emergency landing at San Francisco. Real ATC",
       "description": "THIS VIDEO IS A RECONSTRUCTION OF THE FOLLOWING SITUATION IN FLIGHT: 31-JUL-2026. An Air Canada Airbus A320 ...",
@@ -306,6 +296,16 @@
       "published_at": "2026-08-02T12:30:13Z",
       "thumbnail": "https://i.ytimg.com/vi/0ijsg7HFs3U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=0ijsg7HFs3U",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "48qzbAZ0hW4",
+      "title": "Emergency Landing",
+      "description": "Emergency Landing #flight #landing #emergency.",
+      "channel": "LULU Travel tech media ",
+      "published_at": "2026-08-02T12:08:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/48qzbAZ0hW4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=48qzbAZ0hW4",
       "matched_query": "aviation emergency landing"
     },
     {
