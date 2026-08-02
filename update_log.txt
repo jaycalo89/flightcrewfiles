@@ -791,3 +791,72 @@ RuntimeError: All feeds failed: Live Science: UFOs (https://www.livescience.com/
 RuntimeError: All subreddit fetches failed: r/aviation: HTTP Error 403: Blocked; r/flying: HTTP Error 403: Blocked; r/aviationmaintenance: HTTP Error 403: Blocked; r/UFOs: HTTP Error 403: Blocked
 
 [2026-08-02 16:00:48] Flight Crew Files update run finished in 46.0s
+[2026-08-02 16:56:34] ============================================================
+[2026-08-02 16:56:34] Flight Crew Files update run starting
+[2026-08-02 16:56:34] START  Fetch YouTube videos
+[2026-08-02 16:56:36] OK     Fetch YouTube videos -> 40
+[2026-08-02 16:56:36] START  Fetch aviation news
+[2026-08-02 16:56:36]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-02 16:56:39]        Simple Flying: 8 articles from https://simpleflying.com/feed (2 rejected by validation)
+[2026-08-02 16:56:41]        FlightGlobal: 3 articles from https://www.flightglobal.com/rss (7 rejected by validation)
+[2026-08-02 16:56:42]        The Aviation Herald feed skipped (malformed XML) -> syntax error: line 2, column 0
+[2026-08-02 16:56:51]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-02 16:56:54]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-02 16:56:54]        115 article(s) rejected by validation across all feeds
+[2026-08-02 16:56:54] OK     Fetch aviation news -> 24
+[2026-08-02 16:56:54] START  Fetch UAP news
+[2026-08-02 16:57:02]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-02 16:57:04]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-02 16:57:04]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-02 16:57:04]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-02 16:57:04]        89 article(s) rejected by validation across all feeds
+[2026-08-02 16:57:04] OK     Fetch UAP news -> 11
+[2026-08-02 16:57:04] START  Generate sitemap.xml
+[2026-08-02 16:57:04] OK     Generate sitemap.xml -> 48
+[2026-08-02 16:57:04] START  Fetch Reddit community feed
+[2026-08-02 16:57:05]        WARN r/aviation feed failed -> HTTP Error 403: Blocked
+[2026-08-02 16:57:07]        WARN r/flying feed failed -> HTTP Error 403: Blocked
+[2026-08-02 16:57:09]        WARN r/aviationmaintenance feed failed -> HTTP Error 403: Blocked
+[2026-08-02 16:57:11]        WARN r/UFOs feed failed -> HTTP Error 403: Blocked
+[2026-08-02 16:57:11]        4 of 4 subreddit(s) failed
+[2026-08-02 16:57:11] FAILED Fetch Reddit community feed -> All subreddit fetches failed: r/aviation: HTTP Error 403: Blocked; r/flying: HTTP Error 403: Blocked; r/aviationmaintenance: HTTP Error 403: Blocked; r/UFOs: HTTP Error 403: Blocked
+[2026-08-02 16:57:11] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 826, in run_step
+    result = func(*args)
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 813, in fetch_reddit_feed
+    raise RuntimeError("All subreddit fetches failed: " + "; ".join(sub_errors))
+RuntimeError: All subreddit fetches failed: r/aviation: HTTP Error 403: Blocked; r/flying: HTTP Error 403: Blocked; r/aviationmaintenance: HTTP Error 403: Blocked; r/UFOs: HTTP Error 403: Blocked
+
+[2026-08-02 16:57:11] Flight Crew Files update run finished in 37.3s
+[2026-08-02 17:00:02] ============================================================
+[2026-08-02 17:00:02] Flight Crew Files update run starting
+[2026-08-02 17:00:02] START  Fetch YouTube videos
+[2026-08-02 17:00:04] OK     Fetch YouTube videos -> 40
+[2026-08-02 17:00:04] START  Fetch aviation news
+[2026-08-02 17:00:05]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-02 17:00:12]        Simple Flying: 8 articles from https://simpleflying.com/feed (2 rejected by validation)
+[2026-08-02 17:00:15]        FlightGlobal: 3 articles from https://www.flightglobal.com/rss (7 rejected by validation)
+[2026-08-02 17:00:16]        The Aviation Herald feed skipped (malformed XML) -> syntax error: line 2, column 0
+[2026-08-02 17:00:20]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-02 17:00:28]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-02 17:00:28]        115 article(s) rejected by validation across all feeds
+[2026-08-02 17:00:28] OK     Fetch aviation news -> 24
+[2026-08-02 17:00:28] START  Fetch UAP news
+[2026-08-02 17:00:34]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-02 17:00:36]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-02 17:00:36]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-02 17:00:37]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-02 17:00:37]        89 article(s) rejected by validation across all feeds
+[2026-08-02 17:00:37] OK     Fetch UAP news -> 11
+[2026-08-02 17:00:37] START  Generate sitemap.xml
+[2026-08-02 17:00:37] OK     Generate sitemap.xml -> 48
+[2026-08-02 17:00:37] START  Fetch Reddit community feed
+[2026-08-02 17:00:37] FAILED Fetch Reddit community feed -> fetch_reddit_feed() missing 2 required positional arguments: 'client_id' and 'client_secret'
+[2026-08-02 17:00:37] Traceback (most recent call last):
+  File "/home/jayca/projects/flightcrewfiles/setup_flightcrewfiles.py", line 871, in run_step
+    result = func(*args)
+TypeError: fetch_reddit_feed() missing 2 required positional arguments: 'client_id' and 'client_secret'
+
+[2026-08-02 17:00:37] Flight Crew Files update run finished in 35.0s
+[2026-08-02 17:09:18]        Hacker News: 5 stories fetched
+[2026-08-02 17:09:18]        Aviation Stack Exchange: 5 questions fetched

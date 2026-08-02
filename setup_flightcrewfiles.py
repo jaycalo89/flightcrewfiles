@@ -14,6 +14,7 @@ import difflib
 import email.utils
 import glob
 import html
+import itertools
 import json
 import os
 import re
@@ -695,124 +696,137 @@ def generate_sitemap():
 
 
 # --------------------------------------------------------------------------
-# Step 5: Reddit community feed -> reddit_feed.json
-# Uses Reddit's public JSON endpoints (https://www.reddit.com/r/<sub>/top.json),
-# no API key or OAuth required. Reddit is known to rate-limit and to block
-# requests it flags as automated/datacenter traffic outright (403), so every
-# subreddit fetch is isolated the same way RSS feeds are above -- one bad or
-# blocked subreddit logs a warning and is skipped rather than failing the run.
+# Step 5: Aviation community feed -> community_feed.json
+# Pulls from two free, unauthenticated, unblocked APIs:
+#   - Hacker News (via the Algolia-powered HN Search API)
+#   - Aviation Stack Exchange (via the public Stack Exchange API)
+# Neither requires a key or app registration, and neither has shown any sign
+# of blocking automated/datacenter requests the way reddit.com's public JSON
+# endpoints do. Each source is isolated the same way RSS feeds are above --
+# one failing source logs a warning and is skipped rather than failing the run.
 # --------------------------------------------------------------------------
 
-REDDIT_SUBREDDITS = ["aviation", "flying", "aviationmaintenance", "UFOs"]
-REDDIT_MIN_SCORE = 50
-REDDIT_FETCH_DELAY = 2  # seconds between subreddit requests, per Reddit's own etiquette guidance
-REDDIT_LIMIT_PER_SUB = 25
-REDDIT_CAP = 8
-# Reddit requires a unique, descriptive User-Agent (its own API rules say
-# generic ones get throttled harder); this follows Reddit's documented
-# "platform:app_id:version (by /u/username)" convention.
-REDDIT_USER_AGENT = "web:flightcrewfiles-community-feed:v1.0 (by /u/flightcrewfiles)"
+HN_SEARCH_URL = "https://hn.algolia.com/api/v1/search"
+HN_HITS_PER_PAGE = 5
 
-# Domains that mean the post itself IS a video/image, not an article or
-# discussion -- these are excluded regardless of score.
-REDDIT_VIDEO_DOMAINS = {"v.redd.it", "youtube.com", "youtu.be", "streamable.com", "gfycat.com", "redgifs.com"}
-REDDIT_IMAGE_DOMAINS = {"i.redd.it", "i.imgur.com", "imgur.com", "gyazo.com"}
+# NOTE: aviation.stackexchange.com has no literal "aviation" tag -- the whole
+# site is aviation-scoped, so questions carry specific tags instead (e.g.
+# "airbus-a320", "faa", "helicopter"). Filtering with tagged=aviation always
+# returns zero results (confirmed against the live API), so this intentionally
+# omits a tag filter and relies on sort=hot, the site's own trending ranking.
+STACKEXCHANGE_QUESTIONS_URL = "https://api.stackexchange.com/2.3/questions"
+STACKEXCHANGE_SITE = "aviation.stackexchange"
+STACKEXCHANGE_PAGE_SIZE = 5
 
-# r/aviation, r/flying and r/aviationmaintenance are aviation subreddits by
-# definition (same exemption pattern as UAP_KEYWORD_EXEMPT_DOMAINS above);
-# only r/UFOs needs a topical filter to keep the aviation/UAP crossover posts
-# and drop everything else that subreddit covers.
-REDDIT_KEYWORD_FILTERED_SUBS = {"UFOs"}
+COMMUNITY_CAP = 8
+COMMUNITY_USER_AGENT = "flightcrewfiles-setup/1.0"
 
 
-def http_get_json_reddit(url):
-    """GET a Reddit JSON endpoint with a compliant User-Agent. Raises on failure."""
-    req = urllib.request.Request(url, headers={"User-Agent": REDDIT_USER_AGENT})
-    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
-        body = resp.read().decode("utf-8")
-    return json.loads(body)
+def fetch_hn_aviation_stories():
+    """Fetch recent/relevant aviation stories from Hacker News via the free
+    Algolia search API. Returns a list of normalized community-feed entries."""
+    params = urllib.parse.urlencode({
+        "query": "aviation",
+        "tags": "story",
+        "hitsPerPage": HN_HITS_PER_PAGE,
+    })
+    data = http_get_json(f"{HN_SEARCH_URL}?{params}")
 
-
-def is_low_quality_reddit_post(post):
-    """True if a post should be excluded: hosted video, image-only posts and
-    galleries/memes. News articles, link posts and text (self) discussions
-    all pass through."""
-    if post.get("is_video"):
-        return True
-    if post.get("is_gallery"):
-        return True
-    if (post.get("post_hint") or "") in ("hosted:video", "rich:video", "image"):
-        return True
-    domain = (post.get("domain") or "").lower()
-    return domain in REDDIT_VIDEO_DOMAINS or domain in REDDIT_IMAGE_DOMAINS
-
-
-def fetch_subreddit_top(subreddit, t="day", limit=REDDIT_LIMIT_PER_SUB):
-    """Fetch one subreddit's top posts for the given period as a list of
-    Reddit 'post data' dicts."""
-    params = urllib.parse.urlencode({"t": t, "limit": limit, "raw_json": 1})
-    url = f"https://www.reddit.com/r/{subreddit}/top.json?{params}"
-    data = http_get_json_reddit(url)
-    return [child["data"] for child in data.get("data", {}).get("children", []) if child.get("data")]
-
-
-def fetch_reddit_feed():
-    """Fetch today's top posts from a handful of aviation-related subreddits
-    and save the best 8 (by score) to reddit_feed.json. Quality bar: more
-    than REDDIT_MIN_SCORE upvotes, and no videos, images or memes -- keeps
-    news articles, incident reports, discussions and well-engaged questions."""
-    all_posts = []
-    sub_errors = []
-
-    for i, subreddit in enumerate(REDDIT_SUBREDDITS):
-        if i > 0:
-            time.sleep(REDDIT_FETCH_DELAY)
-        try:
-            raw_posts = fetch_subreddit_top(subreddit)
-        except Exception as exc:  # noqa: BLE001 - one blocked/bad subreddit shouldn't kill the rest
-            sub_errors.append(f"r/{subreddit}: {exc}")
-            log(f"       WARN r/{subreddit} feed failed -> {exc}")
+    entries = []
+    for hit in data.get("hits", []):
+        object_id = hit.get("objectID")
+        title = html.unescape(hit.get("title") or "")
+        if not title or not object_id:
             continue
+        entries.append({
+            "title": title,
+            "url": f"https://news.ycombinator.com/item?id={object_id}",
+            "points": hit.get("points") or 0,
+            "num_comments": hit.get("num_comments") or 0,
+            "source": "Hacker News",
+            "created_utc": int(datetime.fromisoformat(hit["created_at"].replace("Z", "+00:00")).timestamp())
+                if hit.get("created_at") else None,
+        })
+    return entries
 
-        kept = 0
-        for post in raw_posts:
-            if post.get("stickied"):
-                continue
-            if (post.get("score") or 0) <= REDDIT_MIN_SCORE:
-                continue
-            if is_low_quality_reddit_post(post):
-                continue
-            title = html.unescape(post.get("title") or "")
-            if subreddit in REDDIT_KEYWORD_FILTERED_SUBS and not has_required_title_keyword(title):
-                continue
-            all_posts.append({
-                "title": title,
-                "url": "https://www.reddit.com" + post.get("permalink", ""),
-                "score": post.get("score") or 0,
-                "num_comments": post.get("num_comments") or 0,
-                "subreddit": post.get("subreddit") or subreddit,
-                "created_utc": post.get("created_utc"),
-            })
-            kept += 1
-        log(f"       r/{subreddit}: {kept} posts kept from {len(raw_posts)} fetched")
 
-    all_posts.sort(key=lambda p: p["score"], reverse=True)
-    top_posts = all_posts[:REDDIT_CAP]
+def fetch_se_aviation_questions():
+    """Fetch today's 'hot' questions from Aviation Stack Exchange via the free
+    Stack Exchange API. Returns a list of normalized community-feed entries."""
+    params = urllib.parse.urlencode({
+        "order": "desc",
+        "sort": "hot",
+        "site": STACKEXCHANGE_SITE,
+        "pagesize": STACKEXCHANGE_PAGE_SIZE,
+        "filter": "default",
+    })
+    data = http_get_json(f"{STACKEXCHANGE_QUESTIONS_URL}?{params}")
+
+    entries = []
+    for item in data.get("items", []):
+        title = html.unescape(item.get("title") or "")
+        link = item.get("link")
+        if not title or not link:
+            continue
+        entries.append({
+            "title": title,
+            "url": link,
+            "points": item.get("score") or 0,
+            "num_comments": item.get("answer_count") or 0,
+            "source": "Aviation Stack Exchange",
+            "created_utc": item.get("creation_date"),
+        })
+    return entries
+
+
+def fetch_community_feed():
+    """Fetch aviation discussion from Hacker News and Aviation Stack Exchange,
+    interleave the two sources for a balanced mix, cap at COMMUNITY_CAP, and
+    save to community_feed.json. Each source is isolated -- one failing source
+    logs a warning and is skipped rather than failing the whole run."""
+    source_errors = []
+    hn_entries = []
+    se_entries = []
+
+    try:
+        hn_entries = fetch_hn_aviation_stories()
+        log(f"       Hacker News: {len(hn_entries)} stories fetched")
+    except Exception as exc:  # noqa: BLE001 - one bad source shouldn't kill the rest
+        source_errors.append(f"Hacker News: {exc}")
+        log(f"       WARN Hacker News feed failed -> {exc}")
+
+    try:
+        se_entries = fetch_se_aviation_questions()
+        log(f"       Aviation Stack Exchange: {len(se_entries)} questions fetched")
+    except Exception as exc:  # noqa: BLE001 - one bad source shouldn't kill the rest
+        source_errors.append(f"Aviation Stack Exchange: {exc}")
+        log(f"       WARN Aviation Stack Exchange feed failed -> {exc}")
+
+    # Interleave rather than sort by raw score -- HN points and SE scores
+    # aren't comparable (HN routinely scores in the hundreds, this SE site
+    # rarely breaks 10), so sorting together would just always favor HN.
+    combined = []
+    for hn_entry, se_entry in itertools.zip_longest(hn_entries, se_entries):
+        if hn_entry:
+            combined.append(hn_entry)
+        if se_entry:
+            combined.append(se_entry)
+    top_entries = combined[:COMMUNITY_CAP]
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(top_posts),
-        "subreddits": REDDIT_SUBREDDITS,
-        "posts": top_posts,
+        "count": len(top_entries),
+        "sources": ["Hacker News", "Aviation Stack Exchange"],
+        "posts": top_entries,
     }
-    write_json("reddit_feed.json", payload)
+    write_json("community_feed.json", payload)
 
-    if sub_errors:
-        log(f"       {len(sub_errors)} of {len(REDDIT_SUBREDDITS)} subreddit(s) failed")
-    if not top_posts and sub_errors:
-        raise RuntimeError("All subreddit fetches failed: " + "; ".join(sub_errors))
+    if source_errors:
+        log(f"       {len(source_errors)} of 2 source(s) failed")
+    if not top_entries and source_errors:
+        raise RuntimeError("All community sources failed: " + "; ".join(source_errors))
 
-    return len(top_posts)
+    return len(top_entries)
 
 
 # --------------------------------------------------------------------------
@@ -857,8 +871,8 @@ def main():
     print("\n[4/5] Generating sitemap.xml...")
     results["sitemap"] = run_step("Generate sitemap.xml", generate_sitemap)
 
-    print("\n[5/5] Fetching aviation community discussion from Reddit...")
-    results["reddit"] = run_step("Fetch Reddit community feed", fetch_reddit_feed)
+    print("\n[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...")
+    results["community"] = run_step("Fetch aviation community feed", fetch_community_feed)
 
     elapsed = time.time() - start_time
     log(f"Flight Crew Files update run finished in {elapsed:.1f}s")
@@ -866,7 +880,7 @@ def main():
     videos_count = results["videos"]["result"] if results["videos"]["ok"] else 0
     news_count = results["news"]["result"] if results["news"]["ok"] else 0
     uap_count = results["uap_news"]["result"] if results["uap_news"]["ok"] else 0
-    reddit_count = results["reddit"]["result"] if results["reddit"]["ok"] else 0
+    community_count = results["community"]["result"] if results["community"]["ok"] else 0
 
     errors = [
         f"- {label}: {r['error']}"
@@ -880,7 +894,7 @@ def main():
     print(f"News articles fetched: {news_count}")
     print(f"UAP articles fetched:  {uap_count}")
     print(f"Sitemap pages listed:  {results['sitemap']['result'] if results['sitemap']['ok'] else 0}")
-    print(f"Reddit posts fetched:  {reddit_count}")
+    print(f"Community posts fetched: {community_count}")
     print(f"Time taken:            {elapsed:.1f}s")
     if errors:
         print(f"\nErrors ({len(errors)}):")

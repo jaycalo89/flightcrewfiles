@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-08-02T21:09:18.830319+00:00",
+  "count": 8,
+  "sources": [
+    "Hacker News",
+    "Aviation Stack Exchange"
+  ],
+  "posts": [
+    {
+      "title": "Almost 1 in 3 pilots in Pakistan have fake licenses, aviation minister says",
+      "url": "https://news.ycombinator.com/item?id=23641005",
+      "points": 506,
+      "num_comments": 342,
+      "source": "Hacker News",
+      "created_utc": 1593094607
+    },
+    {
+      "title": "What is this thing sticking out of the side of HAL ALH Mk2 and Mk3?",
+      "url": "https://aviation.stackexchange.com/questions/115456/what-is-this-thing-sticking-out-of-the-side-of-hal-alh-mk2-and-mk3",
+      "points": 1,
+      "num_comments": 1,
+      "source": "Aviation Stack Exchange",
+      "created_utc": 1785608150
+    },
+    {
+      "title": "SFO near miss might have triggered aviation disaster",
+      "url": "https://news.ycombinator.com/item?id=14741605",
+      "points": 481,
+      "num_comments": 414,
+      "source": "Hacker News",
+      "created_utc": 1499747785
+    },
+    {
+      "title": "Which heart defects further to case review and which cause disqualification in DGCA class 1 medical?",
+      "url": "https://aviation.stackexchange.com/questions/115455/which-heart-defects-further-to-case-review-and-which-cause-disqualification-in-d",
+      "points": 0,
+      "num_comments": 0,
+      "source": "Aviation Stack Exchange",
+      "created_utc": 1785587455
+    },
+    {
+      "title": "Falsehoods programmers believe about aviation",
+      "url": "https://news.ycombinator.com/item?id=44205590",
+      "points": 473,
+      "num_comments": 199,
+      "source": "Hacker News",
+      "created_utc": 1749248433
+    },
+    {
+      "title": "Can fluid entrainment efficiency (such as in sub-wings or air amplifiers) be modeled through a thermodynamic energy conversion perspective?",
+      "url": "https://aviation.stackexchange.com/questions/115454/can-fluid-entrainment-efficiency-such-as-in-sub-wings-or-air-amplifiers-be-mod",
+      "points": 0,
+      "num_comments": 0,
+      "source": "Aviation Stack Exchange",
+      "created_utc": 1785541711
+    },
+    {
+      "title": "Starlink Aviation",
+      "url": "https://news.ycombinator.com/item?id=33256378",
+      "points": 453,
+      "num_comments": 503,
+      "source": "Hacker News",
+      "created_utc": 1666143646
+    },
+    {
+      "title": "Lufthansa 1829 Incident - why did two AOA vanes get frozen at the same time?",
+      "url": "https://aviation.stackexchange.com/questions/115445/lufthansa-1829-incident-why-did-two-aoa-vanes-get-frozen-at-the-same-time",
+      "points": 2,
+      "num_comments": 1,
+      "source": "Aviation Stack Exchange",
+      "created_utc": 1785227803
+    }
+  ]
+}
