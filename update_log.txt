@@ -718,3 +718,11 @@ RuntimeError: All feeds failed: Live Science: UFOs (https://www.livescience.com/
 [2026-08-02 14:00:49] OK     Fetch aviation news -> 24
 [2026-08-02 14:00:49] START  Fetch UAP news
 [2026-08-02 14:00:55]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-02 14:01:04]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-02 14:01:05]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-02 14:01:06]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-02 14:01:06]        89 article(s) rejected by validation across all feeds
+[2026-08-02 14:01:06] OK     Fetch UAP news -> 11
+[2026-08-02 14:01:06] START  Generate sitemap.xml
+[2026-08-02 14:01:06] OK     Generate sitemap.xml -> 47
+[2026-08-02 14:01:06] Flight Crew Files update run finished in 63.9s
