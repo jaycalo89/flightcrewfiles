@@ -695,6 +695,127 @@ def generate_sitemap():
 
 
 # --------------------------------------------------------------------------
+# Step 5: Reddit community feed -> reddit_feed.json
+# Uses Reddit's public JSON endpoints (https://www.reddit.com/r/<sub>/top.json),
+# no API key or OAuth required. Reddit is known to rate-limit and to block
+# requests it flags as automated/datacenter traffic outright (403), so every
+# subreddit fetch is isolated the same way RSS feeds are above -- one bad or
+# blocked subreddit logs a warning and is skipped rather than failing the run.
+# --------------------------------------------------------------------------
+
+REDDIT_SUBREDDITS = ["aviation", "flying", "aviationmaintenance", "UFOs"]
+REDDIT_MIN_SCORE = 50
+REDDIT_FETCH_DELAY = 2  # seconds between subreddit requests, per Reddit's own etiquette guidance
+REDDIT_LIMIT_PER_SUB = 25
+REDDIT_CAP = 8
+# Reddit requires a unique, descriptive User-Agent (its own API rules say
+# generic ones get throttled harder); this follows Reddit's documented
+# "platform:app_id:version (by /u/username)" convention.
+REDDIT_USER_AGENT = "web:flightcrewfiles-community-feed:v1.0 (by /u/flightcrewfiles)"
+
+# Domains that mean the post itself IS a video/image, not an article or
+# discussion -- these are excluded regardless of score.
+REDDIT_VIDEO_DOMAINS = {"v.redd.it", "youtube.com", "youtu.be", "streamable.com", "gfycat.com", "redgifs.com"}
+REDDIT_IMAGE_DOMAINS = {"i.redd.it", "i.imgur.com", "imgur.com", "gyazo.com"}
+
+# r/aviation, r/flying and r/aviationmaintenance are aviation subreddits by
+# definition (same exemption pattern as UAP_KEYWORD_EXEMPT_DOMAINS above);
+# only r/UFOs needs a topical filter to keep the aviation/UAP crossover posts
+# and drop everything else that subreddit covers.
+REDDIT_KEYWORD_FILTERED_SUBS = {"UFOs"}
+
+
+def http_get_json_reddit(url):
+    """GET a Reddit JSON endpoint with a compliant User-Agent. Raises on failure."""
+    req = urllib.request.Request(url, headers={"User-Agent": REDDIT_USER_AGENT})
+    with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+        body = resp.read().decode("utf-8")
+    return json.loads(body)
+
+
+def is_low_quality_reddit_post(post):
+    """True if a post should be excluded: hosted video, image-only posts and
+    galleries/memes. News articles, link posts and text (self) discussions
+    all pass through."""
+    if post.get("is_video"):
+        return True
+    if post.get("is_gallery"):
+        return True
+    if (post.get("post_hint") or "") in ("hosted:video", "rich:video", "image"):
+        return True
+    domain = (post.get("domain") or "").lower()
+    return domain in REDDIT_VIDEO_DOMAINS or domain in REDDIT_IMAGE_DOMAINS
+
+
+def fetch_subreddit_top(subreddit, t="day", limit=REDDIT_LIMIT_PER_SUB):
+    """Fetch one subreddit's top posts for the given period as a list of
+    Reddit 'post data' dicts."""
+    params = urllib.parse.urlencode({"t": t, "limit": limit, "raw_json": 1})
+    url = f"https://www.reddit.com/r/{subreddit}/top.json?{params}"
+    data = http_get_json_reddit(url)
+    return [child["data"] for child in data.get("data", {}).get("children", []) if child.get("data")]
+
+
+def fetch_reddit_feed():
+    """Fetch today's top posts from a handful of aviation-related subreddits
+    and save the best 8 (by score) to reddit_feed.json. Quality bar: more
+    than REDDIT_MIN_SCORE upvotes, and no videos, images or memes -- keeps
+    news articles, incident reports, discussions and well-engaged questions."""
+    all_posts = []
+    sub_errors = []
+
+    for i, subreddit in enumerate(REDDIT_SUBREDDITS):
+        if i > 0:
+            time.sleep(REDDIT_FETCH_DELAY)
+        try:
+            raw_posts = fetch_subreddit_top(subreddit)
+        except Exception as exc:  # noqa: BLE001 - one blocked/bad subreddit shouldn't kill the rest
+            sub_errors.append(f"r/{subreddit}: {exc}")
+            log(f"       WARN r/{subreddit} feed failed -> {exc}")
+            continue
+
+        kept = 0
+        for post in raw_posts:
+            if post.get("stickied"):
+                continue
+            if (post.get("score") or 0) <= REDDIT_MIN_SCORE:
+                continue
+            if is_low_quality_reddit_post(post):
+                continue
+            title = html.unescape(post.get("title") or "")
+            if subreddit in REDDIT_KEYWORD_FILTERED_SUBS and not has_required_title_keyword(title):
+                continue
+            all_posts.append({
+                "title": title,
+                "url": "https://www.reddit.com" + post.get("permalink", ""),
+                "score": post.get("score") or 0,
+                "num_comments": post.get("num_comments") or 0,
+                "subreddit": post.get("subreddit") or subreddit,
+                "created_utc": post.get("created_utc"),
+            })
+            kept += 1
+        log(f"       r/{subreddit}: {kept} posts kept from {len(raw_posts)} fetched")
+
+    all_posts.sort(key=lambda p: p["score"], reverse=True)
+    top_posts = all_posts[:REDDIT_CAP]
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(top_posts),
+        "subreddits": REDDIT_SUBREDDITS,
+        "posts": top_posts,
+    }
+    write_json("reddit_feed.json", payload)
+
+    if sub_errors:
+        log(f"       {len(sub_errors)} of {len(REDDIT_SUBREDDITS)} subreddit(s) failed")
+    if not top_posts and sub_errors:
+        raise RuntimeError("All subreddit fetches failed: " + "; ".join(sub_errors))
+
+    return len(top_posts)
+
+
+# --------------------------------------------------------------------------
 # Orchestration
 # --------------------------------------------------------------------------
 
@@ -724,17 +845,20 @@ def main():
 
     results = {}
 
-    print("\n[1/4] Fetching latest aviation videos from YouTube...")
+    print("\n[1/5] Fetching latest aviation videos from YouTube...")
     results["videos"] = run_step("Fetch YouTube videos", fetch_youtube_videos, youtube_key)
 
-    print("\n[2/4] Fetching latest aviation news from RSS feeds...")
+    print("\n[2/5] Fetching latest aviation news from RSS feeds...")
     results["news"] = run_step("Fetch aviation news", fetch_aviation_news)
 
-    print("\n[3/4] Fetching UAP-specific news from RSS feeds...")
+    print("\n[3/5] Fetching UAP-specific news from RSS feeds...")
     results["uap_news"] = run_step("Fetch UAP news", fetch_uap_news)
 
-    print("\n[4/4] Generating sitemap.xml...")
+    print("\n[4/5] Generating sitemap.xml...")
     results["sitemap"] = run_step("Generate sitemap.xml", generate_sitemap)
+
+    print("\n[5/5] Fetching aviation community discussion from Reddit...")
+    results["reddit"] = run_step("Fetch Reddit community feed", fetch_reddit_feed)
 
     elapsed = time.time() - start_time
     log(f"Flight Crew Files update run finished in {elapsed:.1f}s")
@@ -742,6 +866,7 @@ def main():
     videos_count = results["videos"]["result"] if results["videos"]["ok"] else 0
     news_count = results["news"]["result"] if results["news"]["ok"] else 0
     uap_count = results["uap_news"]["result"] if results["uap_news"]["ok"] else 0
+    reddit_count = results["reddit"]["result"] if results["reddit"]["ok"] else 0
 
     errors = [
         f"- {label}: {r['error']}"
@@ -755,6 +880,7 @@ def main():
     print(f"News articles fetched: {news_count}")
     print(f"UAP articles fetched:  {uap_count}")
     print(f"Sitemap pages listed:  {results['sitemap']['result'] if results['sitemap']['ok'] else 0}")
+    print(f"Reddit posts fetched:  {reddit_count}")
     print(f"Time taken:            {elapsed:.1f}s")
     if errors:
         print(f"\nErrors ({len(errors)}):")

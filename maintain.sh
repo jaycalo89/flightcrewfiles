@@ -189,12 +189,13 @@ def count(path, key):
 videos = count('videos-data.json', 'items')
 news = count('news.json', 'articles')
 uap = count('uap_news.json', 'articles')
+reddit = count('reddit_feed.json', 'posts')
 sitemap_ok = os.path.exists('sitemap.xml') and os.path.getsize('sitemap.xml') > 0
 
 with open('.verify_result.json', 'w', encoding='utf-8') as f:
-    json.dump({'videos': videos, 'news': news, 'uap': uap, 'sitemap_ok': sitemap_ok}, f)
+    json.dump({'videos': videos, 'news': news, 'uap': uap, 'reddit': reddit, 'sitemap_ok': sitemap_ok}, f)
 
-print(f"Verify: videos={videos} news={news} uap={uap} sitemap_ok={sitemap_ok}")
+print(f"Verify: videos={videos} news={news} uap={uap} reddit={reddit} sitemap_ok={sitemap_ok}")
 PYEOF
 
   if [ ! -f "$VERIFY_FILE" ]; then
@@ -206,6 +207,7 @@ PYEOF
   VIDEOS_COUNT=$(python3 -c "import json;print(json.load(open('$VERIFY_FILE'))['videos'])")
   NEWS_COUNT=$(python3 -c "import json;print(json.load(open('$VERIFY_FILE'))['news'])")
   UAP_COUNT=$(python3 -c "import json;print(json.load(open('$VERIFY_FILE'))['uap'])")
+  REDDIT_COUNT=$(python3 -c "import json;print(json.load(open('$VERIFY_FILE'))['reddit'])")
   SITEMAP_OK=$(python3 -c "import json;print(json.load(open('$VERIFY_FILE'))['sitemap_ok'])")
   rm -f "$VERIFY_FILE"
 
@@ -221,6 +223,9 @@ PYEOF
   fi
   if [ "$UAP_COUNT" -eq 0 ] 2>/dev/null; then
     log "WARN  uap_news.json is empty this run (non-fatal)"
+  fi
+  if [ "$REDDIT_COUNT" -eq 0 ] 2>/dev/null; then
+    log "WARN  reddit_feed.json is empty this run (non-fatal — Reddit may have rate-limited or blocked this server's IP)"
   fi
   if [ "$SITEMAP_OK" != "True" ]; then
     log "ERROR sitemap.xml was not regenerated or is empty"
@@ -252,7 +257,7 @@ git_push_with_token() {
 commit_and_push() {
   cd "$REPO_DIR" || { log "ERROR Cannot cd to $REPO_DIR"; PUSH_OK=0; return 1; }
 
-  git add videos-data.json news.json uap_news.json sitemap.xml
+  git add videos-data.json news.json uap_news.json sitemap.xml reddit_feed.json
 
   if git diff --cached --quiet; then
     log "INFO  No changes to commit this run"
@@ -400,7 +405,7 @@ main() {
   run_feed_update
 
   CRITICAL_FAILURE=0
-  VIDEOS_COUNT=0; NEWS_COUNT=0; UAP_COUNT=0; SITEMAP_OK=False
+  VIDEOS_COUNT=0; NEWS_COUNT=0; UAP_COUNT=0; REDDIT_COUNT=0; SITEMAP_OK=False
   verify_results
 
   PUSH_OK=0
@@ -412,12 +417,16 @@ main() {
   local uap_note=""
   [ "$UAP_COUNT" -eq 0 ] 2>/dev/null && uap_note=" ⚠️ (empty this run)"
 
+  local reddit_note=""
+  [ "$REDDIT_COUNT" -eq 0 ] 2>/dev/null && reddit_note=" ⚠️ (empty this run)"
+
   local summary
   summary=$(cat <<EOF
 Flight Crew Files — daily maintenance summary
 Videos fetched: ${VIDEOS_COUNT}
 News articles: ${NEWS_COUNT}
 UAP articles: ${UAP_COUNT}${uap_note}
+Reddit posts: ${REDDIT_COUNT}${reddit_note}
 Sitemap regenerated: ${SITEMAP_OK}
 Git push: ${push_status}
 EOF
