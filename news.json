@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-02T17:21:17.587847+00:00",
+  "generated_at": "2026-08-02T18:00:49.817073+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 24,
   "articles": [
+    {
+      "title": "PBI Is Now DJT: What The Trump Airport Name Change Means For Travelers",
+      "description": "Palm Beach International Airport (PBI) is about to undergo one of the most unusual code changes in recent US aviation history. On August 18, 2026, the airport's long-standing PBI IATA code will officially become DJT, reflecting the airport's new name, President Donald J. Trump International…",
+      "url": "https://simpleflying.com/pbi-now-djt-what-trump-airport-name-change-means/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-02T17:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2816703791_cropped.jpg"
+    },
     {
       "title": "Why No Aircraft Boeing Or Airbus Is Building Can Replace The 747-400F's Nose Door",
       "description": "Air cargo has long relied on the factory-built Boeing 747-400F for the immense quantity of outsized cargo that is shipped all over the world every day. As major cargo carriers begin retiring aging four-engine freighters throughout the late 2020s and early 2030s, the aviation industry faces an…",

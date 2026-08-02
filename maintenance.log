@@ -240,3 +240,8 @@ Link check complete: 59 checked, 0 broken
 [2026-07-19 14:20:35] ============================================================
 [2026-07-19 14:20:35] Starting daily maintenance run
 [2026-07-19 14:20:35] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-02 14:00:01] ============================================================
+[2026-08-02 14:00:01] Starting daily maintenance run
+[2026-08-02 14:00:01] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-02 14:00:02] OK    Internet connectivity confirmed
+[2026-08-02 14:00:02] INFO  Running setup_flightcrewfiles.py

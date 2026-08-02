@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:21:01.018084+00:00",
+  "generated_at": "2026-08-02T18:00:05.154156+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -9,6 +9,16 @@
   ],
   "items": [
     {
+      "video_id": "5rW_x5m-Zik",
+      "title": "Athens Wildfire Emergency Turns Deadly After Helicopter Collision #shorts",
+      "description": "cvrdnews.com/breaking A deadly helicopter collision near Athens killed two people during an active wildfire response, turning an ...",
+      "channel": "CVRD News",
+      "published_at": "2026-08-02T17:44:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/5rW_x5m-Zik/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=5rW_x5m-Zik",
+      "matched_query": "aviation incident news"
+    },
+    {
       "video_id": "H9WIsx7sgtY",
       "title": "Deadly Mid-Air Collision: Two Firefighters Killed Battling Greece Wildfires | APT",
       "description": "Two people have died after two firefighting helicopters collided during a wildfire operation near Psatha in western Attica, Greece.",
@@ -16,16 +26,6 @@
       "published_at": "2026-08-02T17:01:19Z",
       "thumbnail": "https://i.ytimg.com/vi/H9WIsx7sgtY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=H9WIsx7sgtY",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "6xC-XJI-ovU",
-      "title": "Helicopter Crash Mid-Air Caught on Camera in Greece",
-      "description": "Witness the unbelievable moment two helicopters collide mid-air over Psatha, Greece. This shocking footage captures the ...",
-      "channel": "MMPAL",
-      "published_at": "2026-08-02T17:00:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/6xC-XJI-ovU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=6xC-XJI-ovU",
       "matched_query": "aviation incident news"
     },
     {
@@ -56,6 +56,16 @@
       "published_at": "2026-08-02T14:43:19Z",
       "thumbnail": "https://i.ytimg.com/vi/6m5EXpWh7m0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6m5EXpWh7m0",
+      "matched_query": "aviation incident news"
+    },
+    {
+      "video_id": "ac0C5_29YEI",
+      "title": "Helicopter Collision in Greece  #military #aviation #helicopter #firefighter #news #fire",
+      "description": "Analyzing the tragic mid-air collision between two helicopters in Greece. This heartbreaking footage is a stark reminder of the ...",
+      "channel": "Aviation Research",
+      "published_at": "2026-08-02T14:25:51Z",
+      "thumbnail": "https://i.ytimg.com/vi/ac0C5_29YEI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ac0C5_29YEI",
       "matched_query": "aviation incident news"
     },
     {
@@ -96,16 +106,6 @@
       "published_at": "2026-08-02T11:30:14Z",
       "thumbnail": "https://i.ytimg.com/vi/nTr_lTjieyc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=nTr_lTjieyc",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "-spqIQIYbvQ",
-      "title": "Peru Plane Crash: नाज़का में विमान हादसा, 13 लोगों की मौत | Nazca Lines Plane Crash#shorts#trending",
-      "description": "पेरू के नाज़का शहर के पास एक टूरिस्ट विमान दुर्घटनाग्रस्त हो गया।",
-      "channel": "Daily News Analysis Report",
-      "published_at": "2026-08-02T10:26:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/-spqIQIYbvQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-spqIQIYbvQ",
       "matched_query": "aviation incident news"
     },
     {
@@ -209,6 +209,16 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "xe1YSHNAMXg",
+      "title": "&quot;J-35 Fighter Jet Emergency Landing – Pakistan Air Force&quot;",
+      "description": "A Pakistan Air Force J-35 stealth fighter makes a dramatic carrier landing amid intense combat. AI-generated cinematic short ...",
+      "channel": "íßnìjåñ",
+      "published_at": "2026-08-02T17:48:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/xe1YSHNAMXg/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xe1YSHNAMXg",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "E16QcEWK0l4",
       "title": "Engine Failure! Boeing 777 Cargo Makes Emergency Landing in Miami 🚨😱 | MSFS 2024",
       "description": "A Boeing 777 Cargo Freighter encounters a critical in-flight emergency and declares Mayday before diverting to Miami ...",
@@ -216,6 +226,16 @@
       "published_at": "2026-08-02T17:03:18Z",
       "thumbnail": "https://i.ytimg.com/vi/E16QcEWK0l4/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=E16QcEWK0l4",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "nZ-yWDt1f2w",
+      "title": "Emergency landing at small runway #aviation #b787 #4k #landing #1000subscriber",
+      "description": "",
+      "channel": "AeroX",
+      "published_at": "2026-08-02T16:35:55Z",
+      "thumbnail": "https://i.ytimg.com/vi/nZ-yWDt1f2w/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=nZ-yWDt1f2w",
       "matched_query": "aviation emergency landing"
     },
     {
@@ -246,16 +266,6 @@
       "published_at": "2026-08-02T14:30:15Z",
       "thumbnail": "https://i.ytimg.com/vi/JIkHhcs6-HI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=JIkHhcs6-HI",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "krChXqYW8-4",
-      "title": "Helicopter Emergency landing #landing #helicopterfun #viralvideos #foryou #helitrick",
-      "description": "",
-      "channel": "Zoom Entertainment",
-      "published_at": "2026-08-02T14:01:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/krChXqYW8-4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=krChXqYW8-4",
       "matched_query": "aviation emergency landing"
     },
     {
@@ -296,16 +306,6 @@
       "published_at": "2026-08-02T12:30:13Z",
       "thumbnail": "https://i.ytimg.com/vi/0ijsg7HFs3U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=0ijsg7HFs3U",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "48qzbAZ0hW4",
-      "title": "Emergency Landing",
-      "description": "Emergency Landing #flight #landing #emergency.",
-      "channel": "LULU Travel tech media ",
-      "published_at": "2026-08-02T12:08:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/48qzbAZ0hW4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=48qzbAZ0hW4",
       "matched_query": "aviation emergency landing"
     },
     {
