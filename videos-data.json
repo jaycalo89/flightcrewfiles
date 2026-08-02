@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T22:00:03.991859+00:00",
+  "generated_at": "2026-08-02T23:00:05.331667+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -8,6 +8,16 @@
     "UAP pilot sighting"
   ],
   "items": [
+    {
+      "video_id": "MJ8fgb6wvTY",
+      "title": "🔥 Tragedy in Greece: Firefighting Helicopters Crash Mid-Air While Battling Wildfires!",
+      "description": "A tragic accident occurred during Greece's ongoing wildfire emergency after two firefighting helicopters collided mid-air while ...",
+      "channel": "Global Brief",
+      "published_at": "2026-08-02T22:09:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/MJ8fgb6wvTY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=MJ8fgb6wvTY",
+      "matched_query": "aviation incident news"
+    },
     {
       "video_id": "XM4IMTknkms",
       "title": "WATCH: Firefighting Helicopters COLLIDE Mid-Air Over Greece Wildfire |Crash Caught on Camera #shorts",
@@ -96,16 +106,6 @@
       "published_at": "2026-08-02T14:25:51Z",
       "thumbnail": "https://i.ytimg.com/vi/ac0C5_29YEI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ac0C5_29YEI",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "ARKwp7QQ2Fo",
-      "title": "Peru Plane Crash Near Nazca Lines Kills 13 | Tourist Flight Ends in Tragedy",
-      "description": "A tragic plane crash near Peru's famous Nazca Lines has claimed the lives of 13 people, including 11 foreign tourists and two ...",
-      "channel": "WION",
-      "published_at": "2026-08-02T13:55:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/ARKwp7QQ2Fo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ARKwp7QQ2Fo",
       "matched_query": "aviation incident news"
     },
     {
@@ -209,6 +209,16 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "9GlUlVuejY8",
+      "title": "Watching their own crash on live TV... 💀 #shorts #aviation",
+      "description": "The ultimate cabin nightmare! ✈️ Passenger screens on JetBlue Flight 292 displayed live breaking news of their own faulty ...",
+      "channel": "hypnoflight",
+      "published_at": "2026-08-02T22:05:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/9GlUlVuejY8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9GlUlVuejY8",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "06YapPPVajI",
       "title": "Cessna pilot makes a very short field final landing an tower controllers are in shock😂😂#aviation",
       "description": "",
@@ -296,16 +306,6 @@
       "published_at": "2026-08-02T16:54:25Z",
       "thumbnail": "https://i.ytimg.com/vi/ifT2cW96kbU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ifT2cW96kbU",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "nZ-yWDt1f2w",
-      "title": "Emergency landing at small runway #aviation #b787 #4k #landing #1000subscriber",
-      "description": "",
-      "channel": "AeroX",
-      "published_at": "2026-08-02T16:35:55Z",
-      "thumbnail": "https://i.ytimg.com/vi/nZ-yWDt1f2w/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=nZ-yWDt1f2w",
       "matched_query": "aviation emergency landing"
     },
     {
@@ -399,13 +399,13 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "TSeprxtdf4s",
-      "title": "UFO Sightings: Pilots See The Unexplainable #shorts",
-      "description": "Even without hard data, commander David Fravor and pilot Ryan Graves' accounts of inexplicable aerial objects are compelling.",
-      "channel": "GovWatch Official ",
-      "published_at": "2026-07-28T14:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/TSeprxtdf4s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TSeprxtdf4s",
+      "video_id": "-hqPDdQxjQU",
+      "title": "The UFOs the Military Doesn&#39;t Want You to Know About #uap #military #shorts",
+      "description": "Are UFO sightings actually just secret military aircraft? We examine how experimental technology often gets mistaken for ...",
+      "channel": "Oddity Atlas",
+      "published_at": "2026-07-26T18:30:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/-hqPDdQxjQU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-hqPDdQxjQU",
       "matched_query": "UAP pilot sighting"
     }
   ]

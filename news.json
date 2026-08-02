@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-02T22:00:17.136364+00:00",
+  "generated_at": "2026-08-02T23:00:22.562452+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 25,
   "articles": [
+    {
+      "title": "Boeing 777-9 Vs. Airbus A350-1000: The Widebody Showdown That Will Define The 2030s",
+      "description": "When the Boeing 777-9 finally enters commercial service, it will become the largest twin-engine airliner ever built. By then, however, its main rival will already have spent nearly a decade carrying passengers, building a global customer base, and proving itself on some of the world's longest…",
+      "url": "https://simpleflying.com/boeing-777-9-airbus-a350-1000-widebody-showdown-define-2030s/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-08-02T22:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-777-9-vs-airbus-a350-1000-the-widebody-showdown-that-will-define-the-2030s.jpg"
+    },
     {
       "title": "WestJet Flight Attendants Officially On Strike: All 737 & 787 Flights Cancelled",
       "description": "WestJet flight attendants have officially gone on strike after last-minute contract negotiations failed, forcing Canada's second-largest airline to cancel all scheduled Boeing 737 and Boeing 787 operations. The strike began on Sunday, August 2, at the height of the country's busy summer holiday…",
@@ -105,7 +114,7 @@
     {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
@@ -159,7 +168,7 @@
     {
       "title": "FAA enables ATC clearance via EFBs",
       "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:34:38Z",
@@ -168,7 +177,7 @@
     {
       "title": "MagniX announces electric kitplane powertrain",
       "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
@@ -195,7 +204,7 @@
     {
       "title": "Denver pilots fight hangar rent hike in court",
       "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T08:00:00Z",
@@ -204,7 +213,7 @@
     {
       "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
       "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T00:03:50Z",
@@ -213,7 +222,7 @@
     {
       "title": "Flight Instructor Wins AOPA Sweepstakes Aviat Husky",
       "description": "OSHKOSH, Wis.—The Aircraft Owners and Pilots Association (AOPA) announced at EAA AirVenture that Ashley Almquist is the winner of AOPA’s Sweepstakes Aviat Husky. Her new airplane, a 2024 Aviat Husky A-1C-200, is a versatile, two-seat tailwheel airplane known for its impressive handling and…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/27/pr-flight-instructor-wins-aopa-sweepstakes-aviat-husky?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/27/pr-flight-instructor-wins-aopa-sweepstakes-aviat-husky?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-27T19:27:23Z",
