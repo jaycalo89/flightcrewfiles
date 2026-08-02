@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-02T18:00:49.817073+00:00",
+  "generated_at": "2026-08-02T19:00:24.068595+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 24,
   "articles": [
+    {
+      "title": "British Airways Just Broke Decades Of CFM Loyalty To Put Pratt & Whitney GTFs On Over 60 Airbus Jets",
+      "description": "The United Kingdom's primary flag carrier, British Airways , has selected Pratt & Whitney's geared turbofan (GTF) engine to power up to 63 Airbus A320neo family aircraft, ending decades of exclusive reliance on CFM International engines for its Airbus narrowbody fleet. While the announcement…",
+      "url": "https://simpleflying.com/british-airways-broke-decades-cfm-loyalty-pratt-whitney-gtf-over-60-airbus-jets/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-08-02T18:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/whitney-gtf.jpg"
+    },
     {
       "title": "PBI Is Now DJT: What The Trump Airport Name Change Means For Travelers",
       "description": "Palm Beach International Airport (PBI) is about to undergo one of the most unusual code changes in recent US aviation history. On August 18, 2026, the airport's long-standing PBI IATA code will officially become DJT, reflecting the airport's new name, President Donald J. Trump International…",
@@ -83,15 +92,6 @@
       "author": "Luke Bodell",
       "published_at": "2026-08-02T13:10:58Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/cessna-208b-grand-caravan.jpg"
-    },
-    {
-      "title": "Qantas Airbus A350-1000ULR Flies For 43 Hours Across 2 Test Flights",
-      "description": "Airbus and Qantas have made history by operating their longest-ever nonstop test flight with the new A350-1000ULR that will eventually be used to link eastern Australia with Europe and New York. The momentous test flight took off from Airbus's facilities at Toulouse on July 23rd.",
-      "url": "https://simpleflying.com/video/qantas-airbus-a350-1000ulr-flies-for-43-hours-across-2-test-flights/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-02T12:31:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a35k-test-flight-campgin.jpg"
     },
     {
       "title": "Alaska Awaits Flight Sim Pilots on MSFS2024",
