@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T21:00:04.521092+00:00",
+  "generated_at": "2026-08-02T21:53:12.027453+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -209,6 +209,16 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "06YapPPVajI",
+      "title": "Cessna pilot makes a very short field final landing an tower controllers are in shock😂😂#aviation",
+      "description": "",
+      "channel": "Matthew Zieba",
+      "published_at": "2026-08-02T21:15:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/06YapPPVajI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=06YapPPVajI",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "ixMoapgv_hQ",
       "title": "Eastwind airlines 517 emergency landing at Richmond int&#39;l #aviation #emergencylanding #rfs #shorts",
       "description": "",
@@ -296,16 +306,6 @@
       "published_at": "2026-08-02T16:35:55Z",
       "thumbnail": "https://i.ytimg.com/vi/nZ-yWDt1f2w/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=nZ-yWDt1f2w",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "JEuup4umfh0",
-      "title": "MAYDAY. Engine failure. Air Canada airplane makes emergency landing at San Francisco. Real ATC",
-      "description": "THIS VIDEO IS A RECONSTRUCTION OF THE FOLLOWING SITUATION IN FLIGHT: 31-JUL-2026. An Air Canada Airbus A320 ...",
-      "channel": "You can see ATC",
-      "published_at": "2026-08-02T14:42:52Z",
-      "thumbnail": "https://i.ytimg.com/vi/JEuup4umfh0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=JEuup4umfh0",
       "matched_query": "aviation emergency landing"
     },
     {
@@ -399,13 +399,13 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "TSeprxtdf4s",
-      "title": "UFO Sightings: Pilots See The Unexplainable #shorts",
-      "description": "Even without hard data, commander David Fravor and pilot Ryan Graves' accounts of inexplicable aerial objects are compelling.",
-      "channel": "GovWatch Official ",
-      "published_at": "2026-07-28T14:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/TSeprxtdf4s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TSeprxtdf4s",
+      "video_id": "-hqPDdQxjQU",
+      "title": "The UFOs the Military Doesn&#39;t Want You to Know About #uap #military #shorts",
+      "description": "Are UFO sightings actually just secret military aircraft? We examine how experimental technology often gets mistaken for ...",
+      "channel": "Oddity Atlas",
+      "published_at": "2026-07-26T18:30:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/-hqPDdQxjQU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-hqPDdQxjQU",
       "matched_query": "UAP pilot sighting"
     }
   ]
