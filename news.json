@@ -1,8 +1,35 @@
 {
-  "generated_at": "2026-08-02T19:00:24.068595+00:00",
+  "generated_at": "2026-08-02T20:00:32.803440+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 24,
   "articles": [
+    {
+      "title": "WestJet Flight Attendants Officially On Strike: All 737 & 787 Flights Cancelled",
+      "description": "WestJet flight attendants have officially gone on strike after last-minute contract negotiations failed, forcing Canada's second-largest airline to cancel all scheduled Boeing 737 and Boeing 787 operations. The strike began on Sunday, August 2, at the height of the country's busy summer holiday…",
+      "url": "https://simpleflying.com/westjet-flight-attendants-strike-cancelled-flights/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-02T19:57:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/shutterstock_1337930612_cropped.jpg"
+    },
+    {
+      "title": "Massive Expansion: United Airlines Launches 12 New Routes From Major Hub [Map]",
+      "description": "Chicago O'Hare International Airport (ORD) is one of the most important hubs for United Airlines, with the Windy City also playing host to the US 'big three' legacy carrier and Star Alliance founding member's corporate headquarters. According to scheduling data from Cirium , an aviation analytics…",
+      "url": "https://simpleflying.com/united-airlines-new-chicago-routes/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-02T19:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/014-united-airlines-boeing-737-800-phuong-d-nguyen-_-shutterstock.jpg"
+    },
+    {
+      "title": "What The Flight Attendant Phrase Of \"Arm Doors & Cross-Check\" Really Means",
+      "description": "It's a commonly heard phrase that you will hear on every flight, but have you ever wondered what it actually means? It's actually a very crucial part of cabin safety procedures and happens exactly at the same time on every flight, between the time when the doors are closed and the aircraft starts…",
+      "url": "https://simpleflying.com/what-flight-attendant-phrase-arm-doors-cross-check-really-means/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-08-02T19:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/arm-doors.jpg"
+    },
     {
       "title": "British Airways Just Broke Decades Of CFM Loyalty To Put Pratt & Whitney GTFs On Over 60 Airbus Jets",
       "description": "The United Kingdom's primary flag carrier, British Airways , has selected Pratt & Whitney's geared turbofan (GTF) engine to power up to 63 Airbus A320neo family aircraft, ending decades of exclusive reliance on CFM International engines for its Airbus narrowbody fleet. While the announcement…",
@@ -49,15 +76,6 @@
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/311-delta-air-lines-boeing-767-400-markus-mainka-_-shutterstock.jpg"
     },
     {
-      "title": "Why No Crewed Aircraft Has Beaten The SR-71's Speed Or Altitude Records In 26 Years",
-      "description": "The Lockheed SR-71 Blackbird's final flight was not a Cold War swan song but a NASA science mission, and the Blackbird spent its last decade as a Mach 3 flying wind tunnel that shaped programs like the X-33 aerospike and modern sonic boom research. The Lockheed SR-71 Blackbird was an incredible…",
-      "url": "https://simpleflying.com/why-no-crewed-aircraft-beaten-sr-71-speed-altitude-records-26-years/",
-      "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-08-02T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/sr-71-cover.jpg"
-    },
-    {
       "title": "WestJet flight attendants go on strike",
       "description": "Canada’s second-largest carrier cancels hundreds of flights as cabin crew walk off the job. Flight attendants at Canada’s WestJet went on strike shortly after midnight on Sunday, 2 August after the two sides failed to reach a deal at the bargaining table. Some 4,400 cabin crew represented by the…",
       "url": "https://www.flightglobal.com/archive/2026/08/westjet-flight-attendants-strike/",
@@ -74,24 +92,6 @@
       "author": "David Kaminski-Morrow",
       "published_at": "2026-08-02T13:25:59Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/OB-2001-P-480x313.jpg"
-    },
-    {
-      "title": "How Many Miles Per Gallon Does A Boeing 737 MAX Get Per Passenger Compared To An Airbus A321neo?",
-      "description": "Miles per gallon (MPG): a metric typically measured for cars and imperative during the car-buying process. However, MPG is a metric that applies to aviation as well. Frankly, any gas-powered engine (or hybrid engine) benefits from an MPG reading. It is useful for comparison for customers. Whether…",
-      "url": "https://simpleflying.com/how-many-mpg-boeing-737-max-per-passenger-airbus-a321neo/",
-      "source": "Simple Flying",
-      "author": "Ethan Qualle",
-      "published_at": "2026-08-02T13:13:24Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-737-max.jpg"
-    },
-    {
-      "title": "13 Dead After Cessna Grand Caravan Sightseeing Flight Crashes Near Peru's Nazca Lines",
-      "description": "All 13 occupants onboard a sightseeing flight over Peru's Nazca Lines were killed on Saturday when the aircraft came down in a field in the country's southern Ica region. The Cessna 208B Grand Caravan, registered as OB-2001, had departed Capitán FAP Renán Elías Olivera Airport (PIO) at 12:10 PM…",
-      "url": "https://simpleflying.com/cessna-grand-caravan-crash-peru-nazca-lines-13-dead/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-02T13:10:58Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/cessna-208b-grand-caravan.jpg"
     },
     {
       "title": "Alaska Awaits Flight Sim Pilots on MSFS2024",

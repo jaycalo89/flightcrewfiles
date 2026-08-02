@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T19:00:04.494091+00:00",
+  "generated_at": "2026-08-02T20:00:05.072454+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -8,6 +8,16 @@
     "UAP pilot sighting"
   ],
   "items": [
+    {
+      "video_id": "XM4IMTknkms",
+      "title": "WATCH: Firefighting Helicopters COLLIDE Mid-Air Over Greece Wildfire |Crash Caught on Camera #shorts",
+      "description": "Shocking footage from Greece shows two firefighting helicopters colliding mid-air while battling a massive wildfire near Psatha, ...",
+      "channel": "Politics Beyond Borders",
+      "published_at": "2026-08-02T19:10:49Z",
+      "thumbnail": "https://i.ytimg.com/vi/XM4IMTknkms/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=XM4IMTknkms",
+      "matched_query": "aviation incident news"
+    },
     {
       "video_id": "KL136KMOGnI",
       "title": "Two Firefighting Helicopters Collide Mid-Air During Greece Wildfire | Breaking News #newsgreece",
@@ -96,16 +106,6 @@
       "published_at": "2026-08-02T13:55:34Z",
       "thumbnail": "https://i.ytimg.com/vi/ARKwp7QQ2Fo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=ARKwp7QQ2Fo",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "NKFETpU4xMQ",
-      "title": "Tragic crash at Karlstad Airport, the pilot lost their life",
-      "description": "Yesterday a Piper 25 Pawnee crashed at Karlstad Airport and caugt fire. The pilot tragically lost their life in the accident. The plane ...",
-      "channel": "AvgeekElias",
-      "published_at": "2026-08-02T12:00:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/NKFETpU4xMQ/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NKFETpU4xMQ",
       "matched_query": "aviation incident news"
     },
     {
@@ -209,6 +209,16 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "ixMoapgv_hQ",
+      "title": "Eastwind airlines 517 emergency landing at Richmond int&#39;l #aviation #emergencylanding #rfs #shorts",
+      "description": "",
+      "channel": "HeftyDust",
+      "published_at": "2026-08-02T19:51:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/ixMoapgv_hQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ixMoapgv_hQ",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "zjf2Cmjl0Dg",
       "title": "This Pilot Saved Everyone On Board 🫡✈️",
       "description": "Just before landing, Captain Scott Burke discovered that the aircraft's nose landing gear had rotated into an unsafe position, ...",
@@ -269,6 +279,16 @@
       "matched_query": "aviation emergency landing"
     },
     {
+      "video_id": "ifT2cW96kbU",
+      "title": "Both Engines Died at 41,000 Feet",
+      "description": "At 41000 feet, Air Canada Flight 143 ran out of fuel—and both engines died. A pounds-to-kilograms conversion error had left the ...",
+      "channel": "Strategic Intelligence ",
+      "published_at": "2026-08-02T16:54:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/ifT2cW96kbU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ifT2cW96kbU",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "nZ-yWDt1f2w",
       "title": "Emergency landing at small runway #aviation #b787 #4k #landing #1000subscriber",
       "description": "",
@@ -286,26 +306,6 @@
       "published_at": "2026-08-02T14:42:52Z",
       "thumbnail": "https://i.ytimg.com/vi/JEuup4umfh0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=JEuup4umfh0",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "s3JzgZtzR8g",
-      "title": "Emergency Landings To Remember #viral #airplane #planecrash",
-      "description": "Watch incredible emergency landings as skilled pilots stay calm under pressure and bring their aircraft safely to the ground.",
-      "channel": "Tigerpilot",
-      "published_at": "2026-08-02T14:33:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/s3JzgZtzR8g/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=s3JzgZtzR8g",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "rDETaluC0OI",
-      "title": "Why Planes Avoid Antarctica ✈️❄️#shorts #curiosity",
-      "description": "Why Planes Avoid Antarctica ✈️❄️#shorts #curiosity Ever wondered why commercial flights strictly avoid flying over Antarctica ...",
-      "channel": "Curiosity",
-      "published_at": "2026-08-02T13:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/rDETaluC0OI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=rDETaluC0OI",
       "matched_query": "aviation emergency landing"
     },
     {
