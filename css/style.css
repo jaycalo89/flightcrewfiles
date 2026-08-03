@@ -1897,7 +1897,7 @@ body.nav-open .mobile-panel{
 }
 
 /* ===== News + Poll two-column layout (homepage) ===== */
-.news-poll-layout{display:grid;grid-template-columns:65fr 35fr;gap:40px;align-items:start;}
+.news-poll-layout{display:grid;grid-template-columns:70fr 30fr;gap:40px;align-items:start;}
 @media (max-width:900px){.news-poll-layout{grid-template-columns:1fr;gap:50px;}}
 .news-poll-news{min-width:0;}
 .news-poll-sidebar{min-width:0;}

@@ -97,7 +97,7 @@
     pill.className = 'cf-intensity-pill';
     pill.style.color = intensityMeta.color;
     pill.style.borderColor = intensityMeta.color;
-    pill.textContent = 'Intensity: ' + intensity + '/10 ● ' + intensityLabel;
+    pill.textContent = 'Intensity: ' + intensityLabel + ' ● ' + intensity + '/10';
     return pill;
   }
 
