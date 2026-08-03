@@ -1,9 +1,11 @@
 // Flight Crew Files — case file page engagement features.
 // Runs only on pages with <body class="case-file-page">, reading its
 // per-page config from data attributes:
-//   data-cf-intensity="9" data-cf-intensity-label="Harrowing"
+//   data-cf-intensity="9"
 //   data-cf-reading-min="23" data-cf-reading-max="47"
-// (reading-min/max default to 8/31 and intensity to 6/"Gripping" if omitted).
+// (reading-min/max default to 8/31 and intensity to 6 if omitted). The
+// intensity label and color are derived automatically from the number via
+// INTENSITY_SCALE below -- future case files just set data-cf-intensity.
 //
 // Every case file page shares the same generated structure (see
 // helios522.html and its successors): a <section class="{x}-hero"> whose
@@ -17,10 +19,29 @@
 (function () {
   if (!document.body.classList.contains('case-file-page')) return;
 
+  // 1-2 green, 3-4 blue, 5-6 yellow, 7-8 orange, 9-10 red.
+  var INTENSITY_SCALE = [
+    { max: 2, label: 'Informative', color: '#22c55e' },
+    { max: 4, label: 'Engaging', color: '#3b82f6' },
+    { max: 6, label: 'Gripping', color: '#eab308' },
+    { max: 8, label: 'Disturbing', color: '#f97316' },
+    { max: 10, label: 'Harrowing', color: '#ef4444' }
+  ];
+  function intensityInfo(n) {
+    for (var i = 0; i < INTENSITY_SCALE.length; i++) {
+      if (n <= INTENSITY_SCALE[i].max) return INTENSITY_SCALE[i];
+    }
+    return INTENSITY_SCALE[INTENSITY_SCALE.length - 1];
+  }
+  function hexToRgb(hex) {
+    return parseInt(hex.slice(1, 3), 16) + ',' + parseInt(hex.slice(3, 5), 16) + ',' + parseInt(hex.slice(5, 7), 16);
+  }
+
   var ds = document.body.dataset;
   var intensity = parseInt(ds.cfIntensity, 10);
   if (isNaN(intensity)) intensity = 6;
-  var intensityLabel = ds.cfIntensityLabel || 'Gripping';
+  var intensityMeta = intensityInfo(intensity);
+  var intensityLabel = intensityMeta.label;
   var readingMin = parseInt(ds.cfReadingMin, 10);
   if (isNaN(readingMin)) readingMin = 8;
   var readingMax = parseInt(ds.cfReadingMax, 10);
@@ -78,6 +99,8 @@
   function buildIntensityBadge() {
     var badge = document.createElement('div');
     badge.className = 'cf-intensity-badge';
+    badge.style.setProperty('--cf-intensity-color', intensityMeta.color);
+    badge.style.setProperty('--cf-intensity-rgb', hexToRgb(intensityMeta.color));
     var warningHtml = intensity >= 8
       ? '<div class="cf-intensity-warning">&#9888;&#65039; Intense content</div>'
       : '';
