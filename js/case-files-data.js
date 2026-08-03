@@ -3,6 +3,15 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #012
+    title: "The Plane That Fell From The Sky",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    date: "June 2009",
+    excerpt: "An Air France Airbus A330 climbed into a tropical storm over the mid-Atlantic, its speed sensors iced over, and the autopilot handed control to two first officers who never understood they were in a stall. It fell for three minutes and thirty seconds. The black boxes weren't found for nearly two years.",
+    url: "air-france-447.html"
+  },
+  {
     title: "Helios 522: The Ghost Flight",
     tag: "Black Box Files",
     accent: "#ff4d4d",
