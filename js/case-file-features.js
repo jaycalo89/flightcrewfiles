@@ -33,10 +33,6 @@
     }
     return INTENSITY_SCALE[INTENSITY_SCALE.length - 1];
   }
-  function hexToRgb(hex) {
-    return parseInt(hex.slice(1, 3), 16) + ',' + parseInt(hex.slice(3, 5), 16) + ',' + parseInt(hex.slice(5, 7), 16);
-  }
-
   var ds = document.body.dataset;
   var intensity = parseInt(ds.cfIntensity, 10);
   if (isNaN(intensity)) intensity = 6;
@@ -95,32 +91,22 @@
     return row;
   }
 
-  // ---------- Intensity Rating badge (hero, right after the stamp) ----------
-  function buildIntensityBadge() {
-    var badge = document.createElement('div');
-    badge.className = 'cf-intensity-badge';
-    badge.style.setProperty('--cf-intensity-color', intensityMeta.color);
-    badge.style.setProperty('--cf-intensity-rgb', hexToRgb(intensityMeta.color));
-    var warningHtml = intensity >= 8
-      ? '<div class="cf-intensity-warning">&#9888;&#65039; Intense content</div>'
-      : '';
-    badge.innerHTML =
-      '<div class="cf-intensity-badge-top">' +
-        '<span class="cf-intensity-badge-label">Intensity Rating</span>' +
-        '<span class="cf-intensity-badge-value">' + intensity + '<small>/10</small></span>' +
-        '<span class="cf-intensity-badge-tag">' + intensityLabel + '</span>' +
-      '</div>' +
-      '<div class="cf-intensity-bar-lg"><div class="cf-intensity-fill-lg" style="width:' + (intensity * 10) + '%"></div></div>' +
-      warningHtml;
-    return badge;
+  // ---------- Intensity Rating pill (small, lives in the meta row) ----------
+  function buildIntensityPill() {
+    var pill = document.createElement('span');
+    pill.className = 'cf-intensity-pill';
+    pill.style.color = intensityMeta.color;
+    pill.style.borderColor = intensityMeta.color;
+    pill.textContent = 'Intensity: ' + intensity + '/10 ● ' + intensityLabel;
+    return pill;
   }
 
   function injectIntensityBadge() {
     var hero = document.querySelector('[class$="-hero"]');
     if (!hero) return;
-    var h1 = hero.querySelector('h1');
-    if (!h1 || !h1.parentNode) return;
-    h1.parentNode.insertBefore(buildIntensityBadge(), h1);
+    var metaRow = hero.querySelector('[class$="-meta-row"]');
+    if (!metaRow) return;
+    metaRow.appendChild(buildIntensityPill());
   }
 
   // ---------- Bookmark + share (hero utility row) ----------

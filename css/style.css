@@ -2133,37 +2133,11 @@ body.nav-open .mobile-panel{
 .cf-reading-dot{width:11px;height:11px;border-radius:50%;background:#39e6c5;box-shadow:0 0 10px #39e6c5,0 0 3px #39e6c5;animation:pulse-dot 1.8s infinite;flex-shrink:0;}
 .cf-reading-text strong{color:var(--gold-400);font-weight:700;}
 
-/* ===== Case file page: intensity rating badge (hero, before h1) ===== */
-.cf-intensity-badge{
-  --cf-intensity-color:var(--gold-400);--cf-intensity-rgb:212,175,55;
-  display:inline-flex;flex-direction:column;gap:10px;
-  margin-bottom:22px;padding:16px 22px;max-width:440px;
-  background:rgba(var(--cf-intensity-rgb),0.08);
-  border:1.5px solid rgba(var(--cf-intensity-rgb),0.5);border-radius:var(--radius-md);
-  box-shadow:0 0 24px rgba(var(--cf-intensity-rgb),0.18);
-  transition:background .3s ease,border-color .3s ease,box-shadow .3s ease;
-}
-.cf-intensity-badge-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;}
-.cf-intensity-badge-label{font-family:'Oswald',sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(246,248,252,0.65);}
-.cf-intensity-badge-value{
-  font-family:'Oswald',sans-serif;font-size:2.1rem;font-weight:700;line-height:1;
-  color:var(--cf-intensity-color);text-shadow:0 0 18px rgba(var(--cf-intensity-rgb),0.5);
-}
-.cf-intensity-badge-value small{font-size:1.05rem;color:rgba(246,248,252,0.5);font-weight:600;text-shadow:none;}
-.cf-intensity-badge-tag{
-  font-family:'Oswald',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
-  color:var(--cf-intensity-color);background:rgba(var(--cf-intensity-rgb),0.16);
-  border:1px solid rgba(var(--cf-intensity-rgb),0.4);padding:3px 12px;border-radius:999px;
-}
-.cf-intensity-bar-lg{height:12px;border-radius:999px;background:rgba(255,255,255,0.08);overflow:hidden;}
-.cf-intensity-fill-lg{
-  height:100%;border-radius:999px;background:var(--cf-intensity-color);
-  box-shadow:0 0 10px rgba(var(--cf-intensity-rgb),0.6);transition:width .6s ease-out;
-}
-.cf-intensity-warning{
-  display:flex;align-items:center;gap:8px;
-  font-family:'Oswald',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.03em;
-  color:var(--cf-intensity-color);
+/* ===== Case file page: intensity rating pill (lives in the meta row) ===== */
+.cf-intensity-pill{
+  display:inline-flex;align-items:center;
+  font-family:'Oswald',sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+  border:1px solid var(--gold-400);border-radius:4px;padding:8px 14px;background:transparent;
 }
 
 .cf-utility-row{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-top:16px;}
