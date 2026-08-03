@@ -47,6 +47,55 @@
   }
 }
 </script>
+<style>
+  /* ===== Black Box Files — dramatic hero enhancements ===== */
+  .bb-watermark{
+    position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;
+    display:flex;align-items:center;white-space:nowrap;user-select:none;
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(4rem,14vw,9rem);letter-spacing:.08em;
+    color:rgba(197,45,45,0.06);transform:rotate(-7deg) scale(1.3);
+  }
+  .bb-terminal-line{
+    position:relative;z-index:1;display:inline-flex;align-items:center;gap:10px;
+    font-family:'Oswald',sans-serif;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;
+    color:#8fffb0;background:rgba(0,0,0,0.55);border:1px solid rgba(143,255,176,0.3);border-radius:3px;
+    padding:8px 14px;margin-bottom:18px;
+  }
+  .bb-terminal-caret{color:#8fffb0;font-weight:700;animation:pulse-dot 1s infinite;}
+
+  .bb-waveform{position:relative;z-index:1;display:flex;align-items:center;gap:3px;height:44px;margin:30px 0 4px;}
+  .bb-waveform span{
+    display:block;width:3px;border-radius:2px;flex-shrink:0;
+    background:linear-gradient(180deg,#e05b5b,rgba(224,91,91,0.2));
+    animation:bb-wave 1.1s ease-in-out infinite;
+  }
+  .bb-waveform span:nth-child(2n){animation-delay:.15s;}
+  .bb-waveform span:nth-child(3n){animation-delay:.3s;animation-duration:1.4s;}
+  .bb-waveform span:nth-child(5n){animation-delay:.45s;animation-duration:.9s;}
+  .bb-waveform span:nth-child(7n){animation-delay:.6s;animation-duration:1.25s;}
+  .bb-waveform span:nth-child(4n){animation-delay:.75s;}
+  @keyframes bb-wave{0%,100%{height:5px;}50%{height:38px;}}
+  @media (prefers-reduced-motion:reduce){.bb-waveform span{animation:none;height:18px;}}
+
+  .bb-quote-reel{
+    position:relative;z-index:1;overflow:hidden;margin:22px 0 4px;
+    border-top:1px solid rgba(197,45,45,0.25);border-bottom:1px solid rgba(197,45,45,0.25);
+    padding:16px 0;
+    mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+  }
+  .bb-quote-track{display:inline-flex;white-space:nowrap;animation:bb-quote-scroll 42s linear infinite;}
+  .bb-quote-track span{
+    display:inline-block;padding:0 40px;font-family:'Oswald',sans-serif;font-style:italic;
+    font-size:1rem;color:var(--gold-400);border-right:1px solid rgba(255,255,255,0.08);
+  }
+  .bb-quote-track span em{
+    display:block;margin-top:4px;font-family:'Inter',sans-serif;font-style:normal;
+    font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(246,248,252,0.5);
+  }
+  @keyframes bb-quote-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media (prefers-reduced-motion:reduce){.bb-quote-track{animation:none;}}
+</style>
 </head>
 <body>
 
@@ -62,7 +111,8 @@
     <nav>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="stories.html" class="active">Case Files &amp; Stories</a></li>
+        <li><a href="stories.html">Case Files &amp; Stories</a></li>
+        <li><a href="blackbox.html" class="nav-bb-link active">Black Box Files</a></li>
         <li><a href="news.html">Flight Log (News)</a></li>
         <li><a href="community.html">Community Hub</a></li>
         <li><a href="resources.html">Resources</a></li>
@@ -84,7 +134,8 @@
       <button type="submit" class="mobile-search-btn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></button>
     </form>
     <a href="index.html">Home</a>
-    <a href="stories.html" class="active">Case Files &amp; Stories</a>
+    <a href="stories.html">Case Files &amp; Stories</a>
+    <a href="blackbox.html" class="nav-bb-link active">Black Box Files</a>
     <a href="news.html">Flight Log (News)</a>
     <a href="community.html">Community Hub</a>
     <a href="resources.html">Resources</a>
@@ -110,10 +161,39 @@
 </div>
 
 <section class="bb-hero">
+  <div class="bb-watermark" aria-hidden="true">RESTRICTED&nbsp;&nbsp;&nbsp;&nbsp;RESTRICTED&nbsp;&nbsp;&nbsp;&nbsp;RESTRICTED&nbsp;&nbsp;&nbsp;&nbsp;RESTRICTED&nbsp;&nbsp;&nbsp;&nbsp;RESTRICTED</div>
   <div class="container">
-    <span class="bb-classified-stamp">Archive Access Granted</span>
+    <div class="bb-terminal-line"><span class="bb-terminal-caret">&gt;</span> YOU ARE NOW ACCESSING THE BLACK BOX FILES</div>
+    <span class="bb-classified-stamp">Archive Access Granted &middot; Level 3 Clearance</span>
     <h1 class="section-title" style="position:relative;z-index:1;">Black Box Files</h1>
     <p class="section-lede" style="position:relative;z-index:1;">Every recording here is a real transmission or a documented cockpit recorder transcript from a real flight. Some are the last words ever spoken by a crew. Some are the calmest voices in aviation history, holding a crippled airplane together with nothing but procedure and nerve. Open a file. Press play. These are the tapes.</p>
+
+    <div class="bb-waveform" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="bb-quote-reel">
+      <div class="bb-quote-track" aria-hidden="true">
+        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em></span>
+        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em></span>
+        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em></span>
+        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em></span>
+        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em></span>
+        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em></span>
+        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em></span>
+        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em></span>
+        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em></span>
+        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em></span>
+        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em></span>
+        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em></span>
+        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em></span>
+        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em></span>
+      </div>
+    </div>
+
     <div class="bb-jump">
       <a href="#atc-recordings">Historic ATC Recordings</a>
       <a href="#uap-transmissions">UAP Radio Transmissions</a>

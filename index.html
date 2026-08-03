@@ -164,6 +164,87 @@
     display:block;margin-top:16px;font-family:'Oswald',sans-serif;font-size:.74rem;
     letter-spacing:.1em;text-transform:uppercase;color:var(--muted-light);
   }
+
+  /* ===== Black Box Files homepage teaser ===== */
+  .bbhome-teaser{
+    position:relative;overflow:hidden;padding:130px 0 110px;text-align:center;
+    background:
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
+      radial-gradient(1100px 560px at 50% -10%, rgba(255,77,77,0.16), transparent 60%),
+      radial-gradient(900px 480px at 100% 100%, rgba(212,175,55,0.08), transparent 55%),
+      linear-gradient(180deg,#000000 0%,#050203 55%,#000000 100%);
+    border-top:1px solid rgba(255,77,77,0.35);border-bottom:1px solid rgba(255,77,77,0.35);
+  }
+  .bbhome-teaser-head{position:relative;z-index:1;}
+  .bbhome-scan{
+    position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+    width:640px;height:640px;max-width:none;border-radius:50%;
+    pointer-events:none;z-index:0;opacity:.5;
+    background:repeating-radial-gradient(circle,rgba(255,77,77,.14) 0px,rgba(255,77,77,.14) 1px,transparent 1px,transparent 54px);
+  }
+  .bbhome-scan::after{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(from 0deg,rgba(255,77,77,0) 0deg,rgba(255,77,77,0) 265deg,rgba(255,77,77,.5) 300deg,rgba(255,77,77,0) 340deg);
+    animation:radar-spin 5s linear infinite;
+  }
+  @media (prefers-reduced-motion:reduce){.bbhome-scan::after{animation:none;}}
+  .bbhome-badge{
+    display:inline-flex;align-items:center;gap:10px;
+    font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;
+    color:#ff6b6b;border:2px solid #ff4d4d;padding:8px 18px;border-radius:3px;
+    background:rgba(255,77,77,0.08);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
+  }
+  .bbhome-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;flex-shrink:0;animation:pulse-dot 1.6s infinite;}
+  .bbhome-teaser h2{
+    font-size:clamp(2.6rem,7vw,4.6rem);color:#fff;text-transform:uppercase;letter-spacing:.03em;font-weight:700;
+    text-shadow:0 0 50px rgba(255,77,77,0.45),0 0 90px rgba(255,77,77,0.2);margin-bottom:14px;
+  }
+  .bbhome-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.03em;color:rgba(246,248,252,0.78);margin:0 auto 54px;max-width:640px;}
+
+  .bbhome-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:48px;text-align:left;}
+  @media (max-width:900px){.bbhome-grid{grid-template-columns:1fr;}}
+  .bbhome-card{
+    display:block;background:#0a0505;text-decoration:none;color:inherit;position:relative;overflow:hidden;
+    border:1px solid rgba(255,77,77,0.3);border-top:2px solid var(--gold-500);border-radius:8px;
+    padding:28px 26px 24px;box-shadow:0 0 15px rgba(255,77,77,0.12),inset 0 0 20px rgba(0,0,0,0.4);
+    transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;
+  }
+  .bbhome-card::before{
+    content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+    background:repeating-linear-gradient(0deg,rgba(255,255,255,0.015) 0px,rgba(255,255,255,0.015) 1px,transparent 1px,transparent 3px);
+  }
+  .bbhome-card:hover{
+    transform:translateY(-5px);border-color:#ff4d4d;
+    box-shadow:0 0 30px rgba(255,77,77,0.3),inset 0 0 20px rgba(0,0,0,0.4);
+  }
+  .bbhome-card-tag{
+    display:block;font-family:'Oswald',sans-serif;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--gold-400);margin-bottom:12px;position:relative;z-index:1;
+  }
+  .bbhome-card h3{
+    font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;margin-bottom:16px;
+    text-transform:uppercase;letter-spacing:.03em;color:#fff;position:relative;z-index:1;
+  }
+  .bbhome-quote{
+    font-family:'Oswald',sans-serif;font-style:italic;font-size:1.1rem;line-height:1.5;
+    color:var(--gold-400);border-left:2px solid #ff4d4d;padding-left:14px;margin:0 0 14px;position:relative;z-index:1;
+  }
+  .bbhome-card-note{
+    display:block;font-family:'Inter',sans-serif;font-size:.84rem;color:rgba(246,248,252,0.65);
+    margin-bottom:20px;position:relative;z-index:1;
+  }
+  .bbhome-card-link{
+    display:flex;align-items:center;gap:6px;font-family:'Oswald',sans-serif;font-size:.72rem;
+    font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#ff6b6b;
+    padding-top:14px;border-top:1px solid rgba(255,77,77,0.25);
+    transition:color .2s ease,gap .2s ease;position:relative;z-index:1;
+  }
+  .bbhome-card:hover .bbhome-card-link{color:#ff4d4d;gap:9px;}
+
+  .bbhome-teaser-cta{position:relative;z-index:1;}
+  .bbhome-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
+  .bbhome-teaser-cta .btn-gold{background:transparent;border:1.5px solid #ff4d4d;color:#ff6b6b;}
+  .bbhome-teaser-cta .btn-gold:hover{background:rgba(255,77,77,0.12);border-color:#ff4d4d;color:#fff;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(255,77,77,0.45);}
 </style>
 </head>
 <body>
@@ -181,6 +262,7 @@
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="stories.html">Case Files &amp; Stories</a></li>
+        <li><a href="blackbox.html" class="nav-bb-link">Black Box Files</a></li>
         <li><a href="news.html">Flight Log (News)</a></li>
         <li><a href="community.html">Community Hub</a></li>
         <li><a href="resources.html">Resources</a></li>
@@ -203,6 +285,7 @@
     </form>
     <a href="index.html" class="active">Home</a>
     <a href="stories.html">Case Files &amp; Stories</a>
+    <a href="blackbox.html" class="nav-bb-link">Black Box Files</a>
     <a href="news.html">Flight Log (News)</a>
     <a href="community.html">Community Hub</a>
     <a href="resources.html">Resources</a>
@@ -372,6 +455,45 @@
       <div><strong>500+</strong><span>Stories &amp; Case Files</span></div>
       <div><strong>70 Yrs</strong><span>Of Aviation History</span></div>
       <div><strong>24/7</strong><span>Watching The Skies</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="bbhome-teaser" id="black-box-teaser">
+  <div class="container">
+    <div class="bbhome-teaser-head">
+      <div class="bbhome-scan" aria-hidden="true"></div>
+      <span class="bbhome-badge">Restricted Access</span>
+      <h2>BLACK BOX FILES</h2>
+      <p class="bbhome-sub">The final recordings. The last transmissions. The truth from the cockpit.</p>
+    </div>
+
+    <div class="bbhome-grid">
+      <a class="bbhome-card" href="helios522.html">
+        <span class="bbhome-card-tag">Case File &middot; Helios 522</span>
+        <h3>The Ghost Flight</h3>
+        <p class="bbhome-quote">&#8220;Mayday, mayday, mayday&#8230;&#8221;</p>
+        <span class="bbhome-card-note">Never received. The 737 flew on alone, on autopilot, for nearly three hours.</span>
+        <span class="bbhome-card-link">Access Recording <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="bbhome-card" href="tenerife-disaster.html">
+        <span class="bbhome-card-tag">Case File &middot; Tenerife</span>
+        <h3>The Last Transmission</h3>
+        <p class="bbhome-quote">&#8220;We are now at takeoff.&#8221;</p>
+        <span class="bbhome-card-note">583 dead. Still the deadliest accident in aviation history.</span>
+        <span class="bbhome-card-link">Access Recording <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="bbhome-card" href="air-france-447.html">
+        <span class="bbhome-card-tag">Case File &middot; Air France 447</span>
+        <h3>3 Minutes, 30 Seconds</h3>
+        <p class="bbhome-quote">&#8220;We have no valid indications.&#8221;</p>
+        <span class="bbhome-card-note">228 dead. The pilots never knew they were in a stall. It took 2 years to find the black box.</span>
+        <span class="bbhome-card-link">Access Recording <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+
+    <div class="bbhome-teaser-cta">
+      <a href="blackbox.html" class="btn btn-gold">Explore All Black Box Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
   </div>
 </section>

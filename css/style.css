@@ -135,6 +135,23 @@ p{margin:0 0 1em;color:var(--muted);}
 .nav-links a.active{color:var(--gold-400);}
 .nav-links a:hover::after,.nav-links a.active::after{width:100%;}
 
+/* ===== "Black Box Files" nav highlight (prominent, all pages) ===== */
+.nav-links a.nav-bb-link{color:#ff6b6b;}
+.nav-links a.nav-bb-link::before{
+  content:"";display:inline-block;width:6px;height:6px;border-radius:50%;
+  background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;margin-right:7px;
+  vertical-align:middle;animation:pulse-dot 1.4s infinite;
+}
+.nav-links a.nav-bb-link::after{background:#ff4d4d;}
+.nav-links a.nav-bb-link:hover,.nav-links a.nav-bb-link.active{color:#ff4d4d;}
+.mobile-panel a.nav-bb-link{color:#ff6b6b;font-weight:700;}
+.mobile-panel a.nav-bb-link::before{
+  content:"";display:inline-block;width:7px;height:7px;border-radius:50%;
+  background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;margin-right:10px;
+  vertical-align:middle;animation:pulse-dot 1.4s infinite;
+}
+.mobile-panel a.nav-bb-link.active{color:#ff4d4d;}
+
 /* ===== Dropdown nav (Stories / Community / Resources) ===== */
 .has-dropdown{position:relative;padding-bottom:18px;margin-bottom:-18px;}
 .dropdown-trigger{
