@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T00:00:03.401144+00:00",
+  "generated_at": "2026-08-03T01:00:03.831930+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -209,6 +209,26 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "ScZcq99y0EE",
+      "title": "Airbus A380 emergency landing on runway #airbus #airplane #hellojetman #aviation #bumpylanding",
+      "description": "HelloJetman #airbus #airport #a380 #dubai #flight #pilotni #pilot #shorts #viral #trending #entertainment #ytshorts #yt ...",
+      "channel": "Rudra movies show ",
+      "published_at": "2026-08-03T00:40:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/ScZcq99y0EE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ScZcq99y0EE",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "R4E_hCV0dbs",
+      "title": "Planes Makes Emergency Landing Over Suspect",
+      "description": "",
+      "channel": "Funny ATC",
+      "published_at": "2026-08-03T00:39:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/R4E_hCV0dbs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=R4E_hCV0dbs",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "9GlUlVuejY8",
       "title": "Watching their own crash on live TV... 💀 #shorts #aviation",
       "description": "The ultimate cabin nightmare! ✈️ Passenger screens on JetBlue Flight 292 displayed live breaking news of their own faulty ...",
@@ -289,24 +309,14 @@
       "matched_query": "aviation emergency landing"
     },
     {
-      "video_id": "E16QcEWK0l4",
-      "title": "Engine Failure! Boeing 777 Cargo Makes Emergency Landing in Miami 🚨😱 | MSFS 2024",
-      "description": "A Boeing 777 Cargo Freighter encounters a critical in-flight emergency and declares Mayday before diverting to Miami ...",
-      "channel": "Rebel Plays",
-      "published_at": "2026-08-02T17:03:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/E16QcEWK0l4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=E16QcEWK0l4",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "ifT2cW96kbU",
-      "title": "Both Engines Died at 41,000 Feet",
-      "description": "At 41000 feet, Air Canada Flight 143 ran out of fuel—and both engines died. A pounds-to-kilograms conversion error had left the ...",
-      "channel": "Strategic Intelligence ",
-      "published_at": "2026-08-02T16:54:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/ifT2cW96kbU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ifT2cW96kbU",
-      "matched_query": "aviation emergency landing"
+      "video_id": "Eq1CMLBuJmo",
+      "title": "&quot;These Objects Are a Flight-Safety Risk&quot; #ufo #Shorts",
+      "description": "Ryan Graves, a former Navy F/A-18 pilot, testified to Congress in July 2023 that UAP pose a genuine flight-safety risk to military ...",
+      "channel": "Signal Unknown",
+      "published_at": "2026-08-03T00:43:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/Eq1CMLBuJmo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Eq1CMLBuJmo",
+      "matched_query": "UAP pilot sighting"
     },
     {
       "video_id": "PtyN_g_dRMw",
@@ -396,16 +406,6 @@
       "published_at": "2026-07-29T07:25:26Z",
       "thumbnail": "https://i.ytimg.com/vi/raRywhJQSXo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=raRywhJQSXo",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
-      "video_id": "TSeprxtdf4s",
-      "title": "UFO Sightings: Pilots See The Unexplainable #shorts",
-      "description": "Even without hard data, commander David Fravor and pilot Ryan Graves' accounts of inexplicable aerial objects are compelling.",
-      "channel": "GovWatch Official ",
-      "published_at": "2026-07-28T14:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/TSeprxtdf4s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TSeprxtdf4s",
       "matched_query": "UAP pilot sighting"
     }
   ]

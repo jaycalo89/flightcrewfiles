@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-03T00:00:29.986895+00:00",
+  "generated_at": "2026-08-03T01:00:35.890537+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 25,
   "articles": [
+    {
+      "title": "How Embraer Quietly Reclaimed Its Home Continent From The Airbus A220 In 12 Months",
+      "description": "The market for small narrowbodies has traditionally been smaller than the one for mainline aircraft, but it's still a space with significant demand. Embraer has long been a dominant player, with its E-Jet family having received nearly 2,000 orders since its launch. Still, the company's refreshed E2…",
+      "url": "https://simpleflying.com/how-embraer-quietly-reclaimed-home-continent-airbus-a220-12-months/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-03T00:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/how-embraer-quietly-reclaimed-its-home-continent-from-the-airbus-a220-in-12-months.jpg"
+    },
     {
       "title": "Why The Boeing 777X’s New Cabin Architecture Will Be Such A Game Changer For Airlines",
       "description": "The promise of the Boeing 777X is a revolution in efficiency for long-haul and high-traffic airlines, but it will also change the game for passenger comfort at the same time. It will be the largest twinjet in history, and, thanks to its massive wingspan and gigantic engines, the plane will far…",
@@ -74,15 +83,6 @@
       "author": "Jacob Johnson",
       "published_at": "2026-08-02T17:00:11Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/747-400f.jpg"
-    },
-    {
-      "title": "The Striking Differences Pilots Notice Between The F-15 Eagle & The F-35 Lightning II",
-      "description": "The McDonnell Douglas F-15 Eagle and the Lockheed Martin F-35 Lightning II represent two very different eras and philosophies of fighter aircraft design. Introduced in the 1970s, the F-15 was built to achieve absolute air superiority through speed, power, and maneuverability. Over nearly five…",
-      "url": "https://simpleflying.com/striking-differences-between-f-15-f-35-lightning-ii/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-08-02T16:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/the-striking-differences-pilots-notice-between-the-f-15-eagle-the-f-35-lightning-ii.jpg"
     },
     {
       "title": "WestJet flight attendants go on strike",
