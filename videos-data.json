@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T01:00:03.831930+00:00",
+  "generated_at": "2026-08-03T02:00:04.400383+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -8,6 +8,16 @@
     "UAP pilot sighting"
   ],
   "items": [
+    {
+      "video_id": "Bv_0EjFavEQ",
+      "title": "Military✈️ Jet Crash - San Diego, CA",
+      "description": "Military Jet Crash - San Diego, CA July 31, 2026 #b_early_news #explore #viral #news #stories.",
+      "channel": "B Early News🎙",
+      "published_at": "2026-08-03T01:14:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/Bv_0EjFavEQ/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Bv_0EjFavEQ",
+      "matched_query": "aviation incident news"
+    },
     {
       "video_id": "MJ8fgb6wvTY",
       "title": "🔥 Tragedy in Greece: Firefighting Helicopters Crash Mid-Air While Battling Wildfires!",
@@ -96,16 +106,6 @@
       "published_at": "2026-08-02T14:43:19Z",
       "thumbnail": "https://i.ytimg.com/vi/6m5EXpWh7m0/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6m5EXpWh7m0",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "ac0C5_29YEI",
-      "title": "Helicopter Collision in Greece  #military #aviation #helicopter #firefighter #news #fire",
-      "description": "Analyzing the tragic mid-air collision between two helicopters in Greece. This heartbreaking footage is a stark reminder of the ...",
-      "channel": "Aviation Research",
-      "published_at": "2026-08-02T14:25:51Z",
-      "thumbnail": "https://i.ytimg.com/vi/ac0C5_29YEI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=ac0C5_29YEI",
       "matched_query": "aviation incident news"
     },
     {
@@ -309,6 +309,16 @@
       "matched_query": "aviation emergency landing"
     },
     {
+      "video_id": "b5xkNDn_9y4",
+      "title": "Nash-Fortenberry: Why Only Six Objects Turned #UFO",
+      "description": "The Nash-Fortenberry case is often remembered as eight glowing objects making an abrupt reversal beneath an airliner.",
+      "channel": "DECRYPTID",
+      "published_at": "2026-08-03T01:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/b5xkNDn_9y4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=b5xkNDn_9y4",
+      "matched_query": "UAP pilot sighting"
+    },
+    {
       "video_id": "Eq1CMLBuJmo",
       "title": "&quot;These Objects Are a Flight-Safety Risk&quot; #ufo #Shorts",
       "description": "Ryan Graves, a former Navy F/A-18 pilot, testified to Congress in July 2023 that UAP pose a genuine flight-safety risk to military ...",
@@ -396,16 +406,6 @@
       "published_at": "2026-07-29T11:13:54Z",
       "thumbnail": "https://i.ytimg.com/vi/GF6-gpWg2gU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=GF6-gpWg2gU",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
-      "video_id": "raRywhJQSXo",
-      "title": "👽Pilot-Shocking UAP Encounter Above the Clouds – This Flight Footage Defies All Logic! #uap #ufo👽",
-      "description": "Description: A rare and highly credible UFO/UAP sighting has surfaced, recorded directly by professional pilots during flight.",
-      "channel": "UFO database disclosure",
-      "published_at": "2026-07-29T07:25:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/raRywhJQSXo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=raRywhJQSXo",
       "matched_query": "UAP pilot sighting"
     }
   ]
