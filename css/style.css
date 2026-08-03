@@ -2267,6 +2267,36 @@ body.nav-open .mobile-panel{
   100%{box-shadow:var(--shadow-glow);}
 }
 .quiz-card.is-celebrating{animation:quiz-celebrate .9s ease;}
+.quiz-share{
+  margin-top:22px;padding-top:20px;border-top:1px solid var(--border-soft);
+  opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease;
+}
+.quiz-share.is-shown{opacity:1;transform:translateY(0);}
+.quiz-share-label{
+  display:block;font-family:'Oswald',sans-serif;font-size:.68rem;font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted-light);margin-bottom:12px;
+}
+.quiz-share-actions{display:flex;flex-wrap:wrap;gap:9px;}
+.quiz-share-action{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:8px 14px;border-radius:999px;border:1.5px solid var(--gold-500);
+  background:rgba(212,175,55,0.05);color:var(--gold-400);
+  font-family:'Oswald',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  cursor:pointer;transition:background .2s ease,color .2s ease,transform .2s ease,box-shadow .2s ease;
+  white-space:nowrap;
+}
+.quiz-share-action svg{width:13px;height:13px;flex-shrink:0;}
+.quiz-share-action:hover{
+  background:linear-gradient(135deg,var(--gold-400),var(--gold-600));color:var(--navy-950);
+  transform:translateY(-2px);box-shadow:0 10px 20px -10px rgba(212,175,55,0.55);
+}
+.quiz-share-copy .icon-check{display:none;}
+.quiz-share-copy.is-copied{background:var(--gold-500);border-color:var(--gold-500);color:var(--navy-950);}
+.quiz-share-copy.is-copied .icon-copy{display:none;}
+.quiz-share-copy.is-copied .icon-check{display:block;}
+@media (max-width:480px){
+  .quiz-share-action{padding:8px 12px;font-size:.64rem;}
+}
 
 /* ===== Your Flight Log (saved-files.html) ===== */
 .saved-card{

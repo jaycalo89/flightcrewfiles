@@ -118,6 +118,21 @@
     el.textContent = hoursLeft + ' hour' + (hoursLeft === 1 ? '' : 's');
   }
 
+  var ICON_X = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 3h3.1l-7.6 8.7L23 21h-6.8l-5.3-6.6L4.8 21H1.7l8.2-9.3L1.6 3h7l4.8 6.1L18.9 3zm-1.2 16h1.7L7.4 4.9H5.6L17.7 19z"/></svg>';
+  var ICON_WHATSAPP = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.7-.8 1.8 0 1.1.8 2.1.9 2.3.1.2 1.6 2.5 4 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z"/></svg>';
+  var ICON_COPY = '<svg class="icon-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
+  var ICON_CHECK = '<svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg>';
+
+  function buildShareText(wasCorrect, streakCount) {
+    if (streakCount > 1) {
+      return "I'm on a " + streakCount + " day streak on the Flight Crew Files daily aviation quiz! ✈️ flightcrewfiles.com #aviation #FlightCrewFiles";
+    }
+    if (wasCorrect) {
+      return "I got today's Flight Crew Files aviation quiz right! ✈️ Test your aviation knowledge: flightcrewfiles.com #aviation #FlightCrewFiles";
+    }
+    return "Today's Flight Crew Files aviation quiz stumped me! ✈️ Can you do better? flightcrewfiles.com #aviation #FlightCrewFiles";
+  }
+
   function init() {
     var root = document.getElementById('daily-quiz');
     if (!root) return;
@@ -142,7 +157,7 @@
         '<p class="quiz-result-text"></p>' +
         '<p class="quiz-explanation"></p>' +
         '<div class="quiz-streak"></div>' +
-        '<button type="button" class="btn btn-gold-outline quiz-share-btn">Share My Result</button>' +
+        '<div class="quiz-share"></div>' +
       '</div>';
 
     var timerStrong = root.querySelector('.quiz-timer strong');
@@ -160,7 +175,7 @@
     var resultText = root.querySelector('.quiz-result-text');
     var explanationEl = root.querySelector('.quiz-explanation');
     var streakEl = root.querySelector('.quiz-streak');
-    var shareBtn = root.querySelector('.quiz-share-btn');
+    var shareContainer = root.querySelector('.quiz-share');
 
     function renderAnswered(choiceIndex, wasCorrect, streakCount) {
       optionEls.forEach(function (btn, i) {
@@ -181,11 +196,49 @@
         setTimeout(function () { root.classList.remove('is-celebrating'); }, 900);
       }
 
-      var scoreText = wasCorrect ? '1/1' : '0/1';
-      shareBtn.addEventListener('click', function () {
-        var text = 'I scored ' + scoreText + ' on today’s Flight Crew Files quiz ✈️ ' + q.question;
-        var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(location.origin + '/');
-        window.open(url, '_blank', 'noopener');
+      var shareText = buildShareText(wasCorrect, streakCount);
+      shareContainer.innerHTML =
+        '<span class="quiz-share-label">Challenge a friend</span>' +
+        '<div class="quiz-share-actions">' +
+          '<a class="quiz-share-action quiz-share-x" href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText) + '" target="_blank" rel="noopener" aria-label="Share on X">' + ICON_X + '<span>Share on X</span></a>' +
+          '<button type="button" class="quiz-share-action quiz-share-copy" aria-label="Copy result">' + ICON_COPY + ICON_CHECK + '<span class="quiz-share-copy-text">Copy Result</span></button>' +
+          '<a class="quiz-share-action quiz-share-whatsapp" href="https://wa.me/?text=' + encodeURIComponent(shareText) + '" target="_blank" rel="noopener" aria-label="Share on WhatsApp">' + ICON_WHATSAPP + '<span>Share on WhatsApp</span></a>' +
+        '</div>';
+
+      var copyBtn = shareContainer.querySelector('.quiz-share-copy');
+      var copyLabel = shareContainer.querySelector('.quiz-share-copy-text');
+      copyBtn.addEventListener('click', function () {
+        function showCopied() {
+          copyBtn.classList.add('is-copied');
+          copyLabel.textContent = 'Copied!';
+          clearTimeout(copyBtn._copyTimer);
+          copyBtn._copyTimer = setTimeout(function () {
+            copyBtn.classList.remove('is-copied');
+            copyLabel.textContent = 'Copy Result';
+          }, 2000);
+        }
+        function fallbackCopy() {
+          var ta = document.createElement('textarea');
+          ta.value = shareText;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta);
+          showCopied();
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(shareText).then(showCopied).catch(fallbackCopy);
+        } else {
+          fallbackCopy();
+        }
+      });
+
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          shareContainer.classList.add('is-shown');
+        });
       });
     }
 
