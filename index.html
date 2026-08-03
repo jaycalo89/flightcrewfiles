@@ -79,11 +79,19 @@
     transform:translateY(-4px);
     box-shadow:0 0 25px rgba(201,168,76,0.5);
   }
+  .ss-teaser-card-link{display:block;color:inherit;text-decoration:none;}
   .ss-teaser-card-media{height:300px;overflow:hidden;background:#0a0e1a;}
   .ss-teaser-card-media img{width:100%;height:300px;object-fit:contain;background:#0a0e1a;object-position:center;display:block;filter:contrast(1.05);}
-  .ss-teaser-card-body{padding:20px;}
+  .ss-teaser-card-body{padding:20px 20px 6px;}
   .ss-teaser-card-body h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em;color:#c9a84c;}
   .ss-teaser-card-body p{font-family:'Inter',sans-serif;font-size:.9rem;color:#c9a84c;margin:0;font-style:normal;font-weight:500;letter-spacing:.03em;line-height:1.6;}
+  .ss-teaser-watch-link{
+    display:flex;align-items:center;gap:6px;
+    margin:10px 20px 18px;padding-top:12px;border-top:1px solid rgba(201,168,76,0.25);
+    font-family:'Oswald',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--gold-400);text-decoration:none;transition:color .2s ease,gap .2s ease;
+  }
+  .ss-teaser-watch-link:hover{color:#fff;gap:9px;}
   .ss-teaser-cta{position:relative;z-index:1;text-align:center;}
   .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
   .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
@@ -301,42 +309,54 @@
     </div>
 
     <div class="ss-teaser-grid">
-      <a class="ss-teaser-card" href="u2-spy-plane.html">
-        <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/u2-dragon-lady-takeoff.jpg" alt="Lockheed U-2 Dragon Lady taking off" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Matthew Hannen, Public domain">
-        </div>
-        <div class="ss-teaser-card-body">
-          <h3>U-2 Dragon Lady</h3>
-          <p>The plane that caused the UFO panic. Still flying today.</p>
-        </div>
-      </a>
-      <a class="ss-teaser-card" href="f117-nighthawk.html">
-        <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/f-117-nighthawk-flight.jpg" alt="F-117 Nighthawk stealth fighter banking in flight, showing its full angular airframe" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Aaron Allmon II, Public domain">
-        </div>
-        <div class="ss-teaser-card-body">
-          <h3>F-117 Nighthawk</h3>
-          <p>The invisible killer. Flew combat for 7 years in total secrecy.</p>
-        </div>
-      </a>
-      <a class="ss-teaser-card" href="a12-oxcart.html">
-        <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/a12-oxcart.jpg" alt="Lockheed A-12 Oxcart in flight" loading="eager">
-        </div>
-        <div class="ss-teaser-card-body">
-          <h3>A-12 Oxcart</h3>
-          <p>Faster than the Blackbird. Flown by the CIA's own officers.</p>
-        </div>
-      </a>
-      <a class="ss-teaser-card" href="horten-ho229.html">
-        <div class="ss-teaser-card-media">
-          <img src="images/secret-skies/horten-ho229-new.jpg" alt="Front view of a full-scale Horten Ho 229 flying wing replica, showing its distinctive tailless wing shape and twin jet intakes" loading="eager" title="Photo: Priwo via Wikimedia Commons, Public domain">
-        </div>
-        <div class="ss-teaser-card-body">
-          <h3>Horten Ho 229</h3>
-          <p>Nazi flying wing. Stealth properties discovered decades later.</p>
-        </div>
-      </a>
+      <div class="ss-teaser-card">
+        <a class="ss-teaser-card-link" href="u2-spy-plane.html">
+          <div class="ss-teaser-card-media">
+            <img src="images/secret-skies/u2-dragon-lady-takeoff.jpg" alt="Lockheed U-2 Dragon Lady taking off" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Matthew Hannen, Public domain">
+          </div>
+          <div class="ss-teaser-card-body">
+            <h3>U-2 Dragon Lady</h3>
+            <p>The plane that caused the UFO panic. Still flying today.</p>
+          </div>
+        </a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#u2-dragon-lady">&#9654; Watch Documentary</a>
+      </div>
+      <div class="ss-teaser-card">
+        <a class="ss-teaser-card-link" href="f117-nighthawk.html">
+          <div class="ss-teaser-card-media">
+            <img src="images/secret-skies/f-117-nighthawk-flight.jpg" alt="F-117 Nighthawk stealth fighter banking in flight, showing its full angular airframe" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Aaron Allmon II, Public domain">
+          </div>
+          <div class="ss-teaser-card-body">
+            <h3>F-117 Nighthawk</h3>
+            <p>The invisible killer. Flew combat for 7 years in total secrecy.</p>
+          </div>
+        </a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#f117-nighthawk">&#9654; Watch Documentary</a>
+      </div>
+      <div class="ss-teaser-card">
+        <a class="ss-teaser-card-link" href="a12-oxcart.html">
+          <div class="ss-teaser-card-media">
+            <img src="images/secret-skies/a12-oxcart.jpg" alt="Lockheed A-12 Oxcart in flight" loading="eager">
+          </div>
+          <div class="ss-teaser-card-body">
+            <h3>A-12 Oxcart</h3>
+            <p>Faster than the Blackbird. Flown by the CIA's own officers.</p>
+          </div>
+        </a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#a12-oxcart">&#9654; Watch Documentary</a>
+      </div>
+      <div class="ss-teaser-card">
+        <a class="ss-teaser-card-link" href="horten-ho229.html">
+          <div class="ss-teaser-card-media">
+            <img src="images/secret-skies/horten-ho229-new.jpg" alt="Front view of a full-scale Horten Ho 229 flying wing replica, showing its distinctive tailless wing shape and twin jet intakes" loading="eager" title="Photo: Priwo via Wikimedia Commons, Public domain">
+          </div>
+          <div class="ss-teaser-card-body">
+            <h3>Horten Ho 229</h3>
+            <p>Nazi flying wing. Stealth properties discovered decades later.</p>
+          </div>
+        </a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#horten-ho229">&#9654; Watch Documentary</a>
+      </div>
     </div>
 
     <div class="ss-teaser-cta">
