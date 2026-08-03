@@ -246,6 +246,14 @@
       card.querySelector('.nf-excerpt').textContent = article.description || '';
       card.querySelector('.read-report').href = article.url;
 
+      if (window.FCFBookmarks) {
+        card.appendChild(window.FCFBookmarks.buildButton({
+          title: article.title,
+          url: article.url,
+          type: 'News'
+        }));
+      }
+
       return card;
     }
 

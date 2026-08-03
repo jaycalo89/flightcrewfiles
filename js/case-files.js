@@ -35,6 +35,14 @@
     var link = card.querySelector('.card-link');
     link.href = entry.url || '#';
 
+    if (window.FCFBookmarks) {
+      card.querySelector('.case-file-body').appendChild(window.FCFBookmarks.buildButton({
+        title: entry.title,
+        url: entry.url,
+        type: entry.tag || 'Case File'
+      }));
+    }
+
     return card;
   }
 

@@ -193,6 +193,45 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   })();
 
+  // Reading progress bar (any page with <body class="case-file-page">) --
+  // thin gold bar fixed at the very top, fills as the reader scrolls through
+  // the article, shows a live percentage, and disappears entirely back at
+  // the top of the page. Added here so it automatically works on any current
+  // or future case file page that carries the class, no extra script tag.
+  if (document.body.classList.contains('case-file-page')) {
+    var progressBar = document.createElement('div');
+    progressBar.className = 'reading-progress-bar';
+    progressBar.innerHTML = '<div class="reading-progress-fill"></div><span class="reading-progress-label"></span>';
+    document.body.appendChild(progressBar);
+
+    var progressFill = progressBar.querySelector('.reading-progress-fill');
+    var progressLabel = progressBar.querySelector('.reading-progress-label');
+    var progressTicking = false;
+
+    var updateProgress = function () {
+      progressTicking = false;
+      var doc = document.documentElement;
+      var scrollTop = doc.scrollTop || document.body.scrollTop;
+      var scrollable = (doc.scrollHeight || document.body.scrollHeight) - doc.clientHeight;
+      if (scrollTop <= 0 || scrollable <= 0) {
+        progressBar.classList.remove('is-visible');
+        return;
+      }
+      var pct = Math.min(100, Math.round((scrollTop / scrollable) * 100));
+      progressBar.classList.add('is-visible');
+      progressFill.style.width = pct + '%';
+      progressLabel.textContent = 'Reading… ' + pct + '%';
+    };
+
+    window.addEventListener('scroll', function () {
+      if (!progressTicking) {
+        progressTicking = true;
+        requestAnimationFrame(updateProgress);
+      }
+    }, { passive: true });
+    updateProgress();
+  }
+
   // Footer year
   var yearEl = document.querySelector('[data-year]');
   if (yearEl) { yearEl.textContent = new Date().getFullYear(); }

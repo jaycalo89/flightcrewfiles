@@ -1,0 +1,197 @@
+// Flight Crew Files — "Daily Briefing" homepage quiz.
+// One question per day, deterministically chosen from QUIZ_QUESTIONS by date
+// (so every visitor sees the same question, and it rotates at local
+// midnight). Answer + streak persist in localStorage:
+//   fcf-quiz-{YYYY-MM-DD}  -> {choice, correct}
+//   fcf-quiz-streak        -> {lastDate, count}
+(function () {
+  var QUIZ_QUESTIONS = [
+    // Aviation History
+    { category: 'History', question: 'What was the name of the aircraft the Wright brothers flew at Kitty Hawk in 1903?', options: ['Spirit of St. Louis', 'Wright Flyer', 'Vin Fiz', 'Silver Dart'], correct: 1, explanation: 'The Wright Flyer made four flights on December 17, 1903, the longest covering 852 feet in 59 seconds.' },
+    { category: 'History', question: 'Who was the first person to fly solo nonstop across the Atlantic Ocean?', options: ['Charles Lindbergh', 'Amelia Earhart', 'Wiley Post', 'Douglas Corrigan'], correct: 0, explanation: "Charles Lindbergh flew the Spirit of St. Louis from New York to Paris in about 33.5 hours in May 1927." },
+    { category: 'History', question: 'Which aircraft became the world’s first commercial jet airliner?', options: ['Boeing 707', 'de Havilland Comet', 'Douglas DC-8', 'Concorde'], correct: 1, explanation: 'The de Havilland Comet entered commercial service with BOAC in 1952, years before the Boeing 707.' },
+    { category: 'History', question: 'In what year did Chuck Yeager become the first person to fly faster than sound?', options: ['1945', '1947', '1950', '1953'], correct: 1, explanation: 'Yeager broke the sound barrier on October 14, 1947, piloting the Bell X-1 over the Mojave Desert.' },
+    { category: 'History', question: 'Which airline operated the world’s first scheduled commercial flight, in 1914?', options: ['Pan American', 'KLM', 'St. Petersburg-Tampa Airboat Line', 'Imperial Airways'], correct: 2, explanation: 'The St. Petersburg-Tampa Airboat Line flew across Tampa Bay, Florida, starting January 1, 1914.' },
+    { category: 'History', question: 'Which company built the Spirit of St. Louis?', options: ['Ryan Airlines', 'Lockheed', 'Curtiss', 'Boeing'], correct: 0, explanation: 'Ryan Airlines of San Diego built the aircraft to Lindbergh’s specifications in just 60 days.' },
+
+    // Famous Incidents
+    { category: 'Incidents', question: 'How many of the 396 people aboard Pan Am Flight 1736 survived the 1977 Tenerife disaster?', options: ['0', '61', '118', '335'], correct: 1, explanation: 'All 61 survivors were aboard Pan Am; none of the 248 aboard KLM Flight 4805 survived.' },
+    { category: 'Incidents', question: 'What caused 18 feet of Aloha Airlines Flight 243’s roof to tear away in 1988?', options: ['A bomb', 'Metal fatigue and structural failure', 'A lightning strike', 'A bird strike'], correct: 1, explanation: 'Cumulative metal fatigue in the aging 737’s fuselage, worsened by salt-air corrosion, caused explosive decompression.' },
+    { category: 'Incidents', question: 'Which flight is known as "The Miracle on the Hudson"?', options: ['US Airways Flight 1549', 'Air Florida Flight 90', 'United Flight 232', 'Qantas Flight 32'], correct: 0, explanation: "Captain Chesley “Sully” Sullenberger ditched Flight 1549 in the Hudson River in 2009 after a bird strike disabled both engines. All 155 aboard survived." },
+    { category: 'Incidents', question: 'What caused United Airlines Flight 232 to crash-land in Sioux City in 1989?', options: ['Fuel exhaustion', 'An uncontained engine failure that severed all three hydraulic systems', 'A bird strike', 'Pilot error alone'], correct: 1, explanation: 'A tail-engine fan disk failure sprayed shrapnel through all three redundant hydraulic lines at once, a failure mode considered nearly impossible.' },
+    { category: 'Incidents', question: 'Roughly how long did Helios Airways Flight 522 keep flying after its crew lost consciousness in 2005?', options: ['20 minutes', 'About 1 hour', 'Nearly 3 hours', '6 hours'], correct: 2, explanation: 'The Boeing 737 flew on autopilot for almost three hours before running out of fuel and crashing near Athens.' },
+    { category: 'Incidents', question: 'What was Amelia Earhart attempting when she disappeared in July 1937?', options: ['Crossing the Atlantic', 'Circumnavigating the globe near the equator', 'Setting an altitude record', 'A mail delivery run'], correct: 1, explanation: 'Earhart and navigator Fred Noonan vanished over the Pacific during the last major ocean crossing of a round-the-world flight.' },
+
+    // Aircraft Specifications
+    { category: 'Aircraft', question: 'What top speed is the SR-71 Blackbird publicly credited with reaching?', options: ['Mach 1.5', 'Mach 2.2', 'Mach 3.2+', 'Mach 4.5'], correct: 2, explanation: 'The SR-71’s official speed record, set in 1976, was 2,193.2 mph, roughly Mach 3.3.' },
+    { category: 'Aircraft', question: 'What was the typical cruising altitude of the U-2 spy plane?', options: ['35,000 ft', '50,000 ft', 'Around 70,000 ft', '90,000 ft'], correct: 2, explanation: 'The U-2 was designed to fly above 70,000 feet, well above the reach of Soviet fighters and early missiles.' },
+    { category: 'Aircraft', question: 'Which aircraft was the first to be nicknamed the "Jumbo Jet"?', options: ['Airbus A380', 'Boeing 747', 'Boeing 777', 'Lockheed L-1011'], correct: 1, explanation: 'The Boeing 747, which first flew in 1969, earned the "Jumbo Jet" nickname for its unprecedented size.' },
+    { category: 'Aircraft', question: 'What type of aircraft was Amelia Earhart’s Lockheed Electra 10E?', options: ['Single-engine biplane', 'Twin-engine monoplane', 'Four-engine airliner', 'Flying boat'], correct: 1, explanation: 'The Electra 10E was a twin-engine, all-metal monoplane, Earhart called it her "flying laboratory."' },
+    { category: 'Aircraft', question: 'What made the Horten Ho 229 aerodynamically unusual for its era?', options: ['It was a tailless flying wing', 'It had three wings', 'Its wings folded in flight', 'It had no cockpit'], correct: 0, explanation: 'The Ho 229 was a tailless, jet-powered flying wing, decades ahead of when flying wings became common.' },
+    { category: 'Aircraft', question: 'How many engines does a Boeing 747-400 have?', options: ['2', '3', '4', '6'], correct: 2, explanation: 'The 747, in every passenger variant, is a four-engine widebody aircraft.' },
+
+    // Pilot Terminology
+    { category: 'Terminology', question: 'What does the radio call "Mayday" signal?', options: ['A routine delay', 'A life-threatening emergency', 'A request for weather', 'A request to land early'], correct: 1, explanation: '"Mayday," repeated three times, is the internationally recognized distress call for a grave and imminent emergency.' },
+    { category: 'Terminology', question: 'What is a "go-around"?', options: ['Taxiing in a circle', 'Aborting a landing approach to try again', 'A holding pattern before descent', 'A rejected takeoff'], correct: 1, explanation: 'A go-around means discontinuing an approach, climbing away, and setting up to land again rather than continuing an unstable approach.' },
+    { category: 'Terminology', question: 'What does "ATC" stand for?', options: ['Air Traffic Control', 'Aircraft Technical Center', 'Aviation Training Course', 'Automated Taxi Clearance'], correct: 0, explanation: 'Air Traffic Control manages the safe separation and flow of aircraft on the ground and in the air.' },
+    { category: 'Terminology', question: 'What does "V1" refer to during a takeoff roll?', options: ['Rotation speed', 'Takeoff decision speed', 'Stall speed', 'Cruise climb speed'], correct: 1, explanation: 'V1 is the last speed at which a rejected takeoff can be safely started; past V1, the crew commits to flying.' },
+    { category: 'Terminology', question: 'What does "squawk" refer to in aviation?', options: ['An emergency radio call', 'A transponder code', 'A type of clear-air turbulence', 'A bird strike report'], correct: 1, explanation: 'Pilots "squawk" a four-digit transponder code assigned by ATC to identify their aircraft on radar.' },
+    { category: 'Terminology', question: 'What does "CRM" stand for in airline training?', options: ['Cockpit Radio Management', 'Crew Resource Management', 'Cargo Routing Manifest', 'Certified Repair Mechanic'], correct: 1, explanation: 'Crew Resource Management trains crews to communicate and challenge decisions across rank, a direct legacy of accidents like Tenerife.' },
+
+    // UAP Incidents
+    { category: 'UAP', question: 'Which U.S. Navy encounter is widely known as the "Tic Tac" incident?', options: ['The 2004 USS Nimitz encounter', 'Roswell, 1947', 'The Phoenix Lights, 1997', 'Rendlesham Forest, 1980'], correct: 0, explanation: 'Navy pilots off the California coast in 2004 reported a white, Tic-Tac-shaped object outmaneuvering their F/A-18s.' },
+    { category: 'UAP', question: 'In what year did the Phoenix Lights UAP event occur?', options: ['1987', '1997', '2004', '2017'], correct: 1, explanation: 'Thousands of witnesses across Arizona and Nevada reported a large, silent, V-shaped formation of lights on March 13, 1997.' },
+    { category: 'UAP', question: 'What kind of aircraft was involved in the famous 1986 UAP sighting over Alaska?', options: ['A Boeing 747 cargo jet', 'A fighter jet', 'A helicopter', 'A private Cessna'], correct: 0, explanation: 'Japan Air Lines Captain Kenju Terauchi reported large objects pacing his 747 cargo flight, tracked on both air and ground radar.' },
+    { category: 'UAP', question: 'What U.S. government office was created to investigate UAP reports?', options: ['NASA UAP Division', 'AARO', 'FAA Anomaly Bureau', 'DARPA Skywatch'], correct: 1, explanation: 'The All-domain Anomaly Resolution Office (AARO) was established within the Department of Defense to assess UAP reports.' },
+    { category: 'UAP', question: 'What happened to pilot Frederick Valentich in 1978?', options: ['He vanished after reporting an unidentified aircraft', 'He was rescued at sea', 'He crash-landed safely', 'He defected overseas'], correct: 0, explanation: 'Valentich radioed Melbourne ATC about an aircraft orbiting above him; his transmission ended in noise, and neither he nor his Cessna was ever found.' },
+    { category: 'UAP', question: 'What has the CIA said caused more than half of 1950s-60s American UFO reports?', options: ['Weather balloons alone', 'High-altitude U-2 spy plane flights', 'Military drone tests', 'Ball lightning'], correct: 1, explanation: 'The CIA has officially acknowledged that U-2 and later A-12 flights, invisible at the altitudes airliners flew, explained the majority of that era’s sightings.' },
+
+    // Record Holders
+    { category: 'Records', question: 'Who was the first woman to fly solo across the Atlantic?', options: ['Amelia Earhart', 'Bessie Coleman', 'Jacqueline Cochran', 'Jerrie Mock'], correct: 0, explanation: 'Earhart flew solo from Newfoundland to Northern Ireland in May 1932, five years after Lindbergh.' },
+    { category: 'Records', question: 'What is the fastest manned, air-breathing aircraft ever flown?', options: ['Concorde', 'X-15', 'SR-71 Blackbird', 'F-22 Raptor'], correct: 2, explanation: 'The SR-71 holds the sustained speed record for a jet-engine aircraft; the rocket-powered X-15 flew faster but on a ballistic profile.' },
+    { category: 'Records', question: 'Who was the first person confirmed to fly faster than the speed of sound?', options: ['Neil Armstrong', 'Chuck Yeager', 'Scott Crossfield', 'Gus Grissom'], correct: 1, explanation: 'Chuck Yeager exceeded Mach 1 in the Bell X-1 on October 14, 1947.' },
+    { category: 'Records', question: 'Which aircraft made the first nonstop, non-refueled flight around the world, in 1986?', options: ['Rutan Voyager', 'Spirit of St. Louis', 'Concorde', 'GlobalFlyer'], correct: 0, explanation: 'Dick Rutan and Jeana Yeager flew the experimental Voyager around the world in just over nine days without refueling.' },
+    { category: 'Records', question: 'What speed record does Concorde hold among commercial passenger aircraft?', options: ['Fastest commercial passenger jet', 'Largest passenger jet', 'Longest-range airliner', 'First jet airliner'], correct: 0, explanation: 'Concorde cruised at roughly Mach 2.04, more than twice the speed of any other airliner in commercial service.' },
+    { category: 'Records', question: 'Who completed the first nonstop solo flight around the world, in 2005?', options: ['Steve Fossett', 'Dick Rutan', 'Brian Jones', 'Bertrand Piccard'], correct: 0, explanation: 'Steve Fossett flew the Virgin Atlantic GlobalFlyer solo around the world nonstop and unrefueled in about 67 hours.' }
+  ];
+
+  function storageAvailable() {
+    try {
+      var t = '__fcf_test__';
+      localStorage.setItem(t, '1');
+      localStorage.removeItem(t);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+  var HAS_STORAGE = storageAvailable();
+
+  function hashString(str) {
+    var h = 0;
+    for (var i = 0; i < str.length; i++) {
+      h = (h << 5) - h + str.charCodeAt(i);
+      h |= 0;
+    }
+    return Math.abs(h);
+  }
+
+  function pad(n) { return n < 10 ? '0' + n : String(n); }
+
+  function dateKey(d) {
+    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+  }
+
+  function updateStreak(today) {
+    if (!HAS_STORAGE) return 1;
+    var streak = { lastDate: null, count: 0 };
+    try {
+      streak = JSON.parse(localStorage.getItem('fcf-quiz-streak') || 'null') || streak;
+    } catch (e) {}
+
+    if (streak.lastDate === today) return streak.count || 1; // already played today
+
+    var yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    var newCount = (streak.lastDate === dateKey(yesterday)) ? (streak.count || 0) + 1 : 1;
+
+    try {
+      localStorage.setItem('fcf-quiz-streak', JSON.stringify({ lastDate: today, count: newCount }));
+    } catch (e) {}
+    return newCount;
+  }
+
+  function currentStreakDisplay() {
+    if (!HAS_STORAGE) return 1;
+    try {
+      var streak = JSON.parse(localStorage.getItem('fcf-quiz-streak') || 'null');
+      return (streak && streak.count) || 1;
+    } catch (e) {
+      return 1;
+    }
+  }
+
+  function init() {
+    var root = document.getElementById('daily-quiz');
+    if (!root) return;
+
+    var today = dateKey(new Date());
+    var q = QUIZ_QUESTIONS[hashString(today) % QUIZ_QUESTIONS.length];
+    var storageKey = 'fcf-quiz-' + today;
+
+    var optionsHtml = q.options.map(function (opt, i) {
+      return '<button type="button" class="quiz-option" data-index="' + i + '">' +
+        '<span class="quiz-option-letter">' + String.fromCharCode(65 + i) + '</span>' +
+        '<span class="quiz-option-text"></span>' +
+      '</button>';
+    }).join('');
+
+    root.innerHTML =
+      '<span class="quiz-category-tag"></span>' +
+      '<h3 class="quiz-question"></h3>' +
+      '<div class="quiz-options">' + optionsHtml + '</div>' +
+      '<div class="quiz-result" aria-live="polite">' +
+        '<p class="quiz-result-text"></p>' +
+        '<p class="quiz-explanation"></p>' +
+        '<div class="quiz-streak"></div>' +
+        '<button type="button" class="btn btn-gold-outline quiz-share-btn">Share My Result</button>' +
+      '</div>';
+
+    root.querySelector('.quiz-category-tag').textContent = q.category;
+    root.querySelector('.quiz-question').textContent = q.question;
+    var optionEls = root.querySelectorAll('.quiz-option');
+    optionEls.forEach(function (btn, i) {
+      btn.querySelector('.quiz-option-text').textContent = q.options[i];
+    });
+
+    var resultBox = root.querySelector('.quiz-result');
+    var resultText = root.querySelector('.quiz-result-text');
+    var explanationEl = root.querySelector('.quiz-explanation');
+    var streakEl = root.querySelector('.quiz-streak');
+    var shareBtn = root.querySelector('.quiz-share-btn');
+
+    function renderAnswered(choiceIndex, wasCorrect, streakCount) {
+      optionEls.forEach(function (btn, i) {
+        btn.disabled = true;
+        if (i === q.correct) btn.classList.add('is-correct');
+        if (i === choiceIndex && !wasCorrect) btn.classList.add('is-wrong');
+      });
+      resultText.textContent = wasCorrect ? 'Correct!' : 'Not quite.';
+      resultBox.classList.toggle('is-correct', wasCorrect);
+      explanationEl.textContent = q.explanation;
+      streakEl.textContent = streakCount + ' day streak! Keep it up.';
+      resultBox.classList.add('is-visible');
+
+      var scoreText = wasCorrect ? '1/1' : '0/1';
+      shareBtn.addEventListener('click', function () {
+        var text = 'I scored ' + scoreText + ' on today’s Flight Crew Files quiz ✈️ ' + q.question;
+        var url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(location.origin + '/');
+        window.open(url, '_blank', 'noopener');
+      });
+    }
+
+    // Already answered today? Restore that state instead of asking again.
+    var existing = null;
+    if (HAS_STORAGE) {
+      try { existing = JSON.parse(localStorage.getItem(storageKey) || 'null'); } catch (e) {}
+    }
+    if (existing) {
+      renderAnswered(existing.choice, existing.correct, currentStreakDisplay());
+      return;
+    }
+
+    optionEls.forEach(function (btn, i) {
+      btn.addEventListener('click', function () {
+        if (resultBox.classList.contains('is-visible')) return;
+        var wasCorrect = i === q.correct;
+        if (HAS_STORAGE) {
+          try { localStorage.setItem(storageKey, JSON.stringify({ choice: i, correct: wasCorrect })); } catch (e) {}
+        }
+        var streakCount = updateStreak(today);
+        renderAnswered(i, wasCorrect, streakCount);
+      });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', init);
+})();
