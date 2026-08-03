@@ -82,31 +82,51 @@ window.FCFBookmarks = (function () {
 
   // Builds a standalone toggle button. `item` is {title, url, type}.
   // `onChange(nowSaved)` is an optional callback fired after each toggle.
-  function buildButton(item, onChange) {
+  // `opts.labeled` renders an icon + "Save To Your Flight Log" text variant
+  // (used on case file pages) instead of the compact icon-only button used
+  // on cards.
+  function buildButton(item, onChange, opts) {
+    opts = opts || {};
+    var icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h12a1 1 0 0 1 1 1v16.5a.5.5 0 0 1-.77.42L12 17l-6.23 3.92a.5.5 0 0 1-.77-.42V4a1 1 0 0 1 1-1z"/></svg>';
+
     var btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'bookmark-btn';
-    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h12a1 1 0 0 1 1 1v16.5a.5.5 0 0 1-.77.42L12 17l-6.23 3.92a.5.5 0 0 1-.77-.42V4a1 1 0 0 1 1-1z"/></svg>';
+    btn.className = opts.labeled ? 'bookmark-btn bookmark-btn-labeled' : 'bookmark-btn';
+    var labelEl = null;
+    if (opts.labeled) {
+      btn.innerHTML = icon + '<span class="bookmark-btn-label"></span>';
+      labelEl = btn.querySelector('.bookmark-btn-label');
+    } else {
+      btn.innerHTML = icon;
+    }
 
     if (!HAS_STORAGE) {
       btn.disabled = true;
       btn.setAttribute('aria-label', 'Saving unavailable in this browser');
       btn.title = 'Saving requires browser storage';
+      if (labelEl) labelEl.textContent = 'Save To Your Flight Log';
       return btn;
     }
 
-    var saved = isSaved(item.url);
-    btn.classList.toggle('is-saved', saved);
-    btn.setAttribute('aria-pressed', String(saved));
-    btn.setAttribute('aria-label', saved ? 'Remove from saved' : 'Save for later');
+    function render(nowSaved) {
+      btn.classList.toggle('is-saved', nowSaved);
+      btn.setAttribute('aria-pressed', String(nowSaved));
+      btn.setAttribute('aria-label', nowSaved ? 'Remove from saved' : 'Save for later');
+      if (labelEl) labelEl.textContent = nowSaved ? 'Saved To Your Flight Log' : 'Save To Your Flight Log';
+    }
+
+    render(isSaved(item.url));
 
     btn.addEventListener('click', function (e) {
       e.preventDefault();
       e.stopPropagation();
       var nowSaved = toggle(item);
-      btn.classList.toggle('is-saved', nowSaved);
-      btn.setAttribute('aria-pressed', String(nowSaved));
-      btn.setAttribute('aria-label', nowSaved ? 'Remove from saved' : 'Save for later');
+      render(nowSaved);
+      if (nowSaved && opts.labeled) {
+        btn.classList.remove('is-flashing');
+        void btn.offsetWidth; // restart the animation on repeat saves
+        btn.classList.add('is-flashing');
+      }
       if (onChange) onChange(nowSaved);
     });
 

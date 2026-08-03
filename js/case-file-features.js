@@ -53,18 +53,14 @@
 
   var pageUrl = location.origin + location.pathname;
 
-  // ---------- Currently Reading + Intensity Meter (hero) ----------
+  // ---------- Currently Reading (hero, near stat grid) ----------
   function buildEngagementRow() {
     var row = document.createElement('div');
     row.className = 'cf-engagement-row';
 
     var readingCount = randomInt(readingMin, readingMax);
     row.innerHTML =
-      '<div class="cf-reading-now"><span class="cf-reading-dot"></span><span class="cf-reading-text"><strong>' + readingCount + '</strong> people reading now</span></div>' +
-      '<div class="cf-intensity">' +
-        '<span class="cf-intensity-label">Intensity: <strong>' + intensityLabel + '</strong></span>' +
-        '<div class="cf-intensity-bar"><div class="cf-intensity-fill" style="width:' + (intensity * 10) + '%"></div></div>' +
-      '</div>';
+      '<div class="cf-reading-now"><span class="cf-reading-dot"></span><span class="cf-reading-text"><strong>' + readingCount + '</strong> people reading now</span></div>';
 
     // Slowly fluctuate the reading count to feel alive, without ever
     // straying outside the page's configured realistic range.
@@ -76,6 +72,32 @@
     }, 30000);
 
     return row;
+  }
+
+  // ---------- Intensity Rating badge (hero, right after the stamp) ----------
+  function buildIntensityBadge() {
+    var badge = document.createElement('div');
+    badge.className = 'cf-intensity-badge';
+    var warningHtml = intensity >= 8
+      ? '<div class="cf-intensity-warning">&#9888;&#65039; Intense content</div>'
+      : '';
+    badge.innerHTML =
+      '<div class="cf-intensity-badge-top">' +
+        '<span class="cf-intensity-badge-label">Intensity Rating</span>' +
+        '<span class="cf-intensity-badge-value">' + intensity + '<small>/10</small></span>' +
+        '<span class="cf-intensity-badge-tag">' + intensityLabel + '</span>' +
+      '</div>' +
+      '<div class="cf-intensity-bar-lg"><div class="cf-intensity-fill-lg" style="width:' + (intensity * 10) + '%"></div></div>' +
+      warningHtml;
+    return badge;
+  }
+
+  function injectIntensityBadge() {
+    var hero = document.querySelector('[class$="-hero"]');
+    if (!hero) return;
+    var h1 = hero.querySelector('h1');
+    if (!h1 || !h1.parentNode) return;
+    h1.parentNode.insertBefore(buildIntensityBadge(), h1);
   }
 
   // ---------- Bookmark + share (hero utility row) ----------
@@ -127,7 +149,7 @@
     var title = h1 ? h1.textContent.trim() : document.title;
 
     if (window.FCFBookmarks) {
-      row.appendChild(window.FCFBookmarks.buildButton({ title: title, url: pageUrl, type: 'Case File' }));
+      row.appendChild(window.FCFBookmarks.buildButton({ title: title, url: pageUrl, type: 'Case File' }, null, { labeled: true }));
     }
     row.appendChild(buildShareRow(title, pageUrl));
     return row;
@@ -153,12 +175,16 @@
     section.className = 'section cf-helpful-section';
     section.innerHTML =
       '<div class="container center">' +
-        '<h2 class="section-title center">Was This Case File Helpful?</h2>' +
-        '<div class="cf-helpful-buttons">' +
-          '<button type="button" class="cf-helpful-btn" data-vote="yes">Yes, very helpful &#128077;</button>' +
-          '<button type="button" class="cf-helpful-btn" data-vote="no">Could be better &#128078;</button>' +
+        '<div class="cf-helpful-card">' +
+          '<span class="cf-helpful-eyebrow">Rate This Case File</span>' +
+          '<h2 class="section-title center">Was This Case File Helpful?</h2>' +
+          '<p class="cf-helpful-sub">Help us improve our reporting.</p>' +
+          '<div class="cf-helpful-buttons">' +
+            '<button type="button" class="cf-helpful-btn" data-vote="yes">Yes, very helpful &#128077;</button>' +
+            '<button type="button" class="cf-helpful-btn" data-vote="no">Could be better &#128078;</button>' +
+          '</div>' +
+          '<p class="cf-helpful-result"></p>' +
         '</div>' +
-        '<p class="cf-helpful-result"></p>' +
       '</div>';
 
     var buttons = section.querySelectorAll('.cf-helpful-btn');
@@ -204,6 +230,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    injectIntensityBadge();
     injectHeroWidgets();
     injectHelpfulSection();
   });

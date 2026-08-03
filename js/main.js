@@ -220,7 +220,12 @@ document.addEventListener('DOMContentLoaded', function () {
       var pct = Math.min(100, Math.round((scrollTop / scrollable) * 100));
       progressBar.classList.add('is-visible');
       progressFill.style.width = pct + '%';
-      progressLabel.textContent = 'Reading… ' + pct + '%';
+      if (pct >= 10) {
+        progressLabel.textContent = pct + '% complete';
+        progressLabel.classList.add('is-visible');
+      } else {
+        progressLabel.classList.remove('is-visible');
+      }
     };
 
     window.addEventListener('scroll', function () {

@@ -111,6 +111,13 @@
     }
   }
 
+  function updateTimer(el) {
+    var midnight = new Date();
+    midnight.setHours(24, 0, 0, 0);
+    var hoursLeft = Math.max(1, Math.ceil((midnight.getTime() - Date.now()) / 3600000));
+    el.textContent = hoursLeft + ' hour' + (hoursLeft === 1 ? '' : 's');
+  }
+
   function init() {
     var root = document.getElementById('daily-quiz');
     if (!root) return;
@@ -127,6 +134,7 @@
     }).join('');
 
     root.innerHTML =
+      '<div class="quiz-timer">&#8987; New question in <strong></strong></div>' +
       '<span class="quiz-category-tag"></span>' +
       '<h3 class="quiz-question"></h3>' +
       '<div class="quiz-options">' + optionsHtml + '</div>' +
@@ -136,6 +144,10 @@
         '<div class="quiz-streak"></div>' +
         '<button type="button" class="btn btn-gold-outline quiz-share-btn">Share My Result</button>' +
       '</div>';
+
+    var timerStrong = root.querySelector('.quiz-timer strong');
+    updateTimer(timerStrong);
+    setInterval(function () { updateTimer(timerStrong); }, 60000);
 
     root.querySelector('.quiz-category-tag').textContent = q.category;
     root.querySelector('.quiz-question').textContent = q.question;
@@ -156,11 +168,18 @@
         if (i === q.correct) btn.classList.add('is-correct');
         if (i === choiceIndex && !wasCorrect) btn.classList.add('is-wrong');
       });
-      resultText.textContent = wasCorrect ? 'Correct!' : 'Not quite.';
+      resultText.textContent = wasCorrect ? 'Correct! 🎉' : 'Not quite.';
       resultBox.classList.toggle('is-correct', wasCorrect);
       explanationEl.textContent = q.explanation;
       streakEl.textContent = streakCount + ' day streak! Keep it up.';
       resultBox.classList.add('is-visible');
+
+      if (wasCorrect) {
+        root.classList.remove('is-celebrating');
+        void root.offsetWidth;
+        root.classList.add('is-celebrating');
+        setTimeout(function () { root.classList.remove('is-celebrating'); }, 900);
+      }
 
       var scoreText = wasCorrect ? '1/1' : '0/1';
       shareBtn.addEventListener('click', function () {
