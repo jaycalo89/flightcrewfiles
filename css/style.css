@@ -2236,3 +2236,18 @@ body.nav-open .mobile-panel{
 .saved-empty{text-align:center;padding:60px 20px;color:var(--muted);grid-column:1/-1;}
 .saved-empty svg{width:48px;height:48px;stroke:var(--gold-500);opacity:.6;margin-bottom:18px;}
 .saved-empty p{font-size:1.05rem;margin-bottom:24px;}
+
+/* ===== Watch Documentary (click-to-play, secret-skies.html + aircraft pages) ===== */
+.watch-doc{
+  margin-top:18px;padding:22px;
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border:1px solid var(--gold-500);border-radius:var(--radius-lg);
+  box-shadow:0 0 0 1px rgba(212,175,55,0.12),var(--shadow-soft);
+}
+.watch-doc-title{
+  font-family:'Oswald',sans-serif;font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--gold-400);margin-bottom:16px;
+}
+.watch-doc .vf-embed{margin-bottom:0;border-color:var(--border-gold);}
+.watch-doc-section{border-top:1px solid var(--border-soft);}
+.watch-doc-section .watch-doc{max-width:760px;margin-left:auto;margin-right:auto;margin-top:28px;}

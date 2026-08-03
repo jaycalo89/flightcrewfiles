@@ -800,3 +800,74 @@ fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.g
 Link check complete: 65 checked, 0 broken
 [2026-08-02 21:01:44] Maintenance run complete
 [2026-08-02 21:01:44] ============================================================
+[2026-08-02 22:00:01] ============================================================
+[2026-08-02 22:00:01] Starting daily maintenance run
+[2026-08-02 22:00:01] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-02 22:00:02] OK    Internet connectivity confirmed
+[2026-08-02 22:00:02] INFO  Running setup_flightcrewfiles.py
+[2026-08-02 22:00:02] ============================================================
+[2026-08-02 22:00:02] Flight Crew Files update run starting
+
+[1/5] Fetching latest aviation videos from YouTube...
+[2026-08-02 22:00:02] START  Fetch YouTube videos
+[2026-08-02 22:00:04] OK     Fetch YouTube videos -> 40
+
+[2/5] Fetching latest aviation news from RSS feeds...
+[2026-08-02 22:00:04] START  Fetch aviation news
+[2026-08-02 22:00:04]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-02 22:00:07]        Simple Flying: 9 articles from https://simpleflying.com/feed (1 rejected by validation)
+[2026-08-02 22:00:16]        FlightGlobal: 3 articles from https://www.flightglobal.com/rss (7 rejected by validation)
+[2026-08-02 22:00:39]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-02 22:00:43]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-02 22:00:43]        114 article(s) rejected by validation across all feeds
+[2026-08-02 22:00:43] OK     Fetch aviation news -> 25
+
+[3/5] Fetching UAP-specific news from RSS feeds...
+[2026-08-02 22:00:43] START  Fetch UAP news
+[2026-08-02 22:00:48]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-02 22:00:50]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-02 22:00:50]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-02 22:00:51]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-02 22:00:51]        89 article(s) rejected by validation across all feeds
+[2026-08-02 22:00:51] OK     Fetch UAP news -> 11
+
+[4/5] Generating sitemap.xml...
+[2026-08-02 22:00:51] START  Generate sitemap.xml
+[2026-08-02 22:00:51] OK     Generate sitemap.xml -> 49
+
+[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...
+[2026-08-02 22:00:51] START  Fetch aviation community feed
+[2026-08-02 22:00:52]        Hacker News: 5 stories fetched
+[2026-08-02 22:00:52]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-02 22:00:52] OK     Fetch aviation community feed -> 8
+[2026-08-02 22:00:52] Flight Crew Files update run finished in 50.0s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 25
+UAP articles fetched:  11
+Sitemap pages listed:  49
+Community posts fetched: 8
+Time taken:            50.0s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=25 uap=11 community=8 sitemap_ok=True
+[main 253fa9a] auto update feeds 2026-08-02
+ 4 files changed, 24 insertions(+), 24 deletions(-)
+[2026-08-02 22:00:52] OK    git commit created
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-02 22:00:52] WARN  git push failed — retrying once immediately
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-02 22:01:03] ERROR git push failed twice — deferring to hourly retry for up to 6h
+[2026-08-02 22:01:04] INFO  ---- Weekly tasks (Sunday) ----
+[2026-08-02 22:01:04] INFO  GTMETRIX_API_KEY not set — skipping speed test
+[2026-08-02 22:01:04] INFO  Checking external links in videos-data.json and news.json
+Link check complete: 65 checked, 0 broken
+[2026-08-02 22:01:54] Maintenance run complete
+[2026-08-02 22:01:54] ============================================================
