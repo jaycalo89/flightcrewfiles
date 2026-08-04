@@ -1,8 +1,26 @@
 {
-  "generated_at": "2026-08-04T20:00:40.538987+00:00",
+  "generated_at": "2026-08-04T21:00:42.382354+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 24,
   "articles": [
+    {
+      "title": "“Potentially Catastrophic”: Major Pilots Union Issues Urgent Warning On Airbus Engine Shutdowns",
+      "description": "A major pilots' union has warned that a cockpit defect linked to unexpected engine shutdowns on Airbus aircraft could have potentially catastrophic consequences, urging regulators to broaden their response after the issue emerged on more than one type. The warning comes after investigators linked…",
+      "url": "https://simpleflying.com/catastrophic-pilots-union-engine-shutdown-warning/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-08-04T20:45:32Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/airbus-a350.jpg"
+    },
+    {
+      "title": "How Long-Haul Pilots Actually Sleep At 38,000 Feet On An 11-Hour International Flight",
+      "description": "Boeing 787 Dreamliner routes from the US across the Pacific, such as to Tokyo, take over 11 hours. During this time, pilots are expected to perform a range of challenging duties: mapping, preflight checks, takeoff and climb, cruise, descent, approach, and more. All the time, they must remain in…",
+      "url": "https://simpleflying.com/how-long-haul-pilots-actually-sleep-38000-feet-11-hour-international-flight/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-08-04T20:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/38-000-feet.jpg"
+    },
     {
       "title": "Wildfires Near Spokane Threaten Key Airports",
       "description": "The wildfires burning in Spokane, Washington, are within a few miles of three major airports—Fairchild Air Force Base (KSKA), Spokane International (KGEG), and Felts Field (KSFF). A weather briefing from Leidos Flight Service depicts the fire temporary flight restriction (TFT) a few miles to the…",
@@ -32,7 +50,7 @@
     },
     {
       "title": "FAA Awards $870M for Airport Infrastructure Improvements",
-      "description": "The FAA announced Tuesday that it is awarding 339 grants totalling $870 million to airports in 44 U.S. states and territories. The funding comes from the fifth and final $2.89 billion installment of the agency’s $14.5 billion Airport Infrastructure Grants (AIG) program, established in 2022 by the…",
+      "description": "The FAA announced Tuesday that it is awarding 339 grants totaling $870 million to airports in 44 U.S. states and territories. The funding comes from the fifth and final $2.89 billion installment of the agency’s $14.5 billion Airport Infrastructure Grants (AIG) program, established in 2022 by the…",
       "url": "https://www.flyingmag.com/faa-870m-airport-infrastructure-grants/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
@@ -103,24 +121,6 @@
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/tail-heavy.jpg"
     },
     {
-      "title": "Why This Monster Jet Engine Is Crushing Boeing’s Mounting Competition From Airbus",
-      "description": "Aerospace companies are investing in the development of larger jet engines to meet the evolving demands of the aviation industry. Gone are the days when large aircraft were designed with four engines, with rising fuel costs and sustainability drives pushing the industry towards twinjet planes.",
-      "url": "https://simpleflying.com/this-monster-jet-engine-crushing-boeings-competition-airbus-why/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-04T15:51:25Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/ultrafan-scaled.jpg"
-    },
-    {
-      "title": "Engineer Sacked Over 17-Minute Delay After Singapore Airlines Jet Reboot Awarded $28,000",
-      "description": "This article was updated on Tuesday, August 4, 2026, to include further details on the incident, including the aircraft type and airport involved. It was originally published on Monday, August 3, 2026.",
-      "url": "https://simpleflying.com/engineer-sacked-singapore-airlines-reboot-17-minute-delay/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-04T15:36:47Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/887-singapore-airlines-boeing-787-10-chittapon-kaewkiriya-_-shutterstock.jpg"
-    },
-    {
       "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2024 Cirrus SR20 G7. Redefining…",
       "url": "https://www.flyingmag.com/this-2024-cirrus-sr20-g7-is-a-more-than-modern-aircraftforsale-top-pick/",
@@ -177,7 +177,7 @@
     {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
@@ -186,7 +186,7 @@
     {
       "title": "FAA enables ATC clearance via EFBs",
       "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:34:38Z",
@@ -195,7 +195,7 @@
     {
       "title": "MagniX announces electric kitplane powertrain",
       "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
@@ -204,7 +204,7 @@
     {
       "title": "Denver pilots fight hangar rent hike in court",
       "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T08:00:00Z",
@@ -213,7 +213,7 @@
     {
       "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
       "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T00:03:50Z",

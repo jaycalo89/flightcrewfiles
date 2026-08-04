@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T20:00:04.471821+00:00",
+  "generated_at": "2026-08-04T21:00:04.721146+00:00",
   "count": 39,
   "queries": [
     "aviation incident news",
@@ -36,16 +36,6 @@
       "published_at": "2026-08-04T17:08:47Z",
       "thumbnail": "https://i.ytimg.com/vi/Zy33OHpLXIU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Zy33OHpLXIU",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "pw9xF6bfKf8",
-      "title": "Civil Aviation Minister Ram Mohan Naidu visits injured passengers of Air India AI2379",
-      "description": "Civil Aviation Minister Ram Mohan Naidu visited passengers injured in the Air India AI2379 turbulence incident at hospitals in ...",
-      "channel": "ANI News",
-      "published_at": "2026-08-04T16:21:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/pw9xF6bfKf8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pw9xF6bfKf8",
       "matched_query": "aviation incident news"
     },
     {
@@ -109,13 +99,23 @@
       "matched_query": "aviation incident news"
     },
     {
-      "video_id": "720Ogk4LzT0",
-      "title": "Cockpit voice recorder and flight data recorder explained #aviatiofacts #aviationlovers #aviation ",
-      "description": "",
-      "channel": "zayyans aviation",
-      "published_at": "2026-08-04T15:59:48Z",
-      "thumbnail": "https://i.ytimg.com/vi/720Ogk4LzT0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=720Ogk4LzT0",
+      "video_id": "aHubXsyNNnc",
+      "title": "Air India Phuket-Delhi Flight Incident: घायलों से मिले Aviation Minister Ram Mohan Naidu",
+      "description": "दिल्ली में नागरिक उड्डयन मंत्री राम मोहन नायडू ने दिल्ली के ...",
+      "channel": "Zee Business",
+      "published_at": "2026-08-04T15:25:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/aHubXsyNNnc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aHubXsyNNnc",
+      "matched_query": "aviation incident news"
+    },
+    {
+      "video_id": "DO8skGokINk",
+      "title": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? 🛫🤯 | Aviation Facts #Shorts #ytshorts #education",
+      "description": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? | Aviation Facts #Shorts Did you know ...",
+      "channel": "Facts With Shahid",
+      "published_at": "2026-08-04T18:11:49Z",
+      "thumbnail": "https://i.ytimg.com/vi/DO8skGokINk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DO8skGokINk",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -129,16 +129,6 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "V-I3Rf4Yu4k",
-      "title": "Armavia Flight 967: The Black Sea Crash Mystery",
-      "description": "On May 3rd, 2006, Armavia Flight 967 vanished into the Black Sea. This documentary explores the impossible contradiction of the ...",
-      "channel": "Mayday Files",
-      "published_at": "2026-08-04T14:00:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/V-I3Rf4Yu4k/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=V-I3Rf4Yu4k",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
       "video_id": "8sOYGbOS-rY",
       "title": "technology behind Black Box in airplanes #telugushorts #technews #facts #space#technology",
       "description": "Description విమానం పూర్తిగా ధ్వంసమైనా Black Box మాత్రం ఎలా సురక్షితంగా ...",
@@ -146,6 +136,46 @@
       "published_at": "2026-08-04T16:19:07Z",
       "thumbnail": "https://i.ytimg.com/vi/8sOYGbOS-rY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=8sOYGbOS-rY",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "720Ogk4LzT0",
+      "title": "Cockpit voice recorder and flight data recorder explained #aviatiofacts #aviationlovers #aviation ",
+      "description": "",
+      "channel": "zayyans aviation",
+      "published_at": "2026-08-04T15:59:48Z",
+      "thumbnail": "https://i.ytimg.com/vi/720Ogk4LzT0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=720Ogk4LzT0",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "O7wK6dErVeo",
+      "title": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली रंग और काम #shorts #blackbox",
+      "description": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली ...",
+      "channel": "Dear Sushma Mam",
+      "published_at": "2026-08-04T15:00:22Z",
+      "thumbnail": "https://i.ytimg.com/vi/O7wK6dErVeo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O7wK6dErVeo",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "R1elfvh8-1I",
+      "title": "Why Does Black Box Data Survive Even After a Plane Crash? 😳✈️🔥",
+      "description": "Why does data in a black box survive a plane crash? ✈️   How does data in a black box survive a plane crash? ✈️ In this ...",
+      "channel": "SHINFACTS Hindi",
+      "published_at": "2026-08-04T14:20:57Z",
+      "thumbnail": "https://i.ytimg.com/vi/R1elfvh8-1I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=R1elfvh8-1I",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "V-I3Rf4Yu4k",
+      "title": "Armavia Flight 967: The Black Sea Crash Mystery",
+      "description": "On May 3rd, 2006, Armavia Flight 967 vanished into the Black Sea. This documentary explores the impossible contradiction of the ...",
+      "channel": "Mayday Files",
+      "published_at": "2026-08-04T14:00:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/V-I3Rf4Yu4k/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=V-I3Rf4Yu4k",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -169,44 +199,24 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "O7wK6dErVeo",
-      "title": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली रंग और काम #shorts #blackbox",
-      "description": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली ...",
-      "channel": "Dear Sushma Mam",
-      "published_at": "2026-08-04T15:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/O7wK6dErVeo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=O7wK6dErVeo",
+      "video_id": "pNsKDtohvug",
+      "title": "Plane Ka Black Box Black Nahi Hota! Asli Sach Hairaan Kar Dega! ✈️🟧 #facts#planefacts #viral #reach",
+      "description": "Kya aap jaante hain ki Plane ka Black Box asal mein Black nahi, balki Orange hota hai? Is Shorts mein janiye Black Box ka asli ...",
+      "channel": "StoryLabAI2.0",
+      "published_at": "2026-08-04T10:35:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/pNsKDtohvug/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pNsKDtohvug",
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "yCMlF_htuSY",
-      "title": "Airplanes Black box Explained | Aviation Technology ",
-      "description": "Airplanes Black box Explained | Aviation Technology | Ever wondered what happens inside a plane's black box? This cinematic ...",
-      "channel": "Moonchild",
-      "published_at": "2026-08-04T06:32:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/yCMlF_htuSY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yCMlF_htuSY",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "aPk_WV0IMEE",
-      "title": "Aeroflot 593 Cvr Reconstruction (not fully  finished I’ll create the full version later)",
-      "description": "Aeroflot Flight 593 was a scheduled international passenger flight from Sheremetyevo International Airport, Moscow, Russia, ...",
-      "channel": "PenguinWholikesBoeingL-1011",
-      "published_at": "2026-08-04T00:00:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/aPk_WV0IMEE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=aPk_WV0IMEE",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "R1elfvh8-1I",
-      "title": "Why Does Black Box Data Survive Even After a Plane Crash? 😳✈️🔥",
-      "description": "Why does data in a black box survive a plane crash? ✈️   How does data in a black box survive a plane crash? ✈️ In this ...",
-      "channel": "SHINFACTS Hindi",
-      "published_at": "2026-08-04T14:20:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/R1elfvh8-1I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=R1elfvh8-1I",
-      "matched_query": "cockpit voice recorder"
+      "video_id": "E6e4rN6Zhkc",
+      "title": "Dash cam shows small plane on a training flight making an emergency landing on a Florida interstate",
+      "description": "A plane on a training flight made an emergency landing on a Florida interstate, almost missing highway signs and vehicles.",
+      "channel": "WHAS11",
+      "published_at": "2026-08-04T19:30:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/E6e4rN6Zhkc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=E6e4rN6Zhkc",
+      "matched_query": "aviation emergency landing"
     },
     {
       "video_id": "Aj3kScXFxbU",
@@ -289,16 +299,6 @@
       "matched_query": "aviation emergency landing"
     },
     {
-      "video_id": "v-BjLh1RR2E",
-      "title": "विमान में लाइट क्यों बंद होती है? असली वजह चौंका देगी 😳✈️ #shorts",
-      "description": "विमान में लाइट क्यों बंद होती है? असली वजह चौंका देगी ✈️ #shorts क्या ...",
-      "channel": "The AKR Point",
-      "published_at": "2026-08-04T13:37:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/v-BjLh1RR2E/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=v-BjLh1RR2E",
-      "matched_query": "aviation emergency landing"
-    },
-    {
       "video_id": "lpGvEEa5I0w",
       "title": "क्या ब्रिटेन में एलियन दिखे Gatwick Airport पर पायलट ने देखा रहस्यमयी UFO 😮  - Duniya Decode Facts",
       "description": "अगर आपको UFO News, Alien News, UFO Sighting 2026, Britain News, London News, World News, Breaking News, Mystery ...",
@@ -339,6 +339,16 @@
       "matched_query": "UAP pilot sighting"
     },
     {
+      "video_id": "Vb5PzR-1mN0",
+      "title": "What Were These F-18 Pilots Seeing?",
+      "description": "Kegan Gill says the sightings near Virginia Beach were real, the movement made no sense. He believes the technology may ...",
+      "channel": "@ModulateMars",
+      "published_at": "2026-08-01T18:46:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/Vb5PzR-1mN0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Vb5PzR-1mN0",
+      "matched_query": "UAP pilot sighting"
+    },
+    {
       "video_id": "W4f8WrInikk",
       "title": "Why This 1953 Pilot UFO Sighting Terrified Military Radar Teams #ufo #classified #aliens",
       "description": "A 1953 pilot report of a cigar shaped UFO changed how we view early aerial sightings. We examine a specific Pacific encounter ...",
@@ -356,16 +366,6 @@
       "published_at": "2026-08-01T01:18:25Z",
       "thumbnail": "https://i.ytimg.com/vi/SveoXXHc398/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=SveoXXHc398",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
-      "video_id": "L_osRIsINW8",
-      "title": "Nimitz UFO: Multiple Pilots &amp; Radar Confirm Sighting!",
-      "description": "One of the oldest US Naval Vessels and it's crew discover something they can't explain.#uap If you enjoy deep dives about ...",
-      "channel": "Pop Up Mysteries",
-      "published_at": "2026-07-31T21:20:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/L_osRIsINW8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=L_osRIsINW8",
       "matched_query": "UAP pilot sighting"
     },
     {
@@ -389,13 +389,13 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "-hqPDdQxjQU",
-      "title": "The UFOs the Military Doesn&#39;t Want You to Know About #uap #military #shorts",
-      "description": "Are UFO sightings actually just secret military aircraft? We examine how experimental technology often gets mistaken for ...",
-      "channel": "Oddity Atlas",
-      "published_at": "2026-07-26T18:30:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/-hqPDdQxjQU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-hqPDdQxjQU",
+      "video_id": "TSeprxtdf4s",
+      "title": "UFO Sightings: Pilots See The Unexplainable #shorts",
+      "description": "Even without hard data, commander David Fravor and pilot Ryan Graves' accounts of inexplicable aerial objects are compelling.",
+      "channel": "GovWatch Official ",
+      "published_at": "2026-07-28T14:00:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/TSeprxtdf4s/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TSeprxtdf4s",
       "matched_query": "UAP pilot sighting"
     }
   ]
