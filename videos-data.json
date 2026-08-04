@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:00:04.687019+00:00",
+  "generated_at": "2026-08-04T23:00:05.290376+00:00",
   "count": 39,
   "queries": [
     "aviation incident news",
@@ -36,6 +36,16 @@
       "published_at": "2026-08-04T17:55:01Z",
       "thumbnail": "https://i.ytimg.com/vi/UgyIBj_GELY/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=UgyIBj_GELY",
+      "matched_query": "aviation incident news"
+    },
+    {
+      "video_id": "qjfDsswzV0A",
+      "title": "Aviation Expert breaks down how severe turbulence can impact aircraft systems and passenger safety",
+      "description": "Aviation expert Captain Prashant Dhalla reacts to the severe turbulence incident involving Air India's Phuket-Delhi flight.",
+      "channel": "ANI News",
+      "published_at": "2026-08-04T17:30:19Z",
+      "thumbnail": "https://i.ytimg.com/vi/qjfDsswzV0A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=qjfDsswzV0A",
       "matched_query": "aviation incident news"
     },
     {
@@ -99,46 +109,6 @@
       "matched_query": "aviation incident news"
     },
     {
-      "video_id": "NEeFlvi9Lss",
-      "title": "Air India Flight Incident: Mid-Air Turbulence Leaves Several Passengers Injured | Aviation News",
-      "description": "Breaking News: Air India के विमान में आए Turbulance पर आया बड़ा बयान | Plane Crash | Aviation | Flight ...",
-      "channel": "News Nation",
-      "published_at": "2026-08-04T15:29:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/NEeFlvi9Lss/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NEeFlvi9Lss",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "DO8skGokINk",
-      "title": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? 🛫🤯 | Aviation Facts #Shorts #ytshorts #education",
-      "description": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? | Aviation Facts #Shorts Did you know ...",
-      "channel": "Facts With Shahid",
-      "published_at": "2026-08-04T18:11:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/DO8skGokINk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=DO8skGokINk",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "yZUqVQOJcWI",
-      "title": "The Flight Recorder That Shouldn&#39;t Exist",
-      "description": "Wait for the ending... #flight #recorder #shouldn #fyp #viral.",
-      "channel": "Mountain Pass Madness",
-      "published_at": "2026-08-04T16:59:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/yZUqVQOJcWI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yZUqVQOJcWI",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "8sOYGbOS-rY",
-      "title": "technology behind Black Box in airplanes #telugushorts #technews #facts #space#technology",
-      "description": "Description విమానం పూర్తిగా ధ్వంసమైనా Black Box మాత్రం ఎలా సురక్షితంగా ...",
-      "channel": "ShortNewsTelugu-channel",
-      "published_at": "2026-08-04T16:19:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/8sOYGbOS-rY/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=8sOYGbOS-rY",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
       "video_id": "720Ogk4LzT0",
       "title": "Cockpit voice recorder and flight data recorder explained #aviatiofacts #aviationlovers #aviation ",
       "description": "",
@@ -149,23 +119,13 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "O7wK6dErVeo",
-      "title": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली रंग और काम #shorts #blackbox",
-      "description": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली ...",
-      "channel": "Dear Sushma Mam",
-      "published_at": "2026-08-04T15:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/O7wK6dErVeo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=O7wK6dErVeo",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "R1elfvh8-1I",
-      "title": "Why Does Black Box Data Survive Even After a Plane Crash? 😳✈️🔥",
-      "description": "Why does data in a black box survive a plane crash? ✈️   How does data in a black box survive a plane crash? ✈️ In this ...",
-      "channel": "SHINFACTS Hindi",
-      "published_at": "2026-08-04T14:20:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/R1elfvh8-1I/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=R1elfvh8-1I",
+      "video_id": "DO8skGokINk",
+      "title": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? 🛫🤯 | Aviation Facts #Shorts #ytshorts #education",
+      "description": "ब्लैक बॉक्स काला नहीं, नारंगी क्यों होता है? | Aviation Facts #Shorts Did you know ...",
+      "channel": "Facts With Shahid",
+      "published_at": "2026-08-04T18:11:49Z",
+      "thumbnail": "https://i.ytimg.com/vi/DO8skGokINk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DO8skGokINk",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -189,6 +149,16 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "yZUqVQOJcWI",
+      "title": "The Flight Recorder That Shouldn&#39;t Exist",
+      "description": "Wait for the ending... #flight #recorder #shouldn #fyp #viral.",
+      "channel": "Mountain Pass Madness",
+      "published_at": "2026-08-04T16:59:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/yZUqVQOJcWI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yZUqVQOJcWI",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
       "video_id": "pmZE-9w7zVA",
       "title": "Perdiamo Carburante sopra al Mare || Estratto Audio dell&#39;EMERGENZA",
       "description": "Durante un tipico volo di trasferimento da Pratica di Mare a Pisa, l'A320 NEO del 104° Stormo Virtuale, soprannominato \"Metus\" ...",
@@ -199,14 +169,54 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "pNsKDtohvug",
-      "title": "Plane Ka Black Box Black Nahi Hota! Asli Sach Hairaan Kar Dega! ✈️🟧 #facts#planefacts #viral #reach",
-      "description": "Kya aap jaante hain ki Plane ka Black Box asal mein Black nahi, balki Orange hota hai? Is Shorts mein janiye Black Box ka asli ...",
-      "channel": "StoryLabAI2.0",
-      "published_at": "2026-08-04T10:35:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/pNsKDtohvug/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=pNsKDtohvug",
+      "video_id": "8sOYGbOS-rY",
+      "title": "technology behind Black Box in airplanes #telugushorts #technews #facts #space#technology",
+      "description": "Description విమానం పూర్తిగా ధ్వంసమైనా Black Box మాత్రం ఎలా సురక్షితంగా ...",
+      "channel": "ShortNewsTelugu-channel",
+      "published_at": "2026-08-04T16:19:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/8sOYGbOS-rY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8sOYGbOS-rY",
       "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "O7wK6dErVeo",
+      "title": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली रंग और काम #shorts #blackbox",
+      "description": "ब्लैक बॉक्स काला नहीं होता! जानिए हवाई जहाज के ब्लैक बॉक्स का असली ...",
+      "channel": "Dear Sushma Mam",
+      "published_at": "2026-08-04T15:00:22Z",
+      "thumbnail": "https://i.ytimg.com/vi/O7wK6dErVeo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O7wK6dErVeo",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "yCMlF_htuSY",
+      "title": "Airplanes Black box Explained | Aviation Technology ",
+      "description": "Airplanes Black box Explained | Aviation Technology | Ever wondered what happens inside a plane's black box? This cinematic ...",
+      "channel": "Moonchild",
+      "published_at": "2026-08-04T06:32:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/yCMlF_htuSY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=yCMlF_htuSY",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "aPk_WV0IMEE",
+      "title": "Aeroflot 593 Cvr Reconstruction (not fully  finished I’ll create the full version later)",
+      "description": "Aeroflot Flight 593 was a scheduled international passenger flight from Sheremetyevo International Airport, Moscow, Russia, ...",
+      "channel": "PenguinWholikesBoeingL-1011",
+      "published_at": "2026-08-04T00:00:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/aPk_WV0IMEE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=aPk_WV0IMEE",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "O0ohAEYbrlw",
+      "title": "[真實錄音]空中警察對空姐“掏槍”,機長緊急迫降",
+      "description": "蹤IG:➡️https://www.instagram.com/capgoogle/ Line社 ...",
+      "channel": "Google小姐機長",
+      "published_at": "2026-08-04T22:00:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/O0ohAEYbrlw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=O0ohAEYbrlw",
+      "matched_query": "aviation emergency landing"
     },
     {
       "video_id": "E6e4rN6Zhkc",
@@ -286,16 +296,6 @@
       "published_at": "2026-08-04T15:00:03Z",
       "thumbnail": "https://i.ytimg.com/vi/2XZrd24Xtdo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=2XZrd24Xtdo",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "Qokj4cVdG40",
-      "title": "Miracle on the Hudson ✈️ How 155 Lives Were Saved in Just 208 Seconds. #shorts",
-      "description": "What really happened during the Miracle on the Hudson? ✈️ On January 15, 2009, US Airways Flight 1549 took off from New ...",
-      "channel": "Sky Equation",
-      "published_at": "2026-08-04T13:49:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/Qokj4cVdG40/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Qokj4cVdG40",
       "matched_query": "aviation emergency landing"
     },
     {
