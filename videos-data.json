@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T21:00:04.721146+00:00",
+  "generated_at": "2026-08-04T22:00:04.687019+00:00",
   "count": 39,
   "queries": [
     "aviation incident news",
@@ -8,6 +8,16 @@
     "UAP pilot sighting"
   ],
   "items": [
+    {
+      "video_id": "1vPP40eTIB4",
+      "title": "Two airplanes collide in mid-air in Canada",
+      "description": "primeasiatv #planecrash #canada Subscribe To Prime Asia TV Canada :- https://goo.gl/TYnf9u 24 hours Local Punjabi Channel ...",
+      "channel": "Prime Asia Canada-USA",
+      "published_at": "2026-08-04T21:33:54Z",
+      "thumbnail": "https://i.ytimg.com/vi/1vPP40eTIB4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1vPP40eTIB4",
+      "matched_query": "aviation incident news"
+    },
     {
       "video_id": "UMpEQMISzVs",
       "title": "🚨 Air India Flight Turbulence | 300 Feet Ka Dangerous Jhatka 😱✈️ Air India Latest News #shorts #news",
@@ -96,16 +106,6 @@
       "published_at": "2026-08-04T15:29:14Z",
       "thumbnail": "https://i.ytimg.com/vi/NEeFlvi9Lss/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=NEeFlvi9Lss",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "aHubXsyNNnc",
-      "title": "Air India Phuket-Delhi Flight Incident: घायलों से मिले Aviation Minister Ram Mohan Naidu",
-      "description": "दिल्ली में नागरिक उड्डयन मंत्री राम मोहन नायडू ने दिल्ली के ...",
-      "channel": "Zee Business",
-      "published_at": "2026-08-04T15:25:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/aHubXsyNNnc/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=aHubXsyNNnc",
       "matched_query": "aviation incident news"
     },
     {
@@ -339,16 +339,6 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "Vb5PzR-1mN0",
-      "title": "What Were These F-18 Pilots Seeing?",
-      "description": "Kegan Gill says the sightings near Virginia Beach were real, the movement made no sense. He believes the technology may ...",
-      "channel": "@ModulateMars",
-      "published_at": "2026-08-01T18:46:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/Vb5PzR-1mN0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Vb5PzR-1mN0",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
       "video_id": "W4f8WrInikk",
       "title": "Why This 1953 Pilot UFO Sighting Terrified Military Radar Teams #ufo #classified #aliens",
       "description": "A 1953 pilot report of a cigar shaped UFO changed how we view early aerial sightings. We examine a specific Pacific encounter ...",
@@ -366,6 +356,16 @@
       "published_at": "2026-08-01T01:18:25Z",
       "thumbnail": "https://i.ytimg.com/vi/SveoXXHc398/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=SveoXXHc398",
+      "matched_query": "UAP pilot sighting"
+    },
+    {
+      "video_id": "L_osRIsINW8",
+      "title": "Nimitz UFO: Multiple Pilots &amp; Radar Confirm Sighting!",
+      "description": "One of the oldest US Naval Vessels and it's crew discover something they can't explain.#uap If you enjoy deep dives about ...",
+      "channel": "Pop Up Mysteries",
+      "published_at": "2026-07-31T21:20:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/L_osRIsINW8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=L_osRIsINW8",
       "matched_query": "UAP pilot sighting"
     },
     {
@@ -389,13 +389,13 @@
       "matched_query": "UAP pilot sighting"
     },
     {
-      "video_id": "TSeprxtdf4s",
-      "title": "UFO Sightings: Pilots See The Unexplainable #shorts",
-      "description": "Even without hard data, commander David Fravor and pilot Ryan Graves' accounts of inexplicable aerial objects are compelling.",
-      "channel": "GovWatch Official ",
-      "published_at": "2026-07-28T14:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/TSeprxtdf4s/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=TSeprxtdf4s",
+      "video_id": "-hqPDdQxjQU",
+      "title": "The UFOs the Military Doesn&#39;t Want You to Know About #uap #military #shorts",
+      "description": "Are UFO sightings actually just secret military aircraft? We examine how experimental technology often gets mistaken for ...",
+      "channel": "Oddity Atlas",
+      "published_at": "2026-07-26T18:30:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/-hqPDdQxjQU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-hqPDdQxjQU",
       "matched_query": "UAP pilot sighting"
     }
   ]

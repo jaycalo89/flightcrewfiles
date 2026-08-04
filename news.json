@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-04T21:00:42.382354+00:00",
+  "generated_at": "2026-08-04T22:00:26.538431+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 24,
   "articles": [
+    {
+      "title": "How Airlines Actually Decide Which Routes To Cut Each Season",
+      "description": "Aviation is an interesting industry because so much of what keeps it moving happens behind the scenes. When you board a flight, you are usually thinking about where the aircraft is taking you, rather than why that particular service exists in the first place. An airline’s route network is one of…",
+      "url": "https://simpleflying.com/how-airlines-decide-routes-cut-each-season/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-08-04T21:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/route-cugts.jpg"
+    },
     {
       "title": "“Potentially Catastrophic”: Major Pilots Union Issues Urgent Warning On Airbus Engine Shutdowns",
       "description": "A major pilots' union has warned that a cockpit defect linked to unexpected engine shutdowns on Airbus aircraft could have potentially catastrophic consequences, urging regulators to broaden their response after the issue emerged on more than one type. The warning comes after investigators linked…",
@@ -110,15 +119,6 @@
       "author": "James Pearson",
       "published_at": "2026-08-04T17:00:11Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/1626296_1716082958.jpg"
-    },
-    {
-      "title": "Why The Boeing 737 Is More Susceptible to Becoming Tail-Heavy Compared To Other Aircraft Of Its Size",
-      "description": "The Boeing 737 is the most successful and longest-running jetliner family produced by Boeing. The planemaker first introduced the type in the late 1960s as a short-to-medium-haul aircraft designed to complement the larger 707 and 727 models. Over the following decades, the 737 evolved through…",
-      "url": "https://simpleflying.com/why-boeing-737-more-susceptible-tail-heavy-compared-other-aircraft/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-08-04T16:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/tail-heavy.jpg"
     },
     {
       "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
