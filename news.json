@@ -1,8 +1,98 @@
 {
-  "generated_at": "2026-08-04T16:17:50.000632+00:00",
+  "generated_at": "2026-08-04T20:00:40.538987+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 24,
   "articles": [
+    {
+      "title": "Wildfires Near Spokane Threaten Key Airports",
+      "description": "The wildfires burning in Spokane, Washington, are within a few miles of three major airports—Fairchild Air Force Base (KSKA), Spokane International (KGEG), and Felts Field (KSFF). A weather briefing from Leidos Flight Service depicts the fire temporary flight restriction (TFT) a few miles to the…",
+      "url": "https://www.flyingmag.com/wildfires-near-spokane-threaten-key-airports/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-04T19:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Breeze Airways Confirms It's Pulling Out Of This Major US Airport: See Flights Now",
+      "description": "Breeze Airways is set to cease operating its sole route out of Newark Liberty International Airport (EWR) in the US state of New Jersey. According to reporting on the matter by Ishrion Aviation on X (formerly known as Twitter), its corridor from Newark to Charleston (CRW) in West Virginia will no…",
+      "url": "https://simpleflying.com/breeze-airways-cuts-charleston-newark-flights/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-04T19:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2759518669_cropped.jpg"
+    },
+    {
+      "title": "London Gatwick dual-runway project cleared after judges dismiss campaign appeal bid",
+      "description": "UK hub to expand capacity after attempt to overturn judicial review rejection fails. London Gatwick’s planned expansion, which will include a second runway, is set to proceed after a legal appeal against the development failed. In a ruling issued on 4 August by the Royal Courts of Justice in…",
+      "url": "https://www.flightglobal.com/archive/2026/08/london-gatwick-dual-runway-project-cleared-after-judges-dismiss-campaign-appeal-bid/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-04T18:58:10Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Gatwick-airport-c-Gatwick-airport-480x297.jpg"
+    },
+    {
+      "title": "FAA Awards $870M for Airport Infrastructure Improvements",
+      "description": "The FAA announced Tuesday that it is awarding 339 grants totalling $870 million to airports in 44 U.S. states and territories. The funding comes from the fifth and final $2.89 billion installment of the agency’s $14.5 billion Airport Infrastructure Grants (AIG) program, established in 2022 by the…",
+      "url": "https://www.flyingmag.com/faa-870m-airport-infrastructure-grants/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-04T18:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Air India A320 Plunges 300 Feet In Severe Turbulence, Leaves 17 Injured",
+      "description": "An Air India Airbus A320neo operating flight AI2379 from Phuket International Airport (HKT), Thailand, to Delhi Indira Gandhi International Airport (DEL) encountered severe turbulence on August 4, causing the aircraft to briefly lose around 300 feet (91 meters) of altitude and injuring 17 people…",
+      "url": "https://simpleflying.com/air-india-a320-300-feet-severe-turbulence-17-injured/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-04T18:14:04Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2595708887_cropped.jpg"
+    },
+    {
+      "title": "Why Southwest Airlines Pulled Out Of The World's Busiest Airport After Only 5 Years",
+      "description": "Chicago O'Hare International Airport (ORD) is the busiest airport in the world by the number of flights operated . While Hartsfield-Jackson International Airport (ATL) has long topped the rankings as far as passenger numbers go, O'Hare's higher use of smaller regional jets and the resultant spread…",
+      "url": "https://simpleflying.com/southwest-airlines-chicago-o-hare-withdrawal-analysis/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-04T18:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/895-southwest-airlines-boeing-737-800-robin-guess-_-shutterstock.jpg"
+    },
+    {
+      "title": "The Death Of The Middle: How Airlines Are Splitting Into Premium & Ultra-Budget",
+      "description": "Across the airline industry, it seems that the traditional middle tier of commercial air travel is on its way to the history books. It has always been common to see legacy carriers and low-cost airlines alike depend on a standardized main cabin product to generate steady baseline revenue. Today,…",
+      "url": "https://simpleflying.com/how-airlines-splitting-premium-ultra-budget/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-04T18:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/the-death-of-the-middle-how-airlines-are-splitting-into-premium-ultra-budget.jpg"
+    },
+    {
+      "title": "Spohr sees turnaround at Germany’s Lufthansa Airlines ‘on track’ despite Q2 loss",
+      "description": "Strike and fuel costs dragged the German mainline carrier to an adjusted EBIT loss of €37m in the second quarter. Lufthansa Group chief executive Carsten Spohr is optimistic of avoiding further strike action at German unit Lufthansa Airlines as the company says it is in “constructive talks” with…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/lufthansa-turnaround-on-track-despite-q2-loss/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-04T17:55:03Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Lufthansa-787-9-480x320.jpg"
+    },
+    {
+      "title": "What Is The Busiest Airport In North America?",
+      "description": "Just like airlines around the world, airports are also extremely competitive when it comes to being the best, the largest, the busiest, and more, and this article looks at which airport is the busiest in the North American region. Since there are multiple metrics that can be used to determine what…",
+      "url": "https://simpleflying.com/what-is-busiest-airport-in-north-america/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-08-04T17:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/busiest-airport-north-america-shutterstock-simple-flying.jpg"
+    },
+    {
+      "title": "Breeze Airways Abruptly Cancels 2nd Longest International Route: Here's Why",
+      "description": "Breeze Airways only has a tiny international operation. For the remainder of the year, the carrier plans an average of just 1.4 daily departures beyond the US border. On some days, the airline will have no such activity at all. Only one in every 192 takeoffs will be international.",
+      "url": "https://simpleflying.com/breeze-airways-abruptly-cancels-2nd-longest-international-route-heres-why/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-04T17:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/1626296_1716082958.jpg"
+    },
     {
       "title": "Why The Boeing 737 Is More Susceptible to Becoming Tail-Heavy Compared To Other Aircraft Of Its Size",
       "description": "The Boeing 737 is the most successful and longest-running jetliner family produced by Boeing. The planemaker first introduced the type in the late 1960s as a short-to-medium-haul aircraft designed to complement the larger 707 and 727 models. Over the following decades, the 737 evolved through…",
@@ -31,15 +121,6 @@
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/887-singapore-airlines-boeing-787-10-chittapon-kaewkiriya-_-shutterstock.jpg"
     },
     {
-      "title": "Why Did Airbus Build The A340 With 4 Engines When 2 Would Do?",
-      "description": "Looking back from today's aviation industry, the Airbus A340 can seem like an aircraft built around an outdated idea. Modern long-haul airliners such as the Airbus A350, Boeing 787 Dreamliner, and Boeing 777 routinely cross oceans carrying hundreds of passengers using just two engines. They deliver…",
-      "url": "https://simpleflying.com/why-airbus-build-a340-4-engines-2-do/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-08-04T15:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/4-engines.jpg"
-    },
-    {
       "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2024 Cirrus SR20 G7. Redefining…",
       "url": "https://www.flyingmag.com/this-2024-cirrus-sr20-g7-is-a-more-than-modern-aircraftforsale-top-pick/",
@@ -58,15 +139,6 @@
       "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2708.png"
     },
     {
-      "title": "Why The Boeing 757 Is Still Irreplaceable 4 Decades Later",
-      "description": "The Boeing 757 is one of the most legendary airliners in history, being beloved by enthusiasts and crews alike for its excellent performance and distinctive engine sound. In its time, the 757 was also exceptionally fuel-efficient, and it has more range than almost any other twin-engine narrowbody…",
-      "url": "https://simpleflying.com/why-boeing-757-still-irreplaceable-4-decades-later/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-04T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-757-irreplaceable.jpg"
-    },
-    {
       "title": "Pilot Executes the ‘Impossible Turn’",
       "description": "Night flying has always been where aviation feels the most honest. The distractions fall away, the wind calms, and the world below turns into a quiet, shimmering outline. I have always enjoyed teaching night flying for exactly that reason— students absorb more, stay focused, and experience…",
       "url": "https://www.flyingmag.com/pilot-executes-the-impossible-turn/",
@@ -76,33 +148,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "London Gatwick Airport To Proceed With 2nd Runway Project After Legal Challenge Rejected",
-      "description": "London Gatwick Airport (LGW) has long been the second-busiest air hub in the United Kingdom. While it does have two runways, their close proximity has meant that only one can be used at a time, resulting in the congested facility ending up as one of the busiest single-runway airports in the entire…",
-      "url": "https://simpleflying.com/london-gatwick-airport-second-runway-approved/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-04T11:56:55Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/gal-10-12-25-0474-jpg_cropped.jpg"
-    },
-    {
-      "title": "What It's Like Inside Emirates' New Airbus A350-900",
-      "description": "Tom and Alejandro of Simple Flying take a full tour of Emirates' brand-new Airbus A350-900 from the Farnborough Airshow 2026. From the airline's all-new Business Class and expanded Premium Economy cabin to its upgraded ice inflight entertainment system and redesigned Economy Class, they explore…",
-      "url": "https://simpleflying.com/video/what-it-s-like-inside-emirates-new-airbus-a350-900/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-08-04T11:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/60_lh_farnborough-airshow_emirates_h_site-copy.jpg"
-    },
-    {
-      "title": "£10 Million Each: Why Virgin Atlantic Is Poaching Britain's Rarest Pilots",
-      "description": "Since the end of the Cold War, each succeeding government administration in the United Kingdom has downsized the military. The Royal Air Force plummeted from roughly 30 front-line squadrons down to just seven. Today, the military simply does not have the assets to sustain a large air corps. Even…",
-      "url": "https://simpleflying.com/why-virgin-atlantic-poaching-britain-rarest-pilots/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-04T11:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/10-million-each.jpg"
-    },
-    {
       "title": "Upgraded NH90 helicopter makes first flight in enhanced Block 1 guise",
       "description": "Major modification will boost European rotorcraft’s operational capabilities. NH Industries (NHI) consortium member Leonardo Helicopters has completed the first flight of an NH90 in an enhanced Software Release 3 (SWR3), or ‘Block 1’ configuration. The subject of a more than €600 million ($690…",
       "url": "https://www.flightglobal.com/defence/2026/08/upgraded-nh90-helicopter-makes-first-flight-in-enhanced-block-1-guise/",
@@ -110,24 +155,6 @@
       "author": "Craig Hoyle",
       "published_at": "2026-08-04T10:08:25Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/NH90-HITN23-SWR3-CR3_9929-480x320.jpg"
-    },
-    {
-      "title": "It’s Official: Boeing 737 MAX 7 Secures FAA Type Certification",
-      "description": "The Boeing 737 MAX 7 has finally been cleared for commercial service, more than eight years after the smallest member of the 737 MAX family first took to the skies.",
-      "url": "https://simpleflying.com/video/it-s-official-boeing-737-max-7-secures-faa-type-certification/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-04T09:50:29Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/max-7-certified.jpg"
-    },
-    {
-      "title": "Eve begins challenging ‘transition’ phase of air taxi flight-test programme",
-      "description": "The Embraer-controlled company aims to achieve wingborne flight before year-end. Eve Air Mobility recently completed an initial and partial test of its electric air taxi’s ability to transition from vertical to forward flight, kicking off a complex phase of flight testing and aiming to demonstrate…",
-      "url": "https://www.flightglobal.com/archive/2026/08/eve-begins-challenging-transition-phase-of-air-taxi-flight-test-programme/",
-      "source": "FlightGlobal",
-      "author": "Jon Hemmerdinger",
-      "published_at": "2026-08-03T21:28:18Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Eve03_Prototype_July26-480x333.jpg"
     },
     {
       "title": "Departing FAA Leader Says Agency Is Being ‘Nudged’ to Embrace Risk",
@@ -146,15 +173,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-08-03T14:30:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-multi-engine-piston-cessna-t310r-for-sale-601777-05cbc2f7d1a0693c-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "Alaska Awaits Flight Sim Pilots on MSFS2024",
-      "description": "I want to share a sim flight that took me deep into one of the most scenic locations on the globe. It’s a region that still heavily relies on general aviation to connect rural communities in the real world—Alaska. The idea was born out of watching my friend and content creator Steve Thorne (…",
-      "url": "https://www.flyingmag.com/alaska-awaits-flight-sim-pilots-on-msfs2024/",
-      "source": "Flying Magazine",
-      "author": "Sean Siff",
-      "published_at": "2026-08-01T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
