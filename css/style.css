@@ -1225,6 +1225,13 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .file-card.miracle .yt-watch-link a{color:var(--gold-400);border-color:var(--border-gold);}
 .file-card.uap .yt-watch-link a{color:#39e6c5;border-color:rgba(57,230,197,0.4);}
 
+.file-card .vf-embed{
+  margin-bottom:22px;border:1px solid rgba(197,45,45,0.3);
+  box-shadow:0 16px 40px -18px rgba(0,0,0,0.8);
+}
+.file-card.miracle .vf-embed{border-color:var(--border-gold);}
+.file-card.uap .vf-embed{border-color:rgba(57,230,197,0.32);}
+
 .no-footage{
   border:1px dashed rgba(197,45,45,0.35);border-radius:var(--radius-md);
   padding:16px 20px;font-size:.84rem;color:var(--muted-light);margin-bottom:22px;

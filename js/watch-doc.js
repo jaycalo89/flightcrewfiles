@@ -13,7 +13,13 @@
     iframe.title = title;
     iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
     iframe.allowFullscreen = true;
-    facade.replaceWith(iframe);
+    // Replace the facade's contents in place (rather than replaceWith) so the
+    // iframe stays inside the .vf-embed box and inherits its 16:9 sizing;
+    // swapping the element out entirely left a bare, browser-default-sized iframe.
+    facade.replaceChildren(iframe);
+    facade.classList.remove('lfs-embed-facade');
+    facade.removeAttribute('role');
+    facade.removeAttribute('tabindex');
   }
 
   document.addEventListener('DOMContentLoaded', function () {
