@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T01:00:04.780010+00:00",
+  "generated_at": "2026-08-05T02:00:04.492428+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -8,6 +8,16 @@
     "UAP pilot sighting"
   ],
   "items": [
+    {
+      "video_id": "BPAT9T1jmuk",
+      "title": "&#39;A rebirth for us&#39;: Passengers recall chaos after Air India flight hit | News Prime 360 EN #shorts #",
+      "description": "Top News Today | News Prime 360 EN • 'A rebirth for us': Passengers recall chaos after Air India flight hits turbulence An Air India ...",
+      "channel": "News Prime 360 EN",
+      "published_at": "2026-08-05T00:30:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/BPAT9T1jmuk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=BPAT9T1jmuk",
+      "matched_query": "aviation incident news"
+    },
     {
       "video_id": "-KV98YJrA1A",
       "title": "Boeing 747&#39;s Rudder Broke Mid-Air | JAL 123 #planecrash #japanairline #b747crash #aviation #plane",
@@ -96,16 +106,6 @@
       "published_at": "2026-08-04T15:50:38Z",
       "thumbnail": "https://i.ytimg.com/vi/P6o94ZSKGtU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=P6o94ZSKGtU",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "OR9GatFqFt4",
-      "title": "World News Today | Two Cessna planes collide mid-air near Chilliwack Airport in British",
-      "description": "WorldBrief World — your daily 60-second news briefing. In today's briefing: • Investigators deployed to Chilliwack, B.C., after ...",
-      "channel": "WorldBrief",
-      "published_at": "2026-08-04T15:31:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/OR9GatFqFt4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=OR9GatFqFt4",
       "matched_query": "aviation incident news"
     },
     {
@@ -209,6 +209,36 @@
       "matched_query": "cockpit voice recorder"
     },
     {
+      "video_id": "hRjgXjDod34",
+      "title": "EMERGENCY LANDING A PLANE ON A BEACH 🛩️  #airplane #aviation #pilot #pilotlife #flying",
+      "description": "",
+      "channel": "Josh Grant",
+      "published_at": "2026-08-05T01:34:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/hRjgXjDod34/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hRjgXjDod34",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "WIKL2gELC5k",
+      "title": "🔥 Hollywood Action: Emergency Landing &amp; Explosive Gun Battle! #Shorts #viralvideo",
+      "description": "",
+      "channel": "Toon Planet AI",
+      "published_at": "2026-08-05T01:24:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/WIKL2gELC5k/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WIKL2gELC5k",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "-mnTIBYo_94",
+      "title": "C-17 Globemaster Flies INSANELY Close to Dubai Skyscrapers!",
+      "description": "Watch this C-17 Globemaster fly low and close through a golden-lit skyscraper skyline! One of the world's largest military cargo ...",
+      "channel": "ISSA SKYWORLD",
+      "published_at": "2026-08-05T01:18:37Z",
+      "thumbnail": "https://i.ytimg.com/vi/-mnTIBYo_94/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-mnTIBYo_94",
+      "matched_query": "aviation emergency landing"
+    },
+    {
       "video_id": "RkUwbTuVXDM",
       "title": "Caught on camera: Small plane makes emergency highway landing",
       "description": "Dashcam video captured the moment a pilot and flight student safely made an emergency landing on Interstate 10 in Pensacola, ...",
@@ -276,36 +306,6 @@
       "published_at": "2026-08-04T17:46:33Z",
       "thumbnail": "https://i.ytimg.com/vi/QY_nft35qSc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=QY_nft35qSc",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "deM7kZDqhm8",
-      "title": "😱✈️ Airindia 320 Turbulence Problem #emergency #landing #airbusa320 #airindia #planecrash",
-      "description": "Airindia 320 Turbulence Problem #emergency #landing #airbusa320 #airindia #planecrash #flightsimulator #flight #delhi #india ...",
-      "channel": "Raman Pachisiya",
-      "published_at": "2026-08-04T17:07:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/deM7kZDqhm8/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=deM7kZDqhm8",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "BsDI8MmEtE4",
-      "title": "Plane Makes Emergency Landing on Florida Interstate — Dashcam Video",
-      "description": "A Piper Cherokee lost oil pressure over Pensacola, Florida, on August 3rd, 2026, forcing a flight instructor and student to put it ...",
-      "channel": "Taking Off",
-      "published_at": "2026-08-04T16:46:44Z",
-      "thumbnail": "https://i.ytimg.com/vi/BsDI8MmEtE4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=BsDI8MmEtE4",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "JEEYh2qAyu0",
-      "title": "X6 Simulate Airplane Emergency Landing Skills",
-      "description": "X6 Simulate Airplane Emergency Landing Skills In this video, I face a serious in-flight emergency after discovering that the landing ...",
-      "channel": "LandingMaster",
-      "published_at": "2026-08-04T16:45:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/JEEYh2qAyu0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=JEEYh2qAyu0",
       "matched_query": "aviation emergency landing"
     },
     {
