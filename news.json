@@ -1,52 +1,142 @@
 {
-  "generated_at": "2026-08-05T04:00:19.181780+00:00",
+  "generated_at": "2026-08-05T21:00:34.803119+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 23,
   "articles": [
     {
-      "title": "Wings Of The Future: What Airbus' A321neo Test Program Reveals About The Next Narrowbody",
-      "description": "Airbus has just bolted a set of oversized wing extensions onto an Airbus A321neo test aircraft, and the outcome of that experiment answers one specific question: can the manufacturer's next narrowbody , expected to enter service around 2038, gain roughly 15 feet (4.5 meters) of extra wingspan per…",
-      "url": "https://simpleflying.com/airbus-a321neo-test-program-reveals-next-narrowbody/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-08-05T01:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/wings-of-the-future.jpg"
+      "title": "ATP accelerates Airline Career Pilot Program",
+      "description": "ATP Flight School says it has shortened the published timeline for its Airline Career Pilot Program by 25 percent, largely by reducing the amount of time students wait for FAA practical exams.",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-05T20:30:01Z",
+      "image": null
     },
     {
-      "title": "Silk Way West 747-8 Flies To Dallas Instead Of Houston, Then Declares Emergency With 30 Minutes Of Fuel Left",
-      "description": "A Boeing 747-8F operated by Silk Way West landed at Dallas/Fort Worth International Airport (DFW) under emergency conditions on Tuesday after apparently flying to Dallas instead of its intended destination of Houston. Flight 7L5722 , operated by VQ-BVB , departed Mexico City’s Felipe Ángeles…",
-      "url": "https://simpleflying.com/silk-way-747-8-emergency-low-fuel/",
+      "title": "Breeze Airways Has Canceled 18 Routes From Its 5 Busiest Airports Over The Years: See Where Now",
+      "description": "It is hard to imagine that five years have passed since Breeze AIrways' first commercial service. Between the airline's initial flight in 2021 and April 2026, the US Department of Transportation shows that more than 17 million passengers have been carried .",
+      "url": "https://simpleflying.com/breeze-airways-cancels-18-routes-from-its-5-busiest-airports/",
       "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-08-04T23:06:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/silk-way-west-boeing-747-8f.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-08-05T20:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/breeze-airways-a220-300-landing-at-tampa.jpg"
     },
     {
-      "title": "How Airlines Actually Decide Which Routes To Cut Each Season",
-      "description": "Aviation is an interesting industry because so much of what keeps it moving happens behind the scenes. When you board a flight, you are usually thinking about where the aircraft is taking you, rather than why that particular service exists in the first place. An airline’s route network is one of…",
-      "url": "https://simpleflying.com/how-airlines-decide-routes-cut-each-season/",
+      "title": "What Actually Happens In The Cockpit During A Transatlantic Crossing",
+      "description": "For passengers, a transatlantic flight can feel uneventful. After takeoff, the aircraft climbs to cruising altitude, the seatbelt sign is switched off, meal service begins, and the cabin settles into several hours of apparent routine before descent begins on the opposite side of the Atlantic. From…",
+      "url": "https://simpleflying.com/what-actually-happens-cockpit-during-transatlantic-crossing/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-08-04T21:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/route-cugts.jpg"
+      "author": "Jack McGarity",
+      "published_at": "2026-08-05T20:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/transatlantic-crossing.jpg"
     },
     {
-      "title": "“Potentially Catastrophic”: Major Pilots Union Issues Urgent Warning On Airbus Engine Shutdowns",
-      "description": "A major pilots' union has warned that a cockpit defect linked to unexpected engine shutdowns on Airbus aircraft could have potentially catastrophic consequences, urging regulators to broaden their response after the issue emerged on more than one type. The warning comes after investigators linked…",
-      "url": "https://simpleflying.com/catastrophic-pilots-union-engine-shutdown-warning/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-08-04T20:45:32Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/airbus-a350.jpg"
+      "title": "FAA Targets Boeing 737 Passenger Seats Over Safety Concerns",
+      "description": "The FAA has released a notice of proposed rulemaking (NPRM) for an airworthiness directive (AD) aimed at tens of thousands of seats on Boeing 737s because they may have been installed incorrectly and could come loose in severe turbulence. FLYING obtained a copy of the proposed AD , which affects…",
+      "url": "https://www.flyingmag.com/faa-targets-boeing-737-passenger-seats-over-safety-concerns/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-05T20:00:00Z",
+      "image": null
     },
     {
-      "title": "How Long-Haul Pilots Actually Sleep At 38,000 Feet On An 11-Hour International Flight",
-      "description": "Boeing 787 Dreamliner routes from the US across the Pacific, such as to Tokyo, take over 11 hours. During this time, pilots are expected to perform a range of challenging duties: mapping, preflight checks, takeoff and climb, cruise, descent, approach, and more. All the time, they must remain in…",
-      "url": "https://simpleflying.com/how-long-haul-pilots-actually-sleep-38000-feet-11-hour-international-flight/",
+      "title": "German police appeal after explosive drone found at Leipzig airport cargo zone",
+      "description": "Second unidentified flying object struck by aircraft diverting to Hanover during runway closure. Germany’s Saxony state criminal and judicial authorities are appealing for information after a drone carrying an explosive device was discovered in the cargo flight operations zone of Leipzig-Halle…",
+      "url": "https://www.flightglobal.com/archive/2026/08/german-police-appeal-after-explosive-drone-found-at-leipzig-airport-cargo-zone/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-05T18:43:48Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/DHL-aircraft-c-Leipzig-Halle-airport-480x301.jpg"
+    },
+    {
+      "title": "Southwest Airlines Launches 11 Massive New Routes [Full List]",
+      "description": "Now that August is underway, it is worth examining Southwest Airlines' plans for the rest of the year. Between September and December, the hybrid operator will launch 11 new and returning routes. As they have all been announced, this article simply explores what is happening. They build on four…",
+      "url": "https://simpleflying.com/southwest-airlines-launches-11-massive-new-routes/",
       "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-04T20:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/38-000-feet.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-08-05T18:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/244-southwest-airlines-boeing-737-700-avi-johnson-_-shutterstock-1.jpg"
+    },
+    {
+      "title": "20 Hours & 11,315 Miles: National Airlines Completes Record-Breaking Boeing 777F Flight",
+      "description": "National Airline s , a Florida-based cargo and charter carrier, has just completed what is widely reported as the longest commercial cargo flight ever flown by a Boeing 777 Freighter . On August 4, the airline flew a 777F nonstop from Scotland to Australia , covering a distance of 9,850 nautical…",
+      "url": "https://simpleflying.com/national-airlines-record-boeing-777f-flight/",
+      "source": "Simple Flying",
+      "author": "Jasper Yu-Dawidowicz",
+      "published_at": "2026-08-05T17:02:59Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2024/07/national-airlines-boeing-777f-render.jpeg"
+    },
+    {
+      "title": "FAA Examines Loss of Separation Involving Marine One Near D.C.",
+      "description": "The FAA is investigating a loss of separation involving a commercial airliner and a military helicopter carrying President Donald Trump. According to the agency, Trump’s Marine One helicopter took off from the White House Tuesday afternoon, and air traffic controllers at nearby Ronald Reagan…",
+      "url": "https://www.flyingmag.com/faa-examines-loss-of-separation-involving-marine-one-near-d-c/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-05T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Turkish Airlines’ profits down as fuel costs almost double in second-quarter",
+      "description": "Airline slips to Q2 operating loss despite sharp jump in cargo revenues. Turkish Airlines profits were sharply hit in the second-quarter by a near-doubling in its fuels costs in the wake of the Iran conflict, despite strong revenue gains over the same period. The Star Alliance swung to an operating…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/turkish-airlines-profits-down-as-fuel-costs-almost-double-in-second-quarter/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-05T16:49:16Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Turkish-airlines-950-480x299.jpg"
+    },
+    {
+      "title": "Will The Boeing 777X Ever Be Banned From Some Airports Like The Airbus A380?",
+      "description": "The Airbus A380 's enormous size famously limited the number of airports it could serve without costly infrastructure upgrades that not all airports were willing to do. As Boeing prepares to introduce the 777X, many aviation enthusiasts have asked whether history could repeat itself here. After…",
+      "url": "https://simpleflying.com/boeing-777x-banned-some-airports-like-airbus-a380/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-05T16:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-777x.png"
+    },
+    {
+      "title": "This 2004 Vulcanair P.68C Is a Rare ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2004 Vulcanair P.68C. Distinguished…",
+      "url": "https://www.flyingmag.com/this-2004-vulcanair-p-68c-is-a-rare-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-05T16:00:00Z",
+      "image": "https://www.youtube.com/embed/QVM0A5bJk-A"
+    },
+    {
+      "title": "Air India names former Ethiopian Airlines head Gebremariam as chief executive",
+      "description": "Tewolde Gebremariam will succeed Campbell Wilson at the helm of the Indian carrier. Former Ethiopian Airlines head Tewolde Gebremariam has taken over as the new chief executive and managing director of Air India in succession to Campbell Wilson. Gebremariam served at the helm of Ethiopian for more…",
+      "url": "https://www.flightglobal.com/archive/2026/08/air-india-names-former-ethiopian-airlines-head-gebremariam-as-chief-executive/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-05T14:37:33Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-India-CEO.avif"
+    },
+    {
+      "title": "How to Request a Transition Through Class D Airspace",
+      "description": "Question: I am a new-hire CFI who just started flying at an airport near a Class D facility. The school CFIs teach you should take the long way around the Class D airport when flying in the local area rather than asking for permission to transition the airspace. A few said a previous CFI told them…",
+      "url": "https://www.flyingmag.com/how-to-request-a-transition-through-class-d-airspace/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-05T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "2Excel Aviation eyes Electra’s EL9 Ultra Short as potential fleet addition",
+      "description": "Innovative design could provide a ‘cleaner, more flexible alternative to legacy aircraft’, UK company says. UK company 2Excel Aviation has revealed its interest in potentially becoming a future operator of Electra Aero’s EL9 Ultra Short , with the pair to cooperate on a 2027 European demonstration…",
+      "url": "https://www.flightglobal.com/aerospace/2026/08/2excel-aviation-eyes-electras-el9-ultra-short-as-potential-fleet-addition/",
+      "source": "FlightGlobal",
+      "author": "Craig Hoyle",
+      "published_at": "2026-08-05T12:24:13Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/EL9-480x270.jpg"
+    },
+    {
+      "title": "Chart Wise: Rangeley Lake Seaplane Base (M57) RNAV (GPS)-C",
+      "description": "There aren’t many approaches in the IFR system that let a pilot fly an instrument procedure that doesn’t terminate on land, but this one does. This approach brings a pilot to the northern port of Rangeley Lake in Maine. This Article First Appeared in FLYING Magazine If you're not already a…",
+      "url": "https://www.flyingmag.com/chart-wise-rangeley-lake-seaplane-base-m57-rnav-gps-c/",
+      "source": "Flying Magazine",
+      "author": "Jason Blair",
+      "published_at": "2026-08-05T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "Wildfires Near Spokane Threaten Key Airports",
@@ -58,24 +148,6 @@
       "image": null
     },
     {
-      "title": "Breeze Airways Confirms It's Pulling Out Of This Major US Airport: See Flights Now",
-      "description": "Breeze Airways is set to cease operating its sole route out of Newark Liberty International Airport (EWR) in the US state of New Jersey. According to reporting on the matter by Ishrion Aviation on X (formerly known as Twitter), its corridor from Newark to Charleston (CRW) in West Virginia will no…",
-      "url": "https://simpleflying.com/breeze-airways-cuts-charleston-newark-flights/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-04T19:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2759518669_cropped.jpg"
-    },
-    {
-      "title": "London Gatwick dual-runway project cleared after judges dismiss campaign appeal bid",
-      "description": "UK hub to expand capacity after attempt to overturn judicial review rejection fails. London Gatwick’s planned expansion, which will include a second runway, is set to proceed after a legal appeal against the development failed. In a ruling issued on 4 August by the Royal Courts of Justice in…",
-      "url": "https://www.flightglobal.com/archive/2026/08/london-gatwick-dual-runway-project-cleared-after-judges-dismiss-campaign-appeal-bid/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-04T18:58:10Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Gatwick-airport-c-Gatwick-airport-480x297.jpg"
-    },
-    {
       "title": "FAA Awards $870M for Airport Infrastructure Improvements",
       "description": "The FAA announced Tuesday that it is awarding 339 grants totaling $870 million to airports in 44 U.S. states and territories. The funding comes from the fifth and final $2.89 billion installment of the agency’s $14.5 billion Airport Infrastructure Grants (AIG) program, established in 2022 by the…",
       "url": "https://www.flyingmag.com/faa-870m-airport-infrastructure-grants/",
@@ -83,33 +155,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-08-04T18:30:00Z",
       "image": null
-    },
-    {
-      "title": "Air India A320 Plunges 300 Feet In Severe Turbulence, Leaves 17 Injured",
-      "description": "An Air India Airbus A320neo operating flight AI2379 from Phuket International Airport (HKT), Thailand, to Delhi Indira Gandhi International Airport (DEL) encountered severe turbulence on August 4, causing the aircraft to briefly lose around 300 feet (91 meters) of altitude and injuring 17 people…",
-      "url": "https://simpleflying.com/air-india-a320-300-feet-severe-turbulence-17-injured/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-04T18:14:04Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2595708887_cropped.jpg"
-    },
-    {
-      "title": "Why Southwest Airlines Pulled Out Of The World's Busiest Airport After Only 5 Years",
-      "description": "Chicago O'Hare International Airport (ORD) is the busiest airport in the world by the number of flights operated . While Hartsfield-Jackson International Airport (ATL) has long topped the rankings as far as passenger numbers go, O'Hare's higher use of smaller regional jets and the resultant spread…",
-      "url": "https://simpleflying.com/southwest-airlines-chicago-o-hare-withdrawal-analysis/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-04T18:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/895-southwest-airlines-boeing-737-800-robin-guess-_-shutterstock.jpg"
-    },
-    {
-      "title": "Spohr sees turnaround at Germany’s Lufthansa Airlines ‘on track’ despite Q2 loss",
-      "description": "Strike and fuel costs dragged the German mainline carrier to an adjusted EBIT loss of €37m in the second quarter. Lufthansa Group chief executive Carsten Spohr is optimistic of avoiding further strike action at German unit Lufthansa Airlines as the company says it is in “constructive talks” with…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/lufthansa-turnaround-on-track-despite-q2-loss/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-04T17:55:03Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Lufthansa-787-9-480x320.jpg"
     },
     {
       "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
@@ -121,45 +166,9 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cirrus-sr20-g7-for-sale-601780-56e6f82c350fce3f-800X600-1.jpg?w=800"
     },
     {
-      "title": "Archer Completes Piloted, Intercity Air Taxi Prototype Flight",
-      "description": "Electric aircraft developer Archer Aviation provided a rare update on its flight test progress, announcing that a prototype of its Midnight air taxi completed a piloted, intercity flight in California on Thursday. Archer said Monday that the aircraft conducted a round-trip journey between Salinas…",
-      "url": "https://www.flyingmag.com/archer-piloted-intercity-air-taxi-flight/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-04T14:00:00Z",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/2708.png"
-    },
-    {
-      "title": "Pilot Executes the ‘Impossible Turn’",
-      "description": "Night flying has always been where aviation feels the most honest. The distractions fall away, the wind calms, and the world below turns into a quiet, shimmering outline. I have always enjoyed teaching night flying for exactly that reason— students absorb more, stay focused, and experience…",
-      "url": "https://www.flyingmag.com/pilot-executes-the-impossible-turn/",
-      "source": "Flying Magazine",
-      "author": "Shreya Verma",
-      "published_at": "2026-08-04T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Departing FAA Leader Says Agency Is Being ‘Nudged’ to Embrace Risk",
-      "description": "The FAA’s departing deputy administrator said Friday that the agency is being “nudged” to embrace “more risk” when it comes to the integration of uncrewed drones. Chris Rocheleau, who is expected to rejoin the National Business Aviation Association (NBAA) this week after serving as FAA deputy…",
-      "url": "https://www.flyingmag.com/rocheleau-departing-faa-leader-drones-risk/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-03T17:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1975 Cessna T310R Is a Twin-Engine ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Cessna T310R. Known for its…",
-      "url": "https://www.flyingmag.com/this-1975-cessna-t310r-is-a-twin-engine-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-03T14:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-multi-engine-piston-cessna-t310r-for-sale-601777-05cbc2f7d1a0693c-800X600-1.jpg?w=1024"
-    },
-    {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
@@ -168,7 +177,7 @@
     {
       "title": "FAA enables ATC clearance via EFBs",
       "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:34:38Z",
@@ -177,7 +186,7 @@
     {
       "title": "MagniX announces electric kitplane powertrain",
       "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
@@ -186,7 +195,7 @@
     {
       "title": "Denver pilots fight hangar rent hike in court",
       "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T08:00:00Z",
@@ -195,7 +204,7 @@
     {
       "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
       "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T00:03:50Z",

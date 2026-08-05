@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T04:00:29.414239+00:00",
+  "generated_at": "2026-08-05T21:00:48.560503+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Placement of the PCA sensor, remote control box, or probe storage bracket",
-      "url": "https://aviation.stackexchange.com/questions/115467/placement-of-the-pca-sensor-remote-control-box-or-probe-storage-bracket",
-      "points": 0,
+      "title": "How does one determine exactly how many hours are left on an Ivchenko AI-25 turbofan that's been hauled out of a landfill?",
+      "url": "https://aviation.stackexchange.com/questions/115469/how-does-one-determine-exactly-how-many-hours-are-left-on-an-ivchenko-ai-25-turb",
+      "points": 6,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785866684
+      "created_utc": 1785909383
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What is this thing sticking out of the side of HAL ALH Mk2 and Mk3?",
-      "url": "https://aviation.stackexchange.com/questions/115456/what-is-this-thing-sticking-out-of-the-side-of-hal-alh-mk2-and-mk3",
-      "points": 4,
+      "title": "Placement of the PCA sensor, remote control box, or probe storage bracket",
+      "url": "https://aviation.stackexchange.com/questions/115467/placement-of-the-pca-sensor-remote-control-box-or-probe-storage-bracket",
+      "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785608150
+      "created_utc": 1785866684
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Which techniques, tools, features, devices, etc can help keep the flow attached to a aircraft?",
-      "url": "https://aviation.stackexchange.com/questions/115460/which-techniques-tools-features-devices-etc-can-help-keep-the-flow-attached",
-      "points": 0,
+      "title": "What is this thing sticking out of the side of HAL ALH Mk2 and Mk3?",
+      "url": "https://aviation.stackexchange.com/questions/115456/what-is-this-thing-sticking-out-of-the-side-of-hal-alh-mk2-and-mk3",
+      "points": 7,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785703912
+      "created_utc": 1785608150
     }
   ]
 }
