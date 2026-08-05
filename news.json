@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T00:00:36.817890+00:00",
+  "generated_at": "2026-08-05T01:00:38.360539+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 18,
   "articles": [
     {
       "title": "Silk Way West 747-8 Flies To Dallas Instead Of Houston, Then Declares Emergency With 30 Minutes Of Fuel Left",
@@ -164,51 +164,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-08-03T14:30:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-multi-engine-piston-cessna-t310r-for-sale-601777-05cbc2f7d1a0693c-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
-      "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-01T00:27:02Z",
-      "image": null
-    },
-    {
-      "title": "FAA enables ATC clearance via EFBs",
-      "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T17:34:38Z",
-      "image": null
-    },
-    {
-      "title": "MagniX announces electric kitplane powertrain",
-      "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T17:00:15Z",
-      "image": null
-    },
-    {
-      "title": "Denver pilots fight hangar rent hike in court",
-      "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
-      "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T00:03:50Z",
-      "image": null
     }
   ]
 }
