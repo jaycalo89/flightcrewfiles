@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T02:00:23.388555+00:00",
+  "generated_at": "2026-08-05T03:00:30.373909+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 22,
   "articles": [
     {
       "title": "Wings Of The Future: What Airbus' A321neo Test Program Reveals About The Next Narrowbody",
@@ -139,15 +139,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Upgraded NH90 helicopter makes first flight in enhanced Block 1 guise",
-      "description": "Major modification will boost European rotorcraft’s operational capabilities. NH Industries (NHI) consortium member Leonardo Helicopters has completed the first flight of an NH90 in an enhanced Software Release 3 (SWR3), or ‘Block 1’ configuration. The subject of a more than €600 million ($690…",
-      "url": "https://www.flightglobal.com/defence/2026/08/upgraded-nh90-helicopter-makes-first-flight-in-enhanced-block-1-guise/",
-      "source": "FlightGlobal",
-      "author": "Craig Hoyle",
-      "published_at": "2026-08-04T10:08:25Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/NH90-HITN23-SWR3-CR3_9929-480x320.jpg"
-    },
-    {
       "title": "Departing FAA Leader Says Agency Is Being ‘Nudged’ to Embrace Risk",
       "description": "The FAA’s departing deputy administrator said Friday that the agency is being “nudged” to embrace “more risk” when it comes to the integration of uncrewed drones. Chris Rocheleau, who is expected to rejoin the National Business Aviation Association (NBAA) this week after serving as FAA deputy…",
       "url": "https://www.flyingmag.com/rocheleau-departing-faa-leader-drones-risk/",
@@ -168,7 +159,7 @@
     {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
@@ -177,7 +168,7 @@
     {
       "title": "FAA enables ATC clearance via EFBs",
       "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:34:38Z",
@@ -186,7 +177,7 @@
     {
       "title": "MagniX announces electric kitplane powertrain",
       "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
@@ -195,7 +186,7 @@
     {
       "title": "Denver pilots fight hangar rent hike in court",
       "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T08:00:00Z",
@@ -204,7 +195,7 @@
     {
       "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
       "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T00:03:50Z",
