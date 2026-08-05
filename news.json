@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-05T21:00:34.803119+00:00",
+  "generated_at": "2026-08-05T22:00:23.217978+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 24,
   "articles": [
+    {
+      "title": "Why Is Airbus Creating A New A220?",
+      "description": "Last year, Airbus confirmed that the passenger-favorite single-aisle Airbus A220 will be getting an interior upgrade with the arrival of Airspace, an award-winning design concept that focuses on delivering an exceptional passenger experience. The upgrade will bring the A220 in line with other…",
+      "url": "https://simpleflying.com/why-is-airbus-creating-a-new-a220/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-08-05T21:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/10/new.jpg"
+    },
     {
       "title": "ATP accelerates Airline Career Pilot Program",
       "description": "ATP Flight School says it has shortened the published timeline for its Airline Career Pilot Program by 25 percent, largely by reducing the amount of time students wait for FAA practical exams.",
