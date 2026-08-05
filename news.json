@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-04T23:00:23.374046+00:00",
+  "generated_at": "2026-08-05T00:00:36.817890+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 23,
   "articles": [
+    {
+      "title": "Silk Way West 747-8 Flies To Dallas Instead Of Houston, Then Declares Emergency With 30 Minutes Of Fuel Left",
+      "description": "A Boeing 747-8F operated by Silk Way West landed at Dallas/Fort Worth International Airport (DFW) under emergency conditions on Tuesday after apparently flying to Dallas instead of its intended destination of Houston. Flight 7L5722 , operated by VQ-BVB , departed Mexico City’s Felipe Ángeles…",
+      "url": "https://simpleflying.com/silk-way-747-8-emergency-low-fuel/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-08-04T23:06:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/silk-way-west-boeing-747-8f.jpg"
+    },
     {
       "title": "How Airlines Actually Decide Which Routes To Cut Each Season",
       "description": "Aviation is an interesting industry because so much of what keeps it moving happens behind the scenes. When you board a flight, you are usually thinking about where the aircraft is taking you, rather than why that particular service exists in the first place. An airline’s route network is one of…",
@@ -101,24 +110,6 @@
       "author": "Graham Dunn",
       "published_at": "2026-08-04T17:55:03Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Lufthansa-787-9-480x320.jpg"
-    },
-    {
-      "title": "What Is The Busiest Airport In North America?",
-      "description": "Just like airlines around the world, airports are also extremely competitive when it comes to being the best, the largest, the busiest, and more, and this article looks at which airport is the busiest in the North American region. Since there are multiple metrics that can be used to determine what…",
-      "url": "https://simpleflying.com/what-is-busiest-airport-in-north-america/",
-      "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-08-04T17:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/busiest-airport-north-america-shutterstock-simple-flying.jpg"
-    },
-    {
-      "title": "Breeze Airways Abruptly Cancels 2nd Longest International Route: Here's Why",
-      "description": "Breeze Airways only has a tiny international operation. For the remainder of the year, the carrier plans an average of just 1.4 daily departures beyond the US border. On some days, the airline will have no such activity at all. Only one in every 192 takeoffs will be international.",
-      "url": "https://simpleflying.com/breeze-airways-abruptly-cancels-2nd-longest-international-route-heres-why/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-04T17:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/1626296_1716082958.jpg"
     },
     {
       "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
