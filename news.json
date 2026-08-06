@@ -1,25 +1,106 @@
 {
-  "generated_at": "2026-08-06T01:50:44.172527+00:00",
+  "generated_at": "2026-08-06T14:00:47.750134+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 22,
   "articles": [
     {
-      "title": "The Real Reason Why No US Airline Ever Operated The Airbus A380",
-      "description": "Airbus made a huge bet on the future of the aviation industry with the introduction of the superjumbo. Having begun development of the Airbus A380 back in the early 1990s , the manufacturer sought to market an aircraft that would solve the issue of growing demand around a finite number of hub…",
-      "url": "https://simpleflying.com/real-reason-why-no-us-airline-ever-operated-airbus-a380/",
+      "title": "Big Cut: Emirates Slashes 29% Of Flights To Florida [Full Details]",
+      "description": "Emirates is set to make temporary cuts to the schedules of two of its routes to and from the United States of America next month. The Dubai-based UAE flag carrier will specifically reduce service on both of its Florida-bound corridors, which serve Orlando International Airport (MCO) and Miami…",
+      "url": "https://simpleflying.com/emirates-cuts-florida-flights/",
       "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-05T22:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/no-us-airline-ever.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-06T14:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/138-emirates-boeing-777-300-spyros-vasileiou-_-shutterstock.jpg"
     },
     {
-      "title": "Why Is Airbus Creating A New A220?",
-      "description": "Last year, Airbus confirmed that the passenger-favorite single-aisle Airbus A220 will be getting an interior upgrade with the arrival of Airspace, an award-winning design concept that focuses on delivering an exceptional passenger experience. The upgrade will bring the A220 in line with other…",
-      "url": "https://simpleflying.com/why-is-airbus-creating-a-new-a220/",
+      "title": "FAA Adopts New AD for Diamond DA42",
+      "description": "The FAA is adopting a new airworthiness directive (AD) for the Diamond DA42 to address occurrences of uncommanded rudder deflection caused by a cracked nose landing gear (NLG) hydraulic actuator rod end. According to the agency, this could lead to failure of the NLG actuator and interference with…",
+      "url": "https://www.flyingmag.com/faa-adopts-new-ad-for-diamond-da42/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-06T13:30:00Z",
+      "image": null
+    },
+    {
+      "title": "5 Things Passengers Don't Know About How Airlines Rank Standby & Rebooking Priority",
+      "description": "The standby list looks like visualized chaos. Events like flight cancellations can suddenly leave hundreds of passengers stranded, and the standby list is how airlines accommodate these passengers when there aren't enough flights or seats available to rebook all of them. Essentially, passengers…",
+      "url": "https://simpleflying.com/5-things-passengers-dont-know-airlines-rank-standby-rebooking-priority/",
       "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-08-05T21:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/10/new.jpg"
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-06T13:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-things-passengers-don-t-know-about-how-airlines-rank-standby-rebooking-priority.jpg"
+    },
+    {
+      "title": "Top 5 Can't-Miss Aviation Museums Across The USA",
+      "description": "A visit to one of the numerous aviation museums across the country could be short for some. However, anyone who considers themselves an aviation enthusiast has likely spent hours during their visit, learning about the US’s rich history. From the beginning of aviation in 1903 with the Wright Flyer,…",
+      "url": "https://simpleflying.com/cant-miss-aviation-museums-across-the-usa/",
+      "source": "Simple Flying",
+      "author": "Channing Reid",
+      "published_at": "2026-08-06T12:44:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/delta-flight-museum.png"
+    },
+    {
+      "title": "A Closer Look At The Airbus A400M (FIA 2026)",
+      "description": "Welcome to another special Simple Flying episode based on our time at the Farnborough International Airshow 2026! In this video we have our correspondent Alejandro taking a very brief look at the Airbus A400M.",
+      "url": "https://simpleflying.com/video/a-closer-look-at-the-airbus-a400m-fia-2026/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-06T12:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a400m-fia.jpg"
+    },
+    {
+      "title": "Best Helicopter Pilot Jobs in Alaska",
+      "description": "Editor’s note: The following article is not intended to be a ranking, but is only to serve as a list of possible options. As the saying goes, your mileage may vary. The Alaskan wilderness is a beautiful place to call home and working above it offers even more spectacular views. Being a helicopter…",
+      "url": "https://www.flyingmag.com/best-helicopter-pilot-jobs-in-alaska/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-06T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Archer Reveals What's Next for eVTOL Aviation",
+      "description": "Sumit Singh of Simple Flying sits down with Archer Aviation to explore how the company is shaping the future of urban air mobility. From its all-electric Midnight aircraft and certification progress to airline partnerships, defense collaborations, and the challenges of bringing eVTOL aircraft into…",
+      "url": "https://simpleflying.com/video/archer-reveals-what-s-next-for-evtol-aviation/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-08-06T11:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/60_lh_farnborough-airshow_archer_h_site-copy.jpg"
+    },
+    {
+      "title": "Why Do Planes Fly Over The Arctic But Not The Antarctic?",
+      "description": "When tracking a long-haul flight on a map, it is common to see aircraft flying far north, sometimes appearing to pass close to the North Pole. Routes between North America, Europe , and Asia routinely cross Greenland, northern Canada, or the Arctic Ocean. At the same time, scheduled commercial…",
+      "url": "https://simpleflying.com/why-planes-fly-over-the-arctic-but-not-antarctic/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-06T09:40:43Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/why-do-planes-fly-over-the-arctic-but-not-antarctic.jpg"
+    },
+    {
+      "title": "Aircraft Maintenance: What to check after a smoky flight",
+      "description": "Our flight to EAA AirVenture Oshkosh in Wisconsin this year included some extensive instrument conditions, with visibility frequently less than one statute mile in dense smoke from the Canadian wildfires. What we found after landing surprised us—and changed how we maintain our aircraft.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-06T08:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Boeing scores contract for JDAM LR strike weapon",
+      "description": "Munition represents an affordable way to engage targets from beyond enemy defences. Boeing has secured a US Air Force contract for the GBU-75 Joint Direct Attack Munition Long Range (JDAM LR), a powered version of the widely-used weapon. The award falls under a $75 million undefinitised contract…",
+      "url": "https://www.flightglobal.com/defence/2026/08/boeing-scores-contract-for-jdam-lr-strike-weapon/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-06T04:42:17Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/JDAMhighres-480x320.jpg"
+    },
+    {
+      "title": "EVA Air to launch first flights linking Taiwan and India",
+      "description": "Airline touts route as a “convenient alternative” for transit between India and North America. EVA Air is to commence flights between Taipei and Delhi, becoming the first and only carrier to link Taiwan and India. Flights between the two cities will commence on 1 December, with EVA Air deploying…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/eva-air-to-launch-first-flights-linking-taiwan-and-india/",
+      "source": "FlightGlobal",
+      "author": "Alfred Chua",
+      "published_at": "2026-08-06T04:15:43Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/EVA_Air_Airbus_A330-300_B-16340_departing_Taoyuan_February_2026_2-480x270.jpg"
     },
     {
       "title": "ATP accelerates Airline Career Pilot Program",
@@ -31,24 +112,6 @@
       "image": null
     },
     {
-      "title": "Breeze Airways Has Canceled 18 Routes From Its 5 Busiest Airports Over The Years: See Where Now",
-      "description": "It is hard to imagine that five years have passed since Breeze AIrways' first commercial service. Between the airline's initial flight in 2021 and April 2026, the US Department of Transportation shows that more than 17 million passengers have been carried .",
-      "url": "https://simpleflying.com/breeze-airways-cancels-18-routes-from-its-5-busiest-airports/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-05T20:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/breeze-airways-a220-300-landing-at-tampa.jpg"
-    },
-    {
-      "title": "What Actually Happens In The Cockpit During A Transatlantic Crossing",
-      "description": "For passengers, a transatlantic flight can feel uneventful. After takeoff, the aircraft climbs to cruising altitude, the seatbelt sign is switched off, meal service begins, and the cabin settles into several hours of apparent routine before descent begins on the opposite side of the Atlantic. From…",
-      "url": "https://simpleflying.com/what-actually-happens-cockpit-during-transatlantic-crossing/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-08-05T20:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/transatlantic-crossing.jpg"
-    },
-    {
       "title": "FAA Targets Boeing 737 Passenger Seats Over Safety Concerns",
       "description": "The FAA has released a notice of proposed rulemaking (NPRM) for an airworthiness directive (AD) aimed at tens of thousands of seats on Boeing 737s because they may have been installed incorrectly and could come loose in severe turbulence. FLYING obtained a copy of the proposed AD , which affects…",
       "url": "https://www.flyingmag.com/faa-targets-boeing-737-passenger-seats-over-safety-concerns/",
@@ -56,24 +119,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-08-05T20:00:00Z",
       "image": null
-    },
-    {
-      "title": "German police appeal after explosive drone found at Leipzig airport cargo zone",
-      "description": "Second unidentified flying object struck by aircraft diverting to Hanover during runway closure. Germany’s Saxony state criminal and judicial authorities are appealing for information after a drone carrying an explosive device was discovered in the cargo flight operations zone of Leipzig-Halle…",
-      "url": "https://www.flightglobal.com/archive/2026/08/german-police-appeal-after-explosive-drone-found-at-leipzig-airport-cargo-zone/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-05T18:43:48Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/DHL-aircraft-c-Leipzig-Halle-airport-480x301.jpg"
-    },
-    {
-      "title": "Southwest Airlines Launches 11 Massive New Routes [Full List]",
-      "description": "Now that August is underway, it is worth examining Southwest Airlines' plans for the rest of the year. Between September and December, the hybrid operator will launch 11 new and returning routes. As they have all been announced, this article simply explores what is happening. They build on four…",
-      "url": "https://simpleflying.com/southwest-airlines-launches-11-massive-new-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-05T18:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/244-southwest-airlines-boeing-737-700-avi-johnson-_-shutterstock-1.jpg"
     },
     {
       "title": "FAA Examines Loss of Separation Involving Marine One Near D.C.",
@@ -85,15 +130,6 @@
       "image": null
     },
     {
-      "title": "Turkish Airlines’ profits down as fuel costs almost double in second-quarter",
-      "description": "Airline slips to Q2 operating loss despite sharp jump in cargo revenues. Turkish Airlines profits were sharply hit in the second-quarter by a near-doubling in its fuels costs in the wake of the Iran conflict, despite strong revenue gains over the same period. The Star Alliance swung to an operating…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/turkish-airlines-profits-down-as-fuel-costs-almost-double-in-second-quarter/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-05T16:49:16Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Turkish-airlines-950-480x299.jpg"
-    },
-    {
       "title": "This 2004 Vulcanair P.68C Is a Rare ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2004 Vulcanair P.68C. Distinguished…",
       "url": "https://www.flyingmag.com/this-2004-vulcanair-p-68c-is-a-rare-aircraftforsale-top-pick/",
@@ -103,15 +139,6 @@
       "image": "https://www.youtube.com/embed/QVM0A5bJk-A"
     },
     {
-      "title": "Air India names former Ethiopian Airlines head Gebremariam as chief executive",
-      "description": "Tewolde Gebremariam will succeed Campbell Wilson at the helm of the Indian carrier. Former Ethiopian Airlines head Tewolde Gebremariam has taken over as the new chief executive and managing director of Air India in succession to Campbell Wilson. Gebremariam served at the helm of Ethiopian for more…",
-      "url": "https://www.flightglobal.com/archive/2026/08/air-india-names-former-ethiopian-airlines-head-gebremariam-as-chief-executive/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-05T14:37:33Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-India-CEO.avif"
-    },
-    {
       "title": "How to Request a Transition Through Class D Airspace",
       "description": "Question: I am a new-hire CFI who just started flying at an airport near a Class D facility. The school CFIs teach you should take the long way around the Class D airport when flying in the local area rather than asking for permission to transition the airspace. A few said a previous CFI told them…",
       "url": "https://www.flyingmag.com/how-to-request-a-transition-through-class-d-airspace/",
@@ -119,15 +146,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-08-05T13:00:00Z",
       "image": null
-    },
-    {
-      "title": "2Excel Aviation eyes Electra’s EL9 Ultra Short as potential fleet addition",
-      "description": "Innovative design could provide a ‘cleaner, more flexible alternative to legacy aircraft’, UK company says. UK company 2Excel Aviation has revealed its interest in potentially becoming a future operator of Electra Aero’s EL9 Ultra Short , with the pair to cooperate on a 2027 European demonstration…",
-      "url": "https://www.flightglobal.com/aerospace/2026/08/2excel-aviation-eyes-electras-el9-ultra-short-as-potential-fleet-addition/",
-      "source": "FlightGlobal",
-      "author": "Craig Hoyle",
-      "published_at": "2026-08-05T12:24:13Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/EL9-480x270.jpg"
     },
     {
       "title": "Chart Wise: Rangeley Lake Seaplane Base (M57) RNAV (GPS)-C",
@@ -157,15 +175,6 @@
       "image": null
     },
     {
-      "title": "This 2024 Cirrus SR20 G7 Is a More-Than-Modern ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2024 Cirrus SR20 G7. Redefining…",
-      "url": "https://www.flyingmag.com/this-2024-cirrus-sr20-g7-is-a-more-than-modern-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-04T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cirrus-sr20-g7-for-sale-601780-56e6f82c350fce3f-800X600-1.jpg?w=800"
-    },
-    {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -190,15 +199,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
-      "image": null
-    },
-    {
-      "title": "Denver pilots fight hangar rent hike in court",
-      "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T08:00:00Z",
       "image": null
     }
   ]

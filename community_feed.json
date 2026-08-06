@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T01:50:56.409947+00:00",
+  "generated_at": "2026-08-06T14:00:58.117213+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,7 +17,7 @@
     {
       "title": "How does one determine exactly how many hours are left on an Ivchenko AI-25 turbofan that's been hauled out of a landfill?",
       "url": "https://aviation.stackexchange.com/questions/115469/how-does-one-determine-exactly-how-many-hours-are-left-on-an-ivchenko-ai-25-turb",
-      "points": 6,
+      "points": 8,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1785909383
@@ -34,7 +34,7 @@
       "title": "Take-off Distance wind correction",
       "url": "https://aviation.stackexchange.com/questions/115462/take-off-distance-wind-correction",
       "points": 2,
-      "num_comments": 1,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1785780184
     },
