@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-05T22:00:23.217978+00:00",
+  "generated_at": "2026-08-06T01:44:09.654135+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 22,
   "articles": [
+    {
+      "title": "The Real Reason Why No US Airline Ever Operated The Airbus A380",
+      "description": "Airbus made a huge bet on the future of the aviation industry with the introduction of the superjumbo. Having begun development of the Airbus A380 back in the early 1990s , the manufacturer sought to market an aircraft that would solve the issue of growing demand around a finite number of hub…",
+      "url": "https://simpleflying.com/real-reason-why-no-us-airline-ever-operated-airbus-a380/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-08-05T22:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/no-us-airline-ever.jpg"
+    },
     {
       "title": "Why Is Airbus Creating A New A220?",
       "description": "Last year, Airbus confirmed that the passenger-favorite single-aisle Airbus A220 will be getting an interior upgrade with the arrival of Airspace, an award-winning design concept that focuses on delivering an exceptional passenger experience. The upgrade will bring the A220 in line with other…",
@@ -15,7 +24,7 @@
     {
       "title": "ATP accelerates Airline Career Pilot Program",
       "description": "ATP Flight School says it has shortened the published timeline for its Airline Career Pilot Program by 25 percent, largely by reducing the amount of time students wait for FAA practical exams.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-05T20:30:01Z",
@@ -67,15 +76,6 @@
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/244-southwest-airlines-boeing-737-700-avi-johnson-_-shutterstock-1.jpg"
     },
     {
-      "title": "20 Hours & 11,315 Miles: National Airlines Completes Record-Breaking Boeing 777F Flight",
-      "description": "National Airline s , a Florida-based cargo and charter carrier, has just completed what is widely reported as the longest commercial cargo flight ever flown by a Boeing 777 Freighter . On August 4, the airline flew a 777F nonstop from Scotland to Australia , covering a distance of 9,850 nautical…",
-      "url": "https://simpleflying.com/national-airlines-record-boeing-777f-flight/",
-      "source": "Simple Flying",
-      "author": "Jasper Yu-Dawidowicz",
-      "published_at": "2026-08-05T17:02:59Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2024/07/national-airlines-boeing-777f-render.jpeg"
-    },
-    {
       "title": "FAA Examines Loss of Separation Involving Marine One Near D.C.",
       "description": "The FAA is investigating a loss of separation involving a commercial airliner and a military helicopter carrying President Donald Trump. According to the agency, Trump’s Marine One helicopter took off from the White House Tuesday afternoon, and air traffic controllers at nearby Ronald Reagan…",
       "url": "https://www.flyingmag.com/faa-examines-loss-of-separation-involving-marine-one-near-d-c/",
@@ -92,15 +92,6 @@
       "author": "Graham Dunn",
       "published_at": "2026-08-05T16:49:16Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Turkish-airlines-950-480x299.jpg"
-    },
-    {
-      "title": "Will The Boeing 777X Ever Be Banned From Some Airports Like The Airbus A380?",
-      "description": "The Airbus A380 's enormous size famously limited the number of airports it could serve without costly infrastructure upgrades that not all airports were willing to do. As Boeing prepares to introduce the 777X, many aviation enthusiasts have asked whether history could repeat itself here. After…",
-      "url": "https://simpleflying.com/boeing-777x-banned-some-airports-like-airbus-a380/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-05T16:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/boeing-777x.png"
     },
     {
       "title": "This 2004 Vulcanair P.68C Is a Rare ‘AircraftForSale’ Top Pick",
@@ -177,7 +168,7 @@
     {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
@@ -186,7 +177,7 @@
     {
       "title": "FAA enables ATC clearance via EFBs",
       "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:34:38Z",
@@ -195,7 +186,7 @@
     {
       "title": "MagniX announces electric kitplane powertrain",
       "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T17:00:15Z",
@@ -204,19 +195,10 @@
     {
       "title": "Denver pilots fight hangar rent hike in court",
       "description": "A legal fight unfolding in Colorado stands to either make it easier or more difficult for FBOs around the country to charge egregious hangar rents in apparent defiance of FAA policy, and Denver pilots are seeking donations to sustain their effort to stop the practice from spreading.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/denver-pilots-fight-hangar-rent-hike-in-court?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-07-30T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Lightspeed Aviation develops custom ANR profile for Rotax engines",
-      "description": "As Rotax engines proliferate in new aircraft offerings, Lightspeed Aviation cleverly has developed a Rotax-specific audio and active noise reduction profile for its Delta Zulu headset.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/july/29/lightspeed-aviation-develops-custom-anr-profile?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T00:03:50Z",
       "image": null
     }
   ]
