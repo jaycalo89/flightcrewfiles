@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:00:58.117213+00:00",
+  "generated_at": "2026-08-07T13:41:17.231684+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "How does one determine exactly how many hours are left on an Ivchenko AI-25 turbofan that's been hauled out of a landfill?",
-      "url": "https://aviation.stackexchange.com/questions/115469/how-does-one-determine-exactly-how-many-hours-are-left-on-an-ivchenko-ai-25-turb",
-      "points": 8,
+      "title": "On the nose of a B-1 bomber there are a series of lines. They look like a visual aid for the pilot. What are they for?",
+      "url": "https://aviation.stackexchange.com/questions/115474/on-the-nose-of-a-b-1-bomber-there-are-a-series-of-lines-they-look-like-a-visual",
+      "points": 2,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785909383
+      "created_utc": 1786102050
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Take-off Distance wind correction",
-      "url": "https://aviation.stackexchange.com/questions/115462/take-off-distance-wind-correction",
-      "points": 2,
-      "num_comments": 2,
+      "title": "For confusion of runway 08 and runway 26 traffic patterns",
+      "url": "https://aviation.stackexchange.com/questions/115473/for-confusion-of-runway-08-and-runway-26-traffic-patterns",
+      "points": -1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785780184
+      "created_utc": 1786090457
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Placement of the PCA sensor, remote control box, or probe storage bracket",
-      "url": "https://aviation.stackexchange.com/questions/115467/placement-of-the-pca-sensor-remote-control-box-or-probe-storage-bracket",
-      "points": 0,
+      "title": "How does one determine exactly how many hours are left on an Ivchenko AI-25 turbofan that's been hauled out of a landfill?",
+      "url": "https://aviation.stackexchange.com/questions/115469/how-does-one-determine-exactly-how-many-hours-are-left-on-an-ivchenko-ai-25-turb",
+      "points": 12,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785866684
+      "created_utc": 1785909383
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "What is this thing sticking out of the side of HAL ALH Mk2 and Mk3?",
-      "url": "https://aviation.stackexchange.com/questions/115456/what-is-this-thing-sticking-out-of-the-side-of-hal-alh-mk2-and-mk3",
-      "points": 7,
-      "num_comments": 1,
+      "title": "Take-off Distance wind correction",
+      "url": "https://aviation.stackexchange.com/questions/115462/take-off-distance-wind-correction",
+      "points": 3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1785608150
+      "created_utc": 1785780184
     }
   ]
 }

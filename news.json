@@ -1,16 +1,169 @@
 {
-  "generated_at": "2026-08-06T14:00:47.750134+00:00",
+  "generated_at": "2026-08-07T13:41:02.368378+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 26,
   "articles": [
     {
-      "title": "Big Cut: Emirates Slashes 29% Of Flights To Florida [Full Details]",
-      "description": "Emirates is set to make temporary cuts to the schedules of two of its routes to and from the United States of America next month. The Dubai-based UAE flag carrier will specifically reduce service on both of its Florida-bound corridors, which serve Orlando International Airport (MCO) and Miami…",
-      "url": "https://simpleflying.com/emirates-cuts-florida-flights/",
+      "title": "Why The World's Largest Military Transport Aircraft Doesn't Use Winglets",
+      "description": "Winglets have become ubiquitous on the modern airliners found at the busiest airports around the world in 2026. These small upward curved wing tip additions are more than just sporty-looking flares for modern jetliners. They are very valuable aerodynamic features as they significantly improve the…",
+      "url": "https://simpleflying.com/worlds-largest-military-transport-aircraft-doesnt-use-winglets/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-07T12:47:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/largest-military-transport.jpg"
+    },
+    {
+      "title": "Why The US Air Force Is Quietly Buying Up Lufthansa's Boeing 747s In 2026",
+      "description": "The US Air Force (USAF) is buying two Lufthansa Boeing 747-8s in 2026, but the move is less about adding aircraft and more about managing the fallout from the badly delayed Air Force One replacement program. Boeing’s VC-25B jets were originally supposed to arrive in 2024, but that timeline has…",
+      "url": "https://simpleflying.com/why-the-us-air-force-buying-up-lufthansas-boeing-747s-2026/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-08-07T11:44:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/why-the-us-air-force-is-quietly-buying-up-lufthansa-s-boeing-747s-in-2026.jpg"
+    },
+    {
+      "title": "5 Airlines Installing Lie-Flat Business Class Seats On Narrowbody Jets In 2026",
+      "description": "Narrowbody jets are getting bigger, and the Airbus A321XLR and Boeing 737 MAX are taking single-aisle aviation further than ever. This provides the motive and opportunity to give high-paying passengers the option to select lie-flat business class. Five notable airlines deploying lie-flat business…",
+      "url": "https://simpleflying.com/airlines-installing-lie-flat-business-class-seats-narrowbody-jets-2026/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-08-07T11:00:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/lie-flat-business-class-seats.jpg"
+    },
+    {
+      "title": "Sun Country Airlines Drastically Cut Flights Because Its Pilots Left For Delta, CEO Admits",
+      "description": "Sun Country Airlines has had to make significant cuts to its September schedules out of Minneapolis-St. Paul International Airport (MSP) in the US state of Minnesota. A key reason behind these dramatic alterations is reportedly the fact that the carrier is suffering high rates of pilot attrition.…",
+      "url": "https://simpleflying.com/sun-country-drastically-cut-flights-pilots-left-delta/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-08-06T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/138-emirates-boeing-777-300-spyros-vasileiou-_-shutterstock.jpg"
+      "published_at": "2026-08-07T09:37:02Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2690809935_cropped.jpg"
+    },
+    {
+      "title": "4 New Routes: Inside Riyadh Air's Unstoppable Boeing 787 Global Expansion",
+      "description": "Saudi Arabian startup carrier Riyadh Air is going from strength to strength network-wise, having opened reservations on four new routes in the last week or so from its main hub at King Khalid International Airport (RUH) in Riyadh, Saudi Arabia. Two of these corridors are on the shorter side,…",
+      "url": "https://simpleflying.com/riyadh-air-new-routes/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-07T08:57:07Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/639-riyadh-air-boeing-787-9-purple-livery-falcons-spotters-_-shutterstock.jpg"
+    },
+    {
+      "title": "Wizz on track to be over GTF-related aircraft groundings by end of 2027",
+      "description": "Central European budget carrier had 27 A320neos on the ground at the end of June. Wizz Air chief executive Jozsef Varadi believes the carrier is still on track to be clear of Pratt & Whitney GTF engine-related A320neo-family aircraft groundings by the end of 2027, lifting one of the key challenges…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/wizz-on-track-to-be-over-gtf-related-aircraft-groundings-by-end-of-2027/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-07T08:52:46Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/wizz-a321neo-pw-engine-cms_digital_shutterstock_950-480x364.jpg"
+    },
+    {
+      "title": "Southwest Airlines Is No Longer Known As The World's Strongest Airline Brand: Here's What Happened",
+      "description": "For the first time in several years, Southwest Airlines is not the strongest airline brand in the world. Brand Finance's Airlines 50 2026 report, published in April, placed All Nippon Airways at the top of the brand strength rankings with a BSI score of 90.2 out of 100 and a AAA+ rating. Southwest…",
+      "url": "https://simpleflying.com/southwest-airlines-no-longer-known-worlds-strongest-airline-brand-what-happened/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-08-07T08:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/southwest-airlines-is-no-longer-known-as-the-world-s-strongest-airline-brand-here-s-what-happened.jpg"
+    },
+    {
+      "title": "Chinese orders and Farnborough agreements push Airbus net total past 1,000",
+      "description": "Airframer nearly halfway to delivery target after handing over 67 aircraft in July. Airbus’s net orders for this year have surpassed 1,000 after the airframer added more than 200 to its total during July. It has confirmed China Eastern Airlines’ order for 25 A330-900s and Hainan Airlines’ agreement…",
+      "url": "https://www.flightglobal.com/orders-deliveries/2026/08/chinese-orders-and-farnborough-agreements-push-airbus-net-total-past-1000/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-07T07:05:23Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Riyadh-A350-1000-c-Airbus-480x329.jpg"
+    },
+    {
+      "title": "US Navy aircraft experiment with AI tools",
+      "description": "Artificial intelligence shows promise in key maritime surveillance activities. A pair of demonstrations involving US Navy aircraft shows the potential for artificial intelligence in the anti-submarine and maritime patrol missions. As part of the RIMPAC naval exercise near Hawaii, a pair of Sikorsky…",
+      "url": "https://www.flightglobal.com/fixed-wing/2026/08/us-navy-aircraft-experiment-with-ai-tools/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-07T06:49:36Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/MH-60R-480x319.jpg"
+    },
+    {
+      "title": "Minneapolis-St. Paul Operations Resume After ATC Outage Grounds Flights Across The Midwest",
+      "description": "Jetliners over nine states lost contact with air traffic control in flight on Thursday for approximately two hours. The impacted center controls traffic to and from airports across Minnesota, Missouri, Kansas, South Dakota, North Dakota, Wisconsin, Michigan, Nebraska, and Iowa.",
+      "url": "https://simpleflying.com/minneapolis-st-paul-operations-resume-atc-outage-grounds-flights-midwest/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-07T06:19:48Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/ground-operations-at-minneapolis-saint-paul-international-the-largest-and-busiest-airport-in-the-upper-midwest.jpg"
+    },
+    {
+      "title": "Why Boeing's Quieter Engines Carry A Penalty No Airbus Aircraft Accepts",
+      "description": "Not all next-generation technologies are enduring. Some are more transitional in character. For years, NASA worked on sawtooth edges on aero engines to reduce noise. Boeing took this technology and developed it for its cleansheet Boeing 787 . Some of the technology used to develop the Dreamliner…",
+      "url": "https://simpleflying.com/why-boeing-quieter-engines-carry-penalty-no-airbus-aircaft-accept/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-08-07T05:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/quieter-engines.jpg"
+    },
+    {
+      "title": "FAA orders Boeing 737 Max inspections, proposes 787 Trent 1000 safety fix",
+      "description": "The agency targets a 737 structural concern and an issue that could cause a dual Trent 1000 failure. The Federal Aviation Administration (FAA) is taking action to address risks involving Boeing 737 Max door-related structural components and concerns about uncontained failures of 787 Rolls-Royce…",
+      "url": "https://www.flightglobal.com/ops-safety/2026/08/faa-orders-boeing-737-max-inspections-proposes-787-trent-1000-safety-fix/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-08-07T00:34:18Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/trentboeing787crollsroyce_845082-480x323.jpg"
+    },
+    {
+      "title": "AOPA helps launch careers in aviation",
+      "description": "On November 13 and 14, AOPA is holding its inaugural AOPA Aviation Career Expo in Phoenix.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-06T23:46:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA refines unleaded fuel transition framework",
+      "description": "The FAA released the first major update of its Transition Plan to Unleaded Aviation Gasoline on July 30, revising with additional detail the roadmap for eliminating the use of tetraethyllead (TEL) in avgas and updating pilots and aircraft owners on the status of each fuel.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-06T23:01:55Z",
+      "image": null
+    },
+    {
+      "title": "Florida airport board on November ballot",
+      "description": "Voters in Collier County, Florida, will select the five members of the Naples Airport Authority for the first time after a state law passed earlier this year stripped the city of the power to appoint them—enabling voters to have a stronger say in the future of Naples Municipal Airport .",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-06T20:30:13Z",
+      "image": null
+    },
+    {
+      "title": "Should I Pay Cash for My Aircraft?",
+      "description": "I stood with the Diamond Aircraft team at EAA AirVenture Oshkosh 2026 watching a ceremonious signing for a new twin engine DA62. The gentleman could not have beamed brighter as he shook hands with the Premier Aircraft Sales representative next to the sleek contours that epitomize the glider based…",
+      "url": "https://www.flyingmag.com/should-i-pay-cash-for-my-aircraft/",
+      "source": "Flying Magazine",
+      "author": "Tripp Thurston",
+      "published_at": "2026-08-06T18:06:03Z",
+      "image": null
+    },
+    {
+      "title": "AOPA urges FAA to protect aircraft owner data",
+      "description": "AOPA, along with several other prominent general aviation organizations, sent a letter to the FAA, urging the agency to limit the disclosure of the personal information of aircraft owners.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-06T17:50:56Z",
+      "image": null
+    },
+    {
+      "title": "This 2019 Zenith CH 750 Cruzer Is an Adventurous ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2019 Zenith CH 750 Cruzer. Celebrated…",
+      "url": "https://www.flyingmag.com/this-2019-zenith-ch-750-cruzer-is-an-adventurous-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-06T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-zenith-ch-750-for-sale-601779-7e62bebcdacc7945-800X600-1.jpg?w=800"
     },
     {
       "title": "FAA Adopts New AD for Diamond DA42",
@@ -22,33 +175,6 @@
       "image": null
     },
     {
-      "title": "5 Things Passengers Don't Know About How Airlines Rank Standby & Rebooking Priority",
-      "description": "The standby list looks like visualized chaos. Events like flight cancellations can suddenly leave hundreds of passengers stranded, and the standby list is how airlines accommodate these passengers when there aren't enough flights or seats available to rebook all of them. Essentially, passengers…",
-      "url": "https://simpleflying.com/5-things-passengers-dont-know-airlines-rank-standby-rebooking-priority/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-06T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-things-passengers-don-t-know-about-how-airlines-rank-standby-rebooking-priority.jpg"
-    },
-    {
-      "title": "Top 5 Can't-Miss Aviation Museums Across The USA",
-      "description": "A visit to one of the numerous aviation museums across the country could be short for some. However, anyone who considers themselves an aviation enthusiast has likely spent hours during their visit, learning about the US’s rich history. From the beginning of aviation in 1903 with the Wright Flyer,…",
-      "url": "https://simpleflying.com/cant-miss-aviation-museums-across-the-usa/",
-      "source": "Simple Flying",
-      "author": "Channing Reid",
-      "published_at": "2026-08-06T12:44:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/delta-flight-museum.png"
-    },
-    {
-      "title": "A Closer Look At The Airbus A400M (FIA 2026)",
-      "description": "Welcome to another special Simple Flying episode based on our time at the Farnborough International Airshow 2026! In this video we have our correspondent Alejandro taking a very brief look at the Airbus A400M.",
-      "url": "https://simpleflying.com/video/a-closer-look-at-the-airbus-a400m-fia-2026/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-06T12:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a400m-fia.jpg"
-    },
-    {
       "title": "Best Helicopter Pilot Jobs in Alaska",
       "description": "Editor’s note: The following article is not intended to be a ranking, but is only to serve as a list of possible options. As the saying goes, your mileage may vary. The Alaskan wilderness is a beautiful place to call home and working above it offers even more spectacular views. Being a helicopter…",
       "url": "https://www.flyingmag.com/best-helicopter-pilot-jobs-in-alaska/",
@@ -58,24 +184,6 @@
       "image": null
     },
     {
-      "title": "Archer Reveals What's Next for eVTOL Aviation",
-      "description": "Sumit Singh of Simple Flying sits down with Archer Aviation to explore how the company is shaping the future of urban air mobility. From its all-electric Midnight aircraft and certification progress to airline partnerships, defense collaborations, and the challenges of bringing eVTOL aircraft into…",
-      "url": "https://simpleflying.com/video/archer-reveals-what-s-next-for-evtol-aviation/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-08-06T11:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/60_lh_farnborough-airshow_archer_h_site-copy.jpg"
-    },
-    {
-      "title": "Why Do Planes Fly Over The Arctic But Not The Antarctic?",
-      "description": "When tracking a long-haul flight on a map, it is common to see aircraft flying far north, sometimes appearing to pass close to the North Pole. Routes between North America, Europe , and Asia routinely cross Greenland, northern Canada, or the Arctic Ocean. At the same time, scheduled commercial…",
-      "url": "https://simpleflying.com/why-planes-fly-over-the-arctic-but-not-antarctic/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-06T09:40:43Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/why-do-planes-fly-over-the-arctic-but-not-antarctic.jpg"
-    },
-    {
       "title": "Aircraft Maintenance: What to check after a smoky flight",
       "description": "Our flight to EAA AirVenture Oshkosh in Wisconsin this year included some extensive instrument conditions, with visibility frequently less than one statute mile in dense smoke from the Canadian wildfires. What we found after landing surprised us—and changed how we maintain our aircraft.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -83,24 +191,6 @@
       "author": null,
       "published_at": "2026-08-06T08:00:00Z",
       "image": null
-    },
-    {
-      "title": "Boeing scores contract for JDAM LR strike weapon",
-      "description": "Munition represents an affordable way to engage targets from beyond enemy defences. Boeing has secured a US Air Force contract for the GBU-75 Joint Direct Attack Munition Long Range (JDAM LR), a powered version of the widely-used weapon. The award falls under a $75 million undefinitised contract…",
-      "url": "https://www.flightglobal.com/defence/2026/08/boeing-scores-contract-for-jdam-lr-strike-weapon/",
-      "source": "FlightGlobal",
-      "author": "Greg Waldron",
-      "published_at": "2026-08-06T04:42:17Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/JDAMhighres-480x320.jpg"
-    },
-    {
-      "title": "EVA Air to launch first flights linking Taiwan and India",
-      "description": "Airline touts route as a “convenient alternative” for transit between India and North America. EVA Air is to commence flights between Taipei and Delhi, becoming the first and only carrier to link Taiwan and India. Flights between the two cities will commence on 1 December, with EVA Air deploying…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/eva-air-to-launch-first-flights-linking-taiwan-and-india/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-08-06T04:15:43Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/EVA_Air_Airbus_A330-300_B-16340_departing_Taoyuan_February_2026_2-480x270.jpg"
     },
     {
       "title": "ATP accelerates Airline Career Pilot Program",
@@ -139,66 +229,12 @@
       "image": "https://www.youtube.com/embed/QVM0A5bJk-A"
     },
     {
-      "title": "How to Request a Transition Through Class D Airspace",
-      "description": "Question: I am a new-hire CFI who just started flying at an airport near a Class D facility. The school CFIs teach you should take the long way around the Class D airport when flying in the local area rather than asking for permission to transition the airspace. A few said a previous CFI told them…",
-      "url": "https://www.flyingmag.com/how-to-request-a-transition-through-class-d-airspace/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-05T13:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Chart Wise: Rangeley Lake Seaplane Base (M57) RNAV (GPS)-C",
-      "description": "There aren’t many approaches in the IFR system that let a pilot fly an instrument procedure that doesn’t terminate on land, but this one does. This approach brings a pilot to the northern port of Rangeley Lake in Maine. This Article First Appeared in FLYING Magazine If you're not already a…",
-      "url": "https://www.flyingmag.com/chart-wise-rangeley-lake-seaplane-base-m57-rnav-gps-c/",
-      "source": "Flying Magazine",
-      "author": "Jason Blair",
-      "published_at": "2026-08-05T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Wildfires Near Spokane Threaten Key Airports",
-      "description": "The wildfires burning in Spokane, Washington, are within a few miles of three major airports—Fairchild Air Force Base (KSKA), Spokane International (KGEG), and Felts Field (KSFF). A weather briefing from Leidos Flight Service depicts the fire temporary flight restriction (TFT) a few miles to the…",
-      "url": "https://www.flyingmag.com/wildfires-near-spokane-threaten-key-airports/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-04T19:30:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Awards $870M for Airport Infrastructure Improvements",
-      "description": "The FAA announced Tuesday that it is awarding 339 grants totaling $870 million to airports in 44 U.S. states and territories. The funding comes from the fifth and final $2.89 billion installment of the agency’s $14.5 billion Airport Infrastructure Grants (AIG) program, established in 2022 by the…",
-      "url": "https://www.flyingmag.com/faa-870m-airport-infrastructure-grants/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-04T18:30:00Z",
-      "image": null
-    },
-    {
       "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
       "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-01T00:27:02Z",
-      "image": null
-    },
-    {
-      "title": "FAA enables ATC clearance via EFBs",
-      "description": "The FAA has released a new program that enables general aviation pilots to request, receive, and cancel instrument flight rules clearances directly in ForeFlight and Garmin Pilot—with no radio or phone calls required.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/faa-enables-atc-clearance-via-efbs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T17:34:38Z",
-      "image": null
-    },
-    {
-      "title": "MagniX announces electric kitplane powertrain",
-      "description": "Kitplane builders may opt to go all-electric with an electric powertrain offering recently announced by magniX.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/30/magnix-announces-electric-kitplane-powertrain?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-07-30T17:00:15Z",
       "image": null
     }
   ]
