@@ -1,16 +1,79 @@
 {
-  "generated_at": "2026-08-08T14:13:11.209563+00:00",
+  "generated_at": "2026-08-08T21:25:27.111674+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 25,
   "articles": [
     {
-      "title": "Why A Boeing 747 Captain Thinks About Crosswind Landings Differently Than An Airbus A380 Captain",
-      "description": "The Boeing 747 and Airbus A380 are both large, heavy, four-engine aircraft that operate into the same airports and land on the same runways. However, in a crosswind, the techniques their captains use to get them on the ground safely are not the same. The 747 captain has three crosswind landing…",
-      "url": "https://simpleflying.com/why-boeing-747-captain-thinks-crosswind-landings-differently-airbus-a380-captain/",
+      "title": "Why Might The World's Most Efficient Twin-Aisle Aircraft Have Boeing Rethinking Its Next Jet?",
+      "description": "The Airbus A350 has firmly established itself as the world's most efficient twin-aisle jet, and its dominance is a primary catalyst for why Boeing is fundamentally rethinking the path to its next new airplane. It has set the gold standard in fuel efficiency, burning roughly 2.39 liters (0.63…",
+      "url": "https://simpleflying.com/why-worlds-most-efficient-twin-aisle-aircraft-boeing-rethinking-next-jet/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-08-08T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a380-captain.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-08T20:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/twin-aisle-aircraft.jpg"
+    },
+    {
+      "title": "Only 222 Seats: United Airlines' 8 New Ultra-Premium Boeing 787 Routes Revealed [Map]",
+      "description": "As carriers around the world look to tap more heavily into the premium market, United Airlines has made waves this year with the introduction of its Elevated interior onboard certain examples of its Boeing 787-9 Dreamliner aircraft. Those modern and luxurious planes have just 222 seats onboard…",
+      "url": "https://simpleflying.com/united-airlines-new-elevated-boeing-787-routes/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-08T19:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/771-united-airlines-boeing-787-9-markus-mainka-_-shutterstock.jpg"
+    },
+    {
+      "title": "What Ground Crews Do In The 25 Minutes Between Flights That Passengers Never Witness",
+      "description": "While you are disembarking the aircraft and preparing for the annoyance of passport control, the ground crew has already begun a race against time. They have as little as 25 minutes for smaller aircraft to get the plane ready for its next flight. These 25 minutes are the time from 'chocks on', when…",
+      "url": "https://simpleflying.com/what-ground-crews-do-25-minutes-between-flights-passengers-never-witness/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-08-08T19:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/the-25-minutes.jpg"
+    },
+    {
+      "title": "Airbus Delivers 67 New Aircraft In July, Remains Below Monthly Average To Meet Annual Target",
+      "description": "European aircraft manufacturer Airbus is still behind its target to deliver an average of 90 aircraft a month to meet its ambitious target of 870 deliveries this year . This comes after Airbus delivered just 67 airframes in July. As the manufacturer released its earnings results last week, Airbus…",
+      "url": "https://simpleflying.com/airbus-delivers-67-new-aircraft-july-below-monthly-average-meet-annual-target/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-08T18:53:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/airbus-a350-landing-in-dubai-1.jpg"
+    },
+    {
+      "title": "Porter Airlines Flight Canceled After Toddler Stands In Seat, Delaying It Past Curfew",
+      "description": "A scheduled Porter Airlines flight from Victoria International Airport (YYJ) to Toronto Pearson International Airport (YYZ) was canceled on Thursday, August 6, after it appears a child failed to wear their seatbelt and stood in the seat. This pushed the flight past its curfew, meaning passengers…",
+      "url": "https://simpleflying.com/porter-airlines-flight-canceled-toddler-airport-curfew/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-08T18:08:40Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/porter-airlines-e195-e2-calgary.jpg"
+    },
+    {
+      "title": "5 Airports Rebuilding Their Runways Before The 2027 Safety Deadline Squeezes Airlines",
+      "description": "Runway construction rarely attracts the same attention as new terminals or aircraft deliveries, yet it is poised to become one of the aviation industry's biggest operational challenges over the next two years. Across North America and Europe, airports are racing to rebuild runway ends, install new…",
+      "url": "https://simpleflying.com/5-airports-rebuilding-runways-before-2027-safety-deadline-squeezes-airlines/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-08-08T18:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-airports-rebuilding-their-runways-before-the-2027-safety-deadline-squeezes-airlines.jpg"
+    },
+    {
+      "title": "Here’s How Much Range The Airbus A350-1000 Has Compared To The Boeing 777-300ER",
+      "description": "The Airbus A350-1000 , according to Airbus , has a maximum range of up to 8,700 nautical miles (16,100 km), giving it a measurable edge over the Boeing 777-300ER, which, according to Boeing , has a range of 7,370 nm (13,649 km). Still, the real story is how that 1,330 nm (2,463 km) gap can actually…",
+      "url": "https://simpleflying.com/how-much-more-range-a350-1000-vs-boeing-777-300er/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-08-08T17:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/here-s-how-much-range-the-airbus-a350-1000-has-compared-to-the-boeing-777-300er.jpg"
+    },
+    {
+      "title": "How Airbus Is Quietly Repositioning The A330neo As A Widebody Bargain For 2027",
+      "description": "For much of the past decade, the widebody spotlight has been firmly fixed on next-generation carbon-composite aircraft like the Boeing 787 Dreamliner and Airbus A350 . These jets have redefined long-haul efficiency and become the flagship choices for airlines seeking the latest technology. Yet away…",
+      "url": "https://simpleflying.com/how-airbus-quietly-repositioning-a330neo-widebody-bargain-2027/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-08-08T17:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/widebody-bargain.jpg"
     },
     {
       "title": "More Than a Passenger: Helping Your Plus-One Become an Active Participant in Flight",
@@ -20,69 +83,6 @@
       "author": "Jolie Lucas",
       "published_at": "2026-08-08T13:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Avemco_Banner-copy.jpeg?w=1024"
-    },
-    {
-      "title": "Ex-Flight Attendant Admits Fake Pilot ID Scheme For 'Hundreds' Of Free Flights On 3 US Airlines",
-      "description": "A Canadian former flight attendant has pleaded guilty to wire fraud after posing as a commercial pilot to obtain 'hundreds of free flights' from three major US airlines over nearly five years. Dallas Pokornik, 34, of Toronto, used a fake airline employee ID between January 2020 and October 2024 to…",
-      "url": "https://simpleflying.com/ex-flight-attendant-fake-pilot-id-hundreds-free-flights/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-08T12:27:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-delta-and-united-aircraft-on-the-ground.jpg"
-    },
-    {
-      "title": "5 Airline Award Loopholes Frequent Flyers Raced To Book Before Deadlines",
-      "description": "The frequent flyer ecosystem has operated on a silent contract between airlines and their most loyal customers, but now that contract seems to be ending. There was once a period defined by the exploitation of fixed award charts, complex routing rules, and the mathematical beauty of carrier-imposed…",
-      "url": "https://simpleflying.com/5-airline-loopholes-frequent-flyers-raced-to-book-before-deadlines/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-08T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-airline-award-loopholes.jpg"
-    },
-    {
-      "title": "LAX Caterer Serving 15 Airlines Faces Mold, Maggot And Cockroach Allegations",
-      "description": "An airline catering company that supplies in-flight meals to at least 15 carriers at Los Angeles International Airport (LAX) is under scrutiny due to allegations of poor hygiene and working conditions. In a complaint against Flying Food Group (FFG) submitted by union UNITE HERE Local 11, workers…",
-      "url": "https://simpleflying.com/lax-caterer-15-airlines-mold-maggot-cockroach-allegations/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-08T06:14:59Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/hawaiian-airlines-plane-at-lax-with-virgin-atlantic-plane-in-the-background.jpg"
-    },
-    {
-      "title": "Want To Fly Private? Here's Just How Much A Flight Costs In 2026",
-      "description": "With hourly rates ranging from roughly $2,500 for a four-seater light aircraft to over $14,000 for ultra-long-range jets like the Gulfstream G650ER or Bombardier Global 7500 , flying private is the most exclusive way to travel in the skies. The level of exclusivity depends on budget and…",
-      "url": "https://simpleflying.com/how-much-private-flying-cost-2026/",
-      "source": "Simple Flying",
-      "author": "Jasper Yu-Dawidowicz",
-      "published_at": "2026-08-08T05:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/fly-private.jpg"
-    },
-    {
-      "title": "Here's How The Boeing 777-300ER Became The Flagship Of The World's Elite Airlines",
-      "description": "The 777 succeeded Boeing’s first widebody twinjet, the 767 , and showed the world just how great the platform could be for both the economics of the notoriously volatile flying business and the satisfaction of flyers. The success of the 777 series directly contributed to the end of its larger…",
-      "url": "https://simpleflying.com/how-boeing-777-300er-flagship-worlds-elite-airlines/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-08T02:00:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/here-s-how-the-boeing-777-300er-became-the-flagship-of-the-world-s-elite-airlines.jpg"
-    },
-    {
-      "title": "5 Airlines With The World's Most Luxurious First Class Suites In 2026",
-      "description": "The first class cabin is always seen as the ultimate in luxury with lavish features that many can only dream of. Business class has evolved into a more extensive product, with lie-flat beds and now private suites, and with more business class products than ever, first class has become more…",
-      "url": "https://simpleflying.com/5-airlines-worlds-most-luxurious-first-class-suites-in-2026/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-08-08T01:30:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/luxiurious-airline.jpg"
-    },
-    {
-      "title": "Sun Country Airlines Flight Attendant Accused Of Racist Comments Faces Assault Charges",
-      "description": "A flight attendant working for Minneapolis-based Sun Country Airlines has been charged with assault after a passenger claimed the crew member made racially motivated comments towards the traveler and a sports group she was traveling with. The attendant, known as Jean Riegelman as per court…",
-      "url": "https://simpleflying.com/sun-country-airlines-flight-attendant-racist-comments-assault-charges/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-08-08T01:04:33Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/sun-country-boeing-737-coming-into-land-1.jpg"
     },
     {
       "title": "Faster Pathways to High-Paying Aviation Careers",
@@ -150,7 +150,7 @@
     {
       "title": "AOPA helps launch careers in aviation",
       "description": "On November 13 and 14, AOPA is holding its inaugural AOPA Aviation Career Expo in Phoenix.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T23:46:00Z",
@@ -159,7 +159,7 @@
     {
       "title": "FAA refines unleaded fuel transition framework",
       "description": "The FAA released the first major update of its Transition Plan to Unleaded Aviation Gasoline on July 30, revising with additional detail the roadmap for eliminating the use of tetraethyllead (TEL) in avgas and updating pilots and aircraft owners on the status of each fuel.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T23:01:55Z",
@@ -168,7 +168,7 @@
     {
       "title": "Florida airport board on November ballot",
       "description": "Voters in Collier County, Florida, will select the five members of the Naples Airport Authority for the first time after a state law passed earlier this year stripped the city of the power to appoint them—enabling voters to have a stronger say in the future of Naples Municipal Airport .",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T20:30:13Z",
@@ -186,7 +186,7 @@
     {
       "title": "AOPA urges FAA to protect aircraft owner data",
       "description": "AOPA, along with several other prominent general aviation organizations, sent a letter to the FAA, urging the agency to limit the disclosure of the personal information of aircraft owners.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T17:50:56Z",
@@ -213,7 +213,7 @@
     {
       "title": "Aircraft Maintenance: What to check after a smoky flight",
       "description": "Our flight to EAA AirVenture Oshkosh in Wisconsin this year included some extensive instrument conditions, with visibility frequently less than one statute mile in dense smoke from the Canadian wildfires. What we found after landing surprised us—and changed how we maintain our aircraft.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T08:00:00Z",
@@ -222,7 +222,7 @@
     {
       "title": "ATP accelerates Airline Career Pilot Program",
       "description": "ATP Flight School says it has shortened the published timeline for its Airline Career Pilot Program by 25 percent, largely by reducing the amount of time students wait for FAA practical exams.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-05T20:30:01Z",
