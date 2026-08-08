@@ -1,52 +1,115 @@
 {
-  "generated_at": "2026-08-07T13:41:02.368378+00:00",
+  "generated_at": "2026-08-08T14:13:11.209563+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 26,
+  "count": 25,
   "articles": [
     {
-      "title": "Why The World's Largest Military Transport Aircraft Doesn't Use Winglets",
-      "description": "Winglets have become ubiquitous on the modern airliners found at the busiest airports around the world in 2026. These small upward curved wing tip additions are more than just sporty-looking flares for modern jetliners. They are very valuable aerodynamic features as they significantly improve the…",
-      "url": "https://simpleflying.com/worlds-largest-military-transport-aircraft-doesnt-use-winglets/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-07T12:47:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/largest-military-transport.jpg"
-    },
-    {
-      "title": "Why The US Air Force Is Quietly Buying Up Lufthansa's Boeing 747s In 2026",
-      "description": "The US Air Force (USAF) is buying two Lufthansa Boeing 747-8s in 2026, but the move is less about adding aircraft and more about managing the fallout from the badly delayed Air Force One replacement program. Boeing’s VC-25B jets were originally supposed to arrive in 2024, but that timeline has…",
-      "url": "https://simpleflying.com/why-the-us-air-force-buying-up-lufthansas-boeing-747s-2026/",
+      "title": "Why A Boeing 747 Captain Thinks About Crosswind Landings Differently Than An Airbus A380 Captain",
+      "description": "The Boeing 747 and Airbus A380 are both large, heavy, four-engine aircraft that operate into the same airports and land on the same runways. However, in a crosswind, the techniques their captains use to get them on the ground safely are not the same. The 747 captain has three crosswind landing…",
+      "url": "https://simpleflying.com/why-boeing-747-captain-thinks-crosswind-landings-differently-airbus-a380-captain/",
       "source": "Simple Flying",
       "author": "Brandon Shaw",
-      "published_at": "2026-08-07T11:44:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/why-the-us-air-force-is-quietly-buying-up-lufthansa-s-boeing-747s-in-2026.jpg"
+      "published_at": "2026-08-08T14:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a380-captain.jpg"
     },
     {
-      "title": "5 Airlines Installing Lie-Flat Business Class Seats On Narrowbody Jets In 2026",
-      "description": "Narrowbody jets are getting bigger, and the Airbus A321XLR and Boeing 737 MAX are taking single-aisle aviation further than ever. This provides the motive and opportunity to give high-paying passengers the option to select lie-flat business class. Five notable airlines deploying lie-flat business…",
-      "url": "https://simpleflying.com/airlines-installing-lie-flat-business-class-seats-narrowbody-jets-2026/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-07T11:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/lie-flat-business-class-seats.jpg"
+      "title": "More Than a Passenger: Helping Your Plus-One Become an Active Participant in Flight",
+      "description": "There is a moment I have heard about hundreds of times from right-seaters. The pilot taxis out for departure feeling excited, focused, and comfortable in an environment that feels almost like home. Sitting beside them is someone they deeply care about—a spouse, partner, family member, or…",
+      "url": "https://www.flyingmag.com/more-than-a-passenger-helping-your-plus-one-become-an-active-participant-in-flight/",
+      "source": "Flying Magazine",
+      "author": "Jolie Lucas",
+      "published_at": "2026-08-08T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Avemco_Banner-copy.jpeg?w=1024"
     },
     {
-      "title": "Sun Country Airlines Drastically Cut Flights Because Its Pilots Left For Delta, CEO Admits",
-      "description": "Sun Country Airlines has had to make significant cuts to its September schedules out of Minneapolis-St. Paul International Airport (MSP) in the US state of Minnesota. A key reason behind these dramatic alterations is reportedly the fact that the carrier is suffering high rates of pilot attrition.…",
-      "url": "https://simpleflying.com/sun-country-drastically-cut-flights-pilots-left-delta/",
+      "title": "Ex-Flight Attendant Admits Fake Pilot ID Scheme For 'Hundreds' Of Free Flights On 3 US Airlines",
+      "description": "A Canadian former flight attendant has pleaded guilty to wire fraud after posing as a commercial pilot to obtain 'hundreds of free flights' from three major US airlines over nearly five years. Dallas Pokornik, 34, of Toronto, used a fake airline employee ID between January 2020 and October 2024 to…",
+      "url": "https://simpleflying.com/ex-flight-attendant-fake-pilot-id-hundreds-free-flights/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-07T09:37:02Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2690809935_cropped.jpg"
+      "author": "Luke Bodell",
+      "published_at": "2026-08-08T12:27:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-delta-and-united-aircraft-on-the-ground.jpg"
     },
     {
-      "title": "4 New Routes: Inside Riyadh Air's Unstoppable Boeing 787 Global Expansion",
-      "description": "Saudi Arabian startup carrier Riyadh Air is going from strength to strength network-wise, having opened reservations on four new routes in the last week or so from its main hub at King Khalid International Airport (RUH) in Riyadh, Saudi Arabia. Two of these corridors are on the shorter side,…",
-      "url": "https://simpleflying.com/riyadh-air-new-routes/",
+      "title": "5 Airline Award Loopholes Frequent Flyers Raced To Book Before Deadlines",
+      "description": "The frequent flyer ecosystem has operated on a silent contract between airlines and their most loyal customers, but now that contract seems to be ending. There was once a period defined by the exploitation of fixed award charts, complex routing rules, and the mathematical beauty of carrier-imposed…",
+      "url": "https://simpleflying.com/5-airline-loopholes-frequent-flyers-raced-to-book-before-deadlines/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-07T08:57:07Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/639-riyadh-air-boeing-787-9-purple-livery-falcons-spotters-_-shutterstock.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-08T08:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-airline-award-loopholes.jpg"
+    },
+    {
+      "title": "LAX Caterer Serving 15 Airlines Faces Mold, Maggot And Cockroach Allegations",
+      "description": "An airline catering company that supplies in-flight meals to at least 15 carriers at Los Angeles International Airport (LAX) is under scrutiny due to allegations of poor hygiene and working conditions. In a complaint against Flying Food Group (FFG) submitted by union UNITE HERE Local 11, workers…",
+      "url": "https://simpleflying.com/lax-caterer-15-airlines-mold-maggot-cockroach-allegations/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-08T06:14:59Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/hawaiian-airlines-plane-at-lax-with-virgin-atlantic-plane-in-the-background.jpg"
+    },
+    {
+      "title": "Want To Fly Private? Here's Just How Much A Flight Costs In 2026",
+      "description": "With hourly rates ranging from roughly $2,500 for a four-seater light aircraft to over $14,000 for ultra-long-range jets like the Gulfstream G650ER or Bombardier Global 7500 , flying private is the most exclusive way to travel in the skies. The level of exclusivity depends on budget and…",
+      "url": "https://simpleflying.com/how-much-private-flying-cost-2026/",
+      "source": "Simple Flying",
+      "author": "Jasper Yu-Dawidowicz",
+      "published_at": "2026-08-08T05:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/fly-private.jpg"
+    },
+    {
+      "title": "Here's How The Boeing 777-300ER Became The Flagship Of The World's Elite Airlines",
+      "description": "The 777 succeeded Boeing’s first widebody twinjet, the 767 , and showed the world just how great the platform could be for both the economics of the notoriously volatile flying business and the satisfaction of flyers. The success of the 777 series directly contributed to the end of its larger…",
+      "url": "https://simpleflying.com/how-boeing-777-300er-flagship-worlds-elite-airlines/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-08T02:00:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/here-s-how-the-boeing-777-300er-became-the-flagship-of-the-world-s-elite-airlines.jpg"
+    },
+    {
+      "title": "5 Airlines With The World's Most Luxurious First Class Suites In 2026",
+      "description": "The first class cabin is always seen as the ultimate in luxury with lavish features that many can only dream of. Business class has evolved into a more extensive product, with lie-flat beds and now private suites, and with more business class products than ever, first class has become more…",
+      "url": "https://simpleflying.com/5-airlines-worlds-most-luxurious-first-class-suites-in-2026/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-08-08T01:30:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/luxiurious-airline.jpg"
+    },
+    {
+      "title": "Sun Country Airlines Flight Attendant Accused Of Racist Comments Faces Assault Charges",
+      "description": "A flight attendant working for Minneapolis-based Sun Country Airlines has been charged with assault after a passenger claimed the crew member made racially motivated comments towards the traveler and a sports group she was traveling with. The attendant, known as Jean Riegelman as per court…",
+      "url": "https://simpleflying.com/sun-country-airlines-flight-attendant-racist-comments-assault-charges/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-08T01:04:33Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/sun-country-boeing-737-coming-into-land-1.jpg"
+    },
+    {
+      "title": "Faster Pathways to High-Paying Aviation Careers",
+      "description": "As the traditional school year is about to get underway, it is likely that parents of high school students are having some serious discussions about what the child will do after graduation. Ostensibly the benefit of post-secondary education is to enable the student to get a job. However,…",
+      "url": "https://www.flyingmag.com/faster-pathways-to-high-paying-aviation-careers/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-07T19:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2022/05/aviation_maintenance_hero-1.jpg?w=1024"
+    },
+    {
+      "title": "This 1978 Bellanca 8KCAB Decathlon Is a Tactile, Aerobatic ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1978 Bellanca 8KCAB Decathlon. There…",
+      "url": "https://www.flyingmag.com/this-1978-bellanca-8kcab-decathlon-is-a-tactile-aerobatic-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-08-07T17:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/decathlon2.webp"
+    },
+    {
+      "title": "Utah Begins Real-World Hybrid-Electric Aircraft Demonstrations",
+      "description": "The Utah Department of Transportation (UDOT) has launched real-world demonstrations with a hybrid-electric aircraft, which Thursday morning flew close to 250 miles from Salt Lake City to Cedar City. Utah residents who missed the landmark flight need not worry. UDOT said it was the “first of…",
+      "url": "https://www.flyingmag.com/utah-hybrid-electric-aircraft-demonstrations/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-07T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Ampaire-N337EE-Static-Angle-Across-SLC.mp4"
     },
     {
       "title": "Wizz on track to be over GTF-related aircraft groundings by end of 2027",
@@ -56,15 +119,6 @@
       "author": "Graham Dunn",
       "published_at": "2026-08-07T08:52:46Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/wizz-a321neo-pw-engine-cms_digital_shutterstock_950-480x364.jpg"
-    },
-    {
-      "title": "Southwest Airlines Is No Longer Known As The World's Strongest Airline Brand: Here's What Happened",
-      "description": "For the first time in several years, Southwest Airlines is not the strongest airline brand in the world. Brand Finance's Airlines 50 2026 report, published in April, placed All Nippon Airways at the top of the brand strength rankings with a BSI score of 90.2 out of 100 and a AAA+ rating. Southwest…",
-      "url": "https://simpleflying.com/southwest-airlines-no-longer-known-worlds-strongest-airline-brand-what-happened/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-08-07T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/southwest-airlines-is-no-longer-known-as-the-world-s-strongest-airline-brand-here-s-what-happened.jpg"
     },
     {
       "title": "Chinese orders and Farnborough agreements push Airbus net total past 1,000",
@@ -83,24 +137,6 @@
       "author": "Greg Waldron",
       "published_at": "2026-08-07T06:49:36Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/MH-60R-480x319.jpg"
-    },
-    {
-      "title": "Minneapolis-St. Paul Operations Resume After ATC Outage Grounds Flights Across The Midwest",
-      "description": "Jetliners over nine states lost contact with air traffic control in flight on Thursday for approximately two hours. The impacted center controls traffic to and from airports across Minnesota, Missouri, Kansas, South Dakota, North Dakota, Wisconsin, Michigan, Nebraska, and Iowa.",
-      "url": "https://simpleflying.com/minneapolis-st-paul-operations-resume-atc-outage-grounds-flights-midwest/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-07T06:19:48Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/ground-operations-at-minneapolis-saint-paul-international-the-largest-and-busiest-airport-in-the-upper-midwest.jpg"
-    },
-    {
-      "title": "Why Boeing's Quieter Engines Carry A Penalty No Airbus Aircraft Accepts",
-      "description": "Not all next-generation technologies are enduring. Some are more transitional in character. For years, NASA worked on sawtooth edges on aero engines to reduce noise. Boeing took this technology and developed it for its cleansheet Boeing 787 . Some of the technology used to develop the Dreamliner…",
-      "url": "https://simpleflying.com/why-boeing-quieter-engines-carry-penalty-no-airbus-aircaft-accept/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-07T05:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/quieter-engines.jpg"
     },
     {
       "title": "FAA orders Boeing 737 Max inspections, proposes 787 Trent 1000 safety fix",
@@ -175,15 +211,6 @@
       "image": null
     },
     {
-      "title": "Best Helicopter Pilot Jobs in Alaska",
-      "description": "Editor’s note: The following article is not intended to be a ranking, but is only to serve as a list of possible options. As the saying goes, your mileage may vary. The Alaskan wilderness is a beautiful place to call home and working above it offers even more spectacular views. Being a helicopter…",
-      "url": "https://www.flyingmag.com/best-helicopter-pilot-jobs-in-alaska/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-06T12:00:00Z",
-      "image": null
-    },
-    {
       "title": "Aircraft Maintenance: What to check after a smoky flight",
       "description": "Our flight to EAA AirVenture Oshkosh in Wisconsin this year included some extensive instrument conditions, with visibility frequently less than one statute mile in dense smoke from the Canadian wildfires. What we found after landing surprised us—and changed how we maintain our aircraft.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -199,42 +226,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-05T20:30:01Z",
-      "image": null
-    },
-    {
-      "title": "FAA Targets Boeing 737 Passenger Seats Over Safety Concerns",
-      "description": "The FAA has released a notice of proposed rulemaking (NPRM) for an airworthiness directive (AD) aimed at tens of thousands of seats on Boeing 737s because they may have been installed incorrectly and could come loose in severe turbulence. FLYING obtained a copy of the proposed AD , which affects…",
-      "url": "https://www.flyingmag.com/faa-targets-boeing-737-passenger-seats-over-safety-concerns/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-05T20:00:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Examines Loss of Separation Involving Marine One Near D.C.",
-      "description": "The FAA is investigating a loss of separation involving a commercial airliner and a military helicopter carrying President Donald Trump. According to the agency, Trump’s Marine One helicopter took off from the White House Tuesday afternoon, and air traffic controllers at nearby Ronald Reagan…",
-      "url": "https://www.flyingmag.com/faa-examines-loss-of-separation-involving-marine-one-near-d-c/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-05T17:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2004 Vulcanair P.68C Is a Rare ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2004 Vulcanair P.68C. Distinguished…",
-      "url": "https://www.flyingmag.com/this-2004-vulcanair-p-68c-is-a-rare-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-05T16:00:00Z",
-      "image": "https://www.youtube.com/embed/QVM0A5bJk-A"
-    },
-    {
-      "title": "AOPA Thanks Chris Rocheleau for FAA Leadership, Congratulates Return to NBAA",
-      "description": "WASHINGTON, July 31, 2026—The Aircraft Owners and Pilots Association (AOPA) congratulates FAA Deputy Administrator Chris Rocheleau on his return to general aviation as chief operating officer of the National Business Aviation Association.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/july/31/pr-aopa-thanks-chris-rocheleau-for-faa-leadership-congratulates-return-to-nbaa?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-01T00:27:02Z",
       "image": null
     }
   ]
