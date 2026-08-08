@@ -3,6 +3,16 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #013
+    title: "The Gimli Glider",
+    tag: "Heroic Moments",
+    accent: "#e8c766",
+    stamp: "Survived",
+    date: "July 1983",
+    excerpt: "A fuel calculation error, pounds mixed up for kilograms, left a Boeing 767 completely powerless at 41,000 feet with 69 people aboard. Captain Bob Pearson, a recreational glider pilot, dead-sticked it onto a decommissioned air force runway that happened to be hosting a drag race that day. Nobody died.",
+    url: "gimli-glider.html"
+  },
+  {
     // CASE FILE #012
     title: "The Plane That Fell From The Sky",
     tag: "Black Box Files",
