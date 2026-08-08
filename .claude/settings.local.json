@@ -3,7 +3,9 @@
     "allow": [
       "Skill(run)",
       "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" \"https://aviationweek.com/rss.xml\")",
-      "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" \"https://simpleflying.com/feed/\")"
+      "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" \"https://simpleflying.com/feed/\")",
+      "Bash(crontab -l)",
+      "PowerShell(wsl.exe -l -v; wsl.exe -d Ubuntu-26.04 -- bash -lc \"crontab -l 2>&1; echo '---'; which crontab; cat /etc/os-release | head -3\")"
     ]
   }
 }
