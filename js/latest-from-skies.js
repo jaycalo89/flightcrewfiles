@@ -142,7 +142,12 @@ document.addEventListener('DOMContentLoaded', function () {
     return card;
   }
 
-  fetch('videos-data.json?v=' + Date.now())
+  // GitHub Pages doesn't allow custom cache-control headers, so cache-bust by
+  // fetching the small version file first and using its "v" as the query string.
+  fetch('videos-version.json')
+    .then(function (res) { return res.json(); })
+    .catch(function () { return { v: Date.now() }; })
+    .then(function (versionData) { return fetch('videos-data.json?v=' + encodeURIComponent(versionData.v)); })
     .then(function (res) { return res.json(); })
     .then(function (data) {
       var items = (data.items || [])

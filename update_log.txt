@@ -1644,3 +1644,57 @@ TypeError: fetch_reddit_feed() missing 2 required positional arguments: 'client_
 [2026-08-08 10:13:32]        Aviation Stack Exchange: 5 questions fetched
 [2026-08-08 10:13:32] OK     Fetch aviation community feed -> 8
 [2026-08-08 10:13:32] Flight Crew Files update run finished in 49.1s
+[2026-08-08 17:25:03] ============================================================
+[2026-08-08 17:25:03] Flight Crew Files update run starting
+[2026-08-08 17:25:03] START  Fetch YouTube videos
+[2026-08-08 17:25:10] OK     Fetch YouTube videos -> 40
+[2026-08-08 17:25:10] START  Fetch aviation news
+[2026-08-08 17:25:10]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-08 17:25:13]        Simple Flying: 8 articles from https://simpleflying.com/feed (2 rejected by validation)
+[2026-08-08 17:25:16]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-08-08 17:25:17]        The Aviation Herald feed skipped (malformed XML) -> syntax error: line 2, column 0
+[2026-08-08 17:25:20]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-08 17:25:27]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-08 17:25:27]        114 article(s) rejected by validation across all feeds
+[2026-08-08 17:25:27] OK     Fetch aviation news -> 25
+[2026-08-08 17:25:27] START  Fetch UAP news
+[2026-08-08 17:25:37]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-08 17:25:39]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-08 17:25:39]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-08 17:25:40]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-08 17:25:40]        89 article(s) rejected by validation across all feeds
+[2026-08-08 17:25:40] OK     Fetch UAP news -> 11
+[2026-08-08 17:25:40] START  Generate sitemap.xml
+[2026-08-08 17:25:40] OK     Generate sitemap.xml -> 50
+[2026-08-08 17:25:40] START  Fetch aviation community feed
+[2026-08-08 17:25:41]        Hacker News: 5 stories fetched
+[2026-08-08 17:25:41]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-08 17:25:41] OK     Fetch aviation community feed -> 8
+[2026-08-08 17:25:41] Flight Crew Files update run finished in 38.1s
+[2026-08-08 17:27:56] ============================================================
+[2026-08-08 17:27:56] Flight Crew Files update run starting
+[2026-08-08 17:27:56] START  Fetch YouTube videos
+[2026-08-08 17:27:59] OK     Fetch YouTube videos -> 40
+[2026-08-08 17:27:59] START  Fetch aviation news
+[2026-08-08 17:27:59]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-08 17:28:02]        Simple Flying: 8 articles from https://simpleflying.com/feed (2 rejected by validation)
+[2026-08-08 17:28:04]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-08-08 17:28:05]        The Aviation Herald feed skipped (malformed XML) -> syntax error: line 2, column 0
+[2026-08-08 17:28:08]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-08 17:28:15]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-08 17:28:15]        114 article(s) rejected by validation across all feeds
+[2026-08-08 17:28:15] OK     Fetch aviation news -> 25
+[2026-08-08 17:28:15] START  Fetch UAP news
+[2026-08-08 17:28:25]        The Black Vault: 4 articles from https://theblackvault.com/casefiles/feed (21 rejected by validation)
+[2026-08-08 17:28:27]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-08 17:28:29]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-08 17:28:30]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-08 17:28:30]        89 article(s) rejected by validation across all feeds
+[2026-08-08 17:28:30] OK     Fetch UAP news -> 11
+[2026-08-08 17:28:30] START  Generate sitemap.xml
+[2026-08-08 17:28:30] OK     Generate sitemap.xml -> 50
+[2026-08-08 17:28:30] START  Fetch aviation community feed
+[2026-08-08 17:28:31]        Hacker News: 5 stories fetched
+[2026-08-08 17:28:31]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-08 17:28:31] OK     Fetch aviation community feed -> 8
+[2026-08-08 17:28:31] Flight Crew Files update run finished in 34.8s

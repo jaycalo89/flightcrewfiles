@@ -97,6 +97,15 @@ def write_json(filename, data):
     return path
 
 
+def write_version_file(filename):
+    """Write a small {"v": ..., "updated": ...} sidecar file next to a data
+    file. GitHub Pages doesn't allow custom cache-control headers, so the
+    front-end fetches this version file first and appends its "v" to the
+    data file's URL as a cache-busting query string."""
+    now = datetime.now(timezone.utc)
+    write_json(filename, {"v": str(int(now.timestamp())), "updated": now.isoformat()})
+
+
 # --------------------------------------------------------------------------
 # Step 1: YouTube videos -> videos-data.json
 # --------------------------------------------------------------------------
@@ -161,6 +170,7 @@ def fetch_youtube_videos(api_key):
         "items": items,
     }
     write_json("videos-data.json", payload)
+    write_version_file("videos-version.json")
     return len(items)
 
 
@@ -580,7 +590,7 @@ def fetch_one_feed(url, source_name):
     raise RuntimeError(f"unrecognized feed format (root element <{root_tag}>)")
 
 
-def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS, keyword_exempt_domains=None, max_age=MAX_ARTICLE_AGE):
+def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS, keyword_exempt_domains=None, max_age=MAX_ARTICLE_AGE, version_filename=None):
     """Fetch a list of (url, source_name) RSS/Atom feeds, merge, dedupe, sort by
     recency, and save. Each feed is isolated -- one bad feed logs a warning and
     is skipped rather than failing the whole run."""
@@ -635,6 +645,8 @@ def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS
         "articles": articles,
     }
     write_json(filename, payload)
+    if version_filename:
+        write_version_file(version_filename)
 
     if feed_errors:
         log(f"       {len(feed_errors)} of {len(feeds)} feed(s) failed for {filename}")
@@ -646,7 +658,7 @@ def fetch_rss_news(feeds, filename, query_label, cap=30, keywords=TITLE_KEYWORDS
 
 def fetch_aviation_news():
     label = "RSS: " + ", ".join(name for _, name in AVIATION_FEEDS)
-    return fetch_rss_news(AVIATION_FEEDS, "news.json", label, cap=30)
+    return fetch_rss_news(AVIATION_FEEDS, "news.json", label, cap=30, version_filename="news-version.json")
 
 
 def fetch_uap_news():
@@ -654,7 +666,7 @@ def fetch_uap_news():
     return fetch_rss_news(
         UAP_FEEDS, "uap_news.json", label, cap=30,
         keywords=UAP_KEYWORDS, keyword_exempt_domains=UAP_KEYWORD_EXEMPT_DOMAINS,
-        max_age=UAP_MAX_ARTICLE_AGE,
+        max_age=UAP_MAX_ARTICLE_AGE, version_filename="uap-version.json",
     )
 
 

@@ -47,7 +47,15 @@
   }
 
   function fetchNews() {
-    return fetch('news.json').then(function (res) { return res.json(); });
+    // GitHub Pages doesn't allow custom cache-control headers, so cache-bust
+    // by fetching the small version file first and appending its "v" to the
+    // news.json request -- a new v means new content, an unchanged v lets
+    // the browser reuse its cached copy.
+    return fetch('news-version.json')
+      .then(function (res) { return res.json(); })
+      .catch(function () { return { v: Date.now() }; })
+      .then(function (versionData) { return fetch('news.json?v=' + encodeURIComponent(versionData.v)); })
+      .then(function (res) { return res.json(); });
   }
 
   function sanitizeText(text) {
