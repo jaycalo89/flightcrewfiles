@@ -3,6 +3,16 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #015
+    title: "The Flight That Lasted 32 Minutes Too Long",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "August 1985",
+    excerpt: "A Boeing 747's rear pressure bulkhead failed twelve minutes after takeoff from Tokyo, tearing away the tail and severing all four hydraulic systems. Captain Masami Takahama and his crew fought for 32 minutes using only engine thrust. 520 of 524 people aboard died. It remains the deadliest single-aircraft accident in aviation history.",
+    url: "japan-airlines-123.html"
+  },
+  {
     // CASE FILE #014
     title: "The Night The US Air Force Met Something They Couldn't Explain",
     tag: "UAP Files",
