@@ -95,6 +95,19 @@
   }
   @keyframes bb-quote-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
   @media (prefers-reduced-motion:reduce){.bb-quote-track{animation:none;}}
+
+  /* ===== Unified case-file badge row: intensity rating + full case file / coming soon ===== */
+  .file-badge-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;}
+  .file-status-badge{
+    display:inline-flex;align-items:center;gap:7px;
+    font-family:'Oswald',sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+    border-radius:4px;padding:8px 14px;
+  }
+  .file-status-badge::before{content:"";width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+  .file-status-badge.is-full{color:#22c55e;border:1px solid #22c55e;background:rgba(34,197,94,0.08);}
+  .file-status-badge.is-full::before{background:#22c55e;}
+  .file-status-badge.is-soon{color:rgba(246,248,252,0.55);border:1px solid rgba(246,248,252,0.3);background:rgba(255,255,255,0.03);}
+  .file-status-badge.is-soon::before{background:rgba(246,248,252,0.4);}
 </style>
 </head>
 <body>
@@ -207,7 +220,11 @@
 <section class="section" id="featured-case-file" style="padding-bottom:0;">
   <div class="container">
     <div class="file-card" style="border-color:rgba(224,91,91,0.5);">
-      <span class="file-stamp" style="border-color:#e05b5b;color:#ff8080;">Featured Case File &middot; Harrowing</span>
+      <span class="file-stamp" style="border-color:#e05b5b;color:#ff8080;">Featured Case File</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 10/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. BB-1985-0812 &middot; FULL INVESTIGATION ARCHIVE</div>
       <h3 class="file-title">Japan Airlines 123: The Flight That Lasted 32 Minutes Too Long</h3>
       <span class="file-date" style="color:#ff8080;">August 12, 1985, Haneda, Tokyo to Osutaka Ridge, Gunma Prefecture</span>
@@ -230,6 +247,10 @@
   <div class="container">
     <div class="file-card" style="border-color:var(--border-gold);">
       <span class="file-stamp" style="border-color:var(--gold-500);color:var(--gold-400);">Featured Case File</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 9/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. BB-2005-0814 · FULL INVESTIGATION ARCHIVE</div>
       <h3 class="file-title">Helios 522: The Ghost Flight</h3>
       <span class="file-date" style="color:var(--gold-400);">August 14, 2005, Larnaca, Cyprus to Grammatiko, Greece</span>
@@ -258,6 +279,10 @@
 
     <div class="file-card">
       <span class="file-stamp">Declassified</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 9/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-1982-0113 · CVR / RECONSTRUCTED TRANSCRIPT</div>
       <h3 class="file-title">“Larry, We're Going Down, Larry”</h3>
       <span class="file-date">January 13, 1982, Washington National Airport, D.C.</span>
@@ -281,6 +306,10 @@
 
     <div class="file-card">
       <span class="file-stamp">Case Closed</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#f97316;border-color:#f97316;">Intensity: Disturbing &#9679; 8/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-1999-1025 · MILITARY INTERCEPT AUDIO</div>
       <h3 class="file-title">The Ghost Flight: Payne Stewart's Learjet</h3>
       <span class="file-date">October 25, 1999, Over the Central United States</span>
@@ -304,6 +333,10 @@
 
     <div class="file-card">
       <span class="file-stamp">Declassified</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 10/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-2001-0911 · FAA RECORDING · RELEASED</div>
       <h3 class="file-title">“We Have Some Planes”: Boston Center, 9/11</h3>
       <span class="file-date">September 11, 2001, Boston Air Route Traffic Control Center</span>
@@ -327,6 +360,10 @@
 
     <div class="file-card">
       <span class="file-stamp">Declassified</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 9/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-2000-0131 · CVR / RECONSTRUCTED TRANSCRIPT</div>
       <h3 class="file-title">“Push and Push and Push”</h3>
       <span class="file-date">January 31, 2000, Pacific Ocean off Point Mugu, California</span>
@@ -350,6 +387,10 @@
 
     <div class="file-card">
       <span class="file-stamp">Declassified</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 9/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-1998-0902 · TSB RECORDING · RELEASED</div>
       <h3 class="file-title">“Pan Pan, Pan Pan, Pan Pan”</h3>
       <span class="file-date">September 2, 1998, Off Peggy's Cove, Nova Scotia</span>
@@ -373,6 +414,10 @@
 
     <div class="file-card" style="border-color:rgba(176,107,255,0.4);">
       <span class="file-stamp" style="border-color:#b06bff;color:#b06bff;">Case Open</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#f97316;border-color:#f97316;">Intensity: Disturbing &#9679; 8/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-2014-0308 · ATC RECORDING · TRANSCRIPT ONLY</div>
       <h3 class="file-title">&#8220;Good Night Malaysian Three Seven Zero&#8221;</h3>
       <span class="file-date">March 8, 2014, Somewhere Over The Gulf Of Thailand</span>
@@ -392,6 +437,10 @@
 
     <div class="file-card" style="border-color:var(--border-gold);">
       <span class="file-stamp">Deadliest On Record</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 10/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-1977-0327 &middot; CVR / RECONSTRUCTED TRANSCRIPT</div>
       <h3 class="file-title">&#8220;We Are Now At Take-Off&#8221;</h3>
       <span class="file-date">March 27, 1977, Los Rodeos Airport, Tenerife, Canary Islands</span>
@@ -410,6 +459,10 @@
 
     <div class="file-card" style="border-color:var(--border-gold);">
       <span class="file-stamp" style="border-color:var(--gold-500);color:var(--gold-400);">Featured Case File</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#ef4444;border-color:#ef4444;">Intensity: Harrowing &#9679; 9/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. ATC-2009-0601 &middot; BEA FINAL REPORT &middot; VERIFIED</div>
       <h3 class="file-title">The Plane That Fell From The Sky</h3>
       <span class="file-date">June 1, 2009, Mid-Atlantic Ocean, off Brazil</span>
@@ -441,6 +494,10 @@
 
     <div class="file-card uap">
       <span class="file-stamp">Unresolved</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#3b82f6;border-color:#3b82f6;">Intensity: Engaging &#9679; 4/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. UAP-2021-0221 · ATC RECORDING · AUTHENTIC</div>
       <h3 class="file-title">“It Looked Like a Cruise Missile”</h3>
       <span class="file-date">February 21, 2021, Near Cimarron, New Mexico</span>
@@ -464,6 +521,10 @@
 
     <div class="file-card uap">
       <span class="file-stamp">Archived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#eab308;border-color:#eab308;">Intensity: Gripping &#9679; 5/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. UAP-1986-1117 · AUDIO NOT PUBLICLY RELEASED</div>
       <h3 class="file-title">“Two Small Ships and a Mothership”</h3>
       <span class="file-date">November 17, 1986, Eastern Alaska</span>
@@ -484,6 +545,10 @@
 
     <div class="file-card uap">
       <span class="file-stamp">Archived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#3b82f6;border-color:#3b82f6;">Intensity: Engaging &#9679; 4/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. UAP-1978-1221 · AUDIO NOT HOSTED ON YOUTUBE</div>
       <h3 class="file-title">The Kaikōura Lights</h3>
       <span class="file-date">December 21–31, 1978, Kaikōura, New Zealand</span>
@@ -520,6 +585,10 @@
 
     <div class="file-card miracle">
       <span class="file-stamp">Survived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#eab308;border-color:#eab308;">Intensity: Gripping &#9679; 6/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. MIR-2009-0115 · ATC RECORDING · AUTHENTIC</div>
       <h3 class="file-title">“We're Gonna Be In the Hudson”</h3>
       <span class="file-date">January 15, 2009, New York City</span>
@@ -543,6 +612,10 @@
 
     <div class="file-card miracle">
       <span class="file-stamp">Survived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#f97316;border-color:#f97316;">Intensity: Disturbing &#9679; 8/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. MIR-1989-0719 · ATC RECORDING · AUTHENTIC</div>
       <h3 class="file-title">The Sioux City Miracle</h3>
       <span class="file-date">July 19, 1989, Sioux City, Iowa</span>
@@ -566,6 +639,10 @@
 
     <div class="file-card miracle">
       <span class="file-stamp">Survived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#f97316;border-color:#f97316;">Intensity: Disturbing &#9679; 7/10</span>
+        <span class="file-status-badge is-full">Full Case File</span>
+      </div>
       <div class="file-num">CASE FILE NO. MIR-1983-0723 · ATC RECORDING · AUTHENTIC</div>
       <h3 class="file-title">The Gimli Glider</h3>
       <span class="file-date">July 23, 1983, Gimli, Manitoba, Canada</span>
@@ -589,6 +666,10 @@
 
     <div class="file-card miracle">
       <span class="file-stamp">Survived</span>
+      <div class="file-badge-row">
+        <span class="cf-intensity-pill" style="color:#eab308;border-color:#eab308;">Intensity: Gripping &#9679; 5/10</span>
+        <span class="file-status-badge is-soon">Coming Soon</span>
+      </div>
       <div class="file-num">CASE FILE NO. MIR-2010-1104 · DOCUMENTARY RECONSTRUCTION</div>
       <h3 class="file-title">The A380 That Wouldn't Quit</h3>
       <span class="file-date">November 4, 2010, Batam Island, Indonesia</span>
