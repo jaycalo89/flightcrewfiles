@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
       credibility: 'Military'
     },
     {
-      id: 'rendlesham-1980', lat: 52.0896, lng: 1.4274,
+      id: 'rendlesham-1980', lat: 52.0896, lng: 1.4274, url: 'rendlesham-forest.html',
       name: 'Rendlesham Forest', year: '1980', location: 'Rendlesham Forest, England',
-      description: 'U.S. Air Force personnel stationed beside a NATO airbase reported a craft on the ground in the forest over several nights. The deputy base commander documented radiation readings above background level in an official memo to the UK Ministry of Defence.',
+      description: 'U.S. Air Force personnel stationed beside a NATO airbase reported a craft on the ground in the forest over three nights. The deputy base commander recorded his own investigation on a pocket tape recorder and documented radiation readings above background level in an official memo to the UK Ministry of Defence.',
       credibility: 'Military'
     },
     {

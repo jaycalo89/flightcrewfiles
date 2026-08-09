@@ -3,6 +3,16 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #014
+    title: "The Night The US Air Force Met Something They Couldn't Explain",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "The Halt Tape",
+    date: "December 1980",
+    excerpt: "Over three nights after Christmas 1980, US Air Force security police at RAF Woodbridge reported a craft in the forest beside their NATO base in Suffolk, England. Two nights later, the deputy base commander went out to investigate personally, carrying a pocket tape recorder. The 18-minute tape was declassified. Nobody has ever fully explained what's on it.",
+    url: "rendlesham-forest.html"
+  },
+  {
     // CASE FILE #013
     title: "The Gimli Glider",
     tag: "Heroic Moments",
