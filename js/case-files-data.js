@@ -3,6 +3,26 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #017
+    title: "The Sioux City Miracle",
+    tag: "Heroic Moments",
+    accent: "#e8c766",
+    stamp: "Miracle",
+    date: "July 1989",
+    excerpt: "A DC-10's tail engine disintegrated at 37,000 feet, severing all three of the aircraft's independent hydraulic systems at once, a failure its designers considered virtually impossible. Captain Al Haynes and an off-duty pilot who came forward from coach steered using only engine thrust. 184 of 296 people aboard survived a landing investigators called virtually impossible.",
+    url: "united-232.html"
+  },
+  {
+    // CASE FILE #016
+    title: "\"Larry, We're Going Down, Larry\"",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "January 1982",
+    excerpt: "A snow-delayed Boeing 737 took off from Washington National with ice-blocked engine sensors and never truly climbed, clipping the 14th Street Bridge and plunging into the frozen Potomac River. Of 79 people aboard, 5 survived. One passenger, Arland Williams, twice passed the rescue line to others before he drowned.",
+    url: "air-florida-90.html"
+  },
+  {
     // CASE FILE #015
     title: "The Flight That Lasted 32 Minutes Too Long",
     tag: "Black Box Files",
