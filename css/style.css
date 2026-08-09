@@ -510,10 +510,10 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   box-shadow:0 0 0 1px rgba(212,175,55,0.35), 0 38px 74px -30px rgba(212,175,55,0.65), var(--shadow-soft);
 }
 .cf-stamp{
-  position:absolute;top:18px;right:18px;z-index:2;
+  position:absolute;top:16px;left:16px;z-index:2;max-width:calc(100% - 66px);
   display:inline-block;border:2px solid #ff6b6b;color:#ff6b6b;
-  font-family:'Oswald',sans-serif;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
-  padding:4px 10px;transform:rotate(-6deg);font-size:.6rem;border-radius:4px;
+  font-family:'Oswald',sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  padding:4px 9px;font-size:.56rem;border-radius:4px;white-space:nowrap;
   background:rgba(3,6,15,0.6);opacity:.92;
 }
 .case-file-media{
@@ -579,9 +579,10 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   box-shadow:var(--shadow-soft);
 }
 .case-stamp{
-  position:absolute;top:22px;right:22px;border:2px solid var(--accent);color:var(--accent);
+  display:inline-block;border:2px solid var(--accent);color:var(--accent);
   font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;
-  padding:5px 10px;border-radius:6px;transform:rotate(6deg);font-weight:700;opacity:.85;
+  padding:5px 10px;border-radius:6px;font-weight:700;opacity:.85;
+  margin-bottom:14px;
 }
 .case-meta{display:flex;gap:16px;flex-wrap:wrap;font-size:.78rem;color:var(--muted-light);margin-bottom:14px;font-family:'Oswald',sans-serif;letter-spacing:.04em;text-transform:uppercase;}
 .case-meta span{border-left:2px solid var(--accent);padding-left:8px;}
@@ -1175,9 +1176,10 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .file-card.uap{border-color:rgba(57,230,197,0.32);}
 
 .file-stamp{
-  position:absolute;top:24px;right:26px;border:2px solid #a43333;color:#e05b5b;
+  display:inline-block;border:2px solid #a43333;color:#e05b5b;
   font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;
-  padding:5px 11px;border-radius:6px;transform:rotate(5deg);font-weight:700;opacity:.9;
+  padding:5px 11px;border-radius:6px;font-weight:700;opacity:.9;
+  margin-bottom:14px;
 }
 .file-card.miracle .file-stamp{border-color:var(--gold-500);color:var(--gold-400);}
 .file-card.uap .file-stamp{border-color:#39e6c5;color:#39e6c5;}
