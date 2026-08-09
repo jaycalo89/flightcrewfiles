@@ -211,6 +211,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flightcrewfiles.com/pan-am-103.html</loc>
+    <lastmod>2026-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://flightcrewfiles.com/passenger-archives.html</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>

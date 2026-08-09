@@ -3,6 +3,16 @@
 // deep-dives here as they're published.
 const CASE_FILES = [
   {
+    // CASE FILE #018
+    title: "The Night Lockerbie Burned",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "December 1988",
+    excerpt: "A bomb hidden inside a radio cassette player exploded aboard Pan Am Flight 103 over Lockerbie, Scotland, killing all 259 people aboard, including 35 Syracuse University students flying home for Christmas, and 11 more on the ground. It remains the deadliest terrorist attack in British history, and the case is still active today.",
+    url: "pan-am-103.html"
+  },
+  {
     // CASE FILE #017
     title: "The Sioux City Miracle",
     tag: "Heroic Moments",
