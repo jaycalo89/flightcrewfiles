@@ -257,7 +257,7 @@ git_push_with_token() {
 commit_and_push() {
   cd "$REPO_DIR" || { log "ERROR Cannot cd to $REPO_DIR"; PUSH_OK=0; return 1; }
 
-  git add videos-data.json news.json uap_news.json sitemap.xml community_feed.json
+  git add news.json videos-data.json uap_news.json sitemap.xml community_feed.json news-version.json uap-version.json videos-version.json
 
   if git diff --cached --quiet; then
     log "INFO  No changes to commit this run"
