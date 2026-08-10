@@ -14,6 +14,8 @@
     'UAP Files': '<ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/>'
   };
   var DEFAULT_ICON = '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>';
+  var FALLBACK_IMAGE = 'images/site/tbf-avenger-formation-fallback.jpg';
+  var FALLBACK_CREDIT = { text: 'Photo: Lt. Cdr. Horace Bristol, U.S. Navy / National Archives, Public Domain', url: 'https://commons.wikimedia.org/wiki/File:TBF_(Avengers)_flying_in_formation_(cropped).jpg' };
 
   // Same 5-band scale as js/case-file-features.js's per-page intensity pill.
   var INTENSITY_SCALE = [
@@ -34,11 +36,14 @@
     var mount = document.getElementById('featured-case-file');
     if (!mount || !entry) return;
     var meta = intensityInfo(entry.intensity || 6);
+    var image = entry.image || FALLBACK_IMAGE;
+    var credit = entry.imageCredit || FALLBACK_CREDIT;
     mount.style.setProperty('--accent', entry.accent || '#2e8fff');
     mount.innerHTML =
-      '<div class="fch-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">' +
-        (ICONS[entry.tag] || DEFAULT_ICON) +
-      '</svg></div>' +
+      '<div class="fch-media">' +
+        '<img class="fch-media-img">' +
+        (credit.url ? '<a class="fch-media-credit" target="_blank" rel="noopener"></a>' : '<span class="fch-media-credit"></span>') +
+      '</div>' +
       '<div class="fch-body">' +
         '<span class="fch-eyebrow"><span class="fch-eyebrow-dot"></span>Featured Case File &middot; Updated Weekly</span>' +
         '<div class="fch-pills"></div>' +
@@ -71,6 +76,14 @@
     mount.querySelector('.fch-title a').textContent = entry.title || '';
     mount.querySelector('.fch-quote').textContent = entry.pullQuote ? '“' + entry.pullQuote + '”' : '';
     mount.querySelector('.fch-excerpt').textContent = entry.excerpt || '';
+
+    var img = mount.querySelector('.fch-media-img');
+    img.src = image;
+    img.alt = entry.title || 'Featured case file';
+    img.loading = 'lazy';
+    var creditEl = mount.querySelector('.fch-media-credit');
+    creditEl.textContent = credit.text;
+    if (credit.url) creditEl.href = credit.url;
   }
 
   function buildMissedCard(entry) {

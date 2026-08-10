@@ -3,7 +3,7 @@
 // and intensity range are computed live, so adding a new case file to the
 // data file is the only thing needed to keep this page accurate.
 (function () {
-  function buildCard(key, meta, cases, index) {
+  function buildCard(key, meta, cases) {
     var count = cases.length;
     var a = document.createElement('a');
     a.href = meta.page;
@@ -11,7 +11,6 @@
     a.style.setProperty('--accent', meta.accent);
     a.style.setProperty('--bb-img', 'url(../' + meta.image + ')');
     a.innerHTML =
-      '<span class="bb-cat-row-file">Section 0' + (index + 1) + '</span>' +
       '<div class="bb-cat-row-text">' +
         '<h3></h3>' +
         '<p></p>' +
@@ -40,10 +39,10 @@
     var grid = document.getElementById('bb-category-grid');
     if (!grid || typeof BLACKBOX_CATEGORIES === 'undefined') return;
     grid.innerHTML = '';
-    Object.keys(BLACKBOX_CATEGORIES).forEach(function (key, index) {
+    Object.keys(BLACKBOX_CATEGORIES).forEach(function (key) {
       var meta = BLACKBOX_CATEGORIES[key];
       var cases = BLACKBOX_CASES.filter(function (c) { return c.category === key; });
-      grid.appendChild(buildCard(key, meta, cases, index));
+      grid.appendChild(buildCard(key, meta, cases));
     });
   });
 })();
