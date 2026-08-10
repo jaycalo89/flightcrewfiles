@@ -22,6 +22,7 @@
       '</svg></div>' +
       '<div class="case-file-body">' +
         '<span class="date"></span>' +
+        (entry.editorsPick ? '<span class="editors-pick-badge">&#9733; Editor\'s Pick</span>' : '') +
         '<h3></h3>' +
         '<span class="story-date"></span>' +
         '<p></p>' +

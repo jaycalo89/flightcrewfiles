@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260809c">
+<link rel="stylesheet" href="css/style.min.css?v=20260809k">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
 <script>
@@ -119,6 +119,10 @@
   </div>
 </section>
 
+<section class="section" style="padding-bottom:0;">
+  <div class="container" id="hub-featured-mount"></div>
+</section>
+
 <section class="section-tight">
   <div class="container">
     <div class="archive-jump">
@@ -138,8 +142,9 @@
     <p class="section-lede">The saves that became aviation legend, pilots who kept a crippled aircraft flying long enough to bring everyone home.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="sully-hudson">
+      <div class="case-file" id="sully-hudson" data-hub-featured-eligible>
         <span class="case-stamp">NTSB Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Jan 15, 2009</span><span>US Airways Flight 1549</span><span>Hudson River, NY</span></div>
         <h3>The Miracle on the Hudson</h3>
         <span class="story-date">— January 2009</span>
@@ -148,7 +153,7 @@
         <div class="related-links"><strong>Related</strong><a href="#pearson-gimli">The Gimli Glider</a> · <a href="passenger-archives.html#hudson-passengers">Passenger accounts of the ditching</a></div>
       </div>
 
-      <div class="case-file" id="haynes-232">
+      <div class="case-file" id="haynes-232" data-hub-featured-eligible>
         <span class="case-stamp">NTSB Verified</span>
         <div class="case-meta"><span>Jul 19, 1989</span><span>United Airlines Flight 232</span><span>Sioux City, Iowa</span></div>
         <h3>The Captain Who Practiced For A Day Like This</h3>
@@ -178,8 +183,9 @@
         <div class="related-links"><strong>Related</strong><a href="#helios522-pilot">Another silent, high-altitude emergency</a></div>
       </div>
 
-      <div class="case-file" id="alkemade-freefall">
+      <div class="case-file" id="alkemade-freefall" data-hub-featured-eligible>
         <span class="case-stamp">RAF Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Mar 24, 1944</span><span>No. 115 Squadron RAF</span><span>Schmallenberg, Germany</span></div>
         <h3>The Man Who Fell 18,000 Feet, and Walked Away</h3>
         <span class="story-date">— March 1944</span>
@@ -198,7 +204,7 @@
         <div class="related-links"><strong>Related</strong><a href="#sichuan8633">Another mid-air structural failure</a></div>
       </div>
 
-      <div class="case-file" id="wrona-lot16">
+      <div class="case-file" id="wrona-lot16" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>Nov 1, 2011</span><span>LOT Polish Airlines Flight 16</span><span>Warsaw, Poland</span></div>
         <h3>“Fly Like An Eagle, Land Like A Crow”</h3>
@@ -219,7 +225,7 @@
     <p class="section-lede">Structural failures and system faults that pushed flight crews to the edge of what an aircraft, and a pilot, can absorb.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="qantas32">
+      <div class="case-file" id="qantas32" data-hub-featured-eligible>
         <span class="case-stamp">FAA Verified</span>
         <div class="case-meta"><span>Nov 4, 2010</span><span>Qantas Flight 32</span><span>Singapore</span></div>
         <h3>The A380 That Wouldn't Quit</h3>
@@ -662,5 +668,9 @@
 <script src="js/main.min.js?v=20260803"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/hub-featured.min.js" defer></script>
+<script src="js/breadcrumbs.min.js" defer></script>
+<script src="js/random-case-file.min.js" defer></script>
 </body>
 </html>

@@ -1,6 +1,15 @@
 // Flight Crew Files — homepage "Case Files" grid data
 // Each entry renders as a card via js/case-files.js. Add new full case-file
 // deep-dives here as they're published.
+//
+// intensity: 1-10, copied from the linked page's own data-cf-intensity
+// (see js/case-file-features.js) where the target is a case-file page;
+// editorially assigned for entries linking to a hub/category page instead.
+// editorsPick: true for the small curated set the Editor's Pick badge uses.
+// pullQuote: one vivid sentence used by the homepage Featured Case File hero
+// (js/featured-case-file.js) — any entry can be picked, so every entry needs one.
+// startHere: true on the small curated set js/discovery-sections.js uses for
+// the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
     // CASE FILE #018
@@ -10,7 +19,10 @@ const CASE_FILES = [
     stamp: "Harrowing",
     date: "December 1988",
     excerpt: "A bomb hidden inside a radio cassette player exploded aboard Pan Am Flight 103 over Lockerbie, Scotland, killing all 259 people aboard, including 35 Syracuse University students flying home for Christmas, and 11 more on the ground. It remains the deadliest terrorist attack in British history, and the case is still active today.",
-    url: "pan-am-103.html"
+    url: "pan-am-103.html",
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "A bomb hidden inside a radio cassette player brought down a jumbo jet over a Scottish town, and the case is still active today."
   },
   {
     // CASE FILE #017
@@ -20,7 +32,10 @@ const CASE_FILES = [
     stamp: "Miracle",
     date: "July 1989",
     excerpt: "A DC-10's tail engine disintegrated at 37,000 feet, severing all three of the aircraft's independent hydraulic systems at once, a failure its designers considered virtually impossible. Captain Al Haynes and an off-duty pilot who came forward from coach steered using only engine thrust. 184 of 296 people aboard survived a landing investigators called virtually impossible.",
-    url: "united-232.html"
+    url: "united-232.html",
+    intensity: 8,
+    editorsPick: true,
+    pullQuote: "With every hydraulic system gone, a crew improvised a way to fly using only engine thrust, a technique nobody had ever landed with before."
   },
   {
     // CASE FILE #016
@@ -30,7 +45,10 @@ const CASE_FILES = [
     stamp: "Harrowing",
     date: "January 1982",
     excerpt: "A snow-delayed Boeing 737 took off from Washington National with ice-blocked engine sensors and never truly climbed, clipping the 14th Street Bridge and plunging into the frozen Potomac River. Of 79 people aboard, 5 survived. One passenger, Arland Williams, twice passed the rescue line to others before he drowned.",
-    url: "air-florida-90.html"
+    url: "air-florida-90.html",
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "One passenger twice passed the rescue line to strangers in the frozen river before he drowned."
   },
   {
     // CASE FILE #015
@@ -40,7 +58,10 @@ const CASE_FILES = [
     stamp: "Harrowing",
     date: "August 1985",
     excerpt: "A Boeing 747's rear pressure bulkhead failed twelve minutes after takeoff from Tokyo, tearing away the tail and severing all four hydraulic systems. Captain Masami Takahama and his crew fought for 32 minutes using only engine thrust. 520 of 524 people aboard died. It remains the deadliest single-aircraft accident in aviation history.",
-    url: "japan-airlines-123.html"
+    url: "japan-airlines-123.html",
+    intensity: 10,
+    editorsPick: false,
+    pullQuote: "The crew fought for 32 minutes with no flight controls left at all, in the deadliest single-aircraft accident in aviation history."
   },
   {
     // CASE FILE #014
@@ -50,7 +71,11 @@ const CASE_FILES = [
     stamp: "The Halt Tape",
     date: "December 1980",
     excerpt: "Over three nights after Christmas 1980, US Air Force security police at RAF Woodbridge reported a craft in the forest beside their NATO base in Suffolk, England. Two nights later, the deputy base commander went out to investigate personally, carrying a pocket tape recorder. The 18-minute tape was declassified. Nobody has ever fully explained what's on it.",
-    url: "rendlesham-forest.html"
+    url: "rendlesham-forest.html",
+    intensity: 7,
+    editorsPick: true,
+    startHere: true,
+    pullQuote: "A deputy base commander walked into the forest with a pocket tape recorder. Nobody has ever fully explained what's on the tape."
   },
   {
     // CASE FILE #013
@@ -60,7 +85,11 @@ const CASE_FILES = [
     stamp: "Survived",
     date: "July 1983",
     excerpt: "A fuel calculation error, pounds mixed up for kilograms, left a Boeing 767 completely powerless at 41,000 feet with 69 people aboard. Captain Bob Pearson, a recreational glider pilot, dead-sticked it onto a decommissioned air force runway that happened to be hosting a drag race that day. Nobody died.",
-    url: "gimli-glider.html"
+    url: "gimli-glider.html",
+    intensity: 7,
+    editorsPick: true,
+    startHere: true,
+    pullQuote: "A pounds-for-kilograms fuel error left a 767 powerless at 41,000 feet, and a glider pilot dead-sticked it onto a runway hosting a drag race."
   },
   {
     // CASE FILE #012
@@ -69,7 +98,10 @@ const CASE_FILES = [
     accent: "#ff4d4d",
     date: "June 2009",
     excerpt: "An Air France Airbus A330 climbed into a tropical storm over the mid-Atlantic, its speed sensors iced over, and the autopilot handed control to two first officers who never understood they were in a stall. It fell for three minutes and thirty seconds. The black boxes weren't found for nearly two years.",
-    url: "air-france-447.html"
+    url: "air-france-447.html",
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "The autopilot handed control to two first officers who never understood they were in a stall, and it fell for three and a half minutes."
   },
   {
     title: "Helios 522: The Ghost Flight",
@@ -77,7 +109,10 @@ const CASE_FILES = [
     accent: "#ff4d4d",
     date: "August 2005",
     excerpt: "A Boeing 737 lost cabin pressure minutes after takeoff from Cyprus, and flew on alone for nearly three hours while everyone aboard slipped into unconsciousness, until a lone flight attendant made it to the flight deck.",
-    url: "helios522.html"
+    url: "helios522.html",
+    intensity: 9,
+    editorsPick: true,
+    pullQuote: "A pressurization fault put everyone aboard to sleep, and the plane kept flying itself for nearly three hours with nobody conscious at the controls."
   },
   {
     title: "Four Engines Dead At 37,000 Feet",
@@ -85,7 +120,11 @@ const CASE_FILES = [
     accent: "#e8c766",
     date: "June 1982",
     excerpt: "In 1982, British Airways Flight 9 flew into an invisible cloud of volcanic ash from Mount Galunggung at night, and all four engines flamed out. Captain Eric Moody's crew glided in silence for thirteen minutes, restarted the engines, and landed safely in Jakarta.",
-    url: "captain-eric-moody.html"
+    url: "captain-eric-moody.html",
+    intensity: 6,
+    editorsPick: false,
+    startHere: true,
+    pullQuote: "All four engines flamed out over an invisible volcanic ash cloud, and the crew glided in silence for thirteen minutes before restarting them."
   },
   {
     title: "The Man Who Fell 18,000 Feet, And Walked Away",
@@ -93,7 +132,10 @@ const CASE_FILES = [
     accent: "#e8c766",
     date: "March 1944",
     excerpt: "When his Lancaster caught fire over Germany and his own parachute burned in the fuselage, RAF tail gunner Nicholas Alkemade jumped anyway, with no parachute at all. He fell three miles through the dark and landed with a sprained knee.",
-    url: "nicholas-alkemade.html"
+    url: "nicholas-alkemade.html",
+    intensity: 7,
+    editorsPick: false,
+    pullQuote: "His own parachute burned in the fuselage, so he jumped anyway with no parachute at all, and fell three miles through the dark."
   },
   {
     title: "Alone In The Amazon",
@@ -101,7 +143,10 @@ const CASE_FILES = [
     accent: "#ff4d4d",
     date: "December 1971",
     excerpt: "On Christmas Eve 1971, lightning tore LANSA Flight 508 apart over the Peruvian Amazon. Ninety-one people died, including the mother seated beside her. Seventeen-year-old Juliane Koepcke fell nearly two miles still strapped to her seat, and survived.",
-    url: "juliane-koepcke.html"
+    url: "juliane-koepcke.html",
+    intensity: 8,
+    editorsPick: false,
+    pullQuote: "A seventeen-year-old fell nearly two miles still strapped to her seat after lightning tore the plane apart, and survived."
   },
   {
     title: "Flight 19: Five Bombers, One Radio Call, No Wreckage",
@@ -109,7 +154,10 @@ const CASE_FILES = [
     accent: "#b06bff",
     date: "December 1945",
     excerpt: "The flight leader's last transmissions described broken compasses, an ocean that “didn't look right,” and white water that wasn't there. The rescue plane sent after them disappeared too. No wreckage from either aircraft was ever found.",
-    url: "bizarre.html"
+    url: "bizarre.html",
+    intensity: 7,
+    editorsPick: false,
+    pullQuote: "The rescue plane sent to find them disappeared too, and no wreckage from either aircraft was ever found."
   },
   {
     title: "The Pilot Who Vanished",
@@ -118,7 +166,10 @@ const CASE_FILES = [
     stamp: "Case Open",
     date: "October 1978",
     excerpt: "Twenty-year-old Frederick Valentich radioed Melbourne air traffic control from his Cessna over Bass Strait to report an aircraft orbiting above him, metallic, shining, with a green light. Six minutes and forty-seven seconds later, mid-transmission, his radio call ended in a burst of metallic noise. Neither he nor his aircraft was ever found.",
-    url: "frederick-valentich.html"
+    url: "frederick-valentich.html",
+    intensity: 7,
+    editorsPick: false,
+    pullQuote: "His radio call ended mid-transmission in a burst of metallic noise. Neither he nor his aircraft was ever found."
   },
   {
     title: "The Plane That Lost Its Roof",
@@ -126,7 +177,10 @@ const CASE_FILES = [
     accent: "#e8c766",
     date: "April 1988",
     excerpt: "At 24,000 feet, 18 feet of Aloha Airlines Flight 243's roof tore away explosively, sweeping flight attendant Clarabelle Lansing into the sky. She was never found. Captain Robert Schornstheimer and First Officer Mimi Tompkins flew the open, structurally broken 737 to a safe landing on Maui, bringing all 94 other people aboard home alive.",
-    url: "aloha-airlines-243.html"
+    url: "aloha-airlines-243.html",
+    intensity: 8,
+    editorsPick: false,
+    pullQuote: "Eighteen feet of roof tore away explosively at 24,000 feet, and the crew still flew the open, broken 737 to a safe landing."
   },
   {
     title: "The Plane That Caused The UFO Panic",
@@ -135,7 +189,11 @@ const CASE_FILES = [
     stamp: "Declassified",
     date: "August 1955",
     excerpt: "Built in 88 days by Lockheed's secret Skunk Works division and flown by CIA officers who signed away their identities, the U-2 spy plane flew so high Soviet missiles couldn't reach it. The CIA has officially confirmed it caused more than half of all UFO reports filed in America during the late 1950s and 1960s, plus the full story of Gary Powers' 1960 shootdown over the USSR.",
-    url: "u2-spy-plane.html"
+    url: "u2-spy-plane.html",
+    intensity: 5,
+    editorsPick: false,
+    startHere: true,
+    pullQuote: "The CIA has officially confirmed this one aircraft caused more than half of all UFO reports filed in America during the late 1950s and 1960s."
   },
   {
     title: "MH370: The Plane That Vanished",
@@ -144,7 +202,10 @@ const CASE_FILES = [
     stamp: "Case Open",
     date: "March 2014",
     excerpt: "A Boeing 777 carrying 239 people vanishes from radar over the South China Sea with no distress call. Satellite data later showed it flew on, alone and unresponsive, for nearly seven more hours into the Southern Indian Ocean. More than a decade (and the largest search in aviation history) later, most of the aircraft has never been found.",
-    url: "mh370.html"
+    url: "mh370.html",
+    intensity: 8,
+    editorsPick: true,
+    pullQuote: "Satellite data showed it flew on, alone and unresponsive, for nearly seven more hours after vanishing from radar with no distress call."
   },
   {
     title: "The First Pilot To Die Chasing A UFO",
@@ -153,7 +214,10 @@ const CASE_FILES = [
     stamp: "Unresolved",
     date: "January 1948",
     excerpt: "Captain Thomas Mantell, a decorated WWII pilot, climbed his P-51 Mustang toward a massive metallic object over Kentucky without oxygen equipment and never leveled off. His last radio words described something enormous. Over the next four years, the Air Force gave three different explanations for what he died chasing, and never fully settled the question.",
-    url: "captain-mantell.html"
+    url: "captain-mantell.html",
+    intensity: 7,
+    editorsPick: false,
+    pullQuote: "His last radio words described something enormous, and the Air Force gave three different explanations over the next four years."
   },
   {
     title: "The Day Two Jumbos Collided",
@@ -161,7 +225,10 @@ const CASE_FILES = [
     accent: "#ff4d4d",
     date: "March 1977",
     excerpt: "A bomb threat diverted dozens of flights to a small, fog-bound regional airport in the Canary Islands. Two Boeing 747s ended up on the same runway at the same time. 583 people died without either aircraft ever leaving the ground, still the deadliest accident in aviation history.",
-    url: "tenerife-disaster.html"
+    url: "tenerife-disaster.html",
+    intensity: 10,
+    editorsPick: false,
+    pullQuote: "Two Boeing 747s ended up on the same fog-bound runway at the same time, and 583 people died without either aircraft ever leaving the ground."
   },
   {
     title: "The Disappearance Of Amelia Earhart",
@@ -170,6 +237,10 @@ const CASE_FILES = [
     stamp: "Case Open",
     date: "July 1937",
     excerpt: "Amelia Earhart and navigator Fred Noonan vanished over the central Pacific attempting to circle the globe near the equator. No confirmed wreckage has ever been recovered, and a Purdue-led expedition is still actively searching for the aircraft today, still the most famous unsolved disappearance in aviation history.",
-    url: "amelia-earhart.html"
+    url: "amelia-earhart.html",
+    intensity: 6,
+    editorsPick: true,
+    startHere: true,
+    pullQuote: "No confirmed wreckage has ever been recovered, and a Purdue-led expedition is still actively searching for the aircraft today."
   }
 ];

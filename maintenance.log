@@ -2194,3 +2194,28 @@ fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.g
 Link check complete: 65 checked, 0 broken
 [2026-08-09 10:28:43] Maintenance run complete
 [2026-08-09 10:28:43] ============================================================
+[2026-08-09 16:00:01] INFO  Deferred push retry — 6 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 16:00:02] WARN  Deferred git push failed again — 5 attempt(s) left
+[2026-08-09 17:00:01] INFO  Deferred push retry — 5 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 17:00:01] WARN  Deferred git push failed again — 4 attempt(s) left
+[2026-08-09 18:00:01] INFO  Deferred push retry — 4 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 18:00:02] WARN  Deferred git push failed again — 3 attempt(s) left
+[2026-08-09 19:00:01] INFO  Deferred push retry — 3 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 19:00:01] WARN  Deferred git push failed again — 2 attempt(s) left
+[2026-08-09 20:00:01] INFO  Deferred push retry — 2 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 20:00:02] WARN  Deferred git push failed again — 1 attempt(s) left
+[2026-08-09 21:00:01] INFO  Deferred push retry — 1 attempt(s) remaining
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jaycalo89/flightcrewfiles.git/'
+[2026-08-09 21:00:02] ERROR Deferred git push exhausted all retries over 6h
+[2026-08-09 21:00:02] CRIT  EMERGENCY — Flight Crew Files maintenance: git push has failed for 6 hours straight on flightcrewfiles. Manual intervention needed.

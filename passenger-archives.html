@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260809c">
+<link rel="stylesheet" href="css/style.min.css?v=20260809k">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
 <script>
@@ -119,6 +119,10 @@
   </div>
 </section>
 
+<section class="section" style="padding-bottom:0;">
+  <div class="container" id="hub-featured-mount"></div>
+</section>
+
 <section class="section-tight">
   <div class="container">
     <div class="archive-jump">
@@ -138,7 +142,7 @@
     <p class="section-lede">Not every passenger story in this archive has a survivor. Some belong here because the 216 people in the cabin deserve to be remembered as more than a casualty count, and because understanding what they went through is its own kind of respect.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="af447-passengers">
+      <div class="case-file" id="af447-passengers" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>Jun 1, 2009</span><span>Air France Flight 447</span><span>Mid-Atlantic Ocean</span></div>
         <h3>228 People Who Never Knew What Was Happening</h3>
@@ -179,8 +183,9 @@
     <p class="section-lede">The passengers who lived through what statistically shouldn't have been survivable, and what happened after.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="koepcke-lansa">
+      <div class="case-file" id="koepcke-lansa" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Dec 24, 1971</span><span>LANSA Flight 508</span><span>Peruvian Amazon</span></div>
         <h3>Alone In The Amazon</h3>
         <span class="story-date">— December 1971</span>
@@ -189,7 +194,7 @@
         <div class="related-links"><strong>Related</strong><a href="pilot-archives.html#varig254">Another aircraft lost over the Amazon</a></div>
       </div>
 
-      <div class="case-file" id="bakari-yemenia">
+      <div class="case-file" id="bakari-yemenia" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>Jun 30, 2009</span><span>Yemenia Flight 626</span><span>Indian Ocean, near Comoros</span></div>
         <h3>The Twelve-Year-Old Who Survived Nine Hours At Sea</h3>
@@ -219,7 +224,7 @@
         <div class="related-links"><strong>Related</strong><a href="#cichan-nw255">Another sole survivor's story</a></div>
       </div>
 
-      <div class="case-file" id="jal123-survivors" style="border-color:rgba(224,91,91,0.4);">
+      <div class="case-file" id="jal123-survivors" style="border-color:rgba(224,91,91,0.4);" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>Aug 12, 1985</span><span>Japan Airlines Flight 123</span><span>Osutaka Ridge, Japan</span></div>
         <h3>The Four Who Lived</h3>
@@ -229,8 +234,9 @@
         <div class="related-links"><strong>Related</strong><a href="#jal123-passengers">The 509 who didn't survive</a></div>
       </div>
 
-      <div class="case-file" id="hudson-passengers">
+      <div class="case-file" id="hudson-passengers" data-hub-featured-eligible>
         <span class="case-stamp">NTSB Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Jan 15, 2009</span><span>US Airways Flight 1549</span><span>Hudson River, NY</span></div>
         <h3>What It Was Like In The Cabin On The Hudson</h3>
         <span class="story-date">— January 2009</span>
@@ -602,5 +608,9 @@
 <script src="js/main.min.js?v=20260803"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/hub-featured.min.js" defer></script>
+<script src="js/breadcrumbs.min.js" defer></script>
+<script src="js/random-case-file.min.js" defer></script>
 </body>
 </html>

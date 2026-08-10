@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=optional" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260809c">
+<link rel="stylesheet" href="css/style.min.css?v=20260809k">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -312,6 +312,16 @@
   </div>
 </div>
 
+<section class="section featured-case-file-section" id="featured-case-file-section">
+  <div class="container">
+    <div id="featured-case-file" class="featured-case-hero">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see this week's featured case file, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+  </div>
+</section>
+
 <section class="section dark-section mission-section">
   <div class="container">
     <div class="mission-inner center">
@@ -447,6 +457,49 @@
 
     <div style="text-align:center;margin-top:44px;">
       <a href="stories.html" class="btn btn-gold-outline">View All Case Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="you-might-have-missed">
+  <div class="container">
+    <span class="eyebrow gold center" style="display:flex;justify-content:center;">Discovery</span>
+    <h2 class="section-title center">You Might Have Missed</h2>
+    <div class="gold-divider center"></div>
+    <p class="section-lede center" style="margin:14px auto 0;">Three more case files worth your time, picked fresh every week.</p>
+
+    <div class="grid grid-3" id="you-might-have-missed-grid" style="margin-top:50px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see this week's picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-section" id="start-here">
+  <div class="container">
+    <span class="eyebrow gold">New Here?</span>
+    <h2 class="section-title">Start Here</h2>
+    <div class="gold-divider"></div>
+    <p class="section-lede" style="margin:14px 0 0;">Five case files that give you the full range of what this site covers, without throwing you straight into the deep end.</p>
+    <div class="most-read-list" id="start-here-list" style="margin-top:34px;max-width:760px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see our starter picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+  </div>
+</section>
+
+<section class="section most-harrowing-section" id="most-harrowing">
+  <div class="container">
+    <span class="eyebrow red">Not For The Faint Of Heart</span>
+    <h2 class="section-title">Most Harrowing</h2>
+    <div class="gold-divider"></div>
+    <p class="section-lede" style="margin:14px 0 0;">Every case file rated 9/10 or higher on our intensity scale. Read at your own pace.</p>
+    <div class="grid grid-3" id="most-harrowing-grid" style="margin-top:50px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see these case files, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
     </div>
   </div>
 </section>
@@ -836,9 +889,12 @@
 <script src="js/community-feed.min.js" defer></script>
 <script src="js/latest-from-skies.min.js" defer></script>
 <script src="js/poll.min.js" defer></script>
-<script src="js/case-files-data.min.js" defer></script>
-<script src="js/case-files.min.js" defer></script>
+<script src="js/case-files-data.min.js?v=20260809j" defer></script>
+<script src="js/case-files.min.js?v=20260809i" defer></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/featured-case-file.min.js?v=20260809i" defer></script>
 <script src="js/daily-quiz.min.js" defer></script>
+<script src="js/discovery-sections.min.js" defer></script>
 
 <!-- Google Analytics — moved to end of body; dataLayer queue works regardless of load order -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
@@ -849,5 +905,7 @@
   gtag('config', 'G-WNKKXMVXGJ');
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
+<script src="js/breadcrumbs.min.js" defer></script>
+<script src="js/random-case-file.min.js" defer></script>
 </body>
 </html>

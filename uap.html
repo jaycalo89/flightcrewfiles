@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<link rel="stylesheet" href="css/style.min.css?v=20260809c">
+<link rel="stylesheet" href="css/style.min.css?v=20260809k">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
 <script>
@@ -121,6 +121,10 @@
 </section>
 
 <section class="section" style="padding-bottom:0;">
+  <div class="container" id="hub-featured-mount"></div>
+</section>
+
+<section class="section" style="padding-bottom:0;">
   <div class="container">
     <div class="uap-map-header">
       <span class="eyebrow">Global Case Map</span>
@@ -142,153 +146,172 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section hub-tier-section">
   <div class="container">
-    <div class="grid grid-2">
+    <span class="hub-tier-label">Recently Added</span>
+    <div class="grid grid-3">
 
-      <div class="case-file" id="nimitz-2004">
-        <span class="case-stamp">Pilot Report</span>
-        <div class="case-meta"><span>2004</span><span>USS Nimitz Carrier Group</span><span>Pacific Ocean</span></div>
-        <h3>The “Tic Tac” That Outran an F/A-18</h3>
-          <span class="story-date">— November 2004</span>
-        <p>Navy fighter pilots training off the California coast were vectored toward a radar contact descending from 80,000 feet to sea level in seconds. Pilots described a smooth, white, tic-tac-shaped object with no visible wings, exhaust or control surfaces that mirrored their aircraft's movements before accelerating away faster than their jet could track. The encounter was later confirmed by the Department of Defense as authentic radar and cockpit footage.</p>
-        <a class="read-report" href="https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="jal1628-1986">
-        <span class="case-stamp">FAA Investigated</span>
-        <div class="case-meta"><span>1986</span><span>Commercial Flight Crew</span><span>Alaska</span></div>
-        <h3>The Object That Shadowed a Cargo Jet For 400 Miles</h3>
-          <span class="story-date">— November 1986</span>
-        <p>Japan Air Lines Flight 1628's captain, Kenji Terauchi, and his crew reported large objects pacing their 747 cargo jet over Alaska, visible on both onboard radar and ground radar, for roughly 400 miles before they broke off. The FAA confirmed the radar returns and found the crew credible; the case remains officially unresolved.</p>
-        <a class="read-report is-pdf" href="https://documents.theblackvault.com/documents/ufos/jal1628/733667-001-024.pdf" target="_blank" rel="noopener">Read Full Report &rarr; <span class="pdf-tag" aria-label="PDF document"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M13 2v6h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>PDF</span></a>
-      </div>
-
-      <div class="case-file" id="ohare-2006">
-        <span class="case-stamp">Multiple Witnesses</span>
-        <div class="case-meta"><span>2006</span><span>Ground &amp; Ramp Crew</span><span>Chicago O'Hare</span></div>
-        <h3>The Disc Over Gate C17</h3>
-          <span class="story-date">— November 2006</span>
-        <p>United Airlines employees and pilots reported a dark, saucer-shaped object hovering silently over a gate before ascending straight up through solid cloud cover, punching a visible hole in the overcast behind it. The airline directed staff not to discuss it; the FAA said no radar data was reviewed because no incident was formally reported at the time.</p>
-        <a class="read-report" href="https://www.theblackvault.com/casefiles/the-vault-files-2006-ohare-international-airport-ufo-sighting/" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file">
-        <span class="case-stamp">Government Confirmed</span>
-        <div class="case-meta"><span>2014</span><span>Navy Helicopter Crew</span><span>Off the Chilean Coast</span></div>
-        <h3>The FLIR Footage Chile's Government Couldn't Explain</h3>
-          <span class="story-date">— November 2014</span>
-        <p>A Chilean Navy helicopter crew recorded infrared footage of an object flying alongside their aircraft, emitting no heat signature consistent with any known aircraft. Chile's official committee for the study of anomalous aerial phenomena examined the footage for two years and classified the object as genuinely unidentified.</p>
-        <a class="read-report" href="https://www.newsweek.com/chilean-navy-id-mysterious-aircraft-caught-video-539786" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="tehran-1976">
-        <span class="case-stamp">Radar Corroborated</span>
-        <div class="case-meta"><span>1976</span><span>Air Force Interceptors</span><span>Tehran</span></div>
-        <h3>The Object That Disabled Fighter Jet Instruments</h3>
-          <span class="story-date">— September 1976</span>
-        <p>Iranian Air Force F-4 Phantoms scrambled to intercept a bright object over Tehran reported losing weapons and communications systems each time they approached it, with systems returning to normal only once they backed away, including Major Parviz Jafari's missile system going dead as he tried to fire. The incident is documented in a declassified Defense Intelligence Agency report.</p>
-        <a class="read-report" href="https://www.theblackvault.com/documentarchive/the-1976-iran-incident-ufo-encounter-over-tehran-iran/" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file">
-        <span class="case-stamp">Radar &amp; Visual</span>
-        <div class="case-meta"><span>1952</span><span>Air Traffic Control &amp; Interceptors</span><span>Washington, D.C.</span></div>
-        <h3>The Weekend Unidentified Objects Flew Over the Capital</h3>
-          <span class="story-date">— July 1952</span>
-        <p>Over two consecutive weekends, radar operators at National Airport and nearby military facilities tracked multiple fast-moving unidentified objects over restricted airspace. Fighter jets were scrambled twice; pilots described lights that outran their aircraft with no accompanying radar-correlated aircraft ever identified.</p>
-        <a class="read-report" href="https://www.cnn.com/2025/12/28/us/fighter-jets-ufos-1952-dc" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="mantell-1948" style="border-color:rgba(57,230,197,0.4);">
+      <div class="case-file" id="earhart-1937" style="border-color:rgba(212,175,55,0.4);">
         <span class="case-stamp">Case Officially Open</span>
+        <span class="tier-badge tier-badge-yellow hub-tier-badge-slot">Intensity 6/10</span>
+        <div class="case-meta"><span>Jul 1937</span><span>Pilot &amp; Navigator</span><span>Near Howland Island, Pacific</span></div>
+        <h3>The Disappearance Of Amelia Earhart</h3>
+          <span class="story-date">— July 1937</span>
+        <p>Amelia Earhart and navigator Fred Noonan vanished over the central Pacific attempting to circle the globe near the equator, still the most famous unsolved disappearance in aviation history. No confirmed wreckage has ever been recovered, and a Purdue-led expedition is still actively searching for the aircraft as of this writing.</p>
+        <a class="read-report" href="amelia-earhart.html">Read Our Full Case File &rarr;</a>
+      </div>
+
+      <div class="case-file" id="mantell-1948" style="border-color:rgba(57,230,197,0.4);" data-hub-featured-eligible>
+        <span class="case-stamp">Case Officially Open</span>
+        <span class="tier-badge tier-badge-orange hub-tier-badge-slot">Intensity 7/10</span>
         <div class="case-meta"><span>Jan 1948</span><span>Kentucky ANG Pilot</span><span>Fort Knox, Kentucky</span></div>
         <h3>The First Pilot To Die Chasing A UFO</h3>
           <span class="story-date">— January 1948</span>
-        <p>Captain Thomas Mantell, a decorated WWII pilot with a Distinguished Flying Cross, climbed his P-51 Mustang toward a massive metallic object over Fort Knox without oxygen equipment rated for the altitude. His last radio words described &#8220;a metallic object of tremendous size.&#8221; He never leveled off. Over the next four years the Air Force gave three different explanations for what he'd been chasing (Venus, a weather balloon, then a secret Navy balloon), and the case directly led to the creation of Project Sign, the Air Force's first UFO investigation unit. Read our full case file, with all three official explanations laid out in order.</p>
+        <p>Captain Thomas Mantell, a decorated WWII pilot with a Distinguished Flying Cross, climbed his P-51 Mustang toward a massive metallic object over Fort Knox without oxygen equipment rated for the altitude. His last radio words described &#8220;a metallic object of tremendous size.&#8221; He never leveled off.</p>
         <a class="read-report" href="captain-mantell.html">Read Our Full Case File &rarr;</a>
-      </div>
-
-      <div class="case-file" id="roswell-1947">
-        <span class="case-stamp">Cover Story Confirmed</span>
-        <div class="case-meta"><span>Jul 1947</span><span>U.S. Army Air Field</span><span>Roswell, New Mexico</span></div>
-        <h3>The Crash That Started It All</h3>
-          <span class="story-date">— July 1947</span>
-        <p>After ranch foreman Mac Brazel found strange metallic debris scattered across a New Mexico ranch, the local Army Air Field's press office announced it had recovered a “flying disc,” a release retracted within 24 hours in favor of a weather balloon explanation. The U.S. Air Force's own 1994–1997 investigations later concluded the wreckage actually came from a classified program called Project Mogul, and that the weather-balloon story was itself a cover story to protect that secret. Roswell remains the most famous UFO case in the world, and the source of enduring claims (never substantiated in any official record) that bodies were recovered and witnesses were pressured into silence.</p>
-        <a class="read-report" href="https://www.smithsonianmag.com/smithsonian-institution/in-1947-high-altitude-balloon-crash-landed-roswell-aliens-never-left-180963917/" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="rendlesham-1980" style="border-color:rgba(57,230,197,0.4);">
-        <span class="case-stamp">Military Documented</span>
-        <div class="case-meta"><span>Dec 1980</span><span>U.S. Air Force Personnel</span><span>Rendlesham Forest, England</span></div>
-        <h3>The Craft In The Forest Beside The NATO Base</h3>
-          <span class="story-date">— December 1980</span>
-        <p>Over three nights in late December 1980, U.S. Air Force personnel stationed at RAF Woodbridge (adjacent to a NATO airbase) reported strange lights and a craft on the ground in the surrounding forest. Deputy base commander Lt. Col. Charles Halt led a follow-up investigation, narrated the events in real time on a pocket tape recorder, and later documented radiation readings at the site notably above background level in a memo sent to the UK Ministry of Defence. It remains the most thoroughly documented military UAP encounter in history. Read our full case file, with the declassified memo, the tape transcript and the lighthouse explanation laid out in full.</p>
-        <a class="read-report" href="rendlesham-forest.html">Read Our Full Case File &rarr;</a>
-      </div>
-
-      <div class="case-file" id="phoenix-lights-1997">
-        <span class="case-stamp">Government Official Witness</span>
-        <div class="case-meta"><span>Mar 1997</span><span>Thousands Of Witnesses</span><span>Phoenix, Arizona</span></div>
-        <h3>The Night A Governor Watched, Then Denied It</h3>
-          <span class="story-date">— March 1997</span>
-        <p>On the evening of March 13, 1997, thousands of people across Arizona reported a mile-wide, V-shaped formation of lights moving silently and slowly over Phoenix for roughly two hours. Witnesses ranged from ordinary residents to police officers and pilots, and then-Governor Fife Symington publicly mocked the sighting at a press conference, only admitting a decade later that he, too, had personally witnessed the object and regretted the joke. It remains one of the largest mass UFO sightings in American history.</p>
-        <a class="read-report" href="https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="belgium-wave-1989">
-        <span class="case-stamp">NATO Radar Tracked</span>
-        <div class="case-meta"><span>1989&ndash;1990</span><span>Belgian Air Force</span><span>Belgium</span></div>
-        <h3>The Wave Of Triangles Over Belgium</h3>
-          <span class="story-date">— 1989&ndash;1990</span>
-        <p>Beginning in late 1989, thousands of witnesses across Belgium reported a wave of large, silent, triangular craft with bright lights, culminating on the night of March 30, 1990, when Belgian Air Force F-16s were scrambled after a target was picked up on multiple radar systems. The jets recorded brief radar locks during nine attempted intercepts, though Belgium's military later attributed most of those contacts to weather anomalies and the aircraft locking onto each other. It remains one of the most extensively radar- and visually-documented UFO waves ever investigated by a national government.</p>
-        <a class="read-report" href="https://en.wikipedia.org/wiki/Belgian_UFO_wave" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="shag-harbour-1967">
-        <span class="case-stamp">Official Government Filing</span>
-        <div class="case-meta"><span>Oct 1967</span><span>Royal Canadian Navy</span><span>Shag Harbour, Nova Scotia</span></div>
-        <h3>The Only UFO Crash A Government Ever Filed As One</h3>
-          <span class="story-date">— October 1967</span>
-        <p>On the night of October 4, 1967, at least eleven witnesses in Shag Harbour, Nova Scotia watched a large lit object descend into the Atlantic and disappear beneath the surface, leaving floating debris and a foam slick behind. The Royal Canadian Navy dispatched a dedicated Fleet Diving Unit to search the seafloor over several days, and found no trace of wreckage. It remains one of the only incidents in the world formally filed by a national government as an unidentified flying object rather than resolved as anything conventional.</p>
-        <a class="read-report" href="https://en.wikipedia.org/wiki/Shag_Harbour_UFO_incident" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="stephenville-2008">
-        <span class="case-stamp">FAA Radar Confirmed</span>
-        <div class="case-meta"><span>Jan 2008</span><span>Hundreds Of Witnesses</span><span>Stephenville, Texas</span></div>
-        <h3>The Object The Air Force Changed Its Story About</h3>
-          <span class="story-date">— January 2008</span>
-        <p>On the evening of January 8, 2008, hundreds of residents of Stephenville, Texas reported a massive, fast-moving, silent object crossing the sky, followed by what witnesses described as military jets in pursuit. The Air Force initially denied having any aircraft in the area that night before later confirming nearly a dozen F-16s were on a training mission, and a subsequent analysis of FAA radar data obtained via a Freedom of Information Act request showed an unidentified target moving at speeds and on a flight path inconsistent with the confirmed military traffic. The case remains one of the few UAP sightings backed by released government radar data.</p>
-        <a class="read-report" href="https://www.npr.org/2008/01/24/18375952/air-force-alters-texas-ufo-explanation" target="_blank" rel="noopener">Read full report &rarr;</a>
-      </div>
-
-      <div class="case-file" id="valentich-1978" style="border-color:rgba(212,175,55,0.4);">
-        <span class="case-stamp">Case Officially Open</span>
-        <div class="case-meta"><span>Oct 1978</span><span>Trainee Pilot</span><span>Bass Strait, Australia</span></div>
-        <h3>The Pilot Who Vanished</h3>
-          <span class="story-date">— October 1978</span>
-        <p>Twenty-year-old Frederick Valentich radioed Melbourne air traffic control from his Cessna 182 to report an aircraft orbiting above him: metallic, shining, with a green light, moving at speeds he couldn't identify. Six minutes and forty-seven seconds later, mid-transmission, his radio call ends in a burst of metallic noise and goes silent. Neither Valentich nor his aircraft was ever found, and the Australian government's own investigation concluded that the reason for the disappearance has never been determined. It remains the most thoroughly documented pilot UAP case in aviation history. Read our full case file, with the complete official transcript.</p>
-        <a class="read-report" href="frederick-valentich.html">Read Our Full Case File &rarr;</a>
       </div>
 
       <div class="case-file" id="mh370-2014" style="border-color:rgba(176,107,255,0.4);">
         <span class="case-stamp">Case Officially Open</span>
+        <span class="tier-badge tier-badge-orange hub-tier-badge-slot">Intensity 8/10</span>
         <div class="case-meta"><span>Mar 2014</span><span>239 Aboard</span><span>Southern Indian Ocean</span></div>
         <h3>The Plane That Vanished</h3>
           <span class="story-date">— March 2014</span>
-        <p>Malaysia Airlines Flight 370 vanished from radar over the South China Sea with no distress call, then flew on for nearly seven more silent hours before its signal finally went dark somewhere over the Southern Indian Ocean. A small number of independent researchers have pointed to gaps in the released radar data as unusual, though no official investigation has ever made any such claim. MH370 remains, first and foremost, an unsolved question of human action or mechanical failure. We cover it here for completeness, alongside our fully documented UAP cases. Read our full case file, including the satellite data that reconstructed its final hours.</p>
+        <p>Malaysia Airlines Flight 370 vanished from radar over the South China Sea with no distress call, then flew on for nearly seven more silent hours before its signal finally went dark somewhere over the Southern Indian Ocean. MH370 remains, first and foremost, an unsolved question of human action or mechanical failure.</p>
         <a class="read-report" href="mh370.html">Read Our Full Case File &rarr;</a>
       </div>
 
-      <div class="case-file" id="earhart-1937" style="border-color:rgba(212,175,55,0.4);">
+      <div class="case-file" id="valentich-1978" style="border-color:rgba(212,175,55,0.4);" data-hub-featured-eligible>
         <span class="case-stamp">Case Officially Open</span>
-        <div class="case-meta"><span>Jul 1937</span><span>Pilot &amp; Navigator</span><span>Near Howland Island, Pacific</span></div>
-        <h3>The Disappearance Of Amelia Earhart</h3>
-          <span class="story-date">— July 1937</span>
-        <p>Amelia Earhart and navigator Fred Noonan vanished over the central Pacific attempting to circle the globe near the equator, still the most famous unsolved disappearance in aviation history. No confirmed wreckage has ever been recovered, and a Purdue-led expedition is still actively searching for the aircraft as of this writing. It isn't a UAP case, but no list of aviation's great unexplained mysteries is complete without it. Read our full case file, including the final radio transmissions and every leading theory, weighted by the actual evidence behind it.</p>
-        <a class="read-report" href="amelia-earhart.html">Read Our Full Case File &rarr;</a>
+        <span class="tier-badge tier-badge-orange hub-tier-badge-slot">Intensity 7/10</span>
+        <div class="case-meta"><span>Oct 1978</span><span>Trainee Pilot</span><span>Bass Strait, Australia</span></div>
+        <h3>The Pilot Who Vanished</h3>
+          <span class="story-date">— October 1978</span>
+        <p>Twenty-year-old Frederick Valentich radioed Melbourne air traffic control from his Cessna 182 to report an aircraft orbiting above him. Six minutes and forty-seven seconds later, mid-transmission, his radio call ends in a burst of metallic noise and goes silent. Neither Valentich nor his aircraft was ever found.</p>
+        <a class="read-report" href="frederick-valentich.html">Read Our Full Case File &rarr;</a>
       </div>
+
+      <div class="case-file" id="nimitz-2004" data-hub-featured-eligible>
+        <span class="case-stamp">Pilot Report</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
+        <span class="tier-badge tier-badge-yellow hub-tier-badge-slot">Intensity 6/10</span>
+        <div class="case-meta"><span>2004</span><span>USS Nimitz Carrier Group</span><span>Pacific Ocean</span></div>
+        <h3>The “Tic Tac” That Outran an F/A-18</h3>
+          <span class="story-date">— November 2004</span>
+        <p>Navy fighter pilots training off the California coast were vectored toward a radar contact descending from 80,000 feet to sea level in seconds. Pilots described a smooth, white, tic-tac-shaped object that mirrored their aircraft's movements before accelerating away faster than their jet could track.</p>
+        <a class="read-report" href="https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos" target="_blank" rel="noopener">Read full report &rarr;</a>
+      </div>
+
+      <div class="case-file" id="rendlesham-1980" style="border-color:rgba(57,230,197,0.4);" data-hub-featured-eligible>
+        <span class="case-stamp">Military Documented</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
+        <span class="tier-badge tier-badge-orange hub-tier-badge-slot">Intensity 7/10</span>
+        <div class="case-meta"><span>Dec 1980</span><span>U.S. Air Force Personnel</span><span>Rendlesham Forest, England</span></div>
+        <h3>The Craft In The Forest Beside The NATO Base</h3>
+          <span class="story-date">— December 1980</span>
+        <p>Over three nights in late December 1980, U.S. Air Force personnel stationed at RAF Woodbridge reported strange lights and a craft on the ground in the surrounding forest. Deputy base commander Lt. Col. Charles Halt narrated the events in real time on a pocket tape recorder, since declassified.</p>
+        <a class="read-report" href="rendlesham-forest.html">Read Our Full Case File &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section hub-tier-section">
+  <div class="container">
+    <span class="hub-tier-label">The Archive</span>
+    <div class="grid grid-4">
+
+      <a href="https://documents.theblackvault.com/documents/ufos/jal1628/733667-001-024.pdf" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The Object That Shadowed a Cargo Jet For 400 Miles</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.theblackvault.com/casefiles/the-vault-files-2006-ohare-international-airport-ufo-sighting/" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-blue">4/10</span>
+          <h4>The Disc Over Gate C17</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.newsweek.com/chilean-navy-id-mysterious-aircraft-caught-video-539786" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The FLIR Footage Chile's Government Couldn't Explain</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.theblackvault.com/documentarchive/the-1976-iran-incident-ufo-encounter-over-tehran-iran/" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">6/10</span>
+          <h4>The Object That Disabled Fighter Jet Instruments</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.cnn.com/2025/12/28/us/fighter-jets-ufos-1952-dc" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The Weekend Unidentified Objects Flew Over the Capital</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.smithsonianmag.com/smithsonian-institution/in-1947-high-altitude-balloon-crash-landed-roswell-aliens-never-left-180963917/" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The Crash That Started It All</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-blue">4/10</span>
+          <h4>The Night A Governor Watched, Then Denied It</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/Belgian_UFO_wave" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The Wave Of Triangles Over Belgium</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://en.wikipedia.org/wiki/Shag_Harbour_UFO_incident" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">6/10</span>
+          <h4>The Only UFO Crash A Government Ever Filed As One</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a href="https://www.npr.org/2008/01/24/18375952/air-force-alters-texas-ufo-explanation" target="_blank" rel="noopener" class="archive-mini-card" style="--accent:#39e6c5;">
+        <div class="archive-mini-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/></svg></div>
+        <div class="archive-mini-body">
+          <span class="tier-badge tier-badge-yellow">5/10</span>
+          <h4>The Object The Air Force Changed Its Story About</h4>
+          <span class="archive-mini-btn">Read Report <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
     </div>
 
     <div class="ad-slot">Advertisement</div>
@@ -448,5 +471,9 @@
 <script src="js/social-share.min.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="js/uap-map.min.js"></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/hub-featured.min.js" defer></script>
+<script src="js/breadcrumbs.min.js" defer></script>
+<script src="js/random-case-file.min.js" defer></script>
 </body>
 </html>

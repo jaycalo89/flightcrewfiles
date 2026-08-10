@@ -1,0 +1,73 @@
+// Flight Crew Files — homepage "Start Here" (curated onboarding list) and
+// "Most Harrowing" (intensity 9-10, filtered from CASE_FILES) sections.
+// Both are simple filters over the same homepage data used by
+// js/case-files.js — no rotation involved, so no discovery-core.js
+// dependency here.
+(function () {
+  var ICONS = {
+    'Black Box Files': '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>',
+    'Heroic Moments': '<path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/>',
+    'Scary Stories': '<path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>',
+    'Bizarre & Unexplained': '<path d="M12 2c2 3 3 6.5 3 10s-1 8-3 10c-2-2-3-6.5-3-10s1-7 3-10z"/><path d="M2 12c3-2 6.5-3 10-3s8 1 10 3c-2 2-6.5 3-10 3s-7-1-10-3z"/>',
+    'UAP Files': '<ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/>'
+  };
+  var DEFAULT_ICON = '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>';
+
+  function buildStartHereItem(entry, rank) {
+    var a = document.createElement('a');
+    a.className = 'most-read-item';
+    a.href = entry.url;
+    a.innerHTML =
+      '<span class="most-read-rank">' + (rank < 10 ? '0' + rank : rank) + '</span>' +
+      '<span class="most-read-body"><span class="most-read-tag"></span><span class="most-read-title"></span></span>' +
+      '<svg class="most-read-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+    a.querySelector('.most-read-tag').textContent = entry.tag || '';
+    a.querySelector('.most-read-title').textContent = entry.title || '';
+    return a;
+  }
+
+  function renderStartHere() {
+    var mount = document.getElementById('start-here-list');
+    if (!mount) return;
+    var picks = CASE_FILES.filter(function (e) { return e.startHere; });
+    if (!picks.length) return;
+    picks.forEach(function (entry, i) { mount.appendChild(buildStartHereItem(entry, i + 1)); });
+  }
+
+  function buildHarrowingCard(entry) {
+    var card = document.createElement('div');
+    card.className = 'article-card harrowing-card';
+    card.style.setProperty('--accent', entry.accent || '#ef4444');
+    card.innerHTML =
+      '<div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">' +
+        (ICONS[entry.tag] || DEFAULT_ICON) +
+      '</svg></div>' +
+      '<div class="article-body">' +
+        '<span class="harrowing-intensity"></span>' +
+        '<h3></h3>' +
+        '<p></p>' +
+        '<a class="card-link">Read The Full Case File</a>' +
+      '</div>';
+    card.querySelector('.harrowing-intensity').textContent = 'Intensity ' + entry.intensity + '/10';
+    card.querySelector('h3').textContent = entry.title || '';
+    card.querySelector('p').textContent = entry.excerpt || '';
+    card.querySelector('.card-link').href = entry.url || '#';
+    return card;
+  }
+
+  function renderMostHarrowing() {
+    var grid = document.getElementById('most-harrowing-grid');
+    if (!grid) return;
+    var picks = CASE_FILES
+      .filter(function (e) { return e.intensity >= 9; })
+      .sort(function (a, b) { return b.intensity - a.intensity; });
+    if (!picks.length) return;
+    picks.forEach(function (entry) { grid.appendChild(buildHarrowingCard(entry)); });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (typeof CASE_FILES === 'undefined' || !CASE_FILES.length) return;
+    renderStartHere();
+    renderMostHarrowing();
+  });
+})();

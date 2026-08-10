@@ -76,6 +76,8 @@ p{margin:0 0 1em;color:var(--muted);}
 .eyebrow::before{content:"";width:26px;height:2px;background:var(--gold-500);}
 .eyebrow.gold{color:var(--gold-400);}
 .eyebrow.gold::before{background:var(--blue-500);}
+.eyebrow.red{color:#ff6b6b;}
+.eyebrow.red::before{background:#ef4444;}
 .section{padding:88px 0;}
 .section-tight{padding:56px 0;}
 .section-title{font-size:clamp(1.9rem,3.4vw,2.8rem);max-width:760px;}
@@ -260,6 +262,46 @@ body.nav-open .mobile-panel{display:flex;}
 body.nav-open .nav-toggle span:nth-child(1){transform:translateY(7px) rotate(45deg);}
 body.nav-open .nav-toggle span:nth-child(2){opacity:0;}
 body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+/* ===== "Take Me Somewhere" random case-file button (js/random-case-file.js) ===== */
+.nav-random-btn{
+  display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;cursor:pointer;
+  width:34px;height:34px;padding:0;border-radius:50%;
+  border:1px solid rgba(90,172,255,0.4);background:rgba(90,172,255,0.07);
+  color:var(--blue-400);
+  transition:border-color .2s ease,background .2s ease,transform .2s ease,color .2s ease;
+}
+.nav-random-btn span{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+.nav-random-btn svg{width:16px;height:16px;flex-shrink:0;}
+.nav-random-btn:hover{border-color:var(--blue-400);background:rgba(90,172,255,0.16);color:var(--blue-300);transform:translateY(-2px);}
+.mobile-panel .nav-random-btn-mobile{
+  display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+  color:var(--blue-400);font-weight:700;background:none;border:none;
+  padding:14px 4px;font-size:.95rem;letter-spacing:.04em;
+  font-family:'Oswald',sans-serif;text-transform:uppercase;cursor:pointer;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+.mobile-panel .nav-random-btn-mobile svg{width:18px;height:18px;}
+
+/* ===== Sitewide breadcrumb trail (js/breadcrumbs.js) ===== */
+.fcf-breadcrumbs{background:var(--navy-900);border-bottom:1px solid rgba(212,175,55,0.14);padding:11px 0;}
+.fcf-breadcrumbs ol{display:flex;flex-wrap:wrap;align-items:center;gap:0;list-style:none;margin:0;padding:0;}
+.fcf-breadcrumbs li{
+  display:flex;align-items:center;
+  font-family:'Inter',sans-serif;font-size:.78rem;color:var(--muted-light);white-space:nowrap;
+}
+.fcf-breadcrumbs li:not(:last-child)::after{content:"/";color:rgba(255,255,255,0.22);margin:0 8px;}
+.fcf-breadcrumbs a{color:var(--muted-light);text-decoration:none;transition:color .2s ease;}
+.fcf-breadcrumbs a:hover{color:var(--gold-400);}
+.fcf-breadcrumbs li[aria-current="page"]{color:var(--gold-400);font-weight:600;overflow:hidden;text-overflow:ellipsis;max-width:60vw;}
+@media (max-width:640px){
+  .fcf-breadcrumbs{padding:9px 0;}
+  .fcf-breadcrumbs li{font-size:.72rem;}
+  .fcf-breadcrumbs li:not(:last-child)::after{margin:0 6px;}
+}
 
 @media (max-width:1200px){
   .nav-links{display:none;}
@@ -531,6 +573,199 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .case-file-body .story-date{display:block;font-size:.8rem;color:var(--muted-light);font-style:italic;margin-bottom:12px;}
 .case-file-body p{font-size:.95rem;margin-bottom:20px;}
 @media (max-width:640px){.case-file-media{height:160px;}.case-file-body{padding:24px 22px 26px;}}
+
+/* ===== Featured Case File (homepage hero, rotates weekly — js/featured-case-file.js) ===== */
+.featured-case-file-section{padding-top:54px;padding-bottom:10px;}
+.featured-case-hero{
+  position:relative;display:flex;align-items:stretch;gap:0;overflow:hidden;
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-900));
+  border-radius:var(--radius-lg);border:1px solid var(--border-gold);
+  box-shadow:0 0 0 1px rgba(212,175,55,0.16), 0 40px 80px -36px rgba(212,175,55,0.55), var(--shadow-soft);
+}
+.featured-case-hero .fch-media{
+  flex:0 0 300px;position:relative;display:flex;align-items:center;justify-content:center;
+  background:
+    radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--accent) 45%, transparent), transparent 65%),
+    repeating-linear-gradient(135deg, rgba(212,175,55,0.06) 0px, rgba(212,175,55,0.06) 2px, transparent 2px, transparent 14px),
+    linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border-right:1px solid var(--border-gold);
+}
+.featured-case-hero .fch-media svg{width:110px;height:110px;stroke:var(--accent);position:relative;z-index:1;filter:drop-shadow(0 0 22px color-mix(in srgb, var(--accent) 70%, transparent));}
+.featured-case-hero .fch-body{padding:40px 44px 42px;flex:1;min-width:0;}
+.fch-eyebrow{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'Oswald',sans-serif;font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-400);font-weight:700;margin-bottom:18px;
+}
+.fch-eyebrow-dot{width:8px;height:8px;border-radius:50%;background:#ef4444;box-shadow:0 0 10px 2px rgba(239,68,68,0.7);animation:bb-flicker 2.4s infinite;}
+.fch-pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px;}
+.fch-pill{
+  display:inline-block;border:1.5px solid var(--border-gold);color:var(--muted-light);
+  font-family:'Oswald',sans-serif;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:5px 11px;border-radius:20px;font-weight:600;
+}
+.fch-pill-intensity{font-weight:700;}
+.fch-pill-stamp{border-color:var(--accent);color:var(--accent);}
+.featured-case-hero .fch-title{font-size:clamp(1.6rem,2.6vw,2.3rem);line-height:1.2;margin-bottom:16px;}
+.featured-case-hero .fch-title a{color:var(--white);text-decoration:none;}
+.featured-case-hero .fch-title a:hover{color:var(--gold-400);}
+.fch-quote{font-style:italic;font-size:1.05rem;color:var(--gold-300);border-left:3px solid var(--gold-500);padding-left:16px;margin-bottom:18px;}
+.fch-excerpt{font-size:.95rem;color:var(--muted-light);margin-bottom:26px;max-width:70ch;}
+@media (max-width:900px){
+  .featured-case-hero{flex-direction:column;}
+  .featured-case-hero .fch-media{flex-basis:auto;height:150px;border-right:none;border-bottom:1px solid var(--border-gold);}
+  .featured-case-hero .fch-media svg{width:70px;height:70px;}
+  .featured-case-hero .fch-body{padding:30px 26px 32px;}
+}
+/* .mission-section's large clamp(170px,21vw,260px) top padding was tuned for
+   being the page's first section; now the featured hero sits above it. */
+#featured-case-file-section + .mission-section{padding-top:90px;}
+
+/* ===== Per-hub Featured card (js/hub-featured.js) =====
+   Type-agnostic: wraps a cloned .case-file / .file-card / .ss-card /
+   .timeline-item, stripping the clone's own border/background/padding so it
+   reads as one oversized "Featured" frame regardless of source card type. */
+.hub-featured-wrap{
+  position:relative;padding:36px 38px 40px;margin-bottom:8px;
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-900));
+  border-radius:var(--radius-lg);border:1px solid var(--border-gold);
+  box-shadow:0 0 0 1px rgba(212,175,55,0.16),0 40px 80px -36px rgba(212,175,55,0.5),var(--shadow-soft);
+}
+.hub-featured-label{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:'Oswald',sans-serif;font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--gold-400);font-weight:700;margin-bottom:20px;
+}
+.hub-featured-dot{width:8px;height:8px;border-radius:50%;background:#ef4444;box-shadow:0 0 10px 2px rgba(239,68,68,0.7);animation:bb-flicker 2.4s infinite;}
+.hub-featured-wrap .case-file,
+.hub-featured-wrap .file-card,
+.hub-featured-wrap .ss-card{
+  border:none;background:none;box-shadow:none;padding:0;margin:0;max-width:100%;
+}
+.hub-featured-wrap .case-file h3,
+.hub-featured-wrap .file-card .file-title,
+.hub-featured-wrap .ss-card h3{font-size:1.35em;}
+/* evolution.html's .timeline-item is normally a child of .timeline, which
+   supplies the connecting rail/dot via padding-left + a positioned ::before
+   on the item; cloned in isolation here, those no longer make sense. */
+.hub-featured-wrap .timeline-item{padding-bottom:0;padding-left:0;}
+.hub-featured-wrap .timeline-item::before{display:none;}
+.hub-featured-wrap .aircraft-card{border:none;background:none;box-shadow:none;padding:0;margin:0;}
+@media (max-width:640px){
+  .hub-featured-wrap{padding:26px 22px 28px;}
+}
+
+/* ===== Editor's Pick badge (homepage grid, hub pages) =====
+   Always in normal document flow (never position:absolute) so it can never
+   collide with .cf-stamp, .bookmark-btn or any other corner-anchored badge. */
+.editors-pick-badge{
+  display:inline-block;margin:8px 0 10px;
+  border:1.5px solid var(--gold-500);color:var(--gold-400);
+  font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:4px 10px;border-radius:20px;font-weight:700;
+  background:rgba(212,175,55,0.08);
+}
+
+/* ===== Most Read This Week (js/most-read.js, case-file pages) ===== */
+.most-read-section{padding-top:0;}
+.most-read-list{display:flex;flex-direction:column;gap:2px;margin-top:28px;}
+.most-read-item{
+  display:flex;align-items:center;gap:18px;padding:18px 6px;text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,0.08);transition:padding-left .2s ease,border-color .2s ease;
+}
+.most-read-item:hover{padding-left:10px;border-color:var(--gold-500);}
+.most-read-item:last-child{border-bottom:none;}
+.most-read-rank{
+  flex-shrink:0;font-family:'Oswald',sans-serif;font-weight:700;font-size:1.3rem;
+  color:var(--gold-500);opacity:.7;min-width:34px;
+}
+.most-read-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;}
+.most-read-tag{font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-light);}
+.most-read-title{font-size:1rem;font-weight:600;color:var(--ink);}
+.most-read-item:hover .most-read-title{color:var(--gold-400);}
+.most-read-arrow{width:18px;height:18px;flex-shrink:0;stroke:var(--muted-light);transition:stroke .2s ease,transform .2s ease;}
+.most-read-item:hover .most-read-arrow{stroke:var(--gold-400);transform:translateX(3px);}
+@media (max-width:640px){
+  .most-read-item{gap:12px;padding:15px 4px;}
+  .most-read-rank{font-size:1.1rem;min-width:26px;}
+  .most-read-title{font-size:.92rem;}
+}
+
+/* ===== Most Harrowing (homepage, js/discovery-sections.js) ===== */
+.most-harrowing-section{
+  position:relative;
+  background:
+    radial-gradient(900px 500px at 50% 0%, rgba(239,68,68,0.08), transparent 60%),
+    linear-gradient(180deg,var(--navy-950) 0%,#0a0407 100%);
+  border-top:1px solid rgba(239,68,68,0.2);border-bottom:1px solid rgba(239,68,68,0.2);
+}
+.harrowing-card{border-color:rgba(239,68,68,0.3);}
+.harrowing-card:hover{border-color:#ef4444;}
+.harrowing-intensity{
+  display:inline-block;font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;
+  color:#ff6b6b;border:1px solid rgba(239,68,68,0.5);border-radius:20px;padding:4px 10px;margin-bottom:10px;font-weight:700;
+}
+
+/* ===== Hub page visual hierarchy: Recent (3-col) / Archive (4-col) tiers =====
+   Recent reuses each page's existing full card component (.case-file,
+   .file-card, .ss-card, .article-card) inside a .grid-3, just with an
+   intensity badge added. Archive uses the new compact .archive-mini-card
+   inside a .grid-4 -- title + intensity + button only, no description.
+   .grid-3/.grid-4 already collapse to 2-col at 980px and 1-col at 640px
+   (see css/style.css:463-465), so mobile stacking needs no extra rules here. */
+.hub-tier-section{padding-top:56px;}
+.hub-tier-label{
+  display:flex;align-items:center;gap:12px;
+  font-family:'Oswald',sans-serif;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--muted-light);margin-bottom:28px;
+}
+.hub-tier-label::before{content:"";width:22px;height:2px;background:var(--gold-500);flex-shrink:0;}
+
+/* 5-band intensity badge, matching js/case-file-features.js's INTENSITY_SCALE
+   (1-2 green, 3-4 blue, 5-6 yellow, 7-8 orange, 9-10 red). Hand-set per card
+   since these hub pages are static HTML, not data-driven. */
+.tier-badge{
+  display:inline-block;font-family:'Oswald',sans-serif;font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;
+  border-radius:20px;padding:3px 9px;font-weight:700;border:1px solid currentColor;
+}
+.tier-badge-green{color:#22c55e;background:rgba(34,197,94,0.1);}
+.tier-badge-blue{color:#3b82f6;background:rgba(59,130,246,0.1);}
+.tier-badge-yellow{color:#eab308;background:rgba(234,179,8,0.1);}
+.tier-badge-orange{color:#f97316;background:rgba(249,115,22,0.1);}
+.tier-badge-red{color:#ef4444;background:rgba(239,68,68,0.1);}
+
+/* Injected into an existing full card's body, above the h3/h4 */
+.hub-tier-badge-slot{margin-bottom:10px;}
+
+/* ===== Archive mini card (compact 4-col tier) ===== */
+.archive-mini-card{
+  display:flex;flex-direction:column;text-decoration:none;overflow:hidden;
+  background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
+  border-radius:var(--radius-md);border:1px solid var(--border-soft);
+  transition:transform .2s ease,border-color .2s ease;
+}
+.archive-mini-card:hover{transform:translateY(-4px);border-color:var(--accent);}
+.archive-mini-media{
+  height:96px;flex-shrink:0;position:relative;display:flex;align-items:center;justify-content:center;
+  background:
+    radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--accent) 35%, transparent), transparent 62%),
+    linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border-bottom:1px solid var(--border-soft);
+}
+.archive-mini-media svg{width:28px;height:28px;stroke:var(--accent);}
+.archive-mini-media img{width:100%;height:100%;object-fit:cover;display:block;}
+.archive-mini-body{padding:16px 16px 18px;flex:1;display:flex;flex-direction:column;}
+.archive-mini-body h4{font-size:.92rem;line-height:1.3;margin:8px 0 12px;text-transform:none;color:var(--ink);}
+.archive-mini-btn{
+  margin-top:auto;display:inline-flex;align-items:center;gap:5px;
+  font-family:'Oswald',sans-serif;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;
+  font-weight:700;color:var(--gold-400);
+}
+.archive-mini-btn svg{width:13px;height:13px;transition:transform .2s ease;}
+.archive-mini-card:hover .archive-mini-btn svg{transform:translateX(3px);}
+@media (max-width:640px){
+  .hub-tier-section{padding-top:44px;}
+}
 
 /* ===== Source citation link (story cards) ===== */
 .read-report{

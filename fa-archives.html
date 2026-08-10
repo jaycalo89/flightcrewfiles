@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260809c">
+<link rel="stylesheet" href="css/style.min.css?v=20260809k">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
 <script>
@@ -119,6 +119,10 @@
   </div>
 </section>
 
+<section class="section" style="padding-bottom:0;">
+  <div class="container" id="hub-featured-mount"></div>
+</section>
+
 <section class="section-tight">
   <div class="container">
     <div class="archive-jump">
@@ -137,7 +141,7 @@
     <p class="section-lede">The moments cabin crew train for and hope never to use, from evacuations and cockpit crises to split-second calls made from the aisle.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="ba2276-evac">
+      <div class="case-file" id="ba2276-evac" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>Sep 8, 2015</span><span>British Airways Flight 2276</span><span>Las Vegas, NV</span></div>
         <h3>The Evacuation That Took Ninety Seconds</h3>
@@ -167,8 +171,9 @@
         <div class="related-links"><strong>Related</strong><a href="#ba2276-evac">Another full-survival runway fire</a></div>
       </div>
 
-      <div class="case-file" id="helios522-crew">
+      <div class="case-file" id="helios522-crew" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Aug 14, 2005</span><span>Helios Airways Flight 522</span><span>Grammatiko, Greece</span></div>
         <h3>The Flight Attendant Who Held A Commercial Pilot's License</h3>
         <span class="story-date">— August 2005</span>
@@ -177,7 +182,7 @@
         <div class="related-links"><strong>Related</strong><a href="pilot-archives.html#helios522-pilot">The pilots' side of the same flight</a></div>
       </div>
 
-      <div class="case-file" id="aloha243-crew" style="border-color:var(--border-gold);">
+      <div class="case-file" id="aloha243-crew" style="border-color:var(--border-gold);" data-hub-featured-eligible>
         <span class="case-stamp">NTSB Verified</span>
         <div class="case-meta"><span>Apr 28, 1988</span><span>Aloha Airlines Flight 243</span><span>Maui, Hawaii</span></div>
         <h3>37 Years Of Service, Ended Mid-Sentence</h3>
@@ -197,8 +202,9 @@
         <div class="related-links"><strong>Related</strong><a href="passenger-archives.html#cardiologist-passenger-2">A cardiologist's mid-air save</a></div>
       </div>
 
-      <div class="case-file" id="vulovic-fall">
+      <div class="case-file" id="vulovic-fall" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
+        <span class="editors-pick-badge">&#9733; Editor's Pick</span>
         <div class="case-meta"><span>Jan 26, 1972</span><span>JAT Flight 367</span><span>Srbská Kamenice, Czechoslovakia</span></div>
         <h3>She Fell 33,000 Feet, And Lived</h3>
         <span class="story-date">— January 1972</span>
@@ -218,7 +224,7 @@
     <p class="section-lede">The passengers cabin crew remember, from medical emergencies and near-misses to the moments a flight attendant wasn't working alone.</p>
     <div class="grid grid-2" style="margin-top:36px;">
 
-      <div class="case-file" id="cardiologist-passenger">
+      <div class="case-file" id="cardiologist-passenger" data-hub-featured-eligible>
         <span class="case-stamp">Verified</span>
         <div class="case-meta"><span>May 2025</span><span>Domestic U.S. Flight</span><span>United States</span></div>
         <h3>The Cardiologist Who Happened To Be On Board</h3>
@@ -560,5 +566,9 @@
 <script src="js/main.min.js?v=20260803"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/hub-featured.min.js" defer></script>
+<script src="js/breadcrumbs.min.js" defer></script>
+<script src="js/random-case-file.min.js" defer></script>
 </body>
 </html>
