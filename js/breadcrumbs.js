@@ -36,12 +36,20 @@
     'passenger-archives.html': { label: 'The Passenger Files', parent: 'passengers.html' },
 
     // ---- Black Box Files deep-dives ----
-    'pan-am-103.html': { label: 'Pan Am 103', parent: 'blackbox.html' },
-    'japan-airlines-123.html': { label: 'Japan Airlines 123', parent: 'blackbox.html' },
-    'air-florida-90.html': { label: 'Air Florida 90', parent: 'blackbox.html' },
-    'air-france-447.html': { label: 'Air France 447', parent: 'blackbox.html' },
-    'helios522.html': { label: 'Helios 522', parent: 'blackbox.html' },
-    'tenerife-disaster.html': { label: 'Tenerife Disaster', parent: 'blackbox.html' },
+    // ---- Black Box Files categories ----
+    'blackbox-disasters.html': { label: 'The Disasters', parent: 'blackbox.html' },
+    'blackbox-unsolved.html': { label: 'The Unsolved', parent: 'blackbox.html' },
+    'blackbox-heroes.html': { label: 'The Heroes', parent: 'blackbox.html' },
+    'blackbox-ghost-flights.html': { label: 'Ghost Flights', parent: 'blackbox.html' },
+    'blackbox-acts-of-terror.html': { label: 'Acts Of Terror', parent: 'blackbox.html' },
+    'blackbox-near-misses.html': { label: 'Near Misses', parent: 'blackbox.html' },
+
+    'pan-am-103.html': { label: 'Pan Am 103', parent: 'blackbox-acts-of-terror.html' },
+    'japan-airlines-123.html': { label: 'Japan Airlines 123', parent: 'blackbox-disasters.html' },
+    'air-florida-90.html': { label: 'Air Florida 90', parent: 'blackbox-disasters.html' },
+    'air-france-447.html': { label: 'Air France 447', parent: 'blackbox-disasters.html' },
+    'helios522.html': { label: 'Helios 522', parent: 'blackbox-ghost-flights.html' },
+    'tenerife-disaster.html': { label: 'Tenerife Disaster', parent: 'blackbox-disasters.html' },
 
     // ---- Heroic Moments deep-dives ----
     'united-232.html': { label: 'United 232', parent: 'heroic.html' },
