@@ -1202,7 +1202,23 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .live-dot{display:inline-flex;align-items:center;gap:7px;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#39e6c5;font-family:'Oswald',sans-serif;font-weight:600;}
 .live-dot::before{content:"";width:7px;height:7px;border-radius:50%;background:#39e6c5;box-shadow:0 0 8px #39e6c5;animation:pulse-dot 1.8s infinite;flex-shrink:0;}
 
-/* ===== This Day In Aviation History (homepage) ===== */
+/* ===== This Day In Aviation History (homepage) =====
+   Sits directly under the ticker as the first section on the page — it's the
+   one block that changes every day, so it leads. Deliberately restrained
+   (no borders/radar like the teaser sections further down) so it reads as the
+   top of the page rather than competing with the hero below it. */
+.tdih-section{
+  position:relative;
+  background:radial-gradient(1100px 480px at 50% -10%, rgba(212,175,55,0.09), transparent 62%);
+}
+.tdih-eyebrow{margin-bottom:18px;}
+.tdih-eyebrow::before{display:none;}
+.tdih-date{
+  font-size:clamp(2.6rem,7.5vw,5rem);
+  line-height:1.04;letter-spacing:.01em;text-transform:uppercase;
+  color:var(--white);max-width:none;margin:0 auto 12px;
+  text-shadow:0 0 48px rgba(212,175,55,0.32),0 0 96px rgba(212,175,55,0.14);
+}
 .history-event-card{
   background:linear-gradient(160deg,var(--navy-800),var(--navy-850));
   border:1px solid var(--border-gold);border-radius:var(--radius-lg);
@@ -1826,18 +1842,19 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .beehiiv-wrapper{height:480px;}
 @media (max-width:480px){.beehiiv-wrapper{height:820px;}}
 
-.featured-card,#this-day,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
+/* Lazy-render only what's below the fold. #this-day is deliberately NOT in this
+   list — it's now the first section on the homepage, and content-visibility on
+   an above-the-fold block costs a paint/reflow on load rather than saving one. */
+.featured-card,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
   content-visibility:auto;
 }
 .featured-card{contain-intrinsic-height:auto 601px;}
-#this-day{contain-intrinsic-height:auto 650px;}
 .newsletter{contain-intrinsic-height:auto 570px;}
 #fear-of-flying{contain-intrinsic-height:auto 921px;}
 #from-archives{contain-intrinsic-height:auto 763px;}
 .ad-slot{contain-intrinsic-height:auto 49px;}
 @media (max-width:640px){
   .featured-card{contain-intrinsic-height:auto 943px;}
-  #this-day{contain-intrinsic-height:auto 1221px;}
   .newsletter{contain-intrinsic-height:auto 1114px;}
   #fear-of-flying{contain-intrinsic-height:auto 1490px;}
   #from-archives{contain-intrinsic-height:auto 1729px;}

@@ -294,14 +294,17 @@
   </div>
 </div>
 
-<section class="section dark-section mission-section">
+<section class="section tdih-section" id="this-day">
   <div class="container">
-    <div class="mission-inner center">
-      <span class="eyebrow gold center" style="display:flex;justify-content:center;">Cleared For Takeoff</span>
-      <h2 class="section-title center">The World Of Aviation, All In One Place.</h2>
-      <div class="gold-divider center"></div>
-      <p class="mission-lede">Flight Crew Files is an independent aviation platform dedicated to exploring every corner of the aviation world. From airports to airspace, commercial airlines to military aviation, private jets to helicopters, aircraft technology to aviation history, and the people who keep the industry moving. We bring together aviation news, careers, training, safety, travel, aircraft, operations, insights, and inspiring stories for aviation professionals, travelers, and enthusiasts worldwide. Whether you're on the ground, in the cockpit, in the cabin, behind the scenes, or simply fascinated by flight, welcome aboard.</p>
+    <span class="eyebrow gold center tdih-eyebrow" style="display:flex;justify-content:center;"><span class="pulse-dot gold"></span>This Day In Aviation History</span>
+    <h2 class="section-title center tdih-date" id="tdih-date">Loading today's date&hellip;</h2>
+    <p class="section-lede center" id="tdih-subtext">Looking up milestones for today&hellip;</p>
+    <div class="gold-divider center"></div>
+
+    <div class="grid grid-3" id="tdih-events" style="margin-top:44px;">
+      <!-- Populated by js/main.js from a curated, date-checked dataset -->
     </div>
+    <noscript><p class="tdih-note">Enable JavaScript to see today's aviation milestones, or browse the full <a href="history.html" class="text-blue">History archive</a>.</p></noscript>
   </div>
 </section>
 
@@ -311,6 +314,17 @@
       <noscript>
         <p class="tdih-note">Enable JavaScript to see this week's featured case file, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
       </noscript>
+    </div>
+  </div>
+</section>
+
+<section class="section dark-section mission-section">
+  <div class="container">
+    <div class="mission-inner center">
+      <span class="eyebrow gold center" style="display:flex;justify-content:center;">Cleared For Takeoff</span>
+      <h2 class="section-title center">The World Of Aviation, All In One Place.</h2>
+      <div class="gold-divider center"></div>
+      <p class="mission-lede">Flight Crew Files is an independent aviation platform dedicated to exploring every corner of the aviation world. From airports to airspace, commercial airlines to military aviation, private jets to helicopters, aircraft technology to aviation history, and the people who keep the industry moving. We bring together aviation news, careers, training, safety, travel, aircraft, operations, insights, and inspiring stories for aviation professionals, travelers, and enthusiasts worldwide. Whether you're on the ground, in the cockpit, in the cabin, behind the scenes, or simply fascinated by flight, welcome aboard.</p>
     </div>
   </div>
 </section>
@@ -658,20 +672,6 @@
       <p class="section-lede center">One aviation question, every day. New briefing at midnight.</p>
     </div>
     <div class="quiz-card" id="daily-quiz"></div>
-  </div>
-</section>
-
-<section class="section" id="this-day">
-  <div class="container">
-    <span class="eyebrow center">This Day In Aviation History</span>
-    <h2 class="section-title center" id="tdih-date">Loading today's date&hellip;</h2>
-    <p class="section-lede center" id="tdih-subtext">Looking up milestones for today&hellip;</p>
-    <div class="gold-divider center"></div>
-
-    <div class="grid grid-3" id="tdih-events" style="margin-top:44px;">
-      <!-- Populated by js/main.js from a curated, date-checked dataset -->
-    </div>
-    <noscript><p class="tdih-note">Enable JavaScript to see today's aviation milestones, or browse the full <a href="history.html" class="text-blue">History archive</a>.</p></noscript>
   </div>
 </section>
 
