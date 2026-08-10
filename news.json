@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-08-10T15:14:59.871338+00:00",
+  "generated_at": "2026-08-10T16:46:59.369793+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 27,
   "articles": [
+    {
+      "title": "Atlanta Still Boards More Passengers Than Dubai, So How Did DXB Steal The Busiest Airport Crown?",
+      "description": "For decades, Hartsfield-Jackson Atlanta International Airport (ATL) has been known as the world's busiest airport. The Georgia hub consistently handled more passengers than any other airport on the planet, thanks largely to its enormous domestic network and its position as the primary connecting…",
+      "url": "https://simpleflying.com/atlanta-dubai-airport-operations-compared/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-10T16:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/emirates-airbus-a380s-at-dubai-international-airport-dxb-shutterstock_1994899532-20260730-235840.jpg"
+    },
     {
       "title": "Archer to acquire Wisk Aero, SkyGrid and Insitu from Boeing",
       "description": "The Boeing divestment will give Archer access to proprietary autonomous flight, electric drivetrain and uncrewed aerial systems technologies. Advanced air mobility start-up Archer Aviation has reached a deal to acquire several emerging aerospace technology companies owned by Boeing. The agreement…",
@@ -139,15 +148,6 @@
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/alaska-airlines-boeing-737-900er.jpg"
     },
     {
-      "title": "The Scope Clause: The Obscure Rule Shaping US Regional Aviation",
-      "description": "Most airline passengers never think about why one flight is operated by a major airline while another, carrying the same branding, is flown by a regional partner. Even fewer realize that one of the most influential forces behind those decisions is not an aircraft manufacturer, the Federal Aviation…",
-      "url": "https://simpleflying.com/scope-clause-obscure-rule-shaping-us-regional-aviation/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-10T07:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/us-regional-aviation.jpg"
-    },
-    {
       "title": "Vietjet brings number of carriers committing to Western Sydney airport to five",
       "description": "Asian budget airline’s link to new Australian airport from Vietnam commences at the beginning of 2027. Vietnamese budget carrier Vietjet is the latest operator to sign up to services from the new Western Sydney airport, with plans to open routes from January next year. Cargo flights have been…",
       "url": "https://www.flightglobal.com/archive/2026/08/vietjet-brings-number-of-carriers-committing-to-western-sydney-airport-to-five/",
@@ -195,7 +195,7 @@
     {
       "title": "AOPA helps launch careers in aviation",
       "description": "On November 13 and 14, AOPA is holding its inaugural AOPA Aviation Career Expo in Phoenix.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T23:46:00Z",
@@ -204,7 +204,7 @@
     {
       "title": "FAA refines unleaded fuel transition framework",
       "description": "The FAA released the first major update of its Transition Plan to Unleaded Aviation Gasoline on July 30, revising with additional detail the roadmap for eliminating the use of tetraethyllead (TEL) in avgas and updating pilots and aircraft owners on the status of each fuel.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T23:01:55Z",
@@ -213,7 +213,7 @@
     {
       "title": "Florida airport board on November ballot",
       "description": "Voters in Collier County, Florida, will select the five members of the Naples Airport Authority for the first time after a state law passed earlier this year stripped the city of the power to appoint them—enabling voters to have a stronger say in the future of Naples Municipal Airport .",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T20:30:13Z",
@@ -222,7 +222,7 @@
     {
       "title": "AOPA urges FAA to protect aircraft owner data",
       "description": "AOPA, along with several other prominent general aviation organizations, sent a letter to the FAA, urging the agency to limit the disclosure of the personal information of aircraft owners.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T17:50:56Z",
@@ -231,7 +231,7 @@
     {
       "title": "Aircraft Maintenance: What to check after a smoky flight",
       "description": "Our flight to EAA AirVenture Oshkosh in Wisconsin this year included some extensive instrument conditions, with visibility frequently less than one statute mile in dense smoke from the Canadian wildfires. What we found after landing surprised us—and changed how we maintain our aircraft.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/what-to-check-after-a-smoky-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T08:00:00Z",
@@ -240,7 +240,7 @@
     {
       "title": "ATP accelerates Airline Career Pilot Program",
       "description": "ATP Flight School says it has shortened the published timeline for its Airline Career Pilot Program by 25 percent, largely by reducing the amount of time students wait for FAA practical exams.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/05/atp-accelerates-airline-career-pilot-program?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-05T20:30:01Z",

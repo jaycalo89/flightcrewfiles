@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:14:39.301025+00:00",
+  "generated_at": "2026-08-10T16:46:43.439061+00:00",
   "count": 40,
   "queries": [
     "aviation incident news",
@@ -46,16 +46,6 @@
       "published_at": "2026-08-10T11:55:48Z",
       "thumbnail": "https://i.ytimg.com/vi/1O7tNyvAkEo/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=1O7tNyvAkEo",
-      "matched_query": "aviation incident news"
-    },
-    {
-      "video_id": "AvCUjXM3k5A",
-      "title": "Viral Video: बारामती एयरपोर्ट पर फिर प्लेन क्रैश... अजीत पवार काप्लेन यही हुआ था दुर्घटनाग्रस्त!",
-      "description": "Viral Video: बारामती एयरपोर्ट पर फिर प्लेन क्रैश... अजीत पवार काप्लेन यही ...",
-      "channel": "Zee News",
-      "published_at": "2026-08-10T10:43:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/AvCUjXM3k5A/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=AvCUjXM3k5A",
       "matched_query": "aviation incident news"
     },
     {
@@ -109,23 +99,43 @@
       "matched_query": "aviation incident news"
     },
     {
-      "video_id": "1dH7zeQLJ9Y",
-      "title": "Why Black Boxes Survive When Planes Don&#39;t",
-      "description": "How do black boxes survive crashes that destroy planes? In this documentary, we explore the engineering behind cockpit voice ...",
-      "channel": "Wings & Wrecks",
-      "published_at": "2026-08-09T18:30:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/1dH7zeQLJ9Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=1dH7zeQLJ9Y",
+      "video_id": "TthGB6ZoS6c",
+      "title": "Air India Flight 300 Feet Neeche Giri… Phir Pilot Ka Dope Test?! 😳",
+      "description": "Air India ki Phuket-Delhi flight AI2379 ne 4 August ko cruise ke dauran around 300 feet altitude lose kiya, jisme passengers aur ...",
+      "channel": "Vinayak Unfiltered",
+      "published_at": "2026-08-10T06:30:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/TthGB6ZoS6c/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=TthGB6ZoS6c",
+      "matched_query": "aviation incident news"
+    },
+    {
+      "video_id": "9zpqTKzzGTE",
+      "title": "American Airlines Cargo Flight 884 CVR (Runway Excursion)",
+      "description": "This Video Features A Fictional Recreation Of The Cockpit Voice Recorder (CVR) Transcript And Audio From The Takeoff Overrun ...",
+      "channel": "Naventa The Chill Techie Cat",
+      "published_at": "2026-08-10T16:43:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/9zpqTKzzGTE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=9zpqTKzzGTE",
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "-uAhkKhxpV4",
-      "title": "Así Funciona la Caja Negra de un Avión",
-      "description": "Qué es realmente la caja negra de un avión y cómo puede sobrevivir a un accidente extremo? En este video de Cómo Funciona ...",
-      "channel": "Cómo Funciona Todo",
-      "published_at": "2026-08-09T18:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/-uAhkKhxpV4/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=-uAhkKhxpV4",
+      "video_id": "cyamMeU8rf0",
+      "title": "What the Cockpit Voice Recorder Captured in AF447&#39;s Final 4 Minutes** ",
+      "description": "Two-fourteen and twenty-eight UTC, June 1, 2009. Three point five seven eight degrees north, thirty point three seven four ...",
+      "channel": "knowledge tales2",
+      "published_at": "2026-08-10T16:25:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/cyamMeU8rf0/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=cyamMeU8rf0",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "inzfyhX4mio",
+      "title": "✈️ Plane Crash తర్వాత అసలు ఏం జరిగిందో ఈ Box చెప్తుంది!#Shorts",
+      "description": "Plane crash అయిన తర్వాత అసలు ఏం జరిగిందో ఎలా తెలుసుకుంటారు? దానికి answer ...",
+      "channel": "Infoo_Sphere",
+      "published_at": "2026-08-10T15:42:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/inzfyhX4mio/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=inzfyhX4mio",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -146,6 +156,26 @@
       "published_at": "2026-08-10T07:59:05Z",
       "thumbnail": "https://i.ytimg.com/vi/T9XQRAW_Drc/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=T9XQRAW_Drc",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "1dH7zeQLJ9Y",
+      "title": "Why Black Boxes Survive When Planes Don&#39;t",
+      "description": "How do black boxes survive crashes that destroy planes? In this documentary, we explore the engineering behind cockpit voice ...",
+      "channel": "Wings & Wrecks",
+      "published_at": "2026-08-09T18:30:40Z",
+      "thumbnail": "https://i.ytimg.com/vi/1dH7zeQLJ9Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=1dH7zeQLJ9Y",
+      "matched_query": "cockpit voice recorder"
+    },
+    {
+      "video_id": "-uAhkKhxpV4",
+      "title": "Así Funciona la Caja Negra de un Avión",
+      "description": "Qué es realmente la caja negra de un avión y cómo puede sobrevivir a un accidente extremo? En este video de Cómo Funciona ...",
+      "channel": "Cómo Funciona Todo",
+      "published_at": "2026-08-09T18:00:09Z",
+      "thumbnail": "https://i.ytimg.com/vi/-uAhkKhxpV4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-uAhkKhxpV4",
       "matched_query": "cockpit voice recorder"
     },
     {
@@ -179,36 +209,6 @@
       "matched_query": "cockpit voice recorder"
     },
     {
-      "video_id": "kn5hrPy8Xs0",
-      "title": "Pacific Southwest Airlines Flight 1771 CVR Recording? + No White Noise Audio ",
-      "description": "NOTE: The following cockpit voice recorder (CVR) audio was made available through the Federal Bureau of Investigation (FBI) by ...",
-      "channel": "PhilippineAirline_123",
-      "published_at": "2026-08-09T10:46:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/kn5hrPy8Xs0/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=kn5hrPy8Xs0",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "Yx_DQXm7u-Q",
-      "title": "How Does a Black Box Survive a Plane Crash?",
-      "description": "What exactly is a black box, and how can it survive a plane crash that destroys almost everything around it? Despite the name, a ...",
-      "channel": "ThingsHistoryOfficial",
-      "published_at": "2026-08-08T18:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/Yx_DQXm7u-Q/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Yx_DQXm7u-Q",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
-      "video_id": "S3Xs72vyahk",
-      "title": "🔥 Aircraft Black Box Explained | Flight Data Recorder &amp; Cockpit Voice Recorder | Black Box Kyu Nahi",
-      "description": "Black Box Kya Hai? | Plane Crash Ke Baad Black Box Kyu Nahi Jalta? | Flight Black Box Explained | Black Box Kaise Kaam Karta ...",
-      "channel": "SCIENCE CLASS",
-      "published_at": "2026-08-08T14:33:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/S3Xs72vyahk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=S3Xs72vyahk",
-      "matched_query": "cockpit voice recorder"
-    },
-    {
       "video_id": "XUzpWPK85Qg",
       "title": "Emergency landings part:1 #aviation #emergency #landings #videos ",
       "description": "EMERGENCY LANDING IN A THUNDERSTORM! 🌩️ | Z.Aviation A dangerous emergency landing in Airplane Pro!",
@@ -216,6 +216,26 @@
       "published_at": "2026-08-10T14:58:29Z",
       "thumbnail": "https://i.ytimg.com/vi/XUzpWPK85Qg/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=XUzpWPK85Qg",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "a2mpSjxSqTs",
+      "title": "The US Pilot Who Survived the Impossible #usa",
+      "description": "The true story of Flight 1549 and the emergency landing that saved all 155 people aboard. US Airways Flight 1549, Miracle on the ...",
+      "channel": "Advanced Science Films",
+      "published_at": "2026-08-10T16:13:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/a2mpSjxSqTs/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=a2mpSjxSqTs",
+      "matched_query": "aviation emergency landing"
+    },
+    {
+      "video_id": "Lrss1Y_WAVM",
+      "title": "Runway Cleared in Seconds for Airbus A380 Emergency Landing",
+      "description": "Welcome to Runway Disaster ✈️ Brace yourself for heart-stopping airplane moments, epic GTA 5 aerial stunts, and cinematic ...",
+      "channel": "Runway Disaster",
+      "published_at": "2026-08-10T15:00:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/Lrss1Y_WAVM/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Lrss1Y_WAVM",
       "matched_query": "aviation emergency landing"
     },
     {
@@ -289,24 +309,14 @@
       "matched_query": "aviation emergency landing"
     },
     {
-      "video_id": "GyPaD-wM5jo",
-      "title": "Emergency Landing on the Runway  #fblifestyle #gaminglife #emergency #shorts",
-      "description": "Runway Blocked During A380 Landing! #shorts #fbviralpost2026シ #fbviral #short #share #reelsfacebook #reelsviralシ ...",
-      "channel": "𝑭𝒍𝒚𝑯𝒊𝒈𝒉 𝑼𝑺𝑨 \n",
-      "published_at": "2026-08-10T10:25:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/GyPaD-wM5jo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GyPaD-wM5jo",
-      "matched_query": "aviation emergency landing"
-    },
-    {
-      "video_id": "r6IR-4PlI4Y",
-      "title": "역대 가장 완벽한 동체착륙 #비행기 #항공 #조종사 #이륙 #착륙 #비행기쇼츠 #shorts",
-      "description": "2011년 11월 1일, 미국 뉴어크를 출발해 폴란드 바르샤바 쇼팽 공항으로 향하던 LOT 폴란드 항공 16편(보잉 767-300ER)에서 발생한 ...",
-      "channel": "Runway_Insight",
-      "published_at": "2026-08-10T10:00:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/r6IR-4PlI4Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=r6IR-4PlI4Y",
-      "matched_query": "aviation emergency landing"
+      "video_id": "lfqt_S-Yaew",
+      "title": "AATIP: Congress Secretly Funded a UAP Program. This Is the DOCUMENT!",
+      "description": "In 2007, a quiet line buried inside a defense budget bill sent $22 million to a real Pentagon program built to investigate ...",
+      "channel": "I Want 2 Believe",
+      "published_at": "2026-08-10T15:43:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/lfqt_S-Yaew/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=lfqt_S-Yaew",
+      "matched_query": "UAP pilot sighting"
     },
     {
       "video_id": "Q5c3aXyq5X8",
@@ -346,16 +356,6 @@
       "published_at": "2026-08-06T18:00:36Z",
       "thumbnail": "https://i.ytimg.com/vi/hSH74IKoskI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=hSH74IKoskI",
-      "matched_query": "UAP pilot sighting"
-    },
-    {
-      "video_id": "fqObgnDXhok",
-      "title": "The Pilot Who Coined &quot;Flying Saucer&quot; #ufo #Shorts",
-      "description": "Pilot Kenneth Arnold reported nine unidentified objects near Mount Rainier on June 24, 1947, describing their motion in a way the ...",
-      "channel": "Signal Unknown",
-      "published_at": "2026-08-06T00:43:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/fqObgnDXhok/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=fqObgnDXhok",
       "matched_query": "UAP pilot sighting"
     },
     {
