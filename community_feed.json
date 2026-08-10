@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:27:45.712345+00:00",
+  "generated_at": "2026-08-10T15:15:10.496188+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What problems do you face with airspeed/AoA measurement on small fixed-wing aircraft?",
-      "url": "https://aviation.stackexchange.com/questions/115479/what-problems-do-you-face-with-airspeed-aoa-measurement-on-small-fixed-wing-airc",
+      "title": "Flap setting on Take-Off",
+      "url": "https://aviation.stackexchange.com/questions/115482/flap-setting-on-take-off",
       "points": 0,
-      "num_comments": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786249473
+      "created_utc": 1786357196
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Was a specific incident or near-miss the catalyst for the FAA's sudden ban on SFO's parallel visual approaches?",
-      "url": "https://aviation.stackexchange.com/questions/115478/was-a-specific-incident-or-near-miss-the-catalyst-for-the-faas-sudden-ban-on-sf",
-      "points": 2,
-      "num_comments": 0,
+      "title": "On the nose of a B-1 bomber there are a series of lines. They look like a visual aid for the pilot. What are they for?",
+      "url": "https://aviation.stackexchange.com/questions/115474/on-the-nose-of-a-b-1-bomber-there-are-a-series-of-lines-they-look-like-a-visual",
+      "points": 13,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786235490
+      "created_utc": 1786102050
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "On the nose of a B-1 bomber there are a series of lines. They look like a visual aid for the pilot. What are they for?",
-      "url": "https://aviation.stackexchange.com/questions/115474/on-the-nose-of-a-b-1-bomber-there-are-a-series-of-lines-they-look-like-a-visual",
-      "points": 11,
+      "title": "What problems do you face with airspeed/AoA measurement on small fixed-wing aircraft?",
+      "url": "https://aviation.stackexchange.com/questions/115479/what-problems-do-you-face-with-airspeed-aoa-measurement-on-small-fixed-wing-airc",
+      "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786102050
+      "created_utc": 1786249473
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "For confusion of runway 08 and runway 26 traffic patterns",
-      "url": "https://aviation.stackexchange.com/questions/115473/for-confusion-of-runway-08-and-runway-26-traffic-patterns",
-      "points": -1,
+      "title": "Was a specific incident or near-miss the catalyst for the FAA's sudden ban on SFO's parallel visual approaches?",
+      "url": "https://aviation.stackexchange.com/questions/115478/was-a-specific-incident-or-near-miss-the-catalyst-for-the-faas-sudden-ban-on-sf",
+      "points": 2,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786090457
+      "created_utc": 1786235490
     }
   ]
 }

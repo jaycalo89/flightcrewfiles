@@ -1,79 +1,160 @@
 {
-  "generated_at": "2026-08-09T14:27:36.166102+00:00",
+  "generated_at": "2026-08-10T15:14:59.871338+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 25,
+  "count": 27,
   "articles": [
     {
-      "title": "How Airline Alliances Are Quietly Being Reshaped In 2026",
-      "description": "The three global airline alliances are not static organizations. In 2026 alone, ITA Airways switched from SkyTeam to Star Alliance, Hawaiian Airlines joined oneworld following its merger with Alaska Airlines , and Asiana Airlines will leave Star Alliance in December when it merges into SkyTeam…",
-      "url": "https://simpleflying.com/how-airline-alliances-quietly-reshape-2026/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-08-09T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/how-airline-alliances-are-quietly-being-reshaped-in-2026.jpg"
+      "title": "Archer to acquire Wisk Aero, SkyGrid and Insitu from Boeing",
+      "description": "The Boeing divestment will give Archer access to proprietary autonomous flight, electric drivetrain and uncrewed aerial systems technologies. Advanced air mobility start-up Archer Aviation has reached a deal to acquire several emerging aerospace technology companies owned by Boeing. The agreement…",
+      "url": "https://www.flightglobal.com/archive/2026/08/archer-to-acquire-wisk-aero-skygrid-and-insitu-from-boeing/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-10T15:04:39Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Wisk-eVTOL-480x320.jpeg"
     },
     {
-      "title": "Emirates Has Suspended Airbus A380 Flights To These 2 Long-Haul Destinations [Map]",
-      "description": "Emirates has temporarily suspended Airbus A380 operations on two long-haul routes from Dubai International Airport (DXB): Václav Havel Airport Prague (PRG) in the Czech Republic and Glasgow International Airport (GLA) in Scotland. The changes are evident when comparing the carrier's third-quarter…",
-      "url": "https://simpleflying.com/emirates-suspended-a380-flights-long-haul-destinations/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-09T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/851-emirates-airbus-a380-wael-alreweie-_-shutterstock.jpg"
+      "title": "This 2014 CubCrafters Carbon Cub SS Is a Backcountry-Famous ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2014 CubCrafters Carbon Cub SS. One…",
+      "url": "https://www.flyingmag.com/this-2014-cubcrafters-carbon-cub-ss-is-a-backcountry-famous-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-10T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cubcrafters-carbon-cub-ss-for-sale-601796-5893ecea2a37898b-800X600-1.jpg?w=1024"
     },
     {
-      "title": "The Airbus A350 Demonstrator That Could Make Ground-Based Landing Systems Obsolete",
-      "description": "In June 2018, Airbus launched the Autonomous Taxi Takeoff and Landing project and began a path towards transforming aviation technology. The Titanic European plane maker aims to bring a paradigm shift in the form of software-defined aircraft that decouple hardware from the programs they run to…",
-      "url": "https://simpleflying.com/airbus-a350-demonstrator-make-ground-based-landing-systems-obsolete/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-09T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a350-demonstrator.jpg"
+      "title": "FAA Issues AD for Boeing Jet Fuselage Cracks",
+      "description": "The FAA is adopting a new airworthiness directive (AD) for Boeing 737-8, 737-9, and 737-8200 airplanes stemming from the discovery of cracks on the structural metal sheet that reinforces the fuselage skin around door cutouts. According to the AD, the agency received reports of cracks in this metal…",
+      "url": "https://www.flyingmag.com/faa-issues-ad-for-boeing-jet-fuselage-cracks/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-10T14:00:00Z",
+      "image": null
     },
     {
-      "title": "Singapore Airlines Adds 25% More Airbus A380 Flights: See All Routes Here",
-      "description": "As the launch customer and one of the largest operators of the Airbus A380, Singapore Airlines has a close working relationship with the world's largest passenger airliner. Despite the type's increasing age and, in some markets, obsolescence, the Singaporean flag carrier and Star Alliance member…",
-      "url": "https://simpleflying.com/singapore-airlines-boosts-airbus-a380-flights/",
+      "title": "Turkish Airlines capacity growth still capped as markets recover from Iran conflict",
+      "description": "Carrier boosted international passengers in the first half even after initial demand hit following Iran conflict. Turkish Airlines is reporting an increase in international travellers in the first half of the year, even after the initial negative impact on travel demand to the country in the…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/turkish-airlines-capacity-growth-still-capped-as-markets-recover-from-iran-conflict/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-10T12:43:49Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/turkish-737-max8-c-anna-zvereva-creativecommons_950-480x337.jpg"
+    },
+    {
+      "title": "Hawaiian Airlines To Replace Inter-Island Boeing 717s With The 737-800",
+      "description": "Alaska Airlines has announced that it has selected the Boeing 737-800 to replace the interisland 717-200s that currently operate under the Hawaiian Airlines banner. These rear-engined twinjets have been a perfect fit for the short and sharp rotations that characterize interisland flying, but it is…",
+      "url": "https://simpleflying.com/video/hawaiian-airlines-to-replace-inter-island-boeing-717s-with-the-737-800/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-10T12:29:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/hawaiian-737.jpg"
+    },
+    {
+      "title": "1st Of 850 Jets: Lufthansa To Launch High-Speed Starlink WiFi On Airbus A320neo In 9 Days",
+      "description": "Lufthansa is set to be the next major carrier to launch high-speed Starlink WiFi on its scheduled passenger flights, with the Cologne-based German flag carrier and Star Alliance founding member planning an August 19 rollout. The new connectivity solution will initially be available on one of the…",
+      "url": "https://simpleflying.com/lufthansa-starlink-wifi-launch/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-08-09T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2243485699_cropped.jpg"
+      "published_at": "2026-08-10T12:10:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2770192273_cropped.jpg"
     },
     {
-      "title": "Business Class Vs. First Class On The Airbus A350: Is The Price Gap Actually Worth It?",
-      "description": "The Airbus A350 has become one of the world's premier long-haul airliners, serving flagship routes for airlines across Europe, Asia, the Middle East, and North America. Alongside its quieter cabin, lower cabin altitude, higher humidity levels, and wider fuselage, the aircraft has also become a…",
-      "url": "https://simpleflying.com/a350-business-class-vs-first-class/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-08-09T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/business-class-vs-first-class-on-the-a350-is-the-price-gap-actually-worth-it.jpg"
+      "title": "Bob Hoover Academy Creates Flight Path to Resilience",
+      "description": "The teen years can be troubling, more for some than others. Unfortunately many are faced with external forces such as brushes with the law, housing instability, gang violence, or simply being told by authority figures (parents or teachers) that they won’t amount to anything. This can put you into a…",
+      "url": "https://www.flyingmag.com/bob-hoover-academy-creates-flight-path-to-resilience/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-10T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "American Airlines Offers 1,205 Flight Attendants Unpaid Leave Amid September Flight Cuts",
-      "description": "American Airlines is offering up to 1,205 flight attendants the option of taking September off without pay, as the carrier moves into a fall schedule that begins earlier than in previous years. The unpaid leave offer will target all ten of the airline's crew bases and amounts to roughly 4% of its…",
-      "url": "https://simpleflying.com/american-airlines-1205-flight-attendants-unpaid-leave-september/",
+      "title": "Only 80 Miles: Qatar Airways Launches World's Shortest Airbus A350 Flights",
+      "description": "Qatar Airways was the launch customer of both the Airbus A350-900 and the Airbus A350-1000. The airline is used to flying its array of widebody aircraft (including its A350s) on particularly short flights. They help to provide capacity to feed its Doha Hamad International Airport (DOH) hub.",
+      "url": "https://simpleflying.com/only-80-miles-qatar-airways-launches-worlds-shortest-airbus-a350-flights/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-09T05:52:46Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/296-american-airlines-airbus-a319-ceri-breeze-_-shutterstock.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-08-10T11:00:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/216-qatar-airways-airbus-a350-900-max-walter-cangavi-_-shutterstock.jpg"
     },
     {
-      "title": "Sudden Brakes: Jetstar & Qatar Airways Planes Nearly Collide At Sydney Kingsford Smith Airport",
-      "description": "Two aircraft narrowly avoided colliding at Australia's busiest airport on Sunday, when a Jetstar Airways domestic flight came within proximity to an empty Qatar Airways jet being towed. This resulted in both planes slamming on the brakes and subsequently left one Jetstar crew member injured.",
-      "url": "https://simpleflying.com/jetstar-qatar-airways-planes-nearly-collide-sydney-kingsford-smith-airport/",
+      "title": "British Airways Breaks Decades of CFM Loyalty",
+      "description": "The United Kingdom's primary flag carrier, British Airways, has selected Pratt & Whitney's geared turbofan, or GTF engine to power up to 63 Airbus A320neo family aircraft, ending decades of exclusive reliance on CFM International engines for its Airbus narrowbody fleet. So in this video, we take a…",
+      "url": "https://simpleflying.com/video/british-airways-breaks-decades-of-cfm-loyalty/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-08-09T03:08:38Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/qatar-airways-boeing-777-300er-melbourne-1.jpg"
+      "author": "SF Staff",
+      "published_at": "2026-08-10T11:00:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/60_lh_british-airways-broke-decades-cfm-loyalty-pratt-whitney-gtf-over-60-airbus-jets_h_site-copy.jpg"
     },
     {
-      "title": "The FAA's 10-Hour Flight Attendant Rest Rule Actually Means 8 Hours At The Hotel",
-      "description": "Being a flight attendant is far from a glamorous job. Working on planes all day can be physically exhausting, and flight attendants are often scheduled on multi-day trips away from home, while pay rates are not that high compared to other airline employees. In addition to performing service roles…",
-      "url": "https://simpleflying.com/faa-10-hour-flight-attendant-rest-rule-means-8-hours-hotel/",
+      "title": "S7 Airlines 737-800 freighter overruns during landing at Norilsk",
+      "description": "Incident took place six weeks after aircraft from same carrier suffered excursion at Mirny. Russian investigators are probing an incident in which an S7 Airlines Boeing 737-800 freighter overran the runway at Norilsk. The event occurred at about 15:00 on 8 August following a service from Moscow…",
+      "url": "https://www.flightglobal.com/ops-safety/2026/08/s7-airlines-737-800-freighter-overruns-during-landing-at-norilsk/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-10T10:00:22Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Norilsk-overrun-c-West-Siberian-transport-prosecutors-office-480x335.jpeg"
+    },
+    {
+      "title": "What Happened To Antonov? How The Aircraft Giant Lost Its Serial Production",
+      "description": "Antonov produced many of the Soviet Union's most iconic transport aircraft, including the huge An-124 Ruslan and An-225 Mriya . It built most of the mid-sized military transports as well as regional aircraft like the Antonov An-148 and the enormously successful An-2 biplane. By the late 1980s, the…",
+      "url": "https://simpleflying.com/what-happened-to-antonov/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-09T01:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/faa-s-10-hour-flight-1.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-08-10T10:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/antonov.jpg"
+    },
+    {
+      "title": "Emirates Recycles Airbus A380 & Boeing 777 Parts In 8-Foot Arsenal FC Badge Sculpture",
+      "description": "The partnership between Emirates and Arsenal FC is one of the most notable sports sponsorship deals of the 21st century. With The Gunners having won the Premier League title last season, and their cooperation with the Dubai-based UAE flag carrier having now lasted for some 20 years, Emirates is in…",
+      "url": "https://simpleflying.com/emirates-a380-777-parts-arsenal-badge-sculpture/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-10T09:47:25Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2795371531_cropped.jpg"
+    },
+    {
+      "title": "All Pilots & Cabin Crew In Malaysia Face 30-Day Drug Test Deadline After Smuggling Scandal",
+      "description": "A Malaysia Airlines pilot was recently arrested in Indonesia after they were found to be smuggling drugs into the country. With the event having serious safety and reputational ramifications for not just the airline but, indeed, the commercial aviation sector in Malaysia as a whole, authorities are…",
+      "url": "https://simpleflying.com/malaysia-pilots-cabin-crew-30-day-drug-test-deadline/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-10T08:48:45Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2370268095_cropped.jpg"
+    },
+    {
+      "title": "ITA Airways sees operating profit during second quarter before currency impacts",
+      "description": "Italian carrier posts a positive EBIT of €37 million for April-June. Italian carrier ITA Airways cites currency exchange issues for an “accounting-related” net loss in the second quarter, pointing to a positive operating result at an EBIT level for the period. ITA, which Lufthansa Group is in the…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/ita-airways-sees-operating-profit-during-second-quarter-before-currency-impacts/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-10T08:20:19Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/ITA-Airways-480x320.jpg"
+    },
+    {
+      "title": "Alaska Airlines Boeing 737 Forced Into 'Lockdown Protocol' After Threat To Take Over Jet",
+      "description": "Alaska Airlines flight 305 was unable to depart Miami International Airport (MIA) on Sunday after flight attendants received threats from multiple travelers. In audio shared by Andy Slater via X, the pilots told the tower that the cabin crew had reported that customers had \"threatened to take the…",
+      "url": "https://simpleflying.com/alaska-airlines-737-lockdown-protocol-takeover-threat/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-10T07:34:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/alaska-airlines-boeing-737-900er.jpg"
+    },
+    {
+      "title": "The Scope Clause: The Obscure Rule Shaping US Regional Aviation",
+      "description": "Most airline passengers never think about why one flight is operated by a major airline while another, carrying the same branding, is flown by a regional partner. Even fewer realize that one of the most influential forces behind those decisions is not an aircraft manufacturer, the Federal Aviation…",
+      "url": "https://simpleflying.com/scope-clause-obscure-rule-shaping-us-regional-aviation/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-10T07:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/us-regional-aviation.jpg"
+    },
+    {
+      "title": "Vietjet brings number of carriers committing to Western Sydney airport to five",
+      "description": "Asian budget airline’s link to new Australian airport from Vietnam commences at the beginning of 2027. Vietnamese budget carrier Vietjet is the latest operator to sign up to services from the new Western Sydney airport, with plans to open routes from January next year. Cargo flights have been…",
+      "url": "https://www.flightglobal.com/archive/2026/08/vietjet-brings-number-of-carriers-committing-to-western-sydney-airport-to-five/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-10T05:54:36Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Vietjet-A330-c-WSI-480x320.jpeg"
     },
     {
       "title": "More Than a Passenger: Helping Your Plus-One Become an Active Participant in Flight",
@@ -112,42 +193,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Ampaire-N337EE-Static-Angle-Across-SLC.mp4"
     },
     {
-      "title": "Wizz on track to be over GTF-related aircraft groundings by end of 2027",
-      "description": "Central European budget carrier had 27 A320neos on the ground at the end of June. Wizz Air chief executive Jozsef Varadi believes the carrier is still on track to be clear of Pratt & Whitney GTF engine-related A320neo-family aircraft groundings by the end of 2027, lifting one of the key challenges…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/wizz-on-track-to-be-over-gtf-related-aircraft-groundings-by-end-of-2027/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-07T08:52:46Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/wizz-a321neo-pw-engine-cms_digital_shutterstock_950-480x364.jpg"
-    },
-    {
-      "title": "Chinese orders and Farnborough agreements push Airbus net total past 1,000",
-      "description": "Airframer nearly halfway to delivery target after handing over 67 aircraft in July. Airbus’s net orders for this year have surpassed 1,000 after the airframer added more than 200 to its total during July. It has confirmed China Eastern Airlines’ order for 25 A330-900s and Hainan Airlines’ agreement…",
-      "url": "https://www.flightglobal.com/orders-deliveries/2026/08/chinese-orders-and-farnborough-agreements-push-airbus-net-total-past-1000/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-07T07:05:23Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Riyadh-A350-1000-c-Airbus-480x329.jpg"
-    },
-    {
-      "title": "US Navy aircraft experiment with AI tools",
-      "description": "Artificial intelligence shows promise in key maritime surveillance activities. A pair of demonstrations involving US Navy aircraft shows the potential for artificial intelligence in the anti-submarine and maritime patrol missions. As part of the RIMPAC naval exercise near Hawaii, a pair of Sikorsky…",
-      "url": "https://www.flightglobal.com/fixed-wing/2026/08/us-navy-aircraft-experiment-with-ai-tools/",
-      "source": "FlightGlobal",
-      "author": "Greg Waldron",
-      "published_at": "2026-08-07T06:49:36Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/MH-60R-480x319.jpg"
-    },
-    {
-      "title": "FAA orders Boeing 737 Max inspections, proposes 787 Trent 1000 safety fix",
-      "description": "The agency targets a 737 structural concern and an issue that could cause a dual Trent 1000 failure. The Federal Aviation Administration (FAA) is taking action to address risks involving Boeing 737 Max door-related structural components and concerns about uncontained failures of 787 Rolls-Royce…",
-      "url": "https://www.flightglobal.com/ops-safety/2026/08/faa-orders-boeing-737-max-inspections-proposes-787-trent-1000-safety-fix/",
-      "source": "FlightGlobal",
-      "author": "Jon Hemmerdinger",
-      "published_at": "2026-08-07T00:34:18Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/trentboeing787crollsroyce_845082-480x323.jpg"
-    },
-    {
       "title": "AOPA helps launch careers in aviation",
       "description": "On November 13 and 14, AOPA is holding its inaugural AOPA Aviation Career Expo in Phoenix.",
       "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -175,39 +220,12 @@
       "image": null
     },
     {
-      "title": "Should I Pay Cash for My Aircraft?",
-      "description": "I stood with the Diamond Aircraft team at EAA AirVenture Oshkosh 2026 watching a ceremonious signing for a new twin engine DA62. The gentleman could not have beamed brighter as he shook hands with the Premier Aircraft Sales representative next to the sleek contours that epitomize the glider based…",
-      "url": "https://www.flyingmag.com/should-i-pay-cash-for-my-aircraft/",
-      "source": "Flying Magazine",
-      "author": "Tripp Thurston",
-      "published_at": "2026-08-06T18:06:03Z",
-      "image": null
-    },
-    {
       "title": "AOPA urges FAA to protect aircraft owner data",
       "description": "AOPA, along with several other prominent general aviation organizations, sent a letter to the FAA, urging the agency to limit the disclosure of the personal information of aircraft owners.",
       "url": "https://aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-06T17:50:56Z",
-      "image": null
-    },
-    {
-      "title": "This 2019 Zenith CH 750 Cruzer Is an Adventurous ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2019 Zenith CH 750 Cruzer. Celebrated…",
-      "url": "https://www.flyingmag.com/this-2019-zenith-ch-750-cruzer-is-an-adventurous-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-06T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-zenith-ch-750-for-sale-601779-7e62bebcdacc7945-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "FAA Adopts New AD for Diamond DA42",
-      "description": "The FAA is adopting a new airworthiness directive (AD) for the Diamond DA42 to address occurrences of uncommanded rudder deflection caused by a cracked nose landing gear (NLG) hydraulic actuator rod end. According to the agency, this could lead to failure of the NLG actuator and interference with…",
-      "url": "https://www.flyingmag.com/faa-adopts-new-ad-for-diamond-da42/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-06T13:30:00Z",
       "image": null
     },
     {
