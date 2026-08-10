@@ -10,42 +10,54 @@ const BLACKBOX_CATEGORIES = {
     tagline: "The crashes that rewrote how aircraft are built, inspected and flown.",
     page: "blackbox-disasters.html",
     accent: "#ff4d4d",
-    icon: '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>'
+    icon: '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>',
+    image: "images/japan-airlines-123/ja8119-in-flight-1985.jpg",
+    imageCredit: { text: "Photo: Stuart Jessup via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:BOEING_747SR-46,_JA8119_,_JAPAN_AIRLINES.jpg" }
   },
   "the-unsolved": {
     name: "The Unsolved",
     tagline: "Aircraft that vanished, and the questions that were never answered.",
     page: "blackbox-unsolved.html",
     accent: "#b06bff",
-    icon: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/><circle cx="12" cy="16.5" r=".6" fill="currentColor" stroke="none"/>'
+    icon: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/><circle cx="12" cy="16.5" r=".6" fill="currentColor" stroke="none"/>',
+    image: "images/mh370/9m-mro-aircraft.jpg",
+    imageCredit: { text: "Photo: Laurent ERRERA via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Boeing_777-200ER_Malaysia_AL_(MAS)_9M-MRO_-_color.jpg" }
   },
   "the-heroes": {
     name: "The Heroes",
     tagline: "Crews who kept a crippled aircraft flying long enough to bring everyone home.",
     page: "blackbox-heroes.html",
     accent: "#e8c766",
-    icon: '<path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/>'
+    icon: '<path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/>',
+    image: "images/united-232/n1819u-united-dc10.jpg",
+    imageCredit: { text: "Photo: Paul Seymour via Wikimedia Commons, CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:N1819U_McDonnell_Douglas_DC-10-10_United_Airlines,_Newark_International_Airport_1980.jpg" }
   },
   "ghost-flights": {
     name: "Ghost Flights",
     tagline: "Aircraft that kept flying long after everyone aboard could no longer fly it.",
     page: "blackbox-ghost-flights.html",
     accent: "#39e6c5",
-    icon: '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>'
+    icon: '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>',
+    image: "images/helios522/helios-5B-DBY-aircraft.jpg",
+    imageCredit: { text: "Photo: Mila Daniel via Wikimedia Commons, CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Helios_Airways_Boeing_737-300_5B-DBY.jpg" }
   },
   "acts-of-terror": {
     name: "Acts Of Terror",
     tagline: "Deliberate attacks against civil aircraft, and the investigations that followed.",
     page: "blackbox-acts-of-terror.html",
     accent: "#e05b5b",
-    icon: '<path d="M4 4l7 16 3-7 7-3-16-7Z"/><path d="M13 13 21 21"/>'
+    icon: '<path d="M4 4l7 16 3-7 7-3-16-7Z"/><path d="M13 13 21 21"/>',
+    image: "images/pan-am-103/n739pa-maid-of-the-seas.jpg",
+    imageCredit: { text: "Photo: Ted Quackenbush via Wikimedia Commons, GFDL", url: "https://commons.wikimedia.org/wiki/File:Pan_Am_Boeing_747-121_N739PA_%22Clipper_Maid_of_the_Seas%22_at_Los_Angeles_International_Airport_in_1987_(original).jpg" }
   },
   "near-misses": {
     name: "Near Misses",
     tagline: "Close calls that came within seconds or feet of becoming disasters.",
     page: "blackbox-near-misses.html",
     accent: "#f97316",
-    icon: '<path d="M12 2v6M12 22v-6M2 12h6M22 12h-6"/><circle cx="12" cy="12" r="3"/>'
+    icon: '<path d="M12 2v6M12 22v-6M2 12h6M22 12h-6"/><circle cx="12" cy="12" r="3"/>',
+    image: "images/near-misses/vh-oqa-qantas-a380.jpg",
+    imageCredit: { text: "Photo: Robert Frola via Wikimedia Commons, GFDL", url: "https://commons.wikimedia.org/wiki/File:VH-OQA_'Nancy-Bird_Walton'_A380-842_Qantas_(8324049451).jpg" }
   }
 };
 

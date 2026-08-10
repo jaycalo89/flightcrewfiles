@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260809l">
+<link rel="stylesheet" href="css/style.min.css?v=20260809m">
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
 <script>
@@ -84,14 +84,19 @@
     mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
     -webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
   }
-  .bb-quote-track{display:inline-flex;white-space:nowrap;animation:bb-quote-scroll 42s linear infinite;}
+  .bb-quote-track{display:inline-flex;white-space:nowrap;animation:bb-quote-scroll 85s linear infinite;}
   .bb-quote-track span{
-    display:inline-block;padding:0 40px;font-family:'Oswald',sans-serif;font-style:italic;
-    font-size:1rem;color:var(--gold-400);border-right:1px solid rgba(255,255,255,0.08);
+    display:inline-block;padding:0 48px;font-family:'Oswald',sans-serif;font-style:italic;
+    font-size:1.4rem;letter-spacing:.01em;color:var(--gold-400);border-right:1px solid rgba(255,255,255,0.08);
+    text-shadow:0 0 26px rgba(212,175,55,0.2);
   }
   .bb-quote-track span em{
-    display:block;margin-top:4px;font-family:'Inter',sans-serif;font-style:normal;
-    font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(246,248,252,0.5);
+    display:block;margin-top:8px;font-family:'Inter',sans-serif;font-style:normal;
+    font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(246,248,252,0.55);
+  }
+  .bb-quote-track span b{
+    display:block;margin-top:3px;font-family:'Inter',sans-serif;font-weight:400;font-style:normal;
+    font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(246,248,252,0.3);
   }
   @keyframes bb-quote-scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
   @media (prefers-reduced-motion:reduce){.bb-quote-track{animation:none;}}
@@ -190,20 +195,20 @@
 
     <div class="bb-quote-reel">
       <div class="bb-quote-track" aria-hidden="true">
-        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em></span>
-        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em></span>
-        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em></span>
-        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em></span>
-        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em></span>
-        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em></span>
-        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em></span>
-        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em></span>
-        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em></span>
-        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em></span>
-        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em></span>
-        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em></span>
-        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em></span>
-        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em></span>
+        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em><b>August 14, 2005</b></span>
+        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em><b>March 27, 1977</b></span>
+        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em><b>January 13, 1982</b></span>
+        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em><b>June 1, 2009</b></span>
+        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em><b>September 2, 1998</b></span>
+        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em><b>September 11, 2001</b></span>
+        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em><b>January 31, 2000</b></span>
+        <span>&#8220;Mayday, mayday, mayday&#8230;&#8221;<em>Helios 522 &middot; never received</em><b>August 14, 2005</b></span>
+        <span>&#8220;We are now at takeoff.&#8221;<em>KLM 4805 &middot; Tenerife</em><b>March 27, 1977</b></span>
+        <span>&#8220;Larry, we're going down, Larry.&#8221;<em>Air Florida 90</em><b>January 13, 1982</b></span>
+        <span>&#8220;We have no valid indications.&#8221;<em>Air France 447</em><b>June 1, 2009</b></span>
+        <span>&#8220;Pan Pan, Pan Pan, Pan Pan.&#8221;<em>Swissair 111</em><b>September 2, 1998</b></span>
+        <span>&#8220;We have some planes.&#8221;<em>American 11 &middot; 9/11</em><b>September 11, 2001</b></span>
+        <span>&#8220;Push and push and push.&#8221;<em>Alaska Airlines 261</em><b>January 31, 2000</b></span>
       </div>
     </div>
 
@@ -211,13 +216,14 @@
 </section>
 
 <!-- ================= CATEGORIES ================= -->
-<section class="section">
+<section class="section bb-cat-section">
   <div class="container">
-    <div class="grid grid-3" id="bb-category-grid">
+    <div class="bb-cat-stack" id="bb-category-grid">
       <noscript>
         <p class="tdih-note">Enable JavaScript to browse the categories, or explore <a href="stories.html" class="text-blue">the full Case Files &amp; Stories archive</a>.</p>
       </noscript>
     </div>
+    <p class="bb-cat-photo-credits">Category photography via Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:BOEING_747SR-46,_JA8119_,_JAPAN_AIRLINES.jpg" target="_blank" rel="noopener">Stuart Jessup</a> &middot; <a href="https://commons.wikimedia.org/wiki/File:Boeing_777-200ER_Malaysia_AL_(MAS)_9M-MRO_-_color.jpg" target="_blank" rel="noopener">Laurent ERRERA</a> &middot; <a href="https://commons.wikimedia.org/wiki/File:N1819U_McDonnell_Douglas_DC-10-10_United_Airlines,_Newark_International_Airport_1980.jpg" target="_blank" rel="noopener">Paul Seymour</a> &middot; <a href="https://commons.wikimedia.org/wiki/File:Helios_Airways_Boeing_737-300_5B-DBY.jpg" target="_blank" rel="noopener">Mila Daniel</a> &middot; <a href="https://commons.wikimedia.org/wiki/File:Pan_Am_Boeing_747-121_N739PA_%22Clipper_Maid_of_the_Seas%22_at_Los_Angeles_International_Airport_in_1987_(original).jpg" target="_blank" rel="noopener">Ted Quackenbush</a> &middot; <a href="https://commons.wikimedia.org/wiki/File:VH-OQA_'Nancy-Bird_Walton'_A380-842_Qantas_(8324049451).jpg" target="_blank" rel="noopener">Robert Frola</a>.</p>
   </div>
 </section>
 
@@ -367,8 +373,8 @@
 <script src="js/main.min.js?v=20260803"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
-<script src="js/blackbox-data.min.js" defer></script>
-<script src="js/blackbox-hub.min.js" defer></script>
+<script src="js/blackbox-data.min.js?v=20260809m" defer></script>
+<script src="js/blackbox-hub.min.js?v=20260809n" defer></script>
 <script src="js/breadcrumbs.min.js?v=20260809l" defer></script>
 <script src="js/random-case-file.min.js" defer></script>
 </body>
