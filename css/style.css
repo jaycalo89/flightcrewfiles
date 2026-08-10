@@ -800,7 +800,6 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   transition:transform .2s ease,border-color .2s ease;
 }
 .bb-archive-card:not(.is-soon):hover{transform:translateY(-5px);border-color:var(--gold-500);}
-.bb-archive-card.is-soon{opacity:.75;cursor:default;}
 .bb-archive-media{height:170px;flex-shrink:0;position:relative;overflow:hidden;}
 .bb-archive-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;}
 .bb-archive-media::after{
@@ -809,8 +808,21 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 }
 .tier-badge.bb-archive-badge{position:absolute;top:12px;right:12px;z-index:1;background:rgba(3,6,15,0.75);}
 .bb-archive-body{padding:20px 22px 22px;flex:1;display:flex;flex-direction:column;}
-.bb-archive-date{font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted-light);margin-bottom:8px;}
-.bb-archive-body h3{font-size:1.08rem;line-height:1.3;margin-bottom:14px;text-transform:none;color:var(--white);}
+.bb-archive-toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;}
+.bb-archive-date{font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted-light);}
+.bb-archive-tag{
+  flex-shrink:0;font-family:'Oswald',sans-serif;font-size:.6rem;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;padding:4px 9px;border-radius:999px;border:1px solid currentColor;line-height:1.4;white-space:nowrap;
+}
+.bb-archive-body h3{font-size:1.08rem;line-height:1.3;margin-bottom:10px;text-transform:none;color:var(--white);}
+.bb-archive-fatalities{font-family:'Inter',sans-serif;font-size:.78rem;font-weight:600;color:#ef4444;margin:0 0 12px;}
+.bb-archive-stats{
+  display:flex;flex-wrap:wrap;column-gap:14px;row-gap:6px;margin:0 0 16px;
+  padding-top:12px;border-top:1px solid var(--border-soft);
+}
+.bb-archive-stat{display:inline-flex;align-items:center;gap:5px;font-family:'Inter',sans-serif;font-size:.72rem;color:var(--muted-light);min-width:0;}
+.bb-archive-stat-icon{font-size:.85rem;line-height:1;flex-shrink:0;}
+.bb-archive-stat span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .bb-archive-open{
   margin-top:auto;display:inline-flex;align-items:center;gap:6px;
   font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
@@ -818,9 +830,25 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 }
 .bb-archive-open svg{width:14px;height:14px;transition:transform .2s ease;}
 .bb-archive-card:hover .bb-archive-open svg{transform:translateX(3px);}
+
+/* Coming-soon cards: muted/darker treatment + lock overlay + in-progress badge */
+.bb-archive-card.is-soon{cursor:default;filter:grayscale(.35);}
+.bb-archive-card.is-soon .bb-archive-img{filter:brightness(.55);}
+.bb-archive-card.is-soon .bb-archive-media::after{background:linear-gradient(0deg, rgba(3,6,15,.9) 0%, rgba(3,6,15,.45) 60%, rgba(3,6,15,.25) 100%);}
+.bb-archive-lock{
+  position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;
+  background:rgba(3,6,15,.15);
+}
+.bb-archive-lock svg{width:32px;height:32px;stroke:rgba(246,248,252,.85);filter:drop-shadow(0 2px 8px rgba(0,0,0,.7));}
 .bb-archive-soon{
-  margin-top:auto;display:inline-block;font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;
-  font-weight:700;color:var(--muted-light);
+  margin-top:auto;display:inline-flex;align-items:center;gap:6px;
+  font-family:'Oswald',sans-serif;font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;
+  font-weight:700;color:var(--muted-light);border:1px dashed rgba(246,248,252,0.3);border-radius:4px;
+  padding:7px 11px;background:rgba(255,255,255,0.02);
+}
+@media (max-width:520px){
+  .bb-archive-tag{font-size:.56rem;padding:3px 8px;}
+  .bb-archive-stats{column-gap:10px;}
 }
 
 /* ===== Previous/Next Case File nav (js/case-file-nav.js) ===== */
