@@ -12,6 +12,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #022
+    title: "The Explosion Nobody Could Explain",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Case Disputed",
+    date: "July 1996",
+    excerpt: "Twelve minutes out of JFK on a clear summer evening, a Boeing 747 came apart at 13,760 feet and fell into the Atlantic in front of an entire coastline of people. All 230 aboard died. Of 736 witnesses, 258 described a streak of light and 38 said it rose vertically. Four years later the NTSB blamed the centre fuel tank, while admitting it could not identify the ignition source with certainty. Some of the people who worked the case have never accepted it.",
+    url: "twa-flight-800.html",
+    image: "images/twa-flight-800/n93119-twa-747.jpg",
+    imageCredit: { text: "Photo: Eduard Marmet via Wikimedia Commons, CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:TWA_Boeing_747-100_N93119_Marmet.jpg" },
+    intensity: 8,
+    editorsPick: false,
+    pullQuote: "258 people described a streak of light rising toward the aircraft, and the agency that ruled it out never could say for certain what lit the fuse."
+  },
+  {
     // CASE FILE #021
     title: "The Hijacking That Ran Out Of Fuel",
     tag: "Black Box Files",

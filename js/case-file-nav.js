@@ -1,5 +1,5 @@
 // Flight Crew Files — Previous/Next Case File navigation, bottom of every
-// case-file deep-dive page. Uses a fixed canonical order (same 21 pages as
+// case-file deep-dive page. Uses a fixed canonical order (same 22 pages as
 // js/most-read.js) and wraps around at both ends, so there's never a dead
 // end. Inserted right before .related-stories, same anchor pattern as
 // js/case-file-features.js's "Was This Helpful" section.
@@ -15,6 +15,7 @@
     { title: 'The Fire They Couldn\'t Stop', url: 'swissair-111.html' },
     { title: 'Push And Push And Push', url: 'alaska-airlines-261.html' },
     { title: 'The Hijacking That Ran Out Of Fuel', url: 'ethiopian-airlines-961.html' },
+    { title: 'The Explosion Nobody Could Explain', url: 'twa-flight-800.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },

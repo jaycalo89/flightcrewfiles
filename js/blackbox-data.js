@@ -15,6 +15,22 @@ const BLACKBOX_CATEGORIES = {
 
 const BLACKBOX_CASES = [
   {
+    title: "The Explosion Nobody Could Explain",
+    url: "twa-flight-800.html",
+    category: "the-unsolved",
+    date: "1996-07-17",
+    dateLabel: "July 1996",
+    intensity: 8,
+    excerpt: "A 747 came apart twelve minutes out of JFK. Hundreds saw a streak of light rise toward it. The NTSB blamed the fuel tank but could not name the ignition source.",
+    aboard: 230,
+    fatalities: 230,
+    location: "Off Long Island, New York",
+    aircraft: "Boeing 747-131",
+    aircraftAbbr: "747",
+    image: "images/twa-flight-800/n93119-twa-747.jpg",
+    imageCredit: { text: "Photo: Eduard Marmet via Wikimedia Commons, CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:TWA_Boeing_747-100_N93119_Marmet.jpg" }
+  },
+  {
     title: "The Hijacking That Ran Out Of Fuel",
     url: "ethiopian-airlines-961.html",
     category: "acts-of-terror",

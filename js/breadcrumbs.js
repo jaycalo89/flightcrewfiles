@@ -44,6 +44,7 @@
     'tenerife-disaster.html': { label: 'Tenerife Disaster', parent: 'blackbox.html' },
     'swissair-111.html': { label: 'Swissair 111', parent: 'blackbox.html' },
     'ethiopian-airlines-961.html': { label: 'Ethiopian Airlines 961', parent: 'blackbox.html' },
+    'twa-flight-800.html': { label: 'TWA Flight 800', parent: 'blackbox.html' },
     'alaska-airlines-261.html': { label: 'Alaska Airlines 261', parent: 'blackbox.html' },
 
     // ---- Heroic Moments deep-dives ----
