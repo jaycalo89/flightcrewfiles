@@ -15,6 +15,7 @@
     { title: 'Push And Push And Push', url: 'alaska-airlines-261.html' },
     { title: 'The Hijacking That Ran Out Of Fuel', url: 'ethiopian-airlines-961.html' },
     { title: 'The Explosion Nobody Could Explain', url: 'twa-flight-800.html' },
+    { title: 'The Ghost Flight Over America', url: 'payne-stewart.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },

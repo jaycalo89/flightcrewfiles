@@ -863,6 +863,10 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   background:linear-gradient(160deg,var(--navy-800),var(--navy-900));
   border:1px solid var(--border-soft);border-radius:var(--radius-lg);
   text-decoration:none;transition:border-color .2s ease,transform .2s ease;
+  /* Grid items default to min-width:auto, which makes this card refuse to
+     shrink below its longest title and push the row past the viewport on
+     narrow screens. Zeroing it lets .cf-nav-title's ellipsis actually run. */
+  min-width:0;
 }
 .cf-nav-link:hover{border-color:var(--gold-500);transform:translateY(-3px);}
 .cf-nav-next{justify-content:flex-end;text-align:right;}

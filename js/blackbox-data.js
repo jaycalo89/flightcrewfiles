@@ -194,20 +194,19 @@ const BLACKBOX_CASES = [
   },
   {
     title: "The Ghost Flight: Payne Stewart's Learjet",
-    url: null,
-    status: "coming-soon",
+    url: "payne-stewart.html",
     category: "ghost-flights",
     date: "1999-10-25",
     dateLabel: "October 1999",
     intensity: 8,
-    excerpt: "A chartered Learjet flew on, straight and level, in total radio silence for hours after its crew stopped responding, escorted by four relays of fighter jets.",
+    excerpt: "A chartered Learjet flew on, straight and level, in total radio silence for hours after its crew stopped responding, escorted in relays by fighter jets whose pilots reported frosted windows and nobody moving.",
     aboard: 6,
     fatalities: 6,
-    location: "Aberdeen, South Dakota",
+    location: "Mina, South Dakota",
     aircraft: "Learjet 35",
     aircraftAbbr: "LJ35",
-    image: "images/coming-soon/learjet-35-generic.jpg",
-    imageCredit: { text: "Photo: bomberpilot via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Learjet_35_(8738280921).jpg" }
+    image: "images/payne-stewart/payne-stewart-1998.jpg",
+    imageCredit: { text: "Photo: PH2 W.E. Quick, U.S. Navy, via Wikimedia Commons, Public Domain", url: "https://commons.wikimedia.org/wiki/File:Payne_Stewart_in_October_1998.jpg" }
   },
   {
     title: "“We Have Some Planes”: Boston Center, 9/11",

@@ -12,6 +12,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #023
+    title: "The Ghost Flight Over America",
+    tag: "Black Box Files",
+    accent: "#39e6c5",
+    stamp: "Ghost Flight",
+    date: "October 1999",
+    excerpt: "Eight minutes into the climb out of Orlando, a Learjet carrying Payne Stewart and five others stopped answering the radio and kept going. F-16s caught it over Florida and stayed with it in relays across half a continent, close enough to see frost on the inside of the cockpit glass and no one moving behind it. It flew for nearly four hours on autopilot while America watched on live television, and came down in a South Dakota pasture when the fuel ran out.",
+    url: "payne-stewart.html",
+    image: "images/payne-stewart/payne-stewart-1998.jpg",
+    imageCredit: { text: "Photo: PH2 W.E. Quick, U.S. Navy, via Wikimedia Commons, Public Domain", url: "https://commons.wikimedia.org/wiki/File:Payne_Stewart_in_October_1998.jpg" },
+    intensity: 8,
+    editorsPick: false,
+    pullQuote: "The fighter pilots could see everything and change nothing: frosted glass, no movement, and control surfaces that never once twitched."
+  },
+  {
     // CASE FILE #022
     title: "The Explosion Nobody Could Explain",
     tag: "Black Box Files",
