@@ -488,9 +488,13 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .card-link svg{width:14px;height:14px;stroke:var(--gold-400);transition:transform .2s ease;}
 .card-link:hover svg{transform:translateX(4px);}
 
+/* Page opener, directly under the ticker. Keeps its tall top padding so the
+   headline gets room to breathe, but the bottom is pulled in: a gold divider
+   and "This Day In Aviation History" now follow, and the old full-height
+   bottom padding left a dead gap between the lede and that divider. */
 .mission-section{
   position:relative;overflow:hidden;
-  padding:clamp(170px,21vw,260px) 0;
+  padding:clamp(170px,21vw,260px) 0 clamp(96px,11vw,140px);
 }
 .mission-section::before{
   content:"";position:absolute;inset:0;pointer-events:none;
@@ -575,7 +579,7 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 @media (max-width:640px){.case-file-media{height:160px;}.case-file-body{padding:24px 22px 26px;}}
 
 /* ===== Featured Case File (homepage hero, rotates weekly — js/featured-case-file.js) ===== */
-.featured-case-file-section{padding-top:54px;padding-bottom:10px;}
+.featured-case-file-section{padding-top:clamp(54px,7vw,78px);padding-bottom:clamp(28px,4vw,44px);}
 .featured-case-hero{
   position:relative;display:flex;align-items:stretch;gap:0;overflow:hidden;
   background:linear-gradient(160deg,var(--navy-800),var(--navy-900));
@@ -628,10 +632,10 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   .featured-case-hero .fch-media{flex-basis:auto;height:200px;border-right:none;border-bottom:1px solid var(--border-gold);}
   .featured-case-hero .fch-body{padding:30px 26px 32px;}
 }
-/* mission-section is the page's first real section again (large clamp()
-   top padding applies unmodified); the featured hero now follows it
-   instead, so it borrows mission's bottom padding and needs none of its own. */
-.mission-section + .featured-case-file-section{padding-top:0;}
+/* The featured hero follows .tdih-section, which already carries a full 88px
+   bottom padding — trim the featured card's own top padding so the two don't
+   stack into an oversized gap between the history grid and the card. */
+.tdih-section + .featured-case-file-section{padding-top:clamp(40px,5vw,58px);}
 
 /* ===== Per-hub Featured card (js/hub-featured.js) =====
    Type-agnostic: wraps a cloned .case-file / .file-card / .ss-card /
@@ -1203,12 +1207,15 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .live-dot::before{content:"";width:7px;height:7px;border-radius:50%;background:#39e6c5;box-shadow:0 0 8px #39e6c5;animation:pulse-dot 1.8s infinite;flex-shrink:0;}
 
 /* ===== This Day In Aviation History (homepage) =====
-   Sits directly under the ticker as the first section on the page — it's the
-   one block that changes every day, so it leads. Deliberately restrained
-   (no borders/radar like the teaser sections further down) so it reads as the
-   top of the page rather than competing with the hero below it. */
+   Sits under the hero, separated by .hero-divider-full — it's the one block
+   that changes every day, so it's the first thing below the fold. Deliberately
+   restrained (no borders/radar like the teaser sections further down) so it
+   reads as a continuation of the hero rather than competing with it.
+   The extra top padding (vs. the 88px .section default) clears the divider and
+   keeps the big date headline from crowding it. */
 .tdih-section{
   position:relative;
+  padding-top:clamp(80px,9vw,108px);
   background:radial-gradient(1100px 480px at 50% -10%, rgba(212,175,55,0.09), transparent 62%);
 }
 .tdih-eyebrow{margin-bottom:18px;}
@@ -1753,6 +1760,29 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   box-shadow:0 0 26px rgba(212,175,55,0.6);
 }
 
+/* Hairline gold divider closing the hero and opening "This Day In Aviation
+   History". Deliberately much quieter than .lfs-divider-full (1px, no glow,
+   fades out well before the edges) — it marks a hand-off between two calm
+   sections rather than announcing a spotlight. */
+.hero-divider-full{
+  height:1px;width:100%;
+  background:linear-gradient(90deg,transparent,rgba(212,175,55,0.32) 28%,var(--gold-500) 50%,rgba(212,175,55,0.32) 72%,transparent);
+}
+
+/* Mobile rhythm for the hero → divider → This Day → Featured Case File stack.
+   Declared here (after every base rule it overrides) so the cascade lands.
+   The base clamps bottom out at desktop-scale minimums, which read as dead
+   space on a phone; these are the hand-set small-screen equivalents. The
+   divider's fade stops widen too, so it doesn't shrink to a short gold dash. */
+@media (max-width:640px){
+  .mission-section{padding:96px 0 72px;}
+  .hero-divider-full{
+    background:linear-gradient(90deg,transparent,rgba(212,175,55,0.32) 14%,var(--gold-500) 50%,rgba(212,175,55,0.32) 86%,transparent);
+  }
+  .tdih-section{padding-top:64px;padding-bottom:64px;}
+  .tdih-section + .featured-case-file-section{padding-top:36px;padding-bottom:22px;}
+}
+
 /* ===== Latest From The Skies — homepage spotlight section ===== */
 .lfs-spotlight{
   position:relative;overflow:hidden;
@@ -1843,8 +1873,9 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 @media (max-width:480px){.beehiiv-wrapper{height:820px;}}
 
 /* Lazy-render only what's below the fold. #this-day is deliberately NOT in this
-   list — it's now the first section on the homepage, and content-visibility on
-   an above-the-fold block costs a paint/reflow on load rather than saving one. */
+   list — it sits directly under the hero, close enough to the fold that the
+   skipped paint isn't worth the pop-in on a JS-populated grid. (It used to be
+   the page's first section, where content-visibility was strictly a loss.) */
 .featured-card,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
   content-visibility:auto;
 }
