@@ -22,6 +22,7 @@
     { title: 'The Explosion Nobody Could Explain', tag: 'Black Box Files', url: 'twa-flight-800.html' },
     { title: 'The Ghost Flight Over America', tag: 'Black Box Files', url: 'payne-stewart.html' },
     { title: 'The Day Two Jumbos Collided', tag: 'Black Box Files', url: 'tenerife-disaster.html' },
+    { title: '155 Souls: The Miracle On The Hudson', tag: 'Heroic Moments', url: 'miracle-on-the-hudson.html' },
     { title: 'The Sioux City Miracle', tag: 'Heroic Moments', url: 'united-232.html' },
     { title: 'The Gimli Glider', tag: 'Heroic Moments', url: 'gimli-glider.html' },
     { title: 'The Plane That Lost Its Roof', tag: 'Heroic Moments', url: 'aloha-airlines-243.html' },

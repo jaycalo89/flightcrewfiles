@@ -54,6 +54,7 @@
     'aloha-airlines-243.html': { label: 'Aloha 243', parent: 'heroic.html' },
     'captain-eric-moody.html': { label: 'Captain Eric Moody', parent: 'heroic.html' },
     'nicholas-alkemade.html': { label: 'Nicholas Alkemade', parent: 'heroic.html' },
+    'miracle-on-the-hudson.html': { label: 'Miracle On The Hudson', parent: 'heroic.html' },
 
     // ---- Bizarre & Unexplained deep-dives ----
     'mh370.html': { label: 'MH370', parent: 'bizarre.html' },

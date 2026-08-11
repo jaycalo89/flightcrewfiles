@@ -1,5 +1,5 @@
 // Flight Crew Files — Previous/Next Case File navigation, bottom of every
-// case-file deep-dive page. Uses a fixed canonical order (same 23 pages as
+// case-file deep-dive page. Uses a fixed canonical order (same 24 pages as
 // js/most-read.js) and wraps around at both ends, so there's never a dead
 // end. Inserted right before .related-stories, same anchor pattern as
 // js/case-file-features.js's "Was This Helpful" section.
@@ -18,6 +18,7 @@
     { title: 'The Explosion Nobody Could Explain', url: 'twa-flight-800.html' },
     { title: 'The Ghost Flight Over America', url: 'payne-stewart.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
+    { title: '155 Souls: The Miracle On The Hudson', url: 'miracle-on-the-hudson.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },
     { title: 'The Plane That Lost Its Roof', url: 'aloha-airlines-243.html' },

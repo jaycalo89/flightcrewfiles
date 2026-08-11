@@ -259,19 +259,19 @@ const BLACKBOX_CASES = [
   },
   {
     title: "“We're Gonna Be In the Hudson”",
-    url: null,
-    status: "coming-soon",
+    url: "miracle-on-the-hudson.html",
     category: "the-heroes",
     date: "2009-01-15",
     dateLabel: "January 2009",
     intensity: 6,
-    excerpt: "A bird strike disabled both engines at 2,800 feet, and a level, unhurried radio call became one of aviation's most famous transmissions.",
+    excerpt: "A bird strike disabled both engines at 2,818 feet. The crew had 208 seconds, rejected two runways, and put the A320 on the river. All 155 survived.",
     aboard: 155,
     fatalities: 0,
+    survivors: 155,
     location: "Hudson River, New York City",
     aircraft: "Airbus A320-214",
     aircraftAbbr: "A320",
-    image: "images/coming-soon/n106us-us-airways-a320.jpg",
+    image: "images/miracle-on-the-hudson/n106us-las-vegas-2008.jpg",
     imageCredit: { text: "Photo: Edmund Seeger via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:2008_Las_Vegas_N106US_US_Airways.jpg" }
   },
   {

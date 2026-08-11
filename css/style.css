@@ -1016,25 +1016,6 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
   background:rgba(255,255,255,0.02);margin:44px 0;
 }
 
-/* ===== Third-party network ad unit =====
-   Deliberately NOT in the content-visibility list further down: deferring the
-   render of an ad container can stop the network script ever filling it.
-   min-height reserves the slot so the async fill doesn't shove the article
-   down when it lands (Cumulative Layout Shift). Tuned for a 300x250 unit —
-   change the min-height if the network serves a different size. */
-.ad-network{
-  margin:52px 0;display:flex;flex-direction:column;align-items:center;gap:10px;
-  min-height:250px;justify-content:center;
-}
-.ad-network-label{
-  font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.18em;
-  text-transform:uppercase;color:rgba(232,237,247,0.3);
-}
-/* Whatever the network injects must not widen the page on a phone. */
-.ad-network > div{max-width:100%;overflow:hidden;}
-.ad-network iframe,.ad-network img{max-width:100%;}
-@media (max-width:640px){.ad-network{margin:40px 0;min-height:280px;}}
-
 /* ===== 404 Error Page ===== */
 .error-hero{
   padding:clamp(90px,12vw,140px) 0 clamp(80px,11vw,130px);

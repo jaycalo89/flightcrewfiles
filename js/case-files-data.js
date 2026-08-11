@@ -12,6 +12,22 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #024
+    title: "155 Souls",
+    tag: "Heroic Moments",
+    accent: "#e8c766",
+    stamp: "All Survived",
+    date: "January 2009",
+    excerpt: "Ninety seconds out of LaGuardia, an Airbus A320 flew into a flock of Canada geese and both engines quit at 2,818 feet over New York City. Captain Sullenberger and First Officer Skiles had 208 seconds. They rejected two runways, glided a silent airliner across Manhattan, and put it on the Hudson wings-level. Commuter ferries reached the wings in four minutes. Every one of the 155 people aboard went home.",
+    url: "miracle-on-the-hudson.html",
+    image: "images/miracle-on-the-hudson/hudson-ditching-1549.jpg",
+    imageCredit: { text: "Photo: Greg L via Wikimedia Commons, CC BY 2.0", url: "https://commons.wikimedia.org/wiki/File:US_Airways_Flight_1549_(N106US)_after_crashing_into_the_Hudson_River_(crop_1).jpg" },
+    intensity: 6,
+    editorsPick: true,
+    startHere: true,
+    pullQuote: "Two hundred and eight seconds from the birds to the water, and every one of the 155 people aboard walked away."
+  },
+  {
     // CASE FILE #023
     title: "The Ghost Flight Over America",
     tag: "Black Box Files",
