@@ -15,6 +15,22 @@ const BLACKBOX_CATEGORIES = {
 
 const BLACKBOX_CASES = [
   {
+    title: "The Hijacking That Ran Out Of Fuel",
+    url: "ethiopian-airlines-961.html",
+    category: "acts-of-terror",
+    date: "1996-11-23",
+    dateLabel: "November 1996",
+    intensity: 9,
+    excerpt: "Three hijackers demanded Australia. The captain warned them for three hours that the fuel would not reach it, then ditched off a Comoros beach when the engines quit.",
+    aboard: 175,
+    fatalities: 125,
+    location: "Grande Comore, Comoros",
+    aircraft: "Boeing 767-260ER",
+    aircraftAbbr: "767",
+    image: "images/ethiopian-airlines-961/et-aiz-heathrow-1996.jpg",
+    imageCredit: { text: "Photo: 拾叁个仙人掌人 via Wikimedia Commons, CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:ET-AIZ_LHR_11.08.96.jpg" }
+  },
+  {
     title: "Pan Am 103: The Night Lockerbie Burned",
     url: "pan-am-103.html",
     category: "acts-of-terror",

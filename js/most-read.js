@@ -18,6 +18,7 @@
     { title: 'Helios 522: The Ghost Flight', tag: 'Black Box Files', url: 'helios522.html' },
     { title: 'The Fire They Couldn\'t Stop', tag: 'Black Box Files', url: 'swissair-111.html' },
     { title: 'Push And Push And Push', tag: 'Black Box Files', url: 'alaska-airlines-261.html' },
+    { title: 'The Hijacking That Ran Out Of Fuel', tag: 'Black Box Files', url: 'ethiopian-airlines-961.html' },
     { title: 'The Day Two Jumbos Collided', tag: 'Black Box Files', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', tag: 'Heroic Moments', url: 'united-232.html' },
     { title: 'The Gimli Glider', tag: 'Heroic Moments', url: 'gimli-glider.html' },

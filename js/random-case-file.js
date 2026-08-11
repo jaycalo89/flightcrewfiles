@@ -13,6 +13,7 @@
     { title: 'Helios 522: The Ghost Flight', url: 'helios522.html' },
     { title: 'The Fire They Couldn\'t Stop', url: 'swissair-111.html' },
     { title: 'Push And Push And Push', url: 'alaska-airlines-261.html' },
+    { title: 'The Hijacking That Ran Out Of Fuel', url: 'ethiopian-airlines-961.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },

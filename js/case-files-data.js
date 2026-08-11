@@ -12,6 +12,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #021
+    title: "The Hijacking That Ran Out Of Fuel",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "November 1996",
+    excerpt: "Three men took a Boeing 767 twenty minutes out of Addis Ababa and demanded to be flown to Australia. Captain Leul Abate told them the aircraft was fuelled for a two-hour hop and would never get close, and kept telling them for three hours while the gauges emptied. They never believed him. He flew south along the African coast so there would be land underneath when the engines quit, and ditched off a Comoros beach in front of a hotel full of tourists with cameras.",
+    url: "ethiopian-airlines-961.html",
+    image: "images/ethiopian-airlines-961/et-aiz-heathrow-1996.jpg",
+    imageCredit: { text: "Photo: 拾叁个仙人掌人 via Wikimedia Commons, CC BY-SA 3.0", url: "https://commons.wikimedia.org/wiki/File:ET-AIZ_LHR_11.08.96.jpg" },
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "He told them for three hours that the fuel would not reach Australia, and they were still not believing him when the engines stopped."
+  },
+  {
     // CASE FILE #020
     title: "The Fire They Couldn't Stop",
     tag: "Black Box Files",
