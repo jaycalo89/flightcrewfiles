@@ -1,16 +1,115 @@
 {
-  "generated_at": "2026-08-10T16:46:59.369793+00:00",
+  "generated_at": "2026-08-11T13:41:06.358349+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 27,
+  "count": 24,
   "articles": [
     {
-      "title": "Atlanta Still Boards More Passengers Than Dubai, So How Did DXB Steal The Busiest Airport Crown?",
-      "description": "For decades, Hartsfield-Jackson Atlanta International Airport (ATL) has been known as the world's busiest airport. The Georgia hub consistently handled more passengers than any other airport on the planet, thanks largely to its enormous domestic network and its position as the primary connecting…",
-      "url": "https://simpleflying.com/atlanta-dubai-airport-operations-compared/",
+      "title": "5,000 Miles Over: How Did This Boeing 777 Fly Almost Double Its Published Range?",
+      "description": "On July 28, a test Airbus A350-1000ULR set a new record when it operated the longest nonstop flight ever flown by a commercial aircraft. The flight, traveling from Melbourne to Toulouse, crossed a distance of 12,460 NM (23,075 km) and remained in the air for over 24 hours, besting the previous…",
+      "url": "https://simpleflying.com/how-boeing-777-double-published-range/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-10T16:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/emirates-airbus-a380s-at-dubai-international-airport-dxb-shutterstock_1994899532-20260730-235840.jpg"
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-11T13:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/5000-miles-over.png"
+    },
+    {
+      "title": "This 1979 Piper PA-28RT-201T Turbo Arrow IV Is a High-Flying ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1979 Piper PA-28RT-201T Turbo Arrow…",
+      "url": "https://www.flyingmag.com/this-1979-piper-pa-28rt-201t-turbo-arrow-iv-is-a-high-flying-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-11T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Electric VTOL Aircraft Answer Real 911 Calls in North Carolina",
+      "description": "Quinn Reece, a paramedic with Hyde County Emergency Medical Services (EMS) in North Carolina, is not your average first responder. Recently, Reece responded to a 911 call about 20 minutes faster than an ambulance. The seemingly impossible feat was enabled by a unique aircraft that lifts off…",
+      "url": "https://www.flyingmag.com/electric-vtol-aircraft-911-north-carolina/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-11T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/image_c10db9.jpeg?w=1024"
+    },
+    {
+      "title": "The One Key Reason Boeing Built The 747's Distinctive Hump",
+      "description": "Few aircraft have come to be as iconic or written their names into the history books quite like the Boeing 747 . Featuring a twin-aisle cabin design, the 747 was the world’s first widebody airliner. So large and groundbreaking was the Queen of the Skies, as it came to be known, that Boeing…",
+      "url": "https://simpleflying.com/key-reason-boeing-built-747-hump/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-08-11T11:00:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-icon-2-20260801-124952.jpg"
+    },
+    {
+      "title": "18-Hour Flights: Qantas' 11 New Ultra-Long Nonstop Flights Revealed [Full List]",
+      "description": "August is the summer in the Northern Hemisphere but the winter Down Under. This month, Qantas is the world's 24th-largest operator by long-haul flights. It'll be a while until the carrier's Airbus A321XLRs fly long-haul . There is little need to mention the A350-1000ULR until the first route is…",
+      "url": "https://simpleflying.com/18-hour-flights-qantas-11-new-ultra-long-nonstop-flights-revealed/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-11T10:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/209-qantas-airbus-a380-ceri-breeze-merrillie-redden-_-shutterstock.jpg"
+    },
+    {
+      "title": "Got An Aviation Hot Take? Here Is How To Start Your Own Thread",
+      "description": "Simple Flying's 'Threads' discussion board is the go-to place for avgeeks and enthusiasts to share their thoughts on all things aviation. The Simple Flying team has plenty of ideas up its sleeve, and we love hearing your thoughts on the topics we share, but did you know that users are also able to…",
+      "url": "https://simpleflying.com/simple-flying-threads-get-your-voice-heard-with-user-generated-submissions/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-08-11T09:47:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/submityourtopic_v2.jpg"
+    },
+    {
+      "title": "1 Day Only: Qatar Airways To Operate Its 1st Airbus A380 Flight To This City [Map]",
+      "description": "Qatar Airways has scheduled a one-off rotation with the Airbus A380 on its short-haul route between its main hub at Hamad International Airport (DOH) in Doha, Qatar, and Queen Alia International Airport (AMM) in Amman , Jordan. This filing has raised eyebrows as, while the carrier does already…",
+      "url": "https://simpleflying.com/qatar-airways-one-off-airbus-a380-flight-amman/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-11T09:32:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_1079382815_cropped.jpg"
+    },
+    {
+      "title": "The P-8 Poseidon Is Becoming NATO's Most Important Maritime Patrol Aircraft",
+      "description": "The Royal Air Force in the United Kingdom took delivery of the first Boeing P-8A Poseidon Maritime Patrol aircraft in 2019. It was the first in the North Atlantic Treaty Organization to induct the new Boeing MPA after the United States. In the year that followed, the roster of nations to adopt the…",
+      "url": "https://simpleflying.com/p8-poseidon-importance-nato/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-11T08:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/p-8-poseidon-20260801-124628.jpg"
+    },
+    {
+      "title": "British Airways Airbus A380 Flies 7 Hours To Nowhere After Weather Radar Failure",
+      "description": "On August 8, a British Airways Airbus A380 was forced to return to base seven hours after departing Johannesburg Airport (JNB) bound for London Heathrow Airport (LHR). The pilots decided to divert back to JNB because the weather radar persistently malfunctioned and no troubleshooting efforts could…",
+      "url": "https://simpleflying.com/british-airways-a380-7-hours-nowhere-weather-radar-failure/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-11T07:45:37Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-airbus-a380.jpg"
+    },
+    {
+      "title": "Israir awaits US FAA clearance after being approved by home regulator to serve North America",
+      "description": "Leisure carrier has been planning to operate to New York with A330s. Israeli leisure carrier Israir has secured approval from the country’s civil aviation regulator to operate services to North America. The decision from the civil aviation authority complements a previous clearance on 29 July to…",
+      "url": "https://www.flightglobal.com/archive/2026/08/israir-awaits-us-faa-clearance-after-being-approved-by-home-regulator-to-serve-north-america/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-10T20:43:59Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/4X-BAK-c-AirTeamImages-480x324.jpeg"
+    },
+    {
+      "title": "2 Pilots Killed in Helicopter Crash While Fighting Utah Wildfire",
+      "description": "Two pilots died when their firefighting helicopter crashed in central Utah while en route to a blaze in Fishlake National Forest. The Sikorsky S-64 Skycrane was dispatched Friday morning to combat the wildfire. According to the Sevier County Sheriff’s Office, the helicopter went down at about 10…",
+      "url": "https://www.flyingmag.com/2-pilots-killed-in-helicopter-crash-while-fighting-utah-wildfire/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-10T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Boeing Autonomous Air Taxi Unit Wisk Aero Acquired by Archer",
+      "description": "Boeing is offloading three autonomous aviation-focused businesses—including its self-flying air taxi arm Wisk Aero—to Archer Aviation in an agreement that one executive described as a “win-win” for both companies. Archer will acquire Wisk—as well as SkyGrid, an air traffic management provider, and…",
+      "url": "https://www.flyingmag.com/boeing-wisk-aero-autonomous-air-taxi-archer/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-10T17:00:00Z",
+      "image": null
     },
     {
       "title": "Archer to acquire Wisk Aero, SkyGrid and Insitu from Boeing",
@@ -49,24 +148,6 @@
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/turkish-737-max8-c-anna-zvereva-creativecommons_950-480x337.jpg"
     },
     {
-      "title": "Hawaiian Airlines To Replace Inter-Island Boeing 717s With The 737-800",
-      "description": "Alaska Airlines has announced that it has selected the Boeing 737-800 to replace the interisland 717-200s that currently operate under the Hawaiian Airlines banner. These rear-engined twinjets have been a perfect fit for the short and sharp rotations that characterize interisland flying, but it is…",
-      "url": "https://simpleflying.com/video/hawaiian-airlines-to-replace-inter-island-boeing-717s-with-the-737-800/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-10T12:29:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/hawaiian-737.jpg"
-    },
-    {
-      "title": "1st Of 850 Jets: Lufthansa To Launch High-Speed Starlink WiFi On Airbus A320neo In 9 Days",
-      "description": "Lufthansa is set to be the next major carrier to launch high-speed Starlink WiFi on its scheduled passenger flights, with the Cologne-based German flag carrier and Star Alliance founding member planning an August 19 rollout. The new connectivity solution will initially be available on one of the…",
-      "url": "https://simpleflying.com/lufthansa-starlink-wifi-launch/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-10T12:10:06Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2770192273_cropped.jpg"
-    },
-    {
       "title": "Bob Hoover Academy Creates Flight Path to Resilience",
       "description": "The teen years can be troubling, more for some than others. Unfortunately many are faced with external forces such as brushes with the law, housing instability, gang violence, or simply being told by authority figures (parents or teachers) that they won’t amount to anything. This can put you into a…",
       "url": "https://www.flyingmag.com/bob-hoover-academy-creates-flight-path-to-resilience/",
@@ -76,87 +157,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Only 80 Miles: Qatar Airways Launches World's Shortest Airbus A350 Flights",
-      "description": "Qatar Airways was the launch customer of both the Airbus A350-900 and the Airbus A350-1000. The airline is used to flying its array of widebody aircraft (including its A350s) on particularly short flights. They help to provide capacity to feed its Doha Hamad International Airport (DOH) hub.",
-      "url": "https://simpleflying.com/only-80-miles-qatar-airways-launches-worlds-shortest-airbus-a350-flights/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-10T11:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/216-qatar-airways-airbus-a350-900-max-walter-cangavi-_-shutterstock.jpg"
-    },
-    {
-      "title": "British Airways Breaks Decades of CFM Loyalty",
-      "description": "The United Kingdom's primary flag carrier, British Airways, has selected Pratt & Whitney's geared turbofan, or GTF engine to power up to 63 Airbus A320neo family aircraft, ending decades of exclusive reliance on CFM International engines for its Airbus narrowbody fleet. So in this video, we take a…",
-      "url": "https://simpleflying.com/video/british-airways-breaks-decades-of-cfm-loyalty/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-08-10T11:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/60_lh_british-airways-broke-decades-cfm-loyalty-pratt-whitney-gtf-over-60-airbus-jets_h_site-copy.jpg"
-    },
-    {
-      "title": "S7 Airlines 737-800 freighter overruns during landing at Norilsk",
-      "description": "Incident took place six weeks after aircraft from same carrier suffered excursion at Mirny. Russian investigators are probing an incident in which an S7 Airlines Boeing 737-800 freighter overran the runway at Norilsk. The event occurred at about 15:00 on 8 August following a service from Moscow…",
-      "url": "https://www.flightglobal.com/ops-safety/2026/08/s7-airlines-737-800-freighter-overruns-during-landing-at-norilsk/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-10T10:00:22Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Norilsk-overrun-c-West-Siberian-transport-prosecutors-office-480x335.jpeg"
-    },
-    {
-      "title": "What Happened To Antonov? How The Aircraft Giant Lost Its Serial Production",
-      "description": "Antonov produced many of the Soviet Union's most iconic transport aircraft, including the huge An-124 Ruslan and An-225 Mriya . It built most of the mid-sized military transports as well as regional aircraft like the Antonov An-148 and the enormously successful An-2 biplane. By the late 1980s, the…",
-      "url": "https://simpleflying.com/what-happened-to-antonov/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-10T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/antonov.jpg"
-    },
-    {
-      "title": "Emirates Recycles Airbus A380 & Boeing 777 Parts In 8-Foot Arsenal FC Badge Sculpture",
-      "description": "The partnership between Emirates and Arsenal FC is one of the most notable sports sponsorship deals of the 21st century. With The Gunners having won the Premier League title last season, and their cooperation with the Dubai-based UAE flag carrier having now lasted for some 20 years, Emirates is in…",
-      "url": "https://simpleflying.com/emirates-a380-777-parts-arsenal-badge-sculpture/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-10T09:47:25Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2795371531_cropped.jpg"
-    },
-    {
-      "title": "All Pilots & Cabin Crew In Malaysia Face 30-Day Drug Test Deadline After Smuggling Scandal",
-      "description": "A Malaysia Airlines pilot was recently arrested in Indonesia after they were found to be smuggling drugs into the country. With the event having serious safety and reputational ramifications for not just the airline but, indeed, the commercial aviation sector in Malaysia as a whole, authorities are…",
-      "url": "https://simpleflying.com/malaysia-pilots-cabin-crew-30-day-drug-test-deadline/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-10T08:48:45Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2370268095_cropped.jpg"
-    },
-    {
-      "title": "ITA Airways sees operating profit during second quarter before currency impacts",
-      "description": "Italian carrier posts a positive EBIT of €37 million for April-June. Italian carrier ITA Airways cites currency exchange issues for an “accounting-related” net loss in the second quarter, pointing to a positive operating result at an EBIT level for the period. ITA, which Lufthansa Group is in the…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/ita-airways-sees-operating-profit-during-second-quarter-before-currency-impacts/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-10T08:20:19Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/ITA-Airways-480x320.jpg"
-    },
-    {
-      "title": "Alaska Airlines Boeing 737 Forced Into 'Lockdown Protocol' After Threat To Take Over Jet",
-      "description": "Alaska Airlines flight 305 was unable to depart Miami International Airport (MIA) on Sunday after flight attendants received threats from multiple travelers. In audio shared by Andy Slater via X, the pilots told the tower that the cabin crew had reported that customers had \"threatened to take the…",
-      "url": "https://simpleflying.com/alaska-airlines-737-lockdown-protocol-takeover-threat/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-10T07:34:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/alaska-airlines-boeing-737-900er.jpg"
-    },
-    {
-      "title": "Vietjet brings number of carriers committing to Western Sydney airport to five",
-      "description": "Asian budget airline’s link to new Australian airport from Vietnam commences at the beginning of 2027. Vietnamese budget carrier Vietjet is the latest operator to sign up to services from the new Western Sydney airport, with plans to open routes from January next year. Cargo flights have been…",
-      "url": "https://www.flightglobal.com/archive/2026/08/vietjet-brings-number-of-carriers-committing-to-western-sydney-airport-to-five/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-10T05:54:36Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Vietjet-A330-c-WSI-480x320.jpeg"
-    },
-    {
       "title": "More Than a Passenger: Helping Your Plus-One Become an Active Participant in Flight",
       "description": "There is a moment I have heard about hundreds of times from right-seaters. The pilot taxis out for departure feeling excited, focused, and comfortable in an environment that feels almost like home. Sitting beside them is someone they deeply care about—a spouse, partner, family member, or…",
       "url": "https://www.flyingmag.com/more-than-a-passenger-helping-your-plus-one-become-an-active-participant-in-flight/",
@@ -164,33 +164,6 @@
       "author": "Jolie Lucas",
       "published_at": "2026-08-08T13:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Avemco_Banner-copy.jpeg?w=1024"
-    },
-    {
-      "title": "Faster Pathways to High-Paying Aviation Careers",
-      "description": "As the traditional school year is about to get underway, it is likely that parents of high school students are having some serious discussions about what the child will do after graduation. Ostensibly the benefit of post-secondary education is to enable the student to get a job. However,…",
-      "url": "https://www.flyingmag.com/faster-pathways-to-high-paying-aviation-careers/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-07T19:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2022/05/aviation_maintenance_hero-1.jpg?w=1024"
-    },
-    {
-      "title": "This 1978 Bellanca 8KCAB Decathlon Is a Tactile, Aerobatic ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1978 Bellanca 8KCAB Decathlon. There…",
-      "url": "https://www.flyingmag.com/this-1978-bellanca-8kcab-decathlon-is-a-tactile-aerobatic-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-08-07T17:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/decathlon2.webp"
-    },
-    {
-      "title": "Utah Begins Real-World Hybrid-Electric Aircraft Demonstrations",
-      "description": "The Utah Department of Transportation (UDOT) has launched real-world demonstrations with a hybrid-electric aircraft, which Thursday morning flew close to 250 miles from Salt Lake City to Cedar City. Utah residents who missed the landmark flight need not worry. UDOT said it was the “first of…",
-      "url": "https://www.flyingmag.com/utah-hybrid-electric-aircraft-demonstrations/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-07T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Ampaire-N337EE-Static-Angle-Across-SLC.mp4"
     },
     {
       "title": "AOPA helps launch careers in aviation",
