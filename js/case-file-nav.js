@@ -1,5 +1,5 @@
 // Flight Crew Files — Previous/Next Case File navigation, bottom of every
-// case-file deep-dive page. Uses a fixed canonical order (same 18 pages as
+// case-file deep-dive page. Uses a fixed canonical order (same 20 pages as
 // js/most-read.js) and wraps around at both ends, so there's never a dead
 // end. Inserted right before .related-stories, same anchor pattern as
 // js/case-file-features.js's "Was This Helpful" section.
@@ -12,6 +12,8 @@
     { title: '"Larry, We\'re Going Down, Larry"', url: 'air-florida-90.html' },
     { title: 'The Plane That Fell From The Sky', url: 'air-france-447.html' },
     { title: 'Helios 522: The Ghost Flight', url: 'helios522.html' },
+    { title: 'The Fire They Couldn\'t Stop', url: 'swissair-111.html' },
+    { title: 'Push And Push And Push', url: 'alaska-airlines-261.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },

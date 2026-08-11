@@ -2757,3 +2757,125 @@ body.nav-open .mobile-panel{
 .watch-doc .vf-embed{margin-bottom:0;border-color:var(--border-gold);}
 .watch-doc-section{border-top:1px solid var(--border-soft);}
 .watch-doc-section .watch-doc{max-width:760px;margin-left:auto;margin-right:auto;margin-top:28px;}
+
+/* ===== Case-file deep-dive layout (shared) =====
+   The visual language for full case-file pages: hero, meta row, jump nav,
+   figures, stat grid, pull quotes, source list. helios522.html predates this
+   block and still carries its own private .helios-* copy — left alone rather
+   than migrated, since these are byte-for-byte the same values and a rewrite
+   of a live page buys nothing. New case files use .cfd-* and add no CSS. */
+.cfd-hero{
+  position:relative;overflow:hidden;padding:110px 0 74px;
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
+    radial-gradient(1000px 480px at 15% -10%, rgba(212,175,55,0.16), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(46,143,255,0.07), transparent 55%),
+    linear-gradient(180deg,#000103 0%,var(--navy-950) 55%,#02040a 100%);
+  border-bottom:1px solid var(--border-gold);
+}
+.cfd-hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(120% 90% at 50% 0%, transparent 55%, rgba(0,0,0,0.75) 100%);
+}
+.cfd-hero .container{position:relative;z-index:1;}
+.cfd-stamp{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:'Oswald',sans-serif;font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gold-400);border:2px solid var(--gold-600);padding:7px 16px;border-radius:3px;
+  background:rgba(212,175,55,0.08);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
+}
+.cfd-stamp::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold-400);box-shadow:0 0 8px var(--gold-400);flex-shrink:0;animation:pulse-dot 1.6s infinite;}
+.cfd-hero h1{font-size:clamp(2.2rem,5.5vw,3.6rem);line-height:1.05;color:var(--white);text-shadow:0 0 34px rgba(212,175,55,0.22);margin-bottom:16px;}
+.cfd-hero .section-lede{max-width:760px;font-size:1.15rem;}
+.cfd-meta-row{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 6px;}
+.cfd-meta-row span{
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(246,248,252,0.75);border:1px solid var(--border-soft);padding:8px 14px;border-radius:4px;background:rgba(255,255,255,0.03);
+}
+.cfd-jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px;}
+.cfd-jump a{
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(246,248,252,0.72);border:1px solid var(--border-gold);padding:9px 16px;border-radius:4px;
+  background:rgba(0,0,0,0.35);transition:.2s ease;
+}
+.cfd-jump a:hover{border-color:var(--gold-400);color:var(--gold-400);background:rgba(212,175,55,0.08);}
+
+.cfd-figure{margin:0;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border-gold);background:var(--navy-950);}
+.cfd-figure img{display:block;width:100%;height:280px;object-fit:cover;}
+.cfd-figure figcaption{padding:12px 16px;font-size:.78rem;color:var(--muted-light);background:linear-gradient(160deg,var(--navy-850),var(--navy-950));}
+.cfd-figure figcaption a{color:var(--blue-400);text-decoration:none;}
+.cfd-figure figcaption a:hover{text-decoration:underline;}
+/* Diagrams and maps are read, not scanned — show the whole frame, not a crop. */
+.cfd-figure.is-diagram img{height:auto;max-height:520px;object-fit:contain;background:#fff;}
+
+/* Inline-SVG diagrams drawn for a case file, as opposed to a sourced image.
+   Separate from .cfd-figure because that one's figcaption carries its own
+   panel background for sitting flush under a photo — here it would read as a
+   stray band across the bottom of the drawing. */
+.cfd-diagram{
+  margin:0;padding:30px 24px 20px;border-radius:var(--radius-lg);
+  border:1px solid var(--border-soft);
+  background:linear-gradient(160deg,var(--navy-900),var(--navy-950));
+  box-shadow:var(--shadow-soft);
+}
+.cfd-diagram svg{width:100%;height:auto;display:block;}
+.cfd-diagram figcaption{
+  padding:14px 0 0;background:none;text-align:center;font-style:italic;
+  font-size:.78rem;color:var(--muted-light);
+}
+/* Scroll the drawing, not the page, and not the caption. Below ~700px these
+   800-unit viewBoxes squeeze their labels down to a few pixels — a floor on
+   the SVG width keeps them readable and lets the reader pan instead. */
+.cfd-diagram-scroll{overflow-x:auto;}
+@media (max-width:700px){
+  .cfd-diagram-scroll svg{min-width:620px;}
+}
+
+.cfd-memorial{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px;
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border:1px solid var(--gold-600);border-radius:var(--radius-lg);
+  padding:44px 30px;box-shadow:var(--shadow-soft);
+}
+.cfd-memorial h4{
+  font-family:'Oswald',sans-serif;font-size:1.3rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--white);margin:0;
+}
+.cfd-memorial .m-role{font-size:.86rem;color:var(--muted-light);margin:2px 0 18px;}
+.cfd-memorial .m-line{font-family:'Oswald',sans-serif;font-size:1.15rem;font-style:italic;color:var(--gold-400);margin:0;}
+
+.cfd-quote{
+  position:relative;background:linear-gradient(150deg,var(--navy-800),var(--navy-950));
+  border:1px solid var(--border-gold);border-radius:var(--radius-lg);
+  padding:36px 40px;box-shadow:var(--shadow-soft);margin:36px 0;
+}
+.cfd-quote p{
+  color:rgba(246,248,252,0.94);font-family:'Oswald',sans-serif;font-size:1.25rem;font-weight:400;
+  line-height:1.5;border-left:2px solid var(--gold-500);padding-left:20px;margin-bottom:0;
+}
+.cfd-quote .attribution{display:block;margin-top:16px;color:var(--blue-400);font-family:'Inter',sans-serif;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;}
+
+.cfd-stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0 0 8px;}
+@media (max-width:780px){.cfd-stat-grid{grid-template-columns:repeat(2,1fr);}}
+.cfd-stat{
+  background:linear-gradient(160deg,rgba(212,175,55,0.06),rgba(255,255,255,0.02));
+  border:1px solid var(--border-gold);border-radius:var(--radius-lg);padding:20px 18px;text-align:center;
+}
+.cfd-stat strong{display:block;font-family:'Oswald',sans-serif;font-size:1.7rem;color:var(--gold-400);}
+.cfd-stat span{font-size:.76rem;color:var(--muted-light);text-transform:uppercase;letter-spacing:.06em;font-family:'Oswald',sans-serif;}
+
+.cfd-source-list{display:flex;flex-direction:column;gap:14px;}
+.cfd-source{
+  display:flex;flex-direction:column;gap:4px;padding:18px 22px;border-radius:var(--radius-lg);
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-900));border:1px solid var(--border-soft);
+}
+.cfd-source .src-type{font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-400);}
+.cfd-source a{color:var(--ink);font-weight:600;text-decoration:none;font-size:1rem;}
+.cfd-source a:hover{color:var(--gold-400);text-decoration:underline;}
+.cfd-source p{margin:2px 0 0;font-size:.86rem;color:var(--muted);}
+
+.cfd-correction{
+  border:1px solid rgba(46,143,255,0.35);background:rgba(46,143,255,0.06);
+  border-radius:var(--radius-lg);padding:16px 20px;font-size:.88rem;color:rgba(246,248,252,0.8);margin:28px 0;
+}
+.cfd-correction strong{color:var(--blue-300);}

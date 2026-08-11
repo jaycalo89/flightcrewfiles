@@ -11,6 +11,8 @@
     { title: '"Larry, We\'re Going Down, Larry"', url: 'air-florida-90.html' },
     { title: 'The Plane That Fell From The Sky', url: 'air-france-447.html' },
     { title: 'Helios 522: The Ghost Flight', url: 'helios522.html' },
+    { title: 'The Fire They Couldn\'t Stop', url: 'swissair-111.html' },
+    { title: 'Push And Push And Push', url: 'alaska-airlines-261.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },

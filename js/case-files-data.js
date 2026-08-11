@@ -12,6 +12,36 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #020
+    title: "The Fire They Couldn't Stop",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "September 1998",
+    excerpt: "An hour out of New York, the crew of Swissair Flight 111 smelled something wrong on the flight deck. They identified it, called it in, chose a diversion airport and ran the checklist exactly as written. Twenty-one minutes later all 229 people aboard were dead, killed by a fire that had been spreading above the cockpit ceiling the entire time, in a space no instrument on board could see.",
+    url: "swissair-111.html",
+    image: "images/swissair-111/hb-iwf-swissair-md11.jpg",
+    imageCredit: { text: "Photo: Aero Icarus via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:28as_-_Swissair_MD-11;_HB-IWF@ZRH;14.07.1998_(4713082874).jpg" },
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "They ran the checklist exactly as written, and the checklist was the thing that killed them."
+  },
+  {
+    // CASE FILE #019
+    title: "Push And Push And Push",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "January 2000",
+    excerpt: "A single brass nut in the tail of an MD-83 had been quietly grinding itself away for years, unlubricated, its wear checks stretched further and further apart. At 31,000 feet over the Pacific it finally stripped, taking all pitch control with it. Captain Ted Thompson and First Officer Bill Tansky then flew an aircraft that could no longer be flown, calmly, for another twelve minutes.",
+    url: "alaska-airlines-261.html",
+    image: "images/alaska-airlines-261/n963as-alaska-md83.jpg",
+    imageCredit: { text: "Photo: Frank Jäger via Wikimedia Commons, CC BY-SA 2.0", url: "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_MD-83_N963AS_Santa_Ana_15-09-92_(cropped).jpg" },
+    intensity: 9,
+    editorsPick: true,
+    pullQuote: "There is no panic anywhere on the tape, only two pilots methodically running out of options and continuing to fly anyway."
+  },
+  {
     // CASE FILE #018
     title: "The Night Lockerbie Burned",
     tag: "Black Box Files",

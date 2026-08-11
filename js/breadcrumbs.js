@@ -42,6 +42,8 @@
     'air-france-447.html': { label: 'Air France 447', parent: 'blackbox.html' },
     'helios522.html': { label: 'Helios 522', parent: 'blackbox.html' },
     'tenerife-disaster.html': { label: 'Tenerife Disaster', parent: 'blackbox.html' },
+    'swissair-111.html': { label: 'Swissair 111', parent: 'blackbox.html' },
+    'alaska-airlines-261.html': { label: 'Alaska Airlines 261', parent: 'blackbox.html' },
 
     // ---- Heroic Moments deep-dives ----
     'united-232.html': { label: 'United 232', parent: 'heroic.html' },
