@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=optional" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260812f">
+<link rel="stylesheet" href="css/style.min.css?v=20260811o">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -100,21 +100,20 @@
   .ss-teaser-watch-link:hover{color:#fff;gap:9px;}
   .ss-teaser-cta{position:relative;z-index:1;text-align:center;}
   .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
-  /* One column on a phone now (see the global mobile block in style.css), so
-     the cards are full width and the media can be shallower without looking
-     squat, and "Watch Documentary" has room for both words again.
+  /* Stays 2x2 all the way down — four cards in a single column reads as an
+     endless list on a phone, and the set is meant to be seen as a set.
      Must come after the base card rules above to win on source order. */
-  @media (max-width:768px){
-    .ss-teaser-grid{margin-bottom:24px;}
-    .ss-teaser-card-media,.ss-teaser-card-media img{height:170px;}
+  @media (max-width:600px){
+    .ss-teaser-grid{grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:30px;}
+    .ss-teaser-card-media,.ss-teaser-card-media img{height:132px;}
     .ss-teaser-card-media img{object-fit:cover;}
-    .ss-teaser-card-body{padding:16px 16px 4px;}
-    .ss-teaser-card-body h3{font-size:1.05rem;letter-spacing:.05em;margin-bottom:6px;}
-    .ss-teaser-card-body p{font-size:.86rem;line-height:1.5;}
-    .ss-teaser-watch-link{margin:auto 16px 14px;padding-top:10px;font-size:.64rem;letter-spacing:.07em;}
-    .ss-teaser h2{font-size:2rem;letter-spacing:.01em;}
-    .ss-teaser-sub{font-size:1rem;margin-bottom:22px;}
-    .ss-teaser-stamp{font-size:.62rem;letter-spacing:.18em;padding:6px 13px;margin-bottom:14px;}
+    .ss-teaser-card-body{padding:13px 13px 4px;}
+    .ss-teaser-card-body h3{font-size:.95rem;letter-spacing:.05em;margin-bottom:5px;}
+    .ss-teaser-card-body p{font-size:.76rem;line-height:1.45;}
+    /* Two cards to a row leaves ~150px of label width; drop the second word
+       rather than let "Watch Documentary" wrap onto two lines. */
+    .ss-teaser-watch-link{margin:auto 13px 13px;padding-top:9px;font-size:.62rem;letter-spacing:.06em;white-space:nowrap;}
+    .ss-teaser-watch-link .ss-watch-word{display:none;}
   }
   .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
   .ss-teaser-cta .btn-gold:hover{background:rgba(201,168,76,0.12);border-color:#c9a84c;color:#c9a84c;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(201,168,76,0.45);}
@@ -249,20 +248,6 @@
   .bbhome-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
   .bbhome-teaser-cta .btn-gold{background:transparent;border:1.5px solid #ff4d4d;color:#ff6b6b;}
   .bbhome-teaser-cta .btn-gold:hover{background:rgba(255,77,77,0.12);border-color:#ff4d4d;color:#fff;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(255,77,77,0.45);}
-
-  /* The two remaining full-bleed teaser wordmarks. These are display type,
-     not section headings, so they stop at 2rem rather than the 1.5rem the
-     global mobile block applies to h2 — at 1.5rem they stop reading as the
-     banner the section is built around. Still down from 2.4rem. */
-  @media (max-width:768px){
-    .atc-teaser h2,.bbhome-teaser h2{font-size:2rem;letter-spacing:.01em;margin-bottom:10px;}
-    .atc-teaser-sub,.bbhome-sub{font-size:1rem;letter-spacing:.02em;margin-bottom:22px;}
-    .bbhome-sub{margin-left:0;margin-right:0;}
-    .atc-teaser-badge,.bbhome-badge{font-size:.62rem;letter-spacing:.16em;padding:6px 12px;}
-    .bbhome-quote-big{font-size:1.4rem;}
-    .bbhome-quote-block{padding:20px 16px;}
-    .atc-teaser-grid{grid-template-columns:1fr;gap:12px;}
-  }
 </style>
 </head>
 <body class="home-page">
@@ -336,7 +321,7 @@
       <span class="eyebrow gold center" style="display:flex;justify-content:center;">Cleared For Takeoff</span>
       <h2 class="section-title center">The World Of Aviation, All In One Place.</h2>
       <div class="gold-divider center"></div>
-      <p class="mission-lede">Flight Crew Files is an independent aviation platform dedicated to exploring every corner of the aviation world. From airports to airspace, commercial airlines to military aviation, private jets to helicopters, aircraft technology to aviation history, and the people who keep the industry moving. <span class="mission-lede-rest">We bring together aviation news, careers, training, safety, travel, aircraft, operations, insights, and inspiring stories for aviation professionals, travelers, and enthusiasts worldwide. Whether you're on the ground, in the cockpit, in the cabin, behind the scenes, or simply fascinated by flight, welcome aboard.</span></p>
+      <p class="mission-lede">Flight Crew Files is an independent aviation platform dedicated to exploring every corner of the aviation world. From airports to airspace, commercial airlines to military aviation, private jets to helicopters, aircraft technology to aviation history, and the people who keep the industry moving. We bring together aviation news, careers, training, safety, travel, aircraft, operations, insights, and inspiring stories for aviation professionals, travelers, and enthusiasts worldwide. Whether you're on the ground, in the cockpit, in the cabin, behind the scenes, or simply fascinated by flight, welcome aboard.</p>
     </div>
   </div>
 </section>
@@ -896,7 +881,7 @@
 </footer>
 
 <script src="js/bookmarks.min.js?v=20260803" defer></script>
-<script src="js/main.min.js?v=20260812a" defer></script>
+<script src="js/main.min.js?v=20260811a" defer></script>
 <script src="js/news-feed.min.js" defer></script>
 <script src="js/community-feed.min.js" defer></script>
 <script src="js/latest-from-skies.min.js" defer></script>
