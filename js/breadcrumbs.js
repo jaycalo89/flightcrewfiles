@@ -19,6 +19,7 @@
     'privacy-policy.html': { label: 'Privacy Policy', parent: null },
     'terms-of-service.html': { label: 'Terms of Service', parent: null },
     'dmca.html': { label: 'DMCA Policy', parent: null },
+    'corrections.html': { label: 'Corrections Policy', parent: null },
     'search.html': { label: 'Search', parent: null },
     'saved-files.html': { label: 'Saved Files', parent: null },
 

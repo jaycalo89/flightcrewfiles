@@ -2,6 +2,12 @@
 // Each entry renders as a card via js/case-files.js. Add new full case-file
 // deep-dives here as they're published.
 //
+// Ordering: newest first. The "CASE FILE #nnn" comments run in step with that,
+// so the top entry always carries the highest number and #001 is the oldest.
+// A new case file goes at the top and takes the next number up; nothing below
+// it needs renumbering. The numbers are editorial only — terser strips them
+// and nothing in the codebase reads them.
+//
 // intensity: 1-10, copied from the linked page's own data-cf-intensity
 // (see js/case-file-features.js) where the target is a case-file page;
 // editorially assigned for entries linking to a hub/category page instead.
@@ -12,7 +18,7 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
-    // CASE FILE #025
+    // CASE FILE #026
     title: "They Shut Down The Wrong Engine",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -27,7 +33,7 @@ const CASE_FILES = [
     pullQuote: "They shut down the good engine, and the aeroplane rewarded them for it by easing its symptoms at the exact moment they got it wrong."
   },
   {
-    // CASE FILE #024
+    // CASE FILE #025
     title: "155 Souls",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -43,7 +49,7 @@ const CASE_FILES = [
     pullQuote: "Two hundred and eight seconds from the birds to the water, and every one of the 155 people aboard walked away."
   },
   {
-    // CASE FILE #023
+    // CASE FILE #024
     title: "The Ghost Flight Over America",
     tag: "Black Box Files",
     accent: "#39e6c5",
@@ -58,7 +64,7 @@ const CASE_FILES = [
     pullQuote: "The fighter pilots could see everything and change nothing: frosted glass, no movement, and control surfaces that never once twitched."
   },
   {
-    // CASE FILE #022
+    // CASE FILE #023
     title: "The Explosion Nobody Could Explain",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -73,7 +79,7 @@ const CASE_FILES = [
     pullQuote: "258 people described a streak of light rising toward the aircraft, and the agency that ruled it out never could say for certain what lit the fuse."
   },
   {
-    // CASE FILE #021
+    // CASE FILE #022
     title: "The Hijacking That Ran Out Of Fuel",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -88,7 +94,7 @@ const CASE_FILES = [
     pullQuote: "He told them for three hours that the fuel would not reach Australia, and they were still not believing him when the engines stopped."
   },
   {
-    // CASE FILE #020
+    // CASE FILE #021
     title: "The Fire They Couldn't Stop",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -103,7 +109,7 @@ const CASE_FILES = [
     pullQuote: "They ran the checklist exactly as written, and the checklist was the thing that killed them."
   },
   {
-    // CASE FILE #019
+    // CASE FILE #020
     title: "Push And Push And Push",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -118,7 +124,7 @@ const CASE_FILES = [
     pullQuote: "There is no panic anywhere on the tape, only two pilots methodically running out of options and continuing to fly anyway."
   },
   {
-    // CASE FILE #018
+    // CASE FILE #019
     title: "The Night Lockerbie Burned",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -133,7 +139,7 @@ const CASE_FILES = [
     pullQuote: "A bomb hidden inside a radio cassette player brought down a jumbo jet over a Scottish town, and the case is still active today."
   },
   {
-    // CASE FILE #017
+    // CASE FILE #018
     title: "The Sioux City Miracle",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -148,7 +154,7 @@ const CASE_FILES = [
     pullQuote: "With every hydraulic system gone, a crew improvised a way to fly using only engine thrust, a technique nobody had ever landed with before."
   },
   {
-    // CASE FILE #016
+    // CASE FILE #017
     title: "\"Larry, We're Going Down, Larry\"",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -163,7 +169,7 @@ const CASE_FILES = [
     pullQuote: "One passenger twice passed the rescue line to strangers in the frozen river before he drowned."
   },
   {
-    // CASE FILE #015
+    // CASE FILE #016
     title: "The Flight That Lasted 32 Minutes Too Long",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -178,7 +184,7 @@ const CASE_FILES = [
     pullQuote: "The crew fought for 32 minutes with no flight controls left at all, in the deadliest single-aircraft accident in aviation history."
   },
   {
-    // CASE FILE #014
+    // CASE FILE #015
     title: "The Night The US Air Force Met Something They Couldn't Explain",
     tag: "UAP Files",
     accent: "#39e6c5",
@@ -194,7 +200,7 @@ const CASE_FILES = [
     pullQuote: "A deputy base commander walked into the forest with a pocket tape recorder. Nobody has ever fully explained what's on the tape."
   },
   {
-    // CASE FILE #013
+    // CASE FILE #014
     title: "The Gimli Glider",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -210,7 +216,7 @@ const CASE_FILES = [
     pullQuote: "A pounds-for-kilograms fuel error left a 767 powerless at 41,000 feet, and a glider pilot dead-sticked it onto a runway hosting a drag race."
   },
   {
-    // CASE FILE #012
+    // CASE FILE #013
     title: "The Plane That Fell From The Sky",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -224,6 +230,7 @@ const CASE_FILES = [
     pullQuote: "The autopilot handed control to two first officers who never understood they were in a stall, and it fell for three and a half minutes."
   },
   {
+    // CASE FILE #012
     title: "Helios 522: The Ghost Flight",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -237,6 +244,7 @@ const CASE_FILES = [
     pullQuote: "A pressurization fault put everyone aboard to sleep, and the plane kept flying itself for nearly three hours with nobody conscious at the controls."
   },
   {
+    // CASE FILE #011
     title: "Four Engines Dead At 37,000 Feet",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -251,6 +259,7 @@ const CASE_FILES = [
     pullQuote: "All four engines flamed out over an invisible volcanic ash cloud, and the crew glided in silence for thirteen minutes before restarting them."
   },
   {
+    // CASE FILE #010
     title: "The Man Who Fell 18,000 Feet, And Walked Away",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -264,6 +273,7 @@ const CASE_FILES = [
     pullQuote: "His own parachute burned in the fuselage, so he jumped anyway with no parachute at all, and fell three miles through the dark."
   },
   {
+    // CASE FILE #009
     title: "Alone In The Amazon",
     tag: "Scary Stories",
     accent: "#ff4d4d",
@@ -277,6 +287,7 @@ const CASE_FILES = [
     pullQuote: "A seventeen-year-old fell nearly two miles still strapped to her seat after lightning tore the plane apart, and survived."
   },
   {
+    // CASE FILE #008
     title: "Flight 19: Five Bombers, One Radio Call, No Wreckage",
     tag: "Bizarre & Unexplained",
     accent: "#b06bff",
@@ -290,6 +301,7 @@ const CASE_FILES = [
     pullQuote: "The rescue plane sent to find them disappeared too, and no wreckage from either aircraft was ever found."
   },
   {
+    // CASE FILE #007
     title: "The Pilot Who Vanished",
     tag: "UAP Files",
     accent: "#39e6c5",
@@ -304,6 +316,7 @@ const CASE_FILES = [
     pullQuote: "His radio call ended mid-transmission in a burst of metallic noise. Neither he nor his aircraft was ever found."
   },
   {
+    // CASE FILE #006
     title: "The Plane That Lost Its Roof",
     tag: "Heroic Moments",
     accent: "#e8c766",
@@ -317,6 +330,7 @@ const CASE_FILES = [
     pullQuote: "Eighteen feet of roof tore away explosively at 24,000 feet, and the crew still flew the open, broken 737 to a safe landing."
   },
   {
+    // CASE FILE #005
     title: "The Plane That Caused The UFO Panic",
     tag: "UAP Files",
     accent: "#39e6c5",
@@ -332,6 +346,7 @@ const CASE_FILES = [
     pullQuote: "The CIA has officially confirmed this one aircraft caused more than half of all UFO reports filed in America during the late 1950s and 1960s."
   },
   {
+    // CASE FILE #004
     title: "MH370: The Plane That Vanished",
     tag: "Bizarre & Unexplained",
     accent: "#b06bff",
@@ -346,6 +361,7 @@ const CASE_FILES = [
     pullQuote: "Satellite data showed it flew on, alone and unresponsive, for nearly seven more hours after vanishing from radar with no distress call."
   },
   {
+    // CASE FILE #003
     title: "The First Pilot To Die Chasing A UFO",
     tag: "UAP Files",
     accent: "#39e6c5",
@@ -360,6 +376,7 @@ const CASE_FILES = [
     pullQuote: "His last radio words described something enormous, and the Air Force gave three different explanations over the next four years."
   },
   {
+    // CASE FILE #002
     title: "The Day Two Jumbos Collided",
     tag: "Black Box Files",
     accent: "#ff4d4d",
@@ -373,6 +390,7 @@ const CASE_FILES = [
     pullQuote: "Two Boeing 747s ended up on the same fog-bound runway at the same time, and 583 people died without either aircraft ever leaving the ground."
   },
   {
+    // CASE FILE #001
     title: "The Disappearance Of Amelia Earhart",
     tag: "Bizarre & Unexplained",
     accent: "#b06bff",

@@ -61,12 +61,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flightcrewfiles.com/bookshelf.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://flightcrewfiles.com/captain-eric-moody.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,16 +73,16 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flightcrewfiles.com/community.html</loc>
+    <loc>https://flightcrewfiles.com/contact.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flightcrewfiles.com/contact.html</loc>
+    <loc>https://flightcrewfiles.com/corrections.html</loc>
     <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flightcrewfiles.com/crew.html</loc>
@@ -127,12 +121,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flightcrewfiles.com/fear-of-flying.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://flightcrewfiles.com/frederick-valentich.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -140,12 +128,6 @@
   </url>
   <url>
     <loc>https://flightcrewfiles.com/gimli-glider.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://flightcrewfiles.com/glossary.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -199,18 +181,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flightcrewfiles.com/listen-live.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://flightcrewfiles.com/live-flights.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://flightcrewfiles.com/miracle-on-the-hudson.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -218,12 +188,6 @@
   </url>
   <url>
     <loc>https://flightcrewfiles.com/mh370.html</loc>
-    <lastmod>2026-08-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://flightcrewfiles.com/news.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

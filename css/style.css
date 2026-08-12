@@ -2883,3 +2883,63 @@ body.nav-open .mobile-panel{
   border-radius:var(--radius-lg);padding:16px 20px;font-size:.88rem;color:rgba(246,248,252,0.8);margin:28px 0;
 }
 .cfd-correction strong{color:var(--blue-300);}
+
+/* "Last reviewed and updated" stamp, sits under the hero meta row. */
+.cfd-updated{
+  display:inline-flex;align-items:center;gap:8px;margin-top:16px;
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(232,237,247,0.5);
+}
+.cfd-updated::before{
+  content:"";width:6px;height:6px;border-radius:50%;background:#22c55e;
+  box-shadow:0 0 8px rgba(34,197,94,0.7);flex-shrink:0;
+}
+
+/* Editorial cross-links woven into case-file prose. Underlined on a dotted
+   baseline so they read as citations rather than navigation and don't compete
+   with the body text. air-florida-90.html defines a redder, more specific
+   .af-related-note a.inline-link for its callout box, which still wins there. */
+.inline-link{
+  color:var(--blue-300);font-weight:600;text-decoration:none;
+  border-bottom:1px dotted rgba(46,143,255,0.55);
+  transition:color .18s ease,border-color .18s ease;
+}
+.inline-link:hover,.inline-link:focus-visible{
+  color:var(--gold-400);border-bottom-color:var(--gold-500);
+}
+.dark-section .inline-link{border-bottom-color:rgba(46,143,255,0.7);}
+
+/* ===== Author bio (foot of every case file, before related stories) ===== */
+.author-bio{
+  margin:0 0 8px;padding:30px 32px;border-radius:var(--radius-lg);
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-950));
+  border:1px solid var(--border-soft);border-left:3px solid var(--gold-500);
+  box-shadow:var(--shadow-soft);
+}
+.author-bio h4{
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold-400);margin:0 0 14px;
+}
+.author-bio p{font-size:.92rem;color:var(--muted);margin:0 0 12px;max-width:74ch;}
+.author-bio p strong{color:var(--white);font-size:1rem;}
+.author-bio a{
+  display:inline-flex;align-items:center;gap:6px;margin-top:4px;
+  font-family:'Oswald',sans-serif;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;
+  font-weight:600;color:var(--blue-300);text-decoration:none;transition:color .2s ease,gap .2s ease;
+}
+.author-bio a:hover{color:var(--gold-400);gap:9px;}
+@media (max-width:640px){.author-bio{padding:24px 20px;}}
+
+/* ===== FAQ block (case files that carry FAQPage schema) ===== */
+.faq-list{display:flex;flex-direction:column;gap:14px;margin-top:34px;}
+.faq-item{
+  border:1px solid var(--border-soft);border-radius:var(--radius-lg);
+  background:linear-gradient(160deg,var(--navy-850),var(--navy-900));
+  padding:22px 26px;
+}
+.faq-item h3{
+  font-size:1.02rem;line-height:1.35;text-transform:none;letter-spacing:0;
+  color:var(--gold-400);margin:0 0 10px;
+}
+.faq-item p{font-size:.93rem;color:var(--muted);margin:0;max-width:78ch;}
+@media (max-width:640px){.faq-item{padding:18px 18px;}}
