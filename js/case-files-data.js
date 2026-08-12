@@ -12,6 +12,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #025
+    title: "They Shut Down The Wrong Engine",
+    tag: "Black Box Files",
+    accent: "#ff4d4d",
+    stamp: "Harrowing",
+    date: "January 1989",
+    excerpt: "A fan blade broke in the left engine of a British Midland 737 at 28,300 feet. Smoke filled the cabin, the airframe shook, and two experienced pilots had minutes to work out which engine was destroying itself. They shut down the right one — and when they did, the symptoms eased, because the physics of the failure handed them false confirmation. They came down on the embankment of the M1 with the runway lights of East Midlands laid out in front of the windscreen. 47 of the 126 aboard died.",
+    url: "kegworth-air-disaster.html",
+    image: "images/kegworth/g-obme-heathrow-1988.jpg",
+    imageCredit: { text: "Photo: Leslie Snelleman via Wikimedia Commons, CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:British_Midland_Boeing_737-4Y0;_G-OBME,_@LHR,_November_1988.jpg" },
+    intensity: 9,
+    editorsPick: false,
+    pullQuote: "They shut down the good engine, and the aeroplane rewarded them for it by easing its symptoms at the exact moment they got it wrong."
+  },
+  {
     // CASE FILE #024
     title: "155 Souls",
     tag: "Heroic Moments",

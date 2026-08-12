@@ -15,6 +15,23 @@ const BLACKBOX_CATEGORIES = {
 
 const BLACKBOX_CASES = [
   {
+    title: "They Shut Down The Wrong Engine",
+    url: "kegworth-air-disaster.html",
+    category: "the-disasters",
+    date: "1989-01-08",
+    dateLabel: "January 1989",
+    intensity: 9,
+    excerpt: "A fan blade failed in the left engine. The crew shut down the right one, and the symptoms eased. They hit the M1 embankment 475 metres short of a lit runway.",
+    aboard: 126,
+    fatalities: 47,
+    survivors: 79,
+    location: "Kegworth, Leicestershire",
+    aircraft: "Boeing 737-4Y0",
+    aircraftAbbr: "737",
+    image: "images/kegworth/g-obme-heathrow-1988.jpg",
+    imageCredit: { text: "Photo: Leslie Snelleman via Wikimedia Commons, CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:British_Midland_Boeing_737-4Y0;_G-OBME,_@LHR,_November_1988.jpg" }
+  },
+  {
     title: "The Explosion Nobody Could Explain",
     url: "twa-flight-800.html",
     category: "the-unsolved",

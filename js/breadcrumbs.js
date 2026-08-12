@@ -42,6 +42,7 @@
     'air-france-447.html': { label: 'Air France 447', parent: 'blackbox.html' },
     'helios522.html': { label: 'Helios 522', parent: 'blackbox.html' },
     'tenerife-disaster.html': { label: 'Tenerife Disaster', parent: 'blackbox.html' },
+    'kegworth-air-disaster.html': { label: 'Kegworth Air Disaster', parent: 'blackbox.html' },
     'swissair-111.html': { label: 'Swissair 111', parent: 'blackbox.html' },
     'ethiopian-airlines-961.html': { label: 'Ethiopian Airlines 961', parent: 'blackbox.html' },
     'twa-flight-800.html': { label: 'TWA Flight 800', parent: 'blackbox.html' },

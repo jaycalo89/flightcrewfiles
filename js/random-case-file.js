@@ -17,6 +17,7 @@
     { title: 'The Explosion Nobody Could Explain', url: 'twa-flight-800.html' },
     { title: 'The Ghost Flight Over America', url: 'payne-stewart.html' },
     { title: 'The Day Two Jumbos Collided', url: 'tenerife-disaster.html' },
+    { title: 'They Shut Down The Wrong Engine', url: 'kegworth-air-disaster.html' },
     { title: '155 Souls: The Miracle On The Hudson', url: 'miracle-on-the-hudson.html' },
     { title: 'The Sioux City Miracle', url: 'united-232.html' },
     { title: 'The Gimli Glider', url: 'gimli-glider.html' },
