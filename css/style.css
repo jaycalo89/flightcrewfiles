@@ -2974,7 +2974,9 @@ body.nav-open .mobile-panel{
   /* --- 10. section padding, halved ---------------------------------- */
   .home-page .section{padding:44px 0;}
   .home-page .section-tight{padding:28px 0;}
-  .home-page .mission-section{padding:48px 0 36px;}
+  /* Kept at .home-page specificity so it does not shadow the targeted
+     .mission-section rule at the foot of this file — both now agree. */
+  .home-page .mission-section{padding:30px 16px;}
   .home-page .tdih-section{padding-top:32px;padding-bottom:32px;}
   .home-page .tdih-section + .featured-case-file-section{padding-top:18px;padding-bottom:12px;}
   /* The three full-bleed teasers carry their own 130px/110px in the
@@ -3177,3 +3179,18 @@ body.nav-open .mobile-panel{
 #home-news-feed > *:nth-child(n+5){display:none;}
 #lfs-grid > *:nth-child(n+4){display:none;}
 #community-grid > *:nth-child(n+3){display:none;}
+
+/* Targeted mobile fix: homepage hero description.
+   The paragraph is .mission-lede, whose own rule sets clamp(1.3rem,2vw,1.6rem)
+   at line-height 1.95 and inherits centring from .mission-inner.center —
+   oversized and centred on a phone. .mission-section p outranks both. */
+@media (max-width: 768px) {
+  .mission-section p {
+    font-size: 0.95rem;
+    text-align: left;
+    padding: 0 16px;
+  }
+  .mission-section {
+    padding: 30px 16px;
+  }
+}
