@@ -2990,7 +2990,7 @@ body.nav-open .mobile-panel{
   .home-page #lfs-grid,
   .home-page #case-files-grid,
   .home-page #you-might-have-missed-grid,
-  .home-page #most-harrowing-grid{margin-top:30px !important;}
+  .home-page #most-harrowing-carousel{margin-top:30px !important;}
   .home-page #start-here-list{margin-top:20px !important;}
   .home-page .news-view-all{margin-top:26px;}
   .home-page .ss-teaser-sub{margin-bottom:30px;}
@@ -3177,3 +3177,109 @@ body.nav-open .mobile-panel{
 #home-news-feed > *:nth-child(n+5){display:none;}
 #lfs-grid > *:nth-child(n+4){display:none;}
 #community-grid > *:nth-child(n+3){display:none;}
+
+/* ===================================================================
+   "Most Harrowing" carousel (homepage, js/harrowing-carousel.js)
+   ===================================================================
+   Three cards per view on a desktop, two on a tablet, one on a phone,
+   paged by arrows or dots and swipeable on touch. The mechanism is a
+   native snap-scroller, so swipe, momentum and keyboard scrolling are
+   the browser's own; with JS off it stays a usable horizontal scroller
+   with every card still reachable.
+   ------------------------------------------------------------------- */
+.hcar{position:relative;--hcar-gap:28px;}
+
+.hcar-viewport{
+  overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;
+  /* Deliberately NOT scroll-behavior:smooth — the arrow/dot slide is animated
+     in js/harrowing-carousel.js by writing scrollLeft per frame, and a smooth
+     scroll-behavior would try to animate each of those writes in turn. */
+  scroll-behavior:auto;
+  scrollbar-width:none;-ms-overflow-style:none;
+  /* Room for the cards' hover lift, which would otherwise clip. */
+  padding:6px 0 10px;margin:-6px 0 -10px;
+}
+.hcar-viewport::-webkit-scrollbar{display:none;}
+
+.hcar-track{
+  display:grid;grid-auto-flow:column;
+  grid-auto-columns:calc((100% - (2 * var(--hcar-gap))) / 3);
+  gap:var(--hcar-gap);
+}
+.hcar-track > *{scroll-snap-align:start;}
+
+/* The cards stretch to a common height, but their excerpts run from three
+   lines to ten — so clamp the copy and pin the link to the bottom edge, or
+   the three visible cards read as a ragged column of loose text with their
+   CTAs at three different heights. The full text is one click away. */
+.hcar-track .harrowing-card{display:flex;flex-direction:column;}
+.hcar-track .harrowing-card .article-body{display:flex;flex-direction:column;flex:1;}
+.hcar-track .harrowing-card .article-body p{
+  display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;
+  margin-bottom:18px;
+}
+.hcar-track .harrowing-card .card-link{margin-top:auto;align-self:flex-start;}
+/* Both are inline-level by default; as flex items they would stretch to the
+   full card width and stop reading as a pill and a link. */
+.hcar-track .harrowing-card .harrowing-intensity{align-self:flex-start;}
+
+/* --- arrows --- */
+.hcar-arrow{
+  position:absolute;top:calc(50% - 26px);transform:translateY(-50%);z-index:3;
+  display:flex;align-items:center;justify-content:center;
+  width:46px;height:46px;border-radius:50%;cursor:pointer;
+  background:rgba(10,4,7,0.82);backdrop-filter:blur(4px);
+  border:1.5px solid rgba(239,68,68,0.45);color:#ff8080;
+  transition:background .2s ease,border-color .2s ease,color .2s ease,opacity .2s ease,transform .2s ease;
+}
+.hcar-arrow svg{width:20px;height:20px;}
+.hcar-arrow:hover:not(:disabled){
+  background:rgba(239,68,68,0.2);border-color:#ef4444;color:#fff;
+  transform:translateY(-50%) scale(1.06);
+}
+.hcar-arrow:focus-visible{outline:2px solid var(--gold-400);outline-offset:3px;}
+.hcar-arrow:disabled{opacity:.28;cursor:default;}
+.hcar-prev{left:-10px;}
+.hcar-next{right:-10px;}
+
+/* --- dots --- */
+.hcar-dots{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:28px;}
+.hcar-dot{
+  width:9px;height:9px;padding:0;border-radius:50%;cursor:pointer;
+  background:rgba(239,68,68,0.28);border:1px solid rgba(239,68,68,0.4);
+  transition:background .2s ease,border-color .2s ease,width .25s ease;
+}
+.hcar-dot:hover{background:rgba(239,68,68,0.6);}
+.hcar-dot:focus-visible{outline:2px solid var(--gold-400);outline-offset:3px;}
+.hcar-dot.is-active{
+  width:26px;border-radius:999px;
+  background:#ef4444;border-color:#ef4444;box-shadow:0 0 12px rgba(239,68,68,0.6);
+}
+/* Everything fits in one view — hide the controls rather than show dead ones. */
+.hcar.is-static .hcar-arrow,.hcar.is-static .hcar-dots{display:none;}
+
+.visually-hidden{
+  position:absolute;width:1px;height:1px;margin:-1px;padding:0;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+
+@media (max-width:980px){
+  .hcar{--hcar-gap:22px;}
+  .hcar-track{grid-auto-columns:calc((100% - var(--hcar-gap)) / 2);}
+}
+
+/* Phones: one card per view, and the arrows move down beside the dots —
+   overlaid arrows would sit on top of the only card on screen. */
+@media (max-width:640px){
+  .hcar{--hcar-gap:16px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;}
+  .hcar-track{grid-auto-columns:100%;}
+  .hcar-viewport{flex:0 0 100%;order:1;}
+  .hcar-arrow{
+    position:static;transform:none;order:2;
+    width:42px;height:42px;margin-top:22px;
+  }
+  .hcar-arrow:hover:not(:disabled){transform:scale(1.06);}
+  .hcar-dots{order:3;margin:22px 16px 0;}
+  .hcar-next{order:4;}
+}
