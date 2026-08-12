@@ -1,43 +1,99 @@
-// Flight Crew Files — renders the homepage Case Files grid from CASE_FILES
+// Flight Crew Files — renders the homepage Case Files row from CASE_FILES
 // (see js/case-files-data.js). Static local data, so this renders synchronously
 // on DOMContentLoaded — no fetch, no skeleton state needed.
+//
+// The homepage shows a hand-picked three rather than the whole archive: the
+// three most-searched cases on the site, in a deliberate order. Everything
+// else lives in the Black Box Files archive, which the link under the row
+// points at. To change the picks, edit HOMEPAGE_PICKS — each string must
+// match an entry's `url` in case-files-data.js exactly, and an unmatched
+// string is skipped rather than rendering a broken card.
 (function () {
-  var ICONS = {
-    'Black Box Files': '<rect x="4" y="8" width="16" height="10" rx="2"/><circle cx="12" cy="13" r="2"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>',
-    'Heroic Moments': '<path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/>',
-    'Scary Stories': '<path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>',
-    'Bizarre & Unexplained': '<path d="M12 2c2 3 3 6.5 3 10s-1 8-3 10c-2-2-3-6.5-3-10s1-7 3-10z"/><path d="M2 12c3-2 6.5-3 10-3s8 1 10 3c-2 2-6.5 3-10 3s-7-1-10-3z"/>',
-    'UAP Files': '<ellipse cx="12" cy="13" rx="9" ry="3"/><ellipse cx="12" cy="13" rx="4" ry="1.4"/><path d="M12 10V4"/><circle cx="12" cy="3" r="1" fill="currentColor" stroke="none"/>'
-  };
-  var DEFAULT_ICON = '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/>';
+  var HOMEPAGE_PICKS = [
+    'helios522.html',
+    'tenerife-disaster.html',
+    'mh370.html'
+  ];
+
+  var FALLBACK_IMAGE = 'images/site/tbf-avenger-formation-fallback.jpg';
+
+  // Same 5-band scale as js/case-file-features.js and js/featured-case-file.js.
+  var INTENSITY_SCALE = [
+    { max: 2, label: 'Informative', color: '#22c55e' },
+    { max: 4, label: 'Engaging', color: '#3b82f6' },
+    { max: 6, label: 'Gripping', color: '#eab308' },
+    { max: 8, label: 'Disturbing', color: '#f97316' },
+    { max: 10, label: 'Harrowing', color: '#ef4444' }
+  ];
+  function intensityInfo(n) {
+    for (var i = 0; i < INTENSITY_SCALE.length; i++) {
+      if (n <= INTENSITY_SCALE[i].max) return INTENSITY_SCALE[i];
+    }
+    return INTENSITY_SCALE[INTENSITY_SCALE.length - 1];
+  }
+
+  var ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
   function buildCard(entry) {
-    var card = document.createElement('div');
-    card.className = 'case-file-card';
+    var intensity = entry.intensity || 6;
+    var meta = intensityInfo(intensity);
+    var credit = entry.imageCredit;
+
+    var card = document.createElement('article');
+    card.className = 'case-file-card cfp-card';
     card.style.setProperty('--accent', entry.accent || '#2e8fff');
+    card.style.setProperty('--intensity', meta.color);
+
+    // The media link duplicates the title link, so it is taken out of the tab
+    // order and hidden from assistive tech — the heading and the button below
+    // both reach the same page.
     card.innerHTML =
-      '<span class="cf-stamp">' + (entry.stamp || 'Declassified') + '</span>' +
-      '<div class="case-file-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">' +
-        (ICONS[entry.tag] || DEFAULT_ICON) +
-      '</svg></div>' +
-      '<div class="case-file-body">' +
-        '<span class="date"></span>' +
-        (entry.editorsPick ? '<span class="editors-pick-badge">&#9733; Editor\'s Pick</span>' : '') +
-        '<h3></h3>' +
-        '<span class="story-date"></span>' +
-        '<p></p>' +
-        '<a class="card-link">Read The Full Case File</a>' +
+      '<a class="cfp-media" tabindex="-1" aria-hidden="true">' +
+        '<img loading="lazy" alt="" decoding="async">' +
+        '<span class="cfp-intensity"></span>' +
+      '</a>' +
+      '<div class="cfp-body">' +
+        '<span class="cfp-kicker"></span>' +
+        '<h3 class="cfp-title"><a></a></h3>' +
+        '<p class="cfp-line"></p>' +
+        '<a class="btn btn-gold cfp-open">Open File ' + ARROW + '</a>' +
       '</div>';
 
-    card.querySelector('.date').textContent = entry.tag || '';
-    card.querySelector('h3').textContent = entry.title || '';
-    card.querySelector('.story-date').textContent = entry.date ? '— ' + entry.date : '';
-    card.querySelector('p').textContent = entry.excerpt || '';
-    var link = card.querySelector('.card-link');
-    link.href = entry.url || '#';
+    var url = entry.url || '#';
+    card.querySelector('.cfp-media').href = url;
+    card.querySelector('.cfp-title a').href = url;
+    card.querySelector('.cfp-title a').textContent = entry.title || '';
+    card.querySelector('.cfp-open').href = url;
+
+    var img = card.querySelector('.cfp-media img');
+    img.src = entry.image || FALLBACK_IMAGE;
+    img.alt = entry.title || '';
+    if (credit && credit.text) { img.title = credit.text; }
+
+    var pill = card.querySelector('.cfp-intensity');
+    pill.textContent = meta.label + ' · ' + intensity + '/10';
+
+    var kicker = [entry.tag, entry.date].filter(Boolean).join(' · ');
+    card.querySelector('.cfp-kicker').textContent = kicker;
+
+    // pullQuote is the one-sentence hook every entry carries for the featured
+    // hero; excerpt is a full paragraph and too long for a card this size.
+    card.querySelector('.cfp-line').textContent = entry.pullQuote || entry.excerpt || '';
+
+    if (credit && credit.text) {
+      var creditEl = document.createElement(credit.url ? 'a' : 'span');
+      creditEl.className = 'cfp-credit';
+      creditEl.textContent = credit.text;
+      if (credit.url) {
+        creditEl.href = credit.url;
+        creditEl.target = '_blank';
+        creditEl.rel = 'noopener';
+      }
+      card.querySelector('.cfp-media').appendChild(creditEl);
+    }
 
     if (window.FCFBookmarks) {
-      card.querySelector('.case-file-body').appendChild(window.FCFBookmarks.buildButton({
+      card.querySelector('.cfp-body').appendChild(window.FCFBookmarks.buildButton({
         title: entry.title,
         url: entry.url,
         type: entry.tag || 'Case File'
@@ -51,9 +107,19 @@
     var grid = document.getElementById('case-files-grid');
     if (!grid || typeof CASE_FILES === 'undefined' || !CASE_FILES.length) return;
 
+    var byUrl = {};
+    CASE_FILES.forEach(function (entry) { byUrl[entry.url] = entry; });
+
+    var picks = HOMEPAGE_PICKS.map(function (url) { return byUrl[url]; }).filter(Boolean);
+    if (!picks.length) return;
+
     grid.innerHTML = '';
-    CASE_FILES.forEach(function (entry) {
+    picks.forEach(function (entry) {
       grid.appendChild(buildCard(entry));
     });
+
+    // Keep the archive link's count honest as case files are added.
+    var countEl = document.getElementById('cf-archive-count');
+    if (countEl) { countEl.textContent = CASE_FILES.length; }
   });
 })();

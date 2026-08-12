@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=optional" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260811f">
+<link rel="stylesheet" href="css/style.min.css?v=20260811k">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -70,7 +70,6 @@
   .ss-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.04em;color:#c9a84c;margin-bottom:50px;}
   .ss-teaser-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:46px;}
   @media (max-width:980px){.ss-teaser-grid{grid-template-columns:repeat(2,1fr);}}
-  @media (max-width:600px){.ss-teaser-grid{grid-template-columns:1fr;}}
   .ss-teaser-card{
     background:#0d1117;
     border:1px solid #c9a84c;border-radius:8px;overflow:hidden;
@@ -81,7 +80,11 @@
     transform:translateY(-4px);
     box-shadow:0 0 25px rgba(201,168,76,0.5);
   }
-  .ss-teaser-card-link{display:block;color:inherit;text-decoration:none;}
+  /* Column layout so the "Watch Documentary" links line up across the row
+     however long each blurb runs — the grid stretches the cards to equal
+     height, but without this the CTAs float at four different offsets. */
+  .ss-teaser-card{display:flex;flex-direction:column;}
+  .ss-teaser-card-link{display:block;color:inherit;text-decoration:none;flex:1;}
   .ss-teaser-card-media{height:300px;overflow:hidden;background:#0a0e1a;}
   .ss-teaser-card-media img{width:100%;height:300px;object-fit:contain;background:#0a0e1a;object-position:center;display:block;filter:contrast(1.05);}
   .ss-teaser-card-body{padding:20px 20px 6px;}
@@ -92,10 +95,26 @@
     margin:10px 20px 18px;padding-top:12px;border-top:1px solid rgba(201,168,76,0.25);
     font-family:'Oswald',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
     color:var(--gold-400);text-decoration:none;transition:color .2s ease,gap .2s ease;
+    margin-top:auto;
   }
   .ss-teaser-watch-link:hover{color:#fff;gap:9px;}
   .ss-teaser-cta{position:relative;z-index:1;text-align:center;}
   .ss-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
+  /* Stays 2x2 all the way down — four cards in a single column reads as an
+     endless list on a phone, and the set is meant to be seen as a set.
+     Must come after the base card rules above to win on source order. */
+  @media (max-width:600px){
+    .ss-teaser-grid{grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:30px;}
+    .ss-teaser-card-media,.ss-teaser-card-media img{height:132px;}
+    .ss-teaser-card-media img{object-fit:cover;}
+    .ss-teaser-card-body{padding:13px 13px 4px;}
+    .ss-teaser-card-body h3{font-size:.95rem;letter-spacing:.05em;margin-bottom:5px;}
+    .ss-teaser-card-body p{font-size:.76rem;line-height:1.45;}
+    /* Two cards to a row leaves ~150px of label width; drop the second word
+       rather than let "Watch Documentary" wrap onto two lines. */
+    .ss-teaser-watch-link{margin:auto 13px 13px;padding-top:9px;font-size:.62rem;letter-spacing:.06em;white-space:nowrap;}
+    .ss-teaser-watch-link .ss-watch-word{display:none;}
+  }
   .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
   .ss-teaser-cta .btn-gold:hover{background:rgba(201,168,76,0.12);border-color:#c9a84c;color:#c9a84c;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(201,168,76,0.45);}
 
@@ -349,8 +368,6 @@
           <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:95%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
           <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:95%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
           <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:95%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-          <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:95%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-          <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:95%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
         </div>
       </div>
 
@@ -410,8 +427,9 @@
       </div>
     </div>
 
-    <div class="news-view-all">
-      <a href="news.html" class="btn btn-gold-outline">View All News <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="news.html">Read all aviation news <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -431,13 +449,11 @@
       <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
       <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
       <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:40%;"></div><div class="vf-skeleton-media"></div><div class="vf-skeleton-line" style="width:85%;"></div><div class="vf-skeleton-line" style="width:60%;"></div></div>
     </div>
 
-    <div style="text-align:center;margin-top:44px;">
-      <a href="blackbox.html" class="btn btn-gold-outline">Explore The Black Box Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="videos.html">Watch more <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -449,14 +465,15 @@
     <div class="gold-divider center"></div>
     <p class="section-lede center" style="margin:14px auto 0;">Deep, source-verified deep-dives into the stories that keep readers up at night.</p>
 
-    <div class="grid grid-3" id="case-files-grid" style="margin-top:50px;">
+    <div class="grid" id="case-files-grid" style="margin-top:50px;">
       <noscript>
         <p class="tdih-note">Enable JavaScript to see this week's case files, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
       </noscript>
     </div>
 
-    <div style="text-align:center;margin-top:44px;">
-      <a href="stories.html" class="btn btn-gold-outline">View All Case Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="blackbox.html">Explore all <span id="cf-archive-count">26</span> case files in the archive <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -555,7 +572,7 @@
             <p>The plane that caused the UFO panic. Still flying today.</p>
           </div>
         </a>
-        <a class="ss-teaser-watch-link" href="secret-skies.html#u2-dragon-lady">&#9654; Watch Documentary</a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#u2-dragon-lady">&#9654; Watch<span class="ss-watch-word"> Documentary</span></a>
       </div>
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="f117-nighthawk.html">
@@ -567,7 +584,7 @@
             <p>The invisible killer. Flew combat for 7 years in total secrecy.</p>
           </div>
         </a>
-        <a class="ss-teaser-watch-link" href="secret-skies.html#f117-nighthawk">&#9654; Watch Documentary</a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#f117-nighthawk">&#9654; Watch<span class="ss-watch-word"> Documentary</span></a>
       </div>
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="a12-oxcart.html">
@@ -579,7 +596,7 @@
             <p>Faster than the Blackbird. Flown by the CIA's own officers.</p>
           </div>
         </a>
-        <a class="ss-teaser-watch-link" href="secret-skies.html#a12-oxcart">&#9654; Watch Documentary</a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#a12-oxcart">&#9654; Watch<span class="ss-watch-word"> Documentary</span></a>
       </div>
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="horten-ho229.html">
@@ -591,7 +608,7 @@
             <p>Nazi flying wing. Stealth properties discovered decades later.</p>
           </div>
         </a>
-        <a class="ss-teaser-watch-link" href="secret-skies.html#horten-ho229">&#9654; Watch Documentary</a>
+        <a class="ss-teaser-watch-link" href="secret-skies.html#horten-ho229">&#9654; Watch<span class="ss-watch-word"> Documentary</span></a>
       </div>
     </div>
 
@@ -612,11 +629,10 @@
     <div class="community-grid" id="community-grid">
       <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
       <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
     </div>
-    <div class="community-cta">
-      <a href="community.html" class="btn btn-gold-outline">Join The Discussion <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="community.html">Join the discussion <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -859,7 +875,7 @@
 <script src="js/latest-from-skies.min.js" defer></script>
 <script src="js/poll.min.js" defer></script>
 <script src="js/case-files-data.min.js?v=20260811f" defer></script>
-<script src="js/case-files.min.js?v=20260809i" defer></script>
+<script src="js/case-files.min.js?v=20260811b" defer></script>
 <script src="js/discovery-core.min.js" defer></script>
 <script src="js/featured-case-file.min.js?v=20260809o" defer></script>
 <script src="js/daily-quiz.min.js" defer></script>
