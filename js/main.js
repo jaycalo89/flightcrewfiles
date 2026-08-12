@@ -346,10 +346,10 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (exactMatches.length > 0) {
       var fillers = evergreen.filter(function (e) { return exactMatches.indexOf(e) === -1; });
       toShow = exactMatches.concat(fillers).slice(0, 3);
-      if (subEl) { subEl.textContent = 'On this date, plus a few more defining moments:'; }
+      if (subEl) { subEl.textContent = 'On this date in aviation history:'; }
     } else {
       toShow = evergreen.slice(0, 3);
-      if (subEl) { subEl.textContent = "No confirmed milestones fall on this exact date. Here are three defining moments from aviation history:"; }
+      if (subEl) { subEl.textContent = "No confirmed milestones fall on this exact date. From the wider aviation record instead:"; }
     }
 
     tdihEl.innerHTML = toShow.map(function (e) {

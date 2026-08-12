@@ -2943,3 +2943,97 @@ body.nav-open .mobile-panel{
 }
 .faq-item p{font-size:.93rem;color:var(--muted);margin:0;max-width:78ch;}
 @media (max-width:640px){.faq-item{padding:18px 18px;}}
+
+/* ===================================================================
+   Homepage mobile compaction (<= 768px)
+   ===================================================================
+   The homepage runs 18 sections deep, which is fine on a desktop and
+   punishing on a phone. Everything below trims the phone view only:
+   card counts are capped per section, section chrome is halved, and the
+   inter-section gaps come down ~40%.
+
+   Scoped to body.home-page so the other 63 pages keep their spacing.
+   The card caps use :nth-child on the grid itself — every feed script
+   (case-files.js, news-feed.js, latest-from-skies.js, featured-case-file.js)
+   clears grid.innerHTML before appending, so the <noscript> fallbacks are
+   gone by the time these rules matter and the counts line up with the
+   real cards. With JS off, only the noscript message renders anyway.
+   ------------------------------------------------------------------- */
+@media (max-width:768px){
+
+  /* --- 10. section padding, halved ---------------------------------- */
+  .home-page .section{padding:44px 0;}
+  .home-page .section-tight{padding:28px 0;}
+  .home-page .mission-section{padding:48px 0 36px;}
+  .home-page .tdih-section{padding-top:32px;padding-bottom:32px;}
+  .home-page .tdih-section + .featured-case-file-section{padding-top:18px;padding-bottom:12px;}
+  /* The three full-bleed teasers carry their own 130px/110px in the
+     page's inline <style>; .home-page beats them on specificity. */
+  .home-page .ss-teaser,
+  .home-page .atc-teaser,
+  .home-page .bbhome-teaser{padding:65px 0 55px;}
+
+  /* --- 11. gaps between and inside sections, down ~40% --------------- */
+  .home-page .grid{gap:17px;}
+  .home-page #tdih-events,
+  .home-page .news-poll-layout,
+  .home-page #lfs-grid,
+  .home-page #case-files-grid,
+  .home-page #you-might-have-missed-grid,
+  .home-page #most-harrowing-grid{margin-top:30px !important;}
+  .home-page #start-here-list{margin-top:20px !important;}
+  .home-page .news-view-all{margin-top:26px;}
+  .home-page .ss-teaser-sub{margin-bottom:30px;}
+  .home-page .ss-teaser-grid{margin-bottom:28px;}
+  .home-page .ss-teaser-cta,
+  .home-page .atc-teaser-cta,
+  .home-page .bbhome-teaser-cta{margin-top:26px;}
+  /* Centred "View All" buttons carry an inline margin-top:44px. */
+  .home-page #latest-from-skies .container > div[style*="text-align:center"],
+  .home-page #case-files .container > div[style*="text-align:center"]{margin-top:26px !important;}
+
+  /* --- 1. This Day In Aviation History: one card -------------------- */
+  .home-page #tdih-events > *:nth-child(n+2){display:none;}
+
+  /* --- 2. Featured case file: compact ------------------------------- */
+  .home-page .featured-case-hero .fch-media{height:132px;}
+  .home-page .featured-case-hero .fch-body{padding:20px 18px 22px;}
+  .home-page .fch-eyebrow{font-size:.63rem;letter-spacing:.16em;margin-bottom:11px;}
+  .home-page .fch-pills{gap:7px;margin-bottom:11px;}
+  .home-page .fch-pill{font-size:.6rem;padding:4px 9px;}
+  .home-page .featured-case-hero .fch-title{font-size:1.3rem;margin-bottom:10px;}
+  .home-page .fch-quote{font-size:.92rem;padding-left:12px;margin-bottom:12px;}
+  .home-page .fch-excerpt{
+    font-size:.87rem;margin-bottom:16px;
+    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+  }
+
+  /* --- 3. News feed: three cards ------------------------------------ */
+  .home-page #home-news-feed > *:nth-child(n+4){display:none;}
+
+  /* --- 4. In The Air: two cards ------------------------------------- */
+  .home-page #lfs-grid > *:nth-child(n+3){display:none;}
+
+  /* --- 5. Case files grid: three cards ------------------------------ */
+  .home-page #case-files-grid > *:nth-child(n+4){display:none;}
+
+  /* --- 6. Secret Skies: two cards ----------------------------------- */
+  .home-page .ss-teaser-grid > *:nth-child(n+3){display:none;}
+
+  /* --- 7. From The Flight Deck: hidden ------------------------------ */
+  .home-page #community-feed{display:none;}
+
+  /* --- 8. Community poll: compact ----------------------------------- */
+  .home-page .poll-widget{padding:16px 15px;}
+  .home-page .poll-header{margin-bottom:11px;}
+  .home-page .poll-question{font-size:.97rem;margin-top:8px;}
+  .home-page .poll-options{gap:7px;}
+  .home-page .poll-option{padding:8px 11px;}
+  .home-page .poll-footer{margin-top:12px;padding-top:10px;}
+
+  /* --- 9. Daily quiz: compact --------------------------------------- */
+  .home-page .quiz-card{margin-top:26px;padding:24px 18px 22px;}
+  .home-page .quiz-timer{margin-bottom:13px;}
+  .home-page .quiz-category-tag{margin-bottom:12px;}
+  .home-page .quiz-question{font-size:1.15rem;margin-bottom:18px;}
+}
