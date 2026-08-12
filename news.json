@@ -1,16 +1,124 @@
 {
-  "generated_at": "2026-08-11T13:41:06.358349+00:00",
+  "generated_at": "2026-08-12T13:54:13.694007+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 23,
   "articles": [
     {
-      "title": "5,000 Miles Over: How Did This Boeing 777 Fly Almost Double Its Published Range?",
-      "description": "On July 28, a test Airbus A350-1000ULR set a new record when it operated the longest nonstop flight ever flown by a commercial aircraft. The flight, traveling from Melbourne to Toulouse, crossed a distance of 12,460 NM (23,075 km) and remained in the air for over 24 hours, besting the previous…",
-      "url": "https://simpleflying.com/how-boeing-777-double-published-range/",
+      "title": "British Airways Launches New US Route From Heathrow In Just 2 Months [Map]",
+      "description": "For obvious reasons, British Airways is comfortably the leading European operator to the US. Through the rest of the year, the oneworld member plans an average of 46 daily departures from London Heathrow Airport (LHR) and London Gatwick Airport (LGW) to the nation.",
+      "url": "https://simpleflying.com/british-airways-launches-new-us-route-from-heathrow-in-just-2-months/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-11T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/5000-miles-over.png"
+      "author": "James Pearson",
+      "published_at": "2026-08-12T13:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-boeing-787-10-on-stand.jpg"
+    },
+    {
+      "title": "Are Those ‘Smoking Rivets’ on an Airplane a Safety Risk?",
+      "description": "Question: I just started flying at the local flight school. They have two airplanes—a 1978 Cessna 172 and a 1975 Cessna 150. Both airplanes are parked on the ramp and have black rings around the rivets on top of the wings, which makes me wonder if this is corrosion and how bad it has to get before…",
+      "url": "https://www.flyingmag.com/are-those-smoking-rivets-on-an-airplane-a-safety-risk/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-12T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FedEx Reveals Stunning Boeing 777 Retro Livery To Celebrate Founder's Legacy",
+      "description": "When it comes to carriers, US logistics and airfreight giant Fedex Express is one of the most recognizable airlines out there. While its livery is simple, it is undeniably effective, with the famous white fuselage and purple tail combination being an instant indicator of a FedEx jet. However, its…",
+      "url": "https://simpleflying.com/fedex-boeing-777-retro-livery/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-12T12:46:44Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/fedex-static-brightspotgocdn-1.jpg"
+    },
+    {
+      "title": "American Airlines (Fully) Resolves Catering Mess At Heathrow After 5 Months Of Stopgaps",
+      "description": "Austrian catering company DO & CO has been selected by American Airlines to be its permanent London Heathrow caterer, five months after the oneworld carrier had to adjust its catering options at the airline's largest international outstation.",
+      "url": "https://simpleflying.com/video/american-airlines-fully-resolves-catering-mess-at-heathrow-after-5-months-of-stopgaps/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-12T12:32:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-lhr-cater.jpg"
+    },
+    {
+      "title": "Why A US Flight Attendant Earns Far More Than What Their UK Colleague Makes Doing The Same Job In 2026",
+      "description": "There has been much coverage in the last few years of increasing pay for US flight attendants and the introduction of the long-awaited and contested boarding pay. However, when comparing a flight attendant's salary in the US or Cabin Crew salary in the UK, things look remarkably different, and it's…",
+      "url": "https://simpleflying.com/us-uk-flight-attendant-pay-2026/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-08-12T11:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/flightattendanta-20260731-184346.jpg"
+    },
+    {
+      "title": "Iberia Is Flying An Airbus A321XLR To Livestream Today's Total Solar Eclipse From 33,000 Ft",
+      "description": "Iberia will operate a special flight out of Madrid this evening during the total solar eclipse . The Spanish carrier will livestream the eclipse with the help of superfast Starlink WiFi, offering a spectacular viewing point of the astronomical event from 33,000 feet. The one-off flight will depart…",
+      "url": "https://simpleflying.com/iberia-a321xlr-total-solar-eclipse-livestream/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-12T09:38:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/398-iberia-airbus-a321xlr-_-iberia.jpg"
+    },
+    {
+      "title": "Why The Boeing 747's Upper Deck Hump Will Be Nearly Impossible To Replicate In A Modern Jet",
+      "description": "The upper deck hump of the Boeing 747 is one of commercial aviation’s most recognizable shapes. Even outside aviation circles, people know the silhouette: the cockpit perched high above the nose, the roofline rising before flowing back into the fuselage. The upper deck hump made the jumbo jet feel…",
+      "url": "https://simpleflying.com/why-boeing-747-upper-deck-hump-impossible-replicate-modern-jet/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-08-12T09:34:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/upper-deck.jpg"
+    },
+    {
+      "title": "TUI’s ‘commercialisation’ of airline progresses as geopolitical challenges hit its third quarter",
+      "description": "Strategy to commercialise TUI’s airline business bolstered by launch of website supporting direct sales in June . European travel giant TUI slipped to a loss in its markets and airlines division for the April-June period, citing higher fuel costs and increased market capacity amid the conflict in…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/tuis-commercialisation-of-airline-progresses-as-geopolitical-challenges-hit-its-third-quarter/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-12T09:11:01Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/tui-737-max-c-alec-wilson-creativecommons-480x343.jpg"
+    },
+    {
+      "title": "Boeing signs AH-64E support pacts in Poland",
+      "description": "Agreements set the stage for Poland to support big AH-64E fleet locally. Boeing has entered industrial cooperation agreements with Polish parties related to Warsaw’s acquisition of 96 AH-64E Apache attack helicopters. The agreements are between Boeing, Polish aerospace firm WZL-1, and Poland’s…",
+      "url": "https://www.flightglobal.com/helicopters-defence/2026/08/boeing-signs-ah-64e-support-pacts-in-poland/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-12T04:41:30Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Agreement-signing-with-WCBKT-2hiresolution-480x320.jpg"
+    },
+    {
+      "title": "Thai Airways second-quarter profit shrinks on fuel cost pressures",
+      "description": "Despite reducing operations during the April-June quarter, Thai’s passenger revenues were up year on year. Thai Airways International saw quarterly profits plunge on the back of higher fuel costs, as the national carrier warned that continued uncertainty in the Middle East remains a “primary risk”.…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/thai-airways-second-quarter-profit-shrinks-on-fuel-cost-pressures/",
+      "source": "FlightGlobal",
+      "author": "Alfred Chua",
+      "published_at": "2026-08-12T04:29:38Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/03/116084_hsthhcn509fzcreativecommonssa4.0_7538-480x341.jpg"
+    },
+    {
+      "title": "Newark Airport Gets New Radar, but DOT Seeks $10B for Additional Upgrades",
+      "description": "U.S. Transportation Secretary Sean Duffy and FAA Administrator Bryan Bedford on Monday inaugurated a new surface movement radar (SMR) at Newark Liberty International Airport (KEWR). But the officials are seeking at least $10 billion more for further air traffic control (ATC) upgrades. Duffy has…",
+      "url": "https://www.flyingmag.com/newark-airport-radar-dot-10b-atc-upgrades/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-11T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Report: Trump Secretly Switched Airplanes on Trip Back From Turkey",
+      "description": "President Donald Trump secretly exited Air Force One and boarded a different military aircraft before beginning his journey back from a NATO summit in Turkey in July, according to a Washington Post report. Citing sources familiar with the matter, the newspaper said the switch-up was prompted by a…",
+      "url": "https://www.flyingmag.com/report-trump-secretly-switched-airplanes-on-trip-back-from-turkey/",
+      "source": "Flying Magazine",
+      "author": "Zach Vasile",
+      "published_at": "2026-08-11T16:54:55Z",
+      "image": null
+    },
+    {
+      "title": "One City, Multiple Airports",
+      "description": "The rule at the flight school was that the applicants would have at least two mock check rides in house before they paid $500 or more to a DPE for the real thing. I was designated the check airman for a particular private pilot applicant. His CFI asked me to put the applicant through his paces,…",
+      "url": "https://www.flyingmag.com/one-city-multiple-airports/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-11T14:00:00Z",
+      "image": null
     },
     {
       "title": "This 1979 Piper PA-28RT-201T Turbo Arrow IV Is a High-Flying ‘AircraftForSale’ Top Pick",
@@ -28,70 +136,7 @@
       "source": "Flying Magazine",
       "author": "Jack Daleo",
       "published_at": "2026-08-11T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/image_c10db9.jpeg?w=1024"
-    },
-    {
-      "title": "The One Key Reason Boeing Built The 747's Distinctive Hump",
-      "description": "Few aircraft have come to be as iconic or written their names into the history books quite like the Boeing 747 . Featuring a twin-aisle cabin design, the 747 was the world’s first widebody airliner. So large and groundbreaking was the Queen of the Skies, as it came to be known, that Boeing…",
-      "url": "https://simpleflying.com/key-reason-boeing-built-747-hump/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-11T11:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-icon-2-20260801-124952.jpg"
-    },
-    {
-      "title": "18-Hour Flights: Qantas' 11 New Ultra-Long Nonstop Flights Revealed [Full List]",
-      "description": "August is the summer in the Northern Hemisphere but the winter Down Under. This month, Qantas is the world's 24th-largest operator by long-haul flights. It'll be a while until the carrier's Airbus A321XLRs fly long-haul . There is little need to mention the A350-1000ULR until the first route is…",
-      "url": "https://simpleflying.com/18-hour-flights-qantas-11-new-ultra-long-nonstop-flights-revealed/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-11T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/209-qantas-airbus-a380-ceri-breeze-merrillie-redden-_-shutterstock.jpg"
-    },
-    {
-      "title": "Got An Aviation Hot Take? Here Is How To Start Your Own Thread",
-      "description": "Simple Flying's 'Threads' discussion board is the go-to place for avgeeks and enthusiasts to share their thoughts on all things aviation. The Simple Flying team has plenty of ideas up its sleeve, and we love hearing your thoughts on the topics we share, but did you know that users are also able to…",
-      "url": "https://simpleflying.com/simple-flying-threads-get-your-voice-heard-with-user-generated-submissions/",
-      "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-08-11T09:47:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/submityourtopic_v2.jpg"
-    },
-    {
-      "title": "1 Day Only: Qatar Airways To Operate Its 1st Airbus A380 Flight To This City [Map]",
-      "description": "Qatar Airways has scheduled a one-off rotation with the Airbus A380 on its short-haul route between its main hub at Hamad International Airport (DOH) in Doha, Qatar, and Queen Alia International Airport (AMM) in Amman , Jordan. This filing has raised eyebrows as, while the carrier does already…",
-      "url": "https://simpleflying.com/qatar-airways-one-off-airbus-a380-flight-amman/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-11T09:32:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_1079382815_cropped.jpg"
-    },
-    {
-      "title": "The P-8 Poseidon Is Becoming NATO's Most Important Maritime Patrol Aircraft",
-      "description": "The Royal Air Force in the United Kingdom took delivery of the first Boeing P-8A Poseidon Maritime Patrol aircraft in 2019. It was the first in the North Atlantic Treaty Organization to induct the new Boeing MPA after the United States. In the year that followed, the roster of nations to adopt the…",
-      "url": "https://simpleflying.com/p8-poseidon-importance-nato/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-11T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/p-8-poseidon-20260801-124628.jpg"
-    },
-    {
-      "title": "British Airways Airbus A380 Flies 7 Hours To Nowhere After Weather Radar Failure",
-      "description": "On August 8, a British Airways Airbus A380 was forced to return to base seven hours after departing Johannesburg Airport (JNB) bound for London Heathrow Airport (LHR). The pilots decided to divert back to JNB because the weather radar persistently malfunctioned and no troubleshooting efforts could…",
-      "url": "https://simpleflying.com/british-airways-a380-7-hours-nowhere-weather-radar-failure/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-11T07:45:37Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-airbus-a380.jpg"
-    },
-    {
-      "title": "Israir awaits US FAA clearance after being approved by home regulator to serve North America",
-      "description": "Leisure carrier has been planning to operate to New York with A330s. Israeli leisure carrier Israir has secured approval from the country’s civil aviation regulator to operate services to North America. The decision from the civil aviation authority complements a previous clearance on 29 July to…",
-      "url": "https://www.flightglobal.com/archive/2026/08/israir-awaits-us-faa-clearance-after-being-approved-by-home-regulator-to-serve-north-america/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-10T20:43:59Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/4X-BAK-c-AirTeamImages-480x324.jpeg"
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/pivotal-ems-hydecounty-2-1.jpg?w=1024"
     },
     {
       "title": "2 Pilots Killed in Helicopter Crash While Fighting Utah Wildfire",
@@ -110,60 +155,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-08-10T17:00:00Z",
       "image": null
-    },
-    {
-      "title": "Archer to acquire Wisk Aero, SkyGrid and Insitu from Boeing",
-      "description": "The Boeing divestment will give Archer access to proprietary autonomous flight, electric drivetrain and uncrewed aerial systems technologies. Advanced air mobility start-up Archer Aviation has reached a deal to acquire several emerging aerospace technology companies owned by Boeing. The agreement…",
-      "url": "https://www.flightglobal.com/archive/2026/08/archer-to-acquire-wisk-aero-skygrid-and-insitu-from-boeing/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-10T15:04:39Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Wisk-eVTOL-480x320.jpeg"
-    },
-    {
-      "title": "This 2014 CubCrafters Carbon Cub SS Is a Backcountry-Famous ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2014 CubCrafters Carbon Cub SS. One…",
-      "url": "https://www.flyingmag.com/this-2014-cubcrafters-carbon-cub-ss-is-a-backcountry-famous-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-10T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cubcrafters-carbon-cub-ss-for-sale-601796-5893ecea2a37898b-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "FAA Issues AD for Boeing Jet Fuselage Cracks",
-      "description": "The FAA is adopting a new airworthiness directive (AD) for Boeing 737-8, 737-9, and 737-8200 airplanes stemming from the discovery of cracks on the structural metal sheet that reinforces the fuselage skin around door cutouts. According to the AD, the agency received reports of cracks in this metal…",
-      "url": "https://www.flyingmag.com/faa-issues-ad-for-boeing-jet-fuselage-cracks/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-10T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Turkish Airlines capacity growth still capped as markets recover from Iran conflict",
-      "description": "Carrier boosted international passengers in the first half even after initial demand hit following Iran conflict. Turkish Airlines is reporting an increase in international travellers in the first half of the year, even after the initial negative impact on travel demand to the country in the…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/turkish-airlines-capacity-growth-still-capped-as-markets-recover-from-iran-conflict/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-10T12:43:49Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/turkish-737-max8-c-anna-zvereva-creativecommons_950-480x337.jpg"
-    },
-    {
-      "title": "Bob Hoover Academy Creates Flight Path to Resilience",
-      "description": "The teen years can be troubling, more for some than others. Unfortunately many are faced with external forces such as brushes with the law, housing instability, gang violence, or simply being told by authority figures (parents or teachers) that they won’t amount to anything. This can put you into a…",
-      "url": "https://www.flyingmag.com/bob-hoover-academy-creates-flight-path-to-resilience/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-10T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "More Than a Passenger: Helping Your Plus-One Become an Active Participant in Flight",
-      "description": "There is a moment I have heard about hundreds of times from right-seaters. The pilot taxis out for departure feeling excited, focused, and comfortable in an environment that feels almost like home. Sitting beside them is someone they deeply care about—a spouse, partner, family member, or…",
-      "url": "https://www.flyingmag.com/more-than-a-passenger-helping-your-plus-one-become-an-active-participant-in-flight/",
-      "source": "Flying Magazine",
-      "author": "Jolie Lucas",
-      "published_at": "2026-08-08T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Avemco_Banner-copy.jpeg?w=1024"
     },
     {
       "title": "AOPA helps launch careers in aviation",

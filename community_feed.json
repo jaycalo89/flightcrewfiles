@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:41:21.660986+00:00",
+  "generated_at": "2026-08-12T13:54:29.039720+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What does it mean in international convention and agreement by phrase 'preventing economic waste by unreasonable competition'?",
-      "url": "https://aviation.stackexchange.com/questions/115484/what-does-it-mean-in-international-convention-and-agreement-by-phrase-preventin",
-      "points": 1,
-      "num_comments": 0,
+      "title": "Do kites have power to cause same issues as bird strikes?",
+      "url": "https://aviation.stackexchange.com/questions/115488/do-kites-have-power-to-cause-same-issues-as-bird-strikes",
+      "points": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786432629
+      "created_utc": 1786527388
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Flap setting on Take-Off",
-      "url": "https://aviation.stackexchange.com/questions/115482/flap-setting-on-take-off",
-      "points": 1,
+      "title": "US Raytheon STARS data block format",
+      "url": "https://aviation.stackexchange.com/questions/115486/us-raytheon-stars-data-block-format",
+      "points": 2,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786357196
+      "created_utc": 1786459557
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Was a specific incident or near-miss the catalyst for the FAA's sudden ban on SFO's parallel visual approaches?",
-      "url": "https://aviation.stackexchange.com/questions/115478/was-a-specific-incident-or-near-miss-the-catalyst-for-the-faas-sudden-ban-on-sf",
-      "points": 2,
-      "num_comments": 1,
+      "title": "What does it mean in international convention and agreement by phrase 'preventing economic waste by unreasonable competition'?",
+      "url": "https://aviation.stackexchange.com/questions/115484/what-does-it-mean-in-international-convention-and-agreement-by-phrase-preventin",
+      "points": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786235490
+      "created_utc": 1786432629
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "On the nose of a B-1 bomber there are a series of lines. They look like a visual aid for the pilot. What are they for?",
-      "url": "https://aviation.stackexchange.com/questions/115474/on-the-nose-of-a-b-1-bomber-there-are-a-series-of-lines-they-look-like-a-visual",
-      "points": 13,
+      "title": "Flap setting on Take-Off",
+      "url": "https://aviation.stackexchange.com/questions/115482/flap-setting-on-take-off",
+      "points": 1,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786102050
+      "created_utc": 1786357196
     }
   ]
 }
