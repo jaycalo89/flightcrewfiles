@@ -4,13 +4,30 @@ document.addEventListener('DOMContentLoaded', function () {
   // Mobile nav toggle
   var toggle = document.querySelector('.nav-toggle');
   if (toggle) {
+    // The button carries an aria-label but never reported whether the drawer
+    // was open, so a screen reader announced the same thing in both states.
+    var setExpanded = function () {
+      toggle.setAttribute('aria-expanded', document.body.classList.contains('nav-open') ? 'true' : 'false');
+    };
+    setExpanded();
     toggle.addEventListener('click', function () {
       document.body.classList.toggle('nav-open');
+      setExpanded();
     });
     document.querySelectorAll('.mobile-panel a').forEach(function (link) {
       link.addEventListener('click', function () {
         document.body.classList.remove('nav-open');
+        setExpanded();
       });
+    });
+    // Escape closes the drawer, which is what the key is for on a dialog-like
+    // overlay and costs three lines.
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && document.body.classList.contains('nav-open')) {
+        document.body.classList.remove('nav-open');
+        setExpanded();
+        toggle.focus();
+      }
     });
   }
 
