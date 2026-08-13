@@ -513,6 +513,117 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .page-hero .eyebrow{color:var(--accent);}
 .page-hero .eyebrow::before{background:var(--accent);}
 
+/* ===== About page hero =================================================
+   Full-bleed photographic hero, about.html only. The photograph is bright
+   (a winglet against open sky), so the overlay does the heavy lifting: a
+   near-opaque navy wash on the left where the copy sits, thinning out to
+   the right so the image still reads as an image. Text contrast is checked
+   against the darkest overlay stop, not against the photo.
+   ---------------------------------------------------------------------- */
+.about-hero{
+  position:relative;overflow:hidden;
+  padding:104px 0 88px;
+  border-bottom:1px solid var(--border-gold);
+  background-color:var(--navy-950);
+  background-image:
+    linear-gradient(90deg, rgba(2,4,10,0.95) 0%, rgba(2,4,10,0.88) 40%, rgba(2,4,10,0.55) 72%, rgba(2,4,10,0.40) 100%),
+    linear-gradient(180deg, rgba(2,4,10,0.55) 0%, transparent 30%, rgba(2,4,10,0.72) 100%),
+    image-set(url("../images/about/about-hero-sky-1600.webp") type("image/webp"), url("../images/about/about-hero-sky-1600.jpg") type("image/jpeg"));
+  background-size:auto, auto, cover;
+  background-position:center, center, center 62%;
+  background-repeat:no-repeat;
+}
+@media (min-width:1500px){
+  .about-hero{
+    background-image:
+      linear-gradient(90deg, rgba(2,4,10,0.95) 0%, rgba(2,4,10,0.88) 40%, rgba(2,4,10,0.55) 72%, rgba(2,4,10,0.40) 100%),
+      linear-gradient(180deg, rgba(2,4,10,0.55) 0%, transparent 30%, rgba(2,4,10,0.72) 100%),
+      image-set(url("../images/about/about-hero-sky-2400.webp") type("image/webp"), url("../images/about/about-hero-sky-2400.jpg") type("image/jpeg"));
+  }
+}
+/* Gold top hairline, matching the case-file heroes. */
+.about-hero::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold-500),transparent);
+}
+.about-hero .container{position:relative;z-index:1;}
+.about-hero-inner{max-width:760px;}
+
+.about-hero-title{
+  font-family:'Oswald',sans-serif;font-weight:700;
+  font-size:clamp(2.3rem,6.2vw,4.6rem);line-height:1.02;letter-spacing:.01em;
+  text-transform:uppercase;margin:0 0 26px;
+}
+.about-hero-title span{display:block;}
+.about-hero-title .ah-line-1{color:var(--white);text-shadow:0 0 40px rgba(0,0,0,0.55);}
+.about-hero-title .ah-line-2{color:var(--gold-400);text-shadow:0 0 44px rgba(212,175,55,0.22);}
+
+/* Body copy for the Who We Are section. Held to ~68 characters so the four
+   paragraphs stay readable at desktop width rather than running the full
+   container. */
+.about-prose{max-width:68ch;margin-top:22px;}
+.about-prose p{font-size:1.05rem;line-height:1.9;color:var(--ink);margin:0 0 18px;}
+.about-prose p:last-child{margin-bottom:0;}
+
+/* Standalone callout. Centred in its own band rather than tucked into another
+   section, because the disclaimer it carries needs to be found, not stumbled
+   on. */
+.about-independent{
+  display:flex;align-items:flex-start;gap:18px;
+  padding:24px 28px;max-width:760px;margin:0 auto;
+  border:1px solid var(--gold-600);border-radius:var(--radius-lg);
+  background:linear-gradient(140deg, rgba(212,175,55,0.10), rgba(6,13,30,0.75));
+  box-shadow:var(--shadow-soft);
+}
+.about-independent .ai-icon{width:34px;height:34px;flex-shrink:0;color:var(--gold-400);margin-top:2px;}
+.about-independent h2{
+  font-family:'Oswald',sans-serif;font-weight:700;font-size:.95rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold-400);margin:0 0 8px;
+}
+.about-independent p{
+  margin:0;font-size:.92rem;line-height:1.7;color:rgba(246,248,252,0.86);
+}
+
+/* What We Cover: a true 2x2. The shared .grid-2 already gives two columns on
+   desktop and one on mobile; this only equalises card heights so the four
+   titles line up in a grid rather than staggering. */
+.about-cover-grid{margin-top:44px;}
+.about-cover-grid .card{display:flex;flex-direction:column;justify-content:flex-start;}
+.about-cover-grid .card h3{margin-bottom:10px;text-transform:none;font-size:1.15rem;}
+.about-cover-grid .card p{margin:0;color:var(--muted-light);}
+
+/* How We Work: reuses the site .timeline. The labels are step numbers here, so
+   they get the gold treatment rather than the blue used for timestamps. */
+.about-method{margin-top:44px;}
+/* Qualified through .timeline-item so this outranks the base
+   `.timeline-item .t-label` rule, which is defined later in this file and
+   would otherwise win on source order at equal specificity. */
+.about-method .timeline-item .t-label{color:var(--gold-400);letter-spacing:.2em;font-size:.8rem;}
+
+.about-contact-line{
+  margin-top:22px;font-size:1.05rem;line-height:1.85;max-width:68ch;
+  color:rgba(246,248,252,0.9);
+}
+.about-contact-line a{color:var(--gold-400);font-weight:600;}
+.about-contact-line a:hover{text-decoration:underline;}
+
+@media (max-width:768px){
+  .about-hero{padding:64px 0 56px;}
+  .about-prose p,.about-contact-line{font-size:.98rem;line-height:1.75;}
+  /* The left-to-right wash becomes top-to-bottom on a phone: the copy fills
+     the full width there, so a horizontal gradient would leave the last
+     lines of each paragraph sitting on the bright part of the photo. */
+  .about-hero{
+    background-image:
+      linear-gradient(180deg, rgba(2,4,10,0.86) 0%, rgba(2,4,10,0.92) 55%, rgba(2,4,10,0.96) 100%),
+      image-set(url("../images/about/about-hero-sky-800.webp") type("image/webp"), url("../images/about/about-hero-sky-800.jpg") type("image/jpeg"));
+    background-size:auto, cover;
+    background-position:center, center 35%;
+  }
+  .about-independent{padding:18px 20px;gap:14px;}
+  .about-independent .ai-icon{width:28px;height:28px;}
+}
+
 /* ===== Divider ===== */
 .gold-divider{height:2px;width:70px;background:linear-gradient(90deg,var(--gold-500),transparent);margin:18px 0;}
 .gold-divider.center{margin-left:auto;margin-right:auto;background:linear-gradient(90deg,transparent,var(--gold-500),transparent);width:90px;}
