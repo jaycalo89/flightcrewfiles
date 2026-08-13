@@ -17,7 +17,7 @@
      to arrive inside font-display:optional's window on a first visit. -->
 <link rel="preload" as="font" type="font/woff2" href="fonts/oswald-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
-<link rel="stylesheet" href="css/style.min.css?v=20260813m2">
+<link rel="stylesheet" href="css/style.min.css?v=20260813m3">
 <!-- Google Analytics -->
 <!-- Third-party tags, deferred to after the load event.
      gtag/js + adsbygoogle.js and everything they cascade into (GTM container,
@@ -124,11 +124,14 @@
   </div>
 </div>
 
-<!-- Hero background is decorative and applied from CSS, so it carries no
-     meaning a screen reader would need. Everything on this page is plain text
-     inside existing site components — no inline SVG, no JS-populated blocks —
-     so a stale or missing stylesheet degrades to readable text rather than
-     collapsing the layout. -->
+<!-- Hero background is decorative and applied from CSS. The photo credit below
+     it is not optional decoration: the image is CC BY 4.0, which requires
+     visible attribution, and it matches the caption practice used on every
+     other photograph on this site.
+     Note on the inline SVG further down: it carries explicit width/height
+     attributes. Without them an SVG with only a viewBox expands to fill its
+     container if the stylesheet is missing or stale, which is exactly how this
+     page broke once before. -->
 <section class="about-hero">
   <div class="container">
     <div class="about-hero-inner">
@@ -137,20 +140,53 @@
         <span class="ah-line-1">Real Stories.</span>
         <span class="ah-line-2">Researched. Respected.</span>
       </h1>
+      <div class="about-hero-rule"></div>
+    </div>
+  </div>
+  <p class="about-hero-credit">Photo: GeoMancer448 via Wikimedia Commons, CC BY 4.0</p>
+</section>
+
+<section class="section-tight about-stats-section">
+  <div class="container">
+    <div class="about-stats">
+      <div class="about-stat">
+        <strong>25+</strong>
+        <span>Case Files Published</span>
+      </div>
+      <div class="about-stat">
+        <strong>10+</strong>
+        <span>Years of Aviation Knowledge</span>
+      </div>
+      <div class="about-stat">
+        <strong>Global</strong>
+        <span>Audience Worldwide</span>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<div class="about-sep" aria-hidden="true"></div>
+
+<section class="section about-content">
   <div class="container">
     <div class="about-prose">
-      <p>Flight Crew Files is an independent aviation media platform built on a passion for the world of flight.</p>
+      <p class="about-lead">Flight Crew Files is an independent aviation media platform built on a passion for the world of flight.</p>
       <p>We share well-researched aviation stories, real incidents, industry updates, history, and more.</p>
-      <p>Our mission is simple: to tell aviation stories accurately, responsibly, and with respect.</p>
-      <p>Flight Crew Files is not affiliated with, endorsed by, or representing any airline, aviation authority, manufacturer, or other organization featured in its content.</p>
+      <blockquote class="about-pullquote">
+        <p>Our mission is simple: to tell aviation stories accurately, responsibly, and with respect.</p>
+      </blockquote>
+      <div class="about-disclaimer">
+        <svg class="ad-icon" viewBox="0 0 24 24" width="30" height="30" fill="none" aria-hidden="true">
+          <path d="M12 2.5 4.5 5.6v5.5c0 4.6 3.1 8.6 7.5 9.9 4.4-1.3 7.5-5.3 7.5-9.9V5.6L12 2.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="rgba(212,175,55,0.12)"/>
+          <path d="m8.6 11.9 2.4 2.4 4.4-4.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <p>Flight Crew Files is not affiliated with, endorsed by, or representing any airline, aviation authority, manufacturer, or other organization featured in its content.</p>
+      </div>
     </div>
   </div>
 </section>
+
+<div class="about-sep" aria-hidden="true"></div>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
