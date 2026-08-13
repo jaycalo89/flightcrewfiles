@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
       credibility: 'Civilian'
     },
     {
-      id: 'jal1628-1986', lat: 61.2181, lng: -149.9003,
-      name: 'JAL Flight 1628', year: '1986', location: 'Anchorage, Alaska',
-      description: 'A Japan Air Lines cargo crew reported a massive object pacing their 747 over Alaska for roughly 400 miles, visible on both onboard and ground radar. The FAA investigated, confirmed the radar returns, and found the veteran crew credible.',
+      id: 'jal1628-1986', lat: 66.5647, lng: -145.2739, url: 'jal-flight-1628.html',
+      name: 'JAL Flight 1628', year: '1986', location: 'Near Fort Yukon, eastern Alaska',
+      description: 'All three crew of a Japan Air Lines 747 freighter reported unidentified lights holding station with them at 35,000 feet for close to fifty minutes. Anchorage Center observed returns it could not account for, though the FAA later attributed the unexplained return to a radar artefact. Captain Terauchi was grounded after going public, and the FAA division chief who ran the investigation says he was afterwards told the briefing never happened.',
       credibility: 'Official'
     },
     {

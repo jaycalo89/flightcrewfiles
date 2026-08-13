@@ -66,6 +66,7 @@
     'rendlesham-forest.html': { label: 'Rendlesham Forest', parent: 'uap.html' },
     'frederick-valentich.html': { label: 'Frederick Valentich', parent: 'uap.html' },
     'captain-mantell.html': { label: 'Captain Mantell', parent: 'uap.html' },
+    'jal-flight-1628.html': { label: 'JAL Flight 1628', parent: 'uap.html' },
 
     // ---- Passenger Files deep-dive ----
     'juliane-koepcke.html': { label: 'Juliane Koepcke', parent: 'passenger-archives.html' },

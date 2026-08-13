@@ -18,6 +18,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #027
+    title: "The Jumbo Jet That Wasn't Alone",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "Officially Unexplained",
+    date: "November 1986",
+    excerpt: "A Japan Air Lines 747 freighter was crossing eastern Alaska at 35,000 feet when its captain noticed lights that would not fall behind. All three crew saw them. Anchorage Center saw returns it could not account for. The objects stayed with the aircraft for close to fifty minutes and were gone by the time anyone else got close enough to look. Captain Terauchi reported it through the proper channel and was taken off flying — and the FAA division chief who ran the investigation says he was later told the briefing never happened.",
+    url: "jal-flight-1628.html",
+    image: "images/jal1628/jal-cargo-747-freighter-800.jpg",
+    imageCredit: { text: "Photo: Michael Bernhard via Wikimedia Commons, CC BY-SA 4.0", url: "https://commons.wikimedia.org/wiki/File:Japan_Air_Lines_-_JAL_Cargo_Boeing_747-146(SF)_JA8107.jpg" },
+    intensity: 7,
+    editorsPick: false,
+    pullQuote: "He did exactly what the reporting system asks of a pilot, and it cost him his career."
+  },
+  {
     // CASE FILE #026
     title: "They Shut Down The Wrong Engine",
     tag: "Black Box Files",

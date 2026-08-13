@@ -27,6 +27,7 @@
     { title: 'The Man Who Fell 18,000 Feet, And Walked Away', url: 'nicholas-alkemade.html' },
     { title: 'MH370: The Plane That Vanished', url: 'mh370.html' },
     { title: 'The Disappearance Of Amelia Earhart', url: 'amelia-earhart.html' },
+    { title: "The Jumbo Jet That Wasn't Alone", url: 'jal-flight-1628.html' },
     { title: 'The Night The US Air Force Met Something They Couldn\'t Explain', url: 'rendlesham-forest.html' },
     { title: 'The Pilot Who Vanished', url: 'frederick-valentich.html' },
     { title: 'The First Pilot To Die Chasing A UFO', url: 'captain-mantell.html' },

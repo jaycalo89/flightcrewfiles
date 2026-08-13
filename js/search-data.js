@@ -1,5 +1,6 @@
 // Auto-generated search index — do not hand-edit; see build script in project scratch notes.
 const SEARCH_INDEX = [
+  {title:"The Jumbo Jet That Wasn't Alone",desc:"Japan Air Lines Flight 1628, a 747 freighter over Alaska in November 1986. Three crew watched unidentified lights hold station with them for nearly fifty minutes. The FAA investigated, and the official who ran the case says he was told the briefing never happened.",url:"jal-flight-1628.html",tag:"UAP Files"},
   {title:"The Pilot Files",desc:"A deeper archive of documented pilot stories: heroic saves, close calls, life on the flight deck, legendary aviators and lesser-known accounts, every case sourced and verified.",url:"pilot-archives.html",tag:"Pilots"},
   {title:"The Cabin Crew Files",desc:"A deeper archive of documented flight attendant stories: emergencies handled from the jump seat, insider career knowledge and life above the clouds, every case sourced and verified.",url:"fa-archives.html",tag:"Crew"},
   {title:"The Passenger Files",desc:"A deeper archive of documented passenger experiences: survival stories, strange encounters, medical emergencies and acts of kindness, every case sourced and verified.",url:"passenger-archives.html",tag:"Passengers"},
