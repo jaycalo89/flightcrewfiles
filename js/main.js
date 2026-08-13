@@ -1,6 +1,39 @@
 // Flight Crew Files — shared front-end behavior
 document.addEventListener('DOMContentLoaded', function () {
 
+  // Smooth scrolling for user-initiated in-page links.
+  //
+  // This used to be `html{scroll-behavior:smooth}` in the stylesheet, which
+  // also animated every programmatic scroll on the page — a scrollTo() meant
+  // to jump somewhere instantly instead animated for ~half a second, and any
+  // code reading scrollY right after saw the pre-scroll value. Doing it here
+  // means only real clicks on same-page anchors are smoothed.
+  //
+  // Delegated, so it covers anchors added later (the case-file tables of
+  // contents, the Secret Skies jump bar, "Get The Briefing" -> #newsletter).
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    var hash = link.getAttribute('href');
+    if (!hash || hash === '#' || link.hasAttribute('download') || link.target === '_blank') return;
+
+    var target;
+    try { target = document.querySelector(hash); } catch (err) { return; }
+    if (!target) return;                       // let the browser handle it
+
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    e.preventDefault();
+    target.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+
+    // Keep the URL and the focus ring in step with the jump, which the
+    // default anchor behaviour would have done for us.
+    if (history.replaceState) { history.replaceState(null, '', hash); }
+    else { location.hash = hash; }
+    if (!target.hasAttribute('tabindex')) { target.setAttribute('tabindex', '-1'); }
+    target.focus({ preventScroll: true });
+  });
+
   // Mobile nav toggle
   var toggle = document.querySelector('.nav-toggle');
   if (toggle) {

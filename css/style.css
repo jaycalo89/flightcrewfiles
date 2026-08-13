@@ -42,7 +42,17 @@
 }
 
 *,*::before,*::after{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
+/* scroll-behavior:smooth is deliberately NOT set on <html>.
+   As a blanket rule on the scrolling element it animates EVERY scroll of that
+   box, including programmatic window.scrollTo()/scrollIntoView() calls that
+   asked for no such thing — scroll-position restores, "jump to section" logic
+   and any future script all get silently converted into a ~500ms animation,
+   and a caller that reads scrollY straight afterwards sees the old value.
+   Smooth scrolling for user-initiated in-page links is applied explicitly in
+   js/main.js instead, where it can also honour prefers-reduced-motion.
+   scroll-padding-top keeps anchor targets clear of the sticky header. */
+html{scroll-padding-top:84px;}
+@media (max-width:900px){html{scroll-padding-top:72px;}}
 body{
   margin:0;
   font-family:'Inter',sans-serif;
@@ -1880,7 +1890,11 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 }
 
 .beehiiv-wrapper{height:480px;}
-@media (max-width:480px){.beehiiv-wrapper{height:820px;}}
+/* Measured, not guessed: at 390px beehiiv sizes its own iframe to 892px
+   (it renders into a 276px-wide column, which is what makes the form so
+   tall). The old 820px was 72px short, so the consent checkbox and the
+   Terms/Privacy links were being cut off the bottom. 910px = measured + 18. */
+@media (max-width:480px){.beehiiv-wrapper{height:910px;}}
 
 /* Lazy-render only what's below the fold. #this-day is deliberately NOT in this
    list — it sits directly under the hero, close enough to the fold that the
@@ -1889,16 +1903,34 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .featured-card,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
   content-visibility:auto;
 }
+/* NOTE: contain-intrinsic-height sizes the CONTENT box, not the border box.
+   Every figure in this file was originally cut from a getBoundingClientRect()
+   reading, so each one over-reserved by exactly that element's vertical
+   padding — 80-92px on the sections, 30px on the ad slot. The values below
+   are content-box: (measured border-box − padding) + a small buffer. */
 .featured-card{contain-intrinsic-height:auto 601px;}
 .newsletter{contain-intrinsic-height:auto 570px;}
 #fear-of-flying{contain-intrinsic-height:auto 921px;}
 #from-archives{contain-intrinsic-height:auto 763px;}
-.ad-slot{contain-intrinsic-height:auto 49px;}
+.ad-slot{contain-intrinsic-height:auto 25px;}  /* measured content 19 */
+/* Re-measured at 620px (the 600-640px band) after the mobile pass. Every
+   one of these was cut against the old uncapped layout and over-reserved,
+   which inflates the page's reported scroll height for as long as the
+   section stays off screen. .featured-card is not on the homepage — left
+   at its original figure. */
 @media (max-width:640px){
   .featured-card{contain-intrinsic-height:auto 943px;}
-  .newsletter{contain-intrinsic-height:auto 1114px;}
-  #fear-of-flying{contain-intrinsic-height:auto 1490px;}
-  #from-archives{contain-intrinsic-height:auto 1729px;}
+  .newsletter{contain-intrinsic-height:auto 650px;}      /* content 632 */
+  #fear-of-flying{contain-intrinsic-height:auto 1055px;} /* content 1039 */
+  #from-archives{contain-intrinsic-height:auto 1400px;}  /* content 1382 */
+}
+/* Breakpoint-matched to .beehiiv-wrapper: below 480px the embed switches to
+   its tall layout, so the newsletter block roughly doubles. Measured 1234
+   at 390px with the corrected 910px wrapper — identical on index, about,
+   blackbox, community, stories, mh370 and contact, so one value covers all
+   62 pages that carry the block. Content box: 1234 border − 92 padding. */
+@media (max-width:480px){
+  .newsletter{contain-intrinsic-height:auto 1155px;}
 }
 
 .vf-sentinel{
@@ -3193,4 +3225,260 @@ body.nav-open .mobile-panel{
   .mission-section {
     padding: 30px 16px;
   }
+}
+
+/* ===== <picture> wrappers ==========================================
+   Responsive images are wrapped in <picture> for the WebP/JPEG fallback.
+   <picture> is inline by default, which would put the card's <img> inside a
+   line box and leave a few px of descender gap under it. display:contents
+   removes the wrapper from layout entirely, so every existing rule that
+   targets `.some-media img` keeps working untouched.
+   ------------------------------------------------------------------- */
+picture{display:contents;}
+
+/* ===== Footer link columns: collapsible on phones ===================
+   Default state below is the desktop/no-CSS-media state: the toggle and
+   its chevron are inert and every list is open, so the footer degrades to
+   exactly what it was. The <600px block further down does the collapsing.
+   The checkbox is moved off-screen rather than display:none'd so it stays
+   keyboard-reachable and screen readers still announce the expanded state.
+   ------------------------------------------------------------------- */
+.footer-col-toggle{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+.footer-col-label{display:block;}
+.footer-col-label h4{margin-bottom:18px;}
+.footer-col-chevron{display:none;}
+.footer-quick-nav{display:none;}
+
+/* ===================================================================
+   Homepage height reduction — phones under 600px
+   ===================================================================
+   At 390px the homepage measured ~29,700px tall: about 35 screens of
+   scrolling before the footer. This block trims it without removing a
+   single section. Every grid still renders; it is capped to its first
+   three cards, and each capped section carries a "View all" link to the
+   hub page that holds the rest.
+
+   Scoped to body.home-page so the other 63 pages keep their spacing, and
+   placed last in the file so it outranks the earlier 640px/768px mobile
+   blocks at equal specificity. Where an earlier rule is already tighter
+   than the target (the tdih section, the tdih+featured adjacency), that
+   rule is either left alone or restated here at its tighter value —
+   this pass only ever reduces height.
+   ------------------------------------------------------------------- */
+@media (max-width:600px){
+
+  /* --- 1. Hero: capped at 60vh -------------------------------------- */
+  /* The ~90-word platform intro moved to about.html#what-we-cover, so
+     what is left is the headline plus one line of subtext. That measures
+     ~330px, comfortably inside 60vh even on a 667px-tall phone; the
+     max-height is a backstop, not the layout mechanism. */
+  .home-page .mission-section{
+    padding:2.5rem 16px;
+    max-height:60vh;overflow:hidden;
+  }
+  .home-page .mission-inner .section-title{font-size:clamp(1.9rem,7.4vw,2.5rem);}
+  .home-page .mission-inner .gold-divider{margin:14px auto 16px;}
+  .home-page .mission-lede{font-size:1rem;line-height:1.55;}
+
+  /* --- 3. Section spacing: 2.5rem top and bottom -------------------- */
+  .home-page .section{padding:2.5rem 0;}
+  .home-page .section-tight{padding:1.75rem 0;}
+  .home-page .community-section{padding:2.5rem 0;}
+  .home-page .ss-teaser,
+  .home-page .atc-teaser,
+  .home-page .bbhome-teaser{padding:2.5rem 0;}
+  /* Already below 2.5rem in the 768px block — restated so the .section
+     rule above cannot push them back up. */
+  .home-page .tdih-section{padding:2rem 0;}
+  .home-page .featured-case-file-section{padding:1.25rem 0 .75rem;}
+
+  /* Grid top margins (several are inline style="margin-top:50px"). */
+  .home-page #tdih-events,
+  .home-page .news-poll-layout,
+  .home-page #lfs-grid,
+  .home-page #case-files-grid,
+  .home-page #you-might-have-missed-grid,
+  .home-page #most-harrowing-grid,
+  .home-page #start-here-list{margin-top:1.25rem !important;}
+  .home-page .community-grid{margin-top:1.25rem;}
+  .home-page .ss-teaser-sub,
+  .home-page .atc-teaser-sub,
+  .home-page .bbhome-sub{margin-bottom:1.25rem;}
+  .home-page .ss-teaser-grid,
+  .home-page .atc-teaser-grid{margin-bottom:1.25rem;}
+  .home-page .bbhome-quote-block{margin:0 auto 1.25rem;padding:1rem;}
+  .home-page .ss-teaser-cta,
+  .home-page .atc-teaser-cta,
+  .home-page .bbhome-teaser-cta{margin-top:1.25rem;}
+  .home-page .section-explore{margin-top:1.25rem;}
+  .home-page .quiz-card{margin-top:1.25rem;}
+
+  /* --- 3b. Card gaps: 0.75rem --------------------------------------- */
+  /* The id-prefixed selectors are needed to beat #case-files-grid{gap:26px},
+     #home-news-feed{gap:24px} and #community-grid{gap:24px}. */
+  .home-page .grid,
+  .home-page .community-grid,
+  .home-page .most-read-list,
+  .home-page .ss-teaser-grid,
+  .home-page .atc-teaser-grid,
+  .home-page #tdih-events,
+  .home-page #home-news-feed,
+  .home-page #lfs-grid,
+  .home-page #case-files-grid,
+  .home-page #community-grid,
+  .home-page #you-might-have-missed-grid,
+  .home-page #most-harrowing-grid{gap:.75rem;}
+  .home-page .news-poll-layout{gap:.75rem;}
+
+  /* --- 3c. Card internal padding: 1rem ------------------------------ */
+  .home-page .cfp-body,
+  .home-page .article-body,
+  .home-page .fear-box,
+  .home-page .poll-widget,
+  .home-page .quiz-card,
+  .home-page .atc-teaser-card,
+  .home-page .community-card,
+  .home-page #community-grid .community-card,
+  .home-page #home-news-feed .nf-card,
+  .home-page #lfs-grid .lfs-card,
+  .home-page #tdih-events .hec-body,
+  .home-page .featured-case-hero .fch-body{padding:1rem;}
+  /* Bottom padding stays small here — the "Watch" link sits below the
+     body and brings its own 13px. */
+  .home-page .ss-teaser-card-body{padding:1rem 1rem .25rem;}
+  .home-page .most-read-item{padding:.6rem .25rem;}
+
+  /* --- 4. Card images: capped at 180px, cropped not stretched ------- */
+  .home-page .cfp-media{height:180px;}
+  .home-page #tdih-events .hec-media{height:180px;}
+  /* .featured-case-hero .fch-media is already 132px from the 768px block —
+     left alone, since the cap is a ceiling and not a target. */
+  .home-page .cfp-media img,
+  .home-page #tdih-events .hec-media img,
+  .home-page .featured-case-hero .fch-media-img,
+  .home-page .ss-teaser-card-media img{
+    width:100%;height:100%;object-fit:cover;object-position:center;
+  }
+  /* Decorative icon tiles, not photographs — 170px of gradient above six
+     separate cards is the single cheapest block of height on the page. */
+  .home-page .article-media{height:110px;}
+  .home-page .article-media svg{width:30px;height:30px;}
+
+  /* --- 2. Card counts: first three per grid -------------------------- */
+  /* Every feed script clears grid.innerHTML before appending, so the
+     <noscript> fallbacks are gone by the time these count. With JS off
+     only the noscript message renders, which is child 1 either way. */
+  .home-page #tdih-events > *:nth-child(n+4),
+  .home-page #home-news-feed > *:nth-child(n+4),
+  .home-page #lfs-grid > *:nth-child(n+4),
+  .home-page #case-files-grid > *:nth-child(n+4),
+  .home-page #you-might-have-missed-grid > *:nth-child(n+4),
+  .home-page #most-harrowing-grid > *:nth-child(n+4),
+  .home-page #start-here-list > *:nth-child(n+4),
+  .home-page #community-grid > *:nth-child(n+4),
+  .home-page .ss-teaser-grid > *:nth-child(n+4),
+  .home-page .atc-teaser-grid > *:nth-child(n+4),
+  .home-page #from-archives .grid > *:nth-child(n+4){display:none;}
+  /* Secret Skies stays two-up; the third card takes the full row rather
+     than sitting as a half-width orphan under the pair. */
+  .home-page .ss-teaser-grid > *:nth-child(3){grid-column:1 / -1;}
+
+  /* --- 2b. CLS reserves, re-cut for the three-card counts ------------ */
+  /* The ≤640px reserves above were measured against four news cards. With
+     the cap at three the reserve outran the content by ~410px, and because
+     these grids are align-content:start that slack showed up as dead space
+     under the last card — the card cap saved nothing until this moved too.
+     Measured at 390px: three cards + gaps = 838px, so 880px still absorbs
+     a headline that wraps to a third line without reintroducing shift. */
+  .home-page #home-news-feed{min-height:900px;}
+  .home-page #home-news-feed .vf-skeleton{min-height:280px;}
+  .home-page #lfs-grid{min-height:1480px;}
+
+  /* --- 2c. content-visibility reserves, re-cut ----------------------- */
+  /* Same failure mode as the min-heights, and worse: until a section
+     scrolls into view the browser reports contain-intrinsic-height as its
+     height, so a stale value inflates the page's reported scroll height.
+     The ≤640px values above are left alone — they are still right for the
+     600-640px band, where the card caps and 1rem padding do not apply.
+     Measured at 390px with reserves neutralised. */
+  /* #fear-of-flying genuinely changes shape at 600px (1rem card padding),
+     and narrower means more wrapping, so it is taller here than at 620px.
+     .newsletter is not repeated — its reserve is breakpoint-matched to the
+     beehiiv wrapper at 480px instead, where the real change happens. */
+  .home-page #fear-of-flying{contain-intrinsic-height:auto 1210px;} /* content 1198 */
+
+  /* --- 5. Most Harrowing: excerpts clamped to three lines ------------ */
+  /* Matches .fch-excerpt in the 768px block. These come from CASE_FILES
+     and run to full paragraphs, which was ~430px per card. */
+  .home-page .harrowing-card .article-body p{
+    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+    margin-bottom:14px;
+  }
+
+  /* --- 6. From The Archives: desktop only ---------------------------- */
+  /* Three hard-coded teasers pointing at category hubs. Case Files, You
+     Might Have Missed and Most Harrowing all do the same job above it
+     from live data, so on a phone this is the third telling. */
+  .home-page #from-archives{display:none;}
+
+  /* --- 7. This Day In History: reserve the JS-swapped placeholders --- */
+  /* Shortening the hero pulled this section into the initial viewport, and
+     the placeholder text main.js replaces ("Loading today's date…",
+     "Looking up milestones for today…") wraps to a different line count than
+     what replaces it — so a swap that used to shift below the fold, costing
+     nothing, started shifting visible content. Measured CLS 0.0005 -> 0.097
+     from this one element. Reserving both boxes at their settled size takes
+     it back to ~0. Longest of the three real subtexts is 3 lines at 390px;
+     the date is always "Month D", one line. */
+  .home-page #tdih-date{min-height:44px;}
+  .home-page #tdih-subtext{min-height:84px;}
+  .home-page #tdih-events{min-height:417px;}
+
+  /* --- 8. In The Air: one embed on a phone --------------------------- */
+  /* A 16:9 embed is ~183px of media plus title, date, description and a
+     full-width Watch button — three of them ran 1,450px. One carries the
+     section; "More videos" underneath takes you to the rest. */
+  .home-page #lfs-grid > *:nth-child(n+2){display:none;}
+  .home-page #lfs-grid{min-height:500px;}
+  .home-page #lfs-grid .vf-skeleton{min-height:477px;}
+}
+
+/* ===== Footer link columns collapsed behind their headings, <600px ====
+   Not scoped to .home-page: this is footer behaviour, and the same footer
+   sits on all 64 pages. Above 600px nothing here applies and the footer is
+   byte-identical to what it always was.
+   ------------------------------------------------------------------- */
+@media (max-width:600px){
+  .footer-quick-nav{
+    display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 .5rem;
+  }
+  .footer-quick-nav a{
+    padding:.45rem .8rem;border-radius:999px;
+    border:1px solid var(--border-soft);background:rgba(255,255,255,0.03);
+    font-family:'Oswald',sans-serif;font-size:.72rem;font-weight:600;
+    letter-spacing:.08em;text-transform:uppercase;
+    color:rgba(246,248,252,0.78);text-decoration:none;
+  }
+  .footer-quick-nav a:hover,
+  .footer-quick-nav a:focus-visible{color:var(--gold-400);border-color:var(--gold-500);}
+
+  .footer-grid{gap:0;margin-bottom:1.25rem;}
+  .footer-col-label{
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    padding:.85rem 0;cursor:pointer;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .footer-col-label h4{margin-bottom:0;}
+  .footer-col-chevron{
+    display:block;width:16px;height:16px;flex-shrink:0;
+    color:var(--gold-400);transition:transform .2s ease;
+  }
+  /* Label and list both follow the checkbox, so ~ reaches them. */
+  .footer-col > ul{display:none;padding:.75rem 0 .25rem;}
+  .footer-col-toggle:checked ~ ul{display:block;}
+  .footer-col-toggle:checked ~ .footer-col-label .footer-col-chevron{transform:rotate(180deg);}
+  .footer-col-toggle:focus-visible ~ .footer-col-label{
+    outline:2px solid var(--gold-400);outline-offset:2px;
+  }
+  .site-footer{padding:2.5rem 0 1.5rem;}
 }

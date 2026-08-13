@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="-GQaZdOZF3wx-gf3kx_PFGabTF342E6vKviS1BlYq6Q" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
 <title>The Man Who Fell 18,000 Feet And Walked Away | Nicholas Alkemade | Flight Crew Files</title>
 <meta name="description" content="On the night of 24/25 March 1944, RAF tail gunner Nicholas Alkemade jumped from a burning Lancaster over Germany without a parachute and fell four miles through the dark. He survived. The full, source-verified case file.">
 <meta property="og:type" content="article">
@@ -16,14 +15,42 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260811k">
+<link rel="stylesheet" href="css/style.min.css?v=20260812m9">
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
+<!-- Third-party tags, deferred to after the load event.
+     gtag/js + adsbygoogle.js and everything they cascade into (GTM container,
+     doubleclick, adtrafficquality, px-cloud, wra-api, Cloudflare Insights)
+     were ~1 MB across ~55 requests competing with first-party content for
+     bandwidth. The dataLayer stub below stays inline and synchronous, so any
+     gtag() call made before the real library arrives is queued and replayed —
+     no analytics events are lost, they are just sent a little later. -->
 <script>
+(function () {
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
   gtag('js', new Date());
   gtag('config', 'G-WNKKXMVXGJ');
+
+  var TAGS = [
+    { src: 'https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ' },
+    { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348', cors: 'anonymous' }
+  ];
+  var booted = false;
+  function boot() {
+    if (booted) return;
+    booted = true;
+    TAGS.forEach(function (t) {
+      var s = document.createElement('script');
+      s.async = true;
+      if (t.cors) s.crossOrigin = t.cors;
+      s.src = t.src;
+      document.head.appendChild(s);
+    });
+  }
+  if (document.readyState === 'complete') setTimeout(boot, 0);
+  else window.addEventListener('load', function () { setTimeout(boot, 0); });
+})();
 </script>
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -625,8 +652,28 @@
           <a href="mailto:hello@flightcrewfiles.com" aria-label="Email Flight Crew Files"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a><a href="https://www.tiktok.com/@theflightcrewfiles" class="tiktok-link" target="_blank" rel="noopener" aria-label="Flight Crew Files on TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-.93-.85-1.5-2.03-1.6-3.32h-3.02v13.3c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9s1.3-2.9 2.9-2.9c.28 0 .55.04.8.11V9.9a5.9 5.9 0 0 0-.8-.05 5.92 5.92 0 1 0 5.92 5.92V9.34a8.1 8.1 0 0 0 4.75 1.52V7.85c-1.17 0-2.26-.37-3.15-1.03-.35-.26-.68-.56-1-.99z"/></svg></a>
         </div>
       </div>
+      <!-- Primary destinations, always visible: the three columns below
+           collapse on a phone, and a footer with nothing but a blurb in it
+           is worse than a long one. Phone-only — the header nav covers this
+           everywhere else. -->
+      <nav class="footer-quick-nav" aria-label="Primary">
+        <a href="stories.html">Case Files</a>
+        <a href="blackbox.html">Black Box</a>
+        <a href="news.html">Flight Log</a>
+        <a href="community.html">Community</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <!-- Accordion via checkbox rather than <details>: browsers disagree on
+           whether a closed <details> can be forced open again from CSS, and
+           the desktop layout needs these permanently expanded with no JS. -->
       <div class="footer-col">
-        <h4>Explore</h4>
+        <input type="checkbox" id="fcol-explore" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-explore">
+          <h4>Explore</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="stories.html">All Case Files &amp; Stories</a></li>
           <li><a href="scary.html">Scary Stories</a></li>
@@ -640,7 +687,11 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>More</h4>
+        <input type="checkbox" id="fcol-more" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-more">
+          <h4>More</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="resources.html">All Resources</a></li>
           <li><a href="saved-files.html">Your Flight Log</a></li>
@@ -665,7 +716,11 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Community</h4>
+        <input type="checkbox" id="fcol-community" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-community">
+          <h4>Community</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="community.html">Discussion Forum</a></li>
           <li><a href="index.html#newsletter">Newsletter</a></li>
@@ -692,7 +747,7 @@
 </footer>
 
 <script src="js/bookmarks.min.js?v=20260803"></script>
-<script src="js/main.min.js?v=20260811a"></script>
+<script src="js/main.min.js?v=20260812s1"></script>
 <script src="js/news-feed.min.js"></script>
 <script src="js/social-share.min.js"></script>
 <script src="js/case-file-features.min.js?v=20260803b"></script>

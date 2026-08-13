@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=optional" rel="stylesheet">
-<link rel="stylesheet" href="css/style.min.css?v=20260812m1">
+<link rel="stylesheet" href="css/style.min.css?v=20260812m9">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -321,7 +321,11 @@
       <span class="eyebrow gold center" style="display:flex;justify-content:center;">Cleared For Takeoff</span>
       <h2 class="section-title center">The World Of Aviation, All In One Place.</h2>
       <div class="gold-divider center"></div>
-      <p class="mission-lede">Flight Crew Files is an independent aviation platform dedicated to exploring every corner of the aviation world. From airports to airspace, commercial airlines to military aviation, private jets to helicopters, aircraft technology to aviation history, and the people who keep the industry moving. We bring together aviation news, careers, training, safety, travel, aircraft, operations, insights, and inspiring stories for aviation professionals, travelers, and enthusiasts worldwide. Whether you're on the ground, in the cockpit, in the cabin, behind the scenes, or simply fascinated by flight, welcome aboard.</p>
+      <!-- The full platform-intro paragraph that used to sit here now lives on
+           about.html ("What We Cover"). It ran ~90 words and pushed the first
+           real content below three phone screens. The meta description still
+           carries the long version for search engines. -->
+      <p class="mission-lede">Independent aviation news, case files and history &mdash; for everyone who works, flies or just watches the skies.</p>
     </div>
   </div>
 </section>
@@ -331,14 +335,23 @@
 <section class="section tdih-section" id="this-day">
   <div class="container">
     <span class="eyebrow gold center tdih-eyebrow" style="display:flex;justify-content:center;"><span class="pulse-dot gold"></span>This Day In Aviation History</span>
-    <h2 class="section-title center tdih-date" id="tdih-date">Loading today's date&hellip;</h2>
-    <p class="section-lede center" id="tdih-subtext">Looking up milestones for today&hellip;</p>
+    <!-- Placeholders deliberately short: at 390px this heading is inside the
+         first viewport, so a placeholder that wraps to two lines and is then
+         replaced by a one-line date ("August 12") shifts everything below it.
+         "Loading…" cannot wrap; the CSS min-heights hold the box either way. -->
+    <h2 class="section-title center tdih-date" id="tdih-date">Loading&hellip;</h2>
+    <p class="section-lede center" id="tdih-subtext">Looking up today's milestones&hellip;</p>
     <div class="gold-divider center"></div>
 
     <div class="grid grid-3" id="tdih-events" style="margin-top:44px;">
       <!-- Populated by js/main.js from a curated, date-checked dataset -->
     </div>
     <noscript><p class="tdih-note">Enable JavaScript to see today's aviation milestones, or browse the full <a href="history.html" class="text-blue">History archive</a>.</p></noscript>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="history.html">View all aviation history <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
   </div>
 </section>
 
@@ -453,7 +466,7 @@
 
     <div class="section-explore">
       <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="videos.html">Watch more <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+      <a class="section-explore-link" href="videos.html">More videos <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -490,6 +503,11 @@
         <p class="tdih-note">Enable JavaScript to see this week's picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
       </noscript>
     </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all case files <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
   </div>
 </section>
 
@@ -504,6 +522,11 @@
         <p class="tdih-note">Enable JavaScript to see our starter picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
       </noscript>
     </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all starter picks <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
   </div>
 </section>
 
@@ -517,6 +540,11 @@
       <noscript>
         <p class="tdih-note">Enable JavaScript to see these case files, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
       </noscript>
+    </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all high-intensity case files <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -565,7 +593,10 @@
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="u2-spy-plane.html">
           <div class="ss-teaser-card-media">
-            <img src="images/secret-skies/u2-dragon-lady-takeoff.jpg" alt="Lockheed U-2 Dragon Lady taking off" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Matthew Hannen, Public domain">
+            <picture>
+              <source type="image/webp" srcset="images/secret-skies/u2-dragon-lady-takeoff-400.webp 400w, images/secret-skies/u2-dragon-lady-takeoff-800.webp 800w, images/secret-skies/u2-dragon-lady-takeoff-1600.webp 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px">
+              <img src="images/secret-skies/u2-dragon-lady-takeoff-800.jpg" srcset="images/secret-skies/u2-dragon-lady-takeoff-400.jpg 400w, images/secret-skies/u2-dragon-lady-takeoff-800.jpg 800w, images/secret-skies/u2-dragon-lady-takeoff-1600.jpg 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px" width="1600" height="1043" alt="Lockheed U-2 Dragon Lady taking off" loading="lazy" title="Photo: U.S. Air Force / Staff Sgt. Matthew Hannen, Public domain">
+            </picture>
           </div>
           <div class="ss-teaser-card-body">
             <h3>U-2 Dragon Lady</h3>
@@ -577,7 +608,10 @@
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="f117-nighthawk.html">
           <div class="ss-teaser-card-media">
-            <img src="images/secret-skies/f-117-nighthawk-flight.jpg" alt="F-117 Nighthawk stealth fighter banking in flight, showing its full angular airframe" loading="eager" title="Photo: U.S. Air Force / Staff Sgt. Aaron Allmon II, Public domain">
+            <picture>
+              <source type="image/webp" srcset="images/secret-skies/f-117-nighthawk-flight-400.webp 400w, images/secret-skies/f-117-nighthawk-flight-800.webp 800w, images/secret-skies/f-117-nighthawk-flight-1600.webp 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px">
+              <img src="images/secret-skies/f-117-nighthawk-flight-800.jpg" srcset="images/secret-skies/f-117-nighthawk-flight-400.jpg 400w, images/secret-skies/f-117-nighthawk-flight-800.jpg 800w, images/secret-skies/f-117-nighthawk-flight-1600.jpg 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px" width="1600" height="1067" alt="F-117 Nighthawk stealth fighter banking in flight, showing its full angular airframe" loading="lazy" title="Photo: U.S. Air Force / Staff Sgt. Aaron Allmon II, Public domain">
+            </picture>
           </div>
           <div class="ss-teaser-card-body">
             <h3>F-117 Nighthawk</h3>
@@ -589,7 +623,10 @@
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="a12-oxcart.html">
           <div class="ss-teaser-card-media">
-            <img src="images/secret-skies/a12-oxcart.jpg" alt="Lockheed A-12 Oxcart in flight" loading="eager">
+            <picture>
+              <source type="image/webp" srcset="images/secret-skies/a12-oxcart-400.webp 400w, images/secret-skies/a12-oxcart-800.webp 800w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px">
+              <img src="images/secret-skies/a12-oxcart-800.jpg" srcset="images/secret-skies/a12-oxcart-400.jpg 400w, images/secret-skies/a12-oxcart-800.jpg 800w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px" width="800" height="594" alt="Lockheed A-12 Oxcart in flight" loading="lazy">
+            </picture>
           </div>
           <div class="ss-teaser-card-body">
             <h3>A-12 Oxcart</h3>
@@ -601,7 +638,10 @@
       <div class="ss-teaser-card">
         <a class="ss-teaser-card-link" href="horten-ho229.html">
           <div class="ss-teaser-card-media">
-            <img src="images/secret-skies/horten-ho229-new.jpg" alt="Front view of a full-scale Horten Ho 229 flying wing replica, showing its distinctive tailless wing shape and twin jet intakes" loading="eager" title="Photo: Priwo via Wikimedia Commons, Public domain">
+            <picture>
+              <source type="image/webp" srcset="images/secret-skies/horten-ho229-new-400.webp 400w, images/secret-skies/horten-ho229-new-800.webp 800w, images/secret-skies/horten-ho229-new-1600.webp 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px">
+              <img src="images/secret-skies/horten-ho229-new-800.jpg" srcset="images/secret-skies/horten-ho229-new-400.jpg 400w, images/secret-skies/horten-ho229-new-800.jpg 800w, images/secret-skies/horten-ho229-new-1600.jpg 1600w" sizes="(max-width:600px) 45vw, (max-width:980px) 46vw, 270px" width="1600" height="1200" alt="Front view of a full-scale Horten Ho 229 flying wing replica, showing its distinctive tailless wing shape and twin jet intakes" loading="lazy" title="Photo: Priwo via Wikimedia Commons, Public domain">
+            </picture>
           </div>
           <div class="ss-teaser-card-body">
             <h3>Horten Ho 229</h3>
@@ -729,6 +769,11 @@
         </div>
       </div>
     </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all stories <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
   </div>
 </section>
 
@@ -802,8 +847,28 @@
           <a href="mailto:hello@flightcrewfiles.com" aria-label="Email Flight Crew Files"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a><a href="https://www.tiktok.com/@theflightcrewfiles" class="tiktok-link" target="_blank" rel="noopener" aria-label="Flight Crew Files on TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82c-.93-.85-1.5-2.03-1.6-3.32h-3.02v13.3c0 1.6-1.3 2.9-2.9 2.9-1.6 0-2.9-1.3-2.9-2.9s1.3-2.9 2.9-2.9c.28 0 .55.04.8.11V9.9a5.9 5.9 0 0 0-.8-.05 5.92 5.92 0 1 0 5.92 5.92V9.34a8.1 8.1 0 0 0 4.75 1.52V7.85c-1.17 0-2.26-.37-3.15-1.03-.35-.26-.68-.56-1-.99z"/></svg></a>
         </div>
       </div>
+      <!-- Primary destinations, always visible: the three columns below
+           collapse on a phone, and a footer with nothing but a blurb in it
+           is worse than a long one. Phone-only — the header nav covers this
+           everywhere else. -->
+      <nav class="footer-quick-nav" aria-label="Primary">
+        <a href="stories.html">Case Files</a>
+        <a href="blackbox.html">Black Box</a>
+        <a href="news.html">Flight Log</a>
+        <a href="community.html">Community</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+      </nav>
+
+      <!-- Accordion via checkbox rather than <details>: browsers disagree on
+           whether a closed <details> can be forced open again from CSS, and
+           the desktop layout needs these permanently expanded with no JS. -->
       <div class="footer-col">
-        <h4>Explore</h4>
+        <input type="checkbox" id="fcol-explore" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-explore">
+          <h4>Explore</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="stories.html">All Case Files &amp; Stories</a></li>
           <li><a href="scary.html">Scary Stories</a></li>
@@ -817,7 +882,11 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>More</h4>
+        <input type="checkbox" id="fcol-more" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-more">
+          <h4>More</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="resources.html">All Resources</a></li>
           <li><a href="saved-files.html">Your Flight Log</a></li>
@@ -842,7 +911,11 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Community</h4>
+        <input type="checkbox" id="fcol-community" class="footer-col-toggle">
+        <label class="footer-col-label" for="fcol-community">
+          <h4>Community</h4>
+          <svg class="footer-col-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </label>
         <ul>
           <li><a href="community.html">Discussion Forum</a></li>
           <li><a href="index.html#newsletter">Newsletter</a></li>
@@ -869,7 +942,7 @@
 </footer>
 
 <script src="js/bookmarks.min.js?v=20260803" defer></script>
-<script src="js/main.min.js?v=20260811a" defer></script>
+<script src="js/main.min.js?v=20260812s1" defer></script>
 <script src="js/news-feed.min.js" defer></script>
 <script src="js/community-feed.min.js" defer></script>
 <script src="js/latest-from-skies.min.js" defer></script>
@@ -882,14 +955,41 @@
 <script src="js/discovery-sections.min.js" defer></script>
 
 <!-- Google Analytics — moved to end of body; dataLayer queue works regardless of load order -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ"></script>
+<!-- Third-party tags, deferred to after the load event.
+     gtag/js + adsbygoogle.js and everything they cascade into (GTM container,
+     doubleclick, adtrafficquality, px-cloud, wra-api, Cloudflare Insights)
+     were ~1 MB across ~55 requests competing with first-party content for
+     bandwidth. The dataLayer stub below stays inline and synchronous, so any
+     gtag() call made before the real library arrives is queued and replayed —
+     no analytics events are lost, they are just sent a little later. -->
 <script>
+(function () {
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
   gtag('js', new Date());
   gtag('config', 'G-WNKKXMVXGJ');
+
+  var TAGS = [
+    { src: 'https://www.googletagmanager.com/gtag/js?id=G-WNKKXMVXGJ' },
+    { src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348', cors: 'anonymous' }
+  ];
+  var booted = false;
+  function boot() {
+    if (booted) return;
+    booted = true;
+    TAGS.forEach(function (t) {
+      var s = document.createElement('script');
+      s.async = true;
+      if (t.cors) s.crossOrigin = t.cors;
+      s.src = t.src;
+      document.head.appendChild(s);
+    });
+  }
+  if (document.readyState === 'complete') setTimeout(boot, 0);
+  else window.addEventListener('load', function () { setTimeout(boot, 0); });
+})();
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4781907540933348" crossorigin="anonymous"></script>
 <script src="js/breadcrumbs.min.js?v=20260811g" defer></script>
 <script src="js/random-case-file.min.js" defer></script>
 </body>
