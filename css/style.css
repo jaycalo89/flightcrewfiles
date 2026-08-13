@@ -3318,18 +3318,16 @@ picture{display:contents;}
    ------------------------------------------------------------------- */
 @media (max-width:600px){
 
-  /* --- 1. Hero: capped at 60vh -------------------------------------- */
-  /* The ~90-word platform intro moved to about.html#what-we-cover, so
-     what is left is the headline plus one line of subtext. That measures
-     ~330px, comfortably inside 60vh even on a 667px-tall phone; the
-     max-height is a backstop, not the layout mechanism. */
+  /* --- 1. Hero ------------------------------------------------------ */
+  /* No max-height/overflow clip here: the full platform intro lives in
+     index.html and must render in full on phones. The section is sized by
+     its content; only the type scale is reduced. */
   .home-page .mission-section{
     padding:2.5rem 16px;
-    max-height:60vh;overflow:hidden;
   }
   .home-page .mission-inner .section-title{font-size:clamp(1.9rem,7.4vw,2.5rem);}
   .home-page .mission-inner .gold-divider{margin:14px auto 16px;}
-  .home-page .mission-lede{font-size:1rem;line-height:1.55;}
+  .home-page .mission-lede{font-size:0.95rem;line-height:1.55;}
 
   /* --- 3. Section spacing: 2.5rem top and bottom -------------------- */
   .home-page .section{padding:2.5rem 0;}
