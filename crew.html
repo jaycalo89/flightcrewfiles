@@ -13,8 +13,10 @@
 <meta property="og:image" content="https://flightcrewfiles.com/og-image.jpg">
 <meta property="og:url" content="https://flightcrewfiles.com/crew.html">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Self-hosted, same-origin. Preloaded so the variable faces have a chance
+     to arrive inside font-display:optional's window on a first visit. -->
+<link rel="preload" as="font" type="font/woff2" href="fonts/oswald-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
 <link rel="stylesheet" href="css/style.min.css?v=20260812m9">
 <!-- Google Analytics -->
 <!-- Third-party tags, deferred to after the load event.
