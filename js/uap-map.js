@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
       credibility: 'Military'
     },
     {
-      id: 'tehran-1976', lat: 35.6892, lng: 51.3890,
+      id: 'tehran-1976', lat: 35.6892, lng: 51.3890, url: 'tehran-ufo-1976.html',
       name: 'Tehran UFO', year: '1976', location: 'Tehran, Iran',
       description: 'Iranian Air Force F-4 Phantoms scrambled to intercept a bright object over Tehran reported their weapons and communications systems failing each time they approached it, recovering only once they backed away. The incident is documented in a declassified U.S. Defense Intelligence Agency report.',
       credibility: 'Military'

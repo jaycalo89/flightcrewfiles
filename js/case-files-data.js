@@ -18,6 +18,21 @@
 // the "Start Here" onboarding list (omitted, not false, on every other entry).
 const CASE_FILES = [
   {
+    // CASE FILE #028
+    title: "The Night Iran's Air Force Met Something It Couldn't Fight",
+    tag: "UAP Files",
+    accent: "#39e6c5",
+    stamp: "Declassified",
+    date: "September 1976",
+    excerpt: "Civilians in north Tehran started phoning the airport tower after midnight about a light over the city. The Imperial Iranian Air Force sent up two F-4 Phantoms. Both crews reported the same thing: the closer they got, the more of the aircraft stopped working, and everything came back the moment they turned away. One pilot tried to fire an AIM-9 at an object that had detached from the first and was closing head-on, and his weapons panel went dead in his hands. The US Defense Intelligence Agency wrote it all down and called it an outstanding report.",
+    url: "tehran-ufo-1976.html",
+    image: "images/tehran-1976/iiaf-f4e-phantom-800.jpg",
+    imageCredit: { text: "Photo: Imperial Iranian Air Force via Wikimedia Commons, Public Domain", url: "https://commons.wikimedia.org/wiki/File:Iranian_F-4E_Phantom_II_armed_with_AGM-65_Maverick.jpg" },
+    intensity: 7,
+    editorsPick: true,
+    pullQuote: "He pressed to fire and the weapons panel went dead in his hands, along with every radio in the aircraft."
+  },
+  {
     // CASE FILE #027
     title: "The Jumbo Jet That Wasn't Alone",
     tag: "UAP Files",

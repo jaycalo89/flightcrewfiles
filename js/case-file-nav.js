@@ -29,6 +29,7 @@
     { title: 'The Disappearance Of Amelia Earhart', url: 'amelia-earhart.html' },
     { title: "The Jumbo Jet That Wasn't Alone", url: 'jal-flight-1628.html' },
     { title: 'The Night The US Air Force Met Something They Couldn\'t Explain', url: 'rendlesham-forest.html' },
+    { title: "The Night Iran's Air Force Met Something It Couldn't Fight", url: 'tehran-ufo-1976.html' },
     { title: 'The Pilot Who Vanished', url: 'frederick-valentich.html' },
     { title: 'The First Pilot To Die Chasing A UFO', url: 'captain-mantell.html' },
     { title: 'Alone In The Amazon', url: 'juliane-koepcke.html' },
