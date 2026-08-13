@@ -565,51 +565,9 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 .about-prose p{font-size:1.05rem;line-height:1.9;color:var(--ink);margin:0 0 18px;}
 .about-prose p:last-child{margin-bottom:0;}
 
-/* Standalone callout. Centred in its own band rather than tucked into another
-   section, because the disclaimer it carries needs to be found, not stumbled
-   on. */
-.about-independent{
-  display:flex;align-items:flex-start;gap:18px;
-  padding:24px 28px;max-width:760px;margin:0 auto;
-  border:1px solid var(--gold-600);border-radius:var(--radius-lg);
-  background:linear-gradient(140deg, rgba(212,175,55,0.10), rgba(6,13,30,0.75));
-  box-shadow:var(--shadow-soft);
-}
-.about-independent .ai-icon{width:34px;height:34px;flex-shrink:0;color:var(--gold-400);margin-top:2px;}
-.about-independent h2{
-  font-family:'Oswald',sans-serif;font-weight:700;font-size:.95rem;
-  letter-spacing:.16em;text-transform:uppercase;color:var(--gold-400);margin:0 0 8px;
-}
-.about-independent p{
-  margin:0;font-size:.92rem;line-height:1.7;color:rgba(246,248,252,0.86);
-}
-
-/* What We Cover: a true 2x2. The shared .grid-2 already gives two columns on
-   desktop and one on mobile; this only equalises card heights so the four
-   titles line up in a grid rather than staggering. */
-.about-cover-grid{margin-top:44px;}
-.about-cover-grid .card{display:flex;flex-direction:column;justify-content:flex-start;}
-.about-cover-grid .card h3{margin-bottom:10px;text-transform:none;font-size:1.15rem;}
-.about-cover-grid .card p{margin:0;color:var(--muted-light);}
-
-/* How We Work: reuses the site .timeline. The labels are step numbers here, so
-   they get the gold treatment rather than the blue used for timestamps. */
-.about-method{margin-top:44px;}
-/* Qualified through .timeline-item so this outranks the base
-   `.timeline-item .t-label` rule, which is defined later in this file and
-   would otherwise win on source order at equal specificity. */
-.about-method .timeline-item .t-label{color:var(--gold-400);letter-spacing:.2em;font-size:.8rem;}
-
-.about-contact-line{
-  margin-top:22px;font-size:1.05rem;line-height:1.85;max-width:68ch;
-  color:rgba(246,248,252,0.9);
-}
-.about-contact-line a{color:var(--gold-400);font-weight:600;}
-.about-contact-line a:hover{text-decoration:underline;}
-
 @media (max-width:768px){
   .about-hero{padding:64px 0 56px;}
-  .about-prose p,.about-contact-line{font-size:.98rem;line-height:1.75;}
+  .about-prose p{font-size:.98rem;line-height:1.75;}
   /* The left-to-right wash becomes top-to-bottom on a phone: the copy fills
      the full width there, so a horizontal gradient would leave the last
      lines of each paragraph sitting on the bright part of the photo. */
@@ -620,8 +578,6 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
     background-size:auto, cover;
     background-position:center, center 35%;
   }
-  .about-independent{padding:18px 20px;gap:14px;}
-  .about-independent .ai-icon{width:28px;height:28px;}
 }
 
 /* ===== Divider ===== */
