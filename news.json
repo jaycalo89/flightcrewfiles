@@ -1,25 +1,187 @@
 {
-  "generated_at": "2026-08-13T14:12:06.594813+00:00",
+  "generated_at": "2026-08-14T13:28:13.590934+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 21,
+  "count": 24,
   "articles": [
     {
-      "title": "Before Qsuite, This Airline Had A Business Class Suite With A Door Back In 2014",
-      "description": "If you Google ' first airline with doors in business class ', the search engine's AI Overview will tell you that it's Qatar Airways, which unveiled its QSuite in March 2017 and began operating flights with the new suite in June of the same year. Some results will also award this title to Delta Air…",
-      "url": "https://simpleflying.com/first-business-class-suite-door/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-13T14:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/jetblue_mint_comfort_cocktail_tv-20260731-183305.jpg"
+      "title": "This 1975 Beechcraft Baron B55 Is a Generously Updated ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Beechcraft Baron B55. Many…",
+      "url": "https://www.flyingmag.com/this-1975-beechcraft-baron-b55-is-a-generously-updated-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-08-14T13:05:54Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/baron2.jpg"
     },
     {
-      "title": "The Exact Flight Hours Where Owning A Challenger 300 Beats Chartering One In 2026",
-      "description": "200 hours of flight time is the most commonly cited figure for when it makes more sense to purchase a private jet than charter one. However, the exact number of flight hours depends heavily on the cost of charter and the aircraft in question. To take the Bombardier Challenger 300 as an example,…",
-      "url": "https://simpleflying.com/challenger-300-ownership-flight-hours-2026/",
+      "title": "Ouch: Lufthansa Becomes 2nd Airline To Reject Boeing’s Oldest 777-9s",
+      "description": "Lufthansa has become the second major Boeing 777X customer to say it does not want some of the oldest/earliest 777-9s built. During the airline's Q2 earnings call, CEO Carsten Spohr confirmed that discussions are underway with Boeing over which early-production aircraft Lufthansa will refuse…",
+      "url": "https://simpleflying.com/video/ouch-lufthansa-becomes-2nd-airline-to-reject-boeing-s-oldest-777-9s/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-14T12:31:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/lufthansa-reject-777x.jpg"
+    },
+    {
+      "title": "Two Diversions, No Meals: Inside A Delta Flight’s 10-Hour Delay",
+      "description": "A Delta Air Lines flight from Paris Charles De Gaulle Airport (CDG) in France to Seattle-Tacoma International Airport (SEA) in the US state of Washington arrived in the Pacific Northwest more than ten hours late in the early hours of this morning after diverting twice. The service, which was…",
+      "url": "https://simpleflying.com/delta-air-lines-airbus-a330neo-double-diversion/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-14T12:31:09Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2473979451_cropped.jpg"
+    },
+    {
+      "title": "Emirates Cancels Airbus A380 Flights On These 2 Major Long-Haul Routes [Map]",
+      "description": "Emirates continues to adjust its Airbus A380 operations, which is primarily because of the ongoing war in Iran. The Gulf giant has confirmed that two US routes will no longer see the superjumbo either in September or for most of October. Compared to last September, the carrier's A380 activity to…",
+      "url": "https://simpleflying.com/emirates-cancels-airbus-a380-flights-on-these-2-major-long-haul-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-14T12:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/emirates-unique-livery-airbus-a380.jpg"
+    },
+    {
+      "title": "Miami Executive Airport Takes the Experimental Stage",
+      "description": "One of Florida’s busiest general aviation airports is dedicating a chunk of airspace to study the operation of eVTOL (electric vertical takeoff and landing) air taxis, autonomous drones, and other novel aviation technologies. Miami Executive Airport (KTMB) has one of the nation’s first agreements…",
+      "url": "https://www.flyingmag.com/miami-executive-airport-takes-the-experimental-stage/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-14T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "60 Inches Of Legroom: Inside This Transpacific Airline's Record-Breaking Business Class",
+      "description": "In recent years, EVA Air has quietly become one of the most talked-about airlines in long-haul travel thanks to its blend of superior hospitality and premium cabin innovations. For passengers flying between North America and Asia, a ticket in the carrier's business class is more than just a route…",
+      "url": "https://simpleflying.com/inside-this-transpacific-airlines-record-breaking-business-class/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-14T09:15:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/60-inches-of-legroom-inside-this-transpacific-airline-s-record-breaking-business-class.jpg"
+    },
+    {
+      "title": "Air Arabia expects third-quarter debut for Saudi airline venture",
+      "description": "Budget carrier and investment partners granted rights last year to establish operator in Dammam. Middle Eastern budget carrier Air Arabia is expecting to commence operations with its new Saudi Arabian venture in the third quarter of this year. Air Arabia is a 49% shareholder in a joint venture, Air…",
+      "url": "https://www.flightglobal.com/archive/2026/08/air-arabia-expects-third-quarter-debut-for-saudi-airline-venture/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-14T08:28:51Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-Arabia-winglet-c-Air-Arabia-480x334.jpeg"
+    },
+    {
+      "title": "“This Is A Security Breach”: United Airlines Flight Evacuates After Bullet Was Found Onboard",
+      "description": "Travelers aboard United Airlines flight 1302 from Denver International Airport (DEN) to San Diego International Airport (SAN) were delayed when an alarming discovery was made in the cabin after boarding. All 184 people on the Boeing 737-900 had to be deplaned following the discovery of a live…",
+      "url": "https://simpleflying.com/united-airlines-flight-evacuates-bullet-found-onboard/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-14T07:17:47Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/016-united-airlines-boeing-737-900-lorenzatx-_-shutterstock.jpg"
+    },
+    {
+      "title": "South Korean police order single KUH-1P helicopter",
+      "description": "Variants of the KUH-1 Surion continue to be adopted by South Korean parapublic agencies. Korea Aerospace Industries (KAI) has secured an order for a single KUH-1P ‘Chamsuri’ helicopter from South Korea’s national police. The helicopter will be the 15th KUH-1P delivered to the police agency since…",
+      "url": "https://www.flightglobal.com/helicopters/2026/08/south-korean-police-order-single-kuh-1p-helicopter/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-14T07:07:12Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/KUH-1P-Chamsuri-480x313.jpg"
+    },
+    {
+      "title": "Why British Airways' Club Suite Door Is Quietly Making A $5,000 First Class Ticket Harder To Justify",
+      "description": "Since the introduction of lie-flat seating to business class, the gap between first and business class is getting ever more imperceptible. British Airways has made the gap aboard its aircraft even smaller by introducing a 44-inch (112-cm) full-height sliding door to its Club Suites business class.…",
+      "url": "https://simpleflying.com/why-british-airways-club-suite-door-is-quietly-making-a-5000-first-class-ticket-harder-to-justify/",
       "source": "Simple Flying",
       "author": "Louis Hardiman",
-      "published_at": "2026-08-13T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/artboard-16_9-2025-01-16t160924-626-20260730-234836.jpg"
+      "published_at": "2026-08-14T05:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-000-first-class.jpg"
+    },
+    {
+      "title": "AirAsia delays London, Bahrain flights amid capacity ‘reset’",
+      "description": "Low-cost group plunges to quarterly loss on high fuel costs AirAsia Group has again delayed the launch of its Bahrain hub – as well as flights to London – in a bid to “preserve capital”, and as part of a wider network “reset”. The low-cost airline group says it will postpone the launch to 2027, but…",
+      "url": "https://www.flightglobal.com/airlines/2026/08/airasia-delays-london-bahrain-flights-amid-capacity-reset/",
+      "source": "FlightGlobal",
+      "author": "Alfred Chua",
+      "published_at": "2026-08-14T03:52:25Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/AirAsia-Shutterstock-gingchen-480x270.jpg"
+    },
+    {
+      "title": "North Carolina flights marked new chapter in EMS",
+      "description": "After months of preparation and training, North Carolina paramedic Quinn Reece was ready on June 27 when a 911 call summoned her to fly the first advanced life support (ALS) response in the United States using an electric vertical takeoff and landing aircraft.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-13T22:18:54Z",
+      "image": null
+    },
+    {
+      "title": "Pilots dispute Arizona's Falcon Field fee justification",
+      "description": "AOPA, along with the Arizona Pilots Association (APA) and the Aviation Safety Advisory Group of Arizona (ASAG), submitted comments to the FAA pushing back on the city of Mesa’s defense of its financial methodology and rationale behind the implementation of landing fees at Falcon Field . The filing…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-13T21:42:00Z",
+      "image": null
+    },
+    {
+      "title": "2 Army Soldiers Dead Following Apache Helicopter Crash in Texas",
+      "description": "Two U.S. Army soldiers died after an AH-64E Apache attack helicopter crashed Wednesday in Salado, Texas, according to an update from the Army’s media center for Fort Hood. The deceased service members were transported to Carl R. Darnall Army Medical Center at Fort Hood. Their names are being…",
+      "url": "https://www.flyingmag.com/2-army-soldiers-dead-apache-helicopter-crash/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-13T21:04:23Z",
+      "image": null
+    },
+    {
+      "title": "FAA Still Billions Short of Funding Needed for ATC Data Automation",
+      "description": "As competition for the FAA’s common automation platform (CAP) contract heats up, the agency still lacks the funds required to develop the technology, which is envisioned to combine its En Route Automation Modernization (ERAM) and Standard Terminal Automation Replacement System (STARS) platforms.…",
+      "url": "https://www.flyingmag.com/faa-billions-short-atc-data-automation-thales/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-13T20:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Colorado city ends yearslong effort to close airport",
+      "description": "After at least six years of repeated efforts to close Boulder Municipal Airport , the city of Boulder, Colorado, is now moving to pursue new grant funds to maintain the airport—all but ensuring it will continue to play a key role in the community.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-13T19:47:03Z",
+      "image": null
+    },
+    {
+      "title": "FAA finds Texas airport violated federal obligations",
+      "description": "The FAA has found the sponsor of Pearland Regional Airport —a privately owned, public-use airport near Houston—in violation of four federal grant assurances after it sold airport property to a developer that is building hundreds of homes immediately adjacent to the airport.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-13T19:38:11Z",
+      "image": null
+    },
+    {
+      "title": "History’s Largest Battery-Electric Plane Takes Flight in New York",
+      "description": "The largest battery-electric, fixed-wing aircraft in history made its debut flight this week, marking the start of a test campaign to validate a planned, 30-seat, hybrid-electric airliner. Los Angeles-based Heart Aerospace said Thursday that its X1 demonstrator, a precursor to its flagship ES-30,…",
+      "url": "https://www.flyingmag.com/largest-electric-plane-takes-flight-new-york/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-13T18:00:00Z",
+      "image": "https://www.youtube.com/embed/fEudbAjschs"
+    },
+    {
+      "title": "GE’s new Black Hawk engine achieves preliminary flight rating",
+      "description": "GE Aerospace designed the T901 Improved Turbine Engine to replace the T700 turboshaft powering both the UH-60M and AH-64E helicopters. The US Army has granted a preliminary flight rating (PFR) to the GE Aerospace T901 turboshaft engine as testing and evaluation continue on the new rotorcraft…",
+      "url": "https://www.flightglobal.com/archive/2026/08/ge-new-black-hawk-engine-achieves-preliminary-flight-rating/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-13T16:32:36Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/9865328-480x270.jpg"
+    },
+    {
+      "title": "This 1948 Cessna 170 Is a Classic ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1948 Cessna 170. The Cessna 170…",
+      "url": "https://www.flyingmag.com/this-1948-cessna-170-is-a-classic-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-13T15:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cessna-170-for-sale-601808-8a0c3b46b7bd9024-800X600-1.jpg?w=800"
     },
     {
       "title": "Careers in Airport Snow Management",
@@ -40,96 +202,6 @@
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Heart-X1-first-flight-c-Heart-Aerospace-480x329.jpg"
     },
     {
-      "title": "\"No Fuel For A Go-Around\": American Eagle Jet Declares Emergency After 3 Missed Approaches",
-      "description": "An American Eagle Embraer E175 was forced to declare a fuel emergency on Tuesday afternoon after severe thunderstorms forced three consecutive go-arounds at two Kentucky airports. Flight AA3927, operated by Envoy Air under the American Eagle brand, was scheduled to fly from Dallas/Fort Worth…",
-      "url": "https://simpleflying.com/american-eagle-no-fuel-go-around-3-missed-approaches/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-13T11:01:08Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-eagle-embraer-e175-landing.jpg"
-    },
-    {
-      "title": "Emirates Unveils 1st-Ever Flights To This Massive Long-Haul Destination [Map]",
-      "description": "Emirates is the world's second-largest operator for long-haul flights. Due to the airline's widebody-only fleet, it also ranks first globally for long-haul passengers, seats for sale, and available seat miles.",
-      "url": "https://simpleflying.com/emirates-unveils-1st-ever-flights-to-this-massive-long-haul-destination/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-13T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/emirates-777-300er-landing.jpg"
-    },
-    {
-      "title": "The 70-Times-Per-Second Engine Check Happening In The Seconds Before Every Takeoff",
-      "description": "The moment the throttles advance on the runway is a truly incredible sensory experience, a surge of noise and a sudden feeling of compression against the seatback. It is a very different experience for the flight crew and the aircraft’s avionics; this is the most critical phase of the departure.…",
-      "url": "https://simpleflying.com/engine-check-before-every-takeoff/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-13T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/exclusive-engine.jpg"
-    },
-    {
-      "title": "6 Airlines With The World's Most Superior Premium Economy Dining In 2026",
-      "description": "In 2026, premium economy is no longer defined solely by a few extra inches of seat pitch to make long-haul flights more comfortable. Rather, it has become one of the most strategically important cabins in long-haul aviation, particularly on high-demand transatlantic and transpacific routes linking…",
-      "url": "https://simpleflying.com/6-airlines-worlds-most-superior-premium-economy-dining-2026/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-13T09:15:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/premium-economy-2.jpg"
-    },
-    {
-      "title": "This Airline Is Cutting Economy Seats From Its A321neo While Its Rivals Add More",
-      "description": "Cathay Pacific has committed to reconfiguring seating aboard its Airbus A321neo fleet. Having taken delivery of its first new engine option, the A321, in 2021, the move means Cathay is revisiting seating plans on aircraft that are, at a maximum, just five years old. Even more surprising, the Hong…",
-      "url": "https://simpleflying.com/airline-removing-a321neo-economy-seats/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-13T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/seats.png"
-    },
-    {
-      "title": "Las Vegas Airport Kept Landing Jets Despite A Drone Flying Over An Active Runway",
-      "description": "On Monday evening, the tower at Las Vegas' Harry Reid International Airport (LAS) cleared a Learjet to land on 19R as police helicopters chased drones flying over runway 26. View From The Wing shared an audio recording of the exchange between air traffic control and the pilot, and at least in the…",
-      "url": "https://simpleflying.com/las-vegas-airport-arrivals-drone-active-runway/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-13T07:37:58Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/las-vegas-nv-usa-private-gates-lear-jet-35a-n90j-arrival-into-harry-reid-international-airport.jpg"
-    },
-    {
-      "title": "Comac’s C919 completes first international flight",
-      "description": "The C919 currently only operates domestic flights in Mainland China. Comac’s C919 has operated its first international flight, with Air China deploying the narrowbody on flights to Ulaanbaatar. On 12 August, the Air China C919 (registered B-919Y) operated flight CA723 from Beijing to the Mongolian…",
-      "url": "https://www.flightglobal.com/asia-pacific/2026/08/comacs-c919-completes-first-international-flight/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-08-13T02:56:37Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-China-C919-first-international-flight-480x327.jpg"
-    },
-    {
-      "title": "Northrop Grumman unveils new engineering site for sixth-generation aircraft",
-      "description": "The defence contractor is vying to build the US Navy’s sixth-generation F/A-XX carrier-based fighter. Northrop Grumman has opened a new factory in Florida aimed at supporting the design and production of a sixth-generation aircraft. The defence manufacturer’s 27,870sq m (300,000sq ft) engineering…",
-      "url": "https://www.flightglobal.com/archive/2026/08/northrop-grumman-unveils-new-engineering-site-for-sixth-generation-aircraft/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-12T17:34:07Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Northrop-Grumman-six-gen-factory-480x253.jpg"
-    },
-    {
-      "title": "This 2012 Aviat A-1C-200 Husky Is a Magazine-Featured ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2012 Aviat A-1C-200 Husky. When the…",
-      "url": "https://www.flyingmag.com/this-2012-aviat-a-1c-200-husky-is-a-magazine-featured-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-12T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/IMG_3538.jpg?w=1024"
-    },
-    {
-      "title": "Are Those ‘Smoking Rivets’ on an Airplane a Safety Risk?",
-      "description": "Question: I just started flying at the local flight school. They have two airplanes—a 1978 Cessna 172 and a 1975 Cessna 150. Both airplanes are parked on the ramp and have black rings around the rivets on top of the wings, which makes me wonder if this is corrosion and how bad it has to get before…",
-      "url": "https://www.flyingmag.com/are-those-smoking-rivets-on-an-airplane-a-safety-risk/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-12T13:00:00Z",
-      "image": null
-    },
-    {
       "title": "Pilots recount Chipmunk journey to AirVenture",
       "description": "Women flying warbirds are rare. And seeing two together is nearly unheard of. Yet in July, pilots Katie Mack and Lisa Corker ferried the Canadian Aviation Museum’s de Havilland Chipmunks from Windsor, Ontario, to Oshkosh, Wisconsin, for EAA AirVenture.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/pilots-recount-chipmunk-journey-to-airventure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -139,57 +211,12 @@
       "image": null
     },
     {
-      "title": "Newark Airport Gets New Radar, but DOT Seeks $10B for Additional Upgrades",
-      "description": "U.S. Transportation Secretary Sean Duffy and FAA Administrator Bryan Bedford on Monday inaugurated a new surface movement radar (SMR) at Newark Liberty International Airport (KEWR). But the officials are seeking at least $10 billion more for further air traffic control (ATC) upgrades. Duffy has…",
-      "url": "https://www.flyingmag.com/newark-airport-radar-dot-10b-atc-upgrades/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-11T18:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Report: Trump Secretly Switched Airplanes on Trip Back From Turkey",
-      "description": "President Donald Trump secretly exited Air Force One and boarded a different military aircraft before beginning his journey back from a NATO summit in Turkey in July, according to a Washington Post report. Citing sources familiar with the matter, the newspaper said the switch-up was prompted by a…",
-      "url": "https://www.flyingmag.com/report-trump-secretly-switched-airplanes-on-trip-back-from-turkey/",
-      "source": "Flying Magazine",
-      "author": "Zach Vasile",
-      "published_at": "2026-08-11T16:54:55Z",
-      "image": null
-    },
-    {
-      "title": "AOPA helps launch careers in aviation",
-      "description": "On November 13 and 14, AOPA is holding its inaugural AOPA Aviation Career Expo in Phoenix.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-helps-launch-careers-in-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "title": "Unique bush pilot race combines paddling, seaplane handling skills",
+      "description": "An unusual aero-nautical competition will once again pair pilots and paddlers on Moosehead Lake in Maine September 12, weather permitting.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/unique-bush-pilot-race-combines-paddling-seaplane-handling-skills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-08-06T23:46:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA refines unleaded fuel transition framework",
-      "description": "The FAA released the first major update of its Transition Plan to Unleaded Aviation Gasoline on July 30, revising with additional detail the roadmap for eliminating the use of tetraethyllead (TEL) in avgas and updating pilots and aircraft owners on the status of each fuel.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/faa-refines-unleaded-fuel-transition-framework?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-06T23:01:55Z",
-      "image": null
-    },
-    {
-      "title": "Florida airport board on November ballot",
-      "description": "Voters in Collier County, Florida, will select the five members of the Naples Airport Authority for the first time after a state law passed earlier this year stripped the city of the power to appoint them—enabling voters to have a stronger say in the future of Naples Municipal Airport .",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/florida-airport-board-on-november-ballot?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-06T20:30:13Z",
-      "image": null
-    },
-    {
-      "title": "AOPA urges FAA to protect aircraft owner data",
-      "description": "AOPA, along with several other prominent general aviation organizations, sent a letter to the FAA, urging the agency to limit the disclosure of the personal information of aircraft owners.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/06/aopa-urges-faa-to-protect-aircraft-owner-data?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-06T17:50:56Z",
+      "published_at": "2026-08-11T17:43:16Z",
       "image": null
     }
   ]

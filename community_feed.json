@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T14:12:21.580405+00:00",
+  "generated_at": "2026-08-14T13:28:22.455671+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What exactly is Flight Following?",
-      "url": "https://aviation.stackexchange.com/questions/115491/what-exactly-is-flight-following",
-      "points": 1,
-      "num_comments": 3,
+      "title": "Is this a tilting wing?",
+      "url": "https://aviation.stackexchange.com/questions/115496/is-this-a-tilting-wing",
+      "points": 3,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786571564
+      "created_utc": 1786686495
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Do kites have power to cause same issues as bird strikes?",
-      "url": "https://aviation.stackexchange.com/questions/115488/do-kites-have-power-to-cause-same-issues-as-bird-strikes",
-      "points": 3,
-      "num_comments": 2,
+      "title": "What exactly is Flight Following?",
+      "url": "https://aviation.stackexchange.com/questions/115491/what-exactly-is-flight-following",
+      "points": 1,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786527388
+      "created_utc": 1786571564
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "US Raytheon STARS data block format",
-      "url": "https://aviation.stackexchange.com/questions/115486/us-raytheon-stars-data-block-format",
-      "points": 2,
-      "num_comments": 1,
+      "title": "Do kites have power to cause same issues as bird strikes?",
+      "url": "https://aviation.stackexchange.com/questions/115488/do-kites-have-power-to-cause-same-issues-as-bird-strikes",
+      "points": 5,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786459557
+      "created_utc": 1786527388
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Flap setting on Take-Off",
-      "url": "https://aviation.stackexchange.com/questions/115482/flap-setting-on-take-off",
-      "points": 1,
+      "title": "US Raytheon STARS data block format",
+      "url": "https://aviation.stackexchange.com/questions/115486/us-raytheon-stars-data-block-format",
+      "points": 3,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786357196
+      "created_utc": 1786459557
     }
   ]
 }
