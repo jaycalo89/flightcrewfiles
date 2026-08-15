@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T13:28:21.370207+00:00",
+  "generated_at": "2026-08-15T13:26:18.204774+00:00",
   "query": "RSS: The Black Vault, UFOs: Scientific Research, Mystery Wire, Live Science",
-  "count": 10,
+  "count": 9,
   "articles": [
     {
       "title": "Academic funding for UAP research",
@@ -83,15 +83,6 @@
       "author": "John Greenewald",
       "published_at": "2025-08-25T17:12:56Z",
       "image": "https://www.theblackvault.com/casefiles/wp-content/uploads/2025/08/2025-08-22_05-13-08-300x277.jpg"
-    },
-    {
-      "title": "New UAP data workshop",
-      "description": "Academics In a blog post dated 8 October 2024 I wrote about academics and their interest in UAP. In a rather lengthy piece, I described the work of a number of academics in the time period 2006-2024. Recently, in August 2025 a meeting was held in Washington DC involving both academics and other…",
-      "url": "https://ufos-scientificresearch.blogspot.com/2025/08/new-uap-data-workshop.html",
-      "source": "UFOs: Scientific Research",
-      "author": "Keith Basterfield",
-      "published_at": "2025-08-15T02:48:00Z",
-      "image": null
     }
   ]
 }

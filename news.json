@@ -1,8 +1,89 @@
 {
-  "generated_at": "2026-08-14T13:28:13.590934+00:00",
+  "generated_at": "2026-08-15T13:26:04.678567+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 23,
   "articles": [
+    {
+      "title": "Why American Airlines Flew This Surprising 190-Mile Route From Heathrow [Map]",
+      "description": "Did you know that American Airlines used to fly from London Heathrow Airport (LHR) in the United Kingdom to Brussels in Belgium and back? Of course, the route did not run in isolation: rather, the London-Brussels flight represented the second leg of a longer journey that began in the United States…",
+      "url": "https://simpleflying.com/american-airlines-london-brussels-flights/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-15T13:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_128109812_cropped.jpg"
+    },
+    {
+      "title": "10 Abreast In Economy: Philippine Airlines Airbus A350-1000 Flight Review",
+      "description": "While the majority of A350 operators around the world have 9-abreast seating in economy class, there are but a few airlines in the world operating the type with a 10-abreast seat configuration. Philippine Airlines is one of them!",
+      "url": "https://simpleflying.com/video/10-abreast-in-economy-philippine-airlines-airbus-a350-1000-flight-review/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-15T12:29:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a35k-pal-daniel.jpg"
+    },
+    {
+      "title": "Electric Airplane Maker Beta Sees Up to $50M Revenue in FY26",
+      "description": "Beta Technologies has not certified any of the electric aircraft it is developing at its facilities in Vermont. Yet the manufacturer expects to generate up to $50 million in revenue in fiscal year 2026. Beta on Wednesday announced its operating results for the second quarter of 2026, the highlight…",
+      "url": "https://www.flyingmag.com/electric-plane-maker-beta-50-million-revenue/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-15T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "The Busiest: The Top 7 Airbus A350-900 Routes With Over 1,300 Frequencies In 2026",
+      "description": "The Airbus A350-900 has earned a reputation as one of the world's most versatile long-haul aircraft. Designed to combine excellent fuel efficiency with passenger comfort, the twinjet is often associated with ultra-long-haul services linking continents. A closer look at global schedules reveals that…",
+      "url": "https://simpleflying.com/top-7-airbus-a350-900-routes-over-1300-frequencies-2026/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-15T11:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a350-900.jpg"
+    },
+    {
+      "title": "Flying Into Skardu: My First-Hand Experience At One Of The Himalayas' Most Spectacular Airports",
+      "description": "This year I flew through three dramatic airports in the greater Himalayan region: Skardu in the Pakistani-controlled north, Paro in Bhutan (read my review of the airport) , and Lhasa in China's Tibet. Of these, Paro was arguably the most exotic airport and terminal, Lhasa is by far the highest…",
+      "url": "https://simpleflying.com/skardu-himalayas-flight-report/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-08-15T08:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/skardu.jpg"
+    },
+    {
+      "title": "\"All My Flight Attendants Have Headaches\": 4 Of 5 Frontier Crew Fall Ill On Airbus A321",
+      "description": "A Frontier Airlines flight from Cleveland Hopkins International Airport (CLE) to Fort Lauderdale-Hollywood International Airport (FLL) declared a medical emergency on Thursday morning after four of the five flight attendants onboard fell sick. While the exact cause of the incident has yet to be…",
+      "url": "https://simpleflying.com/frontier-crew-fall-ill-airbus-a321-medical-emergency/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-15T05:56:23Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/159-frontier-airlines-airbus-a321-colinmthompson-_-shutterstock-1.jpg"
+    },
+    {
+      "title": "Why Airbus Is Building A350s Faster Than Airlines Can Actually Take Them",
+      "description": "On paper, the global widebody market is in the midst of an unprecedented golden age of demand, with order books stretching deep into the next decade. Inside European assembly halls, a curious operational friction has emerged where widebody airframes are rolling off production lines faster than…",
+      "url": "https://simpleflying.com/airbus-a350-production-deliveries/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-15T00:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a350_8-20260803-164402.jpg"
+    },
+    {
+      "title": "US Navy’s newest aircraft carrier begins sea trials as Trump orders end to electromagnetic catapult",
+      "description": "The USS John F Kennedy is the second Ford-class flattop and may now be the last to use the Electromagnetic Aircraft Launch System. The US Navy’s newest aircraft carrier has begun sea trials ahead of a projected entry into service next year. The USS John F Kennedy (CVN-79) departed the shipyard at…",
+      "url": "https://www.flightglobal.com/archive/2026/08/us-navy-newest-aircraft-carrier-begins-sea-trials-as-trump-orders-removal-of-electromagnetic-catapult/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-14T17:49:49Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/USS-John-F-Kennedy-480x320.jpeg"
+    },
+    {
+      "title": "European airline profit outlook clouded after fuel bites in second-quarter",
+      "description": "Collective operating profits halve among leading European operators as all but one carrier reports hit to bottom line in April-June quarter. For European carriers, the April-June financial quarter was when the sharp jump in oil prices following the Iran conflict really took hold. While fuel costs…",
+      "url": "https://www.flightglobal.com/strategy/2026/08/europe-airline-profit-outlook-clouded-fuel-price-second-quarter/",
+      "source": "FlightGlobal",
+      "author": "Graham Dunn",
+      "published_at": "2026-08-14T15:42:42Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/lufthansa-smartwings-Ryanair-Budapest-480x320.jpg"
+    },
     {
       "title": "This 1975 Beechcraft Baron B55 Is a Generously Updated ‘AircraftForSale’ Top Pick",
       "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Beechcraft Baron B55. Many…",
@@ -11,33 +92,6 @@
       "author": "Jonathan Welsh",
       "published_at": "2026-08-14T13:05:54Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/baron2.jpg"
-    },
-    {
-      "title": "Ouch: Lufthansa Becomes 2nd Airline To Reject Boeing’s Oldest 777-9s",
-      "description": "Lufthansa has become the second major Boeing 777X customer to say it does not want some of the oldest/earliest 777-9s built. During the airline's Q2 earnings call, CEO Carsten Spohr confirmed that discussions are underway with Boeing over which early-production aircraft Lufthansa will refuse…",
-      "url": "https://simpleflying.com/video/ouch-lufthansa-becomes-2nd-airline-to-reject-boeing-s-oldest-777-9s/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-14T12:31:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/lufthansa-reject-777x.jpg"
-    },
-    {
-      "title": "Two Diversions, No Meals: Inside A Delta Flight’s 10-Hour Delay",
-      "description": "A Delta Air Lines flight from Paris Charles De Gaulle Airport (CDG) in France to Seattle-Tacoma International Airport (SEA) in the US state of Washington arrived in the Pacific Northwest more than ten hours late in the early hours of this morning after diverting twice. The service, which was…",
-      "url": "https://simpleflying.com/delta-air-lines-airbus-a330neo-double-diversion/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-14T12:31:09Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2473979451_cropped.jpg"
-    },
-    {
-      "title": "Emirates Cancels Airbus A380 Flights On These 2 Major Long-Haul Routes [Map]",
-      "description": "Emirates continues to adjust its Airbus A380 operations, which is primarily because of the ongoing war in Iran. The Gulf giant has confirmed that two US routes will no longer see the superjumbo either in September or for most of October. Compared to last September, the carrier's A380 activity to…",
-      "url": "https://simpleflying.com/emirates-cancels-airbus-a380-flights-on-these-2-major-long-haul-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-14T12:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/emirates-unique-livery-airbus-a380.jpg"
     },
     {
       "title": "Miami Executive Airport Takes the Experimental Stage",
@@ -49,15 +103,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "60 Inches Of Legroom: Inside This Transpacific Airline's Record-Breaking Business Class",
-      "description": "In recent years, EVA Air has quietly become one of the most talked-about airlines in long-haul travel thanks to its blend of superior hospitality and premium cabin innovations. For passengers flying between North America and Asia, a ticket in the carrier's business class is more than just a route…",
-      "url": "https://simpleflying.com/inside-this-transpacific-airlines-record-breaking-business-class/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-14T09:15:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/60-inches-of-legroom-inside-this-transpacific-airline-s-record-breaking-business-class.jpg"
-    },
-    {
       "title": "Air Arabia expects third-quarter debut for Saudi airline venture",
       "description": "Budget carrier and investment partners granted rights last year to establish operator in Dammam. Middle Eastern budget carrier Air Arabia is expecting to commence operations with its new Saudi Arabian venture in the third quarter of this year. Air Arabia is a 49% shareholder in a joint venture, Air…",
       "url": "https://www.flightglobal.com/archive/2026/08/air-arabia-expects-third-quarter-debut-for-saudi-airline-venture/",
@@ -67,15 +112,6 @@
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-Arabia-winglet-c-Air-Arabia-480x334.jpeg"
     },
     {
-      "title": "“This Is A Security Breach”: United Airlines Flight Evacuates After Bullet Was Found Onboard",
-      "description": "Travelers aboard United Airlines flight 1302 from Denver International Airport (DEN) to San Diego International Airport (SAN) were delayed when an alarming discovery was made in the cabin after boarding. All 184 people on the Boeing 737-900 had to be deplaned following the discovery of a live…",
-      "url": "https://simpleflying.com/united-airlines-flight-evacuates-bullet-found-onboard/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-14T07:17:47Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/016-united-airlines-boeing-737-900-lorenzatx-_-shutterstock.jpg"
-    },
-    {
       "title": "South Korean police order single KUH-1P helicopter",
       "description": "Variants of the KUH-1 Surion continue to be adopted by South Korean parapublic agencies. Korea Aerospace Industries (KAI) has secured an order for a single KUH-1P ‘Chamsuri’ helicopter from South Korea’s national police. The helicopter will be the 15th KUH-1P delivered to the police agency since…",
       "url": "https://www.flightglobal.com/helicopters/2026/08/south-korean-police-order-single-kuh-1p-helicopter/",
@@ -83,24 +119,6 @@
       "author": "Greg Waldron",
       "published_at": "2026-08-14T07:07:12Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/KUH-1P-Chamsuri-480x313.jpg"
-    },
-    {
-      "title": "Why British Airways' Club Suite Door Is Quietly Making A $5,000 First Class Ticket Harder To Justify",
-      "description": "Since the introduction of lie-flat seating to business class, the gap between first and business class is getting ever more imperceptible. British Airways has made the gap aboard its aircraft even smaller by introducing a 44-inch (112-cm) full-height sliding door to its Club Suites business class.…",
-      "url": "https://simpleflying.com/why-british-airways-club-suite-door-is-quietly-making-a-5000-first-class-ticket-harder-to-justify/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-14T05:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-000-first-class.jpg"
-    },
-    {
-      "title": "AirAsia delays London, Bahrain flights amid capacity ‘reset’",
-      "description": "Low-cost group plunges to quarterly loss on high fuel costs AirAsia Group has again delayed the launch of its Bahrain hub – as well as flights to London – in a bid to “preserve capital”, and as part of a wider network “reset”. The low-cost airline group says it will postpone the launch to 2027, but…",
-      "url": "https://www.flightglobal.com/airlines/2026/08/airasia-delays-london-bahrain-flights-amid-capacity-reset/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-08-14T03:52:25Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/AirAsia-Shutterstock-gingchen-480x270.jpg"
     },
     {
       "title": "North Carolina flights marked new chapter in EMS",
@@ -166,15 +184,6 @@
       "image": "https://www.youtube.com/embed/fEudbAjschs"
     },
     {
-      "title": "GE’s new Black Hawk engine achieves preliminary flight rating",
-      "description": "GE Aerospace designed the T901 Improved Turbine Engine to replace the T700 turboshaft powering both the UH-60M and AH-64E helicopters. The US Army has granted a preliminary flight rating (PFR) to the GE Aerospace T901 turboshaft engine as testing and evaluation continue on the new rotorcraft…",
-      "url": "https://www.flightglobal.com/archive/2026/08/ge-new-black-hawk-engine-achieves-preliminary-flight-rating/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-13T16:32:36Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/9865328-480x270.jpg"
-    },
-    {
       "title": "This 1948 Cessna 170 Is a Classic ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1948 Cessna 170. The Cessna 170…",
       "url": "https://www.flyingmag.com/this-1948-cessna-170-is-a-classic-aircraftforsale-top-pick/",
@@ -182,24 +191,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-08-13T15:30:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cessna-170-for-sale-601808-8a0c3b46b7bd9024-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "Careers in Airport Snow Management",
-      "description": "Winter weather can cause significant disruptions at airports, including delayed flights, rerouted aircraft, and logistical challenges. Poor weather during the winter months causes countless flight disruptions around the world each year. Effective snow management is therefore critical to ensuring…",
-      "url": "https://www.flyingmag.com/careers-in-airport-snow-management/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-08-13T12:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Heart Aerospace carries out piloted maiden flight of all-electric X1",
-      "description": "Battery-powered demonstrator is ‘representative’ of manufacturer’s planned ES-30 airliner. Electric aircraft developer Heart Aerospace has carried out the maiden flight of its X1 demonstrator, almost two years after unveiling the experimental aircraft. Heart flew the four-engined X1, registered…",
-      "url": "https://www.flightglobal.com/archive/2026/08/heart-aerospace-carries-out-piloted-maiden-flight-of-all-electric-x1/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-13T11:12:34Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Heart-X1-first-flight-c-Heart-Aerospace-480x329.jpg"
     },
     {
       "title": "Pilots recount Chipmunk journey to AirVenture",
