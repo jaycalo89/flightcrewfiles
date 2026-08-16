@@ -1,25 +1,79 @@
 {
-  "generated_at": "2026-08-15T13:26:04.678567+00:00",
+  "generated_at": "2026-08-16T13:42:23.452463+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 24,
   "articles": [
     {
-      "title": "Why American Airlines Flew This Surprising 190-Mile Route From Heathrow [Map]",
-      "description": "Did you know that American Airlines used to fly from London Heathrow Airport (LHR) in the United Kingdom to Brussels in Belgium and back? Of course, the route did not run in isolation: rather, the London-Brussels flight represented the second leg of a longer journey that began in the United States…",
-      "url": "https://simpleflying.com/american-airlines-london-brussels-flights/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-15T13:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_128109812_cropped.jpg"
-    },
-    {
-      "title": "10 Abreast In Economy: Philippine Airlines Airbus A350-1000 Flight Review",
-      "description": "While the majority of A350 operators around the world have 9-abreast seating in economy class, there are but a few airlines in the world operating the type with a 10-abreast seat configuration. Philippine Airlines is one of them!",
-      "url": "https://simpleflying.com/video/10-abreast-in-economy-philippine-airlines-airbus-a350-1000-flight-review/",
+      "title": "Engineer, Sacked Over 17-Min Delay After Singapore Airlines Jet Reboot, Awarded $28,000",
+      "description": "A veteran Australian aircraft engineer has been awarded AU$40,000 (about US$28,044) in compensation after being sacked following a 17-minute delay to a Singapore Airlines flight.",
+      "url": "https://simpleflying.com/video/engineer-sacked-over-17-min-delay-after-singapore-airlines-jet-reboot-awarded-28-000/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-08-15T12:29:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a35k-pal-daniel.jpg"
+      "published_at": "2026-08-16T12:27:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/singapore-a350-17min-delay.jpg"
+    },
+    {
+      "title": "Delta's New Airbus A330-900neos Will Feature A Massive 56 Delta One Suites",
+      "description": "Delta Air Lines' newest batch of Airbus A330-900neos will be fitted with 56 Delta One Suites, almost double the number fitted to the aircraft the carrier flies today. 16 examples of the 'high J' configuration were ordered in January and will complement Delta's existing fleet of 39 A330neos and more…",
+      "url": "https://simpleflying.com/delta-new-a330-900neo-56-delta-one-suites/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-16T12:01:08Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/307-delta-air-lines-airbus-a330-9-ronen-fefer-_-shutterstock-1.jpg"
+    },
+    {
+      "title": "Emirates' Oldest Airbus A380 Is Nearly 21: See The Routes It Still Flies Today",
+      "description": "Emirates is widely known for being the world's largest operator of the Airbus A380 , and the only carrier to have truly made the double-decker widebody quadjet work on a large scale. It has been able to do so thanks to the strength of its hub at Dubai International Airport (DXB), which acts as a…",
+      "url": "https://simpleflying.com/emirates-oldest-airbus-a380-usage-analysis/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-16T10:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/312-emirates-airbus-a380-toni-m-_-shutterstock.jpg"
+    },
+    {
+      "title": "5 Air Force Bases Spending Hundreds Of Millions To Rebuild Cold War-Era Runways",
+      "description": "Today, modern military aviation is a blend of innovations so advanced that most people are prohibited from knowing all the details, and Cold War-era technology. Although planes like the B-52 are ancient, the math works out because they're effective in the roles that they serve, while new planes are…",
+      "url": "https://simpleflying.com/air-force-base-runway-rebuild/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-16T10:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/air-force-rebuild.jpg"
+    },
+    {
+      "title": "Vietnam Airlines Boeing 787 Substantially Damaged After Dangerously Late Munich Takeoff",
+      "description": "This article was updated on Sunday, August 16, 2026, to include an update on the preliminary investigation. It was originally published on Saturday, August 15, 2026.",
+      "url": "https://simpleflying.com/vietnam-airlines-boeing-787-tail-strike-munich/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-16T09:07:08Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/vietnam-airlines-boeing-787-9-landing.jpg"
+    },
+    {
+      "title": "Flight Review: Turkmenistan Airlines 777-200LR & 777-300ER Business Class From London To Bangkok",
+      "description": "Turkmenistan Airlines is one of the least familiar international airlines around today. The state-owned carrier operates a broad network of over 20 destinations, flying to notable cities like Beijing, Dubai, Frankfurt, London, Istanbul and Milan. It is also an unusually difficult airline to fly, as…",
+      "url": "https://simpleflying.com/turkmenistan-airlines-boeing-777-business-class-london-bangkok/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-16T07:24:49Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/turkmenistan-airlines-plane-taking-off-from-ashgabat.jpg"
+    },
+    {
+      "title": "The Choreographed Cockpit Sweep Pilots Run From Memory Before The Checklist Even Comes Out",
+      "description": "Passengers boarding an airliner often catch a glimpse of the flight deck before the cockpit door closes to see pilots reaching across the instrument panel, touching switches, adjusting knobs, and scanning displays in what appears to be a carefully rehearsed sequence. Only after completing those…",
+      "url": "https://simpleflying.com/cockpit-flow-before-checklist/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-08-16T07:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/choreographed-cockpit.jpg"
+    },
+    {
+      "title": "Can American Airlines Close The Profit Gap With Delta & United?",
+      "description": "American Airlines was founded in 1930 through a merger of 80 airlines. It wouldn't be until 2013 that American as we know it today was born through a merger with US Airways. With over 223 million passengers carried in 2025, the oneworld carrier remains one of the world's largest airlines alongside…",
+      "url": "https://simpleflying.com/american-airlines-catch-up-delta-united/",
+      "source": "Simple Flying",
+      "author": "Nick Pisters",
+      "published_at": "2026-08-16T04:02:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-airlines-catch-up.jpg"
     },
     {
       "title": "Electric Airplane Maker Beta Sees Up to $50M Revenue in FY26",
@@ -29,42 +83,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-08-15T12:00:00Z",
       "image": null
-    },
-    {
-      "title": "The Busiest: The Top 7 Airbus A350-900 Routes With Over 1,300 Frequencies In 2026",
-      "description": "The Airbus A350-900 has earned a reputation as one of the world's most versatile long-haul aircraft. Designed to combine excellent fuel efficiency with passenger comfort, the twinjet is often associated with ultra-long-haul services linking continents. A closer look at global schedules reveals that…",
-      "url": "https://simpleflying.com/top-7-airbus-a350-900-routes-over-1300-frequencies-2026/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-15T11:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a350-900.jpg"
-    },
-    {
-      "title": "Flying Into Skardu: My First-Hand Experience At One Of The Himalayas' Most Spectacular Airports",
-      "description": "This year I flew through three dramatic airports in the greater Himalayan region: Skardu in the Pakistani-controlled north, Paro in Bhutan (read my review of the airport) , and Lhasa in China's Tibet. Of these, Paro was arguably the most exotic airport and terminal, Lhasa is by far the highest…",
-      "url": "https://simpleflying.com/skardu-himalayas-flight-report/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-15T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/skardu.jpg"
-    },
-    {
-      "title": "\"All My Flight Attendants Have Headaches\": 4 Of 5 Frontier Crew Fall Ill On Airbus A321",
-      "description": "A Frontier Airlines flight from Cleveland Hopkins International Airport (CLE) to Fort Lauderdale-Hollywood International Airport (FLL) declared a medical emergency on Thursday morning after four of the five flight attendants onboard fell sick. While the exact cause of the incident has yet to be…",
-      "url": "https://simpleflying.com/frontier-crew-fall-ill-airbus-a321-medical-emergency/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-15T05:56:23Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/159-frontier-airlines-airbus-a321-colinmthompson-_-shutterstock-1.jpg"
-    },
-    {
-      "title": "Why Airbus Is Building A350s Faster Than Airlines Can Actually Take Them",
-      "description": "On paper, the global widebody market is in the midst of an unprecedented golden age of demand, with order books stretching deep into the next decade. Inside European assembly halls, a curious operational friction has emerged where widebody airframes are rolling off production lines faster than…",
-      "url": "https://simpleflying.com/airbus-a350-production-deliveries/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-15T00:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a350_8-20260803-164402.jpg"
     },
     {
       "title": "US Navy’s newest aircraft carrier begins sea trials as Trump orders end to electromagnetic catapult",
@@ -110,15 +128,6 @@
       "author": "David Kaminski-Morrow",
       "published_at": "2026-08-14T08:28:51Z",
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-Arabia-winglet-c-Air-Arabia-480x334.jpeg"
-    },
-    {
-      "title": "South Korean police order single KUH-1P helicopter",
-      "description": "Variants of the KUH-1 Surion continue to be adopted by South Korean parapublic agencies. Korea Aerospace Industries (KAI) has secured an order for a single KUH-1P ‘Chamsuri’ helicopter from South Korea’s national police. The helicopter will be the 15th KUH-1P delivered to the police agency since…",
-      "url": "https://www.flightglobal.com/helicopters/2026/08/south-korean-police-order-single-kuh-1p-helicopter/",
-      "source": "FlightGlobal",
-      "author": "Greg Waldron",
-      "published_at": "2026-08-14T07:07:12Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/KUH-1P-Chamsuri-480x313.jpg"
     },
     {
       "title": "North Carolina flights marked new chapter in EMS",

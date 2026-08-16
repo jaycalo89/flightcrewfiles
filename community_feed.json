@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:26:18.771221+00:00",
+  "generated_at": "2026-08-16T13:42:36.916795+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Can propeller with chevrons reduce noise?",
-      "url": "https://aviation.stackexchange.com/questions/115498/can-propeller-with-chevrons-reduce-noise",
-      "points": 4,
+      "title": "Does the hydraulic pump provide pressure in an automatic hydraulic system?",
+      "url": "https://aviation.stackexchange.com/questions/115500/does-the-hydraulic-pump-provide-pressure-in-an-automatic-hydraulic-system",
+      "points": 1,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786762527
+      "created_utc": 1786801097
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Is this a tilting wing?",
-      "url": "https://aviation.stackexchange.com/questions/115496/is-this-a-tilting-wing",
-      "points": 5,
+      "title": "Can propeller with chevrons reduce noise?",
+      "url": "https://aviation.stackexchange.com/questions/115498/can-propeller-with-chevrons-reduce-noise",
+      "points": 6,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786686495
+      "created_utc": 1786762527
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What exactly is Flight Following?",
-      "url": "https://aviation.stackexchange.com/questions/115491/what-exactly-is-flight-following",
-      "points": 2,
-      "num_comments": 3,
+      "title": "Point of Flow separation vs Velocity",
+      "url": "https://aviation.stackexchange.com/questions/115501/point-of-flow-separation-vs-velocity",
+      "points": 1,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786571564
+      "created_utc": 1786802966
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Do kites have power to cause same issues as bird strikes?",
-      "url": "https://aviation.stackexchange.com/questions/115488/do-kites-have-power-to-cause-same-issues-as-bird-strikes",
-      "points": 5,
-      "num_comments": 2,
+      "title": "Is this a tilting wing?",
+      "url": "https://aviation.stackexchange.com/questions/115496/is-this-a-tilting-wing",
+      "points": 6,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786527388
+      "created_utc": 1786686495
     }
   ]
 }
