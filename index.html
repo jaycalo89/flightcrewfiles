@@ -19,7 +19,7 @@
      to arrive inside font-display:optional's window on a first visit. -->
 <link rel="preload" as="font" type="font/woff2" href="fonts/oswald-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
-<link rel="stylesheet" href="css/style.min.css?v=20260813m4">
+<link rel="stylesheet" href="css/style.min.css?v=20260816r1">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -123,137 +123,6 @@
   }
   .ss-teaser-cta .btn-gold{background:transparent;border:1.5px solid #c9a84c;color:#c9a84c;}
   .ss-teaser-cta .btn-gold:hover{background:rgba(201,168,76,0.12);border-color:#c9a84c;color:#c9a84c;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(201,168,76,0.45);}
-
-  /* ===== Live ATC homepage teaser ===== */
-  .atc-teaser{
-    position:relative;overflow:hidden;padding:130px 0 110px;
-    background:
-      repeating-linear-gradient(135deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 14px),
-      radial-gradient(1100px 560px at 15% 0%, rgba(255,77,77,0.11), transparent 60%),
-      radial-gradient(900px 480px at 100% 100%, rgba(212,175,55,0.1), transparent 55%),
-      linear-gradient(180deg,#000103 0%,var(--navy-950) 55%,#02040a 100%);
-    border-top:1px solid var(--border-gold);border-bottom:1px solid var(--border-gold);
-  }
-  .atc-teaser-head{position:relative;z-index:1;}
-  .atc-radar{
-    position:absolute;top:-80px;right:-140px;left:auto;
-    width:640px;height:640px;max-width:none;border-radius:50%;
-    pointer-events:none;z-index:0;opacity:.5;
-    background:repeating-radial-gradient(circle,rgba(255,77,77,.15) 0px,rgba(255,77,77,.15) 1px,transparent 1px,transparent 54px);
-  }
-  .atc-radar::after{
-    content:"";position:absolute;inset:0;border-radius:50%;
-    background:conic-gradient(from 0deg,rgba(255,77,77,0) 0deg,rgba(255,77,77,0) 265deg,rgba(255,77,77,.45) 300deg,rgba(255,77,77,0) 340deg);
-    animation:radar-spin 5s linear infinite;
-  }
-  @media (prefers-reduced-motion:reduce){.atc-radar::after{animation:none;}}
-  .atc-teaser-badge{
-    display:inline-flex;align-items:center;gap:9px;padding:7px 16px;border-radius:999px;
-    border:1px solid rgba(255,77,77,0.4);background:rgba(255,77,77,0.08);
-    font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
-    color:#ff4d4d;font-weight:700;margin-bottom:22px;
-  }
-  .atc-teaser-badge .nav-live-dot{width:8px;height:8px;}
-  .atc-teaser h2{font-size:clamp(2.4rem,6.5vw,4.2rem);color:#c9a84c;text-shadow:0 0 44px rgba(201,168,76,0.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.02em;}
-  .atc-teaser-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.02em;color:rgba(246,248,252,0.85);margin-bottom:50px;max-width:640px;}
-
-  .atc-teaser-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:40px;}
-  @media (max-width:860px){.atc-teaser-grid{grid-template-columns:1fr;}}
-  .atc-teaser-card{
-    display:block;background:#0d1117;
-    border:1px solid var(--border-soft);border-top:2px solid #c9a84c;border-radius:var(--radius-lg);overflow:hidden;
-    box-shadow:var(--shadow-soft);text-align:left;padding:28px 26px;
-    transition:border-color .25s ease,transform .25s ease,box-shadow .25s ease;
-  }
-  .atc-teaser-card:hover{
-    border-color:var(--gold-500);border-top-color:#c9a84c;transform:translateY(-4px);
-    box-shadow:var(--shadow-soft),0 0 24px rgba(255,77,77,.25);
-  }
-  .atc-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;}
-  .atc-card-code{font-family:'Oswald',sans-serif;font-weight:700;font-size:2.3rem;letter-spacing:.04em;color:#c9a84c;line-height:1;}
-  .atc-card-live{
-    display:inline-flex;align-items:center;gap:6px;font-family:'Oswald',sans-serif;font-size:.66rem;
-    letter-spacing:.14em;text-transform:uppercase;color:#ff4d4d;font-weight:700;
-  }
-  .atc-card-live .nav-live-dot{width:7px;height:7px;}
-  .atc-teaser-card h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.05rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em;color:#ffffff;}
-  .atc-teaser-card p{font-family:'Inter',sans-serif;font-size:.9rem;color:rgba(246,248,252,0.75);margin:0 0 20px;line-height:1.6;}
-  .atc-card-listen{
-    display:inline-flex;align-items:center;gap:8px;font-family:'Oswald',sans-serif;font-size:.76rem;
-    letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:#c9a84c;
-  }
-  .atc-card-listen svg{width:14px;height:14px;stroke:currentColor;transition:transform .2s ease;}
-  .atc-teaser-card:hover .atc-card-listen svg{transform:translateX(4px);}
-
-  .atc-teaser-cta{position:relative;z-index:1;text-align:center;}
-  .atc-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
-  .atc-teaser-cta-note{
-    display:block;margin-top:16px;font-family:'Oswald',sans-serif;font-size:.74rem;
-    letter-spacing:.1em;text-transform:uppercase;color:var(--muted-light);
-  }
-
-  /* ===== Black Box Files homepage teaser ===== */
-  .bbhome-teaser{
-    position:relative;overflow:hidden;padding:130px 0 110px;text-align:center;
-    background:
-      repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
-      radial-gradient(1100px 560px at 50% -10%, rgba(255,77,77,0.16), transparent 60%),
-      radial-gradient(900px 480px at 100% 100%, rgba(212,175,55,0.08), transparent 55%),
-      linear-gradient(180deg,#000000 0%,#050203 55%,#000000 100%);
-    border-top:1px solid rgba(255,77,77,0.35);border-bottom:1px solid rgba(255,77,77,0.35);
-  }
-  .bbhome-teaser-head{position:relative;z-index:1;}
-  .bbhome-scan{
-    position:absolute;top:-60px;left:50%;transform:translateX(-50%);
-    width:640px;height:640px;max-width:none;border-radius:50%;
-    pointer-events:none;z-index:0;opacity:.5;
-    background:repeating-radial-gradient(circle,rgba(255,77,77,.14) 0px,rgba(255,77,77,.14) 1px,transparent 1px,transparent 54px);
-  }
-  .bbhome-scan::after{
-    content:"";position:absolute;inset:0;border-radius:50%;
-    background:conic-gradient(from 0deg,rgba(255,77,77,0) 0deg,rgba(255,77,77,0) 265deg,rgba(255,77,77,.5) 300deg,rgba(255,77,77,0) 340deg);
-    animation:radar-spin 5s linear infinite;
-  }
-  @media (prefers-reduced-motion:reduce){.bbhome-scan::after{animation:none;}}
-  .bbhome-badge{
-    display:inline-flex;align-items:center;gap:10px;
-    font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;
-    color:#ff6b6b;border:2px solid #ff4d4d;padding:8px 18px;border-radius:3px;
-    background:rgba(255,77,77,0.08);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
-  }
-  .bbhome-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;flex-shrink:0;animation:pulse-dot 1.6s infinite;}
-  .bbhome-teaser h2{
-    font-size:clamp(2.6rem,7vw,4.6rem);color:#fff;text-transform:uppercase;letter-spacing:.03em;font-weight:700;
-    text-shadow:0 0 50px rgba(255,77,77,0.45),0 0 90px rgba(255,77,77,0.2);margin-bottom:14px;
-  }
-  .bbhome-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.03em;color:rgba(246,248,252,0.78);margin:0 auto 54px;max-width:640px;}
-
-  .bbhome-quote-block{
-    position:relative;z-index:1;max-width:720px;margin:0 auto 46px;padding:40px 44px;overflow:hidden;
-    border:1px solid rgba(255,77,77,0.3);border-left:3px solid #ff4d4d;border-radius:8px;
-    background:#0a0505;box-shadow:0 0 30px rgba(255,77,77,0.12),inset 0 0 22px rgba(0,0,0,0.4);
-  }
-  .bbhome-quote-block::before{
-    content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
-    background:repeating-linear-gradient(0deg,rgba(255,255,255,0.015) 0px,rgba(255,255,255,0.015) 1px,transparent 1px,transparent 3px);
-  }
-  .bbhome-quote-tag{
-    display:block;font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
-    color:var(--gold-400);margin-bottom:16px;position:relative;z-index:1;
-  }
-  .bbhome-quote-big{
-    font-family:'Oswald',sans-serif;font-style:italic;font-weight:500;font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.4;
-    color:var(--gold-400);margin:0 0 16px;position:relative;z-index:1;text-shadow:0 0 30px rgba(212,175,55,0.2);
-  }
-  .bbhome-quote-note{
-    display:block;font-family:'Inter',sans-serif;font-size:.86rem;color:rgba(246,248,252,0.6);
-    position:relative;z-index:1;
-  }
-
-  .bbhome-teaser-cta{position:relative;z-index:1;}
-  .bbhome-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
-  .bbhome-teaser-cta .btn-gold{background:transparent;border:1.5px solid #ff4d4d;color:#ff6b6b;}
-  .bbhome-teaser-cta .btn-gold:hover{background:rgba(255,77,77,0.12);border-color:#ff4d4d;color:#fff;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(255,77,77,0.45);}
 </style>
 </head>
 <body class="home-page">
@@ -476,6 +345,30 @@
   </div>
 </section>
 
+<!-- Live ATC: a slim full-width strip rather than the old three-card teaser.
+     Capped at 120px tall on desktop by .atc-strip's own min/max-height; the
+     three codes are labels, not links, because listen-live.html carries a
+     feed for JFK but not for LHR or DXB — the gold button is the one route
+     into the feeds, so there is no anchor here that can 404. -->
+<section class="atc-strip" id="live-atc-strip" aria-label="Live air traffic control">
+  <div class="container atc-strip-inner">
+    <span class="atc-strip-live">
+      <span class="nav-live-dot" aria-hidden="true"></span>
+      <span class="atc-strip-live-label">Live ATC</span>
+    </span>
+
+    <p class="atc-strip-ports">
+      <span class="atc-strip-port">JFK</span>
+      <span class="atc-strip-sep" aria-hidden="true">&bull;</span>
+      <span class="atc-strip-port">LHR</span>
+      <span class="atc-strip-sep" aria-hidden="true">&bull;</span>
+      <span class="atc-strip-port">DXB</span>
+    </p>
+
+    <a href="listen-live.html" class="btn btn-gold btn-sm atc-strip-cta">Access All Feeds <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
 <section class="section" id="case-files">
   <div class="container">
     <span class="eyebrow center" style="display:flex;justify-content:center;">Case Files</span>
@@ -491,99 +384,18 @@
 
     <div class="section-explore">
       <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="blackbox.html">Explore all <span id="cf-archive-count">26</span> case files in the archive <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="section-cta">
+      <a href="blackbox.html" class="btn btn-gold">Explore All <span id="cf-archive-count">26</span> Case Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
   </div>
 </section>
 
-<section class="section" id="you-might-have-missed">
-  <div class="container">
-    <span class="eyebrow gold center" style="display:flex;justify-content:center;">Discovery</span>
-    <h2 class="section-title center">You Might Have Missed</h2>
-    <div class="gold-divider center"></div>
-    <p class="section-lede center" style="margin:14px auto 0;">Three more case files worth your time, picked fresh every week.</p>
-
-    <div class="grid grid-3" id="you-might-have-missed-grid" style="margin-top:50px;">
-      <noscript>
-        <p class="tdih-note">Enable JavaScript to see this week's picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
-      </noscript>
-    </div>
-
-    <div class="section-explore">
-      <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="stories.html">View all case files <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section dark-section" id="start-here">
-  <div class="container">
-    <span class="eyebrow gold">New Here?</span>
-    <h2 class="section-title">Start Here</h2>
-    <div class="gold-divider"></div>
-    <p class="section-lede" style="margin:14px 0 0;">Five case files that give you the full range of what this site covers, without throwing you straight into the deep end.</p>
-    <div class="most-read-list" id="start-here-list" style="margin-top:34px;max-width:760px;">
-      <noscript>
-        <p class="tdih-note">Enable JavaScript to see our starter picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
-      </noscript>
-    </div>
-
-    <div class="section-explore">
-      <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="stories.html">View all starter picks <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section most-harrowing-section" id="most-harrowing">
-  <div class="container">
-    <span class="eyebrow red">Not For The Faint Of Heart</span>
-    <h2 class="section-title">Most Harrowing</h2>
-    <div class="gold-divider"></div>
-    <p class="section-lede" style="margin:14px 0 0;">Every case file rated 9/10 or higher on our intensity scale. Read at your own pace.</p>
-    <div class="grid grid-3" id="most-harrowing-grid" style="margin-top:50px;">
-      <noscript>
-        <p class="tdih-note">Enable JavaScript to see these case files, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
-      </noscript>
-    </div>
-
-    <div class="section-explore">
-      <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="stories.html">View all high-intensity case files <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight">
-  <div class="container">
-    <div class="hero-stats" style="justify-content:center;margin-top:0;">
-      <div><strong>500+</strong><span>Stories &amp; Case Files</span></div>
-      <div><strong>70 Yrs</strong><span>Of Aviation History</span></div>
-      <div><strong>24/7</strong><span>Watching The Skies</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="bbhome-teaser" id="black-box-teaser">
-  <div class="container">
-    <div class="bbhome-teaser-head">
-      <div class="bbhome-scan" aria-hidden="true"></div>
-      <span class="bbhome-badge">Restricted Access</span>
-      <h2>BLACK BOX FILES</h2>
-      <p class="bbhome-sub">The final recordings. The last transmissions. The truth from the cockpit.</p>
-    </div>
-
-    <div class="bbhome-quote-block">
-      <span class="bbhome-quote-tag">Case File &middot; Helios 522</span>
-      <p class="bbhome-quote-big">&#8220;Mayday, mayday, mayday&#8230;&#8221;</p>
-      <span class="bbhome-quote-note">Never received. The 737 flew on alone, on autopilot, for nearly three hours, with nobody conscious at the controls.</span>
-    </div>
-
-    <div class="bbhome-teaser-cta">
-      <a href="blackbox.html" class="btn btn-gold">Enter The Files <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-    </div>
-  </div>
-</section>
+<!-- Ad slot sits between the Case Files grid and the Secret Skies teaser,
+     the one natural break in the lower half of the page. -->
+<div class="container">
+  <div class="ad-slot">Advertisement</div>
+</div>
 
 <section class="ss-teaser" id="secret-skies-teaser">
   <div class="container">
@@ -659,159 +471,6 @@
 
     <div class="ss-teaser-cta">
       <a href="secret-skies.html" class="btn btn-gold">Explore All Classified Aircraft <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-    </div>
-  </div>
-</section>
-
-<section class="community-section" id="community-feed">
-  <div class="container">
-    <div class="center">
-      <span class="vf-live-badge gold"><span class="vf-live-dot"></span>Community</span>
-      <h2 class="section-title center">FROM THE FLIGHT DECK</h2>
-      <div class="gold-divider center"></div>
-      <p class="section-lede center">What aviation professionals and enthusiasts are discussing right now</p>
-    </div>
-    <div class="community-grid" id="community-grid">
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
-    </div>
-    <div class="section-explore">
-      <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="community.html">Join the discussion <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="atc-teaser" id="live-atc-teaser">
-  <div class="container">
-    <div class="atc-teaser-head">
-      <div class="atc-radar" aria-hidden="true"></div>
-      <span class="atc-teaser-badge"><span class="nav-live-dot"></span>Live</span>
-      <h2>Air Traffic Control: Live Now</h2>
-      <p class="atc-teaser-sub">Real pilots. Real controllers. Real emergencies. Listen in.</p>
-    </div>
-
-    <div class="atc-teaser-grid">
-      <a class="atc-teaser-card" href="listen-live.html#kjfk">
-        <div class="atc-card-top">
-          <span class="atc-card-code">JFK</span>
-          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
-        </div>
-        <h3>New York JFK</h3>
-        <p>The world's busiest airspace.</p>
-        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a class="atc-teaser-card" href="listen-live.html#eham">
-        <div class="atc-card-top">
-          <span class="atc-card-code">AMS</span>
-          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
-        </div>
-        <h3>Amsterdam Schiphol</h3>
-        <p>Europe's most complex approach.</p>
-        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-      <a class="atc-teaser-card" href="listen-live.html#wsss">
-        <div class="atc-card-top">
-          <span class="atc-card-code">SIN</span>
-          <span class="atc-card-live"><span class="nav-live-dot"></span>Live</span>
-        </div>
-        <h3>Singapore Changi</h3>
-        <p>Gateway between East and West.</p>
-        <span class="atc-card-listen">Listen Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-      </a>
-    </div>
-
-    <div class="atc-teaser-cta">
-      <a href="listen-live.html" class="btn btn-gold">Access All 11 Airports Worldwide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      <span class="atc-teaser-cta-note">Updated feeds, 24 hours a day</span>
-    </div>
-  </div>
-</section>
-
-<section class="section quiz-section">
-  <div class="container">
-    <div class="center">
-      <span class="eyebrow gold center" style="display:flex;justify-content:center;">Daily Briefing</span>
-      <h2 class="section-title center">DAILY BRIEFING &mdash; TEST YOUR KNOWLEDGE</h2>
-      <div class="gold-divider center"></div>
-      <p class="section-lede center">One aviation question, every day. New briefing at midnight.</p>
-    </div>
-    <div class="quiz-card" id="daily-quiz"></div>
-  </div>
-</section>
-
-<section class="section" id="from-archives">
-  <div class="container">
-    <span class="eyebrow center">From The Archives</span>
-    <h2 class="section-title center">Fresh out of the black box</h2>
-    <div class="gold-divider center"></div>
-    <div class="grid grid-3" style="margin-top:50px;">
-      <div class="article-card" style="--accent:#ff4d4d;">
-        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
-        <div class="article-body">
-          <span class="date">Scary Files</span>
-          <h3>The Windshield That Blew Out at 23,000 Feet</h3>
-          <p>A cockpit windscreen fails mid-climb, and the captain is sucked halfway out of the aircraft.</p>
-          <a href="scary.html" class="card-link">Read More</a>
-        </div>
-      </div>
-      <div class="article-card" style="--accent:#e8c766;">
-        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/></svg></div>
-        <div class="article-body">
-          <span class="date">Heroic Moments</span>
-          <h3>The Glider Landing Nobody Thought Possible</h3>
-          <p>Both engines dead, no power, no instruments: one captain's dead-stick landing became training-manual legend.</p>
-          <a href="heroic.html" class="card-link">Read More</a>
-        </div>
-      </div>
-      <div class="article-card" style="--accent:#39e6c5;">
-        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/></svg></div>
-        <div class="article-body">
-          <span class="date">UAP Files</span>
-          <h3>Two Airliners, One Object, No Explanation</h3>
-          <p>Air traffic control recorded both crews describing the same silent object crossing their flight paths minutes apart.</p>
-          <a href="uap.html" class="card-link">Read More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="section-explore">
-      <div class="section-explore-rule" aria-hidden="true"></div>
-      <a class="section-explore-link" href="stories.html">View all stories <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
-    </div>
-  </div>
-</section>
-
-<div class="container">
-  <div class="ad-slot">Advertisement</div>
-</div>
-
-<section class="section" id="fear-of-flying">
-  <div class="container">
-    <div class="hero-grid" style="align-items:center;">
-      <div>
-        <span class="eyebrow">For The Nervous Flyer</span>
-        <h2 class="section-title">Yes, this is a magazine about scary flights. Let's also talk you down.</h2>
-        <p style="max-width:520px;">We know reading about emergencies and encounters isn't exactly calming, so we built a permanent corner of the site for readers who love aviation but still white-knuckle the seatbelt sign. Turbulence is not a warning sign. It's just weather.</p>
-        <a href="fear-of-flying.html" class="btn btn-outline" style="margin-top:10px;">More Calm-Flying Resources</a>
-      </div>
-      <div class="grid" style="margin-top:0;">
-        <div class="fear-box">
-          <span class="step-num">1</span>
-          <h3>Turbulence Won't Break The Plane</h3>
-          <p>Commercial aircraft are certified to withstand far more stress than any turbulence you'll fly through. Pilots reroute for comfort, not survival.</p>
-        </div>
-        <div class="fear-box">
-          <span class="step-num">2</span>
-          <h3>Every Sound Has A Job</h3>
-          <p>Landing gear thuds, flap whines and engine power changes are all scheduled, expected parts of every single flight.</p>
-        </div>
-        <div class="fear-box">
-          <span class="step-num">3</span>
-          <h3>Two of Everything</h3>
-          <p>Engines, hydraulics, electrical systems and navigation are all built with redundancy specifically so one failure is a non-event.</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -949,15 +608,17 @@
 <script src="js/bookmarks.min.js?v=20260803" defer></script>
 <script src="js/main.min.js?v=20260812s1" defer></script>
 <script src="js/news-feed.min.js" defer></script>
-<script src="js/community-feed.min.js" defer></script>
 <script src="js/latest-from-skies.min.js" defer></script>
 <script src="js/poll.min.js" defer></script>
 <script src="js/case-files-data.min.js?v=20260812j1" defer></script>
 <script src="js/case-files.min.js?v=20260811b" defer></script>
 <script src="js/discovery-core.min.js" defer></script>
 <script src="js/featured-case-file.min.js?v=20260809o" defer></script>
-<script src="js/daily-quiz.min.js" defer></script>
-<script src="js/discovery-sections.min.js" defer></script>
+<!-- community-feed.js, daily-quiz.js and discovery-sections.js moved with
+     their sections: the first two to community.html, the third (Start Here)
+     to blackbox.html. Each guards on its mount element, so loading them here
+     was harmless but pointless. -->
+
 
 <!-- Google Analytics — moved to end of body; dataLayer queue works regardless of load order -->
 <!-- Third-party tags, deferred to after the load event.

@@ -17,7 +17,7 @@
      to arrive inside font-display:optional's window on a first visit. -->
 <link rel="preload" as="font" type="font/woff2" href="fonts/oswald-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
-<link rel="stylesheet" href="css/style.min.css?v=20260813m4">
+<link rel="stylesheet" href="css/style.min.css?v=20260816r1">
 <!-- Google Analytics -->
 <!-- Third-party tags, deferred to after the load event.
      gtag/js + adsbygoogle.js and everything they cascade into (GTM container,
@@ -246,6 +246,52 @@
   </div>
 </section>
 
+<!-- ================= FRESH OUT THE BLACK BOX =================
+     Moved off the homepage. Three hand-written teasers pointing at the
+     category hubs; sits directly under the hero so the page opens on
+     something to read rather than on the podium. -->
+<section class="section" id="from-archives">
+  <div class="container">
+    <span class="eyebrow center">From The Archives</span>
+    <h2 class="section-title center">Fresh out of the black box</h2>
+    <div class="gold-divider center"></div>
+    <div class="grid grid-3" style="margin-top:50px;">
+      <div class="article-card" style="--accent:#ff4d4d;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></div>
+        <div class="article-body">
+          <span class="date">Scary Files</span>
+          <h3>The Windshield That Blew Out at 23,000 Feet</h3>
+          <p>A cockpit windscreen fails mid-climb, and the captain is sucked halfway out of the aircraft.</p>
+          <a href="scary.html" class="card-link">Read More</a>
+        </div>
+      </div>
+      <div class="article-card" style="--accent:#e8c766;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.4 6.6L21 9l-5.5 4.6L17 21l-5-3.6L7 21l1.5-7.4L3 9l6.6-.4z"/></svg></div>
+        <div class="article-body">
+          <span class="date">Heroic Moments</span>
+          <h3>The Glider Landing Nobody Thought Possible</h3>
+          <p>Both engines dead, no power, no instruments: one captain's dead-stick landing became training-manual legend.</p>
+          <a href="heroic.html" class="card-link">Read More</a>
+        </div>
+      </div>
+      <div class="article-card" style="--accent:#39e6c5;">
+        <div class="article-media"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/></svg></div>
+        <div class="article-body">
+          <span class="date">UAP Files</span>
+          <h3>Two Airliners, One Object, No Explanation</h3>
+          <p>Air traffic control recorded both crews describing the same silent object crossing their flight paths minutes apart.</p>
+          <a href="uap.html" class="card-link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all stories <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
 <!-- ================= TOP 3 FEATURED CASE FILES ================= -->
 <section class="section bb-featured-section">
   <div class="container">
@@ -308,6 +354,31 @@
   </div>
 </section>
 
+<!-- ================= START HERE =================
+     Moved off the homepage, and it reads better here: the archive below is
+     26 case files deep, so a five-file on-ramp directly above it is the
+     natural entry point for a first-time reader.
+     Rendered by js/discovery-sections.js from the startHere flags in
+     js/case-files-data.js. -->
+<section class="section dark-section" id="start-here">
+  <div class="container">
+    <span class="eyebrow gold">New Here?</span>
+    <h2 class="section-title">Start Here</h2>
+    <div class="gold-divider"></div>
+    <p class="section-lede" style="margin:14px 0 0;">Five case files that give you the full range of what this site covers, without throwing you straight into the deep end.</p>
+    <div class="most-read-list" id="start-here-list" style="margin-top:34px;max-width:760px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see our starter picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all starter picks <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
 <!-- ================= THE COMPLETE ARCHIVE ================= -->
 <section class="section bb-archive-section">
   <div class="container">
@@ -322,6 +393,29 @@
       <noscript>
         <p class="tdih-note">Enable JavaScript to browse the archive, or explore <a href="stories.html" class="text-blue">the full Case Files &amp; Stories archive</a>.</p>
       </noscript>
+    </div>
+  </div>
+</section>
+
+<!-- Weekly rotating picks, rendered by js/featured-case-file.js. Sits under
+     the archive so it reads as "and here are three you probably scrolled
+     past" rather than competing with the archive's own filters. -->
+<section class="section" id="you-might-have-missed">
+  <div class="container">
+    <span class="eyebrow gold center" style="display:flex;justify-content:center;">Discovery</span>
+    <h2 class="section-title center">You Might Have Missed</h2>
+    <div class="gold-divider center"></div>
+    <p class="section-lede center" style="margin:14px auto 0;">Three more case files worth your time, picked fresh every week.</p>
+
+    <div class="grid grid-3" id="you-might-have-missed-grid" style="margin-top:50px;">
+      <noscript>
+        <p class="tdih-note">Enable JavaScript to see this week's picks, or browse the full <a href="stories.html" class="text-blue">Case Files &amp; Stories archive</a>.</p>
+      </noscript>
+    </div>
+
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="stories.html">View all case files <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
     </div>
   </div>
 </section>
@@ -503,6 +597,14 @@
 <script src="js/social-share.min.js"></script>
 <script src="js/blackbox-data.min.js?v=20260811f" defer></script>
 <script src="js/blackbox-archive.min.js?v=20260810a" defer></script>
+<!-- Start Here + You Might Have Missed, moved here from the homepage. These
+     read CASE_FILES (case-files-data.js), which is a separate dataset from
+     the BLACKBOX_CASES the archive above uses — no collision. discovery-core
+     supplies the weekly picker featured-case-file.js needs. -->
+<script src="js/case-files-data.min.js?v=20260812j1" defer></script>
+<script src="js/discovery-core.min.js" defer></script>
+<script src="js/discovery-sections.min.js" defer></script>
+<script src="js/featured-case-file.min.js?v=20260809o" defer></script>
 <script src="js/breadcrumbs.min.js?v=20260812j1" defer></script>
 <script src="js/random-case-file.min.js" defer></script>
 </body>

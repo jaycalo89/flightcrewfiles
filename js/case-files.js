@@ -2,17 +2,23 @@
 // (see js/case-files-data.js). Static local data, so this renders synchronously
 // on DOMContentLoaded — no fetch, no skeleton state needed.
 //
-// The homepage shows a hand-picked three rather than the whole archive: the
-// three most-searched cases on the site, in a deliberate order. Everything
-// else lives in the Black Box Files archive, which the link under the row
-// points at. To change the picks, edit HOMEPAGE_PICKS — each string must
-// match an entry's `url` in case-files-data.js exactly, and an unmatched
-// string is skipped rather than rendering a broken card.
+// The homepage shows a hand-picked six rather than the whole archive: two
+// rows of three, ordered most-searched first. Everything else lives in the
+// Black Box Files archive, which the button under the grid points at. To
+// change the picks, edit HOMEPAGE_PICKS — each string must match an entry's
+// `url` in case-files-data.js exactly, and an unmatched string is skipped
+// rather than rendering a broken card.
+//
+// css/style.css caps #case-files-grid at 6 cards (and at 3 on phones), so
+// adding a seventh here renders nothing new until that cap moves too.
 (function () {
   var HOMEPAGE_PICKS = [
     'helios522.html',
     'tenerife-disaster.html',
-    'mh370.html'
+    'mh370.html',
+    'miracle-on-the-hudson.html',
+    'air-france-447.html',
+    'gimli-glider.html'
   ];
 
   var FALLBACK_IMAGE = 'images/site/tbf-avenger-formation-fallback.jpg';

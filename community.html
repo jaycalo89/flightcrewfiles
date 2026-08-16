@@ -18,7 +18,7 @@
      to arrive inside font-display:optional's window on a first visit. -->
 <link rel="preload" as="font" type="font/woff2" href="fonts/oswald-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
-<link rel="stylesheet" href="css/style.min.css?v=20260813m4">
+<link rel="stylesheet" href="css/style.min.css?v=20260816r1">
 <!-- Google Analytics -->
 <!-- Third-party tags, deferred to after the load event.
      gtag/js + adsbygoogle.js and everything they cascade into (GTM container,
@@ -133,6 +133,43 @@
     </span>
     <h1 class="section-title" style="margin-top:16px;">Talk Aviation With People Who Get It.</h1>
     <p class="section-lede">Seven rooms for seven kinds of conversation, from breaking news to the stuff that keeps you up before a flight. Start a discussion below, or just come read what everyone else is talking about.</p>
+  </div>
+</section>
+
+<!-- Moved here from the homepage, where it ran as a two-post teaser. This is
+     its home now, so it runs at full length: four skeletons to match the four
+     posts js/community-feed.js renders, and no #community-grid card cap in
+     css/style.css any more. -->
+<section class="community-section" id="community-feed">
+  <div class="container">
+    <div class="center">
+      <span class="vf-live-badge gold"><span class="vf-live-dot"></span>Community</span>
+      <h2 class="section-title center">FROM THE FLIGHT DECK</h2>
+      <div class="gold-divider center"></div>
+      <p class="section-lede center">What aviation professionals and enthusiasts are discussing right now</p>
+    </div>
+    <div class="community-grid" id="community-grid">
+      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
+      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
+      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
+      <div class="vf-skeleton"><div class="vf-skeleton-line" style="width:30%;"></div><div class="vf-skeleton-line" style="width:90%;"></div><div class="vf-skeleton-line" style="width:70%;"></div></div>
+    </div>
+    <div class="section-explore">
+      <div class="section-explore-rule" aria-hidden="true"></div>
+      <a class="section-explore-link" href="#start-discussion">Start your own discussion <span class="section-explore-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section quiz-section">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow gold center" style="display:flex;justify-content:center;">Daily Briefing</span>
+      <h2 class="section-title center">DAILY BRIEFING &mdash; TEST YOUR KNOWLEDGE</h2>
+      <div class="gold-divider center"></div>
+      <p class="section-lede center">One aviation question, every day. New briefing at midnight.</p>
+    </div>
+    <div class="quiz-card" id="daily-quiz"></div>
   </div>
 </section>
 
@@ -443,8 +480,13 @@
   </div>
 </footer>
 
+<!-- bookmarks.js must load before community-feed.js: each post card asks
+     window.FCFBookmarks for its Save For Later button. -->
+<script src="js/bookmarks.min.js?v=20260803" defer></script>
 <script src="js/main.min.js?v=20260812s1"></script>
 <script src="js/news-feed.min.js"></script>
+<script src="js/community-feed.min.js" defer></script>
+<script src="js/daily-quiz.min.js" defer></script>
 <script src="js/breadcrumbs.min.js?v=20260812j1" defer></script>
 <script src="js/random-case-file.min.js" defer></script>
 </body>

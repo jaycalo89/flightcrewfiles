@@ -2097,7 +2097,12 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
    list — it sits directly under the hero, close enough to the fold that the
    skipped paint isn't worth the pop-in on a JS-populated grid. (It used to be
    the page's first section, where content-visibility was strictly a loss.) */
-.featured-card,.newsletter,#fear-of-flying,#from-archives,.ad-slot{
+/* #fear-of-flying is gone from this list: that section moved to
+   fear-of-flying.html as #three-things, where it sits high enough on the
+   page that the reserve below no longer matches and the skipped paint is
+   not worth a mis-measured intrinsic height. #from-archives moved to
+   blackbox.html, but its markup is unchanged, so its reserve still holds. */
+.featured-card,.newsletter,#from-archives,.ad-slot{
   content-visibility:auto;
 }
 /* NOTE: contain-intrinsic-height sizes the CONTENT box, not the border box.
@@ -2107,7 +2112,6 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
    are content-box: (measured border-box − padding) + a small buffer. */
 .featured-card{contain-intrinsic-height:auto 601px;}
 .newsletter{contain-intrinsic-height:auto 570px;}
-#fear-of-flying{contain-intrinsic-height:auto 921px;}
 #from-archives{contain-intrinsic-height:auto 763px;}
 .ad-slot{contain-intrinsic-height:auto 25px;}  /* measured content 19 */
 /* Re-measured at 620px (the 600-640px band) after the mobile pass. Every
@@ -2118,7 +2122,6 @@ blockquote::after{content:'\201D';color:#c9a84c;font-family:Georgia,'Times New R
 @media (max-width:640px){
   .featured-card{contain-intrinsic-height:auto 943px;}
   .newsletter{contain-intrinsic-height:auto 650px;}      /* content 632 */
-  #fear-of-flying{contain-intrinsic-height:auto 1055px;} /* content 1039 */
   #from-archives{contain-intrinsic-height:auto 1400px;}  /* content 1382 */
 }
 /* Breakpoint-matched to .beehiiv-wrapper: below 480px the embed switches to
@@ -3208,27 +3211,25 @@ body.nav-open .mobile-panel{
   .home-page .mission-section{padding:30px 16px;}
   .home-page .tdih-section{padding-top:32px;padding-bottom:32px;}
   .home-page .tdih-section + .featured-case-file-section{padding-top:18px;padding-bottom:12px;}
-  /* The three full-bleed teasers carry their own 130px/110px in the
-     page's inline <style>; .home-page beats them on specificity. */
-  .home-page .ss-teaser,
-  .home-page .atc-teaser,
-  .home-page .bbhome-teaser{padding:65px 0 55px;}
+  /* Secret Skies carries its own 130px/110px in index.html's inline
+     <style>; .home-page beats it on specificity. The Black Box teaser
+     moved to stories.html and takes its phone padding with it, in the
+     .bbhome-teaser block further up this file. */
+  .home-page .ss-teaser{padding:65px 0 55px;}
 
   /* --- 11. gaps between and inside sections, down ~40% --------------- */
   .home-page .grid{gap:17px;}
   .home-page #tdih-events,
   .home-page .news-poll-layout,
   .home-page #lfs-grid,
-  .home-page #case-files-grid,
-  .home-page #you-might-have-missed-grid,
-  .home-page #most-harrowing-grid{margin-top:30px !important;}
-  .home-page #start-here-list{margin-top:20px !important;}
+  .home-page #case-files-grid{margin-top:30px !important;}
+  /* Unscoped: these moved to blackbox.html. */
+  #you-might-have-missed-grid{margin-top:30px !important;}
+  #start-here-list{margin-top:20px !important;}
   .home-page .news-view-all{margin-top:26px;}
   .home-page .ss-teaser-sub{margin-bottom:30px;}
   .home-page .ss-teaser-grid{margin-bottom:28px;}
-  .home-page .ss-teaser-cta,
-  .home-page .atc-teaser-cta,
-  .home-page .bbhome-teaser-cta{margin-top:26px;}
+  .home-page .ss-teaser-cta{margin-top:26px;}
   /* Centred "View All" buttons carry an inline margin-top:44px. */
   .home-page #latest-from-skies .container > div[style*="text-align:center"],
   .home-page #case-files .container > div[style*="text-align:center"]{margin-top:26px !important;}
@@ -3269,10 +3270,11 @@ body.nav-open .mobile-panel{
   .home-page .poll-footer{margin-top:12px;padding-top:10px;}
 
   /* --- 9. Daily quiz: compact --------------------------------------- */
-  .home-page .quiz-card{margin-top:26px;padding:24px 18px 22px;}
-  .home-page .quiz-timer{margin-bottom:13px;}
-  .home-page .quiz-category-tag{margin-bottom:12px;}
-  .home-page .quiz-question{font-size:1.15rem;margin-bottom:18px;}
+  /* Unscoped: the Daily Briefing moved to community.html. */
+  .quiz-card{margin-top:26px;padding:24px 18px 22px;}
+  .quiz-timer{margin-bottom:13px;}
+  .quiz-category-tag{margin-bottom:12px;}
+  .quiz-question{font-size:1.15rem;margin-bottom:18px;}
 }
 
 /* ===================================================================
@@ -3284,9 +3286,11 @@ body.nav-open .mobile-panel{
    the news and video feeds refresh and prepend live — a CSS cap stays
    correct as new cards arrive, where a JS slice would not.
 
-   The homepage feed ids (#home-news-feed, #lfs-grid, #community-grid,
-   #case-files-grid) exist only on index.html, so these caps cannot reach
-   the full news.html / videos.html / community.html listings.
+   The homepage feed ids (#home-news-feed, #lfs-grid, #case-files-grid)
+   exist only on index.html, so these caps cannot reach the full
+   news.html / videos.html / blackbox.html listings. #community-grid is
+   styled here too but deliberately uncapped: it moved to community.html,
+   which is a destination page rather than a teaser.
    ------------------------------------------------------------------- */
 
 /* --- shared "explore more" footer, one per curated section ---------- */
@@ -3310,11 +3314,24 @@ body.nav-open .mobile-panel{
   .section-explore-link{margin-top:15px;font-size:.74rem;letter-spacing:.09em;}
 }
 
-/* --- Case Files: three large cards --------------------------------- */
-/* Three across on a desktop, then straight to one full-width card —
-   a 2+1 row leaves an orphan that reads as truncation. */
+/* --- centred button CTA, for sections that close on a button rather than
+   the quieter .section-explore-link (Case Files) ---------------------- */
+.section-cta{margin-top:26px;text-align:center;}
+.section-cta .btn{font-size:.9rem;padding:15px 30px;}
+@media (max-width:640px){
+  .section-cta{margin-top:18px;}
+  .section-cta .btn{font-size:.8rem;padding:13px 22px;}
+}
+
+/* --- Case Files: six large cards, two rows of three ----------------- */
+/* Three across on a desktop. At 980px it drops to two across rather than
+   one: six cards divide cleanly into 2x3, so there is no orphan to worry
+   about, and a six-card single column is a very long scroll on a tablet.
+   One column only below 600px, where the count cap further down cuts the
+   grid to three cards anyway. */
 #case-files-grid{grid-template-columns:repeat(3,1fr);gap:26px;}
-@media (max-width:980px){#case-files-grid{grid-template-columns:1fr;max-width:660px;margin-left:auto;margin-right:auto;}}
+@media (max-width:980px){#case-files-grid{grid-template-columns:repeat(2,1fr);max-width:860px;margin-left:auto;margin-right:auto;}}
+@media (max-width:600px){#case-files-grid{grid-template-columns:1fr;max-width:660px;}}
 
 .cfp-card{display:flex;flex-direction:column;}
 .cfp-media{
@@ -3396,7 +3413,10 @@ body.nav-open .mobile-panel{
 #lfs-grid .lfs-title{font-size:1.14rem;line-height:1.3;}
 #lfs-grid .lfs-desc{font-size:.9rem;}
 
-/* --- From The Flight Deck: two posts ------------------------------- */
+/* --- From The Flight Deck ------------------------------------------
+   Lives on community.html now, not the homepage, so there is no cap in
+   the block below any more — that page is the destination, and it shows
+   every post js/community-feed.js renders. */
 #community-grid{gap:24px;}
 #community-grid .community-card{padding:30px 28px;}
 
@@ -3407,7 +3427,139 @@ body.nav-open .mobile-panel{
    `display:flex` on a card class silently un-hides the extra cards. */
 #home-news-feed > *:nth-child(n+5){display:none;}
 #lfs-grid > *:nth-child(n+4){display:none;}
-#community-grid > *:nth-child(n+3){display:none;}
+#case-files-grid > *:nth-child(n+7){display:none;}
+
+/* ===================================================================
+   Live ATC strip (homepage)
+   ===================================================================
+   Replaces the old three-card .atc-teaser. The brief is a slim navy band
+   no taller than 120px, so the height is pinned rather than left to the
+   content: min-height 120px so it never collapses when the button wraps
+   its line box, max-height 120px so it can never grow past the cap, and
+   the inner row is centred inside that fixed box.
+
+   Below 720px the three-column row would squeeze the airport codes to
+   nothing, so it stacks — and the 120px cap is released there, because a
+   stacked strip that stays 120px tall clips its own button.
+   ------------------------------------------------------------------- */
+.atc-strip{
+  min-height:120px;max-height:120px;
+  display:flex;align-items:center;
+  background:
+    radial-gradient(700px 200px at 12% 50%, rgba(255,77,77,0.13), transparent 70%),
+    linear-gradient(90deg,var(--navy-900) 0%,var(--navy-800) 50%,var(--navy-900) 100%);
+  border-top:1px solid var(--border-gold);
+  border-bottom:1px solid var(--border-gold);
+}
+.atc-strip-inner{
+  display:flex;align-items:center;justify-content:space-between;gap:24px;
+  width:100%;
+}
+.atc-strip-live{
+  display:inline-flex;align-items:center;gap:10px;flex-shrink:0;
+  font-family:'Oswald',sans-serif;font-size:.82rem;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:#ff4d4d;
+}
+.atc-strip-live .nav-live-dot{width:9px;height:9px;}
+
+/* Centred independently of the two flanking items rather than by flex
+   distribution — the badge and the button are different widths, so
+   space-between alone would sit the codes off-centre. */
+.atc-strip-ports{
+  flex:1;margin:0;text-align:center;
+  display:flex;align-items:center;justify-content:center;gap:14px;
+  font-family:'Oswald',sans-serif;font-weight:700;
+  font-size:clamp(1.05rem,2.4vw,1.6rem);letter-spacing:.14em;
+  color:var(--gold-400);white-space:nowrap;
+}
+.atc-strip-sep{color:rgba(212,175,55,0.45);font-size:.7em;}
+.atc-strip-cta{flex-shrink:0;white-space:nowrap;}
+
+@media (max-width:720px){
+  .atc-strip{min-height:0;max-height:none;padding:20px 0;}
+  .atc-strip-inner{flex-direction:column;gap:14px;}
+  .atc-strip-ports{font-size:1.15rem;gap:11px;}
+}
+
+/* ===================================================================
+   Black Box Files teaser
+   ===================================================================
+   Lived in index.html's inline <style> while it was a homepage section.
+   It now sits on stories.html, so the base rules moved here where both
+   pages can reach them, and the phone rules below are no longer scoped
+   to body.home-page.
+   ------------------------------------------------------------------- */
+@keyframes radar-spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+.bbhome-teaser{
+  position:relative;overflow:hidden;padding:130px 0 110px;text-align:center;
+  background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
+    radial-gradient(1100px 560px at 50% -10%, rgba(255,77,77,0.16), transparent 60%),
+    radial-gradient(900px 480px at 100% 100%, rgba(212,175,55,0.08), transparent 55%),
+    linear-gradient(180deg,#000000 0%,#050203 55%,#000000 100%);
+  border-top:1px solid rgba(255,77,77,0.35);border-bottom:1px solid rgba(255,77,77,0.35);
+}
+.bbhome-teaser-head{position:relative;z-index:1;}
+.bbhome-scan{
+  position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+  width:640px;height:640px;max-width:none;border-radius:50%;
+  pointer-events:none;z-index:0;opacity:.5;
+  background:repeating-radial-gradient(circle,rgba(255,77,77,.14) 0px,rgba(255,77,77,.14) 1px,transparent 1px,transparent 54px);
+}
+.bbhome-scan::after{
+  content:"";position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from 0deg,rgba(255,77,77,0) 0deg,rgba(255,77,77,0) 265deg,rgba(255,77,77,.5) 300deg,rgba(255,77,77,0) 340deg);
+  animation:radar-spin 5s linear infinite;
+}
+@media (prefers-reduced-motion:reduce){.bbhome-scan::after{animation:none;}}
+.bbhome-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  font-family:'Oswald',sans-serif;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;
+  color:#ff6b6b;border:2px solid #ff4d4d;padding:8px 18px;border-radius:3px;
+  background:rgba(255,77,77,0.08);margin-bottom:22px;animation:bb-flicker 4.5s infinite;
+}
+.bbhome-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 8px #ff4d4d;flex-shrink:0;animation:pulse-dot 1.6s infinite;}
+.bbhome-teaser h2{
+  font-size:clamp(2.6rem,7vw,4.6rem);color:#fff;text-transform:uppercase;letter-spacing:.03em;font-weight:700;
+  text-shadow:0 0 50px rgba(255,77,77,0.45),0 0 90px rgba(255,77,77,0.2);margin-bottom:14px;
+}
+.bbhome-sub{font-family:'Oswald',sans-serif;font-size:1.15rem;letter-spacing:.03em;color:rgba(246,248,252,0.78);margin:0 auto 54px;max-width:640px;}
+.bbhome-quote-block{
+  position:relative;z-index:1;max-width:720px;margin:0 auto 46px;padding:40px 44px;overflow:hidden;
+  border:1px solid rgba(255,77,77,0.3);border-left:3px solid #ff4d4d;border-radius:8px;
+  background:#0a0505;box-shadow:0 0 30px rgba(255,77,77,0.12),inset 0 0 22px rgba(0,0,0,0.4);
+}
+.bbhome-quote-block::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background:repeating-linear-gradient(0deg,rgba(255,255,255,0.015) 0px,rgba(255,255,255,0.015) 1px,transparent 1px,transparent 3px);
+}
+.bbhome-quote-tag{
+  display:block;font-family:'Oswald',sans-serif;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold-400);margin-bottom:16px;position:relative;z-index:1;
+}
+.bbhome-quote-big{
+  font-family:'Oswald',sans-serif;font-style:italic;font-weight:500;font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.4;
+  color:var(--gold-400);margin:0 0 16px;position:relative;z-index:1;text-shadow:0 0 30px rgba(212,175,55,0.2);
+}
+.bbhome-quote-note{
+  display:block;font-family:'Inter',sans-serif;font-size:.86rem;color:rgba(246,248,252,0.6);
+  position:relative;z-index:1;
+}
+.bbhome-teaser-cta{position:relative;z-index:1;}
+.bbhome-teaser-cta .btn{font-size:.95rem;padding:16px 32px;}
+.bbhome-teaser-cta .btn-gold{background:transparent;border:1.5px solid #ff4d4d;color:#ff6b6b;}
+.bbhome-teaser-cta .btn-gold:hover{background:rgba(255,77,77,0.12);border-color:#ff4d4d;color:#fff;transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(255,77,77,0.45);}
+
+@media (max-width:768px){
+  .bbhome-teaser{padding:65px 0 55px;}
+  .bbhome-teaser-cta{margin-top:26px;}
+}
+@media (max-width:600px){
+  .bbhome-teaser{padding:2.5rem 0;}
+  .bbhome-sub{margin-bottom:1.25rem;}
+  .bbhome-quote-block{margin:0 auto 1.25rem;padding:1rem;}
+  .bbhome-teaser-cta{margin-top:1.25rem;}
+}
 
 /* Targeted mobile fix: homepage hero description.
    The paragraph is .mission-lede, whose own rule sets clamp(1.3rem,2vw,1.6rem)
@@ -3478,10 +3630,9 @@ picture{display:contents;}
   /* --- 3. Section spacing: 2.5rem top and bottom -------------------- */
   .home-page .section{padding:2.5rem 0;}
   .home-page .section-tight{padding:1.75rem 0;}
-  .home-page .community-section{padding:2.5rem 0;}
-  .home-page .ss-teaser,
-  .home-page .atc-teaser,
-  .home-page .bbhome-teaser{padding:2.5rem 0;}
+  /* Unscoped: From The Flight Deck moved to community.html. */
+  .community-section{padding:2.5rem 0;}
+  .home-page .ss-teaser{padding:2.5rem 0;}
   /* Already below 2.5rem in the 768px block — restated so the .section
      rule above cannot push them back up. */
   .home-page .tdih-section{padding:2rem 0;}
@@ -3491,49 +3642,43 @@ picture{display:contents;}
   .home-page #tdih-events,
   .home-page .news-poll-layout,
   .home-page #lfs-grid,
-  .home-page #case-files-grid,
-  .home-page #you-might-have-missed-grid,
-  .home-page #most-harrowing-grid,
-  .home-page #start-here-list{margin-top:1.25rem !important;}
-  .home-page .community-grid{margin-top:1.25rem;}
-  .home-page .ss-teaser-sub,
-  .home-page .atc-teaser-sub,
-  .home-page .bbhome-sub{margin-bottom:1.25rem;}
-  .home-page .ss-teaser-grid,
-  .home-page .atc-teaser-grid{margin-bottom:1.25rem;}
-  .home-page .bbhome-quote-block{margin:0 auto 1.25rem;padding:1rem;}
-  .home-page .ss-teaser-cta,
-  .home-page .atc-teaser-cta,
-  .home-page .bbhome-teaser-cta{margin-top:1.25rem;}
+  .home-page #case-files-grid{margin-top:1.25rem !important;}
+  /* Unscoped: these four moved off the homepage — the first two to
+     blackbox.html, the grid to community.html, the quiz to community.html. */
+  #you-might-have-missed-grid,
+  #start-here-list{margin-top:1.25rem !important;}
+  .community-grid{margin-top:1.25rem;}
+  .quiz-card{margin-top:1.25rem;}
+  .home-page .ss-teaser-sub{margin-bottom:1.25rem;}
+  .home-page .ss-teaser-grid{margin-bottom:1.25rem;}
+  .home-page .ss-teaser-cta{margin-top:1.25rem;}
   .home-page .section-explore{margin-top:1.25rem;}
-  .home-page .quiz-card{margin-top:1.25rem;}
 
   /* --- 3b. Card gaps: 0.75rem --------------------------------------- */
   /* The id-prefixed selectors are needed to beat #case-files-grid{gap:26px},
      #home-news-feed{gap:24px} and #community-grid{gap:24px}. */
   .home-page .grid,
-  .home-page .community-grid,
-  .home-page .most-read-list,
   .home-page .ss-teaser-grid,
-  .home-page .atc-teaser-grid,
   .home-page #tdih-events,
   .home-page #home-news-feed,
   .home-page #lfs-grid,
-  .home-page #case-files-grid,
-  .home-page #community-grid,
-  .home-page #you-might-have-missed-grid,
-  .home-page #most-harrowing-grid{gap:.75rem;}
+  .home-page #case-files-grid{gap:.75rem;}
   .home-page .news-poll-layout{gap:.75rem;}
+  /* Unscoped: moved sections. #community-grid still needs its id prefix to
+     beat #community-grid{gap:24px} above. */
+  .community-grid,
+  .most-read-list,
+  #community-grid,
+  #you-might-have-missed-grid{gap:.75rem;}
 
   /* --- 3c. Card internal padding: 1rem ------------------------------ */
+  .quiz-card,
+  .community-card,
+  #community-grid .community-card,
   .home-page .cfp-body,
   .home-page .article-body,
   .home-page .fear-box,
   .home-page .poll-widget,
-  .home-page .quiz-card,
-  .home-page .atc-teaser-card,
-  .home-page .community-card,
-  .home-page #community-grid .community-card,
   .home-page #home-news-feed .nf-card,
   .home-page #lfs-grid .lfs-card,
   .home-page #tdih-events .hec-body,
@@ -3541,7 +3686,7 @@ picture{display:contents;}
   /* Bottom padding stays small here — the "Watch" link sits below the
      body and brings its own 13px. */
   .home-page .ss-teaser-card-body{padding:1rem 1rem .25rem;}
-  .home-page .most-read-item{padding:.6rem .25rem;}
+  .most-read-item{padding:.6rem .25rem;}
 
   /* --- 4. Card images: capped at 180px, cropped not stretched ------- */
   .home-page .cfp-media{height:180px;}
@@ -3563,17 +3708,14 @@ picture{display:contents;}
   /* Every feed script clears grid.innerHTML before appending, so the
      <noscript> fallbacks are gone by the time these count. With JS off
      only the noscript message renders, which is child 1 either way. */
+  /* Only homepage grids are capped now. #start-here-list, #community-grid
+     and #from-archives moved to blackbox.html and community.html, which
+     are destination pages — they show their full set on a phone. */
   .home-page #tdih-events > *:nth-child(n+4),
   .home-page #home-news-feed > *:nth-child(n+4),
   .home-page #lfs-grid > *:nth-child(n+4),
   .home-page #case-files-grid > *:nth-child(n+4),
-  .home-page #you-might-have-missed-grid > *:nth-child(n+4),
-  .home-page #most-harrowing-grid > *:nth-child(n+4),
-  .home-page #start-here-list > *:nth-child(n+4),
-  .home-page #community-grid > *:nth-child(n+4),
-  .home-page .ss-teaser-grid > *:nth-child(n+4),
-  .home-page .atc-teaser-grid > *:nth-child(n+4),
-  .home-page #from-archives .grid > *:nth-child(n+4){display:none;}
+  .home-page .ss-teaser-grid > *:nth-child(n+4){display:none;}
   /* Secret Skies stays two-up; the third card takes the full row rather
      than sitting as a half-width orphan under the pair. */
   .home-page .ss-teaser-grid > *:nth-child(3){grid-column:1 / -1;}
@@ -3596,25 +3738,11 @@ picture{display:contents;}
      The ≤640px values above are left alone — they are still right for the
      600-640px band, where the card caps and 1rem padding do not apply.
      Measured at 390px with reserves neutralised. */
-  /* #fear-of-flying genuinely changes shape at 600px (1rem card padding),
-     and narrower means more wrapping, so it is taller here than at 620px.
-     .newsletter is not repeated — its reserve is breakpoint-matched to the
-     beehiiv wrapper at 480px instead, where the real change happens. */
-  .home-page #fear-of-flying{contain-intrinsic-height:auto 1210px;} /* content 1198 */
-
-  /* --- 5. Most Harrowing: excerpts clamped to three lines ------------ */
-  /* Matches .fch-excerpt in the 768px block. These come from CASE_FILES
-     and run to full paragraphs, which was ~430px per card. */
-  .home-page .harrowing-card .article-body p{
-    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
-    margin-bottom:14px;
-  }
-
-  /* --- 6. From The Archives: desktop only ---------------------------- */
-  /* Three hard-coded teasers pointing at category hubs. Case Files, You
-     Might Have Missed and Most Harrowing all do the same job above it
-     from live data, so on a phone this is the third telling. */
-  .home-page #from-archives{display:none;}
+  /* 5 and 6 removed with their sections: the Most Harrowing excerpt clamp
+     (that grid is gone — blackbox.html carries the hand-built top-three
+     podium instead) and the phone-hide on #from-archives, which now lives
+     on blackbox.html where it must render. The #fear-of-flying reserves
+     are gone too — see the content-visibility block near the top. */
 
   /* --- 7. This Day In History: reserve the JS-swapped placeholders --- */
   /* Shortening the hero pulled this section into the initial viewport, and

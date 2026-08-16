@@ -2509,3 +2509,199 @@ To https://github.com/jaycalo89/flightcrewfiles.git
 [2026-08-13 10:12:18] OK    git push succeeded
 [2026-08-13 10:12:19] Maintenance run complete
 [2026-08-13 10:12:19] ============================================================
+[2026-08-14 09:27:45] ============================================================
+[2026-08-14 09:27:45] Starting daily maintenance run
+[2026-08-14 09:27:45] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-14 09:27:45] OK    Internet connectivity confirmed
+[2026-08-14 09:27:45] INFO  Running setup_flightcrewfiles.py
+[2026-08-14 09:27:45] ============================================================
+[2026-08-14 09:27:45] Flight Crew Files update run starting
+
+[1/5] Fetching latest aviation videos from YouTube...
+[2026-08-14 09:27:45] START  Fetch YouTube videos
+[2026-08-14 09:27:47] OK     Fetch YouTube videos -> 40
+
+[2/5] Fetching latest aviation news from RSS feeds...
+[2026-08-14 09:27:47] START  Fetch aviation news
+[2026-08-14 09:27:48]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-14 09:27:50]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-08-14 09:27:53]        FlightGlobal: 5 articles from https://www.flightglobal.com/rss (5 rejected by validation)
+[2026-08-14 09:28:05]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-14 09:28:12]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-14 09:28:12]        115 article(s) rejected by validation across all feeds
+[2026-08-14 09:28:12] OK     Fetch aviation news -> 24
+
+[3/5] Fetching UAP-specific news from RSS feeds...
+[2026-08-14 09:28:12] START  Fetch UAP news
+[2026-08-14 09:28:17]        The Black Vault: 3 articles from https://theblackvault.com/casefiles/feed (22 rejected by validation)
+[2026-08-14 09:28:18]        UFOs: Scientific Research: 7 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (18 rejected by validation)
+[2026-08-14 09:28:19]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-14 09:28:21]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-14 09:28:21]        90 article(s) rejected by validation across all feeds
+[2026-08-14 09:28:21] OK     Fetch UAP news -> 10
+
+[4/5] Generating sitemap.xml...
+[2026-08-14 09:28:21] START  Generate sitemap.xml
+[2026-08-14 09:28:21] OK     Generate sitemap.xml -> 66
+
+[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...
+[2026-08-14 09:28:21] START  Fetch aviation community feed
+[2026-08-14 09:28:22]        Hacker News: 5 stories fetched
+[2026-08-14 09:28:22]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-14 09:28:22] OK     Fetch aviation community feed -> 8
+[2026-08-14 09:28:22] Flight Crew Files update run finished in 36.5s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 24
+UAP articles fetched:  10
+Sitemap pages listed:  66
+Community posts fetched: 8
+Time taken:            36.5s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=24 uap=10 community=8 sitemap_ok=True
+[main 7501cac] auto update feeds 2026-08-14
+ 8 files changed, 92 insertions(+), 92 deletions(-)
+[2026-08-14 09:28:22] OK    git commit created
+To https://github.com/jaycalo89/flightcrewfiles.git
+   e550f71..7501cac  main -> main
+[2026-08-14 09:28:23] OK    git push succeeded
+[2026-08-14 09:28:24] Maintenance run complete
+[2026-08-14 09:28:24] ============================================================
+[2026-08-15 09:25:35] ============================================================
+[2026-08-15 09:25:35] Starting daily maintenance run
+[2026-08-15 09:25:35] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-15 09:25:35] OK    Internet connectivity confirmed
+[2026-08-15 09:25:35] INFO  Running setup_flightcrewfiles.py
+[2026-08-15 09:25:35] ============================================================
+[2026-08-15 09:25:35] Flight Crew Files update run starting
+
+[1/5] Fetching latest aviation videos from YouTube...
+[2026-08-15 09:25:35] START  Fetch YouTube videos
+[2026-08-15 09:25:37] OK     Fetch YouTube videos -> 40
+
+[2/5] Fetching latest aviation news from RSS feeds...
+[2026-08-15 09:25:37] START  Fetch aviation news
+[2026-08-15 09:25:38]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-15 09:25:40]        Simple Flying: 6 articles from https://simpleflying.com/feed (4 rejected by validation)
+[2026-08-15 09:25:42]        FlightGlobal: 4 articles from https://www.flightglobal.com/rss (6 rejected by validation)
+[2026-08-15 09:25:56]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-15 09:26:04]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-15 09:26:04]        116 article(s) rejected by validation across all feeds
+[2026-08-15 09:26:04] OK     Fetch aviation news -> 23
+
+[3/5] Fetching UAP-specific news from RSS feeds...
+[2026-08-15 09:26:04] START  Fetch UAP news
+[2026-08-15 09:26:09]        The Black Vault: 3 articles from https://theblackvault.com/casefiles/feed (22 rejected by validation)
+[2026-08-15 09:26:16]        UFOs: Scientific Research: 6 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (19 rejected by validation)
+[2026-08-15 09:26:17]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-15 09:26:18]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-15 09:26:18]        91 article(s) rejected by validation across all feeds
+[2026-08-15 09:26:18] OK     Fetch UAP news -> 9
+
+[4/5] Generating sitemap.xml...
+[2026-08-15 09:26:18] START  Generate sitemap.xml
+[2026-08-15 09:26:18] OK     Generate sitemap.xml -> 66
+
+[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...
+[2026-08-15 09:26:18] START  Fetch aviation community feed
+[2026-08-15 09:26:18]        Hacker News: 5 stories fetched
+[2026-08-15 09:26:18]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-15 09:26:18] OK     Fetch aviation community feed -> 8
+[2026-08-15 09:26:18] Flight Crew Files update run finished in 43.0s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 23
+UAP articles fetched:  9
+Sitemap pages listed:  66
+Community posts fetched: 8
+Time taken:            43.0s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=23 uap=9 community=8 sitemap_ok=True
+[main 90dcc5d] auto update feeds 2026-08-15
+ 8 files changed, 93 insertions(+), 93 deletions(-)
+[2026-08-15 09:26:18] OK    git commit created
+To https://github.com/jaycalo89/flightcrewfiles.git
+   7501cac..90dcc5d  main -> main
+[2026-08-15 09:26:20] OK    git push succeeded
+[2026-08-15 09:26:21] Maintenance run complete
+[2026-08-15 09:26:21] ============================================================
+[2026-08-16 09:42:02] ============================================================
+[2026-08-16 09:42:02] Starting daily maintenance run
+[2026-08-16 09:42:02] WARN  Skipping DNS fix — passwordless sudo not available for this cron user
+[2026-08-16 09:42:03] OK    Internet connectivity confirmed
+[2026-08-16 09:42:03] INFO  Running setup_flightcrewfiles.py
+[2026-08-16 09:42:03] ============================================================
+[2026-08-16 09:42:03] Flight Crew Files update run starting
+
+[1/5] Fetching latest aviation videos from YouTube...
+[2026-08-16 09:42:03] START  Fetch YouTube videos
+[2026-08-16 09:42:05] OK     Fetch YouTube videos -> 40
+
+[2/5] Fetching latest aviation news from RSS feeds...
+[2026-08-16 09:42:05] START  Fetch aviation news
+[2026-08-16 09:42:05]        Aviation Week: 0 articles from https://www.aviationweek.com/rss.xml (10 rejected by validation)
+[2026-08-16 09:42:08]        Simple Flying: 8 articles from https://simpleflying.com/feed (2 rejected by validation)
+[2026-08-16 09:42:10]        FlightGlobal: 3 articles from https://www.flightglobal.com/rss (7 rejected by validation)
+[2026-08-16 09:42:15]        AOPA: 6 articles from https://www.aopa.org/news-and-media/all-news/rss (93 rejected by validation)
+[2026-08-16 09:42:23]        Flying Magazine: 7 articles from https://www.flyingmag.com/feed (3 rejected by validation)
+[2026-08-16 09:42:23]        115 article(s) rejected by validation across all feeds
+[2026-08-16 09:42:23] OK     Fetch aviation news -> 24
+
+[3/5] Fetching UAP-specific news from RSS feeds...
+[2026-08-16 09:42:23] START  Fetch UAP news
+[2026-08-16 09:42:28]        The Black Vault: 3 articles from https://theblackvault.com/casefiles/feed (22 rejected by validation)
+[2026-08-16 09:42:35]        UFOs: Scientific Research: 6 articles from https://ufos-scientificresearch.blogspot.com/feeds/posts/default (19 rejected by validation)
+[2026-08-16 09:42:35]        Mystery Wire: 0 articles from https://www.mysterywire.com/feed/ (0 rejected by validation)
+[2026-08-16 09:42:36]        Live Science: 0 articles from https://www.livescience.com/feeds/all (50 rejected by validation)
+[2026-08-16 09:42:36]        91 article(s) rejected by validation across all feeds
+[2026-08-16 09:42:36] OK     Fetch UAP news -> 9
+
+[4/5] Generating sitemap.xml...
+[2026-08-16 09:42:36] START  Generate sitemap.xml
+[2026-08-16 09:42:36] OK     Generate sitemap.xml -> 66
+
+[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...
+[2026-08-16 09:42:36] START  Fetch aviation community feed
+[2026-08-16 09:42:36]        Hacker News: 5 stories fetched
+[2026-08-16 09:42:36]        Aviation Stack Exchange: 5 questions fetched
+[2026-08-16 09:42:36] OK     Fetch aviation community feed -> 8
+[2026-08-16 09:42:36] Flight Crew Files update run finished in 33.8s
+
+============================================================
+SUMMARY
+============================================================
+Videos fetched:        40
+News articles fetched: 24
+UAP articles fetched:  9
+Sitemap pages listed:  66
+Community posts fetched: 8
+Time taken:            33.8s
+
+Errors: none
+============================================================
+Full log: /home/jayca/projects/flightcrewfiles/update_log.txt
+Verify: videos=40 news=24 uap=9 community=8 sitemap_ok=True
+[main acb067b] auto update feeds 2026-08-16
+ 8 files changed, 91 insertions(+), 91 deletions(-)
+[2026-08-16 09:42:37] OK    git commit created
+To https://github.com/jaycalo89/flightcrewfiles.git
+   90dcc5d..acb067b  main -> main
+[2026-08-16 09:42:38] OK    git push succeeded
+[2026-08-16 09:42:39] INFO  ---- Weekly tasks (Sunday) ----
+[2026-08-16 09:42:39] INFO  GTMETRIX_API_KEY not set — skipping speed test
+[2026-08-16 09:42:39] INFO  Checking external links in videos-data.json and news.json
+Link check complete: 64 checked, 0 broken
+[2026-08-16 09:43:18] Maintenance run complete
+[2026-08-16 09:43:18] ============================================================
