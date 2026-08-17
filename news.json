@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-08-16T13:42:23.452463+00:00",
+  "generated_at": "2026-08-17T13:39:49.026875+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 20,
   "articles": [
     {
-      "title": "Engineer, Sacked Over 17-Min Delay After Singapore Airlines Jet Reboot, Awarded $28,000",
-      "description": "A veteran Australian aircraft engineer has been awarded AU$40,000 (about US$28,044) in compensation after being sacked following a 17-minute delay to a Singapore Airlines flight.",
-      "url": "https://simpleflying.com/video/engineer-sacked-over-17-min-delay-after-singapore-airlines-jet-reboot-awarded-28-000/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-16T12:27:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/singapore-a350-17min-delay.jpg"
-    },
-    {
-      "title": "Delta's New Airbus A330-900neos Will Feature A Massive 56 Delta One Suites",
-      "description": "Delta Air Lines' newest batch of Airbus A330-900neos will be fitted with 56 Delta One Suites, almost double the number fitted to the aircraft the carrier flies today. 16 examples of the 'high J' configuration were ordered in January and will complement Delta's existing fleet of 39 A330neos and more…",
-      "url": "https://simpleflying.com/delta-new-a330-900neo-56-delta-one-suites/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-16T12:01:08Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/307-delta-air-lines-airbus-a330-9-ronen-fefer-_-shutterstock-1.jpg"
-    },
-    {
-      "title": "Emirates' Oldest Airbus A380 Is Nearly 21: See The Routes It Still Flies Today",
-      "description": "Emirates is widely known for being the world's largest operator of the Airbus A380 , and the only carrier to have truly made the double-decker widebody quadjet work on a large scale. It has been able to do so thanks to the strength of its hub at Dubai International Airport (DXB), which acts as a…",
-      "url": "https://simpleflying.com/emirates-oldest-airbus-a380-usage-analysis/",
+      "title": "140+ Cancelations In 3 Days: Hurricane Lala Wreaks Havoc On Hawaiian Airlines Flights",
+      "description": "Commercial aviation in Hawaii was disrupted for three days, from Friday, August 14 to Sunday, August 16, as Hurricane Lala moved through the region. This resulted in hundreds of delays and cancelations to flights to and from the state's airports, with Hawaiian Airlines (and its new parent company…",
+      "url": "https://simpleflying.com/hurricane-lala-hawaiian-airlines-impact/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-08-16T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/312-emirates-airbus-a380-toni-m-_-shutterstock.jpg"
+      "published_at": "2026-08-17T12:54:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2484034635_cropped.jpg"
     },
     {
-      "title": "5 Air Force Bases Spending Hundreds Of Millions To Rebuild Cold War-Era Runways",
-      "description": "Today, modern military aviation is a blend of innovations so advanced that most people are prohibited from knowing all the details, and Cold War-era technology. Although planes like the B-52 are ancient, the math works out because they're effective in the roles that they serve, while new planes are…",
-      "url": "https://simpleflying.com/air-force-base-runway-rebuild/",
+      "title": "Last Chance: Air France's Final 37 Airbus A318 Routes Revealed [See Full Map]",
+      "description": "Air France remains the only airline in the world flying the Airbus A318 on scheduled passenger services, and this will only last for a few more months. The French carrier has scheduled the final flight and retirement of the A318 for early November, after which the smallest member of the Airbus A320…",
+      "url": "https://simpleflying.com/final-chance-air-france-last-37-airbus-a318-routes/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-16T10:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/air-force-rebuild.jpg"
+      "author": "Luke Bodell",
+      "published_at": "2026-08-17T12:00:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/532-air-france-airbus-a318-rudzenka-_-shutterstock.jpg"
+    },
+    {
+      "title": "We Fly: Stepping Up in Style With Daher Aircraft TBM 980",
+      "description": "Long family trips for our sons’ far-flung sporting events, and a drawn-out move across several states to a new home combined over the past year to put me behind the wheel of the car more often than at the controls of an airplane. Still, as always, I spent much of my driving time thinking about…",
+      "url": "https://www.flyingmag.com/we-fly-stepping-up-in-style-with-daher-aircraft-tbm-980/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-08-17T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Russia tightening criteria on regulatory compliance and financial health for airlines seeking international routes",
+      "description": "Legislative proposal could prevent carriers with outstanding issues opening new services. Russian authorities are introducing tighter rules on permitting airlines to operate international services, to take greater account of violation of mandatory requirements and the financial state of the…",
+      "url": "https://www.flightglobal.com/archive/2026/08/russia-tightening-criteria-on-regulatory-compliance-and-financial-health-for-airlines-seeking-international-routes/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-17T11:51:01Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Moscow-Sheremetyevo-c-Sheremetyevo-airport-480x310.jpg"
+    },
+    {
+      "title": "Zambia Airways names new chief executive",
+      "description": "Aman Wole Gurmu joined the carrier from Ethiopian Airlines on 1 August. Zambia Airways has appointed Aman Wole Gurmu as its new chief executive, replacing Thomas Gabreyohannes Woldesenbet. Gurmu previously spent 18 years in a variety of roles at Ethiopian Airlines, most recently as director of…",
+      "url": "https://www.flightglobal.com/archive/2026/08/zambia-airways-names-new-chief-executive/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-08-17T11:30:06Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Zambia-Airways-480x320.jpeg"
+    },
+    {
+      "title": "Emirates Doubles Airbus A380 Flights On This Major Long-Haul Route: See Flights Now",
+      "description": "Everyone knows that Emirates is overwhelmingly the world's largest Airbus A380 operator. Ch-aviation shows that it has 116 superjumbos in multiple configurations. Despite various suspended routes and other changes , the Gulf carrier will operate 64% of the world's A380 services this year.",
+      "url": "https://simpleflying.com/emirates-doubles-airbus-a380-flights-on-this-major-long-haul-route/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-17T11:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/emirates-a380-flying-low-on-take-off.jpg"
     },
     {
       "title": "Vietnam Airlines Boeing 787 Substantially Damaged After Dangerously Late Munich Takeoff",
-      "description": "This article was updated on Sunday, August 16, 2026, to include an update on the preliminary investigation. It was originally published on Saturday, August 15, 2026.",
+      "description": "This article was updated on Monday, August 17, 2026, to include a statement from Vietnam's aviation regulator, and additional information on the flight and investigation. It was originally published on Saturday, August 15, 2026.",
       "url": "https://simpleflying.com/vietnam-airlines-boeing-787-tail-strike-munich/",
       "source": "Simple Flying",
       "author": "Aaron Bailey",
-      "published_at": "2026-08-16T09:07:08Z",
+      "published_at": "2026-08-17T10:52:54Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/vietnam-airlines-boeing-787-9-landing.jpg"
     },
     {
-      "title": "Flight Review: Turkmenistan Airlines 777-200LR & 777-300ER Business Class From London To Bangkok",
-      "description": "Turkmenistan Airlines is one of the least familiar international airlines around today. The state-owned carrier operates a broad network of over 20 destinations, flying to notable cities like Beijing, Dubai, Frankfurt, London, Istanbul and Milan. It is also an unusually difficult airline to fly, as…",
-      "url": "https://simpleflying.com/turkmenistan-airlines-boeing-777-business-class-london-bangkok/",
+      "title": "How Much Do Boeing 787 Dreamliner Pilots Make In 2026?",
+      "description": "Very different from a traditional office job, the life of an airline pilot is shaped by unpredictable schedules, changing weather conditions, geopolitical developments, and extended periods away from home, often involving unsociable hours and overnight duties.",
+      "url": "https://simpleflying.com/how-much-boeing-787-dreamliner-pilots-make-i2026/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-16T07:24:49Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/turkmenistan-airlines-plane-taking-off-from-ashgabat.jpg"
-    },
-    {
-      "title": "The Choreographed Cockpit Sweep Pilots Run From Memory Before The Checklist Even Comes Out",
-      "description": "Passengers boarding an airliner often catch a glimpse of the flight deck before the cockpit door closes to see pilots reaching across the instrument panel, touching switches, adjusting knobs, and scanning displays in what appears to be a carefully rehearsed sequence. Only after completing those…",
-      "url": "https://simpleflying.com/cockpit-flow-before-checklist/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-08-16T07:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/choreographed-cockpit.jpg"
-    },
-    {
-      "title": "Can American Airlines Close The Profit Gap With Delta & United?",
-      "description": "American Airlines was founded in 1930 through a merger of 80 airlines. It wouldn't be until 2013 that American as we know it today was born through a merger with US Airways. With over 223 million passengers carried in 2025, the oneworld carrier remains one of the world's largest airlines alongside…",
-      "url": "https://simpleflying.com/american-airlines-catch-up-delta-united/",
-      "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-08-16T04:02:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-airlines-catch-up.jpg"
+      "author": "Viviana Tarnowska",
+      "published_at": "2026-08-17T10:07:42Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/dreamliner-pilots.jpg"
     },
     {
       "title": "Electric Airplane Maker Beta Sees Up to $50M Revenue in FY26",
@@ -83,24 +83,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-08-15T12:00:00Z",
       "image": null
-    },
-    {
-      "title": "US Navy’s newest aircraft carrier begins sea trials as Trump orders end to electromagnetic catapult",
-      "description": "The USS John F Kennedy is the second Ford-class flattop and may now be the last to use the Electromagnetic Aircraft Launch System. The US Navy’s newest aircraft carrier has begun sea trials ahead of a projected entry into service next year. The USS John F Kennedy (CVN-79) departed the shipyard at…",
-      "url": "https://www.flightglobal.com/archive/2026/08/us-navy-newest-aircraft-carrier-begins-sea-trials-as-trump-orders-removal-of-electromagnetic-catapult/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-14T17:49:49Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/USS-John-F-Kennedy-480x320.jpeg"
-    },
-    {
-      "title": "European airline profit outlook clouded after fuel bites in second-quarter",
-      "description": "Collective operating profits halve among leading European operators as all but one carrier reports hit to bottom line in April-June quarter. For European carriers, the April-June financial quarter was when the sharp jump in oil prices following the Iran conflict really took hold. While fuel costs…",
-      "url": "https://www.flightglobal.com/strategy/2026/08/europe-airline-profit-outlook-clouded-fuel-price-second-quarter/",
-      "source": "FlightGlobal",
-      "author": "Graham Dunn",
-      "published_at": "2026-08-14T15:42:42Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/lufthansa-smartwings-Ryanair-Budapest-480x320.jpg"
     },
     {
       "title": "This 1975 Beechcraft Baron B55 Is a Generously Updated ‘AircraftForSale’ Top Pick",
@@ -121,18 +103,9 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Air Arabia expects third-quarter debut for Saudi airline venture",
-      "description": "Budget carrier and investment partners granted rights last year to establish operator in Dammam. Middle Eastern budget carrier Air Arabia is expecting to commence operations with its new Saudi Arabian venture in the third quarter of this year. Air Arabia is a 49% shareholder in a joint venture, Air…",
-      "url": "https://www.flightglobal.com/archive/2026/08/air-arabia-expects-third-quarter-debut-for-saudi-airline-venture/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-14T08:28:51Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Air-Arabia-winglet-c-Air-Arabia-480x334.jpeg"
-    },
-    {
       "title": "North Carolina flights marked new chapter in EMS",
       "description": "After months of preparation and training, North Carolina paramedic Quinn Reece was ready on June 27 when a 911 call summoned her to fly the first advanced life support (ALS) response in the United States using an electric vertical takeoff and landing aircraft.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T22:18:54Z",
@@ -141,7 +114,7 @@
     {
       "title": "Pilots dispute Arizona's Falcon Field fee justification",
       "description": "AOPA, along with the Arizona Pilots Association (APA) and the Aviation Safety Advisory Group of Arizona (ASAG), submitted comments to the FAA pushing back on the city of Mesa’s defense of its financial methodology and rationale behind the implementation of landing fees at Falcon Field . The filing…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T21:42:00Z",
@@ -168,7 +141,7 @@
     {
       "title": "Colorado city ends yearslong effort to close airport",
       "description": "After at least six years of repeated efforts to close Boulder Municipal Airport , the city of Boulder, Colorado, is now moving to pursue new grant funds to maintain the airport—all but ensuring it will continue to play a key role in the community.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:47:03Z",
@@ -177,7 +150,7 @@
     {
       "title": "FAA finds Texas airport violated federal obligations",
       "description": "The FAA has found the sponsor of Pearland Regional Airport —a privately owned, public-use airport near Houston—in violation of four federal grant assurances after it sold airport property to a developer that is building hundreds of homes immediately adjacent to the airport.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:38:11Z",
@@ -193,18 +166,9 @@
       "image": "https://www.youtube.com/embed/fEudbAjschs"
     },
     {
-      "title": "This 1948 Cessna 170 Is a Classic ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1948 Cessna 170. The Cessna 170…",
-      "url": "https://www.flyingmag.com/this-1948-cessna-170-is-a-classic-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-13T15:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cessna-170-for-sale-601808-8a0c3b46b7bd9024-800X600-1.jpg?w=800"
-    },
-    {
       "title": "Pilots recount Chipmunk journey to AirVenture",
       "description": "Women flying warbirds are rare. And seeing two together is nearly unheard of. Yet in July, pilots Katie Mack and Lisa Corker ferried the Canadian Aviation Museum’s de Havilland Chipmunks from Windsor, Ontario, to Oshkosh, Wisconsin, for EAA AirVenture.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/pilots-recount-chipmunk-journey-to-airventure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/11/pilots-recount-chipmunk-journey-to-airventure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-12T00:20:01Z",
@@ -213,7 +177,7 @@
     {
       "title": "Unique bush pilot race combines paddling, seaplane handling skills",
       "description": "An unusual aero-nautical competition will once again pair pilots and paddlers on Moosehead Lake in Maine September 12, weather permitting.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/unique-bush-pilot-race-combines-paddling-seaplane-handling-skills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/11/unique-bush-pilot-race-combines-paddling-seaplane-handling-skills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-11T17:43:16Z",

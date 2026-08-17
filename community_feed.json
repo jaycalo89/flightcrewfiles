@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:42:36.916795+00:00",
+  "generated_at": "2026-08-17T13:40:02.162593+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Does the hydraulic pump provide pressure in an automatic hydraulic system?",
-      "url": "https://aviation.stackexchange.com/questions/115500/does-the-hydraulic-pump-provide-pressure-in-an-automatic-hydraulic-system",
-      "points": 1,
-      "num_comments": 1,
+      "title": "What's the typical parts management practice in General Aviation?",
+      "url": "https://aviation.stackexchange.com/questions/115504/whats-the-typical-parts-management-practice-in-general-aviation",
+      "points": -2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786801097
+      "created_utc": 1786903420
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -33,7 +33,7 @@
     {
       "title": "Can propeller with chevrons reduce noise?",
       "url": "https://aviation.stackexchange.com/questions/115498/can-propeller-with-chevrons-reduce-noise",
-      "points": 6,
+      "points": 9,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1786762527
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Point of Flow separation vs Velocity",
-      "url": "https://aviation.stackexchange.com/questions/115501/point-of-flow-separation-vs-velocity",
+      "title": "Does the hydraulic pump provide pressure in an automatic hydraulic system?",
+      "url": "https://aviation.stackexchange.com/questions/115500/does-the-hydraulic-pump-provide-pressure-in-an-automatic-hydraulic-system",
       "points": 1,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786802966
+      "created_utc": 1786801097
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is this a tilting wing?",
-      "url": "https://aviation.stackexchange.com/questions/115496/is-this-a-tilting-wing",
-      "points": 6,
+      "title": "Point of Flow separation vs Velocity",
+      "url": "https://aviation.stackexchange.com/questions/115501/point-of-flow-separation-vs-velocity",
+      "points": 1,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786686495
+      "created_utc": 1786802966
     }
   ]
 }
