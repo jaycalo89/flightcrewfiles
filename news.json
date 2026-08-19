@@ -1,106 +1,133 @@
 {
-  "generated_at": "2026-08-18T13:59:18.469213+00:00",
+  "generated_at": "2026-08-19T13:43:17.365963+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 24,
+  "count": 21,
   "articles": [
     {
-      "title": "Lufthansa Slashes Airbus A380 Flights On These 2 Major US Routes: See Changes Now",
-      "description": "Lufthansa has made some notable schedule changes concerning its flights with the Airbus A380 in the first quarter of 2027. Specifically, the Cologne-based German flag carrier and Star Alliance founding member plans to drop the superjumbo from two US routes in January and February, when demand on…",
-      "url": "https://simpleflying.com/lufthansa-airbus-a380-us-route-cuts/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-18T13:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2365822593_cropped.jpg"
-    },
-    {
-      "title": "$1,000 A Month: The US Military Flight Pay Cap That Has Not Moved In Decades",
-      "description": "As in the commercial sector, military pilots' base pay is only a portion of their total take-home compensation . Pilots can expect Hazardous Duty Incentive Pay (HDIP), Aviator Retention Bonus (ARB), Basic Allowance for Housing (BAH), Basic Allowance for Subsistence (BAS), pensions, and other…",
-      "url": "https://simpleflying.com/us-military-flight-pay-cap-not-moved-decades/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-18T13:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/1-000-a-month-the-us-military-flight-pay-cap-that-has-not-moved-in-decades.jpg"
-    },
-    {
-      "title": "Engineers Left A Lamp In A Qantas Airbus A380's Wing: Then It Flew to Texas & Back",
-      "description": "Qantas flew an Airbus A380 from Australia to the US and back with a rogue maintenance lamp within the aircraft's wing, an investigation published yesterday by the Australian Transport Safety Bureau (ATSB) has confirmed. The quadjet had arrived at Sydney Kingsford Smith Airport (SYD) from Los…",
-      "url": "https://simpleflying.com/maintenance-light-left-in-qantas-airbus-a380-wing/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-18T12:51:23Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/876-qantas-airbus-a380-dleng-_-shutterstock.jpg"
-    },
-    {
-      "title": "“Potentially Catastrophic”: Major Pilots Union Issues Urgent Warning On Airbus Engine Shutdowns",
-      "description": "A major pilots' union has warned that a cockpit defect linked to unexpected engine shutdowns on Airbus aircraft could have potentially catastrophic consequences, urging regulators to broaden their response after the issue emerged on more than one type.",
-      "url": "https://simpleflying.com/video/potentially-catastrophic-major-pilots-union-issues-urgent-warning-on-airbus-engine-shutdowns/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-18T12:32:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/balpa-problem.jpg"
-    },
-    {
-      "title": "Spain probes A320neo airprox with aerial firefighters during Malaga approach",
-      "description": "Two aircraft involved in Cadiz wildfire attack were heading to heliport for refill. Spanish investigators have disclosed that an Airbus A320neo aborted its approach to Malaga after a conflict with firefighting aircraft in the vicinity. Investigation authority CIAIAC says the SAS twinjet had been…",
-      "url": "https://www.flightglobal.com/archive/2026/08/spain-probes-a320neo-airprox-with-aerial-firefighters-during-malaga-approach/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-18T11:50:51Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/EI-SIG-c-AirTeamImages-480x320.jpeg"
-    },
-    {
-      "title": "How Much Do Corporate Jet Captains Make Compared To Major Airline First Officers In 2026?",
-      "description": "When evaluating pilot compensation in today's highly lucrative aviation market, many often contrast the bespoke, super-elite world of private jet management with the structured, seniority-driven cockpit environment of commercial carriers. According to market intelligence from the National Business…",
-      "url": "https://simpleflying.com/corporate-captain-major-airline-first-officer-pay/",
+      "title": "Identical Pay? The Real Salary Figures Of American, Delta & United Airlines' Widebody Captains",
+      "description": "Reaching the absolute pinnacle of the United States commercial aviation industry, commanding a heavy twin-aisle widebody across oceanic routes for the country's dominant legacy carriers, has long been portrayed as a deep corporate rivalry defined by competing paycheck offers. American Airlines ,…",
+      "url": "https://simpleflying.com/real-salaries-american-delta-united-airlines-widebody-captains/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-08-18T11:00:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/a-look-at-the-salaries-of-corporate-jet-pilots-who-teach-other-pilots-on-the-side-20260805-141833.jpg"
+      "published_at": "2026-08-19T13:00:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/identical-pay-the-real-salary-figures-of-american-delta-united-airlines-widebody-captains.jpg"
     },
     {
-      "title": "Here's What Pilots First Notice When Switching From The Boeing 737 MAX To The Airbus A320neo",
-      "description": "Stepping from the cockpit of the Boeing 737 MAX into that of the Airbus A320neo is not just a change of aircraft: it represents a transition between two fundamentally different eras and philosophies of aviation design. Although both aircraft entered service in the 21st century, the A320neo in 2016…",
-      "url": "https://simpleflying.com/heres-what-pilots-first-notice-when-switching-from-boeing-737-max-to-the-airbus-a320neo/",
+      "title": "Why The Boeing 757 Is Still Irreplaceable 4 Decades Later",
+      "description": "The Boeing 757 is one of the most legendary airliners in history, beloved by enthusiasts and crews alike for its excellent performance and distinctive engine sound.",
+      "url": "https://simpleflying.com/video/why-the-boeing-757-is-still-irreplaceable-4-decades-later/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-19T12:30:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/757-irreplaceable.jpg"
+    },
+    {
+      "title": "Lufthansa’s first Starlink-equipped aircraft enters service",
+      "description": "German airline group is installing the SpaceX in-flight wi-fi service on all of its carriers’ aircraft. Lufthansa Group has installed SpaceX’s Starlink in-flight wi-fi service on its first aircraft, kicking off a programme that will see 850 jets operated by all of its airlines equipped with the…",
+      "url": "https://www.flightglobal.com/archive/2026/08/lufthansas-first-starlink-equipped-aircraft-enters-service/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-08-19T12:04:47Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Lufthansa-A320neo-Starlink-Installation-480x320.jpeg"
+    },
+    {
+      "title": "Airline Pilots Called It ‘Rolling the Dice’",
+      "description": "After typing a couple of paragraphs, it took a moment to realize that the topic I had originally intended for this column had disappeared. Instead, the words I had written became a trigger for reflection, which is not a process I often entertain. The reflection involved decisions that significantly…",
+      "url": "https://www.flyingmag.com/airline-pilots-called-it-rolling-the-dice/",
+      "source": "Flying Magazine",
+      "author": "Les Abend",
+      "published_at": "2026-08-19T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Turkish Airlines Plans London City Flights: But How Will That Work?",
+      "description": "Turkish Airlines wants to add London City Airport (LCY) to its rapidly expanding UK network, potentially giving the carrier four separate London gateways. The Times reports that Chairman Murat Seker identified LCY as a future target while discussing the airline's longer-term expansion. Its London…",
+      "url": "https://simpleflying.com/turkish-airlines-plans-london-city-flights/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-08-19T11:11:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/268-turkish-airlines-boeing-737-max-8-insectworld-_-shutterstock.jpg"
+    },
+    {
+      "title": "How Pratt & Whitney's Military Adaptive Cycle Engine Could Answer CFM RISE On Boeing's 737 Successor",
+      "description": "Boeing is said to have begun planning for its next single-aisle aircraft . Set to succeed its Boeing 737 MAX series, the plane is slated to be a clean-sheet design aimed at directly rivaling the so-far dominant Airbus A321neo and its long-range variants. Even in spite of this, the jet ultimately…",
+      "url": "https://simpleflying.com/pratt-whitney-military-adaptive-cycle-engine-answer-cfm-rise-boeing-737-successor/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-08-19T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/pratt-whitney-s-military.png"
+    },
+    {
+      "title": "Airbus begins expanding Belfast site to allow higher A220 wing output",
+      "description": "Airframer aiming to reach 13-per-month build rate for twinjet in 2028. Airbus has commenced construction of an A220 wing plant extension in Belfast to support production ramp-up of the type. The airframer took over composite wing manufacture for the twinjet in Northern Ireland as a result of its…",
+      "url": "https://www.flightglobal.com/archive/2026/08/airbus-begins-expanding-belfast-site-to-allow-higher-a220-wing-output/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-19T10:45:58Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/A220-c-Airbus-480x312.jpeg"
+    },
+    {
+      "title": "Is It True That Some Pilots Land Hard On Purpose?",
+      "description": "Air travel can feel complex, especially during takeoff and landing, the two phases most passengers instinctively pay the most attention to. Of these, landing tends to invite the most scrutiny. When an aircraft touches down with a noticeable thud instead of a gentle glide, it’s completely natural to…",
+      "url": "https://simpleflying.com/true-pilots-land-hard-purpose/",
       "source": "Simple Flying",
       "author": "Josh Eyre",
-      "published_at": "2026-08-18T09:15:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/pilots-notice-switch.jpg"
+      "published_at": "2026-08-19T10:30:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-the-airbus-a350-900-s-main-landing-gear-has-fewer-tires-than-the-a350-1000.jpeg"
     },
     {
-      "title": "UK launches first airspace-scale contrail avoidance trials",
-      "description": "Operation Blue Skies consortium to carry out testing in Shanwick oceanic airspace from later this year. Operational evalutions are set to begin later this year of an airspace-scale contrail avoidance trial through a 30-month project part-funded by the UK government. To take place in Shanwick…",
-      "url": "https://www.flightglobal.com/sustainability/2026/08/uk-launches-first-airspace-scale-contrail-avoidance-trials/",
-      "source": "FlightGlobal",
-      "author": "Dominic Perry",
-      "published_at": "2026-08-18T09:00:35Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/NATS-Prestwick-Tracks-c-NATS-480x319.jpg"
-    },
-    {
-      "title": "Australia’s Alliance Aviation picks ex-Flyadeal chief as new leader",
-      "description": "Steven Greenway joins the carrier ahead of planned restructuring to “right-size operations”. Former Flyadeal chief executive Steven Greenway has been appointed to lead Australia’s Alliance Aviation, as the operator prepares to reorganise its operations . He will assume his new role on 1 October,…",
-      "url": "https://www.flightglobal.com/strategy/2026/08/australias-alliance-aviation-picks-ex-flyadeal-chief-as-new-leader/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-08-18T08:43:58Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Steven-Greenway-c-BillyPix-480x320.jpg"
-    },
-    {
-      "title": "The Boeing 787-10 Could Be The Most Valuable Widebody Of The Next Decade",
-      "description": "The Boeing 787 family has already transformed the long-haul market, with airlines across the world using the aircraft on routes that would have been difficult or uneconomical only a generation ago. While the smaller Boeing 787-8 helped launch the Dreamliner program and the Boeing 787-9 has become…",
-      "url": "https://simpleflying.com/boeing-78710-future-widebody-market-value/",
+      "title": "Here’s When Delta Air Lines Plans To Debut The Largest Boeing 787 Dreamliner",
+      "description": "Delta Air Lines recently ordered the Boeing 787-10, the largest member of the Dreamliner family. While the actual service entry of the new model is still years away, the aircraft remains a relevant topic of discussion among analysts and industry enthusiasts due to its implications for the future of…",
+      "url": "https://simpleflying.com/when-will-delta-air-lines-debut-largest-boeing-787-dreamliner/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-18T08:00:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/compositefuelsage-20260805-144600.jpg"
+      "author": "Simple Flying Staff",
+      "published_at": "2026-08-19T09:15:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/787-dreamliner-largest.jpg"
     },
     {
-      "title": "Google buys Spirit Airlines data for $10m to train AI models",
-      "description": "The search giant’s winning bid of $10 million gives it access to a trove of emails, financial records and more. Google will acquire a massive cache of Spirit Airlines’ business records after its $10 million offer beat out other bidders in a bankruptcy auction. Mercor, an AI-training start-up, had…",
-      "url": "https://www.flightglobal.com/archive/2026/08/google-buys-spirit-airlines-data-for-10m-to-train-ai-models/",
+      "title": "Tyre marks at Munich runway end offer possible clues to Vietnam 787’s late rotation",
+      "description": "German investigation authority confirms tail-strike as Hanoi-bound twinjet laboured to become airborne. German investigation authority BFU has confirmed that the Vietnam Airlines Boeing 787-9 involved in a prolonged take-off roll at Munich struck its tail during a late lift-off. The aircraft,…",
+      "url": "https://www.flightglobal.com/archive/2026/08/tyre-marks-at-munich-runway-end-offer-possible-clues-to-vietnam-787s-late-rotation/",
       "source": "FlightGlobal",
-      "author": "Graham Rapier",
-      "published_at": "2026-08-17T22:01:47Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Spirit_Airbus_A320_N613NK_planform_view-480x384.jpg"
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-19T08:14:33Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Vietnam-787-incident-Munich-c-BFU-480x321.jpeg"
+    },
+    {
+      "title": "Japanese F-15 suffers landing gear collapse during touchdown in Okinawa",
+      "description": "The incident temporarily closed one of the two runways servicing commercial traffic at the island’s Naha airport. A Boeing F-15J fighter jet operated by the Japan Air Self-Defense Force (JASDF) experienced a landing gear collapse while landing on the island prefecture of Okinawa. Photos of the 18…",
+      "url": "https://www.flightglobal.com/archive/2026/08/japanese-f-15-suffers-landing-gear-collapse-during-landing-in-okinawa/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-18T20:54:19Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Mitsubishi_F-15J_takeoff_Naha_Air_Show_2018-2-480x320.jpg"
+    },
+    {
+      "title": "Hybrid-Electric Aircraft Trials Begin in Virginia, New Jersey, Pennsylvania",
+      "description": "The FAA on Tuesday said prototype hybrid-electric aircraft recently began a series of demonstration flights in Virginia, New Jersey, and Pennsylvania that are expected to continue for three years. Manassas, Virginia-based Electra, which conducted the flights using its EL2 Goldfinch demonstrator,…",
+      "url": "https://www.flyingmag.com/hybrid-electric-aircraft-trials-va-nj-pa/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-18T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1991 Beechcraft A36 Bonanza Is a Sharp ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1991 Beechcraft A36 Bonanza. Renowned…",
+      "url": "https://www.flyingmag.com/this-1991-beechcraft-a36-bonanza-is-a-sharp-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-18T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-beechcraft-a36-bonanza-for-sale-601820-9075cfd909cd0b83-800X600-1.jpg?w=1024"
+    },
+    {
+      "title": "Boeing Field Runway Scoured in Semiannual FOD Walk",
+      "description": "We came. We walked. We looked for trash—and were happy when little or none was found. Because trash on an active runway, which is known as FOD (foreign object debris), is dangerous. I was one of 100 civilian volunteers to turn out in Seattle on Saturday for the King County International…",
+      "url": "https://www.flyingmag.com/boeing-field-runway-scoured-in-semiannual-fod-walk/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-18T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Doran-gives-instructions-e1787053896555.jpg?w=1024"
     },
     {
       "title": "Cirrus Vision Jet Collides With Construction Equipment at Idaho Airport",
@@ -121,54 +148,18 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cirrus-sr20-g2-for-sale-601813-edc72b92041c4a44-800X600-1.jpg?w=1024"
     },
     {
-      "title": "We Fly: Stepping Up in Style With Daher Aircraft TBM 980",
-      "description": "Long family trips for our sons’ far-flung sporting events, and a drawn-out move across several states to a new home combined over the past year to put me behind the wheel of the car more often than at the controls of an airplane. Still, as always, I spent much of my driving time thinking about…",
-      "url": "https://www.flyingmag.com/we-fly-stepping-up-in-style-with-daher-aircraft-tbm-980/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-08-17T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Electric Airplane Maker Beta Sees Up to $50M Revenue in FY26",
-      "description": "Beta Technologies has not certified any of the electric aircraft it is developing at its facilities in Vermont. Yet the manufacturer expects to generate up to $50 million in revenue in fiscal year 2026. Beta on Wednesday announced its operating results for the second quarter of 2026, the highlight…",
-      "url": "https://www.flyingmag.com/electric-plane-maker-beta-50-million-revenue/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-15T12:00:00Z",
-      "image": null
-    },
-    {
       "title": "LAPP, AOPA Welcome Senators’ Opposition to Closing Burke Lakefront Airport",
       "description": "CLEVELAND—The Lakefront Airport Preservation Partnership (LAPP) and the Aircraft Owners and Pilots Association (AOPA) welcome today’s comments from Sens. Bernie Moreno (R-Ohio) and Jon Husted (R-Ohio) opposing the proposed closure of Burke Lakefront Airport.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/14/pr-lapp-aopa-welcome-senators-opposition-to-closing-burke-lakefront-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/14/pr-lapp-aopa-welcome-senators-opposition-to-closing-burke-lakefront-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-14T22:47:00Z",
       "image": null
     },
     {
-      "title": "This 1975 Beechcraft Baron B55 Is a Generously Updated ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Beechcraft Baron B55. Many…",
-      "url": "https://www.flyingmag.com/this-1975-beechcraft-baron-b55-is-a-generously-updated-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-08-14T13:05:54Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/baron2.jpg"
-    },
-    {
-      "title": "Miami Executive Airport Takes the Experimental Stage",
-      "description": "One of Florida’s busiest general aviation airports is dedicating a chunk of airspace to study the operation of eVTOL (electric vertical takeoff and landing) air taxis, autonomous drones, and other novel aviation technologies. Miami Executive Airport (KTMB) has one of the nation’s first agreements…",
-      "url": "https://www.flyingmag.com/miami-executive-airport-takes-the-experimental-stage/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-14T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
       "title": "North Carolina flights marked new chapter in EMS",
       "description": "After months of preparation and training, North Carolina paramedic Quinn Reece was ready on June 27 when a 911 call summoned her to fly the first advanced life support (ALS) response in the United States using an electric vertical takeoff and landing aircraft.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T22:18:54Z",
@@ -177,7 +168,7 @@
     {
       "title": "Pilots dispute Arizona's Falcon Field fee justification",
       "description": "AOPA, along with the Arizona Pilots Association (APA) and the Aviation Safety Advisory Group of Arizona (ASAG), submitted comments to the FAA pushing back on the city of Mesa’s defense of its financial methodology and rationale behind the implementation of landing fees at Falcon Field . The filing…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T21:42:00Z",
@@ -186,7 +177,7 @@
     {
       "title": "Colorado city ends yearslong effort to close airport",
       "description": "After at least six years of repeated efforts to close Boulder Municipal Airport , the city of Boulder, Colorado, is now moving to pursue new grant funds to maintain the airport—all but ensuring it will continue to play a key role in the community.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:47:03Z",
@@ -195,28 +186,10 @@
     {
       "title": "FAA finds Texas airport violated federal obligations",
       "description": "The FAA has found the sponsor of Pearland Regional Airport —a privately owned, public-use airport near Houston—in violation of four federal grant assurances after it sold airport property to a developer that is building hundreds of homes immediately adjacent to the airport.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:38:11Z",
-      "image": null
-    },
-    {
-      "title": "Pilots recount Chipmunk journey to AirVenture",
-      "description": "Women flying warbirds are rare. And seeing two together is nearly unheard of. Yet in July, pilots Katie Mack and Lisa Corker ferried the Canadian Aviation Museum’s de Havilland Chipmunks from Windsor, Ontario, to Oshkosh, Wisconsin, for EAA AirVenture.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/pilots-recount-chipmunk-journey-to-airventure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-12T00:20:01Z",
-      "image": null
-    },
-    {
-      "title": "Unique bush pilot race combines paddling, seaplane handling skills",
-      "description": "An unusual aero-nautical competition will once again pair pilots and paddlers on Moosehead Lake in Maine September 12, weather permitting.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/11/unique-bush-pilot-race-combines-paddling-seaplane-handling-skills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-11T17:43:16Z",
       "image": null
     }
   ]
