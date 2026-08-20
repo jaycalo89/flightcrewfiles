@@ -1,34 +1,160 @@
 {
-  "generated_at": "2026-08-19T13:43:17.365963+00:00",
+  "generated_at": "2026-08-20T14:00:53.373170+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 21,
+  "count": 23,
   "articles": [
     {
-      "title": "Identical Pay? The Real Salary Figures Of American, Delta & United Airlines' Widebody Captains",
-      "description": "Reaching the absolute pinnacle of the United States commercial aviation industry, commanding a heavy twin-aisle widebody across oceanic routes for the country's dominant legacy carriers, has long been portrayed as a deep corporate rivalry defined by competing paycheck offers. American Airlines ,…",
-      "url": "https://simpleflying.com/real-salaries-american-delta-united-airlines-widebody-captains/",
+      "title": "5 US Airport Terminals Serving More Passengers Than Originally Planned",
+      "description": "Commercial aviation in the US has rebounded strongly in recent years, placing renewed pressure on airport terminals that were designed for a much smaller traveling public. While many airports have announced ambitious redevelopment projects, several of today's busiest terminals continue to…",
+      "url": "https://simpleflying.com/us-airport-terminals-serving-more-passengers-orginally-planned/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-19T13:00:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/identical-pay-the-real-salary-figures-of-american-delta-united-airlines-widebody-captains.jpg"
+      "author": "Steven Walker",
+      "published_at": "2026-08-20T14:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/airport-terminals.png"
     },
     {
-      "title": "Why The Boeing 757 Is Still Irreplaceable 4 Decades Later",
-      "description": "The Boeing 757 is one of the most legendary airliners in history, beloved by enthusiasts and crews alike for its excellent performance and distinctive engine sound.",
-      "url": "https://simpleflying.com/video/why-the-boeing-757-is-still-irreplaceable-4-decades-later/",
+      "title": "1 Dead in Midair Involving Police Helicopter and Cessna",
+      "description": "One person was killed and two others injured in a midair collision between a Pennsylvania State Police helicopter and a Cessna 150. The accident happened just before 7 p.m. EDT Wednesday over Carlisle A i rport (N94) west of Harrisburg. Images of the accident released on social media show the…",
+      "url": "https://www.flyingmag.com/1-dead-in-midair-involving-police-helicopter-and-cessna/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-20T13:41:24Z",
+      "image": null
+    },
+    {
+      "title": "21-Hour Flights: Air India's 7 New Ultra-Long North American Routes [Full List]",
+      "description": "Air India continues to operate some exceptionally long services to North America. This is due to not flying over Pakistan and, due to the ongoing war, not being unable to fly over Iran too. The result continues to be an array of one-stop operations to North America, mainly stopping en route to…",
+      "url": "https://simpleflying.com/21-hour-flights-air-indias-7-new-ultra-long-north-american-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-20T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/477-air-india-airbus-a350-paddytakesphotos-_-shutterstock.jpg"
+    },
+    {
+      "title": "How United Airlines Is Out-Seating Its Business Class Competitor On Its Own Flagship SFO Route",
+      "description": "The battle between United Airlines and Singapore Airlines on the high-profile route between San Francisco International Airport (SFO) and Singapore Changi Airport (SIN) has traditionally been viewed as a contest of prestige. Singapore Airlines has historically held the better reputation advantage…",
+      "url": "https://simpleflying.com/how-united-airlines-outseating-business-class-competitor-own-flagship-sfo-route/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-20T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/how-united-airlines-is-out-seating-its-business-class-competitor-on-its-own-flagship-sfo-route.jpg"
+    },
+    {
+      "title": "How to Become a Corporate Pilot",
+      "description": "Beyond the hustle and bustle of a busy airport terminal, there is a whole other world of passenger aviation in our skies. Corporate aircraft and their pilots serve travelers all around the globe each and every day. Although it is easy to assume that being a pilot means working for an airline,…",
+      "url": "https://www.flyingmag.com/how-to-become-a-corporate-pilot/",
+      "source": "Flying Magazine",
+      "author": "Andrew Chen",
+      "published_at": "2026-08-20T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Retrospective: Why Qatar Airways Announced Then Abruptly Scrapped Its Las Vegas Plan",
+      "description": "Qatar Airways has an impressive network of long-haul destinations in the United States of America. Indeed, current scheduling data made available by Cirium shows that the oneworld member flies to 11 US cities from its main hub at Doha Hamad International Airport. However, a notable omission from…",
+      "url": "https://simpleflying.com/video/retrospective-why-qatar-airways-announced-then-abruptly-scrapped-its-las-vegas-plan/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-08-19T12:30:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/757-irreplaceable.jpg"
+      "published_at": "2026-08-20T12:31:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/qatar-las-vegas-never-launched.jpg"
     },
     {
-      "title": "Lufthansa’s first Starlink-equipped aircraft enters service",
-      "description": "German airline group is installing the SpaceX in-flight wi-fi service on all of its carriers’ aircraft. Lufthansa Group has installed SpaceX’s Starlink in-flight wi-fi service on its first aircraft, kicking off a programme that will see 850 jets operated by all of its airlines equipped with the…",
-      "url": "https://www.flightglobal.com/archive/2026/08/lufthansas-first-starlink-equipped-aircraft-enters-service/",
+      "title": "British Airways Restarts This 8-Hour Nonstop Route In 2 Months: See Flights Now",
+      "description": "Due to the ongoing war in Iran, British Airways has not operated to Dubai since February 2026. However, the countdown to the oneworld member's return continues. Flights remain scheduled to resume in November ahead of the all-important winter season with the highest demand.",
+      "url": "https://simpleflying.com/british-airways-restarts-this-8-hour-nonstop-route-in-2-months/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-20T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-boeing-787-10-on-stand-at-london-heathrow.jpg"
+    },
+    {
+      "title": "6 Cold War-Era Jets Still Training US Military Pilots In 2026",
+      "description": "While military aviation news spotlights the latest and greatest next-gen fighters, many of the training planes that prepare aviators to get into the cockpit of these advanced stealth jets are Cold War relics. That is beginning to change in 2026 with the gradual phase-out of antiquated airframes,…",
+      "url": "https://simpleflying.com/cold-war-era-jets-still-training-us-military-pilots-2026/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-20T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/6-cold-war-era-jets.png"
+    },
+    {
+      "title": "How Much Do US Marine Corps Pilots Make Compared To US Navy Pilots In 2026?",
+      "description": "If you want to be a pilot, the airlines are the typical route to build a career, and if you are dedicated to serving your country, there's also the US military. The United States Air Force is the branch that comes to mind for most people when considering military aviation, while the US Navy also…",
+      "url": "https://simpleflying.com/marine-corps-navy-pilot-pay-comparison/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-20T08:00:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/marine-corps-20260805-142311.jpg"
+    },
+    {
+      "title": "Cessna 150 Pilot Killed, 2 Troopers Hurt In Midair Crash With State Police Helicopter",
+      "description": "The pilot of a Cessna 150 was killed and two State Police troopers were hurt when the small plane collided with a police Bell 407 helicopter at Carlisle Airport, Pennsylvania, on Wednesday evening. Early reports suggest that the helicopter had been conducting routine training and was hovering a few…",
+      "url": "https://simpleflying.com/cessna-150-pennsylvania-state-police-helicopter-midair-collision/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-20T05:06:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/cessna-150-in-the-air.jpg"
+    },
+    {
+      "title": "A350F test aircraft emerges in distinctive ‘parcel’ paint scheme",
+      "description": "Fuselage design for initial freighter selected after competition. Airbus has unveiled the paint scheme on its first A350F aircraft, as the freighter edges towards flight testing . The initial flight-test airframe features a fuselage design representative of packaging, with labels and postal…",
+      "url": "https://www.flightglobal.com/archive/2026/08/a350f-test-aircraft-emerges-in-distinctive-parcel-paint-scheme/",
       "source": "FlightGlobal",
-      "author": "Kerry Reals",
-      "published_at": "2026-08-19T12:04:47Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Lufthansa-A320neo-Starlink-Installation-480x320.jpeg"
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-19T21:23:11Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/A350F-painted-c-Airbus-480x273.jpg"
+    },
+    {
+      "title": "Building a better preflight",
+      "description": "Rohith Velmurugan was working toward his commercial pilot certificate when he noticed how much of his training time was being spent on the ground.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/19/building-a-better-preflight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-19T20:03:16Z",
+      "image": null
+    },
+    {
+      "title": "WATCH: ‘Ultra-Quiet’ Electric Aircraft Engines Power First Piloted Flight",
+      "description": "An electric aircraft engine designed to reduce operational noise to a whisper is now powering piloted aircraft. Whisper Aero on Wednesday revealed that its “ultra-quiet” eQ250 electric ducted fan propulsion system is being put to the test in Tennessee under an FAA special airworthiness…",
+      "url": "https://www.flyingmag.com/ultraquiet-electric-aircraft-engine-first-flight/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-19T19:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Whisper-Aero-First-Flight-Horizontal-4-1.mp4"
+    },
+    {
+      "title": "National Aviation Day Observes Rich History of Flight",
+      "description": "Every year on August 19, National Aviation Day offers pilots and aviation enthusiasts a chance to celebrate the ability to take to the skies. Three men are responsible for the creation of the day: Orville and Wilbur Wright, who successfully achieved powered heavier-than-air-flight in 1903 at Kill…",
+      "url": "https://www.flyingmag.com/national-aviation-day-observes-rich-history-of-flight/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-19T18:30:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1998 Cessna 182S Skylane Is a Multi-Use ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1998 Cessna 182S Skylane. Regarded as…",
+      "url": "https://www.flyingmag.com/this-1998-cessna-182s-skylane-is-a-multi-use-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-19T17:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cessna-182s-skylane-for-sale-601840-a7fc3aa27db5ef68-800X600-1.jpg?w=800"
+    },
+    {
+      "title": "FLYING Launches New ‘Aviation Start’ Podcast",
+      "description": "FLYING is expanding its career coverage with the launch of Aviation Start , a new video podcast designed to help aspiring aviation professionals turn their interest in flight into a viable career. The show debuted Wednesday, August 19, in recognition of National Aviation Day . The annual observance…",
+      "url": "https://www.flyingmag.com/flying-launches-new-aviation-start-podcast/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-08-19T16:21:37Z",
+      "image": "https://www.youtube.com/embed/mYiWfxD8TIM"
+    },
+    {
+      "title": "Electric Aircraft Firm Beta, Operators Hold ‘Discussions on Larger Platforms’",
+      "description": "Electric aircraft manufacturer Beta Technologies is in “discussions on larger platforms” with operators, Simon Newitt, the company’s global head of sales and support, told FLYING . “We’re discussing with and listening to those operators as to what they want, and if they’re interested in larger…",
+      "url": "https://www.flyingmag.com/larger-electric-aircraft-beta-air-new-zealand/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-19T15:34:11Z",
+      "image": null
     },
     {
       "title": "Airline Pilots Called It ‘Rolling the Dice’",
@@ -40,117 +166,9 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Turkish Airlines Plans London City Flights: But How Will That Work?",
-      "description": "Turkish Airlines wants to add London City Airport (LCY) to its rapidly expanding UK network, potentially giving the carrier four separate London gateways. The Times reports that Chairman Murat Seker identified LCY as a future target while discussing the airline's longer-term expansion. Its London…",
-      "url": "https://simpleflying.com/turkish-airlines-plans-london-city-flights/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-08-19T11:11:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/268-turkish-airlines-boeing-737-max-8-insectworld-_-shutterstock.jpg"
-    },
-    {
-      "title": "How Pratt & Whitney's Military Adaptive Cycle Engine Could Answer CFM RISE On Boeing's 737 Successor",
-      "description": "Boeing is said to have begun planning for its next single-aisle aircraft . Set to succeed its Boeing 737 MAX series, the plane is slated to be a clean-sheet design aimed at directly rivaling the so-far dominant Airbus A321neo and its long-range variants. Even in spite of this, the jet ultimately…",
-      "url": "https://simpleflying.com/pratt-whitney-military-adaptive-cycle-engine-answer-cfm-rise-boeing-737-successor/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-19T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/pratt-whitney-s-military.png"
-    },
-    {
-      "title": "Airbus begins expanding Belfast site to allow higher A220 wing output",
-      "description": "Airframer aiming to reach 13-per-month build rate for twinjet in 2028. Airbus has commenced construction of an A220 wing plant extension in Belfast to support production ramp-up of the type. The airframer took over composite wing manufacture for the twinjet in Northern Ireland as a result of its…",
-      "url": "https://www.flightglobal.com/archive/2026/08/airbus-begins-expanding-belfast-site-to-allow-higher-a220-wing-output/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-19T10:45:58Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/A220-c-Airbus-480x312.jpeg"
-    },
-    {
-      "title": "Is It True That Some Pilots Land Hard On Purpose?",
-      "description": "Air travel can feel complex, especially during takeoff and landing, the two phases most passengers instinctively pay the most attention to. Of these, landing tends to invite the most scrutiny. When an aircraft touches down with a noticeable thud instead of a gentle glide, it’s completely natural to…",
-      "url": "https://simpleflying.com/true-pilots-land-hard-purpose/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-08-19T10:30:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-the-airbus-a350-900-s-main-landing-gear-has-fewer-tires-than-the-a350-1000.jpeg"
-    },
-    {
-      "title": "Here’s When Delta Air Lines Plans To Debut The Largest Boeing 787 Dreamliner",
-      "description": "Delta Air Lines recently ordered the Boeing 787-10, the largest member of the Dreamliner family. While the actual service entry of the new model is still years away, the aircraft remains a relevant topic of discussion among analysts and industry enthusiasts due to its implications for the future of…",
-      "url": "https://simpleflying.com/when-will-delta-air-lines-debut-largest-boeing-787-dreamliner/",
-      "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-08-19T09:15:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/787-dreamliner-largest.jpg"
-    },
-    {
-      "title": "Tyre marks at Munich runway end offer possible clues to Vietnam 787’s late rotation",
-      "description": "German investigation authority confirms tail-strike as Hanoi-bound twinjet laboured to become airborne. German investigation authority BFU has confirmed that the Vietnam Airlines Boeing 787-9 involved in a prolonged take-off roll at Munich struck its tail during a late lift-off. The aircraft,…",
-      "url": "https://www.flightglobal.com/archive/2026/08/tyre-marks-at-munich-runway-end-offer-possible-clues-to-vietnam-787s-late-rotation/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-19T08:14:33Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Vietnam-787-incident-Munich-c-BFU-480x321.jpeg"
-    },
-    {
-      "title": "Japanese F-15 suffers landing gear collapse during touchdown in Okinawa",
-      "description": "The incident temporarily closed one of the two runways servicing commercial traffic at the island’s Naha airport. A Boeing F-15J fighter jet operated by the Japan Air Self-Defense Force (JASDF) experienced a landing gear collapse while landing on the island prefecture of Okinawa. Photos of the 18…",
-      "url": "https://www.flightglobal.com/archive/2026/08/japanese-f-15-suffers-landing-gear-collapse-during-landing-in-okinawa/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-18T20:54:19Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Mitsubishi_F-15J_takeoff_Naha_Air_Show_2018-2-480x320.jpg"
-    },
-    {
-      "title": "Hybrid-Electric Aircraft Trials Begin in Virginia, New Jersey, Pennsylvania",
-      "description": "The FAA on Tuesday said prototype hybrid-electric aircraft recently began a series of demonstration flights in Virginia, New Jersey, and Pennsylvania that are expected to continue for three years. Manassas, Virginia-based Electra, which conducted the flights using its EL2 Goldfinch demonstrator,…",
-      "url": "https://www.flyingmag.com/hybrid-electric-aircraft-trials-va-nj-pa/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-18T19:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1991 Beechcraft A36 Bonanza Is a Sharp ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1991 Beechcraft A36 Bonanza. Renowned…",
-      "url": "https://www.flyingmag.com/this-1991-beechcraft-a36-bonanza-is-a-sharp-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-18T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-beechcraft-a36-bonanza-for-sale-601820-9075cfd909cd0b83-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "Boeing Field Runway Scoured in Semiannual FOD Walk",
-      "description": "We came. We walked. We looked for trash—and were happy when little or none was found. Because trash on an active runway, which is known as FOD (foreign object debris), is dangerous. I was one of 100 civilian volunteers to turn out in Seattle on Saturday for the King County International…",
-      "url": "https://www.flyingmag.com/boeing-field-runway-scoured-in-semiannual-fod-walk/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-18T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Doran-gives-instructions-e1787053896555.jpg?w=1024"
-    },
-    {
-      "title": "Cirrus Vision Jet Collides With Construction Equipment at Idaho Airport",
-      "description": "Authorities are investigating the collision of a Cirrus Vision Jet and a piece of construction equipment at Driggs-Reed Memorial Airport (KDIJ) in Idaho on Friday. The airport is a nontowered facility with a single runway aligned 04/22 that normally measures 7,301 feet by 100 feet. However, for…",
-      "url": "https://www.flyingmag.com/cirrus-vision-jet-collides-with-construction-equipment-at-idaho-airport/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-17T18:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2005 Cirrus SR20 G2 Is a Comfort-Cruising ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2005 Cirrus SR20 G2. By introducing a…",
-      "url": "https://www.flyingmag.com/this-2005-cirrus-sr20-g2-is-a-comfort-cruising-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-17T14:14:10Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cirrus-sr20-g2-for-sale-601813-edc72b92041c4a44-800X600-1.jpg?w=1024"
-    },
-    {
       "title": "LAPP, AOPA Welcome Senators’ Opposition to Closing Burke Lakefront Airport",
       "description": "CLEVELAND—The Lakefront Airport Preservation Partnership (LAPP) and the Aircraft Owners and Pilots Association (AOPA) welcome today’s comments from Sens. Bernie Moreno (R-Ohio) and Jon Husted (R-Ohio) opposing the proposed closure of Burke Lakefront Airport.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/14/pr-lapp-aopa-welcome-senators-opposition-to-closing-burke-lakefront-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/14/pr-lapp-aopa-welcome-senators-opposition-to-closing-burke-lakefront-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-14T22:47:00Z",
@@ -159,7 +177,7 @@
     {
       "title": "North Carolina flights marked new chapter in EMS",
       "description": "After months of preparation and training, North Carolina paramedic Quinn Reece was ready on June 27 when a 911 call summoned her to fly the first advanced life support (ALS) response in the United States using an electric vertical takeoff and landing aircraft.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/north-carolina-flights-marked-new-chapter-in-ems?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T22:18:54Z",
@@ -168,7 +186,7 @@
     {
       "title": "Pilots dispute Arizona's Falcon Field fee justification",
       "description": "AOPA, along with the Arizona Pilots Association (APA) and the Aviation Safety Advisory Group of Arizona (ASAG), submitted comments to the FAA pushing back on the city of Mesa’s defense of its financial methodology and rationale behind the implementation of landing fees at Falcon Field . The filing…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/pilots-dispute-falcon-field-fee-justification?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T21:42:00Z",
@@ -177,7 +195,7 @@
     {
       "title": "Colorado city ends yearslong effort to close airport",
       "description": "After at least six years of repeated efforts to close Boulder Municipal Airport , the city of Boulder, Colorado, is now moving to pursue new grant funds to maintain the airport—all but ensuring it will continue to play a key role in the community.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/colorado-city-ends-yearslong-effort-to-close-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:47:03Z",
@@ -186,7 +204,7 @@
     {
       "title": "FAA finds Texas airport violated federal obligations",
       "description": "The FAA has found the sponsor of Pearland Regional Airport —a privately owned, public-use airport near Houston—in violation of four federal grant assurances after it sold airport property to a developer that is building hundreds of homes immediately adjacent to the airport.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/13/faa-finds-texas-airport-violated-federal-obligations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-13T19:38:11Z",

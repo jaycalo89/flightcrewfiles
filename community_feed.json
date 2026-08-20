@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:43:30.492052+00:00",
+  "generated_at": "2026-08-20T14:01:06.812240+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Is this normal landing separation or reason for a go around?",
-      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
-      "points": 3,
-      "num_comments": 2,
+      "title": "Vx climb relationship with flap",
+      "url": "https://aviation.stackexchange.com/questions/115512/vx-climb-relationship-with-flap",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787004706
+      "created_utc": 1787223990
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Can propeller with chevrons reduce noise?",
-      "url": "https://aviation.stackexchange.com/questions/115498/can-propeller-with-chevrons-reduce-noise",
-      "points": 12,
-      "num_comments": 1,
+      "title": "What exactly does “controlling RVR” mean?",
+      "url": "https://aviation.stackexchange.com/questions/115508/what-exactly-does-controlling-rvr-mean",
+      "points": 3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786762527
+      "created_utc": 1787156679
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What's the typical parts management practice in General Aviation?",
-      "url": "https://aviation.stackexchange.com/questions/115504/whats-the-typical-parts-management-practice-in-general-aviation",
-      "points": -2,
-      "num_comments": 0,
+      "title": "Is this normal landing separation or reason for a go around?",
+      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
+      "points": 4,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786903420
+      "created_utc": 1787004706
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is this a tilting wing?",
-      "url": "https://aviation.stackexchange.com/questions/115496/is-this-a-tilting-wing",
-      "points": 8,
+      "title": "Can propeller with chevrons reduce noise?",
+      "url": "https://aviation.stackexchange.com/questions/115498/can-propeller-with-chevrons-reduce-noise",
+      "points": 12,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1786686495
+      "created_utc": 1786762527
     }
   ]
 }
