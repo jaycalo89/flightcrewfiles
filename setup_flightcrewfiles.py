@@ -674,13 +674,58 @@ def fetch_uap_news():
 # Step 3: sitemap.xml
 # --------------------------------------------------------------------------
 
+# Matches a robots meta tag whose content list includes "noindex", with the
+# name/content attributes in either order.
+NOINDEX_META_RE = re.compile(
+    r"""<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])"""
+    r"""(?=[^>]*\bcontent\s*=\s*["'][^"']*\bnoindex\b)[^>]*>""",
+    re.IGNORECASE,
+)
+
+
+def page_is_noindex(path):
+    """True if the page's <head> carries a robots meta tag containing noindex.
+
+    Only the head is scanned so that body copy or inline JS mentioning
+    "noindex" cannot cause a page to be dropped from the sitemap.
+    """
+    try:
+        with open(path, "r", encoding="utf-8", errors="replace") as f:
+            markup = f.read()
+    except OSError as exc:
+        log(f"WARN   Could not read {os.path.basename(path)} for noindex check: {exc}")
+        return False
+
+    head = re.split(r"</head\s*>", markup, maxsplit=1, flags=re.IGNORECASE)[0]
+    return bool(NOINDEX_META_RE.search(head))
+
+
 def generate_sitemap():
-    """Regenerate sitemap.xml from every .html file in the site root."""
-    html_files = sorted(
+    """Regenerate sitemap.xml from every indexable .html file in the site root.
+
+    Pages carrying <meta name="robots" content="noindex"> are excluded:
+    submitting a URL that then refuses indexing sends search engines
+    contradictory signals.
+    """
+    all_html = sorted(
         os.path.basename(p) for p in glob.glob(os.path.join(SCRIPT_DIR, "*.html"))
     )
-    if not html_files:
+    if not all_html:
         raise RuntimeError("No .html files found to build sitemap.xml from")
+
+    html_files = []
+    excluded = []
+    for filename in all_html:
+        if page_is_noindex(os.path.join(SCRIPT_DIR, filename)):
+            excluded.append(filename)
+        else:
+            html_files.append(filename)
+
+    if excluded:
+        log(f"       Excluded {len(excluded)} noindex page(s): {', '.join(excluded)}")
+
+    if not html_files:
+        raise RuntimeError("Every .html file is noindex; refusing to write an empty sitemap.xml")
 
     today = datetime.now().strftime("%Y-%m-%d")
 
