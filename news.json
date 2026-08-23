@@ -1,88 +1,88 @@
 {
-  "generated_at": "2026-08-22T12:11:48.671502+00:00",
+  "generated_at": "2026-08-23T19:18:34.819134+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 17,
   "articles": [
     {
-      "title": "The Baby Queen: Why Did Boeing Build The 747SP?",
-      "description": "The Boeing 747 is perhaps the most famous subsonic airliner of all time. With its distinctive partial upper deck, four engines, and historical provenance, the 747 is an icon of aviation. Boeing has produced the 747 in six major variants: the 747-100, 747-200, 747-300, 747-400, 747-8, and 747SP,…",
-      "url": "https://simpleflying.com/why-did-boeing-build-the-747sp/",
+      "title": "Breeze Airways Suspends These 4 Routes: See Affected Flights Now",
+      "description": "Breeze Airways is set to make a handful of temporary cuts to its network next month, suspending four routes to and from Florida for most of September. Elsewhere, three more Breeze routes will see capacity cuts next month, although all will at least continue to operate to some degree. Two of these…",
+      "url": "https://simpleflying.com/breeze-airways-route-suspensions/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-22T10:15:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-baby-queen-why-did-boeing-build-the-747sp.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-23T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/copy-of-35-breeze-airways-airbus-a220-robin-guess-_-shutterstock.jpg"
     },
     {
-      "title": "'4 To 5 Passengers Burned': Laptop Catches Fire On American Airlines Flight",
-      "description": "A passenger's laptop caught fire in the cabin of an American Airlines flight from Hartsfield-Jackson Atlanta International Airport (ATL) to Dallas/Fort Worth International Airport (DFW) on Friday, with one of the pilots telling air traffic controllers that up to five people on board may have been…",
-      "url": "https://simpleflying.com/american-airlines-laptop-fire-passengers-burned/",
+      "title": "Only 109 Miles: United Airlines Launches New Extremely Short Route [Map]",
+      "description": "Earlier this month, United Airlines began flying between Los Angeles International Airport (LAX) and Meadows Field Airport (BFL) in Bakersfield for the first time since August 2014. The carrier will serve this short route daily using Embraer E175 jets operated by its feeder partner, SkyWest…",
+      "url": "https://simpleflying.com/united-airlines-new-lax-bakersfield-flights/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-23T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/united_e175_in_hartford.jpg"
+    },
+    {
+      "title": "Five Fighter Jet Production Lines Still Running Decades After Their First Flight",
+      "description": "Five fighter jet designs are still rolling off assembly lines today, years after their first prototypes ever left the ground. This list ranks those five production lines by the exact size of that gap, from a 37-year-old Russian-designed airframe that only go back into production in India after a…",
+      "url": "https://simpleflying.com/five-fighter-jet-production-lines-still-running/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-08-23T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/f16-fight-falcon-20260810-170311.jpg"
+    },
+    {
+      "title": "A Look At The Salaries Of US Navy Pilots In 2026",
+      "description": "At the inception of US Naval aviation, the Navy ironically had an aviator before it acquired its first aircraft. Lieutenant Theodore G. Ellyson received orders to begin training in 1910 at the Glenn Curtiss aviation camp in San Diego. One year later, in July 1911, the Navy received its first…",
+      "url": "https://simpleflying.com/salaries-of-us-navy-pilots-2026/",
+      "source": "Simple Flying",
+      "author": "Christian P. Martin",
+      "published_at": "2026-08-23T18:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/us-navy-pilots.jpg"
+    },
+    {
+      "title": "United Airlines Stuck With Hundreds Of Boeing 737 MAX 10 Lie-Flat Seats It May Never Install",
+      "description": "United Airlines CEO Scott Kirby says the carrier has hundreds of lie-flat business class seats sitting in storage after the Boeing 737 MAX 10 aircraft they were ordered for was delayed by years. While the MAX 10 is finally expected to obtain certification in the near future, United faces a dilemma…",
+      "url": "https://simpleflying.com/united-airlines-boeing-737-max-10-lie-flat-seats-stuck/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-08-22T08:24:24Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/731-american-airlines-airbus-a321-the-global-guy-_-shutterstock-1.jpg"
+      "published_at": "2026-08-23T17:10:51Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/united-airlines-boeing-737-max-10-flying.jpg"
     },
     {
-      "title": "Loyalty Logic: The Finance Tech Company Building Its Own Airport Lounges With Plaza Premium Group",
-      "description": "On August 13, European fintech company Revolut announced its first Revolut Lounge at Copenhagen Airport (CPH), with an opening planned for 2027. The rapidly growing company now has more than 75 million customers worldwide and has applied for a US national bank charter as part of its strategic North…",
-      "url": "https://simpleflying.com/finance-tech-company-building-own-airport-lounges-plaza-premium-group/",
+      "title": "The $472 Million Contract That Just Extended A 1960s Helicopter's Life Into The 2040s",
+      "description": "The Boeing CH-47 Chinook is the US Army's only tandem-rotor heavy-lift helicopter and is the US' second-largest after the Sikorsky CH-53. Vertol initially developed it, but it is now built by Boeing. Over 1,200 examples have been built, of which around 500 are in US Army inventory, with many others…",
+      "url": "https://simpleflying.com/472-million-contract-extended-1960s-helicopters-life-2040s/",
       "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-08-22T08:00:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/loyalty-logic-the-finance-tech-company-building-its-own-airport-lounges-with-plaza-premium-group.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-08-23T16:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/the-472-million-contract-that-just-extended-a-1960s-helicopter-s-life-into-the-2040s.jpg"
     },
     {
-      "title": "Why The Boeing 787's Gear Retraction System Is Unlike Any Other Commercial Aircraft",
-      "description": "The landing gear on a commercial aircraft normally follows a remarkably predictable sequence after take-off - the aircraft becomes airborne, the pilots confirm a positive rate of climb, the landing gear lever is moved to UP, the doors open, and the gear disappears into the fuselage. On the Boeing…",
-      "url": "https://simpleflying.com/why-boeing-787-gear-retraction-system-unlike-any-other-commercial-aircraft/",
+      "title": "Why Boeing Handed Its Entire Autonomous Flight Future To Archer Aviation",
+      "description": "Earlier this August, Archer Aviation announced an all-stock deal through which it has acquired Wisk Aero, SkyGrid, and Insitu. These are all Boeing subsidiaries focused on autonomous flight. As part of the deal, Archer Aviation is also set to construct an end-to-end 'physical AI' platform with…",
+      "url": "https://simpleflying.com/why-boeing-sold-archer/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-08-22T05:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/boeing-787.png"
+      "author": "Louis Hardiman",
+      "published_at": "2026-08-23T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/autonomous-flight.jpg"
     },
     {
-      "title": "Why Doesn't The Boeing 737 Have Landing Gear Doors?",
-      "description": "The Boeing 737 has a set of two wheels for its nose landing gear and two sets of two wheels for the main landing gear. This is a common layout for single-aisle planes, and it is also shared by the Airbus A320 , for example. What isn't shared with the Airbus, however, is how the gear functions. The…",
-      "url": "https://simpleflying.com/boeing-737-has-no-landing-gear-doors/",
+      "title": "Here's Why Amsterdam Is Delta Air Lines' #1 Long-Haul Destination For Flights",
+      "description": "As one of the largest airlines in the world by network and fleet size, Delta Air Lines places a considerable emphasis on long-haul flights. When it comes to the carrier's most popular intercontinental destination by frequency, you don't need to look any further than Amsterdam Schiphol Airport (AMS)…",
+      "url": "https://simpleflying.com/delta-air-lines-amsterdam-popularity-analysis/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-22T04:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/349-united-airlines-boeing-737-max-8-harrisonkim1-_-shutterstock.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-23T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/120-delta-air-lines-airbus-a330-900-spyros-vasileiou-_-shutterstock.jpg"
     },
     {
-      "title": "Out Of Service: Delta Air Lines Boeing 737-900ER Engine Issue Forces Immediate Atlanta Return",
-      "description": "A Delta Air Lines Boeing 737-900ER has been forced to return to Hartsfield-Jackson Atlanta International Airport (ATL) shortly after departing for Raleigh–Durham International Airport (RDU) on Thursday, August 20, after experiencing mechanical issues. The plane arrived safely back at the busy…",
-      "url": "https://simpleflying.com/delta-air-lines-boeing-737-900er-engine-issue-immediate-atlanta-return/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-08-22T03:23:49Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/boeing_737-9gp-er-wl-_-n949dz-_msn_38732-_ln_4484-_-1-16-2026-1.jpg"
-    },
-    {
-      "title": "The 78-Inch Lie-Flat Seat That Costs 60% Less Than Business Class & Why The FAA Won't Approve It",
-      "description": "Founder of Zephyr Aerospace, Jeffrey O'Neill, was inspired to design a radical new seating concept for airliners as he was struggling to sleep aboard the world's longest commercial flight. It was less than halfway through the 19-plus hour journey from Singapore to New York aboard a Singapore…",
-      "url": "https://simpleflying.com/78-inch-lie-flat-seat-60-percent-less-business-class-faa-wont-approve-it/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-22T02:00:24Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/78-inch-lie-flat-seat.png"
-    },
-    {
-      "title": "Why Boeing Skipped EASA Approval For The 737 MAX 7 For Now",
-      "description": "Boeing has secured US certification for the Boeing 737 MAX 7 without simultaneously pursuing European validation, a decision that reflects the aircraft's unusually concentrated customer base rather than a rejection of European regulatory oversight. The Federal Aviation Administration issued the…",
-      "url": "https://simpleflying.com/why-boeing-skipped-easa-approval-737-max-7-now/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-08-22T01:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/easa-approval.png"
-    },
-    {
-      "title": "How A Hardware Store Leaf Blower Helped Boeing Unblock The 777X's $15 Billion Certification Jam",
-      "description": "It has been more than a decade since Boeing launched the 777X family. The planemaker launched the program with a strong order book, with roughly 250 orders and commitments from four customers across Europe and the Middle East. At the time, the 777X looked like a relatively straightforward…",
-      "url": "https://simpleflying.com/how-hardware-store-leaf-blower-helped-boeing-unblock-777x-certification-jam/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-08-22T00:00:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/how-a-hardware-store-leaf-blower-helped-boeing-unblock-the-777x-s-15-billion-certification-jam.jpg"
+      "title": "Enugu E170 overran after landing far down wet runway during tailwind approach",
+      "description": "Nigerian inquiry finds twinjet crossed threshold at height of more than 90ft. Nigerian investigators have disclosed that an Enugu Air Embraer 170 touched down more than two-thirds of the way along Benin airport’s runway before being badly damaged as it overran . The aircraft crossed the threshold…",
+      "url": "https://www.flightglobal.com/archive/2026/08/enugu-e170-overran-after-landing-far-down-wet-runway-during-tailwind-approach/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-22T19:58:18Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Enugu-E170-accident-Benin-c-NSIB-480x319.jpg"
     },
     {
       "title": "8 Killed in Charter Plane Crash in Alaska",
@@ -146,15 +146,6 @@
       "author": null,
       "published_at": "2026-08-20T18:24:33Z",
       "image": null
-    },
-    {
-      "title": "This 2005 Cessna 550 Citation Bravo Is a Ready-to-Fly ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2005 Cessna 550 Citation Bravo. The…",
-      "url": "https://www.flyingmag.com/this-2005-cessna-550-citation-bravo-is-a-ready-to-fly-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-20T15:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-jet-cessna-550-citation-bravo-for-sale-601835-62e849023bb6bc1d-800X600-1.jpg?w=800"
     },
     {
       "title": "Building a better preflight",
