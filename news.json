@@ -1,79 +1,88 @@
 {
-  "generated_at": "2026-08-23T19:18:34.819134+00:00",
+  "generated_at": "2026-08-24T13:28:49.365135+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 17,
   "articles": [
     {
-      "title": "Breeze Airways Suspends These 4 Routes: See Affected Flights Now",
-      "description": "Breeze Airways is set to make a handful of temporary cuts to its network next month, suspending four routes to and from Florida for most of September. Elsewhere, three more Breeze routes will see capacity cuts next month, although all will at least continue to operate to some degree. Two of these…",
-      "url": "https://simpleflying.com/breeze-airways-route-suspensions/",
+      "title": "Southwest Flight Attendant Dies In 24-Story Hawaii Hotel Fall",
+      "description": "Last week, a Southwest Airlines flight attendant was tragically found dead in Hawaii, after reportedly falling 24 floors from the balcony of her hotel room while staying in the city of Honolulu on a layover. Jenny Lupton was 50 years old, and her family are asking for an investigation into her…",
+      "url": "https://simpleflying.com/southwest-airlines-hawaii-flight-attendant-death/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-08-23T19:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/copy-of-35-breeze-airways-airbus-a220-robin-guess-_-shutterstock.jpg"
+      "published_at": "2026-08-24T13:21:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2821353929_cropped.jpg"
     },
     {
-      "title": "Only 109 Miles: United Airlines Launches New Extremely Short Route [Map]",
-      "description": "Earlier this month, United Airlines began flying between Los Angeles International Airport (LAX) and Meadows Field Airport (BFL) in Bakersfield for the first time since August 2014. The carrier will serve this short route daily using Embraer E175 jets operated by its feeder partner, SkyWest…",
-      "url": "https://simpleflying.com/united-airlines-new-lax-bakersfield-flights/",
+      "title": "6 Largest Airports In The US By Passenger Volume",
+      "description": "There is a wide range of ways to measure an airport's size. One can look at the number of flight movements, the land size of an airport, the number of destinations, or the total number of passengers passing through an airport in a given year. The latter is what we'll be doing in this list of the…",
+      "url": "https://simpleflying.com/largest-airports-us-passenger-volume/",
+      "source": "Simple Flying",
+      "author": "Nick Pisters",
+      "published_at": "2026-08-24T11:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/volume.jpg"
+    },
+    {
+      "title": "British Airways Launches New 24-Hour Very Long Route In Only 5 Months [Map]",
+      "description": "They say that time flies. It often does in many ways, including for airline routes. For example, Air India will finally take off from Mumbai for Toronto in October , Finnair will begin flying to Australia in two months , and Qantas will launch scheduled service to Las Vegas at the end of the year .",
+      "url": "https://simpleflying.com/british-airways-launches-new-24-hour-very-long-route-in-only-5-months/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-24T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-boeing-787-9-parked-up1.jpg"
+    },
+    {
+      "title": "Hydraulic maintenance details sought after Air India A320neo in-flight upset",
+      "description": "Twinjet experienced altitude excursion after briefly losing all three hydraulic circuits in cruise. Airbus has sought details of hydraulic system maintenance carried out on an Air India A320neo after indications that a hydraulic issue preceded an in-flight upset involving the aircraft earlier this…",
+      "url": "https://www.flightglobal.com/archive/2026/08/hydraulic-maintenance-details-sought-after-air-india-a320neo-in-flight-upset/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-24T10:27:22Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/VT-EXO-c-AirTeamImages-480x320.jpeg"
+    },
+    {
+      "title": "Is It True That US Air Force Pilots With The Highest Ranks Earn Less Than Commercial Pilots?",
+      "description": "At the headline level, the answer to this complex question is yes. The highest-ranking United States Air Force pilots generally earn significantly less in direct cash compensation than the best-paid commercial airline pilots. In 2026, military basic pay for O-7 through O-10 officers is capped at…",
+      "url": "https://simpleflying.com/true-usaf-pilots-highest-ranks-earn-less-than-commercial-pilots/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-08-24T09:45:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/us-air-force-pilots.jpg"
+    },
+    {
+      "title": "2 Former Pan Am & Japan Airlines Boeing 747s Are Now Luxury Hotel Suites In Malaysia",
+      "description": "Avgeeks visiting the Malaysian city of Johor Bahru, located in the south of the Asian country near its border with Singapore, now have a rather exciting option when it comes to accommodation. Indeed, as recently reported by Live & Let's Fly, the 1975 Avenue & Hotel has converted two Boeing 747s…",
+      "url": "https://simpleflying.com/pan-am-japan-airlines-boeing-747-luxury-hotel-suites-malaysia/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-08-23T19:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/united_e175_in_hartford.jpg"
+      "published_at": "2026-08-24T09:17:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/myphotojal-02_cropped.jpg"
     },
     {
-      "title": "Five Fighter Jet Production Lines Still Running Decades After Their First Flight",
-      "description": "Five fighter jet designs are still rolling off assembly lines today, years after their first prototypes ever left the ground. This list ranks those five production lines by the exact size of that gap, from a 37-year-old Russian-designed airframe that only go back into production in India after a…",
-      "url": "https://simpleflying.com/five-fighter-jet-production-lines-still-running/",
+      "title": "The Striking Differences Pilots Notice Between The F-35 Lightning II & F-22 Raptor",
+      "description": "At the beginning of the 21st century, these are among the most advanced fighter jets ever built: the F-22 Raptor and the F-35 Lightning II, both created by Lockheed Martin . On paper, they share a lot: stealth, supersonic performance, and cutting-edge avionics, but once you jump into the cockpit,…",
+      "url": "https://simpleflying.com/striking-dfferences-notice-pilots-f-35-f-22/",
       "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-08-23T19:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/f16-fight-falcon-20260810-170311.jpg"
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-24T08:59:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/striking-differences-1.jpg"
     },
     {
-      "title": "A Look At The Salaries Of US Navy Pilots In 2026",
-      "description": "At the inception of US Naval aviation, the Navy ironically had an aviator before it acquired its first aircraft. Lieutenant Theodore G. Ellyson received orders to begin training in 1910 at the Glenn Curtiss aviation camp in San Diego. One year later, in July 1911, the Navy received its first…",
-      "url": "https://simpleflying.com/salaries-of-us-navy-pilots-2026/",
-      "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-08-23T18:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/us-navy-pilots.jpg"
+      "title": "S7 A320 wrong-runway incident spurs Russian ban on visual approaches during construction work",
+      "description": "Federal regulator takes action after twinjet landed on closed parallel at Makhachkala. Russian federal regulators are restricting crews from conducting visual approaches to airports where runways undergoing construction or repair might be confused with those in operation. The decision follows a…",
+      "url": "https://www.flightglobal.com/archive/2026/08/s7-a320-wrong-runway-incident-spurs-russian-ban-on-visual-approaches-during-construction-work/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-24T07:50:04Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/VP-BCP-Anna-Zvereva-Creative-Commons-SA2.0-480x325.jpeg"
     },
     {
-      "title": "United Airlines Stuck With Hundreds Of Boeing 737 MAX 10 Lie-Flat Seats It May Never Install",
-      "description": "United Airlines CEO Scott Kirby says the carrier has hundreds of lie-flat business class seats sitting in storage after the Boeing 737 MAX 10 aircraft they were ordered for was delayed by years. While the MAX 10 is finally expected to obtain certification in the near future, United faces a dilemma…",
-      "url": "https://simpleflying.com/united-airlines-boeing-737-max-10-lie-flat-seats-stuck/",
+      "title": "How One Aircraft's Arrival In Europe Preceded A String Of NATO Orders",
+      "description": "The arrival of aircraft 26901 in Portugal in October 2023 marked a significant moment for Embraer and the KC-390 Millennium, because the aircraft was not simply another military transport joining a national fleet. It was the first KC-390 to enter service outside Brazil and the first example…",
+      "url": "https://simpleflying.com/one-aircraft-launched-europe-nato-orders/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-23T17:10:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/united-airlines-boeing-737-max-10-flying.jpg"
-    },
-    {
-      "title": "The $472 Million Contract That Just Extended A 1960s Helicopter's Life Into The 2040s",
-      "description": "The Boeing CH-47 Chinook is the US Army's only tandem-rotor heavy-lift helicopter and is the US' second-largest after the Sikorsky CH-53. Vertol initially developed it, but it is now built by Boeing. Over 1,200 examples have been built, of which around 500 are in US Army inventory, with many others…",
-      "url": "https://simpleflying.com/472-million-contract-extended-1960s-helicopters-life-2040s/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-23T16:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/the-472-million-contract-that-just-extended-a-1960s-helicopter-s-life-into-the-2040s.jpg"
-    },
-    {
-      "title": "Why Boeing Handed Its Entire Autonomous Flight Future To Archer Aviation",
-      "description": "Earlier this August, Archer Aviation announced an all-stock deal through which it has acquired Wisk Aero, SkyGrid, and Insitu. These are all Boeing subsidiaries focused on autonomous flight. As part of the deal, Archer Aviation is also set to construct an end-to-end 'physical AI' platform with…",
-      "url": "https://simpleflying.com/why-boeing-sold-archer/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-23T15:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/autonomous-flight.jpg"
-    },
-    {
-      "title": "Here's Why Amsterdam Is Delta Air Lines' #1 Long-Haul Destination For Flights",
-      "description": "As one of the largest airlines in the world by network and fleet size, Delta Air Lines places a considerable emphasis on long-haul flights. When it comes to the carrier's most popular intercontinental destination by frequency, you don't need to look any further than Amsterdam Schiphol Airport (AMS)…",
-      "url": "https://simpleflying.com/delta-air-lines-amsterdam-popularity-analysis/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-23T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/120-delta-air-lines-airbus-a330-900-spyros-vasileiou-_-shutterstock.jpg"
+      "author": "Steven Walker",
+      "published_at": "2026-08-24T07:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/nato-orders.jpg"
     },
     {
       "title": "Enugu E170 overran after landing far down wet runway during tailwind approach",
@@ -121,15 +130,6 @@
       "image": null
     },
     {
-      "title": "Roll and pitch dynamics of crashed medical Learjet raise possibility of spatial disorientation",
-      "description": "Ambulance aircraft suffered in-flight upset after entering low cloud in darkness just after departure from Philadelphia. US investigators probing the fatal medical Learjet 55 crash in Philadelphia are exploring potential spatial orientation as part of an inquiry complicated by the absence of…",
-      "url": "https://www.flightglobal.com/archive/2026/08/significance-of-trim-settings-in-medical-learjet-55-crash-probe-yet-to-become-clear/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-21T11:16:52Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/XA-UCI-wreckage-c-NTSB-480x348.jpg"
-    },
-    {
       "title": "FLYING Contributor Max Trescott Joins Flight Instructor Hall of Fame",
       "description": "The National Association of Flight Instructors (NAFI) has inducted Max Trescott, host of the popular Aviation News Talk podcast and regular FLYING Magazine contributor since 2024, into the Flight Instructor Hall of Fame. Trescott, who has 50 years of flying experience, four airline transport pilot…",
       "url": "https://www.flyingmag.com/max-trescott-flight-instructor-hall-of-fame/",
@@ -141,7 +141,7 @@
     {
       "title": "Senators, FAA administrator oppose Burke Lakefront closure",
       "description": "Ohio Sens. Bernie Moreno and Jon Husted, along with FAA Administrator Bryan Bedford, say they oppose Cleveland Mayor Justin Bibb’s plan to close Burke Lakefront Airport , likely ending the yearslong effort.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/20/key-lawmakers-oppose-burke-lakefront-closure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/20/key-lawmakers-oppose-burke-lakefront-closure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-20T18:24:33Z",
@@ -150,7 +150,7 @@
     {
       "title": "Building a better preflight",
       "description": "Rohith Velmurugan was working toward his commercial pilot certificate when he noticed how much of his training time was being spent on the ground.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/19/building-a-better-preflight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/august/19/building-a-better-preflight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-19T20:03:16Z",
