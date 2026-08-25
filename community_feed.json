@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:28:54.672295+00:00",
+  "generated_at": "2026-08-25T13:31:21.204499+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What are the pros/cons of a split fuselage tail boom?",
-      "url": "https://aviation.stackexchange.com/questions/115516/what-are-the-pros-cons-of-a-split-fuselage-tail-boom",
-      "points": 1,
-      "num_comments": 0,
+      "title": "Pros/cons of different air intake positions for a 2 engine counter rotating turboprop STOBAR AWACS/transport",
+      "url": "https://aviation.stackexchange.com/questions/115518/pros-cons-of-different-air-intake-positions-for-a-2-engine-counter-rotating-turb",
+      "points": 3,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787570640
+      "created_utc": 1787594997
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Vx climb relationship with flap",
-      "url": "https://aviation.stackexchange.com/questions/115512/vx-climb-relationship-with-flap",
+      "title": "What are the pros/cons of a split fuselage tail boom?",
+      "url": "https://aviation.stackexchange.com/questions/115516/what-are-the-pros-cons-of-a-split-fuselage-tail-boom",
       "points": 0,
-      "num_comments": 2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787223990
+      "created_utc": 1787570640
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What exactly does “controlling RVR” mean?",
-      "url": "https://aviation.stackexchange.com/questions/115508/what-exactly-does-controlling-rvr-mean",
-      "points": 5,
+      "title": "Is this normal landing separation or reason for a go around?",
+      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
+      "points": 6,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787156679
+      "created_utc": 1787004706
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is this normal landing separation or reason for a go around?",
-      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
-      "points": 6,
+      "title": "What exactly does “controlling RVR” mean?",
+      "url": "https://aviation.stackexchange.com/questions/115508/what-exactly-does-controlling-rvr-mean",
+      "points": 5,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787004706
+      "created_utc": 1787156679
     }
   ]
 }
