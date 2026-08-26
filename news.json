@@ -1,16 +1,178 @@
 {
-  "generated_at": "2026-08-25T13:31:11.825345+00:00",
+  "generated_at": "2026-08-26T13:54:35.673022+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 23,
   "articles": [
     {
-      "title": "The 5 Last Airline Loyalty Programs That Still Haven't Switched To Dynamic Award Pricing",
-      "description": "Dynamic award pricing: a new tactic that airlines use within their loyalty programs, defining ticket redemption rates that change sporadically based on cash prices, demand, and availability. This has been a popular strategy used by airlines with loyalty programs, driven by advances in data…",
-      "url": "https://simpleflying.com/loyalty-program-original-points/",
+      "title": "Airport Worker Dies Of Malaria After Mosquito Arrives On Flight: 5 Others Infected",
+      "description": "An employee at Frankfurt Airport (FRA) in Germany has sadly died after contracting Malaria amid a wider outbreak of the disease at the facility. The infectious disease is known for being transmitted by mosquito bites, with the offending animals thought to have arrived in Germany by plane. The…",
+      "url": "https://simpleflying.com/frankfurt-airport-malaria-outbreak/",
       "source": "Simple Flying",
-      "author": "Ethan Qualle",
-      "published_at": "2026-08-25T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/1b1f215b8c740deb7ddc187f20d9439c817cfff2.jpeg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-08-26T13:52:31Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2491225271_cropped.jpg"
+    },
+    {
+      "title": "Close Calls Can Provide Pilots With Clear Lessons",
+      "description": "Near-midair encounters occupy a peculiar place in aviation. They are not common events, but they are not rare either. Ask almost any experienced pilot and you will eventually hear a story about another aircraft appearing suddenly, far closer than anyone would prefer. General aviation operates in a…",
+      "url": "https://www.flyingmag.com/close-calls-can-provide-pilots-with-clear-lessons/",
+      "source": "Flying Magazine",
+      "author": "John Barry",
+      "published_at": "2026-08-26T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "British Airways Launches New 14-Hour Airbus A380 Route Next Week: See Flights Now",
+      "description": "British Airways is one of ten scheduled operators of the Airbus A380. Ch-aviation shows that the oneworld member has 12 superjumbos, which is the same number as Singapore Airlines . BA's examples are being retrofitted with a lower-capacity, higher-premium, 421-seat layout .",
+      "url": "https://simpleflying.com/british-airways-launches-new-14-hour-airbus-a380-route-next-week/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-26T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/british-airways-airbus-a380-custom-thumbnail.jpg"
+    },
+    {
+      "title": "Why Do Airlines Fly Some Of Their Largest Aircraft On The Shortest Routes?",
+      "description": "Sending a 400-seat, multi-million-dollar widebody jet engineered for 15-hour ocean crossings on a 45-minute domestic hop appears operationally absurd on paper. Every single day, airlines across Asia, Europe, and the Americas do exactly that, using heavy twin-aisle aircraft on schedules that cover…",
+      "url": "https://simpleflying.com/why-airlines-fly-some-largest-aircraft-shortest-routes/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-26T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/why-do-airlines-fly-some-of-their-largest-aircraft-on-the-shortest-routes.jpg"
+    },
+    {
+      "title": "The United States' 10 Oldest Airports Still In Operation",
+      "description": "We have all been to the busy terminals of big international airports , and some of us are frequent visitors to smaller general aviation airfields. Many may have noticed that some airports are living museums, where you can find numerous artifacts and memorabilia that reflect the place's rich…",
+      "url": "https://simpleflying.com/us-oldest-airports-operational/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-08-26T10:15:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-united-states-10-oldest-airports-still-in-operation.jpg"
+    },
+    {
+      "title": "Airbus faces twin strike votes at Belfast A220 plant",
+      "description": "GMB and Unite unions to ballot members after rejecting latest pay offer. Two trade unions representing workers at the Airbus plant in Belfast are to be balloted for strike action in a dispute over pay. Acquired from Spirit AeroSystems in late 2025 , the Belfast factory produces wings and…",
+      "url": "https://www.flightglobal.com/archive/2026/08/airbus-faces-twin-strike-votes-at-belfast-a220-plant/",
+      "source": "FlightGlobal",
+      "author": "Dominic Perry",
+      "published_at": "2026-08-26T10:10:28Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Belfast-wings-c-Shutterstock-480x255.jpg"
+    },
+    {
+      "title": "United Airlines Left Passengers Outside On Tarmac For 5 Hours After Crew Timed Out Mid-Taxi",
+      "description": "United Airlines passengers flying from Edinburgh Airport (EDI) to Chicago O'Hare International Airport (ORD) last month endured a difficult delay brought on by a compounding series of setbacks. Firstly, the transatlantic flight was forced to divert to Austin Straubel International Airport (GRB) in…",
+      "url": "https://simpleflying.com/united-airlines-leaves-passengers-outside-tarmac-5-hours/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-08-26T09:03:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/019-united-airlines-boeing-757-200-michael-derrer-fuchs-gingchen-_-shutterstock.jpg"
+    },
+    {
+      "title": "Dubai Airports looks to second-half recovery after Iran war hammered H1 results",
+      "description": "Passenger numbers and aircraft movements declined by almost a third in the first six months of this year. Dubai Airports expects to see “ongoing recovery” of airline networks in the second half of this year, after the effects of the Iran war caused passenger numbers and aircraft movements to drop…",
+      "url": "https://www.flightglobal.com/archive/2026/08/dubai-airports-looks-to-second-half-recovery-after-iran-war-hammered-h1-results/",
+      "source": "FlightGlobal",
+      "author": "Kerry Reals",
+      "published_at": "2026-08-26T08:59:01Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Dubai-International-Airport-480x270.jpeg"
+    },
+    {
+      "title": "Kenya Airways seeks to increase fleet availability while fuel adds to margin pressure",
+      "description": "Flag-carrier re-introduces widebody capacity but posts heavy interim loss. Kenya Airways is prioritising a capital raise, along with restoration of its fleet and improved aircraft utilisation, as it strives to overcome heavy losses . The carrier turned in a net loss of KShs16.1 billion ($124…",
+      "url": "https://www.flightglobal.com/archive/2026/08/kenya-airways-seeks-to-increase-fleet-availability-while-fuel-adds-to-margin-pressure/",
+      "source": "FlightGlobal",
+      "author": "David Kaminski-Morrow",
+      "published_at": "2026-08-26T07:07:36Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Kenya-Airways-CEO-c-Kenya-Airways-480x319.jpg"
+    },
+    {
+      "title": "HAL, Safran sign contract for powerful new helicopter engine",
+      "description": "The Aravalli engine will power the helicopter that replaces India’s long-serving Mi-17s. Hindustan Aeronautics (HAL) and Safran Helicopter Engines have entered an into contract with their Indian joint venture SAFHAL for the Aravalli engine that will power the planned 13t Indian Multi-Role…",
+      "url": "https://www.flightglobal.com/helicopters-defence/2026/08/hal-safran-sign-contract-for-powerful-new-helicopter-engine/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-26T06:36:41Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/HAL_Safran-480x254.jpg"
+    },
+    {
+      "title": "TSA Scraps Its Secretive Gold+ Program, But Airport Security Is Going Private Anyway",
+      "description": "On August 24, Tampa International Airport (TPA) withdrew from the proposed rollout of a new private security screening program under the oversight of the Transportation Security Administration, dubbed the 'Gold+' program. Tampa was one of the first three airports slated to pilot a rollout that…",
+      "url": "https://simpleflying.com/tsa-scraps-gold-plus-program-airport-security-privatization/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-26T06:17:09Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/members-of-the-transportation-security-administration-honor-guard-from-the-nashville-airport-post-the-colors.jpg"
+    },
+    {
+      "title": "Max Power & Chaos: Why Some Retired Pilots Say Go-Around Procedures Need Rethinking",
+      "description": "Aborted landings are a relatively rare occurrence in commercial aviation, with only one to three go-around maneuvers occurring per 1,000 approaches. Still, this rarely used maneuver is a vital skill for flight safety in the business of passenger air travel. In 2026, there is a debate ongoing about…",
+      "url": "https://simpleflying.com/some-retired-pilots-go-around-procedures-rethinking/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-26T05:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/max-power-chaos.png"
+    },
+    {
+      "title": "Qantas' CEO Wished He Had A 'Time Machine' To Undo This Boeing Decision",
+      "description": "If you read about the development of the Boeing 777 , you'll notice something strange. Boeing partnered with eight major airlines for feedback about what they wanted in its next-generation widebody, slotting in between the 747 and 767. As such, it consulted with All Nippon Airways, American…",
+      "url": "https://simpleflying.com/qantas-ceo-wants-time-machine-undo-boeing-decison/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-26T01:45:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/qantas-ceo.jpg"
+    },
+    {
+      "title": "FAA’s supersonic plan draws fire over sonic-boom metric",
+      "description": "Using ‘overpressure’ to regulate supersonic flight has spurred opposition from environmental groups; concern has even arisen within the industry despite broad support. Opposition has arisen to the Federal Aviation Administration’s (FAA) proposal to lift the longstanding US ban on civilian…",
+      "url": "https://www.flightglobal.com/archive/2026/08/faas-supersonic-plan-draws-fire-over-sonic-boom-metric/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-08-25T21:43:58Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/xb-1-first-flight-3-take-off-480x270.jpg"
+    },
+    {
+      "title": "SpaceX’s Falcon 9 Phaseout Could Have Ripple Effect for Pilots",
+      "description": "SpaceX has signaled that it will one day phase out its workhorse Falcon 9 launch vehicle for the company’s much larger Starship rocket, a move that carries major implications for other users of the National Airspace System (NAS). SpaceX CEO Elon Musk wrote Sunday on social media that once…",
+      "url": "https://www.flyingmag.com/spacex-falcon-9-starship-ripple-effect-pilots/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-25T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "A road that led to aviation",
+      "description": "Ana Komar is the chief pilot and owner of Fly Badlands , a one-woman, one-airplane business flying tourists and anyone else who wants to learn about and experience the rugged, awe-inspiring beauty of the Badlands in South Dakota from above.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/25/a-road-that-led-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-08-25T17:38:46Z",
+      "image": null
+    },
+    {
+      "title": "How Lightspeed’s Award-Winning Headsets Stay Ahead of the Cockpit",
+      "description": "Every July, Wittman Regional Airport (KOSH) becomes the one place on Earth where a pilot can compare notes on carbon monoxide alarms, Bluetooth pairing, and ear-seal foam density all in the same five-minute conversation. EAA AirVenture Oshkosh 2026 is a great opportunity for pros around the…",
+      "url": "https://www.flyingmag.com/how-lightspeeds-award-winning-headsets-stay-ahead-of-the-cockpit/",
+      "source": "Flying Magazine",
+      "author": "Matt Herr",
+      "published_at": "2026-08-25T16:30:00Z",
+      "image": "https://www.youtube.com/embed/DnEDATv3Yps"
+    },
+    {
+      "title": "Boeing secures $130bn contract for global F-15 upgrades and sustainment",
+      "description": "The “Eagle Crest” programme will cover F-15s in service with several countries. Boeing has been awarded a sweeping contract worth more than $130 billion for sustainment and modernisation of the global F-15 fighter fleet. The indefinite-delivery/indefinite-quantity contract was confirmed by the…",
+      "url": "https://www.flightglobal.com/archive/2026/08/boeing-secures-130bn-contract-for-global-f-15-upgrades-and-sustainment/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-25T15:56:41Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/9099507-480x320.jpg"
+    },
+    {
+      "title": "Eyes in the Sky: How Pilots Assist ATC During Fire Season",
+      "description": "Have you ever been flying and had the control tower or ATC ask if you see a fire or oil slick, ask you to check for an ELT signal in a certain area, or ask if you have seen a downed aircraft? When those types of questions are asked, someone is having—or is about to have—a very bad day. It…",
+      "url": "https://www.flyingmag.com/eyes-in-the-sky-how-pilots-assist-atc-during-fire-season/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-25T14:00:00Z",
+      "image": null
     },
     {
       "title": "This 1964 Piper PA-28-140 Cherokee Cruiser Is a Reliable ‘AircraftForSale’ Top Pick",
@@ -22,138 +184,12 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-piper-pa-28-140-cherokee-cruiser-for-sale-601816-9b36c615f681cfb7-800X600-1.jpg?w=1024"
     },
     {
-      "title": "LAX Caterer Serving 15 Airlines Faces Mold, Maggot And Cockroach Allegations",
-      "description": "An airline catering company that supplies in-flight meals to at least 15 carriers at Los Angeles International Airport is under scrutiny due to allegations of poor hygiene and working conditions.",
-      "url": "https://simpleflying.com/video/lax-caterer-serving-15-airlines-faces-mold-maggot-and-cockroach-allegations/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-25T12:31:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/lax-catering-nightmare.jpg"
-    },
-    {
-      "title": "United Airlines Announces 11 Massive New Nonstop Routes To Europe: See All Flights Now",
-      "description": "United Airlines has unveiled a considerable 11 routes to Europe, all of which will commence next summer. Showing continued highly exciting network creativity , some of the additions are of historical importance. United will either provide the only transatlantic passenger service or such flights…",
-      "url": "https://simpleflying.com/united-airlines-announces-10-new-nonstop-routes-to-europe-see-all-flights-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-25T11:55:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/91114_1577155978.jpg"
-    },
-    {
-      "title": "The Future Of Aviation? Why Rolls-Royce Filed A Patent For A Hydrogen Engine System",
-      "description": "Propulsion technology has steadily evolved over the past century, starting from piston engines all the way to the present era of turbofan jet engines. However, innovation is always taking place behind the scenes, and the industry could be on the cusp of introducing a new form of propulsion that…",
-      "url": "https://simpleflying.com/rolls-royce-filed-patent-hydrogen-electric-engine-systems/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-08-25T11:27:52Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/10/the-future-of-aviation-rolls-royce-files-patent-for-hydrogen-engine-system.jpg"
-    },
-    {
-      "title": "Singapore Airlines Has Axed Airbus A380 Flights On 11 Routes: Full List",
-      "description": "Singapore Airlines was the launch customer of the Airbus A380. Ch-aviation shows that the Star Alliance member continues to have 12 frames, each with 471 seats in a four-class layout. A higher-premium, 379-seat configuration was previously available.",
-      "url": "https://simpleflying.com/singapore-airlines-has-axed-airbus-a380-flights-on-11-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-25T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/singapore-airlines-a380-lifting-off-from-zurich1.jpg"
-    },
-    {
-      "title": "Why Airbus & Boeing Noses Look So Different",
-      "description": "In this video, we take a look at why Airbus and Boeing aircraft have such different nose shapes, how aerodynamics influence their designs, why Boeing's newest aircraft are moving away from its traditional look, and what is actually hidden inside the nose of every modern jetliner.",
-      "url": "https://simpleflying.com/video/why-airbus-boeing-noses-look-so-different/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-08-25T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/61_lh_how-airbus-noses-differ-to-boeings_h_site-copy.jpg"
-    },
-    {
-      "title": "The 5 Most Punctual Airports In The World",
-      "description": "Air travel can be extremely stressful, and one of the most common causes of disruptions stems from the airport. Depending on weather, airspace congestion, airfield congestion, staffing, and more, flights can often be delayed for reasons unrelated to the airline or the aircraft. This is fairly…",
-      "url": "https://simpleflying.com/5-most-punctual-airports-world/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-25T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/punctual-airports.png"
-    },
-    {
-      "title": "Singapore’s homegrown eVTOL completes flight testing",
-      "description": "Trials took place in Germany in July, capping off three years of research and development. Singapore’s Nanyang Technological University (NTU) has completed flight testing of the country’s homegrown electric vertical take-off and landing (eVTOL) aircraft programme. Two demonstrators – one with an 8m…",
-      "url": "https://www.flightglobal.com/aircraft-programmes/2026/08/singapores-homegrown-evtol-completes-flight-testing/",
-      "source": "FlightGlobal",
-      "author": "Alfred Chua",
-      "published_at": "2026-08-25T10:26:14Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/NTU-eVTOL-Germany-480x319.jpg"
-    },
-    {
-      "title": "Policy Change? What’s The Latest With American Airlines & Carry-On Bags?",
-      "description": "American Airlines instituted a new policy change for its boarding process, which took effect in October of last year. Shortly afterward, the airline made the decision to begin the elimination of its physical carry-on size checking stations at airport gates. American hopes to make the boarding…",
-      "url": "https://simpleflying.com/policy-change-american-airlines-carry-on-bags-whats-the-latest/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-25T10:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/policy.jpg"
-    },
-    {
-      "title": "Who Really Pays For Pilot Raises? How Labor Costs Reach Ticket Prices",
-      "description": "America’s Big Three carriers alone implemented pay rises for their pilots worth almost $27 billion in 2023. Multi-year deals in each case, aimed at aligning salaries among the trio, mean Delta Air Lines , United Airlines , and American Airlines are still navigating incrementally increasing pilot…",
-      "url": "https://simpleflying.com/pay-pilot-raises-labor-costs-reach-ticket-prices/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-25T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/who-really-pays-for-pilot-raises-how-labor-costs-reach-ticket-prices.jpg"
-    },
-    {
-      "title": "MC-21 participates in runway opening for Chechen capital airport",
-      "description": "Twinjet prototype features at high-profile event as Grozny undergoes modernisation. One of the prototype Yakovlev MC-21-310s has featured at an event marking the opening of a new runway at Grozny airport, in the capital of the Chechen republic. The airport – whose modernisation has included a new…",
-      "url": "https://www.flightglobal.com/archive/2026/08/mc-21-participates-in-runway-opening-for-chechen-capital-airport/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-25T06:30:06Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/MC-21-Grozny-c-United-Aircraft-480x295.jpeg"
-    },
-    {
-      "title": "American Airlines Will Open Its Exclusive First Class Dining Rooms To Business Class",
-      "description": "The premium American Airlines Flagship lounges at Dallas/Fort Worth International Airport (DFW) and Miami International Airport (MIA) are opening access to customers traveling in Flagship Business Plus and Business for the first time. The sit-down dining venues will be open to flyers on long-haul…",
-      "url": "https://simpleflying.com/american-airlines-flagship-first-dining-opens-business-class/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-25T05:58:02Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/american-airlines-boeing-777-200.jpg"
-    },
-    {
       "title": "Textron Aviation Appoints New CEO Ahead of Planned Restructuring",
       "description": "Textron Aviation is shaking up its leadership ahead of its parent company’s planned restructuring of its businesses. Textron on Monday said it appointed Brian Rohloff as president and CEO of Textron Aviation, which confirmed that Rohloff’s predecessor, Ron Draper, plans to retire. The leadership…",
       "url": "https://www.flyingmag.com/textron-aviation-new-ceo-rohloff-restructuring/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
       "published_at": "2026-08-24T18:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Ascend Flight Training Summit Aims to Transform Pilot and Instructor Education",
-      "description": "It is a given that most pilots who aspire to a job at the airlines build their flight experience as certificated flight instructors. Working as a CFI is seen as a stepping stone, and over the past 10 years that has created a culture where pilots acquire hours but not so much knowledge and skill.…",
-      "url": "https://www.flyingmag.com/ascend-flight-training-summit-aims-to-transform-pilot-and-instructor-education/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-24T15:30:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2006 Cirrus SR22 G2 Is an STC-Upgraded ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2006 Cirrus SR22 G2. Renowned for its…",
-      "url": "https://www.flyingmag.com/this-2006-cirrus-sr22-g2-is-an-stc-upgraded-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-24T14:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cirrus-sr22-g2-for-sale-601836-ffd8610fc8d2550b-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "8 Killed in Charter Plane Crash in Alaska",
-      "description": "Authorities in Alaska are investigating the crash of a chartered aircraft in a remote part of the state that killed all eight people on board. The aircraft, a Cessna 441, was chartered by the U.S. Army Corps of Engineers for travel to Cape Newenham Long Range Radar Site Airport, approximately 450…",
-      "url": "https://www.flyingmag.com/8-killed-in-charter-plane-crash-in-alaska/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-21T18:14:51Z",
       "image": null
     },
     {
