@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:54:44.730266+00:00",
+  "generated_at": "2026-08-27T14:20:02.863452+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Pros/cons of different air intake positions for a 2 engine counter rotating turboprop STOBAR AWACS/transport",
-      "url": "https://aviation.stackexchange.com/questions/115518/pros-cons-of-different-air-intake-positions-for-a-2-engine-counter-rotating-turb",
-      "points": 5,
+      "title": "What to do if ceiling drops while in control zone?",
+      "url": "https://aviation.stackexchange.com/questions/115527/what-to-do-if-ceiling-drops-while-in-control-zone",
+      "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787594997
+      "created_utc": 1787783546
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "What are the pros/cons of a split fuselage tail boom?",
-      "url": "https://aviation.stackexchange.com/questions/115516/what-are-the-pros-cons-of-a-split-fuselage-tail-boom",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Pros/cons of different air intake positions for a 2 engine counter rotating turboprop STOBAR AWACS/transport",
+      "url": "https://aviation.stackexchange.com/questions/115518/pros-cons-of-different-air-intake-positions-for-a-2-engine-counter-rotating-turb",
+      "points": 5,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787570640
+      "created_utc": 1787594997
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Is this normal landing separation or reason for a go around?",
-      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
-      "points": 6,
-      "num_comments": 2,
+      "title": "What are the pros/cons of a split fuselage tail boom?",
+      "url": "https://aviation.stackexchange.com/questions/115516/what-are-the-pros-cons-of-a-split-fuselage-tail-boom",
+      "points": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787004706
+      "created_utc": 1787570640
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "What exactly does “controlling RVR” mean?",
-      "url": "https://aviation.stackexchange.com/questions/115508/what-exactly-does-controlling-rvr-mean",
-      "points": 5,
+      "title": "Is this normal landing separation or reason for a go around?",
+      "url": "https://aviation.stackexchange.com/questions/115505/is-this-normal-landing-separation-or-reason-for-a-go-around",
+      "points": 6,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787156679
+      "created_utc": 1787004706
     }
   ]
 }
