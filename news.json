@@ -1,8 +1,143 @@
 {
-  "generated_at": "2026-08-27T14:19:55.109367+00:00",
+  "generated_at": "2026-08-28T12:59:44.740485+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 20,
   "articles": [
+    {
+      "title": "Desperation? Strong Sense Of Entitlement? Women Run Onto Tarmac To 'Catch' Missed Flight",
+      "description": "Here’s a fun story for you: Some time in mid-august this video surfaced of two women running to catch their missed flight! It’s clearly an Aeroflot A320 aircraft, with reports indicating that the incident took place at Moscow's Sheremetyevo International Airport.",
+      "url": "https://simpleflying.com/video/desperation-strong-sense-of-entitlement-women-run-onto-tarmac-to-catch-missed-flight/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-08-28T12:28:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/russianwomen-missed-flight.jpg"
+    },
+    {
+      "title": "Exploring the Corner Case Approach for a Pilot",
+      "description": "LNAV/VNAV minimums are a bit of a mystery to most U.S. pilots. That’s probably because they’re rarely encountered, except at the relatively few airports with RNAV (GPS) approaches that have LNAV/VNAV minimums but no LPV minimums. However, as will be explained, I encountered them while flying an…",
+      "url": "https://www.flyingmag.com/exploring-the-corner-case-approach-for-a-pilot/",
+      "source": "Flying Magazine",
+      "author": "Max Trescott",
+      "published_at": "2026-08-28T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Heart takes stock after X-1 first flight before committing to further sorties",
+      "description": "Developer continues to analyse data from maiden test, but focus is already turning to its next aircraft, which should take to the skies in 2028. Heart Aerospace has yet to decide when, or even if, its all-electric X-1 aircraft will fly again following the demonstrator’s successful maiden sortie on…",
+      "url": "https://www.flightglobal.com/north-america/2026/08/heart-takes-stock-after-x-1-first-flight-before-committing-to-further-sorties/",
+      "source": "FlightGlobal",
+      "author": "Dominic Perry",
+      "published_at": "2026-08-28T11:05:37Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/x1-636-480x320.jpg"
+    },
+    {
+      "title": "British Airways Has Axed Airbus A380 Flights On 8 Routes Over The Years: Full List",
+      "description": "British Airways has 12 Airbus A380s, although not all are currently active. Registered as G-XLEA, ch-aviation shows that the first frame was delivered in July 2013. The inaugural commercial service took place the following month from London Heathrow Airport (LHR) to Frankfurt Airport (FRA) for crew…",
+      "url": "https://simpleflying.com/british-airways-has-axed-airbus-a380-flights-on-8-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-08-28T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-a380-mock-up1.jpg"
+    },
+    {
+      "title": "The Small European Airports Quietly Spending Mega-Hub Money To Become Aviation Powerhouses",
+      "description": "During the hub-and-spoke era of aviation, there were two types of airport. We had megahubs like London Heathrow Airport (LHR) which would receive jumbo jets flying in hundreds of passengers from around the world. Regional aircraft would then transport these passengers to their final destination.",
+      "url": "https://simpleflying.com/small-european-airports-quietly-spending-mega-hub-money-aviation-powerhouses/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-08-28T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/small-european-airports.png"
+    },
+    {
+      "title": "The Airline That Introduced Private Suite Doors To Business Class",
+      "description": "At the ITB Berlin trade show in March 2017, Qatar Airways unveiled Qsuite and completely changed the trajectory of premium travel. By introducing a sliding privacy door in business class, the carrier erased the traditional boundary between the business cabin and the exclusivity of first class. In…",
+      "url": "https://simpleflying.com/airline-introduced-private-suite-doors-to-business-class/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-28T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/the-airline-that-introduced-private-suite-doors-to-business-class.jpg"
+    },
+    {
+      "title": "South Korea looks to get P-3CKs back in the air after 2025 crash",
+      "description": "Investigators never established definite cause of May 2025 P-3CK fatal accident, which claimed the lives of four crew. South Korea’s navy will commence test flights of its Lockheed P-3CK Orion anti-submarine warfare (ASW) aircraft, setting the stage to end a grounding in place since a fatal May…",
+      "url": "https://www.flightglobal.com/fixed-wing/2026/08/south-korea-looks-to-get-p-3cks-back-in-the-air-after-2025-crash/",
+      "source": "FlightGlobal",
+      "author": "Greg Waldron",
+      "published_at": "2026-08-28T07:12:55Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/PXL_20231017_042503231-480x360.jpg"
+    },
+    {
+      "title": "Delta Air Lines Passenger Reportedly Flushes iPhone Down Toilet Amid Cross-Country Flight",
+      "description": "A passenger reported an iPhone being flushed down the toilet midair aboard Delta Air Lines flight 777 on Wednesday. The lavatory incident took place while the Boeing 757-200 was flying from Harry Reid International Airport (LAS) to Hartsfield-Jackson Atlanta International Airport (ATL), as The New…",
+      "url": "https://simpleflying.com/delta-air-lines-passenger-flushes-iphone-toilet-cross-country-flight/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-08-28T06:22:59Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/delta-n669dn-boeing-757-200-in-atlanta.jpg"
+    },
+    {
+      "title": "Skycouch To Skynest: The Airlines That Sell Economy Beds As An Alternative To Business Class",
+      "description": "Travelers have historically faced difficult trade-offs between cost and comfort on long-haul flights. A conventional economy class ticket has naturally always been the cheapest option, but the usual lack of space or recline arguably amounts to a non-financial price paid in terms of comfort. On the…",
+      "url": "https://simpleflying.com/s/airlines-sell-economy-beds-alternative-business-class/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-08-28T05:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/skycouch-to-skynest.png"
+    },
+    {
+      "title": "The Baby Queen: Why Did Boeing Build The 747SP?",
+      "description": "The Boeing 747 is perhaps the most famous subsonic airliner of all time. With its distinctive partial upper deck, four engines, and historical provenance, the 747 is an icon of aviation. Boeing has produced the 747 in six major variants: the 747-100, 747-200, 747-300, 747-400, 747-8, and 747SP,…",
+      "url": "https://simpleflying.com/boeing-build-747sp-why/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-08-28T01:45:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-baby-queen-why-did-boeing-build-the-747sp.jpg"
+    },
+    {
+      "title": "Piper PA-24 Crashes Off Alaska Coast, Killing 4",
+      "description": "A Piper PA-24-260 Comanche crashed off the coast of Alaska on Wednesday, killing all four occupants, according to officials. Per a news release from state troopers with the Alaska Department of Public Safety, the small airplane departed Merrill Field Airport (PAMR) in Anchorage and was bound for…",
+      "url": "https://www.flyingmag.com/piper-pa-24-crash-alaska-kills-4/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-27T20:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Atlantic Aviation Valued Close to $10B With Private Equity Injection",
+      "description": "Apollo Global Management said Thursday that its managed funds have taken a “significant interest” in Atlantic Aviation, which operates one of the world’s largest FBO networks. Apollo said the deal values Atlantic at nearly $10 billion. Atlantic offers fueling, maintenance, deicing, hangar leasing,…",
+      "url": "https://www.flyingmag.com/fbo-atlantic-aviation-10b-apollo-investment/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-27T19:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Boeing rolls out second RAF Wedgetail in full livery",
+      "description": "RAF chief says 737-based airborne early warning jet will soon enter UK service. Boeing has rolled out the UK Royal Air Force’s second E-7A Wedgetail surveillance aircraft in its final paint scheme. The 737-based airborne early warning and control (AEW&C) jet (registration WT002) has been undergoing…",
+      "url": "https://www.flightglobal.com/archive/2026/08/boeing-rolls-out-second-raf-wedgetail-in-full-livery/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-27T18:20:48Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/RAF-second-E-7-Wedgetail-480x261.jpg"
+    },
+    {
+      "title": "Electra, Finland’s Capital to Study Off-Airport ‘Access Points’ Bound for U.S.",
+      "description": "Hybrid-electric “ultra short” aircraft developer Electra in July partnered with FBO Signature Aviation to explore “access points” for its flagship EL9, which is designed for takeoff and landing with only 150 feet of ground roll. Now, the manufacturer is working with Finland’s capital to study the…",
+      "url": "https://www.flyingmag.com/electra-finland-helsinki-aircraft-study/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-27T16:30:00Z",
+      "image": null
+    },
+    {
+      "title": "What Pilots Often Miss When Reviewing Their Benefits",
+      "description": "Open enrollment rolls around every fall, and it’s usually accompanied by a stack of PDFs and deadlines. A lot of pilots handle the process as quickly as they can, re-electing the same plan and same coverage levels as last year simply because that’s what’s already there. That’s the habit Allworth…",
+      "url": "https://www.flyingmag.com/what-pilots-often-miss-when-reviewing-their-benefits/",
+      "source": "Flying Magazine",
+      "author": "Matt Herr",
+      "published_at": "2026-08-27T15:15:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
+    },
     {
       "title": "This 1986 SOCATA TB-21 Trinidad Is an Invested ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1986 SOCATA TB-21 Trinidad. Widely…",
@@ -11,42 +146,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-08-27T14:15:32Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-socata-tb-21-trinidad-for-sale-601974-62f322506e042849-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "The Marine One Incident Over Washington DC Revealed A Critical Gap In The FAA's Post-Collision Helicopter Rule",
-      "description": "On August 4, 2026, Marine One and an Envoy Air regional jet briefly shared the airspace over the Potomac River near Ronald Reagan Washington National Airport (DCA), despite new FAA procedures designed specifically to prevent commercial aircraft from operating near the presidential helicopter.…",
-      "url": "https://simpleflying.com/marine-one-incident-washington-dc-reveal-critical-gap-faa-post-collision-helicopter-rule/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-08-27T14:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/faa-s-post-collision.jpg"
-    },
-    {
-      "title": "Discover Airlines to enter UK market with three new routes",
-      "description": "Lufthansa Group unit will launch flights to Bristol, Glasgow and Inverness in 2027. German leisure carrier Discover Airlines will add the UK to its network for the first time next summer with the launch of seasonal flights to Bristol, Glasgow and Inverness. The Lufthansa Group unit will begin a…",
-      "url": "https://www.flightglobal.com/archive/2026/08/discover-airlines-to-enter-uk-market-with-three-new-routes/",
-      "source": "FlightGlobal",
-      "author": "Kerry Reals",
-      "published_at": "2026-08-27T13:50:21Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Discover-Airlines-A320-480x251.jpg"
-    },
-    {
-      "title": "American Airlines Launches 6 Massive New Nonstop Routes To Europe [List & Map]",
-      "description": "American Airlines has announced six new routes to Europe, some of which were previously identified . The disclosure came a few days after United Airlines added 11 routes across the North Atlantic . When will Delta Air Lines join the party?",
-      "url": "https://simpleflying.com/american-airlines-announces-6-new-nonstop-routes-to-europe-explore-flights-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-27T13:40:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/816-american-airlines-boeing-777-200-austin-deppe-_-shutterstock.jpg"
-    },
-    {
-      "title": "Faces Of The Airline: The Strict Beauty Rules Flight Attendants Formerly Had No Choice But To Follow",
-      "description": "Flight attendants and Cabin Crew have long been the face of the airlines and are expected to have high standards of presentation. This is partly for safety reasons and compliance, but also for professional discipline. It is also important for brand identity, so that the uniform often becomes…",
-      "url": "https://simpleflying.com/strict-beauty-rules-fight-attendants-formerly-no-choice-follow/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-08-27T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/faces-of-the-airline-the-strict-beauty-rules-flight-attendants-formerly-had-no-choice-but-to-follow.jpg"
     },
     {
       "title": "Dolly Parton International: State Rep Supports Bill Renaming Nashville Airport",
@@ -58,33 +157,6 @@
       "image": null
     },
     {
-      "title": "Air India A320neo Lost Critical Flight Controls For 4 Seconds In 300ft Plunge, Airbus Says",
-      "description": "24 people were left injured after an Air India Airbus A320neo flight from Phuket to Delhi lost key flight controls. The service, flight AI2379 on August 4th 2026, has prompted the planemaker to request checks on the airplane's hydraulics, sensors, and wiring. According to Reuters, Airbus' initial…",
-      "url": "https://simpleflying.com/video/air-india-a320neo-lost-critical-flight-controls-for-4-seconds-in-300ft-plunge-airbus-says/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-27T12:28:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/air-india-a320neo-drop.jpg"
-    },
-    {
-      "title": "FAA targets Lycoming piston pins after two engine failures",
-      "description": "Operators will need to inspect engines and replace affected components before further flight. The Federal Aviation Administration (FAA) is responding to an engine-failure risk potentially affecting nearly 1,000 Lycoming O-235, O-540 and IO-540 piston engines. The agency on 26 August ordered…",
-      "url": "https://www.flightglobal.com/airframers/2026/08/faa-targets-lycoming-piston-pins-after-two-engine-failures/",
-      "source": "FlightGlobal",
-      "author": "Jon Hemmerdinger",
-      "published_at": "2026-08-27T12:01:52Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/tomascubero_671087-480x320.jpg"
-    },
-    {
-      "title": "This Is How Much Fuel An Airbus A350-1000 Consumes During Takeoff",
-      "description": "Every time you watch an Airbus A350-1000 lurch forward at the start of its takeoff roll, you are witnessing one of the most fuel-intensive moments of the entire flight. That brief, thunderous sprint from brake release to liftoff demands maximum thrust from two of the most powerful and efficient…",
-      "url": "https://simpleflying.com/airbus-a350-1000-fuel-consumption-takeoff/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-08-27T12:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/595-virgin-atlantic-airbus-a350-1000-markus-mainka-_-shutterstock.jpg"
-    },
-    {
       "title": "How to Become a Navy Pilot",
       "description": "Imagine the thunderous roar of a fighter jet as it takes off from an aircraft carrier, defying gravity and launching into the open sky. Or think of a tactical helicopter hovering over the ocean, lowering a search and rescue crew. U.S. Navy pilots perform challenging missions like these daily in…",
       "url": "https://www.flyingmag.com/how-to-become-a-navy-pilot-2/",
@@ -92,51 +164,6 @@
       "author": "Andrew Chen",
       "published_at": "2026-08-27T12:00:00Z",
       "image": null
-    },
-    {
-      "title": "The New Category Of Cockpit Incidents Where The Aircraft Does Exactly What Pilots Told It To",
-      "description": "'Automation' surprises occur when a pilot is startled by their aircraft's automated behavior, even if an error isn't made. Issues occur when crews misread automation feedback and fail to predict the jet's responses. These safety issues are most prevalent in edge cases, for example during…",
-      "url": "https://simpleflying.com/the-new-category-of-cockpit-incidents-where-the-aircraft-does-exactly-what-pilots-told-it-to/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-27T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/the-new-category-of-cockpit-incidents-where-the-aircraft-does-exactly-what-pilots-told-it-to.jpg"
-    },
-    {
-      "title": "The Aircraft Set To Replace Delta Air Lines’ Boeing 767s",
-      "description": "Delta Air Lines is still flying a veteran fleet of 57 Boeing 767 widebody twinjets that have been in service since the 1980s. Today, the 767-300ER cadre of 36 planes is nearly 30 years old on average, while the 21 767-400ERs are more than 25 years old, according to Planespotters.net data. Each…",
-      "url": "https://simpleflying.com/aircraft-set-to-replace-delta-air-lines-iconic-boeing-767-fleet/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-27T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/10/the-aircraft-set-to-replace-delta-air-lines-iconic-boeing-767s.jpg"
-    },
-    {
-      "title": "Qantas' Final 5 Airbus A380 Routes Before Retirement: See Flights Now",
-      "description": "Qantas has announced its plans to bring forward the retirement of its Airbus A380 fleet. This was initially slated to commence in 2032, but, now, the withdrawals will begin as early as 2028 , as the Australian flag carrier and oneworld founding member moves towards a new era of long-haul flying.…",
-      "url": "https://simpleflying.com/qantas-last-airbus-a380-routes/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-08-27T09:10:25Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/shutterstock_2745206075_cropped.jpg"
-    },
-    {
-      "title": "Cologne runway use revised after landing Ryanair 737 encounters military drone",
-      "description": "Rules on approaches and departures tightened following airprox during armed forces exercise. German air navigation authorities have tightened restrictions on runway use at Cologne-Bonn airport during military activity, after Ryanair Boeing 737-800 encountered a drone while on approach. Cologne-Bonn…",
-      "url": "https://www.flightglobal.com/archive/2026/08/cologne-runway-use-revised-after-landing-ryanair-737-encounters-military-drone/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-27T07:15:38Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Cologne-airport-c-Cologne-Bonn-airport-480x326.jpeg"
-    },
-    {
-      "title": "Zuri takes tilt at cargo market with uncrewed VTOL aircraft",
-      "description": "Hybrid-electric design is derived from Czech firm’s latest technology demonstrator, which is set to fly next year. Czech advanced air mobility developer Zuri has unveiled its first commercial product – a large vertical take-off and landing (VTOL) cargo drone suitable for civil or defence…",
-      "url": "https://www.flightglobal.com/archive/2026/08/zuri-takes-tilt-at-cargo-market-with-uncrewed-vtol-aircraft/",
-      "source": "FlightGlobal",
-      "author": "Dominic Perry",
-      "published_at": "2026-08-27T07:00:34Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Zuri-cargo-c-Zuri-480x269.jpg"
     },
     {
       "title": "What an AOPA Flight Training Experience Award can do for you",
@@ -148,66 +175,12 @@
       "image": null
     },
     {
-      "title": "Autonomous Aircraft Vertiport Coming to California’s Hollister Municipal",
-      "description": "Hollister Municipal Airport (KCVH) in California could be among the first in the nation to receive a vertiport for autonomous and eVTOL (electric vertical takeoff and landing) aircraft. Autonomous air taxi developer Wisk Aero, which Boeing earlier this month agreed to sell to eVTOL manufacturer…",
-      "url": "https://www.flyingmag.com/autonomous-aircraft-vertiport-coming-to-californias-hollister-municipal/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-26T18:30:00Z",
-      "image": null
-    },
-    {
-      "title": "New Facility Could Help FAA Address ATC Staffing Woes",
-      "description": "The FAA’s chronic air traffic controller (ATC) shortage is well documented despite the agency’s efforts to ramp up hiring . A $40 million, 87,000-square-foot manufacturing plant in Frederick, Maryland, could help it reallocate those sparse resources where they are needed most. The FAA on Tuesday…",
-      "url": "https://www.flyingmag.com/voice-switch-facility-faa-atc-staffing/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-26T16:30:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2019 Cessna T206H Is an All-Weather ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2019 Cessna T206H. Often celebrated…",
-      "url": "https://www.flyingmag.com/this-2019-cessna-t206h-is-an-all-weather-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-26T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-cessna-t206h-for-sale-601933-bb47ec1e95928a1b-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "Cirrus SR22 Pilot Survives In-Flight Fire After Deploying Parachute in Brazil",
-      "description": "The pilot of a Cirrus SR22 in Serra Azul, Brazil, survived an in-flight fire resulting in a parachute activation Tuesday, according to early media reports. The 29-year-old man was treated for smoke inhalation but suffered no other injuries.. Video of the event shows the engine compartment of the…",
-      "url": "https://www.flyingmag.com/cirrus-sr22-pilot-survives-in-flight-fire-after-deploying-parachute-in-brazil/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-26T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Close Calls Can Provide Pilots With Clear Lessons",
-      "description": "Near-midair encounters occupy a peculiar place in aviation. They are not common events, but they are not rare either. Ask almost any experienced pilot and you will eventually hear a story about another aircraft appearing suddenly, far closer than anyone would prefer. General aviation operates in a…",
-      "url": "https://www.flyingmag.com/close-calls-can-provide-pilots-with-clear-lessons/",
-      "source": "Flying Magazine",
-      "author": "John Barry",
-      "published_at": "2026-08-26T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
       "title": "A road that led to aviation",
       "description": "Ana Komar is the chief pilot and owner of Fly Badlands , a one-woman, one-airplane business flying tourists and anyone else who wants to learn about and experience the rugged, awe-inspiring beauty of the Badlands in South Dakota from above.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/august/25/a-road-that-led-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-25T17:38:46Z",
-      "image": null
-    },
-    {
-      "title": "Senators, FAA administrator oppose Burke Lakefront closure",
-      "description": "Ohio Sens. Bernie Moreno and Jon Husted, along with FAA Administrator Bryan Bedford, say they oppose Cleveland Mayor Justin Bibb’s plan to close Burke Lakefront Airport , likely ending the yearslong effort.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/20/key-lawmakers-oppose-burke-lakefront-closure?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-20T18:24:33Z",
       "image": null
     }
   ]
