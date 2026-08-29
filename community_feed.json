@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:59:51.538455+00:00",
+  "generated_at": "2026-08-29T14:07:54.666206+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Can the state of an important large airport cause a spike in tire blows?",
-      "url": "https://aviation.stackexchange.com/questions/115530/can-the-state-of-an-important-large-airport-cause-a-spike-in-tire-blows",
+      "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
+      "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
       "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787854858
+      "created_utc": 1788002735
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "ALS inop when using another airport altimeter… what in the world is this situation?",
-      "url": "https://aviation.stackexchange.com/questions/115531/als-inop-when-using-another-airport-altimeter-what-in-the-world-is-this-situati",
-      "points": 0,
-      "num_comments": 1,
+      "title": "Is it normal in a large airport for there to be this many aircraft tires failing?",
+      "url": "https://aviation.stackexchange.com/questions/115530/is-it-normal-in-a-large-airport-for-there-to-be-this-many-aircraft-tires-failing",
+      "points": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787854976
+      "created_utc": 1787854858
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What to do if ceiling drops while in control zone?",
-      "url": "https://aviation.stackexchange.com/questions/115527/what-to-do-if-ceiling-drops-while-in-control-zone",
-      "points": 0,
-      "num_comments": 2,
+      "title": "How should a UAV piston engine Digital Twin be validated using synthetic engine data?",
+      "url": "https://aviation.stackexchange.com/questions/115538/how-should-a-uav-piston-engine-digital-twin-be-validated-using-synthetic-engine",
+      "points": -2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787783546
+      "created_utc": 1787922254
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Pros/cons of different air intake positions for a 2 engine counter rotating turboprop STOBAR AWACS/transport",
-      "url": "https://aviation.stackexchange.com/questions/115518/pros-cons-of-different-air-intake-positions-for-a-2-engine-counter-rotating-turb",
-      "points": 6,
-      "num_comments": 2,
+      "title": "ALS inop when using another airport altimeter… what in the world is this situation?",
+      "url": "https://aviation.stackexchange.com/questions/115531/als-inop-when-using-another-airport-altimeter-what-in-the-world-is-this-situati",
+      "points": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787594997
+      "created_utc": 1787854976
     }
   ]
 }

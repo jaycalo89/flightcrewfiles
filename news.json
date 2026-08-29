@@ -1,16 +1,133 @@
 {
-  "generated_at": "2026-08-28T12:59:44.740485+00:00",
+  "generated_at": "2026-08-29T14:07:48.589226+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 19,
   "articles": [
     {
-      "title": "Desperation? Strong Sense Of Entitlement? Women Run Onto Tarmac To 'Catch' Missed Flight",
-      "description": "Here’s a fun story for you: Some time in mid-august this video surfaced of two women running to catch their missed flight! It’s clearly an Aeroflot A320 aircraft, with reports indicating that the incident took place at Moscow's Sheremetyevo International Airport.",
-      "url": "https://simpleflying.com/video/desperation-strong-sense-of-entitlement-women-run-onto-tarmac-to-catch-missed-flight/",
+      "title": "Electric and Autonomous Aircraft Trials Set to Begin in Louisiana",
+      "description": "The Louisiana Department of Transportation and Development (DOTD) said Thursday that it and its partners officially launched LIFTOff Louisiana—one of eight projects comprising demonstrations of electric, autonomous, and other novel, precertified aircraft being overseen by the FAA. LIFTOff is the…",
+      "url": "https://www.flyingmag.com/electric-autonomous-aircraft-trials-louisiana/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-29T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "The Hidden Reason A Boeing 787 Tail Strike Takes Weeks To Fix, Not Days",
+      "description": "Vietnam Airlines is facing the lengthy loss of one of its Boeing 787 Dreamliners . Following an incident involving a tail strike on August 15, the aircraft remained grounded at Munich’s Franz Josef Strauss International Airport (MUC) for more than a week. Unfortunately for the Vietnamese flag…",
+      "url": "https://simpleflying.com/hidden-reason-boeing-787-tail-strike-takes-weeks-fix-not-days/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-28T12:28:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/russianwomen-missed-flight.jpg"
+      "author": "Josh Lamb",
+      "published_at": "2026-08-29T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/hidden-reason-a-boeing-787-tail-strike.png"
+    },
+    {
+      "title": "The Boeing 777X’s Unique Cabin Design That Sets It Apart From Others",
+      "description": "The Boeing 777X is set to revolutionize long-haul air travel when it eventually enters commercial service in 2027. The aircraft boasts several innovative design features, including the largest commercial aircraft engine ever built and its unique folding wingtips. This modern design extends inside…",
+      "url": "https://simpleflying.com/how-boeing-777x-unique-cabin-design-sets-it-apart-others/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-08-29T09:15:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-boeing-777x-s-unique-cabin-design-that-sets-it-apart-from-others.jpg"
+    },
+    {
+      "title": "The Scripted Phrases Airline Pilots Recite To Themselves To Avoid Fatal Decisions",
+      "description": "The most critical safety system inside a modern airliner cockpit is not an automated flight control computer or a redundant hydraulic backup, but actually the two highly trained aviators reciting rigid scripts out loud to one another. Every day, crews operating multi-million dollar widebodies are…",
+      "url": "https://simpleflying.com/scripted-phrases-airline-pilots-recite-themselves-avoid-fatal-decisions/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-08-29T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/the-scripted-phrases-airline-pilots-recite-to-themselves-to-avoid-fatal-decisions.jpg"
+    },
+    {
+      "title": "Passenger Finds Anti-Israel Note Hidden In Suitcase After Alaska Airlines-El Al Trip",
+      "description": "A passenger discovered a handwritten note that read ' F*** Israel ' in her checked baggage after arriving in Tel Aviv from the US. Noa Sabar Dvoskin was traveling with her family from Seattle to Tel Aviv and had departed from Seattle on Alaska Airlines before connecting onto an El Al flight in Los…",
+      "url": "https://simpleflying.com/anti-israel-note-hidden-checked-bag-alaska-airlines-el-al/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-29T07:52:37Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/el-al-boeing-787-9-in-cloudy-sky.jpg"
+    },
+    {
+      "title": "British Airways Sued After Falling Bottle Left Sleeping Woman With Lasting Eye Damage",
+      "description": "A British Airways passenger is suing the carrier after claiming a falling metal water bottle left her with long-term vision problems. The woman claims she was struck with the drink bottle during a flight from Frankfurt Airport (FRA) to London Heathrow Airport (LHR) in August 2024.",
+      "url": "https://simpleflying.com/british-airways-sued-falling-bottle-passenger-eye-damage/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-08-29T05:37:57Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-airbus-a320-in-the-sky-approach-greece-1.jpg"
+    },
+    {
+      "title": "NTSB Releases New Details on Fatal Philadelphia Learjet Crash",
+      "description": "The National Transportation Safety Board has released the docket on the 2025 fatal air ambulance crash in northeast Philadelphia, containing several hundred pages of new information, analysis, and photographs gathered as part of its ongoing investigation. The accident flight was operated by Med…",
+      "url": "https://www.flyingmag.com/ntsb-releases-new-details-on-fatal-philadelphia-learjet-crash/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-08-28T20:58:04Z",
+      "image": null
+    },
+    {
+      "title": "Progress continues on Inuvik airport runway extension under Canada’s Arctic defence push",
+      "description": "The C$230 million ($165 million) project will lengthen the Northwest Territories airstrip by over 900 metres (3,000ft). The Canadian federal government is moving ahead with plans to extend the length of a dual-use airfield above the Arctic Circle as part of the country’s Arctic defence strategy.…",
+      "url": "https://www.flightglobal.com/archive/2026/08/inuvik-airport-runway-extension-canada-arctic-defence-push/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-28T19:20:42Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/CF-18-Inuvik-480x274.jpg"
+    },
+    {
+      "title": "This 2022 Tecnam P2010 TDI Is a Swift, Premium ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2022 Tecnam P2010 TDI. When Tecnam…",
+      "url": "https://www.flyingmag.com/this-2022-tecnam-p2010-tdi-is-a-swift-premium-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-08-28T19:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/tecnam2.jpg"
+    },
+    {
+      "title": "Boeing and SPEEA union set to resume contract talks",
+      "description": "Union members could strike starting 7 October if no deal emerges. Boeing and the union representing its Pacific Northwest engineers and other professional staff intend to resume contract talks on 31 August, as the union presses to secure greater wage gains. The Society of Professional Engineering…",
+      "url": "https://www.flightglobal.com/airframers/2026/08/boeing-and-speea-union-set-to-resume-contract-talks/",
+      "source": "FlightGlobal",
+      "author": "Jon Hemmerdinger",
+      "published_at": "2026-08-28T18:34:07Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/777admin-ajax-480x320.jpeg"
+    },
+    {
+      "title": "Cast Your Vote to Name Virgin Galactic’s Next Spaceplane",
+      "description": "Virgin Galactic on Friday extended the deadline for the public to name one of its next-generation spaceplanes, giving space enthusiasts until Thursday to cast their votes . Virgin Galactic, which offers suborbital expeditions for paying customers, launched its first commercial mission in June 2023…",
+      "url": "https://www.flyingmag.com/cast-vote-virgin-galactic-next-spaceplane/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-28T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "How New FAA Program Plans to Tackle Increased Drone Integration",
+      "description": "The FAA is launching a new program that could see small uncrewed aircraft systems (UAS), or drones, integrated at greater scale. The agency Thursday announced it will select eight new state, local, tribal or territorial government participants to launch the second phase of its BEYOND program, which…",
+      "url": "https://www.flyingmag.com/faa-beyond-phase-2-drone-integration/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-08-28T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Saab completes first flight of Gripen F",
+      "description": "Launch customer Brazil has ordered eight of the two-seat fighters. Saab has flown the two-seat variant of the company’s newest Gripen fighter for the first time. The inaugural Gripen F sortie took place on 28 August from Saab’s primary fighter development and production centre in Linkoping, Sweden.…",
+      "url": "https://www.flightglobal.com/archive/2026/08/saab-completes-first-flight-of-gripen-f/",
+      "source": "FlightGlobal",
+      "author": "Ryan Finnerty",
+      "published_at": "2026-08-28T15:19:54Z",
+      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Gripen-F.avif"
+    },
+    {
+      "title": "Ex-Spirit Pilots Receive Help Getting Their Logbooks in Order",
+      "description": "Former Spirit pilots left out of work by the discount carrier’s sudden collapse earlier this year are receiving some help with a critical part of the job search—getting their logbooks in order. AIROS , which assists aviators in consolidating and checking their records through a cloud-based digital…",
+      "url": "https://www.flyingmag.com/ex-spirit-pilots-receive-help-getting-their-logbooks-in-order/",
+      "source": "Flying Magazine",
+      "author": "Zach Vasile",
+      "published_at": "2026-08-28T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/Log-a-Flight-on-Mobile-Phones.webp?w=1024"
     },
     {
       "title": "Exploring the Corner Case Approach for a Pilot",
@@ -31,138 +148,12 @@
       "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/x1-636-480x320.jpg"
     },
     {
-      "title": "British Airways Has Axed Airbus A380 Flights On 8 Routes Over The Years: Full List",
-      "description": "British Airways has 12 Airbus A380s, although not all are currently active. Registered as G-XLEA, ch-aviation shows that the first frame was delivered in July 2013. The inaugural commercial service took place the following month from London Heathrow Airport (LHR) to Frankfurt Airport (FRA) for crew…",
-      "url": "https://simpleflying.com/british-airways-has-axed-airbus-a380-flights-on-8-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-28T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-a380-mock-up1.jpg"
-    },
-    {
-      "title": "The Small European Airports Quietly Spending Mega-Hub Money To Become Aviation Powerhouses",
-      "description": "During the hub-and-spoke era of aviation, there were two types of airport. We had megahubs like London Heathrow Airport (LHR) which would receive jumbo jets flying in hundreds of passengers from around the world. Regional aircraft would then transport these passengers to their final destination.",
-      "url": "https://simpleflying.com/small-european-airports-quietly-spending-mega-hub-money-aviation-powerhouses/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-08-28T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/small-european-airports.png"
-    },
-    {
-      "title": "The Airline That Introduced Private Suite Doors To Business Class",
-      "description": "At the ITB Berlin trade show in March 2017, Qatar Airways unveiled Qsuite and completely changed the trajectory of premium travel. By introducing a sliding privacy door in business class, the carrier erased the traditional boundary between the business cabin and the exclusivity of first class. In…",
-      "url": "https://simpleflying.com/airline-introduced-private-suite-doors-to-business-class/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-28T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/the-airline-that-introduced-private-suite-doors-to-business-class.jpg"
-    },
-    {
-      "title": "South Korea looks to get P-3CKs back in the air after 2025 crash",
-      "description": "Investigators never established definite cause of May 2025 P-3CK fatal accident, which claimed the lives of four crew. South Korea’s navy will commence test flights of its Lockheed P-3CK Orion anti-submarine warfare (ASW) aircraft, setting the stage to end a grounding in place since a fatal May…",
-      "url": "https://www.flightglobal.com/fixed-wing/2026/08/south-korea-looks-to-get-p-3cks-back-in-the-air-after-2025-crash/",
-      "source": "FlightGlobal",
-      "author": "Greg Waldron",
-      "published_at": "2026-08-28T07:12:55Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/PXL_20231017_042503231-480x360.jpg"
-    },
-    {
-      "title": "Delta Air Lines Passenger Reportedly Flushes iPhone Down Toilet Amid Cross-Country Flight",
-      "description": "A passenger reported an iPhone being flushed down the toilet midair aboard Delta Air Lines flight 777 on Wednesday. The lavatory incident took place while the Boeing 757-200 was flying from Harry Reid International Airport (LAS) to Hartsfield-Jackson Atlanta International Airport (ATL), as The New…",
-      "url": "https://simpleflying.com/delta-air-lines-passenger-flushes-iphone-toilet-cross-country-flight/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-08-28T06:22:59Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/delta-n669dn-boeing-757-200-in-atlanta.jpg"
-    },
-    {
-      "title": "Skycouch To Skynest: The Airlines That Sell Economy Beds As An Alternative To Business Class",
-      "description": "Travelers have historically faced difficult trade-offs between cost and comfort on long-haul flights. A conventional economy class ticket has naturally always been the cheapest option, but the usual lack of space or recline arguably amounts to a non-financial price paid in terms of comfort. On the…",
-      "url": "https://simpleflying.com/s/airlines-sell-economy-beds-alternative-business-class/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-08-28T05:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/skycouch-to-skynest.png"
-    },
-    {
-      "title": "The Baby Queen: Why Did Boeing Build The 747SP?",
-      "description": "The Boeing 747 is perhaps the most famous subsonic airliner of all time. With its distinctive partial upper deck, four engines, and historical provenance, the 747 is an icon of aviation. Boeing has produced the 747 in six major variants: the 747-100, 747-200, 747-300, 747-400, 747-8, and 747SP,…",
-      "url": "https://simpleflying.com/boeing-build-747sp-why/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-08-28T01:45:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-baby-queen-why-did-boeing-build-the-747sp.jpg"
-    },
-    {
       "title": "Piper PA-24 Crashes Off Alaska Coast, Killing 4",
       "description": "A Piper PA-24-260 Comanche crashed off the coast of Alaska on Wednesday, killing all four occupants, according to officials. Per a news release from state troopers with the Alaska Department of Public Safety, the small airplane departed Merrill Field Airport (PAMR) in Anchorage and was bound for…",
       "url": "https://www.flyingmag.com/piper-pa-24-crash-alaska-kills-4/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
       "published_at": "2026-08-27T20:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Atlantic Aviation Valued Close to $10B With Private Equity Injection",
-      "description": "Apollo Global Management said Thursday that its managed funds have taken a “significant interest” in Atlantic Aviation, which operates one of the world’s largest FBO networks. Apollo said the deal values Atlantic at nearly $10 billion. Atlantic offers fueling, maintenance, deicing, hangar leasing,…",
-      "url": "https://www.flyingmag.com/fbo-atlantic-aviation-10b-apollo-investment/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-27T19:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Boeing rolls out second RAF Wedgetail in full livery",
-      "description": "RAF chief says 737-based airborne early warning jet will soon enter UK service. Boeing has rolled out the UK Royal Air Force’s second E-7A Wedgetail surveillance aircraft in its final paint scheme. The 737-based airborne early warning and control (AEW&C) jet (registration WT002) has been undergoing…",
-      "url": "https://www.flightglobal.com/archive/2026/08/boeing-rolls-out-second-raf-wedgetail-in-full-livery/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-27T18:20:48Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/RAF-second-E-7-Wedgetail-480x261.jpg"
-    },
-    {
-      "title": "Electra, Finland’s Capital to Study Off-Airport ‘Access Points’ Bound for U.S.",
-      "description": "Hybrid-electric “ultra short” aircraft developer Electra in July partnered with FBO Signature Aviation to explore “access points” for its flagship EL9, which is designed for takeoff and landing with only 150 feet of ground roll. Now, the manufacturer is working with Finland’s capital to study the…",
-      "url": "https://www.flyingmag.com/electra-finland-helsinki-aircraft-study/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-27T16:30:00Z",
-      "image": null
-    },
-    {
-      "title": "What Pilots Often Miss When Reviewing Their Benefits",
-      "description": "Open enrollment rolls around every fall, and it’s usually accompanied by a stack of PDFs and deadlines. A lot of pilots handle the process as quickly as they can, re-electing the same plan and same coverage levels as last year simply because that’s what’s already there. That’s the habit Allworth…",
-      "url": "https://www.flyingmag.com/what-pilots-often-miss-when-reviewing-their-benefits/",
-      "source": "Flying Magazine",
-      "author": "Matt Herr",
-      "published_at": "2026-08-27T15:15:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
-    },
-    {
-      "title": "This 1986 SOCATA TB-21 Trinidad Is an Invested ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1986 SOCATA TB-21 Trinidad. Widely…",
-      "url": "https://www.flyingmag.com/this-1986-socata-tb-21-trinidad-is-an-invested-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-08-27T14:15:32Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-single-engine-piston-socata-tb-21-trinidad-for-sale-601974-62f322506e042849-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "Dolly Parton International: State Rep Supports Bill Renaming Nashville Airport",
-      "description": "A Tennessee state representative appears to have lent support for renaming Nashville International Airport (KBNA) after country singer Dolly Parton, who died at age 80 in Music City on Tuesday. A petition started by two Nashville residents in early 2025 to rename Nashville International after…",
-      "url": "https://www.flyingmag.com/dolly-parton-nashville-airport-rename-state-rep/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-27T13:00:00Z",
-      "image": null
-    },
-    {
-      "title": "How to Become a Navy Pilot",
-      "description": "Imagine the thunderous roar of a fighter jet as it takes off from an aircraft carrier, defying gravity and launching into the open sky. Or think of a tactical helicopter hovering over the ocean, lowering a search and rescue crew. U.S. Navy pilots perform challenging missions like these daily in…",
-      "url": "https://www.flyingmag.com/how-to-become-a-navy-pilot-2/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-08-27T12:00:00Z",
       "image": null
     },
     {
