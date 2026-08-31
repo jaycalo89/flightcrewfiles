@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T13:41:38.690192+00:00",
+  "generated_at": "2026-08-31T16:11:50.991092+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off the main wing",
       "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
-      "points": 0,
-      "num_comments": 2,
+      "points": 4,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788064438
     },
@@ -33,7 +33,7 @@
     {
       "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
       "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
-      "points": 1,
+      "points": 4,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788002735
@@ -65,7 +65,7 @@
     {
       "title": "Is it normal in a large airport for there to be this many aircraft tires failing?",
       "url": "https://aviation.stackexchange.com/questions/115530/is-it-normal-in-a-large-airport-for-there-to-be-this-many-aircraft-tires-failing",
-      "points": 1,
+      "points": 3,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1787854858
