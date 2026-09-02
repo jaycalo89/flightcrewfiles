@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:11:50.991092+00:00",
+  "generated_at": "2026-09-02T19:13:18.684232+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,9 +15,9 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off the main wing",
+      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
       "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
-      "points": 4,
+      "points": 6,
       "num_comments": 3,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788064438
@@ -33,7 +33,7 @@
     {
       "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
       "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
-      "points": 4,
+      "points": 10,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788002735
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Can the equal-transit-time condition ever be satisfied for an airfoil?",
-      "url": "https://aviation.stackexchange.com/questions/115542/can-the-equal-transit-time-condition-ever-be-satisfied-for-an-airfoil",
+      "title": "What could be the reasons behind so many control issues in the NAL Saras Mk1?",
+      "url": "https://aviation.stackexchange.com/questions/115551/what-could-be-the-reasons-behind-so-many-control-issues-in-the-nal-saras-mk1",
       "points": 2,
-      "num_comments": 2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788007291
+      "created_utc": 1788279518
     },
     {
       "title": "Starlink Aviation",
@@ -65,7 +65,7 @@
     {
       "title": "Is it normal in a large airport for there to be this many aircraft tires failing?",
       "url": "https://aviation.stackexchange.com/questions/115530/is-it-normal-in-a-large-airport-for-there-to-be-this-many-aircraft-tires-failing",
-      "points": 3,
+      "points": 5,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1787854858

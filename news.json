@@ -1,169 +1,178 @@
 {
-  "generated_at": "2026-08-31T16:11:37.056750+00:00",
+  "generated_at": "2026-09-02T19:13:09.112135+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 20,
   "articles": [
     {
-      "title": "NTSB Vice Chair Announces Retirement",
-      "description": "National Transportation Safety Board Vice Chairman Michael Graham announced Friday that he will retire effective October 2. A former F/A-18 pilot and top safety official for Textron Aviation, Graham has served on the NTSB board since 2020. NTSB board members are presidential appointees confirmed by…",
-      "url": "https://www.flyingmag.com/ntsb-vice-chair-announces-retirement/",
+      "title": "Air Canada Cancels Flights To 16 Long-Haul Destinations: See Affected Routes",
+      "description": "Air Canada plays a critical role in the country's long-haul activity. In 2026, OAG data shows that the Star Alliance member has an average of 54 such departures each day. This hides huge variation, from as few as 32 departures in the depths of winter, to as many as 71 in the height of summer.",
+      "url": "https://simpleflying.com/air-canada-cancels-flights-to-16-long-haul-destinations/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-09-02T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air-canada-airbus-a330-mock-up.jpg"
+    },
+    {
+      "title": "WATCH: Regent Electric Seaglider Prototype Makes First Crewed Flight",
+      "description": "Regent Craft said Wednesday that its prototype electric seaglider, Viceroy, made its first human-crewed flight. According to the Rhode Island-based manufacturer, Viceroy—which combines aspects of traditional aircraft and maritime vessels—is the largest all-electric, wing-in-ground effect (WIG)…",
+      "url": "https://www.flyingmag.com/regent-electric-seaglider-first-crewed-flight/",
       "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-31T16:00:00Z",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-02T18:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/REGENT-FIRST-FLIGHT-STRINGOUT_TEST1.mp4"
+    },
+    {
+      "title": "5,100 Miles: Inside The USA's 11 New Longest Nonstop Domestic Flights [List & Map]",
+      "description": "The longest domestic flights in the United States can easily surpass a nonstop flight between America and Europe . The longest domestic flight in the US connects New England to Hawaii and can take more than 11 hours gate to gate . This article will break down the longest departing domestic flights…",
+      "url": "https://simpleflying.com/5100-miles-usas-11-new-longest-nonstop-domestic-flights/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-09-02T18:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-boeing-767-400er.jpg"
+    },
+    {
+      "title": "Flight Crews Have A Higher Risk Of Dying From Radiation-Related Cancers: What Does It Really Mean?",
+      "description": "A study published this week in JAMA Internal Medicine found that among 503 US occupations, flight attendants had the highest proportion of deaths from radiation-related cancers and pilots the second-highest rate. This was ahead even of workers who handle radioactive materials directly, so it is…",
+      "url": "https://simpleflying.com/flight-crews-higher-risk-dying-radiation-related-cancers-really-mean/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-09-02T17:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/flight-crews-have-a-higher-risk-of-dying-from-radiation-related-cancers-what-does-it-really-mean.jpg"
+    },
+    {
+      "title": "Fuel Too Expensive? Ryanair Say It Is While Cutting Winter Flights",
+      "description": "Recent years have seen multiple crises impacting fuel prices, with the current war in Iran and the blockading of the Straits of Hormuz having the greatest impact. Ask Traders reports that Ryanair has said that jet fuel has been trading at almost $140 per barrel. Something has to give to ensure…",
+      "url": "https://simpleflying.com/ryanair-cuts-flights-fuel-too-expensive/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-09-02T16:33:28Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/ryanair-easyjet-and-wizz-jamesdc152-shutterstock.jpg"
+    },
+    {
+      "title": "American Airlines Launches 21 Nonstop Routes From Philadelphia To Europe [List & Map]",
+      "description": "American Airlines is doubling down on Philadelphia International Airport (PHL) as its primary gateway to Europe . For Summer 2027, the carrier is scheduled to serve 21 European destinations nonstop from Philadelphia , its largest-ever European network from the airport, after adding Porto, Reykjavík…",
+      "url": "https://simpleflying.com/american-launches-21-nonstop-routes-from-philadelphia-to-europe/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-09-02T16:11:01Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american_airlines_787_striking_1920x1080.jpg"
+    },
+    {
+      "title": "Bird Strikes, Powerplant Failures Commonly Cited in Recent Business Aviation Safety Events",
+      "description": "Bird strikes, powerplant failures, and collisions were among the most commonly cited occurrences for business aircraft accidents and incidents from April through June 2026, according to the National Business Aviation Association (NBAA). NBAA’s analysis of business aviation accidents and incidents…",
+      "url": "https://www.flyingmag.com/nbaa-q2-business-aviation-safety-accidents/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-02T16:00:00Z",
       "image": null
     },
     {
-      "title": "6 Airline Cabins The Industry Itself Voted The World's Most Superior In 2026",
-      "description": "Airlines today are investing significant time and funds into curating exceptional premium cabins. For international travelers looking at business and first class, the difference between a routine long-haul flight and genuine rest comes down to specific interior metrics: spatial footprint, acoustic…",
-      "url": "https://simpleflying.com/airline-cabins-industry-voted-worlds-most-superior-2026/",
+      "title": "The World's Newest Mega-Airports That Just Opened",
+      "description": "There is no doubt about it: demand for air travel is growing. The International Air Transport Association’s (IATA) mid-growth scenario sees global total revenue of passenger kilometers increasing by 3.1% annually to 20.8 trillion by 2050, for instance. Airbus then forecasts, somewhat conservatively…",
+      "url": "https://simpleflying.com/worlds-newest-mega-airports-just-opened/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-08-31T15:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/6-airline-cabins.png"
+      "author": "Josh Lamb",
+      "published_at": "2026-09-02T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/world-s-newest-mega-airports.png"
     },
     {
-      "title": "The FAA Could Miss The Deadline To Rename Lake Ontario On Airspace Charts",
-      "description": "Amid escalating trade tensions between Washington and Ottawa , US President Donald Trump signed an executive order on August 27 to rename Lake Ontario as Lake America. The order requires US government agencies, including the Federal Aviation Administration (FAA), to use the new name in their…",
-      "url": "https://simpleflying.com/faa-vfr-charts-still-use-lake-ontario/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-08-31T14:52:31Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/ny-sectional_16x9_1920x1080_native.png"
+      "title": "Florida Man Convicted of Smuggling $900K in Aircraft Parts to Russia",
+      "description": "A 62-year-old Florida resident and Russian national accused of illegally exporting aircraft parts from the U.S. to his home country has been convicted on all counts. According to a media release from the FBI , Alexander Mamonov was convicted August 27 following a jury trial related to a scheme to…",
+      "url": "https://www.flyingmag.com/florida-man-convicted-of-smuggling-900k-in-aircraft-parts-to-russia/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-02T15:00:00Z",
+      "image": null
     },
     {
-      "title": "This 1998 Beechcraft Baron 58 Is a Fully Equipped ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1998 Beechcraft Baron 58. Long…",
-      "url": "https://www.flyingmag.com/this-1998-beechcraft-baron-58-is-a-fully-equipped-aircraftforsale-top-pick/",
+      "title": "The End Of First Class: American Airlines Debuts New Flagship Suites On Its Largest Aircraft",
+      "description": "American Airlines' new era of premium travel is expanding to its largest aircraft. The Fort Worth, Texas-based carrier unveiled its first retrofitted Boeing 777-300ER featuring Flagship Suites on Wednesday – marking the third aircraft type in its fleet to feature the interior.",
+      "url": "https://simpleflying.com/american-airlines-debuts-new-flagship-suites-largest-aircraft/",
+      "source": "Simple Flying",
+      "author": "Channing Reid",
+      "published_at": "2026-09-02T14:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1926487328-1.jpg"
+    },
+    {
+      "title": "This 2025 Cirrus SR22T G7+ Is a Top-Tier ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2025 Cirrus SR22T G7+. Representing…",
+      "url": "https://www.flyingmag.com/this-2025-cirrus-sr22t-g7-is-a-top-tier-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "FLYING Staff",
-      "published_at": "2026-08-31T14:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/aircraft-multi-engine-piston-beechcraft-baron-58-for-sale-601995-df037750df3a2bcc-800X600-1.jpg?w=1024"
+      "published_at": "2026-09-02T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cirrus-sr22t-g7-for-sale-602001-f0edc21ce19e92e8-800X600-1.jpg?w=800"
     },
     {
-      "title": "Disappears: SR-71 Pilot Explains The Real Reason Why The Blackbird Wouldn't Show Up On F-15 Radar",
-      "description": "The Lockheed SR-71 Blackbird spy plane is the stuff of legends. While it was reported by the pilots that flew it to have been engaged thousands of times , it was never brought down in combat. In fact, the US Air Force (USAF) even used the Blackbird as a target for its most advanced fighter jets and…",
-      "url": "https://simpleflying.com/sr-71-pilot-real-reason-blackbird-wouldnt-show-up-f-15-radar/",
+      "title": "Air India Launches New 17-Hour Nonstop Flights To North America In 1 Month [Map]",
+      "description": "In late October, Air India will introduce service from Mumbai's Chhatrapati Shivaji Maharaj International Airport (BOM) to Toronto Pearson International Airport (YYZ). The launch comes despite the airline's continued focus on stopping services to North America, which is, of course, something that…",
+      "url": "https://simpleflying.com/air-india-launches-new-17-hour-nonstop-flights-to-north-america-in-1-month/",
       "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-08-31T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/a-nasa-sr-71-successfully-completed-its-first-flight-31-october-1997-as-part-of-the-nasa-linear-aerospike-sr-71-experiment-lasre.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-09-02T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air-india-boeing-777-300er-mock-up-1.jpg"
     },
     {
-      "title": "The One Boeing 737-700 Hiding In Ryanair's 650 Aircraft Fleet",
-      "description": "Unlike Ryanair's much larger 737-800s and 737 MAX 8-200s, the airline’s one 737-700 has only 148 seats and is nearly 19 feet (6 meters) shorter than the 737-800. More importantly, its resume has included pilot training, corporate charters, reserve duties, scheduled passenger flights, and holiday…",
-      "url": "https://simpleflying.com/video/the-one-boeing-737-700-hiding-in-ryanair-s-650-aircraft-fleet/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-08-31T12:31:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/ryanar-737-700-vid.jpg"
-    },
-    {
-      "title": "Are U.S. Airports Ready for Electric Atmosphere?",
-      "description": "The first advanced air mobility (AAM) operations in the U.S. may be closer than you think. The industry could be within a few years from seeing its first certified electric vertical takeoff and landing (eVTOL) aircraft. Some of the manufacturers believed by industry observers to be the furthest…",
-      "url": "https://www.flyingmag.com/are-u-s-airports-ready-for-electric-atmosphere/",
+      "title": "Why Are Airplane Clearing Turns Always Made to the Left?",
+      "description": "Question: I have just started my flight training, and I have learned how to do a clearing turn . It makes sense to me to look around before you do a maneuver, but why is it always to the left? My CFI has me doing a 360-degree turn. I asked my CFI, and he said that’s how he learned it, so that’s how…",
+      "url": "https://www.flyingmag.com/why-are-airplane-clearing-turns-always-made-to-the-left/",
       "source": "Flying Magazine",
-      "author": "Grant Boyd",
-      "published_at": "2026-08-31T12:00:00Z",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-02T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "How Pilots Set Personal Minimums",
+      "description": "What’s the difference between pilot limitations and personal minimums? I submit it’s the level of pilot certification. For the student pilot about to make their first solo flight, the CFI carefully records the weather limitations as part of the solo endorsement. These usually include references to…",
+      "url": "https://www.flyingmag.com/how-pilots-set-personal-minimums/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-02T12:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "The Striking Differences Pilots Notice Between The Airbus A330 & A350",
-      "description": "The Airbus A330 and Airbus A350 share much more than a manufacturer and a similar role. For airline pilots, they represent two generations of Airbus philosophy: one rooted in the mature fly-by-wire technology of the 1990s, and the other built around the digital, composite-era innovations of the…",
-      "url": "https://simpleflying.com/differences-pilots-notice-airbus-a330-a350/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-08-31T11:05:10Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/the-striking-differences-pilots-notice-between-the-airbus-a330-a350.jpg"
-    },
-    {
-      "title": "Singapore Airlines Axes Airbus A380 Flights On 2 Major Routes: See Changes Now",
-      "description": "Each week, airlines from around the world submit schedule changes to OAG , Cirium Diio, and other platforms. The updates could include anything: new routes, markets that will be eliminated, frequency and capacity increases and decreases, equipment swaps, shorter or longer operating periods, and so…",
-      "url": "https://simpleflying.com/singapore-airlines-axes-airbus-a380-flights-on-2-major-routes-see-changes-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-08-31T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/singapore-airlines-a380-pushing-back.jpg"
-    },
-    {
-      "title": "Syrian Airlines expands fleet with A320 acquisitions",
-      "description": "Flag-carrier introducing additional narrowbodies as it continues post-Assad recovery. Syrian Airlines is acquiring a pair of Airbus A320s as it continues its recovery following the fall of the Bashar Al-Assad government. The airline says it took delivery of the first of two “newly purchased…",
-      "url": "https://www.flightglobal.com/archive/2026/08/syrian-airlines-expands-fleet-with-a320-acquisitions/",
-      "source": "FlightGlobal",
-      "author": "David Kaminski-Morrow",
-      "published_at": "2026-08-30T18:58:52Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Syrian-Airlines-A320-c-AirTeamImages-480x325.jpeg"
-    },
-    {
-      "title": "Electric and Autonomous Aircraft Trials Set to Begin in Louisiana",
-      "description": "The Louisiana Department of Transportation and Development (DOTD) said Thursday that it and its partners officially launched LIFTOff Louisiana—one of eight projects comprising demonstrations of electric, autonomous, and other novel, precertified aircraft being overseen by the FAA. LIFTOff is the…",
-      "url": "https://www.flyingmag.com/electric-autonomous-aircraft-trials-louisiana/",
+      "title": "GA Pilots, Prepare for More Traffic at Washington Manassas Airport",
+      "description": "General aviation pilots flying into Virginia’s Washington Manassas Airport (KHEF) can soon expect thousands of commercial flights to share the airspace each year. Washington Manassas, renamed earlier this year from Manassas Regional Airport, is the busiest GA airport in Virginia, with more than 420…",
+      "url": "https://www.flyingmag.com/ga-pilots-commercial-aviation-manassas-airport/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-08-29T12:00:00Z",
+      "published_at": "2026-09-01T20:56:19Z",
       "image": null
     },
     {
-      "title": "NTSB Releases New Details on Fatal Philadelphia Learjet Crash",
-      "description": "The National Transportation Safety Board has released the docket on the 2025 fatal air ambulance crash in northeast Philadelphia, containing several hundred pages of new information, analysis, and photographs gathered as part of its ongoing investigation. The accident flight was operated by Med…",
-      "url": "https://www.flyingmag.com/ntsb-releases-new-details-on-fatal-philadelphia-learjet-crash/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-08-28T20:58:04Z",
+      "title": "A creative path to aviation",
+      "description": "André Baumgartner remembers standing in front of a Civil Air Patrol airplane beside their father when they were six or seven years old, just after an orientation flight. It would be another two decades before Baumgartner pursued aviation professionally.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/01/a-creative-path-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-01T17:22:29Z",
       "image": null
     },
     {
-      "title": "Progress continues on Inuvik airport runway extension under Canada’s Arctic defence push",
-      "description": "The C$230 million ($165 million) project will lengthen the Northwest Territories airstrip by over 900 metres (3,000ft). The Canadian federal government is moving ahead with plans to extend the length of a dual-use airfield above the Arctic Circle as part of the country’s Arctic defence strategy.…",
-      "url": "https://www.flightglobal.com/archive/2026/08/inuvik-airport-runway-extension-canada-arctic-defence-push/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-28T19:20:42Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/CF-18-Inuvik-480x274.jpg"
-    },
-    {
-      "title": "This 2022 Tecnam P2010 TDI Is a Swift, Premium ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2022 Tecnam P2010 TDI. When Tecnam…",
-      "url": "https://www.flyingmag.com/this-2022-tecnam-p2010-tdi-is-a-swift-premium-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-08-28T19:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/08/tecnam2.jpg"
-    },
-    {
-      "title": "Boeing and SPEEA union set to resume contract talks",
-      "description": "Union members could strike starting 7 October if no deal emerges. Boeing and the union representing its Pacific Northwest engineers and other professional staff intend to resume contract talks on 31 August, as the union presses to secure greater wage gains. The Society of Professional Engineering…",
-      "url": "https://www.flightglobal.com/airframers/2026/08/boeing-and-speea-union-set-to-resume-contract-talks/",
-      "source": "FlightGlobal",
-      "author": "Jon Hemmerdinger",
-      "published_at": "2026-08-28T18:34:07Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/777admin-ajax-480x320.jpeg"
-    },
-    {
-      "title": "Cast Your Vote to Name Virgin Galactic’s Next Spaceplane",
-      "description": "Virgin Galactic on Friday extended the deadline for the public to name one of its next-generation spaceplanes, giving space enthusiasts until Thursday to cast their votes . Virgin Galactic, which offers suborbital expeditions for paying customers, launched its first commercial mission in June 2023…",
-      "url": "https://www.flyingmag.com/cast-vote-virgin-galactic-next-spaceplane/",
+      "title": "FAA Proposes Unusual Airspace Restriction for Trump’s Mar-a-Lago Estate",
+      "description": "The FAA has proposed the creation of a Special Flight Rules Area (SFRA) near Donald J. Trump International Airport (KDJT, formerly Palm Beach International Airport), the agency told FLYING Tuesday. The rare restriction would join only a handful of SFRAs the FAA already maintains and add to…",
+      "url": "https://www.flyingmag.com/faa-airspace-restriction-trump-mar-a-lago/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-08-28T18:00:00Z",
+      "published_at": "2026-09-01T16:00:00Z",
       "image": null
     },
     {
-      "title": "How New FAA Program Plans to Tackle Increased Drone Integration",
-      "description": "The FAA is launching a new program that could see small uncrewed aircraft systems (UAS), or drones, integrated at greater scale. The agency Thursday announced it will select eight new state, local, tribal or territorial government participants to launch the second phase of its BEYOND program, which…",
-      "url": "https://www.flyingmag.com/faa-beyond-phase-2-drone-integration/",
+      "title": "This 2021 Piper PA-28-181 Piper Pilot 100i Is a Training-Initiated ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2021 Piper PA-28-181 Piper Pilot…",
+      "url": "https://www.flyingmag.com/this-2021-piper-pa-28-181-piper-pilot-100i-is-a-training-initiated-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-08-28T17:00:00Z",
-      "image": null
+      "author": "FLYING Staff",
+      "published_at": "2026-09-01T14:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-piper-pa-28-181-piper-pilot-100i-for-sale-601979-f1f76bbc2efcbd5d-800X600-1.jpg?w=800"
     },
     {
-      "title": "Saab completes first flight of Gripen F",
-      "description": "Launch customer Brazil has ordered eight of the two-seat fighters. Saab has flown the two-seat variant of the company’s newest Gripen fighter for the first time. The inaugural Gripen F sortie took place on 28 August from Saab’s primary fighter development and production centre in Linkoping, Sweden.…",
-      "url": "https://www.flightglobal.com/archive/2026/08/saab-completes-first-flight-of-gripen-f/",
-      "source": "FlightGlobal",
-      "author": "Ryan Finnerty",
-      "published_at": "2026-08-28T15:19:54Z",
-      "image": "https://www.flightglobal.com/wp-content/uploads/2026/08/Gripen-F.avif"
+      "title": "Meet the people behind flight service",
+      "description": "Some pilots are surprised to learn that flight service specialists still exist. They assume 1-800-WX-BRIEF is an automated recording, or the job disappeared years ago.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/01/meet-the-people-behind-flight-service?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-01T08:00:00Z",
+      "image": null
     },
     {
       "title": "What an AOPA Flight Training Experience Award can do for you",
@@ -172,15 +181,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-08-26T19:53:29Z",
-      "image": null
-    },
-    {
-      "title": "A road that led to aviation",
-      "description": "Ana Komar is the chief pilot and owner of Fly Badlands , a one-woman, one-airplane business flying tourists and anyone else who wants to learn about and experience the rugged, awe-inspiring beauty of the Badlands in South Dakota from above.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/25/a-road-that-led-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-25T17:38:46Z",
       "image": null
     }
   ]
