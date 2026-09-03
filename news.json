@@ -1,16 +1,97 @@
 {
-  "generated_at": "2026-09-02T19:13:09.112135+00:00",
+  "generated_at": "2026-09-03T13:49:44.959524+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 19,
   "articles": [
     {
-      "title": "Air Canada Cancels Flights To 16 Long-Haul Destinations: See Affected Routes",
-      "description": "Air Canada plays a critical role in the country's long-haul activity. In 2026, OAG data shows that the Star Alliance member has an average of 54 such departures each day. This hides huge variation, from as few as 32 departures in the depths of winter, to as many as 71 in the height of summer.",
-      "url": "https://simpleflying.com/air-canada-cancels-flights-to-16-long-haul-destinations/",
+      "title": "Why Qatar Airways Is Accepting Boeing 787-9s Without Qsuites & Refunding Passengers Who Get One",
+      "description": "Qatar Airways premium products have been made famous by its iconic and acclaimed Qsuite. However, the carrier has begun accepting deliveries of new jets that do not offer this famous product. Instead, these new jets have a business class cabin based on the Adient Aerospace Ascent seat. This seat is…",
+      "url": "https://simpleflying.com/why-qatar-airways-accepting-boeing-787-9s-without-qsuites-refunding-passengers-get-one/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-09-03T13:00:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/accepting-boeing-787-9s.png"
+    },
+    {
+      "title": "Top Aircraft Maintenance Jobs",
+      "description": "Aircraft maintenance plays a key role in keeping our skies safe. Skilled professionals work each and every day to ensure that aircraft are safe to fly. For those interested in aviation, working in aircraft maintenance can be a challenging but rewarding career path. Jobs in aircraft maintenance…",
+      "url": "https://www.flyingmag.com/top-aircraft-maintenance-jobs/",
+      "source": "Flying Magazine",
+      "author": "Andrew Chen",
+      "published_at": "2026-09-03T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Singapore Airlines Launches 4 Major Long-Haul Routes In 3 Months: See Full List",
+      "description": "Widebody aircraft continue to play a critical role in Singapore Airlines' operations. In the final months of 2026, OAG data shows that the airline plans an average of 125 daily twin-aisle departures from Singapore Changi Airport (SIN). The equipment is not only used for higher passenger capacity…",
+      "url": "https://simpleflying.com/singapore-airlines-launches-4-major-long-haul-routes-in-3-months/",
       "source": "Simple Flying",
       "author": "James Pearson",
-      "published_at": "2026-09-02T19:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air-canada-airbus-a330-mock-up.jpg"
+      "published_at": "2026-09-03T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/singapore-airlines-airbus-a350-900-pushing-back1.jpg"
+    },
+    {
+      "title": "5 DC-10 Engineering Fixes That Quietly Shaped Every Modern Airliner's Safety Design",
+      "description": "The McDonnell Douglas DC-10 entered service in an era when commercial aviation was learning how quickly a seemingly isolated design weakness could become a system-level emergency. Within its first decade, a series of accidents exposed vulnerabilities involving cargo doors, pressure loads, hydraulic…",
+      "url": "https://simpleflying.com/5-dc-10-engineering-fixes-quietly-shaped-modern-airliners-safety-design/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-09-03T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/5-dc-10-engineering.png"
+    },
+    {
+      "title": "The Aircraft Set To Replace The World’s Largest Commercial Jet",
+      "description": "For more than as long as many can remember, the Boeing 747 and more recently the Airbus A380 have been the icons of the modern jet age, towering above every other jet physically and symbolically. However, with the final iterations of these types having rolledoff the line and quad-engine giants…",
+      "url": "https://simpleflying.com/aircraft-replace-the-worlds-largest-commercial-jet/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-03T09:49:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/replacement-1.jpg"
+    },
+    {
+      "title": "Why American Airlines' New Boeing 787-9 Premium Economy At 2x Coach May Undercut Its Own Business Class",
+      "description": "American Airlines has introduced a redesigned long-haul cabin configuration that is creating an immediate financial dilemma. On flagship transatlantic routes, the carrier has elevated its mid-tier seating to a standard where paying thousands of dollars extra for a lie-flat bed starts to look like…",
+      "url": "https://simpleflying.com/why-american-airlines-new-boeing-787-9-premium-economy-2x-coach-undercut-own-buisness-class/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-03T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/new-boeing-787-9-premium-economy.png"
+    },
+    {
+      "title": "Honolulu To Baltimore: Southwest Unveils First 4 Airport Lounges, At Least 11 Planned",
+      "description": "Southwest Airlines has announced the locations of its first four airport lounges and said it has plans for at least another seven facilities in the pipeline. The carrier plans to open its first-ever lounges next year, marking a watershed moment in Southwest's continuing transformation.",
+      "url": "https://simpleflying.com/southwest-airlines-first-airport-lounges-austin-baltimore-honolulu-nashville/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-09-03T07:28:44Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a-southwest-airlines-boeing-737-700-arriving-at-san-jose-international-airport.jpg"
+    },
+    {
+      "title": "\"Lost Our Right Engine\": Coast Guard Gulfstream Carrying DHS Chief Mullin Declares DCA Emergency",
+      "description": "A United States Coast Guard Gulfstream G550 carrying DHS Secretary Markwayne Mullin and 13 others declared an emergency after suffering an in-flight engine failure. The aircraft diverted to Ronald Reagan Washington National Airport (DCA) on Wednesday afternoon as it carried Mullin and other…",
+      "url": "https://simpleflying.com/coast-guard-gulfstream-dhs-secretary-mullin-emergency-landing-dca/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-09-03T06:13:39Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/coast-guard-c-37a-on-the-apron.jpg"
+    },
+    {
+      "title": "Why Doesn't The World's Largest Military Cargo Aircraft Have A Glass Cockpit?",
+      "description": "The Lockheed C-5 Galaxy was first delivered to the United States Air Force in 1970 and is still flying today in its upgraded C-5M form. Interestingly, it was operated for decades without a glass cockpit primarily because its 1960s-era design prioritized mechanical reliability over digital avionics,…",
+      "url": "https://simpleflying.com/why-doesnt-largest-military-cargo-aircraft-glass-cockpit/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-09-03T01:15:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/glass-cockpit.jpg"
+    },
+    {
+      "title": "AOPA member honored by county for airport advocacy",
+      "description": "Larry Scheinpflug, a longtime AOPA member based at Atlanta’s DeKalb-Peachtree Airport , was honored by DeKalb County Commissioners on August 11, recognizing his service on the airport's advisory board.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/02/aopa-member-honored-by-county-for-airport-advocacy?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-02T23:23:45Z",
+      "image": null
     },
     {
       "title": "WATCH: Regent Electric Seaglider Prototype Makes First Crewed Flight",
@@ -22,42 +103,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/REGENT-FIRST-FLIGHT-STRINGOUT_TEST1.mp4"
     },
     {
-      "title": "5,100 Miles: Inside The USA's 11 New Longest Nonstop Domestic Flights [List & Map]",
-      "description": "The longest domestic flights in the United States can easily surpass a nonstop flight between America and Europe . The longest domestic flight in the US connects New England to Hawaii and can take more than 11 hours gate to gate . This article will break down the longest departing domestic flights…",
-      "url": "https://simpleflying.com/5100-miles-usas-11-new-longest-nonstop-domestic-flights/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-09-02T18:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-boeing-767-400er.jpg"
-    },
-    {
-      "title": "Flight Crews Have A Higher Risk Of Dying From Radiation-Related Cancers: What Does It Really Mean?",
-      "description": "A study published this week in JAMA Internal Medicine found that among 503 US occupations, flight attendants had the highest proportion of deaths from radiation-related cancers and pilots the second-highest rate. This was ahead even of workers who handle radioactive materials directly, so it is…",
-      "url": "https://simpleflying.com/flight-crews-higher-risk-dying-radiation-related-cancers-really-mean/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-09-02T17:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/flight-crews-have-a-higher-risk-of-dying-from-radiation-related-cancers-what-does-it-really-mean.jpg"
-    },
-    {
-      "title": "Fuel Too Expensive? Ryanair Say It Is While Cutting Winter Flights",
-      "description": "Recent years have seen multiple crises impacting fuel prices, with the current war in Iran and the blockading of the Straits of Hormuz having the greatest impact. Ask Traders reports that Ryanair has said that jet fuel has been trading at almost $140 per barrel. Something has to give to ensure…",
-      "url": "https://simpleflying.com/ryanair-cuts-flights-fuel-too-expensive/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-09-02T16:33:28Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/ryanair-easyjet-and-wizz-jamesdc152-shutterstock.jpg"
-    },
-    {
-      "title": "American Airlines Launches 21 Nonstop Routes From Philadelphia To Europe [List & Map]",
-      "description": "American Airlines is doubling down on Philadelphia International Airport (PHL) as its primary gateway to Europe . For Summer 2027, the carrier is scheduled to serve 21 European destinations nonstop from Philadelphia , its largest-ever European network from the airport, after adding Porto, Reykjavík…",
-      "url": "https://simpleflying.com/american-launches-21-nonstop-routes-from-philadelphia-to-europe/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-09-02T16:11:01Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american_airlines_787_striking_1920x1080.jpg"
-    },
-    {
       "title": "Bird Strikes, Powerplant Failures Commonly Cited in Recent Business Aviation Safety Events",
       "description": "Bird strikes, powerplant failures, and collisions were among the most commonly cited occurrences for business aircraft accidents and incidents from April through June 2026, according to the National Business Aviation Association (NBAA). NBAA’s analysis of business aviation accidents and incidents…",
       "url": "https://www.flyingmag.com/nbaa-q2-business-aviation-safety-accidents/",
@@ -65,15 +110,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-09-02T16:00:00Z",
       "image": null
-    },
-    {
-      "title": "The World's Newest Mega-Airports That Just Opened",
-      "description": "There is no doubt about it: demand for air travel is growing. The International Air Transport Association’s (IATA) mid-growth scenario sees global total revenue of passenger kilometers increasing by 3.1% annually to 20.8 trillion by 2050, for instance. Airbus then forecasts, somewhat conservatively…",
-      "url": "https://simpleflying.com/worlds-newest-mega-airports-just-opened/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-09-02T15:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/world-s-newest-mega-airports.png"
     },
     {
       "title": "Florida Man Convicted of Smuggling $900K in Aircraft Parts to Russia",
@@ -85,15 +121,6 @@
       "image": null
     },
     {
-      "title": "The End Of First Class: American Airlines Debuts New Flagship Suites On Its Largest Aircraft",
-      "description": "American Airlines' new era of premium travel is expanding to its largest aircraft. The Fort Worth, Texas-based carrier unveiled its first retrofitted Boeing 777-300ER featuring Flagship Suites on Wednesday – marking the third aircraft type in its fleet to feature the interior.",
-      "url": "https://simpleflying.com/american-airlines-debuts-new-flagship-suites-largest-aircraft/",
-      "source": "Simple Flying",
-      "author": "Channing Reid",
-      "published_at": "2026-09-02T14:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1926487328-1.jpg"
-    },
-    {
       "title": "This 2025 Cirrus SR22T G7+ Is a Top-Tier ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2025 Cirrus SR22T G7+. Representing…",
       "url": "https://www.flyingmag.com/this-2025-cirrus-sr22t-g7-is-a-top-tier-aircraftforsale-top-pick/",
@@ -103,17 +130,8 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cirrus-sr22t-g7-for-sale-602001-f0edc21ce19e92e8-800X600-1.jpg?w=800"
     },
     {
-      "title": "Air India Launches New 17-Hour Nonstop Flights To North America In 1 Month [Map]",
-      "description": "In late October, Air India will introduce service from Mumbai's Chhatrapati Shivaji Maharaj International Airport (BOM) to Toronto Pearson International Airport (YYZ). The launch comes despite the airline's continued focus on stopping services to North America, which is, of course, something that…",
-      "url": "https://simpleflying.com/air-india-launches-new-17-hour-nonstop-flights-to-north-america-in-1-month/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-02T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air-india-boeing-777-300er-mock-up-1.jpg"
-    },
-    {
-      "title": "Why Are Airplane Clearing Turns Always Made to the Left?",
-      "description": "Question: I have just started my flight training, and I have learned how to do a clearing turn . It makes sense to me to look around before you do a maneuver, but why is it always to the left? My CFI has me doing a 360-degree turn. I asked my CFI, and he said that’s how he learned it, so that’s how…",
+      "title": "Why Are Airplane Clearing Turns First Made to the Left?",
+      "description": "Question: I have just started my flight training, and I have learned how to do a clearing turn . It makes sense to me to look around before you do a maneuver, but why is the first one always to the left? My CFI has me doing a 360-degree turn. I asked my CFI, and he said that’s how he learned it, so…",
       "url": "https://www.flyingmag.com/why-are-airplane-clearing-turns-always-made-to-the-left/",
       "source": "Flying Magazine",
       "author": "Meg Godlewski",
@@ -148,39 +166,12 @@
       "image": null
     },
     {
-      "title": "FAA Proposes Unusual Airspace Restriction for Trump’s Mar-a-Lago Estate",
-      "description": "The FAA has proposed the creation of a Special Flight Rules Area (SFRA) near Donald J. Trump International Airport (KDJT, formerly Palm Beach International Airport), the agency told FLYING Tuesday. The rare restriction would join only a handful of SFRAs the FAA already maintains and add to…",
-      "url": "https://www.flyingmag.com/faa-airspace-restriction-trump-mar-a-lago/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-01T16:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2021 Piper PA-28-181 Piper Pilot 100i Is a Training-Initiated ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2021 Piper PA-28-181 Piper Pilot…",
-      "url": "https://www.flyingmag.com/this-2021-piper-pa-28-181-piper-pilot-100i-is-a-training-initiated-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-01T14:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-piper-pa-28-181-piper-pilot-100i-for-sale-601979-f1f76bbc2efcbd5d-800X600-1.jpg?w=800"
-    },
-    {
       "title": "Meet the people behind flight service",
       "description": "Some pilots are surprised to learn that flight service specialists still exist. They assume 1-800-WX-BRIEF is an automated recording, or the job disappeared years ago.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/01/meet-the-people-behind-flight-service?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-01T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "What an AOPA Flight Training Experience Award can do for you",
-      "description": "Applications for the 2027 Flight Training Experience Awards will open on September 1.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/august/26/what-an-aopa-flight-training-experience-award-can-do-for-you?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-08-26T19:53:29Z",
       "image": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:13:18.684232+00:00",
+  "generated_at": "2026-09-03T13:49:52.388157+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
-      "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
-      "points": 10,
+      "title": "What would be the reason behind NAL Saras aircraft having rudder issues?",
+      "url": "https://aviation.stackexchange.com/questions/115551/what-would-be-the-reason-behind-nal-saras-aircraft-having-rudder-issues",
+      "points": 1,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788002735
+      "created_utc": 1788279518
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What could be the reasons behind so many control issues in the NAL Saras Mk1?",
-      "url": "https://aviation.stackexchange.com/questions/115551/what-could-be-the-reasons-behind-so-many-control-issues-in-the-nal-saras-mk1",
-      "points": 2,
-      "num_comments": 0,
+      "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
+      "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
+      "points": 10,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788279518
+      "created_utc": 1788002735
     },
     {
       "title": "Starlink Aviation",
