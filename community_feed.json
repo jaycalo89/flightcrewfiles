@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:49:52.388157+00:00",
+  "generated_at": "2026-09-04T14:04:45.936004+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
-      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
-      "points": 6,
-      "num_comments": 3,
+      "title": "Special VFR for cruise?",
+      "url": "https://aviation.stackexchange.com/questions/115562/special-vfr-for-cruise",
+      "points": 1,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788064438
+      "created_utc": 1788491960
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "What would be the reason behind NAL Saras aircraft having rudder issues?",
-      "url": "https://aviation.stackexchange.com/questions/115551/what-would-be-the-reason-behind-nal-saras-aircraft-having-rudder-issues",
-      "points": 1,
+      "title": "For drone pilots in California what height do you need to be at to do commercial part 107 survey photography?",
+      "url": "https://aviation.stackexchange.com/questions/115560/for-drone-pilots-in-california-what-height-do-you-need-to-be-at-to-do-commercial",
+      "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788279518
+      "created_utc": 1788481197
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Does the F-16 engine appear dark if we look directly into it from behind, in full thrust (no AB)?",
-      "url": "https://aviation.stackexchange.com/questions/115541/does-the-f-16-engine-appear-dark-if-we-look-directly-into-it-from-behind-in-ful",
-      "points": 10,
+      "title": "Compare the output/force between a turbofan and its derived APU model?",
+      "url": "https://aviation.stackexchange.com/questions/115556/compare-the-output-force-between-a-turbofan-and-its-derived-apu-model",
+      "points": 3,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788002735
+      "created_utc": 1788446203
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is it normal in a large airport for there to be this many aircraft tires failing?",
-      "url": "https://aviation.stackexchange.com/questions/115530/is-it-normal-in-a-large-airport-for-there-to-be-this-many-aircraft-tires-failing",
-      "points": 5,
-      "num_comments": 1,
+      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
+      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
+      "points": 7,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1787854858
+      "created_utc": 1788064438
     }
   ]
 }
