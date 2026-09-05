@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:04:45.936004+00:00",
+  "generated_at": "2026-09-05T14:31:40.916807+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Special VFR for cruise?",
       "url": "https://aviation.stackexchange.com/questions/115562/special-vfr-for-cruise",
-      "points": 1,
-      "num_comments": 1,
+      "points": 2,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788491960
     },
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "For drone pilots in California what height do you need to be at to do commercial part 107 survey photography?",
-      "url": "https://aviation.stackexchange.com/questions/115560/for-drone-pilots-in-california-what-height-do-you-need-to-be-at-to-do-commercial",
-      "points": 0,
-      "num_comments": 1,
+      "title": "Compare the output/force between a turbofan and its derived APU model?",
+      "url": "https://aviation.stackexchange.com/questions/115556/compare-the-output-force-between-a-turbofan-and-its-derived-apu-model",
+      "points": 4,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788481197
+      "created_utc": 1788446203
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Compare the output/force between a turbofan and its derived APU model?",
-      "url": "https://aviation.stackexchange.com/questions/115556/compare-the-output-force-between-a-turbofan-and-its-derived-apu-model",
-      "points": 3,
-      "num_comments": 1,
+      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
+      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
+      "points": 7,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788446203
+      "created_utc": 1788064438
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
-      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
-      "points": 7,
-      "num_comments": 3,
+      "title": "For drone pilots in California what height do you need to be at to do commercial part 107 survey photography?",
+      "url": "https://aviation.stackexchange.com/questions/115560/for-drone-pilots-in-california-what-height-do-you-need-to-be-at-to-do-commercial",
+      "points": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788064438
+      "created_utc": 1788481197
     }
   ]
 }

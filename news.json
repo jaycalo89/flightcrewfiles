@@ -1,25 +1,97 @@
 {
-  "generated_at": "2026-09-04T14:04:29.779017+00:00",
+  "generated_at": "2026-09-05T14:31:32.637833+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 19,
   "articles": [
     {
-      "title": "Emirates Launches Airbus A380 Flights On This Major 8-Hour Route In 1 Month [Map]",
-      "description": "Things are slowly returning to normal, although the recovery is so fragile that progress could easily be reversed. As Aeroroutes shows, Emirates has confirmed that it will once again fly the Airbus A380 from Dubai International Airport (DXB) to Beijing Capital Airport (PEK).",
-      "url": "https://simpleflying.com/emirates-launches-airbus-a380-flights-on-this-major-8-hour-route-in-1-month/",
+      "title": "Virgin Atlantic Cuts 5 Long-Haul Routes To North America: See Affected Flights",
+      "description": "It has been more than four decades since Virgin Atlantic operated its first revenue flight. The airline launched its first service in June 1984 with a flight from London Gatwick to Newark, New Jersey. Since then, it has grown into one of the UK's prominent long-haul airlines. Virgin Atlantic now…",
+      "url": "https://simpleflying.com/virgin-atlantic-has-cut-5-long-haul-routes-north-america/",
       "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-04T14:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/emirates-a380-on-a-runway.jpg"
+      "author": "Prachi Patel",
+      "published_at": "2026-09-05T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/387-virgin-atlantic-airbus-a350-ceri-breeze-_-shutterstock.jpg"
     },
     {
-      "title": "How Much Does It Cost An Airline To De-Ice A Boeing 777?",
-      "description": "When temperatures drop below freezing at airports across the northern United States, Canada, and Europe, commercial aircraft cannot depart until every trace of ice, snow, and frost has been removed from their wings, tail surfaces, and control surfaces. The FAA's clean aircraft concept makes this an…",
-      "url": "https://simpleflying.com/how-much-cost-airline-de-ice-boeing-777/",
+      "title": "Qantas Moves Up Airbus A380 Retirement By 4 Years, First Superjumbo To Exit In 2028",
+      "description": "As the toll of United States’ Operation Epic Fury continues to exact a high price on the global aviation industry, the latest casualty is the Airbus A380 fleet of Australian carrier Qantas. Qantas originally planned to begin phasing out its ten A380s in 2032. That has been rescheduled for 2028,…",
+      "url": "https://simpleflying.com/video/qantas-moves-up-airbus-a380-retirement-by-4-years-first-superjumbo-to-exit-in-2028/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-09-04T14:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_2398381021-1.jpg"
+      "author": "Chris Loh",
+      "published_at": "2026-09-05T12:25:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qantas-a380-retire-early.jpg"
+    },
+    {
+      "title": "89 Years Later, Amelia Earhart's Final Radio Words Remain One Of The Most Haunting Quotes In Aviation History",
+      "description": "On July 2, 1937, Amelia Earhart and navigator Fred Noonan took off from Lae, New Guinea, embarking on the most perilous leg of their round-the-world flight attempt: a 2,556-mile (4,113 km) transoceanic journey across the Pacific Ocean toward Howland Island. Stationed near the tiny coral outcrop,…",
+      "url": "https://simpleflying.com/amelia-earhart-final-radio-words-disappearance/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-05T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/amelia-earhart-s-final-radio-words.jpg"
+    },
+    {
+      "title": "\"Sounded Like Gunshots\": Qantas Boeing 737 Diverts After Engine Flames Over Queenstown",
+      "description": "Passengers onboard a Qantas flight from Queenstown Airport (ZQN) to Sydney Kingsford Smith Airport (SYD) were diverted to Christchurch Airport (CHC) on Saturday afternoon after flames were spotted coming from an engine shortly after takeoff. Subsequent reports confirmed that this was caused by a…",
+      "url": "https://simpleflying.com/qantas-boeing-737-engine-flames-queenstown-diversion/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-09-05T10:09:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qantas-boeing-737-800-landing-1.jpg"
+    },
+    {
+      "title": "The Airlines With The World’s Most Superior Economy Class Seats In 2026",
+      "description": "While business class or first class are the exciting premium cabins with elaborate, innovative designs and luxurious features, economy class is how most people fly. On most airlines, economy seats are largely the same, with differences coming in visual design, whether a screen is present, legroom,…",
+      "url": "https://simpleflying.com/airlines-superior-economy-class-seats/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-09-05T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/the-airlines-with-the-world-s-superior-economy-class-seats-in-2025.jpg"
+    },
+    {
+      "title": "US Airlines Will No Longer Owe You Meals Or Hotels For 10 'Uncontrollable' Delays",
+      "description": "US airlines will no longer have to treat certain flight delays and cancellations as their responsibility, meaning fewer passengers will be eligible for meals, hotels and ground transportation. From October 19, ten types of disruption — ranging from unscheduled maintenance to medical emergencies,…",
+      "url": "https://simpleflying.com/us-airlines-no-longer-owe-meals-hotels-uncontrollable-delays/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-09-05T07:30:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/735-american-airlines-boeing-737-800-robin-guess-_-shutterstock.jpg"
+    },
+    {
+      "title": "Frontier Airlines Confirms Its Final Day At New York JFK After Only 2 Years",
+      "description": "Denver-based ultra-low-cost carrier Frontier Airlines has confirmed its plans to stop operating from New York JFK Airport (JFK), after just two years of serving the airport. The airline will operate its final flight from JFK on October 5, leaving Atlanta as its only remaining route from the airport…",
+      "url": "https://simpleflying.com/frontier-airlines-new-york-jfk-exit-date-confirmed/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-09-05T06:14:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/frontier-airlines-aircraft-landing-at-tampa-1.jpg"
+    },
+    {
+      "title": "This 1976 Beechcraft Bonanza V35B Is a Ready-to-Travel ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1976 Beechcraft V35B Bonanza. The…",
+      "url": "https://www.flyingmag.com/this-1976-beechcraft-bonanza-v35b-is-a-ready-to-travel-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-09-04T17:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/Bonanza2.jpg"
+    },
+    {
+      "title": "Boeing Quietly Paid $3.1M Fine Related to 2024 Door Plug Incident",
+      "description": "Boeing paid the FAA about $3.1 million in civil penalties for safety violations, including issues related to the door plug blowout of a 737-9 Max aircraft operated by Alaska Airlines, Reuters was first to report this week. The FAA in September 2025 proposed fines against Boeing totaling $3,139,319…",
+      "url": "https://www.flyingmag.com/boeing-3-1million-fine-2024-door-plug-max-9/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-04T16:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Epic Flight Academy Adds Tecnam P2006Ts to Fleet",
+      "description": "Epic Flight Academy (EPA), the largest Part 141 flight school in the United States, has acquired two Tecnam P2006T twin-engine aircraft to facilitate its multiengine training program. Founded in 1999 in Florida, EPA has flight schools in nine locations stretching from Florida to Colorado and a…",
+      "url": "https://www.flyingmag.com/epic-flight-academy-adds-tecnam-p2006ts-to-fleet/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-04T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/wmxuvspg.jpeg?w=1024"
     },
     {
       "title": "FAA Issues Lycoming Engine AD Over Defective Piston Pins",
@@ -40,15 +112,6 @@
       "image": null
     },
     {
-      "title": "Boeing Now Fixing Cracked Parts On New Air Force One 747-8s Amid $3 Billion In Cost Overruns",
-      "description": "Boeing is making steady progress repairing hundreds of microscopic cracks discovered in structural reinforcing members on the two 747-8 aircraft being converted into the next Air Force One fleet, with the news coming from Bloomberg. The repairs involve longitudinal structures known as stringers,…",
-      "url": "https://simpleflying.com/video/boeing-now-fixing-cracked-parts-on-new-air-force-one-747-8s-amid-3-billion-in-cost-overruns/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-04T12:31:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/cracked-af1.jpg"
-    },
-    {
       "title": "The Night the Moon Disappears for a Pilot",
       "description": "I am a 2,000-hour private pilot with an instrument rating and a tailwheel endorsement, but the night I nearly flew into a mountain, none of that experience mattered as much as a single blue button on my panel. Aviation has been in my blood since childhood. My father’s first job out of engineering…",
       "url": "https://www.flyingmag.com/the-night-the-moon-disappears-for-a-pilot/",
@@ -58,63 +121,9 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "British Airways Launches 5 Major Nonstop Routes From Heathrow In 3 Months: Full List",
-      "description": "British Airways is not the UK's largest airline for total flights. easyJet is. This is mainly because BA's operations are massively concentrated on three airports: London Heathrow Airport (LHR), London Gatwick Airport (LGW; mainline widebodies and BA EuroFlyer narrowbodies), and London City Airport…",
-      "url": "https://simpleflying.com/british-airways-launches-5-major-nonstop-routes-from-heathrow-in-3-months-full-list/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-04T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/british-airways-787-10-after-push-back.jpg"
-    },
-    {
-      "title": "Why Latin American Airlines Are Outperforming the US & Europe",
-      "description": "In this video, we'll examine why Latin American airlines have become some of the world's most profitable carriers, how Chapter 11 fundamentally reshaped the industry, and whether airlines like LATAM and Copa are really outperforming their US and European rivals.",
-      "url": "https://simpleflying.com/video/why-latin-american-airlines-are-outperforming-the-us-europe/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-09-04T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/65_lh_true-latin-american-carriers-outperforming-us-european-counterparts_h_site-copy.jpg"
-    },
-    {
-      "title": "The Airports Racing To Finish Terminal Expansions Before The 2028 Olympics Squeeze Capacity",
-      "description": "With the July 2028 Los Angeles Olympic and Paralympic Games fast approaching, airport operators across Southern California are locked in a non-negotiable race to complete massive infrastructure overhauls. Major global sporting events generate unprecedented spikes in passenger movement, placing…",
-      "url": "https://simpleflying.com/the-airports-racing-to-finish-terminal-expansions-before-the-2028-olympics-squeeze-capacity/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-04T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/terminal-expansions.png"
-    },
-    {
-      "title": "American Airlines Boeing 737-800’s Aborted Takeoff At LaGuardia Was A Bird Strike False Alarm",
-      "description": "American Airlines flight 392 failed to take off while it was moving at approximately 140 mph down the runway at LaGuardia Airport (LGA) on Thursday morning. The crew believed that they had experienced a bird strike during the takeoff roll, but upon inspection after returning to the terminal, there…",
-      "url": "https://simpleflying.com/american-airlines-boeing-737-800-aborted-takeoff-laguardia-bird-strike-false-alarm/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-04T09:03:29Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/298-american-airlines-boeing-737-800-robin-guess-_-shutterstock.jpg"
-    },
-    {
-      "title": "Inflatable Decoys & Dispersal: How Air Forces Now Protect Parked Aircraft",
-      "description": "Deception is as old as war itself and is a core part of modern doctrine. In Roman times, Spartacus tied weapons and armor to stakes, with fires lit around the camp to trick Roman sentries into thinking his entire army remained in place while he slipped away. The Allies built a whole fake army led…",
-      "url": "https://simpleflying.com/how-air-forces-now-protect-parked-aircraft/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-09-04T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/inflatable-decoys-dispersal-how-air-forces-now-protect-parked-aircraft.jpg"
-    },
-    {
-      "title": "Six Retired USAF Aircraft That Are Now Flying As Civilian Warbirds",
-      "description": "Thousands of former military aircraft survive today, and a meaningful slice of them still fly, from single-seat fighters in private hands to four-engine bomber s touring the US under a nonprofit banner. The FAA ’s guidance on former military aircraft covers turbine-powered ex -military types over…",
-      "url": "https://simpleflying.com/retired-military-aircraft-flying-civilian-warbirds/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-09-04T05:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/main-image-16_9-31.jpeg"
-    },
-    {
       "title": "Michigan airport's new landing fees ‘extremely concerning’",
       "description": "The Manistee Blacker Airport Authority voted on August 17 to implement landing fees for some aircraft at Manistee County/Blacker Airport , beginning October 1.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/03/michigan-airports-new-landing-fees-extremely-concerning?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/03/michigan-airports-new-landing-fees-extremely-concerning?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-03T21:13:01Z",
@@ -130,27 +139,9 @@
       "image": null
     },
     {
-      "title": "This 1962 Cessna 182E Skylane Is an Honest ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1962 Cessna 182E Skylane. Standing as…",
-      "url": "https://www.flyingmag.com/this-1962-cessna-182e-skylane-is-an-honest-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-03T14:07:28Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cessna-182e-skylane-for-sale-602005-d85bb536f6f88124-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "Top Aircraft Maintenance Jobs",
-      "description": "Aircraft maintenance plays a key role in keeping our skies safe. Skilled professionals work each and every day to ensure that aircraft are safe to fly. For those interested in aviation, working in aircraft maintenance can be a challenging but rewarding career path. Jobs in aircraft maintenance…",
-      "url": "https://www.flyingmag.com/top-aircraft-maintenance-jobs/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-09-03T12:00:00Z",
-      "image": null
-    },
-    {
       "title": "Weeklong aviation celebration coming to Dayton area",
       "description": "Military and civilian aircraft, hot air balloons, classic cars— Grimes Field in Urbana, Ohio, near Dayton, will offer a bit of everything for aviation enthusiasts during Champaign County Aviation Heritage Week September 12 through 19.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/03/weeklong-aviation-celebration-coming-to-dayton-area?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/03/weeklong-aviation-celebration-coming-to-dayton-area?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-03T08:00:00Z",
@@ -159,34 +150,16 @@
     {
       "title": "AOPA member honored by county for airport advocacy",
       "description": "Larry Scheinpflug, a longtime AOPA member based at Atlanta’s DeKalb-Peachtree Airport , was honored by DeKalb County Commissioners on August 11, recognizing his service on the airport's advisory board.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/02/aopa-member-honored-by-county-for-airport-advocacy?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/02/aopa-member-honored-by-county-for-airport-advocacy?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-02T23:23:45Z",
       "image": null
     },
     {
-      "title": "WATCH: Regent Electric Seaglider Prototype Makes First Crewed Flight",
-      "description": "Regent Craft said Wednesday that its prototype electric seaglider, Viceroy, made its first human-crewed flight. According to the Rhode Island-based manufacturer, Viceroy—which combines aspects of traditional aircraft and maritime vessels—is the largest all-electric, wing-in-ground effect (WIG)…",
-      "url": "https://www.flyingmag.com/regent-electric-seaglider-first-crewed-flight/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-02T18:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/REGENT-FIRST-FLIGHT-STRINGOUT_TEST1.mp4"
-    },
-    {
-      "title": "Bird Strikes, Powerplant Failures Commonly Cited in Recent Business Aviation Safety Events",
-      "description": "Bird strikes, powerplant failures, and collisions were among the most commonly cited occurrences for business aircraft accidents and incidents from April through June 2026, according to the National Business Aviation Association (NBAA). NBAA’s analysis of business aviation accidents and incidents…",
-      "url": "https://www.flyingmag.com/nbaa-q2-business-aviation-safety-accidents/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-02T16:00:00Z",
-      "image": null
-    },
-    {
       "title": "A creative path to aviation",
       "description": "André Baumgartner remembers standing in front of a Civil Air Patrol airplane beside their father when they were six or seven years old, just after an orientation flight. It would be another two decades before Baumgartner pursued aviation professionally.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/01/a-creative-path-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/01/a-creative-path-to-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-01T17:22:29Z",
@@ -195,7 +168,7 @@
     {
       "title": "Meet the people behind flight service",
       "description": "Some pilots are surprised to learn that flight service specialists still exist. They assume 1-800-WX-BRIEF is an automated recording, or the job disappeared years ago.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/01/meet-the-people-behind-flight-service?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/01/meet-the-people-behind-flight-service?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-01T08:00:00Z",
