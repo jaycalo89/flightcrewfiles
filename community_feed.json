@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:44:58.490293+00:00",
+  "generated_at": "2026-09-07T14:13:56.597781+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,7 +17,7 @@
     {
       "title": "How useful was having the inside of the wings acessible on aircraft on those aircraft that had it?",
       "url": "https://aviation.stackexchange.com/questions/115569/how-useful-was-having-the-inside-of-the-wings-acessible-on-aircraft-on-those-air",
-      "points": 2,
+      "points": 7,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788672575
@@ -33,7 +33,7 @@
     {
       "title": "What is the purpose of vortex generators on B737-8 trailing edge flaps",
       "url": "https://aviation.stackexchange.com/questions/115567/what-is-the-purpose-of-vortex-generators-on-b737-8-trailing-edge-flaps",
-      "points": 5,
+      "points": 6,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788620220
@@ -65,7 +65,7 @@
     {
       "title": "Special VFR for cruise?",
       "url": "https://aviation.stackexchange.com/questions/115562/special-vfr-for-cruise",
-      "points": 2,
+      "points": 3,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788491960
