@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:38:26.334605+00:00",
+  "generated_at": "2026-09-11T12:49:02.328535+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Why is \"retard\" used despite the incorrect translation?",
       "url": "https://aviation.stackexchange.com/questions/115574/why-is-retard-used-despite-the-incorrect-translation",
-      "points": 0,
-      "num_comments": 0,
+      "points": -3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788956248
     },
@@ -33,7 +33,7 @@
     {
       "title": "How useful was having the inside of the wings accessible on aircraft on those aircraft that had it?",
       "url": "https://aviation.stackexchange.com/questions/115569/how-useful-was-having-the-inside-of-the-wings-accessible-on-aircraft-on-those-ai",
-      "points": 9,
+      "points": 11,
       "num_comments": 3,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788672575
@@ -49,7 +49,7 @@
     {
       "title": "What is the purpose of vortex generators on B737-8 trailing edge flaps",
       "url": "https://aviation.stackexchange.com/questions/115567/what-is-the-purpose-of-vortex-generators-on-b737-8-trailing-edge-flaps",
-      "points": 6,
+      "points": 7,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1788620220
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Compare the output/force between a turbofan and its derived APU model?",
-      "url": "https://aviation.stackexchange.com/questions/115556/compare-the-output-force-between-a-turbofan-and-its-derived-apu-model",
-      "points": 4,
-      "num_comments": 2,
+      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
+      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
+      "points": 7,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788446203
+      "created_utc": 1788064438
     }
   ]
 }
