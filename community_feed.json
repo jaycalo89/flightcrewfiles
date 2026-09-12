@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:49:02.328535+00:00",
+  "generated_at": "2026-09-12T13:41:23.069370+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Why is \"retard\" used despite the incorrect translation?",
-      "url": "https://aviation.stackexchange.com/questions/115574/why-is-retard-used-despite-the-incorrect-translation",
-      "points": -3,
-      "num_comments": 2,
+      "title": "Why doesn't the nose gear tend to slam on the runway when touching down with autobrakes?",
+      "url": "https://aviation.stackexchange.com/questions/115579/why-doesnt-the-nose-gear-tend-to-slam-on-the-runway-when-touching-down-with-aut",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788956248
+      "created_utc": 1789155675
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "How useful was having the inside of the wings accessible on aircraft on those aircraft that had it?",
-      "url": "https://aviation.stackexchange.com/questions/115569/how-useful-was-having-the-inside-of-the-wings-accessible-on-aircraft-on-those-ai",
-      "points": 11,
-      "num_comments": 3,
+      "title": "Why is \"retard\" used despite the incorrect translation?",
+      "url": "https://aviation.stackexchange.com/questions/115574/why-is-retard-used-despite-the-incorrect-translation",
+      "points": -2,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788672575
+      "created_utc": 1788956248
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What is the purpose of vortex generators on B737-8 trailing edge flaps",
-      "url": "https://aviation.stackexchange.com/questions/115567/what-is-the-purpose-of-vortex-generators-on-b737-8-trailing-edge-flaps",
-      "points": 7,
-      "num_comments": 1,
+      "title": "How useful was having the inside of the wings accessible on aircraft on those aircraft that had it?",
+      "url": "https://aviation.stackexchange.com/questions/115569/how-useful-was-having-the-inside-of-the-wings-accessible-on-aircraft-on-those-ai",
+      "points": 11,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788620220
+      "created_utc": 1788672575
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
-      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
+      "title": "What is the purpose of vortex generators on B737-8 trailing edge flaps",
+      "url": "https://aviation.stackexchange.com/questions/115567/what-is-the-purpose-of-vortex-generators-on-b737-8-trailing-edge-flaps",
       "points": 7,
-      "num_comments": 3,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788064438
+      "created_utc": 1788620220
     }
   ]
 }

@@ -1,61 +1,106 @@
 {
-  "generated_at": "2026-09-11T12:48:55.518117+00:00",
+  "generated_at": "2026-09-12T13:41:16.404716+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 16,
   "articles": [
     {
-      "title": "Virgin Atlantic Sells 2 Boeing 787-9s To LOT Polish Airlines, Focuses On New A330neos",
-      "description": "Virgin Atlantic has taken the next step in reducing its Dreamliner fleet, handing over two of its Boeing 787-9s to LOT Polish Airlines. The UK carrier is working to bring its 787 fleet down from 17 to 14 jets. LOT's chief executive, Michał Fijoł, has confirmed that the transfer will be completed in…",
-      "url": "https://simpleflying.com/video/virgin-atlantic-sells-2-boeing-787-9s-to-lot-polish-airlines-focuses-on-new-a330neos/",
+      "title": "Only 35 Minutes: British Airways' 11 New Shortest Flights Revealed: See Flights Now",
+      "description": "As the UK's flag carrier, British Airways (BA) plays an important role in keeping the nation connected on a worldwide scale. Naturally, its longest routes are the ones that tend to make the headlines, but at the other end of the distance and duration spectrum, its shortest hops are also worth a…",
+      "url": "https://simpleflying.com/ba-shortest-flights/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-12T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_2600443177_cropped.jpg"
+    },
+    {
+      "title": "Inflatable Emergency Slide Deploys Moments Before Trump Boards Ex-Qatari Air Force One",
+      "description": "One of President Donald Trump's recent departures from Joint Base Andrews was briefly delayed on September 9th after an emergency evacuation slide deployed from the Boeing 747-8 he was preparing to board.",
+      "url": "https://simpleflying.com/video/inflatable-emergency-slide-deploys-moments-before-trump-boards-ex-qatari-air-force-one/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-09-11T12:28:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/virgin-lot-787.jpg"
+      "published_at": "2026-09-12T12:28:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/af1-slide-deploy.jpg"
     },
     {
-      "title": "The World's Largest Airline Loyalty Programs By Membership Numbers",
-      "description": "Airline loyalty programs have evolved significantly from a simple point of differentiation to a crucial source of profits in their own right. Nowhere is this more true than in the US, where credit cards are generally quite popular (a key part of how airlines earn money from loyalty programs) while…",
-      "url": "https://simpleflying.com/world-largest-airline-loyalty-program-memberships/",
+      "title": "The FAA's Plan To Replace The Supersonic Flight Ban Could Change Commercial Aviation",
+      "description": "Since 1973, federal regulation 14 CFR 91.817 has prohibited civil aircraft from exceeding the speed of sound over US land. The ban was a response to public backlash against sonic booms during military testing in the 1960s, and it forced Concorde to operate supersonic only over water on its US…",
+      "url": "https://simpleflying.com/the-faas-plan-to-replace-the-supersonic-flight-ban-could-change-commercial-aviation/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-11T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/upgradepremiumplus-20260825-155232.jpg"
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-12T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/concorde-20260901-165557.jpg"
     },
     {
-      "title": "American Airlines Flight Attendant Who Was The 1st To Call About 9/11 Honored 25 Years Later",
-      "description": "A quarter-century after the World Trade Center's Twin Towers were laid low by Al-Qaeda hijackers , Americans across the nation are gathering to honor the memory of the victims who perished in the attacks. The family of Betty Ann Ong, a flight attendant on American Airlines flight 11, will never…",
-      "url": "https://simpleflying.com/american-airlines-flight-attendant-1st-call-9-11-honored-25-years-later/",
+      "title": "Watch: Ryanair Boeing 737 MAX Scrapes Wingtip, Aborts Dublin Landing In Crosswinds",
+      "description": "Footage has emerged of a Ryanair Boeing 737 MAX abandoning its landing at Dublin Airport (DUB) after it rolled sharply to the right in the final seconds of landing, leading to a wingtip strike on the runway. A passenger on board shared a video of the aborted landing, which occurred amid significant…",
+      "url": "https://simpleflying.com/ryanair-boeing-737-max-wingtip-strike-dublin-landing/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-11T08:25:24Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/seconds-after-the-second-hijacked-plane-hits-the-south-tower-at-the-world-trade-center-captured-by-john-celardo.jpg"
+      "author": "Luke Bodell",
+      "published_at": "2026-09-12T10:09:25Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a-ryanair-boeing-737-max-8-landing.jpg"
     },
     {
-      "title": "Why JetBlue Is Deferring 44 Brand-New Airbus A321neos Until 2030",
-      "description": "JetBlue was supposed to be in rapid growth mode right now, taking deliveries of Airbus A220s and A321neos throughout the rest of the decade. Instead, the A220s are still coming, but the A321neos aren't, because JetBlue deferred 44 A321neos in 2024 to come after 2029. The carrier's youngest A321neo…",
-      "url": "https://simpleflying.com/jetblue-deferring-44-brand-new-airbus-a321neos-2030/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-11T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/why-jetblue-is-deferring-44-brand-new-airbus-a321neos-until-2030.jpg"
-    },
-    {
-      "title": "The Boeing 777X's Folding Wingtips: Why No Other Airliner Has Ever Had This",
-      "description": "An aircraft's wing, though built for a relatively simple, unchanged purpose, has evolved significantly in shape and design. Some wings are designed to maximize fuel efficiency, and some, like that on the Boeing 777X , are radically different. When Boeing rolled out the 777X equipped with hinged,…",
-      "url": "https://simpleflying.com/boeing-777x-commercial-airliner-folding-wingtips/",
+      "title": "5 Things Passengers Don't Know About How Airlines Price Business Class Seats",
+      "description": "Unlocking the secrets of the premium cabin requires looking beyond the champagne and silk eye masks to the complex algorithms that dictate every dollar spent. Business class pricing often appears as a chaotic black box to the average traveler, yet it operates on a series of rigid, data-driven…",
+      "url": "https://simpleflying.com/5-things-passengers-dont-know-how-airlines-price-business-class-seats/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-09-11T01:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/wings-20260831-173426.jpg"
+      "published_at": "2026-09-12T09:15:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/5-things-passengers-don-t-know-about-how-airlines-price-business-class-seats.jpg"
     },
     {
-      "title": "Delta Air Lines Boeing 757-200 Returns To New York-JFK Due To Pressurization Issues",
-      "description": "A Delta Air Lines flight returned to John F. Kennedy International Airport (JFK) on Thursday morning after its pilots reported a cabin pressurization problem. DL791, operated by a Boeing 757-200 , had been headed to Phoenix Sky Harbor International Airport (PHX) with 155 passengers and six crew…",
-      "url": "https://simpleflying.com/delta-air-lines-boeing-757-200-return-jfk-pressurization-issues/",
+      "title": "United Airlines Is Sitting On Hundreds Of Lie-Flat Seats That Fit Only 1 Aircraft It Can't Get",
+      "description": "United Airlines has spent years waiting for the Boeing 737 MAX 10 , but the aircraft’s extraordinary certification delay has created a problem that is considerably stranger than simply having an order stuck in limbo. The airline has accumulated hundreds of custom lie-flat business class seats…",
+      "url": "https://simpleflying.com/united-airlines-sitting-hundreds-lie-flat-seats-fit-only-1-aircraft-cant-get/",
       "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-09-10T22:46:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/delta-757-200-with-tug-1.jpg"
+      "author": "Steven Walker",
+      "published_at": "2026-09-12T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-is-sitting-on-hundreds-of-lie-flat-seats-that-fit-only-1-aircraft-it-can-t-get.jpg"
+    },
+    {
+      "title": "How Much Does It Cost To Convert A Boeing 767 Into A Cargo Freighter?",
+      "description": "Tearing down a twenty-year-old passenger airliner, stripping away hundreds of seats, ripping out overhead bins, and slicing a massive structural opening directly into the aluminum fuselage seems like an absurdly expensive way to handle an aging asset. In reality, this is commonplace: every year,…",
+      "url": "https://simpleflying.com/boeing-767-cargo-freighter-conversion-cost/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-12T02:00:24Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/freighter-20260901-165135.jpg"
+    },
+    {
+      "title": "Epic Flight Academy Adds Test Prep for A&P Certification",
+      "description": "It takes a lot of hands-on learning and academics to earn an airframe and powerplant certificate, and now Epic Flight Academy is helping applicants make the grade with the launch of a two-week test prep course for FAA Part 147 A&P certification. According to EPA officials, the courses are offered…",
+      "url": "https://www.flyingmag.com/epic-flight-academy-adds-test-prep-for-ap-certification/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-11T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1956 De Havilland DHC-1 Chipmunk Is a Historic and Charismatic ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1956 de Havilland DHC-1 Chipmunk.…",
+      "url": "https://www.flyingmag.com/this-1956-de-havilland-dhc-1-chipmunk-is-a-historic-and-charismatic-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-09-11T16:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/chip2.jpg"
+    },
+    {
+      "title": "Meet Boeing’s Longest-Serving Employee",
+      "description": "Last month, 96-year-old Charlie Tapper became the longest-serving employee in Boeing’s history, and CEO Kelly Ortberg said he has “no plans of retiring anytime soon.” Tapper marked 75 years with the company in June. He joined Boeing a week after receiving a bachelor’s degree in mechanical…",
+      "url": "https://www.flyingmag.com/meet-boeing-longest-serving-employee/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-11T15:30:00Z",
+      "image": null
+    },
+    {
+      "title": "4-Seat All-Electric Cosmic One Embodies New Era of Light Sport Aircraft",
+      "description": "There has never been an aircraft quite like Cosmic One. The model—a “premium four-seater [full] electric aircraft” according to Christopher Chahine, co-founder and CEO of Colorado-based manufacturer Cosmic Aerospace—is still in the preliminary design stage. But it is a candidate to be the first…",
+      "url": "https://www.flyingmag.com/4-seat-electric-cosmic-one-light-sport-aircraft/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-11T13:00:00Z",
+      "image": null
     },
     {
       "title": "FAA proposes ending diabetes special issuance requirement",
@@ -65,24 +110,6 @@
       "author": null,
       "published_at": "2026-09-10T22:03:14Z",
       "image": null
-    },
-    {
-      "title": "Alaska Airlines Is Fighting Delta's 180-Jet Widebody Fleet With Just 7 Boeing 787-9s",
-      "description": "In its 2012 Investor Day presentation, Delta Air Lines explicitly said that it wanted to \" develop Seattle into a premier West Coast gateway to Asia \" while also describing its Alaska Airlines partnership as a way of supplementing the Seattle gateway. At the time, Delta and Alaska were partners…",
-      "url": "https://simpleflying.com/alaska-airlines-fighting-delta-180-widebody-jet-fleet-7-boeing-787-9s/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-09-10T22:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/delta-s-180-jet-widebody-fleet.png"
-    },
-    {
-      "title": "US Senators Urge Delta Air Lines To Remain Neutral On Flight Attendant Union",
-      "description": "Delta Air Lines is the only major US airline where flight attendants, aircraft mechanics, and fleet service workers do not have representation by a union organization. Only their roughly 17,000 pilots are union members, represented by the Air Line Pilots Association (ALPA). Delta flight attendants…",
-      "url": "https://simpleflying.com/us-senators-delta-air-lines-remain-neutral-flight-attendant-union/",
-      "source": "Simple Flying",
-      "author": "Paul Thompson",
-      "published_at": "2026-09-10T21:42:54Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_2754405543-1.jpg"
     },
     {
       "title": "Bye eFlyer 2 Gets FAA Special Airworthiness Certificate",
@@ -103,57 +130,12 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/image_f50327.jpeg?w=1024"
     },
     {
-      "title": "NTSB Releases Preliminary CVR Transcript from Prime Air Crash",
-      "description": "The transcript of the cockpit voice recorder (CVR) aboard the Amazon Prime Air Boeing 767 that went off the runway at Miami International Airport (KMIA) reveals the pilots recognized the aircraft was too fast on the approach. On Wednesday the National Transportation Safety Board (NTSB) released…",
-      "url": "https://www.flyingmag.com/ntsb-releases-preliminary-cvr-transcript-from-prime-air-crash/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-10T14:31:44Z",
-      "image": null
-    },
-    {
-      "title": "This 2005 Zenith CH 701 SP Is a STOL-Ready ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2005 Zenith CH 701 SP. Celebrated now…",
-      "url": "https://www.flyingmag.com/this-2005-zenith-ch-701-sp-is-a-stol-ready-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-10T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-zenith-ch-701-sp-for-sale-602026-5a669e799ceea6bd-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "25 Years Later: How 9/11 Forever Reshaped General Aviation Airspace",
-      "description": "I pointed to the magenta line on the VFR sectional. “What’s this?” I asked the aspiring private pilot. “Some place we’re not supposed to go,” he replied confidently. “What kind of airspace is it?” I asked. There was a moment of indecision, then he reached for the key on the sectional, found the…",
-      "url": "https://www.flyingmag.com/25-years-later-how-9-11-forever-reshaped-general-aviation-airspace/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-10T12:00:00Z",
-      "image": null
-    },
-    {
       "title": "Aircraft Maintenance: The art of engine, cylinder break-in",
       "description": "Whether you are dealing with a completely new engine, or just a new cylinder, how you conduct those first few hours of operation can affect your safety, your wallet, and the long-term success of your engine.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/09/aircraft-maintenance-the-art-of-engine-cylinder-break-in?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-09T21:43:50Z",
-      "image": null
-    },
-    {
-      "title": "Aviation Groups Seek Uniform Safety Rules for Part 91, 125, 135 Operators",
-      "description": "A coalition of aviation organizations has urged the FAA to eliminate state and local rest and duty requirements for flight crews operating under Parts 91, 125, and 135, arguing that a jumble of differing rules could jeopardize safety and efficiency. The National Business Aviation Association…",
-      "url": "https://www.flyingmag.com/aviation-groups-safety-rules-faa-part-91-125-135/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-09T19:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Operator of Crashed Prime Air 767 Faced Safety Concerns",
-      "description": "National Transportation Safety Board Chair Jennifer Homendy said Tuesday that she did not “know anything” about “reports of safety concerns” she has seen involving 21 Air—the operator of a Boeing 767-33A that crashed Sunday at Miami International Airport (KMIA), killing five people. Since Homendy’s…",
-      "url": "https://www.flyingmag.com/21-air-crashed-amazon-767-safety-concerns/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-09T17:00:00Z",
       "image": null
     },
     {
