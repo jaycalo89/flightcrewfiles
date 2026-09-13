@@ -1,70 +1,61 @@
 {
-  "generated_at": "2026-09-12T13:41:16.404716+00:00",
+  "generated_at": "2026-09-13T13:50:46.308281+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 16,
+  "count": 15,
   "articles": [
     {
-      "title": "Only 35 Minutes: British Airways' 11 New Shortest Flights Revealed: See Flights Now",
-      "description": "As the UK's flag carrier, British Airways (BA) plays an important role in keeping the nation connected on a worldwide scale. Naturally, its longest routes are the ones that tend to make the headlines, but at the other end of the distance and duration spectrum, its shortest hops are also worth a…",
-      "url": "https://simpleflying.com/ba-shortest-flights/",
+      "title": "A Scrapped Boeing 747's Airframe Is Worth Less Than A Single Piece Of Its Landing Gear",
+      "description": "At the end of its life, a Boeing 747 is flown to a boneyard, where aircraft scrappers and recyclers follow a multi-stage process to safely dismantle the aircraft and sell its parts, either to support in-service 747s or to be recycled for other uses. Demand for parts from scrapped 747s is higher…",
+      "url": "https://simpleflying.com/scrapped-boeing-747-airframe-worth-less-single-piece-of-landing-gear/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-12T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_2600443177_cropped.jpg"
+      "author": "Daniel S Osipov",
+      "published_at": "2026-09-13T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/747-airframe.jpg"
     },
     {
-      "title": "Inflatable Emergency Slide Deploys Moments Before Trump Boards Ex-Qatari Air Force One",
-      "description": "One of President Donald Trump's recent departures from Joint Base Andrews was briefly delayed on September 9th after an emergency evacuation slide deployed from the Boeing 747-8 he was preparing to board.",
-      "url": "https://simpleflying.com/video/inflatable-emergency-slide-deploys-moments-before-trump-boards-ex-qatari-air-force-one/",
+      "title": "The Bizarre Rear-Fan Engine That Killed The World's Fastest Airliner",
+      "description": "In the late 1950s and early 1960s, airliners and their engines were still taking shape. History had yet to decide which competing engineering solutions and pathways would define aviation's future. At the time, it was unclear if the future was supersonic airliners (e.g., Concorde ) or turbofans with…",
+      "url": "https://simpleflying.com/bizarre-rear-fan-engine-killed-worlds-fastest-airliner/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-12T12:28:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/af1-slide-deploy.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-09-13T07:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/bizarre-rear-fan-engine.png"
     },
     {
-      "title": "The FAA's Plan To Replace The Supersonic Flight Ban Could Change Commercial Aviation",
-      "description": "Since 1973, federal regulation 14 CFR 91.817 has prohibited civil aircraft from exceeding the speed of sound over US land. The ban was a response to public backlash against sonic booms during military testing in the 1960s, and it forced Concorde to operate supersonic only over water on its US…",
-      "url": "https://simpleflying.com/the-faas-plan-to-replace-the-supersonic-flight-ban-could-change-commercial-aviation/",
+      "title": "The Differences In Pilot Pay Between Cargo & Passenger Airlines",
+      "description": "The top companies that most airline pilots want to work for in the United States are American Airlines, Delta Air Lines, and United Airlines. These are by far the largest carriers in the US, and they also pay more than any other airline in the US. In fact, they pay their pilots some of the highest…",
+      "url": "https://simpleflying.com/fedex-ups-pilots-quietly-out-earn-passenger-airline-crews-200-day-tax-free-perk/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-09-12T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/concorde-20260901-165557.jpg"
+      "author": "Daniel S Osipov",
+      "published_at": "2026-09-13T04:13:05Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/fedex-ups-pilots.png"
     },
     {
-      "title": "Watch: Ryanair Boeing 737 MAX Scrapes Wingtip, Aborts Dublin Landing In Crosswinds",
-      "description": "Footage has emerged of a Ryanair Boeing 737 MAX abandoning its landing at Dublin Airport (DUB) after it rolled sharply to the right in the final seconds of landing, leading to a wingtip strike on the runway. A passenger on board shared a video of the aborted landing, which occurred amid significant…",
-      "url": "https://simpleflying.com/ryanair-boeing-737-max-wingtip-strike-dublin-landing/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-09-12T10:09:25Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a-ryanair-boeing-737-max-8-landing.jpg"
-    },
-    {
-      "title": "5 Things Passengers Don't Know About How Airlines Price Business Class Seats",
-      "description": "Unlocking the secrets of the premium cabin requires looking beyond the champagne and silk eye masks to the complex algorithms that dictate every dollar spent. Business class pricing often appears as a chaotic black box to the average traveler, yet it operates on a series of rigid, data-driven…",
-      "url": "https://simpleflying.com/5-things-passengers-dont-know-how-airlines-price-business-class-seats/",
+      "title": "How Ryanair Built Europe's Most Profitable Airline By Making Flying As Uncomfortable As Possible",
+      "description": "The European short-haul aviation landscape has been conquered by a blue-and-yellow paradox that defies conventional corporate logic. An airline that routinely strips away basic cabin amenities, charges for hand luggage, and leaves passengers standing on cold tarmacs should be facing terminal…",
+      "url": "https://simpleflying.com/how-ryanair-built-most-profitable-airline-flying-uncomfortable-possible/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-09-12T09:15:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/5-things-passengers-don-t-know-about-how-airlines-price-business-class-seats.jpg"
+      "published_at": "2026-09-13T03:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/how-ryanair-built-europe-s-most-profitable-airline-by-making-flying-as-uncomfortable-as-possible.jpg"
     },
     {
-      "title": "United Airlines Is Sitting On Hundreds Of Lie-Flat Seats That Fit Only 1 Aircraft It Can't Get",
-      "description": "United Airlines has spent years waiting for the Boeing 737 MAX 10 , but the aircraft’s extraordinary certification delay has created a problem that is considerably stranger than simply having an order stuck in limbo. The airline has accumulated hundreds of custom lie-flat business class seats…",
-      "url": "https://simpleflying.com/united-airlines-sitting-hundreds-lie-flat-seats-fit-only-1-aircraft-cant-get/",
+      "title": "A Look At The Salaries Of US Military Pilots In 2026",
+      "description": "Military pilots remain among the most highly trained aviation professionals in the world, operating everything from stealth fighters and nuclear-capable bombers to carrier-based strike aircraft and battlefield helicopters. In 2026, salaries for US military aviators continue to draw attention as the…",
+      "url": "https://simpleflying.com/us-military-pilot-salaries-2026/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-12T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-is-sitting-on-hundreds-of-lie-flat-seats-that-fit-only-1-aircraft-it-can-t-get.jpg"
+      "author": "Victoria Agronsky",
+      "published_at": "2026-09-13T01:45:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/pilot.jpg"
     },
     {
-      "title": "How Much Does It Cost To Convert A Boeing 767 Into A Cargo Freighter?",
-      "description": "Tearing down a twenty-year-old passenger airliner, stripping away hundreds of seats, ripping out overhead bins, and slicing a massive structural opening directly into the aluminum fuselage seems like an absurdly expensive way to handle an aging asset. In reality, this is commonplace: every year,…",
-      "url": "https://simpleflying.com/boeing-767-cargo-freighter-conversion-cost/",
+      "title": "'Indecent': American Airlines Passenger Strips Naked Mid-Flight, Detained By Police In Miami",
+      "description": "An American Airlines flight had to be met by law enforcement on arrival at Miami International Airport (MIA) late on Friday evening after it was reported that a female passenger was undressing herself and acting indecently. The report of the passenger resulted in one of the strangest ACARS messages…",
+      "url": "https://simpleflying.com/american-airlines-passenger-strips-naked-mid-flight-detained-miami/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-12T02:00:24Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/freighter-20260901-165135.jpg"
+      "author": "Aaron Bailey",
+      "published_at": "2026-09-13T01:17:02Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-airlines-airbus-a319-100-wangkun-jia.jpg"
     },
     {
       "title": "Epic Flight Academy Adds Test Prep for A&P Certification",
