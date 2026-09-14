@@ -1,61 +1,106 @@
 {
-  "generated_at": "2026-09-13T13:50:46.308281+00:00",
+  "generated_at": "2026-09-14T13:13:27.241978+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 15,
+  "count": 19,
   "articles": [
     {
-      "title": "A Scrapped Boeing 747's Airframe Is Worth Less Than A Single Piece Of Its Landing Gear",
-      "description": "At the end of its life, a Boeing 747 is flown to a boneyard, where aircraft scrappers and recyclers follow a multi-stage process to safely dismantle the aircraft and sell its parts, either to support in-service 747s or to be recycled for other uses. Demand for parts from scrapped 747s is higher…",
-      "url": "https://simpleflying.com/scrapped-boeing-747-airframe-worth-less-single-piece-of-landing-gear/",
+      "title": "The Aircraft That Built Today's Southwest Airlines Is Being Retired By 2031",
+      "description": "Southwest Airlines is the world's largest customer for the Boeing 737 , having operated the type since its first flight in 1971. Apart from a brief stint flying leased 727s, the 737 has always been the sole aircraft type in Southwest's fleet. However, the airline has traditionally favored the…",
+      "url": "https://simpleflying.com/aircraft-built-southwest-airlines-retired-2031/",
       "source": "Simple Flying",
       "author": "Daniel S Osipov",
-      "published_at": "2026-09-13T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/747-airframe.jpg"
+      "published_at": "2026-09-14T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/retired-by-2031.png"
     },
     {
-      "title": "The Bizarre Rear-Fan Engine That Killed The World's Fastest Airliner",
-      "description": "In the late 1950s and early 1960s, airliners and their engines were still taking shape. History had yet to decide which competing engineering solutions and pathways would define aviation's future. At the time, it was unclear if the future was supersonic airliners (e.g., Concorde ) or turbofans with…",
-      "url": "https://simpleflying.com/bizarre-rear-fan-engine-killed-worlds-fastest-airliner/",
+      "title": "This 2020 Cirrus SF50 G2 Vision Jet Is a High-Altitude ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2020 Cirrus SF50 G2 Vision Jet.…",
+      "url": "https://www.flyingmag.com/this-2020-cirrus-sf50-g2-vision-jet-is-a-high-altitude-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-09-14T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-jet-cirrus-sf50-g2-vision-jet-for-sale-602019-44361ec1a4a30423-800X600-1.jpg?w=1024"
+    },
+    {
+      "title": "'Biting' Man Duct-Taped To His Seat After Racist Abuse On American Airlines Flight",
+      "description": "Three passengers on an American Airlines flight from Dallas to Newark restrained a fellow traveler with zip ties and duct-taped him to his seat after he bit one of the men trying to hold him down. The 67-year-old man turned violent during a racist and homophobic tirade in the Domestic First Class…",
+      "url": "https://simpleflying.com/video/biting-man-duct-taped-to-his-seat-after-racist-abuse-on-american-airlines-flight/",
       "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-09-13T07:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/bizarre-rear-fan-engine.png"
+      "author": "Chris Loh",
+      "published_at": "2026-09-14T12:33:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/duct-tape-aa.jpg"
     },
     {
-      "title": "The Differences In Pilot Pay Between Cargo & Passenger Airlines",
-      "description": "The top companies that most airline pilots want to work for in the United States are American Airlines, Delta Air Lines, and United Airlines. These are by far the largest carriers in the US, and they also pay more than any other airline in the US. In fact, they pay their pilots some of the highest…",
-      "url": "https://simpleflying.com/fedex-ups-pilots-quietly-out-earn-passenger-airline-crews-200-day-tax-free-perk/",
+      "title": "AI Comes to the Cockpit",
+      "description": "In beginning research for this article, it was assumed that artificial intelligence technology was nowhere near ready for general aviation cockpits. Sure, free access to ChatGPT is available to anyone with an internet connection, but how close are companies to actually bringing solutions to the…",
+      "url": "https://www.flyingmag.com/ai-comes-to-the-cockpit/",
+      "source": "Flying Magazine",
+      "author": "Sean Siff",
+      "published_at": "2026-09-14T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Emirates Suspends Airbus A380 Flights To 2 Major Destinations: See Affected Flights Now",
+      "description": "Emirates is extending the suspension of Airbus A380 service on two key long-haul markets, with an updated schedule filing showing the superjumbo will be absent from Washington Dulles International Airport (IAD) for the entire winter season and from Düsseldorf International Airport (DUS) for all but…",
+      "url": "https://simpleflying.com/emirates-suspends-airbus-a380-flights-to-2-major-destinations/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-13T04:13:05Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/fedex-ups-pilots.png"
+      "author": "Luke Bodell",
+      "published_at": "2026-09-14T11:02:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/282-emirates-airbus-a380-wikipedia.jpg"
     },
     {
-      "title": "How Ryanair Built Europe's Most Profitable Airline By Making Flying As Uncomfortable As Possible",
-      "description": "The European short-haul aviation landscape has been conquered by a blue-and-yellow paradox that defies conventional corporate logic. An airline that routinely strips away basic cabin amenities, charges for hand luggage, and leaves passengers standing on cold tarmacs should be facing terminal…",
-      "url": "https://simpleflying.com/how-ryanair-built-most-profitable-airline-flying-uncomfortable-possible/",
+      "title": "The Aircraft That Could Save Regional Flying",
+      "description": "Tom Boon of Simple Flying sits down with ATR Chief Commercial Officer Alexis Vidal at the 2026 Farnborough Airshow to explore the future of regional aviation. From restoring lost air routes and identifying untapped demand through mobility data to premium cabin innovations and higher production…",
+      "url": "https://simpleflying.com/video/the-aircraft-that-could-save-regional-flying/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-09-14T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/60e_lh_farnborough-airshow_atr_h_site-copy.jpg"
+    },
+    {
+      "title": "This All-Airbus European Airline Just Filed For Chapter 11 Bankruptcy: What Next?",
+      "description": "Latvian flag carrier airBaltic , which also operates bases in neighboring countries such as Estonia, Finland, and Lithuania, has filed for Chapter 11 Protection in the United States Bankruptcy Court for the Southern District of New York. These kinds of bankruptcy proceedings are often used by…",
+      "url": "https://simpleflying.com/airbaltic-chapter-11-bankruptcy/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-14T09:43:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1277612524_cropped.jpg"
+    },
+    {
+      "title": "American Airlines' New Basic Economy Rules Even Punish Its Top-Tier Frequent Flyers",
+      "description": "American Airlines has spent the last several years reshaping its Basic Economy product, but the latest changes represent one of the carrier’s most aggressive moves yet against low-fare passengers. What once functioned as a stripped-down ticket aimed mostly at occasional bargain hunters has now…",
+      "url": "https://simpleflying.com/how-american-airlines-new-basic-economy-rules-punish-top-tier-frequent-flyers/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-09-14T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/basic-economy.jpg"
+    },
+    {
+      "title": "UK Defense Ministry Denies Military Jet Flight Plan Triggered 2,000-Flight ATC Outage",
+      "description": "Last week, commercial flights in the United Kingdom were heavily disrupted by an outage at National Air Traffic Services (NATS), the firm responsible for keeping the nation's air traffic control systems up and running. Thousands of flights were impacted by the outage , and, in the aftermath of the…",
+      "url": "https://simpleflying.com/mod-denies-military-jet-flight-plan-nats-outage/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-14T08:54:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1588892257_cropped.jpg"
+    },
+    {
+      "title": "Why Delta Air Lines Is Betting Its Entire Pacific Future On Just 2 West Coast Airports",
+      "description": "Delta Air Lines , facing a $4 billion revenue deficit across the Pacific Ocean, is in the midst of a strategy that initially looks like commercial surrender, dismantling its multi-hub ambition and compressing its entire long-haul Asian growth into just two West Coast gateways.",
+      "url": "https://simpleflying.com/why-delta-air-lines-betting-entire-pacific-future-2-west-coast-airports/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-09-13T03:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/how-ryanair-built-europe-s-most-profitable-airline-by-making-flying-as-uncomfortable-as-possible.jpg"
+      "published_at": "2026-09-14T07:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/west-coast-airports.png"
     },
     {
-      "title": "A Look At The Salaries Of US Military Pilots In 2026",
-      "description": "Military pilots remain among the most highly trained aviation professionals in the world, operating everything from stealth fighters and nuclear-capable bombers to carrier-based strike aircraft and battlefield helicopters. In 2026, salaries for US military aviators continue to draw attention as the…",
-      "url": "https://simpleflying.com/us-military-pilot-salaries-2026/",
+      "title": "Amazon Pulls All Cargo From 21 Air After Fatal Boeing 767 Runway Overrun",
+      "description": "In the aftermath of the fatal runway excursion by 21 Air Flight 7598 at Miami International Airport (MIA), Amazon Prime Air has suspended air freight services with the company. The cargo hauler is one of several contracted carriers that fly under the Prime Air banner. The crash killed five…",
+      "url": "https://simpleflying.com/amazon-pulls-cargo-21-air-boeing-767-miami-runway-overrun/",
       "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-09-13T01:45:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/pilot.jpg"
-    },
-    {
-      "title": "'Indecent': American Airlines Passenger Strips Naked Mid-Flight, Detained By Police In Miami",
-      "description": "An American Airlines flight had to be met by law enforcement on arrival at Miami International Airport (MIA) late on Friday evening after it was reported that a female passenger was undressing herself and acting indecently. The report of the passenger resulted in one of the strangest ACARS messages…",
-      "url": "https://simpleflying.com/american-airlines-passenger-strips-naked-mid-flight-detained-miami/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-09-13T01:17:02Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-airlines-airbus-a319-100-wangkun-jia.jpg"
+      "author": "Luke Diaz",
+      "published_at": "2026-09-14T06:53:32Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ntsb-investigators-at-the-site-of-the-21-air-flight-7598-runway-excursion-at-mia.jpg"
     },
     {
       "title": "Epic Flight Academy Adds Test Prep for A&P Certification",
@@ -96,7 +141,7 @@
     {
       "title": "FAA proposes ending diabetes special issuance requirement",
       "description": "The FAA has proposed enabling aviation medical examiners to issue certificates on the spot to pilots with diabetes who are not insulin-dependent, and are otherwise medically qualified, ending the longstanding practice of special issuance deferral in such cases.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/10/faa-proposes-ending-diabetes-special-issuance-requirement?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/september/10/faa-proposes-ending-diabetes-special-issuance-requirement?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-10T22:03:14Z",
@@ -112,18 +157,9 @@
       "image": null
     },
     {
-      "title": "Texas, Joby Begin FAA-Backed Air Taxi Airport Demonstrations",
-      "description": "Precertified electric air taxis have begun a weeklong demonstration campaign in Texas that will see them fly directly into airports alongside regular air traffic, under a contract with the FAA. Joby Aviation said Thursday that the activities involving its preproduction prototype eVTOL aircraft,…",
-      "url": "https://www.flyingmag.com/texas-joby-faa-backed-air-taxi-airport-demos/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-10T16:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/image_f50327.jpeg?w=1024"
-    },
-    {
       "title": "Aircraft Maintenance: The art of engine, cylinder break-in",
       "description": "Whether you are dealing with a completely new engine, or just a new cylinder, how you conduct those first few hours of operation can affect your safety, your wallet, and the long-term success of your engine.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/09/aircraft-maintenance-the-art-of-engine-cylinder-break-in?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/september/09/aircraft-maintenance-the-art-of-engine-cylinder-break-in?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-09T21:43:50Z",
@@ -132,7 +168,7 @@
     {
       "title": "Father, son charged with theft from flight students",
       "description": "A father and son who sold their three-year-old Georgia flight school in 2024 were arrested September 4 on theft and racketeering charges in a case that began when several students complained of discrepancies in their flight school accounts following the sale.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/09/father-son-charged-with-theft-from-flight-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/september/09/father-son-charged-with-theft-from-flight-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-09T15:49:51Z",
