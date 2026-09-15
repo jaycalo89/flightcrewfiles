@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:13:39.332496+00:00",
+  "generated_at": "2026-09-15T15:05:55.857228+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Why doesn't the nose gear tend to slam on the runway when touching down with autobrakes?",
-      "url": "https://aviation.stackexchange.com/questions/115579/why-doesnt-the-nose-gear-tend-to-slam-on-the-runway-when-touching-down-with-aut",
-      "points": 2,
-      "num_comments": 1,
+      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
+      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789155675
+      "created_utc": 1789451201
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Why is \"retard\" used despite the incorrect translation?",
-      "url": "https://aviation.stackexchange.com/questions/115574/why-is-retard-used-despite-the-incorrect-translation",
-      "points": -2,
-      "num_comments": 2,
+      "title": "Identify a flying aircraft that doesn't have ADS-B",
+      "url": "https://aviation.stackexchange.com/questions/115583/identify-a-flying-aircraft-that-doesnt-have-ads-b",
+      "points": 3,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788956248
+      "created_utc": 1789410908
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "How useful was having the inside of the wings accessible on aircraft on those aircraft that had it?",
-      "url": "https://aviation.stackexchange.com/questions/115569/how-useful-was-having-the-inside-of-the-wings-accessible-on-aircraft-on-those-ai",
-      "points": 12,
+      "title": "Why doesn't the nose gear tend to slam on the runway when touching down with autobrakes?",
+      "url": "https://aviation.stackexchange.com/questions/115579/why-doesnt-the-nose-gear-tend-to-slam-on-the-runway-when-touching-down-with-aut",
+      "points": 3,
       "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788672575
+      "created_utc": 1789155675
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Are there any aircraft with more than 1 vertical stabiliser & tailplane elevated above fuselage that don't have twin booms extending off main wing?",
-      "url": "https://aviation.stackexchange.com/questions/115546/are-there-any-aircraft-with-more-than-1-vertical-stabiliser-tailplane-elevated",
-      "points": 7,
-      "num_comments": 3,
+      "title": "Why is \"retard\" used despite the incorrect translation?",
+      "url": "https://aviation.stackexchange.com/questions/115574/why-is-retard-used-despite-the-incorrect-translation",
+      "points": -1,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1788064438
+      "created_utc": 1788956248
     }
   ]
 }

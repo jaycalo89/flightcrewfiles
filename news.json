@@ -1,16 +1,106 @@
 {
-  "generated_at": "2026-09-14T13:13:27.241978+00:00",
+  "generated_at": "2026-09-15T15:05:49.321410+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 18,
   "articles": [
     {
-      "title": "The Aircraft That Built Today's Southwest Airlines Is Being Retired By 2031",
-      "description": "Southwest Airlines is the world's largest customer for the Boeing 737 , having operated the type since its first flight in 1971. Apart from a brief stint flying leased 727s, the 737 has always been the sole aircraft type in Southwest's fleet. However, the airline has traditionally favored the…",
-      "url": "https://simpleflying.com/aircraft-built-southwest-airlines-retired-2031/",
+      "title": "Why Air Canada Pulled Its New Airbus A321XLR Off Toronto-Heathrow Within Weeks",
+      "description": "Air Canada became the first Canadian operator of the Airbus A321XLR in April 2026, taking delivery of the first of 30 aircraft configured with 182 seats in two classes. The airline launched the type on its first international route from Montreal to Toulouse on June 15 and had 12 routes planned for…",
+      "url": "https://simpleflying.com/why-air-canada-pulled-new-airbus-a321xlr-off-toronto-heathrow-weeks/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-14T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/retired-by-2031.png"
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-15T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air-canada-1.png"
+    },
+    {
+      "title": "Only 73% Full: American Airlines' 11 Emptiest Transatlantic Routes Revealed [List & Map]",
+      "description": "American Airlines has a huge transatlantic footprint, linking various US hubs with destinations all over Europe. On some routes, the Fort Worth-based oneworld founding member competes with its US 'big three' legacy rivals (SkyTeam's Delta Air Lines and Star Alliance's United Airlines) and European…",
+      "url": "https://simpleflying.com/american-airlines-emptiest-transatlantic-routes/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-15T14:03:02Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/090-american-airlines-boeing-777-300-markus-mainka-_-shutterstock.jpg"
+    },
+    {
+      "title": "This 1976 Cessna 172M Skyhawk Is a Proven ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1976 Cessna 172M Skyhawk. Making a…",
+      "url": "https://www.flyingmag.com/this-1976-cessna-172m-skyhawk-is-a-proven-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-09-15T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cessna-172m-skyhawk-for-sale-602037-008b315511553dec-800X600-1.jpg?w=1024"
+    },
+    {
+      "title": "United Airlines Launches New Nonstop 14-Hour Route In 1 Month: See Flights Now",
+      "description": "United Airlines will return to a familiar long-haul route on October 24, when it launches daily flights from Chicago O'Hare International Airport (ORD) to Tokyo Narita Airport (NRT). The 6,294 mile (10,127 km) route will use the Boeing 787-8 , and is scheduled at up to 14 hours westbound during…",
+      "url": "https://simpleflying.com/united-airlines-launches-new-14-hour-route-in-1-month/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-09-15T13:05:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/769-united-airlines-boeing-787-8-kevin-hackert-_-shutterstock.jpg"
+    },
+    {
+      "title": "The Boeing 787 Dreamliner's Unique Wing Design That Sets It Apart From Every Other Widebody",
+      "description": "The Boeing 787 Dreamliner family has become a staple of long-haul flying. The aircraft family consists of three variants: the 787-8 , which is the shortest of the three, the longer-range 787-9 , and the stretched 787-10 , which offers the highest passenger capacity. More than 1,000 787s have been…",
+      "url": "https://simpleflying.com/boeing-787-dreamliner-unique-wing-design-sets-apart-every-other-widebody/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-09-15T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-787-dreamliner.png"
+    },
+    {
+      "title": "NTSB: Amazon 767 Pilots Added Thrust Then Aborted Go-Around, No Reversers Or Speed Brakes",
+      "description": "The NTSB has released the final 30 seconds of flight data from the Amazon Prime Air Boeing 767 accident at Miami International Airport that took place on September 6th.",
+      "url": "https://simpleflying.com/video/ntsb-amazon-767-pilots-added-thrust-then-aborted-go-around-no-reversers-or-speed-brakes/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-15T12:30:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/amazonfailedgoaround.jpg"
+    },
+    {
+      "title": "Why Do Pilots Use The Term Zulu Time Instead Of UTC?",
+      "description": "Any pilot will tell you that aviation runs on its own language. The words and phrases transmitted over radio frequencies around the world every day are not informal shorthand or inherited habits. They are an engineered communication system, designed over decades to be understood clearly by any…",
+      "url": "https://simpleflying.com/why-pilots-use-zulu-time-instead-utc/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-15T12:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/pilot-zulu-time.jpg"
+    },
+    {
+      "title": "British Airways Suspends All Flights On This 8-Hour Heathrow Route: See Map Now",
+      "description": "British Airways appears to have pulled the plug on all future flights from London Heathrow Airport (LHR) in the United Kingdom to Abu Dhabi International Airport (AUH) in the United Arab Emirates for the time being. Until as recently as last week, schedule data from Cirium , an aviation analytics…",
+      "url": "https://simpleflying.com/british-airways-abu-dhabi-suspension/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-15T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/111-british-airways-boeing-787-10-robin-guess-_-shutterstock.jpg"
+    },
+    {
+      "title": "The Top 5 Highest Paid US Navy Pilot Ranks & Their Average 2026 Salaries",
+      "description": "For many aspiring naval aviators, flying high-performance aircraft from aircraft carriers is one of the most demanding and prestigious careers in the US military. But while fighter jets, helicopters, and maritime patrol aircraft often steal the spotlight, pilot salaries in the US Navy are…",
+      "url": "https://simpleflying.com/highest-paid-us-navy-pilot-ranks-average-2026-salaries/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-09-15T10:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/5-high-paid-navy-pilots.jpg"
+    },
+    {
+      "title": "Textron, Merlin Unveil Autonomous SkyCourier UX Concept Aircraft",
+      "description": "Just a few months after Textron Aviation announced its first military order for the Cessna 408 SkyCourier, the manufacturer on Monday unveiled a SkyCourier UX concept aircraft that would pair the twin turboprop with autonomous aviation software for a variety of military logistics missions.…",
+      "url": "https://www.flyingmag.com/textron-merlin-autonomous-cessna-skycourier-ux/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-14T18:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Pilot Flying Congressman Tom Tiffany Makes Emergency Water Landing",
+      "description": "The pilot of a Beechcraft Bonanza K35 carrying U.S. Representative Tom Tiffany (R-Wis.) made an emergency water landing Saturday night after the aircraft lost power, according to remarks by Tiffany on Sunday. In a post on X , Tiffany said he was returning from a dinner in Onalaska, Wisconsin, when…",
+      "url": "https://www.flyingmag.com/pilot-flying-rep-tom-tiffany-emergency-landing/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-14T15:30:00Z",
+      "image": null
     },
     {
       "title": "This 2020 Cirrus SF50 G2 Vision Jet Is a High-Altitude ‘AircraftForSale’ Top Pick",
@@ -22,15 +112,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-jet-cirrus-sf50-g2-vision-jet-for-sale-602019-44361ec1a4a30423-800X600-1.jpg?w=1024"
     },
     {
-      "title": "'Biting' Man Duct-Taped To His Seat After Racist Abuse On American Airlines Flight",
-      "description": "Three passengers on an American Airlines flight from Dallas to Newark restrained a fellow traveler with zip ties and duct-taped him to his seat after he bit one of the men trying to hold him down. The 67-year-old man turned violent during a racist and homophobic tirade in the Domestic First Class…",
-      "url": "https://simpleflying.com/video/biting-man-duct-taped-to-his-seat-after-racist-abuse-on-american-airlines-flight/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-14T12:33:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/duct-tape-aa.jpg"
-    },
-    {
       "title": "AI Comes to the Cockpit",
       "description": "In beginning research for this article, it was assumed that artificial intelligence technology was nowhere near ready for general aviation cockpits. Sure, free access to ChatGPT is available to anyone with an internet connection, but how close are companies to actually bringing solutions to the…",
       "url": "https://www.flyingmag.com/ai-comes-to-the-cockpit/",
@@ -38,69 +119,6 @@
       "author": "Sean Siff",
       "published_at": "2026-09-14T12:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Emirates Suspends Airbus A380 Flights To 2 Major Destinations: See Affected Flights Now",
-      "description": "Emirates is extending the suspension of Airbus A380 service on two key long-haul markets, with an updated schedule filing showing the superjumbo will be absent from Washington Dulles International Airport (IAD) for the entire winter season and from Düsseldorf International Airport (DUS) for all but…",
-      "url": "https://simpleflying.com/emirates-suspends-airbus-a380-flights-to-2-major-destinations/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-09-14T11:02:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/282-emirates-airbus-a380-wikipedia.jpg"
-    },
-    {
-      "title": "The Aircraft That Could Save Regional Flying",
-      "description": "Tom Boon of Simple Flying sits down with ATR Chief Commercial Officer Alexis Vidal at the 2026 Farnborough Airshow to explore the future of regional aviation. From restoring lost air routes and identifying untapped demand through mobility data to premium cabin innovations and higher production…",
-      "url": "https://simpleflying.com/video/the-aircraft-that-could-save-regional-flying/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-09-14T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/60e_lh_farnborough-airshow_atr_h_site-copy.jpg"
-    },
-    {
-      "title": "This All-Airbus European Airline Just Filed For Chapter 11 Bankruptcy: What Next?",
-      "description": "Latvian flag carrier airBaltic , which also operates bases in neighboring countries such as Estonia, Finland, and Lithuania, has filed for Chapter 11 Protection in the United States Bankruptcy Court for the Southern District of New York. These kinds of bankruptcy proceedings are often used by…",
-      "url": "https://simpleflying.com/airbaltic-chapter-11-bankruptcy/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-14T09:43:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1277612524_cropped.jpg"
-    },
-    {
-      "title": "American Airlines' New Basic Economy Rules Even Punish Its Top-Tier Frequent Flyers",
-      "description": "American Airlines has spent the last several years reshaping its Basic Economy product, but the latest changes represent one of the carrier’s most aggressive moves yet against low-fare passengers. What once functioned as a stripped-down ticket aimed mostly at occasional bargain hunters has now…",
-      "url": "https://simpleflying.com/how-american-airlines-new-basic-economy-rules-punish-top-tier-frequent-flyers/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-14T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/basic-economy.jpg"
-    },
-    {
-      "title": "UK Defense Ministry Denies Military Jet Flight Plan Triggered 2,000-Flight ATC Outage",
-      "description": "Last week, commercial flights in the United Kingdom were heavily disrupted by an outage at National Air Traffic Services (NATS), the firm responsible for keeping the nation's air traffic control systems up and running. Thousands of flights were impacted by the outage , and, in the aftermath of the…",
-      "url": "https://simpleflying.com/mod-denies-military-jet-flight-plan-nats-outage/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-14T08:54:06Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1588892257_cropped.jpg"
-    },
-    {
-      "title": "Why Delta Air Lines Is Betting Its Entire Pacific Future On Just 2 West Coast Airports",
-      "description": "Delta Air Lines , facing a $4 billion revenue deficit across the Pacific Ocean, is in the midst of a strategy that initially looks like commercial surrender, dismantling its multi-hub ambition and compressing its entire long-haul Asian growth into just two West Coast gateways.",
-      "url": "https://simpleflying.com/why-delta-air-lines-betting-entire-pacific-future-2-west-coast-airports/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-14T07:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/west-coast-airports.png"
-    },
-    {
-      "title": "Amazon Pulls All Cargo From 21 Air After Fatal Boeing 767 Runway Overrun",
-      "description": "In the aftermath of the fatal runway excursion by 21 Air Flight 7598 at Miami International Airport (MIA), Amazon Prime Air has suspended air freight services with the company. The cargo hauler is one of several contracted carriers that fly under the Prime Air banner. The crash killed five…",
-      "url": "https://simpleflying.com/amazon-pulls-cargo-21-air-boeing-767-miami-runway-overrun/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-14T06:53:32Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ntsb-investigators-at-the-site-of-the-21-air-flight-7598-runway-excursion-at-mia.jpg"
     },
     {
       "title": "Epic Flight Academy Adds Test Prep for A&P Certification",
@@ -121,39 +139,12 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/chip2.jpg"
     },
     {
-      "title": "Meet Boeing’s Longest-Serving Employee",
-      "description": "Last month, 96-year-old Charlie Tapper became the longest-serving employee in Boeing’s history, and CEO Kelly Ortberg said he has “no plans of retiring anytime soon.” Tapper marked 75 years with the company in June. He joined Boeing a week after receiving a bachelor’s degree in mechanical…",
-      "url": "https://www.flyingmag.com/meet-boeing-longest-serving-employee/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-11T15:30:00Z",
-      "image": null
-    },
-    {
-      "title": "4-Seat All-Electric Cosmic One Embodies New Era of Light Sport Aircraft",
-      "description": "There has never been an aircraft quite like Cosmic One. The model—a “premium four-seater [full] electric aircraft” according to Christopher Chahine, co-founder and CEO of Colorado-based manufacturer Cosmic Aerospace—is still in the preliminary design stage. But it is a candidate to be the first…",
-      "url": "https://www.flyingmag.com/4-seat-electric-cosmic-one-light-sport-aircraft/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-11T13:00:00Z",
-      "image": null
-    },
-    {
       "title": "FAA proposes ending diabetes special issuance requirement",
       "description": "The FAA has proposed enabling aviation medical examiners to issue certificates on the spot to pilots with diabetes who are not insulin-dependent, and are otherwise medically qualified, ending the longstanding practice of special issuance deferral in such cases.",
       "url": "https://aopa.org/news-and-media/all-news/2026/september/10/faa-proposes-ending-diabetes-special-issuance-requirement?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-10T22:03:14Z",
-      "image": null
-    },
-    {
-      "title": "Bye eFlyer 2 Gets FAA Special Airworthiness Certificate",
-      "description": "The FAA has awarded Bye Aerospace, a developer of all-electric aircraft, a Special Airworthiness Certificate for the eFlyer 2, the company’s flagship two-place airplane. The FAA issues Special Airworthiness Certificates for aircraft with unique operations needs, such as research and development.…",
-      "url": "https://www.flyingmag.com/bye-eflyer-2-gets-faa-special-airworthiness-certificate/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-10T20:01:50Z",
       "image": null
     },
     {
