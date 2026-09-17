@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:39:39.501133+00:00",
+  "generated_at": "2026-09-17T13:42:27.749100+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "How modern FMS able to fly angular lateral & vertical approach paths?",
-      "url": "https://aviation.stackexchange.com/questions/115592/how-modern-fms-able-to-fly-angular-lateral-vertical-approach-paths",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
+      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
+      "points": 11,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789557932
+      "created_utc": 1789451201
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
-      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
-      "points": 6,
-      "num_comments": 1,
+      "title": "How modern FMS able to fly angular lateral & vertical approach paths?",
+      "url": "https://aviation.stackexchange.com/questions/115592/how-modern-fms-able-to-fly-angular-lateral-vertical-approach-paths",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789451201
+      "created_utc": 1789557932
     },
     {
       "title": "Falsehoods programmers believe about aviation",

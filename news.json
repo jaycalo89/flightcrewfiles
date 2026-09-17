@@ -1,8 +1,125 @@
 {
-  "generated_at": "2026-09-16T14:39:32.651132+00:00",
+  "generated_at": "2026-09-17T13:42:22.343245+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 19,
   "articles": [
+    {
+      "title": "The Widebody Quietly Replacing The Boeing 767 On Delta Air Lines' Transatlantic Routes",
+      "description": "Delta Air Lines is progressively modernizing its widebody fleet. Incoming deliveries will see the Airbus A350-1000 and Boeing 787-10 join its ranks over the coming years. But with these only expected to start arriving in the coming years, it will be some time before either can really begin to take…",
+      "url": "https://simpleflying.com/widebody-quietly-replacing-boeing-767-delta-air-lines-transatlantic-routes/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-09-17T13:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-767-on-delta-air-lines.png"
+    },
+    {
+      "title": "This 2017 Tecnam P2006T Is an Economical ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2017 Tecnam P2006T. Long considered a…",
+      "url": "https://www.flyingmag.com/this-2017-tecnam-p2006t-is-an-economical-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-09-17T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-multi-engine-piston-tecnam-p2006t-very-light-twin-for-sale-602045-880615d80f5ad6ee-800X600-1.jpg?w=800"
+    },
+    {
+      "title": "Alaska Airlines Sued For $521,900 After 11 Japanese Paintings Ruined In Honolulu Rainstorm",
+      "description": "An art insurer is suing Alaska Airlines for more than $521,900 after 11 paintings were allegedly soaked and badly damaged while being transferred between aircraft amid a heavy rainstorm in Honolulu. The original artworks were traveling from Osaka, Japan, to New York via Honolulu ahead of delivery…",
+      "url": "https://simpleflying.com/video/alaska-airlines-sued-for-521-900-after-11-japanese-paintings-ruined-in-honolulu-rainstorm/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-17T12:30:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/hawaiian-artwork.jpg"
+    },
+    {
+      "title": "Emirates Launches New 9-Hour A380 Route To This Huge City: See All Flights Now",
+      "description": "Emirates is bringing its Airbus A380 back to Beijing Capital Airport (PEK), with the superjumbo replacing a Boeing 777-300ER on one of the airline's two daily Dubai flights from October 4. Aeroroutes reports a changing schedule , with the aircraft operating until November 30, disappearing for…",
+      "url": "https://simpleflying.com/emirates-launches-new-9-hour-a380-flights-to-this-huge-city/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-09-17T12:05:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_2842144921-1.jpg"
+    },
+    {
+      "title": "How to Land a Helicopter Pilot Job",
+      "description": "Becoming a helicopter pilot can lead to a thrilling career filled with adventure. Helicopters can perform specialized tasks that fixed-wing aircraft cannot, leading to a world of opportunities for aspiring aviators. From search and rescue to aerial photography, the possibilities for helicopter…",
+      "url": "https://www.flyingmag.com/how-to-land-a-helicopter-pilot-job/",
+      "source": "Flying Magazine",
+      "author": "Andrew Chen",
+      "published_at": "2026-09-17T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "The Problem Airlines Have With Boeing’s First 30 777Xs",
+      "description": "In this video, we're looking at why some airlines don't want the earliest aircraft, and how Boeing is trying to turn billions of dollars' worth of parked jets into airliners customers are finally willing to fly.",
+      "url": "https://simpleflying.com/video/the-problem-airlines-have-with-boeing-s-first-30-777xs/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-09-17T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/68_lh_30-unfinshed-boeing-777-9s-parked-washington-no-airline-wants-fly_h_site-copy.jpg"
+    },
+    {
+      "title": "Boeing & Airbus Each Built A Passenger Jet That Only 3 Airlines Still Fly",
+      "description": "Plenty of modular jet families exist today, designed to allow airlines to right-size their fleet, though the economic sweet spot almost always lands directly with the middle variant. Airline order books routinely cluster around baseline narrowbodies and medium widebodies that strike a precise…",
+      "url": "https://simpleflying.com/boeing-airbus-each-built-passenger-jet-only-3-airlines-still-fly/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-17T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-airbus-1.png"
+    },
+    {
+      "title": "Southwest Passengers Forced To Step Over 'Enormous' Service Dog Mess To Deplane",
+      "description": "Passengers on a Southwest Airlines flight from St. Louis to Fort Lauderdale on Tuesday had to step over a reeking pile of paper towels covering up a biohazard after a large service dog defecated on the floor. The Belgian Malinois was traveling without a carrier at its owner's feet in the bulkhead…",
+      "url": "https://simpleflying.com/southwest-passengers-step-over-service-dog-mess/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-09-17T09:30:43Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/889-southwest-airlines-boeing-737-max-8-harrisonkim1-_-shutterstock.jpg"
+    },
+    {
+      "title": "Here's What Emirates Actually Spends Per Passenger On Its Airbus A380 First Class Amenities",
+      "description": "Emirates Airbus A380 first class is often considered one of the most extravagant products in commercial aviation. One-way fares regularly climb beyond $10,000 on long-haul routes, supported by an onboard experience built around private suites, unlimited caviar service, premium Champagne, luxury…",
+      "url": "https://simpleflying.com/what-emirates-actually-spends-per-passenger-on-airbus-a380-first-class-amenities/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-09-17T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/here-s-what-emirates-actually-spends-per-passenger-on-its-airbus-a380-first-class-amenities.jpg"
+    },
+    {
+      "title": "5 Airlines With Some Of The World's Fastest Boarding Times",
+      "description": "Boarding is not everyone’s favorite part of the airline experience. After booking a flight, checking in, and getting to the airport, passengers still have to deal with the final step before the journey can actually begin. And sometimes, that step takes far longer than it should. Long queues,…",
+      "url": "https://simpleflying.com/airlines-fastest-boarding-times-world/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-09-17T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/southwest-airlines-20260901-170647-1.jpg"
+    },
+    {
+      "title": "Miami Airport Opens Runway After Crews Remove Amazon Air Boeing 767 From Crash Site",
+      "description": "Following the fatal mishap at Miami International Airport (MIA), after 21 Air Flight 7598 overran the runway, two of the four runways were closed at the busy hub. According to the Miami Herald, runway 8R/26L commenced eastbound departures only on the evening of September 8 but fully reopened…",
+      "url": "https://simpleflying.com/miami-airport-opens-runway-crews-remove-amazon-air-boeing-767-crash-site/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-09-17T04:31:55Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/miami-dade-fire-rescue-units-and-arff-emergency-crews-are-seen-applying-fire-suppressing-foam-to-21-air-flight-7598.jpg"
+    },
+    {
+      "title": "Bipartisan Airport Runway Safety Bill Clears Senate Committee",
+      "description": "A bipartisan airport runway safety bill that aims to reduce runway incursions and other surface safety incidents has cleared the Senate Commerce Committee and will head to that chamber’s floor, according to one of the legislators who introduced it. Senator Jerry Moran (R-Kan.) said Wednesday in a…",
+      "url": "https://www.flyingmag.com/airport-runway-incursion-safety-bill-senate/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-16T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Administrator Pushes Back on Watchdog’s ATC Modernization Report",
+      "description": "FAA Administrator Bryan Bedford said Tuesday that he wanted to “correct the record” on a recent Government Accountability Office (GAO) report that alleged the agency’s air traffic control modernization effort may face cost overruns, schedule delays, and unmet goals. The GAO report, published…",
+      "url": "https://www.flyingmag.com/faa-bryan-bedford-watchdog-atc-modernization/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-16T15:00:00Z",
+      "image": null
+    },
     {
       "title": "This 1973 Piper PA-28R-200 Arrow Is a Dynamic ‘AircraftForSale’ Top Pick",
       "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a Piper PA-28R-200 Arrow II. Bridging…",
@@ -11,24 +128,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-09-16T14:00:00Z",
       "image": "https://www.youtube.com/embed/m3NFqq197nM"
-    },
-    {
-      "title": "Delta Air Lines Cancels Flights To 21 Long-Haul Airports: See List Now",
-      "description": "Delta Air Lines is the most profitable US airline , and operates a massive network with over 5,500 daily departures to more than 300 destinations. Over the past decade, network capacity has grown 16%, but interestingly, Delta has also cut 21 long-haul destinations from its network. The list ranges…",
-      "url": "https://simpleflying.com/delta-air-lines-cancels-flights-to-21-long-haul-airports/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-09-16T13:05:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/delta_a350_black_mask_1920x1080.jpg"
-    },
-    {
-      "title": "Etihad Airways Suspends Airbus A380 Flights On This Major Route: See Changes Now",
-      "description": "Etihad Airways will briefly remove the Airbus A380 from its route from Abu Dhabi International Airport (AUH) to Singapore Changi Airport (SIN) later this year. The type first served this route around 18 months ago, having first been deployed back in early 2025, giving the route a 28% capacity boost…",
-      "url": "https://simpleflying.com/etihad-suspends-singapore-airbus-a380-flights/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-16T13:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/150-etihad-airways-airbus-a380-photosounds-_-shutterstock.jpg"
     },
     {
       "title": "3 Killed in LA News Helicopter Crash",
@@ -49,15 +148,6 @@
       "image": null
     },
     {
-      "title": "Europe's Largest Airbus A220 Carrier Files For Chapter 11 Bankruptcy: What Next?",
-      "description": "Latvian flag carrier airBaltic, which also operates bases in nearby countries Estonia, Finland, and Lithuania, has filed for Chapter 11 Protection in the United States Bankruptcy Court for the Southern District of New York. These kinds of bankruptcy proceedings are often used by airlines looking to…",
-      "url": "https://simpleflying.com/video/europe-s-largest-airbus-a220-carrier-files-for-chapter-11-bankruptcy-what-next/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-16T12:29:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/airbaltic-ch11.jpg"
-    },
-    {
       "title": "On Our Radar: July’s Aviation Picks From FLYING Magazine",
       "description": "Here is a collection of editor-recommended aviation products and services that are worth a closer look. From practical tools to thoughtful solutions, this is what caught our eye in the July Issue 972 of the FLYING print edition. This Article First Appeared in FLYING Magazine If you're not already a…",
       "url": "https://www.flyingmag.com/on-our-radar-julys-aviation-picks-from-flying-magazine/",
@@ -65,42 +155,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-09-16T12:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "The Real Reason Why Flight Attendants Say Passengers Should Never Wear Shorts Or Skirts On A Flight",
-      "description": "Airline travel is certainly not what it used to be and probably considerably less enjoyable too, although safety has improved since the golden age of flying. What used to be a luxury experience that everyone dressed up for, has now become a high-density mass-transit system where passengers often…",
-      "url": "https://simpleflying.com/real-reason-flightattendants-passengers-never-wear-shorts-skirts-flight/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-09-16T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/flight-attendants.png"
-    },
-    {
-      "title": "Here's How Much A Business Class Ticket On American Airlines' Boeing 787 Actually Costs In 2026",
-      "description": "American Airlines sells its 'Flagship Business' cabin as its main premium offering on all of its widebody airliners, as well as on the Airbus A321XLR and the soon-to-be phased-out Airbus A321 Transcon subfleet. It offers a remarkably consistent product on its widebodies, as it uses various reverse…",
-      "url": "https://simpleflying.com/american-airlines-787-business-class-cost-2026/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-16T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/here-s-how-much-a-business-class-ticket-on-american-airlines-boeing-787-actually-costs-in-2026.jpg"
-    },
-    {
-      "title": "Qantas Just Put Widebody-Grade Business Suites With Doors On A Narrowbody Airbus A321XLR",
-      "description": "Qantas is introducing a new business class product for its Airbus A321XLR. A subfleet of 16 aircraft within its 48-plane A321XLR fleet will include 1-1 configured lie-flat business class. The product includes sliding privacy doors, huge entertainment screens and high-speed WiFi. It's a significant…",
-      "url": "https://simpleflying.com/qantas-put-widebody-grade-business-suites-doors-narrowbody-airbus-a321xlr/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-09-16T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/narrowbody-airbus-a321xlr.png"
-    },
-    {
-      "title": "British Airways Secretly Rates Its Most Loyal Passengers, Blogger Finds",
-      "description": "It should surprise no one that the companies we buy from and interact with collect, analyze, and use that information to keep us as customers and subliminally urge us to spend more of our money with them. Airlines are no exception. Our frequent flyer profiles tell airlines everything they need to…",
-      "url": "https://simpleflying.com/british-airways-secret-rates-loyal-passenger/",
-      "source": "Simple Flying",
-      "author": "Paul Thompson",
-      "published_at": "2026-09-16T07:17:37Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ba-oneworld777.jpg"
     },
     {
       "title": "FAA’s Bedford Defends ATC Modernization Delays But Says More Money Needed",
@@ -112,48 +166,12 @@
       "image": null
     },
     {
-      "title": "Epic Flight Academy Accepting Aviation Scholarship Applications",
-      "description": "Epic Flight Academy (EFA), the nation’s largest Part 141 flight school, has opened applications for its annual aviation scholarship program for U.S. high school juniors and seniors seeking careers as pilots or maintenance technicians. This marks the 11th year EFA has provided scholarships, totaling…",
-      "url": "https://www.flyingmag.com/epic-flight-academy-accepting-aviation-scholarship-applications/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-15T16:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1976 Cessna 172M Skyhawk Is a Proven ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1976 Cessna 172M Skyhawk. Making a…",
-      "url": "https://www.flyingmag.com/this-1976-cessna-172m-skyhawk-is-a-proven-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-15T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cessna-172m-skyhawk-for-sale-602037-008b315511553dec-800X600-1.jpg?w=1024"
-    },
-    {
       "title": "FAA proposes ending diabetes special issuance requirement",
       "description": "The FAA has proposed enabling aviation medical examiners to issue certificates on the spot to pilots with diabetes who are not insulin-dependent, and are otherwise medically qualified, ending the longstanding practice of special issuance deferral in such cases.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/10/faa-proposes-ending-diabetes-special-issuance-requirement?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-10T22:03:14Z",
-      "image": null
-    },
-    {
-      "title": "Aircraft Maintenance: The art of engine, cylinder break-in",
-      "description": "Whether you are dealing with a completely new engine, or just a new cylinder, how you conduct those first few hours of operation can affect your safety, your wallet, and the long-term success of your engine.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/09/aircraft-maintenance-the-art-of-engine-cylinder-break-in?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-09T21:43:50Z",
-      "image": null
-    },
-    {
-      "title": "Father, son charged with theft from flight students",
-      "description": "A father and son who sold their three-year-old Georgia flight school in 2024 were arrested September 4 on theft and racketeering charges in a case that began when several students complained of discrepancies in their flight school accounts following the sale.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/09/father-son-charged-with-theft-from-flight-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-09T15:49:51Z",
       "image": null
     }
   ]
