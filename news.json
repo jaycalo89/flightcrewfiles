@@ -1,16 +1,97 @@
 {
-  "generated_at": "2026-09-18T12:34:40.263955+00:00",
+  "generated_at": "2026-09-20T13:25:22.803806+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 16,
   "articles": [
     {
-      "title": "Singapore Airlines Launches New 16-Hour Ultra-Long Flights In 1 Month: See Map Now",
-      "description": "Singapore Airlines will return to the Spanish capital next month. The airline will add an extra leg to its current Singapore Changi Airport (SIN) to Barcelona-El Prat Airport (BCN) flights, adding a five-weekly service to Madrid Barajas Airport (MAD). This marks the return of the Star Alliance…",
-      "url": "https://simpleflying.com/singapore-airlines-launches-new-16-hour-route-1-month/",
+      "title": "Delta Honors \"Ridiculously Low\" $17.34 Upgrade To Delta One On 15-Hour Seoul Flight",
+      "description": "While the cost to upgrade to a higher class might cost 17 hundred dollars, Delta Air Lines honored a $17 dollar and 34 cent upgrade that moved a passenger from Premium Select to Delta One!",
+      "url": "https://simpleflying.com/video/delta-honors-ridiculously-low-17-34-upgrade-to-delta-one-on-15-hour-seoul-flight/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-09-18T12:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/singapore-airlines-a350-900-at-moscow-domodedovo-maxim-grohotov.jpg"
+      "author": "Chris Loh",
+      "published_at": "2026-09-20T12:25:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/17-dollar-upgrade.jpg"
+    },
+    {
+      "title": "Finnair's Record-Breaking 24-Hour Direct Flights Launch In 1 Month: See Route Now",
+      "description": "Next month, Finnair will start a rather exciting new long-haul route. As of October 25, the Finnish flag carrier and oneworld member will fly daily from its main hub at Helsinki Vantaa Airport (HEL) to Melbourne (MEL) in Australia via Bangkok (BKK), Thailand. These direct flights retain the same…",
+      "url": "https://simpleflying.com/finnair-launches-24-hour-direct-flights-1-month/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-20T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/363-finnair-airbus-a350-900-sergey-kustov-_-shutterstock.jpg"
+    },
+    {
+      "title": "The North Carolina Airport Where 2 Different Airlines Tried & Failed To Build A Hub",
+      "description": "Raleigh–Durham International Airport (RDU) has had two airlines try to build a connecting hub at the airport. Both failed. American Airlines opened a north-south hub in 1987 , built a dedicated terminal for it, grew the operation to 211 daily departures across 64 destinations, and shut it down in…",
+      "url": "https://simpleflying.com/north-carolina-airport-2-different-airlines-tried-failed-build-hub/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-20T10:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/2-different-airlines.png"
+    },
+    {
+      "title": "Lockheed Once Built A Reconnaissance Aircraft That Set A Speed Record In 1976 That No Crewed Jet Has Beaten Since",
+      "description": "The Lockheed SR-71 Blackbird was one of the most extraordinary aircraft ever to take to the skies. The plane was a long-range, high-altitude reconnaissance jet designed during the Cold War to outrun threats rather than directly fight them. Originally developed by Lockheed's Skunk Works and…",
+      "url": "https://simpleflying.com/lockheed-crewed-recon-aircraft-speed-record-1976/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-09-20T09:15:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/shutterstock_170574959.jpeg"
+    },
+    {
+      "title": "The Airbus A220's Unique Fly-By-Wire System That Sets It Apart From Every Other Narrowbody",
+      "description": "The Airbus A220 flies with a sidestick and envelope protection like an Airbus, but it requires manual trimming and provides speed stability like a Boeing. The fly-by-wire system running on the aircraft's triplex flight control computers was not designed by Airbus . It was designed by Bombardier's…",
+      "url": "https://simpleflying.com/airbus-a220-fly-by-wire-narrowbody-differences/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-20T07:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a220-jetliner-cockpit.jpg"
+    },
+    {
+      "title": "Why United Airlines' 66 Incoming Boeing 787-9s Are Breaking The Polaris Lounge Network",
+      "description": "United Airlines is approaching a problem created by one of its biggest investments in premium international flying. Soon, more Polaris passengers may outnumber what some airport lounges can comfortably handle. The carrier has confirmed it is evaluating expansion in two markets, with Los Angeles…",
+      "url": "https://simpleflying.com/why-united-airlines-66-incoming-boeing-787-9s-breaking-polaris-lounge-network/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-09-20T03:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-66-incoming-boeing-787-9s-1.png"
+    },
+    {
+      "title": "Is It True That The Boeing 737 MAX & Airbus A320neo Are Powered By The Same Engine?",
+      "description": "In the commercial aviation industry, when a new aircraft is introduced to the market, that often means a new engine is being introduced. It is common for new aircraft to be centered around new engines rather than a completely new aircraft design. This has led to more significant innovation in…",
+      "url": "https://simpleflying.com/true-boeing-737-max-airbus-a320neo-powered-by-same-engine/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-09-20T01:45:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/feature-image_73engine.jpg"
+    },
+    {
+      "title": "Stop Drowning in Aviation Weather Data",
+      "description": "Ask 10 pilots how they get a weather briefing and you’ll likely get 10 different answers—and all of them can vary quite a bit. Between aviation and weather apps, government websites, radar feeds, forecast model outputs, satellite loops, webcams, and social media, general aviation pilots have access…",
+      "url": "https://www.flyingmag.com/stop-drowning-in-aviation-weather-data/",
+      "source": "Flying Magazine",
+      "author": "Scott Dennstaedt, Ph.D",
+      "published_at": "2026-09-19T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Joby Autonomous Caravan Flies Cross-Country Without Pilot Input",
+      "description": "A converted Cessna 208 Grand Caravan equipped with autonomy technology completed what its owner, Joby Aviation, said was the first fully autonomous, coast-to-coast journey across the U.S. Joby, which has spent most of its existence developing a piloted eVTOL air taxi but in recent years began…",
+      "url": "https://www.flyingmag.com/joby-autonomous-caravan-cross-country-no-pilot/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-18T18:30:00Z",
+      "image": null
+    },
+    {
+      "title": "This 2023 American Legend Aircraft AL18 MOAC Is a Souped-Up, Specialized ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2023 American Legend Aircraft AL18…",
+      "url": "https://www.flyingmag.com/this-2023-american-legend-aircraft-al18-moac-is-a-souped-up-specialized-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-09-18T17:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/cub1.jpg"
     },
     {
       "title": "Sim Lab: Silence Can Be Golden in Microsoft Flight Simulator",
@@ -22,51 +103,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "United Airlines' Brand-New Boeing 787-9 Failed Its Highest-Profile Route Within Days",
-      "description": "The Boeing 777-300ER is the literal flagship of United Airlines' fleet, but in practice, it's the Boeing 787 that is the pride of the airline. It's the 787 that is prominently featured in company advertising, and earlier this year, United debuted its latest long-haul interiors on the 787-9. Dubbed…",
-      "url": "https://simpleflying.com/united-airlines-brand-new-boeing-787-9-failed-highest-profile-route-days/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-18T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/brand-new-boeing-787-9.png"
-    },
-    {
-      "title": "Delta Air Lines’ Inflight WiFi Speeds Expected To Be Boosted Thanks To Viasat’s New Satellite",
-      "description": "As inflight WiFi becomes less of a novelty and more of an expectation for modern airline passengers, the speed and consistency of a given carrier's connectivity options can go a long way to informing passengers' choices on routes where multiple operators are available. As such, the latest…",
-      "url": "https://simpleflying.com/delta-air-lines-inflight-wifi-speeds-boosted-viasat-new-satellite/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-18T09:59:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/308-delta-air-lines-airbus-a350-santi-rodriguez-_-shutterstock.jpg"
-    },
-    {
-      "title": "How Much Do Air Traffic Controllers At The World's Busiest Airports Actually Earn In 2026?",
-      "description": "Global aviation faces an unprecedented staffing crisis that is pushing compensation for air traffic controllers to record highs. As the linchpin of the aviation network, the men and women guiding millions of passengers through increasingly congested airspace command some of the highest salaries in…",
-      "url": "https://simpleflying.com/how-much-atc-worlds-busiest-airports-actually-earn-in-2026/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-18T09:15:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/how-much-do-air-traffic-controllers-at-the-world-s-busiest-airports-actually-earn-in-2026.jpg"
-    },
-    {
-      "title": "British Airways Reveals New 13-Hour Route To 'Forgotten' Continent: See Flights Now",
-      "description": "Given its huge presence in other long-haul markets such as Asia and North America, it would be easy to consider Africa to be something of a forgotten continent as far as British Airways' intercontinental operations are concerned. However, the UK flag carrier and oneworld founding member just took…",
-      "url": "https://simpleflying.com/british-airways-announces-new-13-hour-route-to-forgotten-continent/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-18T09:11:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/829-british-airways-boeing-777-200-markus-mainka-_-shutterstock.jpg"
-    },
-    {
-      "title": "The US Air Force's Most Expensive Bomber Will Be Flown By Pilots Earning Standard Military Pay",
-      "description": "All United States Air Force pilots are officers who receive the same basic pay for their rank and years of service. They also mostly receive the same bonuses and allowances, although there is one notable exception: the pilot Aviation Bonus, which is given out based on community.",
-      "url": "https://simpleflying.com/usaf-most-expensive-bomber-flown-pilots-earning-standard-military-pay/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-09-18T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/us-air-force-b-21-raider.jpg"
-    },
-    {
       "title": "CAU brings Boeing CBTA to students",
       "description": "Becoming a pilot requires more than mastering the aircraft. California Aeronautical University’s collaboration with Boeing helps students develop the real-world skills that contribute to safer, more confident flight operations.",
       "url": "https://aopa.org/news-and-media/all-news/2026/september/18/cau-brings-boeing-cbta-to-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -74,33 +110,6 @@
       "author": null,
       "published_at": "2026-09-18T08:00:00Z",
       "image": null
-    },
-    {
-      "title": "Flights Resume At Washington National Airport After Unauthorized Drone Causes Brief Halt",
-      "description": "On Wednesday night, traffic was brought to a halt over Ronald Reagan Washington National Airport (DCA) when a suspected drone sighting occurred near the massive hub's airspace. All flights were stopped for 20 minutes, and air traffic control broadcast a general alert to all pilots to look out for…",
-      "url": "https://simpleflying.com/flights-resume-washington-national-airport-unauthorized-drone-brief-halt/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-18T07:35:31Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a-plane-lands-at-twilight-at-dca.jpg"
-    },
-    {
-      "title": "The Strangest Aircraft Graveyards You've Never Actually Heard Of",
-      "description": "At the end of an aircraft's life, it's usually sent to the boneyard . These storage facilities are filled with retired airliners and not much else, with most planes partially taken apart so that their parts may be reused. To some, it's a sad sight to see retired aircraft sit unused with missing…",
-      "url": "https://simpleflying.com/strangest-aircraft-graveyards-actually-never-heard-of/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-18T05:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/strangest-aircraft-graveyards.png"
-    },
-    {
-      "title": "Qantas Ends This 16-Hour Nonstop Airbus A380 Route In 1 Month: See Affected Flights Now",
-      "description": "Australian flag carrier Qantas has plans to axe its Airbus A380 service to Los Angeles International Airport (LAX) from Melbourne Airport (MEL) on October 22, as the airline opts to deploy the Boeing 787-9 Dreamliner on the route instead. This will leave the US with just A380 services from the…",
-      "url": "https://simpleflying.com/qantas-ends-16-hour-a380-route-in-1-month/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-09-18T04:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qantas-airbus-a380-in-cloudy-sky-above-dallas-dfw-leena-robinson-1.jpg"
     },
     {
       "title": "A day to discover aviation",
@@ -136,51 +145,6 @@
       "source": "Flying Magazine",
       "author": "Jack Daleo",
       "published_at": "2026-09-17T16:31:12Z",
-      "image": null
-    },
-    {
-      "title": "SpaceX Starship Flight 14: What Pilots and Space Enthusiasts Need to Know",
-      "description": "SpaceX on Tuesday announced that the 14th test flight of its Starship rocket will launch as soon as September 22, bringing with it more airspace restrictions for pilots and excitement for space enthusiasts. Flight 14 of Starship—which stands about 400 feet tall when stacked on its Super Heavy…",
-      "url": "https://www.flyingmag.com/spacex-starship-flight-14-pilots-need-to-know/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-17T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2017 Tecnam P2006T Is an Economical ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2017 Tecnam P2006T. Long considered a…",
-      "url": "https://www.flyingmag.com/this-2017-tecnam-p2006t-is-an-economical-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-17T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-multi-engine-piston-tecnam-p2006t-very-light-twin-for-sale-602045-880615d80f5ad6ee-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "How to Land a Helicopter Pilot Job",
-      "description": "Becoming a helicopter pilot can lead to a thrilling career filled with adventure. Helicopters can perform specialized tasks that fixed-wing aircraft cannot, leading to a world of opportunities for aspiring aviators. From search and rescue to aerial photography, the possibilities for helicopter…",
-      "url": "https://www.flyingmag.com/how-to-land-a-helicopter-pilot-job/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-09-17T12:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Bipartisan Airport Runway Safety Bill Clears Senate Committee",
-      "description": "A bipartisan airport runway safety bill that aims to reduce runway incursions and other surface safety incidents has cleared the Senate Commerce Committee and will head to that chamber’s floor, according to one of the legislators who introduced it. Senator Jerry Moran (R-Kan.) said Wednesday in a…",
-      "url": "https://www.flyingmag.com/airport-runway-incursion-safety-bill-senate/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-16T18:00:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Administrator Pushes Back on Watchdog’s ATC Modernization Report",
-      "description": "FAA Administrator Bryan Bedford said Tuesday that he wanted to “correct the record” on a recent Government Accountability Office (GAO) report that alleged the agency’s air traffic control modernization effort may face cost overruns, schedule delays, and unmet goals. The GAO report, published…",
-      "url": "https://www.flyingmag.com/faa-bryan-bedford-watchdog-atc-modernization/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-16T15:00:00Z",
       "image": null
     }
   ]

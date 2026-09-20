@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:34:48.746552+00:00",
+  "generated_at": "2026-09-20T13:25:28.340700+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,7 +17,7 @@
     {
       "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
       "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
-      "points": 15,
+      "points": 19,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1789451201
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "How modern FMS able to fly angular lateral & vertical approach paths?",
-      "url": "https://aviation.stackexchange.com/questions/115592/how-modern-fms-able-to-fly-angular-lateral-vertical-approach-paths",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Why doesn't the nose gear tend to slam on the runway when touching down with autobrakes?",
+      "url": "https://aviation.stackexchange.com/questions/115579/why-doesnt-the-nose-gear-tend-to-slam-on-the-runway-when-touching-down-with-aut",
+      "points": 3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789557932
+      "created_utc": 1789155675
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Why doesn't the nose gear tend to slam on the runway when touching down with autobrakes?",
-      "url": "https://aviation.stackexchange.com/questions/115579/why-doesnt-the-nose-gear-tend-to-slam-on-the-runway-when-touching-down-with-aut",
-      "points": 3,
-      "num_comments": 2,
+      "title": "Identify a flying aircraft that doesn't have ADS-B",
+      "url": "https://aviation.stackexchange.com/questions/115583/identify-a-flying-aircraft-that-doesnt-have-ads-b",
+      "points": 5,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789155675
+      "created_utc": 1789410908
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Identify a flying aircraft that doesn't have ADS-B",
-      "url": "https://aviation.stackexchange.com/questions/115583/identify-a-flying-aircraft-that-doesnt-have-ads-b",
-      "points": 5,
-      "num_comments": 1,
+      "title": "How modern FMS able to fly angular lateral & vertical approach paths?",
+      "url": "https://aviation.stackexchange.com/questions/115592/how-modern-fms-able-to-fly-angular-lateral-vertical-approach-paths",
+      "points": -3,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789410908
+      "created_utc": 1789557932
     }
   ]
 }
