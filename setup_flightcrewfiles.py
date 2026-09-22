@@ -671,7 +671,300 @@ def fetch_uap_news():
 
 
 # --------------------------------------------------------------------------
-# Step 3: sitemap.xml
+# Step 3: static <noscript> fallback link lists
+#
+# The case-file hubs render their grids client-side from js/case-files-data.js
+# and js/blackbox-data.js, so a crawler that doesn't run JS sees empty
+# containers and the case files end up several clicks deep behind whatever
+# links happen to be hand-written into the prose.
+#
+# Each of those containers already carries a <noscript> holding an "Enable
+# JavaScript" note. This step appends a plain <ul> of links to that same
+# <noscript>, built from the very data the JS reads, so the fallback cannot
+# drift out of sync with what renders. The list sits between FCF-NOSCRIPT-LINKS
+# sentinels and is rewritten in place on every run; nothing outside the
+# sentinels is touched. <noscript> is inert whenever JS is enabled, so this
+# changes nothing for a browsing user.
+# --------------------------------------------------------------------------
+
+_JS_STR = r'''(?P<q>["'])(?P<val>(?:\\.|(?!(?P=q)).)*)(?P=q)'''
+
+
+def _js_strip_noise(text):
+    """Blank out comment and string bodies, preserving length and offsets.
+
+    Lets the brace/bracket walkers below treat punctuation inside strings and
+    comments as ordinary text without tripping over it.
+    """
+    out = list(text)
+    i = 0
+    in_str = None
+    in_line_c = False
+    in_block_c = False
+    while i < len(text):
+        c = text[i]
+        nxt = text[i + 1] if i + 1 < len(text) else ''
+        if in_line_c:
+            if c == '\n':
+                in_line_c = False
+            else:
+                out[i] = ' '
+        elif in_block_c:
+            if c == '*' and nxt == '/':
+                in_block_c = False
+                out[i] = out[i + 1] = ' '
+                i += 1
+            elif c != '\n':
+                out[i] = ' '
+        elif in_str:
+            if c == '\\':
+                out[i] = ' '
+                if i + 1 < len(text):
+                    out[i + 1] = ' '
+                i += 1
+            elif c == in_str:
+                in_str = None
+            else:
+                out[i] = ' '
+        elif c == '/' and nxt == '/':
+            in_line_c = True
+            out[i] = out[i + 1] = ' '
+            i += 1
+        elif c == '/' and nxt == '*':
+            in_block_c = True
+            out[i] = out[i + 1] = ' '
+            i += 1
+        elif c in '"\'`':
+            in_str = c
+        i += 1
+    return ''.join(out)
+
+
+def _js_find_decl(src, name):
+    """Return the bracket-balanced literal assigned to `const <name> = ...`."""
+    m = re.search(r'\b(?:const|let|var)\s+' + re.escape(name) + r'\s*=\s*', src)
+    if not m:
+        raise RuntimeError(f"declaration for {name} not found")
+    i = m.end()
+    if i >= len(src) or src[i] not in '[{':
+        raise RuntimeError(f"{name} is not an array/object literal")
+    open_ch = src[i]
+    close_ch = ']' if open_ch == '[' else '}'
+    mask = _js_strip_noise(src[i:])
+    depth = 0
+    for j, c in enumerate(mask):
+        if c == open_ch:
+            depth += 1
+        elif c == close_ch:
+            depth -= 1
+            if depth == 0:
+                return src[i:i + j + 1]
+    raise RuntimeError(f"unbalanced literal for {name}")
+
+
+def _js_split_objects(array_text):
+    """Yield the source of each top-level {...} inside an array literal."""
+    mask = _js_strip_noise(array_text)
+    depth = 0
+    start = None
+    for i, c in enumerate(mask):
+        if c == '{':
+            if depth == 0:
+                start = i
+            depth += 1
+        elif c == '}':
+            depth -= 1
+            if depth == 0 and start is not None:
+                yield array_text[start:i + 1]
+                start = None
+
+
+def _js_unescape(s):
+    return re.sub(r'\\(.)', lambda m: {'n': '\n', 't': '\t'}.get(m.group(1), m.group(1)), s)
+
+
+def _js_get_field(obj_src, key):
+    """Return a top-level field of a JS object literal: str/bool/num/None."""
+    mask = _js_strip_noise(obj_src)
+    depth = 0
+    for i, c in enumerate(mask):
+        if c in '{[':
+            depth += 1
+            continue
+        if c in '}]':
+            depth -= 1
+            continue
+        if depth != 1 or not mask.startswith(key, i):
+            continue
+        if i and re.match(r'[A-Za-z0-9_$]', mask[i - 1]):
+            continue
+        after = i + len(key)
+        if not re.match(r'\s*:', mask[after:]):
+            continue
+        colon = mask[after:].index(':') + 1
+        tail, mtail = obj_src[after + colon:], mask[after + colon:]
+        sm = re.match(r'\s*' + _JS_STR, tail, re.DOTALL)
+        if sm:
+            return _js_unescape(sm.group('val'))
+        lm = re.match(r'\s*(true|false|null)\b', mtail)
+        if lm:
+            return {'true': True, 'false': False, 'null': None}[lm.group(1)]
+        nm = re.match(r'\s*(-?\d+(?:\.\d+)?)', mtail)
+        if nm:
+            return float(nm.group(1)) if '.' in nm.group(1) else int(nm.group(1))
+        return None
+    return None
+
+
+def parse_js_records(src, name, fields):
+    """Parse `const <name> = [ {...}, ... ]` into a list of dicts."""
+    return [{f: _js_get_field(obj, f) for f in fields}
+            for obj in _js_split_objects(_js_find_decl(src, name))]
+
+
+def parse_js_string_array(src, name):
+    """Parse `var <name> = ['a', 'b'];` into a list of strings."""
+    return [m.group('val') for m in re.finditer(_JS_STR, _js_find_decl(src, name))]
+
+
+# Each entry: which page, which container's <noscript> to fill, and which slice
+# of the data the container's renderer draws from.
+#
+# "all_case_files" is used for the two weekly-rotating widgets (the Featured
+# hero and "You Might Have Missed"). They show 1 and 3 entries respectively,
+# but the pick changes every ISO week and any entry can come up, so the whole
+# candidate pool is the only fallback that is correct in every week.
+NOSCRIPT_FALLBACKS = [
+    ("index.html", "featured-case-file", "all_case_files"),
+    ("index.html", "case-files-grid", "homepage_picks"),
+    ("blackbox.html", "start-here-list", "start_here"),
+    ("blackbox.html", "bb-archive-grid", "blackbox_archive"),
+    ("blackbox.html", "you-might-have-missed-grid", "all_case_files"),
+]
+
+
+def _read(rel):
+    with open(os.path.join(SCRIPT_DIR, rel), "r", encoding="utf-8", newline="") as f:
+        return f.read()
+
+
+def collect_noscript_sources():
+    """Build {source_name: [(title, url), ...]} from the site's own JS data."""
+    case_files = parse_js_records(
+        _read("js/case-files-data.js"), "CASE_FILES", ["title", "url", "startHere"])
+    blackbox = parse_js_records(
+        _read("js/blackbox-data.js"), "BLACKBOX_CASES", ["title", "url", "status"])
+    homepage_picks = parse_js_string_array(_read("js/case-files.js"), "HOMEPAGE_PICKS")
+    featured_urls = parse_js_string_array(_read("js/blackbox-archive.js"), "FEATURED_URLS")
+
+    if not case_files or not blackbox:
+        raise RuntimeError("case-file data parsed empty -- refusing to write empty fallbacks")
+
+    by_url = {e["url"]: e for e in case_files if e.get("url")}
+
+    def pairs(entries):
+        return [(e["title"], e["url"]) for e in entries if e.get("url") and e.get("title")]
+
+    sources = {
+        "all_case_files": pairs(case_files),
+        # Order follows HOMEPAGE_PICKS, matching the on-screen card order.
+        "homepage_picks": [(by_url[u]["title"], u) for u in homepage_picks if u in by_url],
+        "start_here": pairs([e for e in case_files if e.get("startHere")]),
+        # blackbox-archive.js drops the hand-picked featured cards (they are
+        # static markup higher up the page) and renders coming-soon entries as
+        # an unlinked <div>; those carry url: null and fall out of pairs().
+        "blackbox_archive": pairs([e for e in blackbox
+                                   if e.get("url") not in featured_urls
+                                   and e.get("status") != "coming-soon"]),
+    }
+
+    for name, items in sources.items():
+        if not items:
+            raise RuntimeError(f"noscript source '{name}' resolved to zero items")
+        for title, url in items:
+            target = url.split("#")[0].split("?")[0]
+            if not os.path.exists(os.path.join(SCRIPT_DIR, target)):
+                raise RuntimeError(
+                    f"noscript source '{name}' points at missing file: {url}")
+    return sources
+
+
+def _render_list(items, indent):
+    pad = " " * indent
+    out = [f"{pad}<ul>"]
+    for title, url in items:
+        out.append(f'{pad}  <li><a href="{html.escape(url, quote=True)}">'
+                   f"{html.escape(title)}</a></li>")
+    out.append(f"{pad}</ul>")
+    return "\n".join(out)
+
+
+def _apply_fallback(markup, container_id, items):
+    """Insert or refresh one sentinel-wrapped <ul> inside a container's <noscript>."""
+    start_tag = f"<!-- FCF-NOSCRIPT-LINKS:{container_id} START (generated by setup_flightcrewfiles.py -- do not edit by hand) -->"
+    end_tag = f"<!-- FCF-NOSCRIPT-LINKS:{container_id} END -->"
+
+    existing = markup.find(f"<!-- FCF-NOSCRIPT-LINKS:{container_id} START")
+    if existing != -1:
+        close = markup.find(end_tag, existing)
+        if close == -1:
+            raise RuntimeError(f"{container_id}: START sentinel without matching END")
+        indent = len(markup[:existing].split("\n")[-1])
+        block = f"{start_tag}\n{_render_list(items, indent)}\n{' ' * indent}{end_tag}"
+        return markup[:existing] + block + markup[close + len(end_tag):], False
+
+    # First run: land the block just before the </noscript> that follows the
+    # container's opening tag.
+    m = re.search(r'<[a-zA-Z]+[^>]*\bid\s*=\s*["\']' + re.escape(container_id) + r'["\'][^>]*>', markup)
+    if not m:
+        raise RuntimeError(f"container #{container_id} not found")
+    close = markup.find("</noscript>", m.end())
+    if close == -1:
+        raise RuntimeError(f"#{container_id}: no <noscript> found after the container tag")
+    opener = markup.find("<noscript", m.end())
+    if opener == -1 or opener > close:
+        raise RuntimeError(f"#{container_id}: </noscript> without an opening tag")
+
+    # Indent to match the <noscript>'s own content, which sits one level in
+    # from its closing tag.
+    line_start = markup.rfind("\n", 0, close) + 1
+    lead = markup[line_start:close]
+    indent = (len(lead) + 2) if lead.isspace() else 8
+    pad = " " * indent
+    block = f"{pad}{start_tag}\n{_render_list(items, indent)}\n{pad}{end_tag}\n"
+    return markup[:line_start] + block + markup[line_start:], True
+
+
+def generate_noscript_fallbacks():
+    """Refresh every static <noscript> link list. Returns the number of links written."""
+    sources = collect_noscript_sources()
+
+    by_page = {}
+    for page, container, source in NOSCRIPT_FALLBACKS:
+        by_page.setdefault(page, []).append((container, source))
+
+    total_links = 0
+    for page, specs in sorted(by_page.items()):
+        path = os.path.join(SCRIPT_DIR, page)
+        if not os.path.exists(path):
+            raise RuntimeError(f"noscript target page missing: {page}")
+        markup = _read(page)
+        original = markup
+        for container, source in specs:
+            items = sources[source]
+            markup, created = _apply_fallback(markup, container, items)
+            total_links += len(items)
+            log(f"       {page} #{container}: {len(items)} link(s)"
+                f"{' (block created)' if created else ''}")
+        if markup != original:
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                f.write(markup)
+
+    return total_links
+
+
+# --------------------------------------------------------------------------
+# Step 4: sitemap.xml
 # --------------------------------------------------------------------------
 
 # Matches a robots meta tag whose content list includes "noindex", with the
@@ -916,19 +1209,23 @@ def main():
 
     results = {}
 
-    print("\n[1/5] Fetching latest aviation videos from YouTube...")
+    print("\n[1/6] Fetching latest aviation videos from YouTube...")
     results["videos"] = run_step("Fetch YouTube videos", fetch_youtube_videos, youtube_key)
 
-    print("\n[2/5] Fetching latest aviation news from RSS feeds...")
+    print("\n[2/6] Fetching latest aviation news from RSS feeds...")
     results["news"] = run_step("Fetch aviation news", fetch_aviation_news)
 
-    print("\n[3/5] Fetching UAP-specific news from RSS feeds...")
+    print("\n[3/6] Fetching UAP-specific news from RSS feeds...")
     results["uap_news"] = run_step("Fetch UAP news", fetch_uap_news)
 
-    print("\n[4/5] Generating sitemap.xml...")
+    # Runs before the sitemap so that step sees the final HTML.
+    print("\n[4/6] Regenerating static <noscript> fallback link lists...")
+    results["noscript"] = run_step("Generate noscript fallbacks", generate_noscript_fallbacks)
+
+    print("\n[5/6] Generating sitemap.xml...")
     results["sitemap"] = run_step("Generate sitemap.xml", generate_sitemap)
 
-    print("\n[5/5] Fetching aviation community discussion from Hacker News + Stack Exchange...")
+    print("\n[6/6] Fetching aviation community discussion from Hacker News + Stack Exchange...")
     results["community"] = run_step("Fetch aviation community feed", fetch_community_feed)
 
     elapsed = time.time() - start_time
@@ -950,6 +1247,7 @@ def main():
     print(f"Videos fetched:        {videos_count}")
     print(f"News articles fetched: {news_count}")
     print(f"UAP articles fetched:  {uap_count}")
+    print(f"Noscript links written: {results['noscript']['result'] if results['noscript']['ok'] else 0}")
     print(f"Sitemap pages listed:  {results['sitemap']['result'] if results['sitemap']['ok'] else 0}")
     print(f"Community posts fetched: {community_count}")
     print(f"Time taken:            {elapsed:.1f}s")
