@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:00:23.872760+00:00",
+  "generated_at": "2026-09-22T14:29:08.814102+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
-      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
-      "points": 19,
-      "num_comments": 1,
+      "title": "What is the maximum number of Mode S MSP contracts per single aircraft?",
+      "url": "https://aviation.stackexchange.com/questions/115596/what-is-the-maximum-number-of-mode-s-msp-contracts-per-single-aircraft",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789451201
+      "created_utc": 1790074401
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Does the autobrake tend to slam the nosewheel down upon touchdown? Or why not?",
-      "url": "https://aviation.stackexchange.com/questions/115579/does-the-autobrake-tend-to-slam-the-nosewheel-down-upon-touchdown-or-why-not",
-      "points": 3,
-      "num_comments": 2,
+      "title": "A320 Circle to Land",
+      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
+      "points": 2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789155675
+      "created_utc": 1789982787
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Identify a flying aircraft that doesn't have ADS-B",
-      "url": "https://aviation.stackexchange.com/questions/115583/identify-a-flying-aircraft-that-doesnt-have-ads-b",
-      "points": 5,
+      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
+      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
+      "points": 19,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789410908
+      "created_utc": 1789451201
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "How modern FMS able to fly angular lateral & vertical approach paths?",
-      "url": "https://aviation.stackexchange.com/questions/115592/how-modern-fms-able-to-fly-angular-lateral-vertical-approach-paths",
-      "points": -3,
-      "num_comments": 0,
+      "title": "Does the autobrake tend to slam the nosewheel down upon touchdown? Or why not?",
+      "url": "https://aviation.stackexchange.com/questions/115579/does-the-autobrake-tend-to-slam-the-nosewheel-down-upon-touchdown-or-why-not",
+      "points": 3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789557932
+      "created_utc": 1789155675
     }
   ]
 }
