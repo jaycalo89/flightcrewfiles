@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-09-22T14:29:08.095735+00:00",
+  "generated_at": "2026-09-23T18:22:41.659827+00:00",
   "query": "RSS: The Black Vault, UFOs: Scientific Research, Mystery Wire, Live Science",
-  "count": 7,
+  "count": 8,
   "articles": [
+    {
+      "title": "The hunt for extraterrestrial life is fundamentally flawed. But there's a fix.",
+      "description": "The hunt for extraterrestrial life on distant planets may be operating with a big blind spot. That's because we aren't accounting for the nature of the light coming from the host star itself when we interpret the chemical signatures of life, or biosignatures, on some of the most promising candidate…",
+      "url": "https://www.livescience.com/space/extraterrestrial-life/our-hunt-for-extraterrestrial-life-has-a-big-blind-spot-opinion",
+      "source": "Live Science",
+      "author": "Alix Freckelton",
+      "published_at": "2026-09-23T09:00:00Z",
+      "image": "https://cdn.mos.cms.futurecdn.net/o6Rf8d2xzbJfHoBqS3XuzP-1920-80.jpg"
+    },
     {
       "title": "Academic funding for UAP research",
       "description": "Two pieces of funding to support academic research into UAP, have been revealed in recent times. The first is a donation to the University of Albany; and the second is a proposal by the state of New Jersey in the USA to establish an academic Center for the Study of UAP. Both lines of funding are…",
