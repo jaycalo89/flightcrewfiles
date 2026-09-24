@@ -1,25 +1,115 @@
 {
-  "generated_at": "2026-09-23T18:22:24.729913+00:00",
+  "generated_at": "2026-09-24T14:40:09.237032+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 18,
   "articles": [
     {
-      "title": "Why America's Vice President Flies On A Boeing 757 Rather Than A Widebody",
-      "description": "The aircraft most closely associated with transporting the Vice President of the United States is not a large four-engine widebody, but a modified narrowbody jet derived from a commercial airliner. Known as the C-32, this aircraft is based on the Boeing 757-200 and typically operates under the “Air…",
-      "url": "https://simpleflying.com/america-vice-president-flies-boeing-757/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-09-23T17:39:36Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/air-force-two.jpg"
-    },
-    {
-      "title": "Delta Air Lines Unexpectedly Slashes This Route After 20+ Years: See Affected Flights Now",
-      "description": "Delta Air Lines is preparing to end one of its more unusual New York routes. According to latest Cirium schedule data, the carrier's final service between New York JFK Airport (JFK) and Dallas/Fort Worth International Airport (DFW) is scheduled for January 3, 2027. Until then, Delta will continue…",
-      "url": "https://simpleflying.com/delta-slashes-route-after-20-plus-years/",
+      "title": "Air Canada Launches Exclusive New 9-Hour Nonstop Route In 3 Months: See Flights Now",
+      "description": "Air Canada will open a brand-new nonstop link between Vancouver International Airport (YVR) and Sapporo's New Chitose Airport (CTS) on December 17, operating three times weekly through late March. The 4,299-mile (6,917 km) flight is currently scheduled at around nine hours and ten minutes…",
+      "url": "https://simpleflying.com/air-canada-launches-new-9-hour-nonstop-route-in-3-months/",
       "source": "Simple Flying",
       "author": "Paul Hartley",
-      "published_at": "2026-09-23T17:05:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/delta_a220_jfk_option_3_16x9.jpg"
+      "published_at": "2026-09-24T14:11:27Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air_canada_mountains_1920x1080.jpg"
+    },
+    {
+      "title": "Venice Municipal Airport Could See Hangar Rents, Tie-Down Fees Rise",
+      "description": "Tenants and other users of Venice Municipal Airport (KVNC) in Florida could see higher T- hangar rents , tie-down fees, and fuel flowage fees as soon as January. The Venice City Council on Tuesday heard a presentation about the proposed changes, which could see T-hangar rents increase between 53…",
+      "url": "https://www.flyingmag.com/venice-florida-airport-hangar-rent-tie-down-fees/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-24T14:00:00Z",
+      "image": null
+    },
+    {
+      "title": "A Captain's Farewell To The Airbus A340-600: Why This Quadjet Holds My Heart",
+      "description": "On October 18, 2026, Lufthansa is scheduled to operate its final A340-600 services from Frankfurt to New York JFK Airport and Washington Dulles. The dates could still change, but the end is clearly near. After more than two decades of long-haul service, one of the most elegant airliners ever built…",
+      "url": "https://simpleflying.com/captain-chris-airbus-a340-tribute/",
+      "source": "Simple Flying",
+      "author": "Captain Chris",
+      "published_at": "2026-09-24T13:56:01Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1923426641_cropped.jpg"
+    },
+    {
+      "title": "The Real Reason United Airlines Replaced First Class Overhead Bins With A Luggage Closet On Its New Regional Jet",
+      "description": "United Airlines is taking some of its regional aircraft and giving them an unusually premium makeover . The airline is converting 50-seat Bombardier CRJ200 aircraft operated by SkyWest Airlines into 41-seat CRJ450s, with seven United First seats, 16 Economy Plus seats, 18 standard Economy seats,…",
+      "url": "https://simpleflying.com/real-reason-united-airlines-replace-first-class-bins-luggage-closet-new-regional-jet/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-09-24T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/first-class-overhead.png"
+    },
+    {
+      "title": "Best Sites to Find Pilot Jobs",
+      "description": "The world of aviation offers a wide range of opportunities for aspiring aviators. After obtaining the necessary licenses and flight experience , pilots will face the all-important task of finding a job. A job search can be daunting for pilots, but there are resources that can help applicants…",
+      "url": "https://www.flyingmag.com/where-to-find-pilot-jobs/",
+      "source": "Flying Magazine",
+      "author": "Andrew Chen",
+      "published_at": "2026-09-24T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Another Cracked Fuselage: Amerijet Boeing 767-300F Damaged After Hard Landing In Guatemala",
+      "description": "A Boeing 767-300F operated by US cargo carrier Amerijet International sustained fuselage damage after a hard landing at Guatemala City's La Aurora International Airport earlier in September. The aircraft, which was operating flight 8743, arrived in Guatemala after being diverted amid a flight from…",
+      "url": "https://simpleflying.com/video/another-cracked-fuselage-amerijet-boeing-767-300f-damaged-after-hard-landing-in-guatemala/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-24T12:31:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/767-amerijet-wrinkle.jpg"
+    },
+    {
+      "title": "Qatar Airways Has Axed Flights To 20 Long-Haul Airports In 10 Years: See Full List Now",
+      "description": "Qatar Airways is the world's 14th-largest airline for international flights. Having a large passenger fleet of 241 aircraft and no domestic market are obviously critical. When only long-haul services are considered, the oneworld member ranks fourth globally, influenced by 209 widebodies.",
+      "url": "https://simpleflying.com/qatar-airways-has-axed-flights-to-20-long-haul-airports-see-full-list-now/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-09-24T12:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qatar-airways-777-300er-approach-joao-fachetti-1.jpg"
+    },
+    {
+      "title": "Here's What Pilots First Notice When Switching From The Boeing 737 MAX To The Airbus A220",
+      "description": "It is never easy to move from a Boeing aircraft to an Airbus aircraft, or vice versa, and this is most definitely the case when looking at the Airbus A220 and Boeing 737 MAX . Stepping into the A220 flight deck instantly shows that the differences extend far beyond cockpit branding. While Boeing…",
+      "url": "https://simpleflying.com/boeing-737-max-airbus-a220-pilot-differences/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-24T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/aribus-a220-seats-20260907-144839.jpg"
+    },
+    {
+      "title": "Global Airlines' A380 Ambitions Win Lifeline As Court Case Is Adjourned",
+      "description": "A court hearing concerning the future of startup carrier Global Airlines has been adjourned until next month. The virtual airline has been looking to revive the Airbus A380 in the second-hand market by operating affordable transatlantic flights, but, thus far, it has only flown a pair of round…",
+      "url": "https://simpleflying.com/global-airlines-hearing-adjourned/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-24T10:18:51Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/airbus_a380-841_-c-n_120-_9h-globl-_2025-06-04_andre_gerwing_collection_id_023890_cropped.jpg"
+    },
+    {
+      "title": "Boeing Unlikely To Land New China Mega-Order – Even Its 200-Jet Deal Hangs In The Balance",
+      "description": "Boeing's hopes of landing a new mega-order from China during this week's summit between US President Donald Trump and Chinese President Xi Jinping are fading, according to sources close to the matter. With its ambitions for an order for up to 500 jets now highly unlikely, Boeing is reportedly…",
+      "url": "https://simpleflying.com/boeing-unlikely-new-china-mega-order-200-jet-deal/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-09-24T08:40:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/444-air-china-boeing-787-9-danny-yu-_-wikipedia.jpg"
+    },
+    {
+      "title": "How 1 Open Door At London Heathrow Just Rewrote Maintenance Rules For Every Boeing 747-400 Freighter",
+      "description": "On February 8, 2024, a Boeing 747-400 freighter departed London Heathrow for Hong Kong and immediately began losing electrical systems. AC buses 1 and 4 failed during the takeoff roll and climb, stripping the aircraft of all pitot tube heating. When a pressurization issue forced the crew to descend…",
+      "url": "https://simpleflying.com/1-open-door-london-heathrow-rewrote-maintenance-rules-every-boeing-747-400-freighter/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-09-24T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/1-open-door.png"
+    },
+    {
+      "title": "Sporty’s Launches Free Avionics and Flight Training Webinar Series",
+      "description": "Having the latest in avionics and pilot equipment doesn’t mean a thing unless you know how to use them correctly. The folks at Sporty’s Pilot Shop know this and have created a series of free webinars to teach pilots best practices for the use of avionics, autopilots, iPad flight tools, and…",
+      "url": "https://www.flyingmag.com/sportys-launches-free-avionics-and-flight-training-webinar-series/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-23T19:00:00Z",
+      "image": null
     },
     {
       "title": "Lone Star Flight Museum Hosts 12th Annual Girls in Aviation Day",
@@ -40,33 +130,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cirrus-sr22-g1-for-sale-602053-619a5c11dbe6b1d4-800X600-1.jpg?w=800"
     },
     {
-      "title": "How One 5-Hour Layover Sparked A Measles Warning At Philadelphia Airport",
-      "description": "Public health officials have warned passengers of a potential measles exposure incident at Philadelphia International Airport (PHL) earlier this month. The incident involved a passenger who was at the airport for just under five hours on a Sunday night, and officials do not believe it is related to…",
-      "url": "https://simpleflying.com/philadelphia-airport-measles-exposure/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-23T13:38:04Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1399746428_cropped.jpg"
-    },
-    {
-      "title": "United Airlines' December 1 Bet: A Premium-Stuffed Airbus A321XLR On The Routes That Broke Air Canada",
-      "description": "United Airlines is quietly making one of the most closely watched narrowbody bets in the transatlantic market. On December 1, 2026, the airline will send its Airbus A321XLR across the Atlantic for the first time, linking Washington Dulles International Airport (IAD) with Amsterdam Schiphol Airport…",
-      "url": "https://simpleflying.com/united-airlines-december-1-bet-premium-stuffed-airbus-a321xlr-routes-broke-air-canada/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-23T13:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-december-1-bet.png"
-    },
-    {
-      "title": "The Real Reason Southwest Airlines Still Hasn't Retired Its Oldest Boeing 737-700s",
-      "description": "Southwest Airlines is currently spending hundreds of millions of dollars overhauling late-1990s Boeing 737-700 s, keeping jets that have logged tens of thousands of flight hours in active service and rolling out assigned seating and premium cabin options. Rather than opting for a clean break from…",
-      "url": "https://simpleflying.com/southwest-boeing-737700-gradual-retirement-reasons/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-23T13:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/the-real-reason-southwest-airlines-still-hasn-t-retired-its-oldest-boeing-737-700s.jpg"
-    },
-    {
       "title": "Is Washing Airplane Part of the Annual?",
       "description": "Question: My GA plane recently went through its annual inspection. The shop didn’t wash the airplane. I queried why and was told, “Nobody washes airplanes anymore.” Isn’t this in Part 43, Appendix D, of the FARs? How else can you inspect every square inch of an aircraft’s exterior without giving it…",
       "url": "https://www.flyingmag.com/is-washing-airplane-part-of-the-annual/",
@@ -76,72 +139,18 @@
       "image": null
     },
     {
-      "title": "United Airlines Eyes Huge New Miami International Airport Hub: Here's Why",
-      "description": "United Airlines CEO Scott Kirby expressed interest in establishing a hub at Miami International Airport (MIA), but to do so he would need access to between 40 and 50 gates. This would require fierce bargaining with longtime Miami carrier, American Airlines, which currently dominates operations at…",
-      "url": "https://simpleflying.com/video/united-airlines-eyes-huge-new-miami-international-airport-hub-here-s-why/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-23T12:32:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-miami.jpg"
-    },
-    {
-      "title": "Pilot Finds His Way to Unexpected Classroom",
-      "description": "When us airline types are asked, “when and where did you first begin training?” we usually respond with day one of company basic indoctrination at our respective training centers. But in retrospect we forget that training began much before our airline employment, with many of us experiencing the…",
-      "url": "https://www.flyingmag.com/pilot-finds-his-way-to-unexpected-classroom/",
-      "source": "Flying Magazine",
-      "author": "Les Abend",
-      "published_at": "2026-09-23T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "British Airways Launches New 12-Hour Nonstop Route In 4 Weeks: See Map Now",
-      "description": "October is nearly here. Towards the end of that month, British Airways will switch to winter schedules based on IATA slot seasons. Around then, the one world member will introduce or resume multiple routes from both London Heathrow Airport (LHR) and London Gatwick Airport (LGW).",
-      "url": "https://simpleflying.com/british-airways-launches-new-12-hour-nonstop-route-in-4-weeks/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-23T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ba-777-200er-at-gatwick.jpg"
-    },
-    {
-      "title": "Heart Unveils Redesigned Flagship Hybrid-Electric Airliner, JSX Order",
-      "description": "Hybrid-electric regional aircraft developer Heart Aerospace has pivoted to a new flagship aircraft intended to deliver 20 percent more passenger and payload capacity and better economics than its previously announced ES-30, with JSX placing a deposit-backed order for the clean-sheet design. The…",
-      "url": "https://www.flyingmag.com/heart-es36-new-hybrid-electric-airliner-jsx/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-23T11:00:00Z",
-      "image": null
-    },
-    {
       "title": "Congress advances aviation medication, safety bills",
       "description": "The House and Senate committees overseeing aviation advanced several bills to improve aviation safety during hearings on September 15 and 16, respectively.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/22/congress-advances-aviation-medication-safety-bills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/22/congress-advances-aviation-medication-safety-bills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-22T20:37:50Z",
       "image": null
     },
     {
-      "title": "Electra’s Fixed-Wing Aircraft Demonstrates ‘Helicopter-Style’ Procedures",
-      "description": "Hybrid-electric regional aircraft manufacturer Electra said its fixed-wing demonstrator aircraft has begun operating using locations intended for helicopters as well as “helicopter-style” instrument procedures. Electra on Tuesday said it conducted the “first-of-its-kind flights” from a heliport on…",
-      "url": "https://www.flyingmag.com/electra-fixed-wing-aircraft-helicopter-ifr/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-22T19:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Search Suspended for Twin-Engine Plane, Pilot Off Oregon Coast",
-      "description": "The U.S. Coast Guard has suspended the search for a twin-engine airplane that went down off the coast of Oregon on Monday. According to authorities, the pilot, a 78-year-old man, was the only person on board the aircraft and has not been found. A hangar camera captured the 1960 Beechcraft 95 Travel…",
-      "url": "https://www.flyingmag.com/search-suspended-for-twin-engine-plane-pilot-off-oregon-coast/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-22T18:00:00Z",
-      "image": null
-    },
-    {
       "title": "CAU brings Boeing CBTA to students",
       "description": "Becoming a pilot requires more than mastering the aircraft. California Aeronautical University’s collaboration with Boeing helps students develop the real-world skills that contribute to safer, more confident flight operations.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/18/cau-brings-boeing-cbta-to-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/18/cau-brings-boeing-cbta-to-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-18T08:00:00Z",
@@ -150,7 +159,7 @@
     {
       "title": "A day to discover aviation",
       "description": "Every September, Women in Aviation International (WAI) chapters around the world open their hangar doors to a new generation of aspiring aviators.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/17/a-day-to-discover-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/17/a-day-to-discover-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-17T20:20:42Z",
