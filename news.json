@@ -1,16 +1,151 @@
 {
-  "generated_at": "2026-09-24T14:40:09.237032+00:00",
+  "generated_at": "2026-09-25T17:45:55.386295+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 19,
   "articles": [
     {
-      "title": "Air Canada Launches Exclusive New 9-Hour Nonstop Route In 3 Months: See Flights Now",
-      "description": "Air Canada will open a brand-new nonstop link between Vancouver International Airport (YVR) and Sapporo's New Chitose Airport (CTS) on December 17, operating three times weekly through late March. The 4,299-mile (6,917 km) flight is currently scheduled at around nine hours and ten minutes…",
-      "url": "https://simpleflying.com/air-canada-launches-new-9-hour-nonstop-route-in-3-months/",
+      "title": "5 Airlines With Some Of The Highest Pilot Pay Packages In 2026",
+      "description": "Commercial airline pilots have long ranked among the best-paid employees in aviation, but compensation at several major carriers has increased rapidly in recent years. In the United States, new pilot union agreements have pushed senior widebody captain rates toward $500 per hour, while airlines…",
+      "url": "https://simpleflying.com/airlines-highest-published-pilot-pay-packages-2026/",
       "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-09-24T14:11:27Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/air_canada_mountains_1920x1080.jpg"
+      "author": "Nick Pisters",
+      "published_at": "2026-09-25T17:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/pilotpay-1-20260901-170942.jpg"
+    },
+    {
+      "title": "How Cabin Crew Rest & Sleep On The World’s Longest Flights",
+      "description": "Singapore Airlines operates the world's longest flight between its hub in Singapore and New York JFK Airport. The carrier also operates the world's second-longest flight from Singapore to Newark. Both of these flights comfortably beat the world's third-longest route (Doha to Auckland) by over 400…",
+      "url": "https://simpleflying.com/how-cabin-crew-rest-sleep-on-the-worlds-longest-flights/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-09-25T16:30:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/cabincrew.jpg"
+    },
+    {
+      "title": "9th Route: United Files Plans To Deploy Premium-Heavy Boeing 787-9s To Sydney",
+      "description": "As premium demand continues to grow and carriers lean into this trend with more premium-heavy seating configurations, particularly on their long-haul aircraft and routes, United Airlines has been at the forefront of this movement with its Elevated Boeing 787-9 Dreamliner layout. This low-density…",
+      "url": "https://simpleflying.com/united-airlines-plans-deploy-premium-heavy-boeing-787-9-sydney/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-25T16:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/771-united-airlines-boeing-787-9-markus-mainka-_-shutterstock-1.jpg"
+    },
+    {
+      "title": "The Secondary Leisure Markets Frontier Airlines Chose Over Backfilling Spirit's Vacated Fort Lauderdale Hub",
+      "description": "The revealing story in Frontier Airlines’ post-Spirit Airlines expansion is not that the low-cost carrier is grabbing its failed rival’s scraps, but that it is quietly choosing where not to compete. While Spirit Airlines’ May 2026 collapse created an obvious opening at Fort Lauderdale-Hollywood…",
+      "url": "https://simpleflying.com/secondary-leisure-markets-frontier-airlines-chose-backfilling-spirit-vacated-fort-lauderdale-hub/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-09-25T16:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/secondary-leisure-markets-frontier.png"
+    },
+    {
+      "title": "Air France Cancels 10-Hour US Route After Only 5 Years: See Affected Flights Now",
+      "description": "Some things in aviation are predictable. This includes Air France reacting to United Airlines' recent announcement that it'd begin flying from Denver International Airport (DEN) to Paris Charles De Gaulle Airport (CDG) next year.",
+      "url": "https://simpleflying.com/air-france-cancels-10-hour-us-route-after-only-5-years/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-09-25T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/05/air-france-s-7-most-frequent-boeing-777-200er-routes.jpg"
+    },
+    {
+      "title": "Canada's Biggest Airport Is Running 2 Multi-Billion Construction Programs At Once To Avoid Shutting Down",
+      "description": "Toronto Pearson International Airport (YYZ) is Canada’s largest and busiest airport. It handles millions of passengers every year and accounts for close to 30% of all air passengers in Canada. The airport currently connects Toronto with roughly 200 domestic and international destinations.",
+      "url": "https://simpleflying.com/canada-biggest-airport-running-2-multi-billion-construction-programs-once-avoid-shutting-down/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-09-25T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/2-multi-billion-construction-programs.png"
+    },
+    {
+      "title": "This 1953 Cessna 170B Is a Well-Preserved, Mid-20th Century ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1953 Cessna 170B. For a long time it…",
+      "url": "https://www.flyingmag.com/this-1953-cessna-170b-is-a-well-preserved-mid-20th-century-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-09-25T14:37:03Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/cessna2.jpg"
+    },
+    {
+      "title": "Airbus Sets Date For First A350F Flight After Successful Rejected Takeoff Tests",
+      "description": "Airbus has confirmed that the first test flight of its next-generation widebody twinjet freighter, the Airbus A350F, will take place in Toulouse in the southwest of France on Tuesday, September 29. This milestone is set to mark a key step forward for the type, which successfully completed various…",
+      "url": "https://simpleflying.com/airbus-a350f-first-test-flight-date-confirmed/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-25T13:32:09Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a350f-msn700-rollout_ai-pho-0108-33-a350f-msn700-roll-out-015_cropped.jpg"
+    },
+    {
+      "title": "Sheltair Unveils $32,000 Aviation Scholarship Program",
+      "description": "Sheltair , the largest privately owned FBO network in the U.S., has been serving the needs of the aviation community for decades. Now it plans to help train future members through scholarships offered in honor of company founder Jerry Holland. After separating from the Air Force in 1963, Holland,…",
+      "url": "https://www.flyingmag.com/sheltair-unveils-32000-aviation-scholarship-program/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-25T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Spirit Sells Last 27 Airbus Jets In $668 Million Deal",
+      "description": "Earlier this year, at the start of May, the world of commercial aviation in the United States of America was rocked by the news that, after an extended financial struggle, Spirit Airlines would be ceasing operations. The yellow-clad budget carrier was among the country's most distinctive, but,…",
+      "url": "https://simpleflying.com/spirit-airlines-sells-last-aircraft/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-25T12:44:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/252-spirit-airlines-airbus-a320-wirestock-creators-_-shutterstock.jpg"
+    },
+    {
+      "title": "Official: Nashville Airport Authority Majority Votes In Favor Of Renaming After Dolly Parton",
+      "description": "Nashville International Airport (BNA) has taken its first formal step toward being renamed in honor of Dolly Parton. On September 11th, the Metropolitan Nashville Airport Authority (MNAA) Board voted unanimously, 6-0, to begin the process of modifying the airport’s name to recognize the…",
+      "url": "https://simpleflying.com/video/official-nashville-airport-authority-majority-votes-in-favor-of-renaming-after-dolly-parton/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-25T12:29:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/parton-airport.jpg"
+    },
+    {
+      "title": "Watch Out for Airplane Solo Endorsement Traps",
+      "description": "One of the most common training misconceptions is the first solo usually takes place when the student pilot has logged approximately six hours of dual instruction. That may have been accurate back when most training was done in NORDO J-3 Cubs operating off turf runways. Today the airplanes and…",
+      "url": "https://www.flyingmag.com/watch-out-for-airplane-solo-endorsement-traps/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-25T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Emergency Autoland Certified for PC-12 Pro",
+      "description": "Pilatus on Thursday revealed that Garmin Emergency Autoland, which the manufacturer calls Safety Autoland, is now certified on the PC-12 Pro by the FAA and EASA. The single-engine turboprop family already owns a sparkling safety record. But the new Pro, unveiled in March 2025, will add another…",
+      "url": "https://www.flyingmag.com/pilatus-pc-12-garmin-emergency-autoland-cert/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-24T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Last Flying U.S. DC-8 Gets Permanent Home at Virginia Airport",
+      "description": "The last flying U.S.-registered Douglas DC-8, retired in 2025, will soon take on a new mission—engaging and inspiring students and members of the public at Lynchburg Regional Airport (KLYH) in Virginia. The venerable DC-8 was donated to Liberty University by North Carolina-based humanitarian relief…",
+      "url": "https://www.flyingmag.com/douglas-dc-8-lynchburg-airport-liberty-boeing/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-24T17:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/image_c8df9a.jpeg"
+    },
+    {
+      "title": "Bye Aerospace eFlyer 2 Completes First Flight",
+      "description": "Bye Aerospace on Thursday announced the successful first flight of the eFlyer 2, its all-electric aircraft. The flight marks a major milestone for the Colorado-based company and the future of electric training aircraft. According to company officials, the first flight signifies the launch of the…",
+      "url": "https://www.flyingmag.com/bye-aerospace-eflyer-2-completes-first-flight/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-24T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/bye_aerospace_first_flight_sizzle_reel_textless_16x9_v1.1.mp4"
+    },
+    {
+      "title": "This 1959 Bellanca 14-19-3 Cruisemaster Is a Nostalgia-Inducing ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1959 Bellanca 14-19-3 Cruisemaster.…",
+      "url": "https://www.flyingmag.com/this-1959-bellanca-14-19-3-cruisemaster-is-a-nostalgia-inducing-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-09-24T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-bellanca-14-19-3-cruisemaster-for-sale-602082-cd3a8c387f078e0a-800X600-1.jpg?w=800"
     },
     {
       "title": "Venice Municipal Airport Could See Hangar Rents, Tie-Down Fees Rise",
@@ -22,24 +157,6 @@
       "image": null
     },
     {
-      "title": "A Captain's Farewell To The Airbus A340-600: Why This Quadjet Holds My Heart",
-      "description": "On October 18, 2026, Lufthansa is scheduled to operate its final A340-600 services from Frankfurt to New York JFK Airport and Washington Dulles. The dates could still change, but the end is clearly near. After more than two decades of long-haul service, one of the most elegant airliners ever built…",
-      "url": "https://simpleflying.com/captain-chris-airbus-a340-tribute/",
-      "source": "Simple Flying",
-      "author": "Captain Chris",
-      "published_at": "2026-09-24T13:56:01Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/shutterstock_1923426641_cropped.jpg"
-    },
-    {
-      "title": "The Real Reason United Airlines Replaced First Class Overhead Bins With A Luggage Closet On Its New Regional Jet",
-      "description": "United Airlines is taking some of its regional aircraft and giving them an unusually premium makeover . The airline is converting 50-seat Bombardier CRJ200 aircraft operated by SkyWest Airlines into 41-seat CRJ450s, with seven United First seats, 16 Economy Plus seats, 18 standard Economy seats,…",
-      "url": "https://simpleflying.com/real-reason-united-airlines-replace-first-class-bins-luggage-closet-new-regional-jet/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-24T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/first-class-overhead.png"
-    },
-    {
       "title": "Best Sites to Find Pilot Jobs",
       "description": "The world of aviation offers a wide range of opportunities for aspiring aviators. After obtaining the necessary licenses and flight experience , pilots will face the all-important task of finding a job. A job search can be daunting for pilots, but there are resources that can help applicants…",
       "url": "https://www.flyingmag.com/where-to-find-pilot-jobs/",
@@ -49,120 +166,12 @@
       "image": null
     },
     {
-      "title": "Another Cracked Fuselage: Amerijet Boeing 767-300F Damaged After Hard Landing In Guatemala",
-      "description": "A Boeing 767-300F operated by US cargo carrier Amerijet International sustained fuselage damage after a hard landing at Guatemala City's La Aurora International Airport earlier in September. The aircraft, which was operating flight 8743, arrived in Guatemala after being diverted amid a flight from…",
-      "url": "https://simpleflying.com/video/another-cracked-fuselage-amerijet-boeing-767-300f-damaged-after-hard-landing-in-guatemala/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-24T12:31:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/767-amerijet-wrinkle.jpg"
-    },
-    {
-      "title": "Qatar Airways Has Axed Flights To 20 Long-Haul Airports In 10 Years: See Full List Now",
-      "description": "Qatar Airways is the world's 14th-largest airline for international flights. Having a large passenger fleet of 241 aircraft and no domestic market are obviously critical. When only long-haul services are considered, the oneworld member ranks fourth globally, influenced by 209 widebodies.",
-      "url": "https://simpleflying.com/qatar-airways-has-axed-flights-to-20-long-haul-airports-see-full-list-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-24T12:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qatar-airways-777-300er-approach-joao-fachetti-1.jpg"
-    },
-    {
-      "title": "Here's What Pilots First Notice When Switching From The Boeing 737 MAX To The Airbus A220",
-      "description": "It is never easy to move from a Boeing aircraft to an Airbus aircraft, or vice versa, and this is most definitely the case when looking at the Airbus A220 and Boeing 737 MAX . Stepping into the A220 flight deck instantly shows that the differences extend far beyond cockpit branding. While Boeing…",
-      "url": "https://simpleflying.com/boeing-737-max-airbus-a220-pilot-differences/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-24T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/aribus-a220-seats-20260907-144839.jpg"
-    },
-    {
-      "title": "Global Airlines' A380 Ambitions Win Lifeline As Court Case Is Adjourned",
-      "description": "A court hearing concerning the future of startup carrier Global Airlines has been adjourned until next month. The virtual airline has been looking to revive the Airbus A380 in the second-hand market by operating affordable transatlantic flights, but, thus far, it has only flown a pair of round…",
-      "url": "https://simpleflying.com/global-airlines-hearing-adjourned/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-24T10:18:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/airbus_a380-841_-c-n_120-_9h-globl-_2025-06-04_andre_gerwing_collection_id_023890_cropped.jpg"
-    },
-    {
-      "title": "Boeing Unlikely To Land New China Mega-Order – Even Its 200-Jet Deal Hangs In The Balance",
-      "description": "Boeing's hopes of landing a new mega-order from China during this week's summit between US President Donald Trump and Chinese President Xi Jinping are fading, according to sources close to the matter. With its ambitions for an order for up to 500 jets now highly unlikely, Boeing is reportedly…",
-      "url": "https://simpleflying.com/boeing-unlikely-new-china-mega-order-200-jet-deal/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-09-24T08:40:56Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/444-air-china-boeing-787-9-danny-yu-_-wikipedia.jpg"
-    },
-    {
-      "title": "How 1 Open Door At London Heathrow Just Rewrote Maintenance Rules For Every Boeing 747-400 Freighter",
-      "description": "On February 8, 2024, a Boeing 747-400 freighter departed London Heathrow for Hong Kong and immediately began losing electrical systems. AC buses 1 and 4 failed during the takeoff roll and climb, stripping the aircraft of all pitot tube heating. When a pressurization issue forced the crew to descend…",
-      "url": "https://simpleflying.com/1-open-door-london-heathrow-rewrote-maintenance-rules-every-boeing-747-400-freighter/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-09-24T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/1-open-door.png"
-    },
-    {
-      "title": "Sporty’s Launches Free Avionics and Flight Training Webinar Series",
-      "description": "Having the latest in avionics and pilot equipment doesn’t mean a thing unless you know how to use them correctly. The folks at Sporty’s Pilot Shop know this and have created a series of free webinars to teach pilots best practices for the use of avionics, autopilots, iPad flight tools, and…",
-      "url": "https://www.flyingmag.com/sportys-launches-free-avionics-and-flight-training-webinar-series/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-23T19:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Lone Star Flight Museum Hosts 12th Annual Girls in Aviation Day",
-      "description": "Aircraft tours, flashlight construction, and drone soccer highlighted the activities at the Lone Star Flight Museum in Houston on Saturday as the facility commemorated the 12th annual Girls in Aviation Day . This is the third year that ExxonMobil has supported the event, making it possible for…",
-      "url": "https://www.flyingmag.com/lone-star-flight-museum-hosts-12th-annual-girls-in-aviation-day/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-23T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/Aircraft-on-the-ramp-2.jpg?w=1024"
-    },
-    {
-      "title": "This 2001 Cirrus SR22 G1 Is a Transformative ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2001 Cirrus SR22 G1. When Cirrus…",
-      "url": "https://www.flyingmag.com/this-2001-cirrus-sr22-g1-is-a-transformative-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-23T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-cirrus-sr22-g1-for-sale-602053-619a5c11dbe6b1d4-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "Is Washing Airplane Part of the Annual?",
-      "description": "Question: My GA plane recently went through its annual inspection. The shop didn’t wash the airplane. I queried why and was told, “Nobody washes airplanes anymore.” Isn’t this in Part 43, Appendix D, of the FARs? How else can you inspect every square inch of an aircraft’s exterior without giving it…",
-      "url": "https://www.flyingmag.com/is-washing-airplane-part-of-the-annual/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-23T13:00:00Z",
-      "image": null
-    },
-    {
       "title": "Congress advances aviation medication, safety bills",
       "description": "The House and Senate committees overseeing aviation advanced several bills to improve aviation safety during hearings on September 15 and 16, respectively.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/22/congress-advances-aviation-medication-safety-bills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-22T20:37:50Z",
-      "image": null
-    },
-    {
-      "title": "CAU brings Boeing CBTA to students",
-      "description": "Becoming a pilot requires more than mastering the aircraft. California Aeronautical University’s collaboration with Boeing helps students develop the real-world skills that contribute to safer, more confident flight operations.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/18/cau-brings-boeing-cbta-to-students?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-18T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "A day to discover aviation",
-      "description": "Every September, Women in Aviation International (WAI) chapters around the world open their hangar doors to a new generation of aspiring aviators.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/17/a-day-to-discover-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-17T20:20:42Z",
       "image": null
     }
   ]
