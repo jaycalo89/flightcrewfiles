@@ -1,61 +1,88 @@
 {
-  "generated_at": "2026-09-25T17:45:55.386295+00:00",
+  "generated_at": "2026-09-26T16:47:48.581075+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 16,
   "articles": [
     {
-      "title": "5 Airlines With Some Of The Highest Pilot Pay Packages In 2026",
-      "description": "Commercial airline pilots have long ranked among the best-paid employees in aviation, but compensation at several major carriers has increased rapidly in recent years. In the United States, new pilot union agreements have pushed senior widebody captain rates toward $500 per hour, while airlines…",
-      "url": "https://simpleflying.com/airlines-highest-published-pilot-pay-packages-2026/",
+      "title": "The 1920 British Bomber That Was Converted Into A 14-Passenger Airliner, But Never Carried A Paying Passenger",
+      "description": "The Bristol Pullman appeared, on paper, to fulfill immediate postwar aviation needs in the United Kingdom. The design utilized a spacious bomber airframe modified with a fully enclosed cabin to accommodate 14 passengers. Ultimately, it never carried a single paying passenger because the public just…",
+      "url": "https://simpleflying.com/1920-british-bomber-converted-14-passenger-airliner-never-carried-paying-passenger/",
       "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-09-25T17:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/pilotpay-1-20260901-170942.jpg"
+      "author": "Luke Diaz",
+      "published_at": "2026-09-26T16:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/1920-british-bomber.png"
     },
     {
-      "title": "How Cabin Crew Rest & Sleep On The World’s Longest Flights",
-      "description": "Singapore Airlines operates the world's longest flight between its hub in Singapore and New York JFK Airport. The carrier also operates the world's second-longest flight from Singapore to Newark. Both of these flights comfortably beat the world's third-longest route (Doha to Auckland) by over 400…",
-      "url": "https://simpleflying.com/how-cabin-crew-rest-sleep-on-the-worlds-longest-flights/",
+      "title": "Why United Airlines' Biggest Widebody Decision Of The Decade Is Actually A Range Downgrade",
+      "description": "United Airlines just made its largest single widebody order change in years, and it seems more of a downgrade dressed up as an upgrade. The airline has converted 56 Boeing 787-9 orders into the larger Boeing 787-10 , but the 787-10 flies roughly 1,135 to 1,200 nautical miles (2,102 to 2,222 km)…",
+      "url": "https://simpleflying.com/why-united-airlines-biggest-widebody-decision-decade-range-downgrade/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-09-25T16:30:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/cabincrew.jpg"
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-09-26T15:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-biggest-widebody.png"
     },
     {
-      "title": "9th Route: United Files Plans To Deploy Premium-Heavy Boeing 787-9s To Sydney",
-      "description": "As premium demand continues to grow and carriers lean into this trend with more premium-heavy seating configurations, particularly on their long-haul aircraft and routes, United Airlines has been at the forefront of this movement with its Elevated Boeing 787-9 Dreamliner layout. This low-density…",
-      "url": "https://simpleflying.com/united-airlines-plans-deploy-premium-heavy-boeing-787-9-sydney/",
+      "title": "The Beverages Flight Attendants Say They'd Never Order On A Flight",
+      "description": "In recent years, some flight attendants have expressed concerns about some drinks served onboard for various reasons. Some of the most common are tea and coffee, which most passengers would think nothing of drinking after a meal service. Some flight attendants have workarounds to enjoy their daily…",
+      "url": "https://simpleflying.com/beverages-flight-attendants-never-order-flight/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-09-26T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/beverages-flight-attendants.png"
+    },
+    {
+      "title": "How Ryanair Built Europe's Most Profitable Airline By Making Flying As Uncomfortable As Possible",
+      "description": "The European short-haul aviation landscape has been conquered by a blue-and-yellow paradox that defies conventional corporate logic. An airline that routinely strips away basic cabin amenities, charges for hand luggage, and leaves passengers standing on cold tarmacs should be facing terminal…",
+      "url": "https://simpleflying.com/video/how-ryanair-built-europe-s-most-profitable-airline-by-making-flying-as-uncomfortable-as-possible/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-26T12:28:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ryanair-profit-discomfort.jpg"
+    },
+    {
+      "title": "KLM Reveals 1st 5 Routes For Brand-New Airbus A350s: See Them All Now",
+      "description": "Dutch flag carrier KLM Royal Dutch Airlines has revealed the first five routes on which it plans to deploy its brand-new Airbus A350-900 widebody twinjets from its main hub at Amsterdam Schiphol Airport (AMS). The SkyTeam member plans to put the type into service on October 30, which, according…",
+      "url": "https://simpleflying.com/klm-reveals-1st-5-routes-for-new-a350s/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-09-25T16:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/771-united-airlines-boeing-787-9-markus-mainka-_-shutterstock-1.jpg"
+      "published_at": "2026-09-26T12:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/simpleflying-airbus-a350-900-klm-royal-dutch-airlines-1790155746582.jpg"
     },
     {
-      "title": "The Secondary Leisure Markets Frontier Airlines Chose Over Backfilling Spirit's Vacated Fort Lauderdale Hub",
-      "description": "The revealing story in Frontier Airlines’ post-Spirit Airlines expansion is not that the low-cost carrier is grabbing its failed rival’s scraps, but that it is quietly choosing where not to compete. While Spirit Airlines’ May 2026 collapse created an obvious opening at Fort Lauderdale-Hollywood…",
-      "url": "https://simpleflying.com/secondary-leisure-markets-frontier-airlines-chose-backfilling-spirit-vacated-fort-lauderdale-hub/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-25T16:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/secondary-leisure-markets-frontier.png"
+      "title": "Props For A Purpose Acquires First Dedicated Aircraft",
+      "description": "Props For A Purpose , a U.S.-based nonprofit humanitarian aviation organization created in 2024, has acquired its first dedicated aircraft— a Tecnam P2012 Traveller. “Soaring to Serve” is the motto of the Christian faith-based organization that boasts a nationwide network of 500 pilots and other…",
+      "url": "https://www.flyingmag.com/props-for-a-purpose-acquires-first-dedicated-aircraft/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-26T12:00:00Z",
+      "image": null
     },
     {
-      "title": "Air France Cancels 10-Hour US Route After Only 5 Years: See Affected Flights Now",
-      "description": "Some things in aviation are predictable. This includes Air France reacting to United Airlines' recent announcement that it'd begin flying from Denver International Airport (DEN) to Paris Charles De Gaulle Airport (CDG) next year.",
-      "url": "https://simpleflying.com/air-france-cancels-10-hour-us-route-after-only-5-years/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-25T15:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/05/air-france-s-7-most-frequent-boeing-777-200er-routes.jpg"
+      "title": "3 ways you may be sabotaging your aircraft insurance renewal",
+      "description": "When your aircraft insurance renewal notice arrives, it's tempting to set it aside for another day. After all, completing renewal questionnaires and gathering updated information isn't exactly at the top of most pilots' lists of favorite activities.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/25/3-ways-you-may-be-sabotaging-your-aircraft-insurance-renewal?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-25T22:38:00Z",
+      "image": null
     },
     {
-      "title": "Canada's Biggest Airport Is Running 2 Multi-Billion Construction Programs At Once To Avoid Shutting Down",
-      "description": "Toronto Pearson International Airport (YYZ) is Canada’s largest and busiest airport. It handles millions of passengers every year and accounts for close to 30% of all air passengers in Canada. The airport currently connects Toronto with roughly 200 domestic and international destinations.",
-      "url": "https://simpleflying.com/canada-biggest-airport-running-2-multi-billion-construction-programs-once-avoid-shutting-down/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-09-25T15:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/2-multi-billion-construction-programs.png"
+      "title": "How to Watch Airbus’ A350F Maiden Flight",
+      "description": "Aviation enthusiasts who have waited patiently for the maiden flight of Airbus ’ next-generation A350F freighter will have the opportunity to view it live. Airbus said Friday that it will broadcast the first flight live on X on September 29 at 4:20 a.m. EDT. The company noted that the milestone…",
+      "url": "https://www.flyingmag.com/airbus-a350f-freighter-first-flight-how-to-watch/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-25T19:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/resize-5.jpg?w=1024"
+    },
+    {
+      "title": "U.S. Senate Passes Aviation Mental Health Legislation",
+      "description": "The U.S. Senate on Friday unanimously passed two bipartisan bills that aim to address stigmas around mental health in aviation and clarify what medications pilots can take. The John A. Hauser Mental Health in Aviation Act (MHAA) would reduce barriers to seeking mental health treatment, accelerate…",
+      "url": "https://www.flyingmag.com/senate-passes-aviation-mental-health-legislation/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-25T18:00:00Z",
+      "image": null
     },
     {
       "title": "This 1953 Cessna 170B Is a Well-Preserved, Mid-20th Century ‘AircraftForSale’ Top Pick",
@@ -67,15 +94,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/cessna2.jpg"
     },
     {
-      "title": "Airbus Sets Date For First A350F Flight After Successful Rejected Takeoff Tests",
-      "description": "Airbus has confirmed that the first test flight of its next-generation widebody twinjet freighter, the Airbus A350F, will take place in Toulouse in the southwest of France on Tuesday, September 29. This milestone is set to mark a key step forward for the type, which successfully completed various…",
-      "url": "https://simpleflying.com/airbus-a350f-first-test-flight-date-confirmed/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-25T13:32:09Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/a350f-msn700-rollout_ai-pho-0108-33-a350f-msn700-roll-out-015_cropped.jpg"
-    },
-    {
       "title": "Sheltair Unveils $32,000 Aviation Scholarship Program",
       "description": "Sheltair , the largest privately owned FBO network in the U.S., has been serving the needs of the aviation community for decades. Now it plans to help train future members through scholarships offered in honor of company founder Jerry Holland. After separating from the Air Force in 1963, Holland,…",
       "url": "https://www.flyingmag.com/sheltair-unveils-32000-aviation-scholarship-program/",
@@ -83,24 +101,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-09-25T13:00:00Z",
       "image": null
-    },
-    {
-      "title": "Spirit Sells Last 27 Airbus Jets In $668 Million Deal",
-      "description": "Earlier this year, at the start of May, the world of commercial aviation in the United States of America was rocked by the news that, after an extended financial struggle, Spirit Airlines would be ceasing operations. The yellow-clad budget carrier was among the country's most distinctive, but,…",
-      "url": "https://simpleflying.com/spirit-airlines-sells-last-aircraft/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-25T12:44:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/252-spirit-airlines-airbus-a320-wirestock-creators-_-shutterstock.jpg"
-    },
-    {
-      "title": "Official: Nashville Airport Authority Majority Votes In Favor Of Renaming After Dolly Parton",
-      "description": "Nashville International Airport (BNA) has taken its first formal step toward being renamed in honor of Dolly Parton. On September 11th, the Metropolitan Nashville Airport Authority (MNAA) Board voted unanimously, 6-0, to begin the process of modifying the airport’s name to recognize the…",
-      "url": "https://simpleflying.com/video/official-nashville-airport-authority-majority-votes-in-favor-of-renaming-after-dolly-parton/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-25T12:29:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/parton-airport.jpg"
     },
     {
       "title": "Watch Out for Airplane Solo Endorsement Traps",
@@ -137,33 +137,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-09-24T16:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/bye_aerospace_first_flight_sizzle_reel_textless_16x9_v1.1.mp4"
-    },
-    {
-      "title": "This 1959 Bellanca 14-19-3 Cruisemaster Is a Nostalgia-Inducing ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1959 Bellanca 14-19-3 Cruisemaster.…",
-      "url": "https://www.flyingmag.com/this-1959-bellanca-14-19-3-cruisemaster-is-a-nostalgia-inducing-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-24T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-bellanca-14-19-3-cruisemaster-for-sale-602082-cd3a8c387f078e0a-800X600-1.jpg?w=800"
-    },
-    {
-      "title": "Venice Municipal Airport Could See Hangar Rents, Tie-Down Fees Rise",
-      "description": "Tenants and other users of Venice Municipal Airport (KVNC) in Florida could see higher T- hangar rents , tie-down fees, and fuel flowage fees as soon as January. The Venice City Council on Tuesday heard a presentation about the proposed changes, which could see T-hangar rents increase between 53…",
-      "url": "https://www.flyingmag.com/venice-florida-airport-hangar-rent-tie-down-fees/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-24T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Best Sites to Find Pilot Jobs",
-      "description": "The world of aviation offers a wide range of opportunities for aspiring aviators. After obtaining the necessary licenses and flight experience , pilots will face the all-important task of finding a job. A job search can be daunting for pilots, but there are resources that can help applicants…",
-      "url": "https://www.flyingmag.com/where-to-find-pilot-jobs/",
-      "source": "Flying Magazine",
-      "author": "Andrew Chen",
-      "published_at": "2026-09-24T13:00:00Z",
-      "image": null
     },
     {
       "title": "Congress advances aviation medication, safety bills",

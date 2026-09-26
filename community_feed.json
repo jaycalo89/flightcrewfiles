@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:46:03.723538+00:00",
+  "generated_at": "2026-09-26T16:47:55.636048+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "A320 Circle to Land",
-      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
-      "points": 1,
-      "num_comments": 0,
+      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
+      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
+      "points": 19,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789982787
+      "created_utc": 1789451201
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
-      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
-      "points": 19,
-      "num_comments": 1,
+      "title": "A320 Circle to Land",
+      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
+      "points": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789451201
+      "created_utc": 1789982787
     },
     {
       "title": "Starlink Aviation",
