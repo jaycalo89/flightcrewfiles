@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:47:55.636048+00:00",
+  "generated_at": "2026-09-27T13:32:45.699511+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What is the maximum number of Mode S MSP contracts per single aircraft?",
-      "url": "https://aviation.stackexchange.com/questions/115596/what-is-the-maximum-number-of-mode-s-msp-contracts-per-single-aircraft",
+      "title": "First Airplane with Artificial Intelligence",
+      "url": "https://aviation.stackexchange.com/questions/115598/first-airplane-with-artificial-intelligence",
       "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790074401
+      "created_utc": 1790446467
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "A320 Circle to Land",
-      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
-      "points": 1,
+      "title": "What is the maximum number of Mode S MSP contracts per single aircraft?",
+      "url": "https://aviation.stackexchange.com/questions/115596/what-is-the-maximum-number-of-mode-s-msp-contracts-per-single-aircraft",
+      "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789982787
+      "created_utc": 1790074401
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Does the autobrake tend to slam the nosewheel down upon touchdown? Or why not?",
-      "url": "https://aviation.stackexchange.com/questions/115579/does-the-autobrake-tend-to-slam-the-nosewheel-down-upon-touchdown-or-why-not",
-      "points": 3,
-      "num_comments": 2,
+      "title": "A320 Circle to Land",
+      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
+      "points": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789155675
+      "created_utc": 1789982787
     }
   ]
 }

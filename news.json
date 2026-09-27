@@ -1,52 +1,88 @@
 {
-  "generated_at": "2026-09-26T16:47:48.581075+00:00",
+  "generated_at": "2026-09-27T13:32:37.999952+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 16,
+  "count": 20,
   "articles": [
     {
-      "title": "The 1920 British Bomber That Was Converted Into A 14-Passenger Airliner, But Never Carried A Paying Passenger",
-      "description": "The Bristol Pullman appeared, on paper, to fulfill immediate postwar aviation needs in the United Kingdom. The design utilized a spacious bomber airframe modified with a fully enclosed cabin to accommodate 14 passengers. Ultimately, it never carried a single paying passenger because the public just…",
-      "url": "https://simpleflying.com/1920-british-bomber-converted-14-passenger-airliner-never-carried-paying-passenger/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-26T16:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/1920-british-bomber.png"
-    },
-    {
-      "title": "Why United Airlines' Biggest Widebody Decision Of The Decade Is Actually A Range Downgrade",
-      "description": "United Airlines just made its largest single widebody order change in years, and it seems more of a downgrade dressed up as an upgrade. The airline has converted 56 Boeing 787-9 orders into the larger Boeing 787-10 , but the 787-10 flies roughly 1,135 to 1,200 nautical miles (2,102 to 2,222 km)…",
-      "url": "https://simpleflying.com/why-united-airlines-biggest-widebody-decision-decade-range-downgrade/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-09-26T15:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-biggest-widebody.png"
-    },
-    {
-      "title": "The Beverages Flight Attendants Say They'd Never Order On A Flight",
-      "description": "In recent years, some flight attendants have expressed concerns about some drinks served onboard for various reasons. Some of the most common are tea and coffee, which most passengers would think nothing of drinking after a meal service. Some flight attendants have workarounds to enjoy their daily…",
-      "url": "https://simpleflying.com/beverages-flight-attendants-never-order-flight/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-09-26T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/beverages-flight-attendants.png"
-    },
-    {
-      "title": "How Ryanair Built Europe's Most Profitable Airline By Making Flying As Uncomfortable As Possible",
-      "description": "The European short-haul aviation landscape has been conquered by a blue-and-yellow paradox that defies conventional corporate logic. An airline that routinely strips away basic cabin amenities, charges for hand luggage, and leaves passengers standing on cold tarmacs should be facing terminal…",
-      "url": "https://simpleflying.com/video/how-ryanair-built-europe-s-most-profitable-airline-by-making-flying-as-uncomfortable-as-possible/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-26T12:28:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ryanair-profit-discomfort.jpg"
-    },
-    {
-      "title": "KLM Reveals 1st 5 Routes For Brand-New Airbus A350s: See Them All Now",
-      "description": "Dutch flag carrier KLM Royal Dutch Airlines has revealed the first five routes on which it plans to deploy its brand-new Airbus A350-900 widebody twinjets from its main hub at Amsterdam Schiphol Airport (AMS). The SkyTeam member plans to put the type into service on October 30, which, according…",
-      "url": "https://simpleflying.com/klm-reveals-1st-5-routes-for-new-a350s/",
+      "title": "Emirates Launches New Airbus A380 Flights To This Huge City In 1 Month: See Route Now",
+      "description": "The Airbus A380 is an aircraft typically associated with long-haul travel, and, by and large, this is the jet's bread and butter. However, its high capacity means that Emirates, the A380's largest user with more than 100 units in its fleet, can also put the superjumbo to work on shorter services…",
+      "url": "https://simpleflying.com/emirates-launches-new-a380-flights-to-huge-city/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-09-26T12:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/simpleflying-airbus-a350-900-klm-royal-dutch-airlines-1790155746582.jpg"
+      "published_at": "2026-09-27T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/142-emirates-airbus-a380-balta-mihaita-sorin-_-shutterstock.jpg"
+    },
+    {
+      "title": "How The Bombardier Global 8000 Cleared London City's 5.5-Degree Glide Slope To Unlock Nonstop Flights To Los Angeles",
+      "description": "On September 10, the UK Civil Aviation Authority signed off on a piece of paperwork most passengers will never read, and it matters more than its bureaucratic phrasing suggests. The approval clears Bombardier's Global 8000 , the fastest civil aircraft flying today, to fly London City Airport's…",
+      "url": "https://simpleflying.com/bombardier-global-8000-cleared-london-city-glide-slope-unlock-nonstop-flights-los-angeles/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-09-27T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/bombardier-global-8000.png"
+    },
+    {
+      "title": "'Indecent': American Airlines Passenger Strips Naked Mid-Flight, Detained By Police In Miami",
+      "description": "An American Airlines service had to be met by law enforcement on arrival at Miami International Airport late on earlier in September after it was reported that a female passenger was undressing herself and acting indecently. The report of the passenger resulted in one of the strangest ACARS…",
+      "url": "https://simpleflying.com/video/indecent-american-airlines-passenger-strips-naked-mid-flight-detained-by-police-in-miami/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-09-27T12:27:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-strip.jpg"
+    },
+    {
+      "title": "Only 217 Miles: Emirates' 13 Shortest Airbus A380 Flights Revealed [Map]",
+      "description": "As the world's largest operator of the Airbus A380 by a considerable distance, UAE flag carrier Emirates uses its superjumbos on a hugely diverse range of routes out of its main hub at Dubai International Airport (DXB). While most of these link the facility to long-haul hubs in intercontinental…",
+      "url": "https://simpleflying.com/only-217-miles-emirates-13-shortest-a380-flights-revealed/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-09-27T12:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/284-emirates-airbus-a380-markus-mainka-_-shutterstock.jpg"
+    },
+    {
+      "title": "How Does The Simple Flying Flight Tracker Actually Know Where A Plane Is?",
+      "description": "Many airliners, when cruising, appear on a smartphone flight tracker screen as a smooth, continuous icon moving across a digital map. Most passengers assume this seamless display is driven by air traffic radar sweeping the skies or a direct satellite link constantly beaming video down to Earth. In…",
+      "url": "https://simpleflying.com/how-simple-flying-flight-tracker-knows-where-planes-are/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-27T12:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/simple-flying-flight.png"
+    },
+    {
+      "title": "A Retired F-14 Tomcat's Ejection Seat Is Worth More Than Most Civilian Aircraft Engines",
+      "description": "A classic Martin-Baker GRU-7A ejection seat, the exact escape system once used by Grumman F-14 Tomcat crews was recently listed for sale for $35,000 on PicClick. The former US Navy jet's seat has gone viral with claims that the retired ejection seat is now worth more than most civilian airplane…",
+      "url": "https://simpleflying.com/f14-tomcat-ejection-seat-value-civilian-aircraft-engines/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-09-27T11:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/usnavy-20260914-185028.jpg"
+    },
+    {
+      "title": "Is It True That Airlines Are Making Extra-Legroom Economy The Smarter Buy In 2026?",
+      "description": "Travelers who want more comfort than Economy generally face a straightforward choice: accept a standard seat or pay considerably more for Premium Economy. However, one travel hack we'll cover in this article can help you save money. As Premium Economy fares often move away from standard Economy…",
+      "url": "https://simpleflying.com/true-airlines-making-extra-legroom-economy-smarter-buy-2026/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-09-27T10:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/smarter-buy-in-2026.png"
+    },
+    {
+      "title": "Why Southwest Airlines Is Moving Away From Point-To-Point Flying",
+      "description": "Southwest Airlines, the world's largest low-cost carrier and one of the largest airlines in the United States, has made headlines in recent times with several amendments to its current offerings. Most notably, the Dallas-based carrier announced that it would be removing its free checked baggage…",
+      "url": "https://simpleflying.com/southwest-airlines-moving-away-from-point-to-point-why/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-09-27T09:15:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/06/why-southwest-airlines-is-moving-away-from-point-to-point-flying.jpg"
+    },
+    {
+      "title": "2 Giant Pandas Fly 15 Hours Nonstop From China To Atlanta On FedEx Boeing 777F",
+      "description": "Two giant pandas have flown from China to the United States on board a FedEx Express Boeing 777F freighter, with the nonstop flight taking more than 15 hours. Ping Ping and Fu Shuang departed Chengdu in the early hours of Sunday morning and are due to arrive in Atlanta, where they will spend the…",
+      "url": "https://simpleflying.com/giant-pandas-fly-15-hours-china-atlanta-fedex-boeing-777f/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-09-27T07:16:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/fedex-panda-express-boeing-777f-on-the-apron-1.jpg"
     },
     {
       "title": "Props For A Purpose Acquires First Dedicated Aircraft",
