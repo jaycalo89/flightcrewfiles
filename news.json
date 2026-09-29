@@ -1,96 +1,195 @@
 {
-  "generated_at": "2026-09-27T13:32:37.999952+00:00",
+  "generated_at": "2026-09-29T23:34:27.132621+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 22,
   "articles": [
     {
-      "title": "Emirates Launches New Airbus A380 Flights To This Huge City In 1 Month: See Route Now",
-      "description": "The Airbus A380 is an aircraft typically associated with long-haul travel, and, by and large, this is the jet's bread and butter. However, its high capacity means that Emirates, the A380's largest user with more than 100 units in its fleet, can also put the superjumbo to work on shorter services…",
-      "url": "https://simpleflying.com/emirates-launches-new-a380-flights-to-huge-city/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-27T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/142-emirates-airbus-a380-balta-mihaita-sorin-_-shutterstock.jpg"
+      "title": "AOPA Urges FAA to Reconsider Rescinding Single-Pilot Citation Exemptions",
+      "description": "WASHINGTON—The Aircraft Owners and Pilots Association (AOPA) expressed concern over the Federal Aviation Administration’s (FAA) decision to rescind single-pilot exemptions for some Cessna Citation models in a letter to FAA Administrator Bryan Bedford .",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/pr-aopa-urges-faa-to-reconsider-rescinding-single-pilot-citation-exemptions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-30T00:17:48Z",
+      "image": null
     },
     {
-      "title": "How The Bombardier Global 8000 Cleared London City's 5.5-Degree Glide Slope To Unlock Nonstop Flights To Los Angeles",
-      "description": "On September 10, the UK Civil Aviation Authority signed off on a piece of paperwork most passengers will never read, and it matters more than its bureaucratic phrasing suggests. The approval clears Bombardier's Global 8000 , the fastest civil aircraft flying today, to fly London City Airport's…",
-      "url": "https://simpleflying.com/bombardier-global-8000-cleared-london-city-glide-slope-unlock-nonstop-flights-los-angeles/",
+      "title": "Why In The World Did Delta Air Lines Already Retrofit The Cabins Of Some Airbus A350s?",
+      "description": "Delta Air Lines is in the process of rolling out a fleet-wide cabin redesign, with the Boeing 757 having debuted the product in the fall of 2025, followed by the Airbus A350. This product will offer upgraded cabin seating (including memory-foam cushions), warmer brand palettes, and phase-of-flight…",
+      "url": "https://simpleflying.com/why-did-delta-air-lines-already-retrofit-some-airbus-a350-900s/",
       "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-09-27T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/bombardier-global-8000.png"
+      "author": "Simple Flying Staff",
+      "published_at": "2026-09-29T23:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/1111111111111111111.jpg"
     },
     {
-      "title": "'Indecent': American Airlines Passenger Strips Naked Mid-Flight, Detained By Police In Miami",
-      "description": "An American Airlines service had to be met by law enforcement on arrival at Miami International Airport late on earlier in September after it was reported that a female passenger was undressing herself and acting indecently. The report of the passenger resulted in one of the strangest ACARS…",
-      "url": "https://simpleflying.com/video/indecent-american-airlines-passenger-strips-naked-mid-flight-detained-by-police-in-miami/",
+      "title": "The Aircraft Set To Replace United Airlines' Iconic Boeing 757s",
+      "description": "For more than three decades, the Boeing 757 has been United Airlines ' transatlantic workhorse, a narrowbody that could do what few others could: cross the ocean efficiently. From Newark to Edinburgh, Boston to Dublin, and Washington to Lisbon, the 757-200 carved out a unique niche, bridging the…",
+      "url": "https://simpleflying.com/which-aircraft-will-replace-united-airlines-iconic-boeing-757s/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-27T12:27:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-strip.jpg"
+      "author": "Josh Eyre",
+      "published_at": "2026-09-29T21:30:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/10/the-aircraft-set-to-replace-united-airlines-iconic-boeing-757s.jpg"
     },
     {
-      "title": "Only 217 Miles: Emirates' 13 Shortest Airbus A380 Flights Revealed [Map]",
-      "description": "As the world's largest operator of the Airbus A380 by a considerable distance, UAE flag carrier Emirates uses its superjumbos on a hugely diverse range of routes out of its main hub at Dubai International Airport (DXB). While most of these link the facility to long-haul hubs in intercontinental…",
-      "url": "https://simpleflying.com/only-217-miles-emirates-13-shortest-a380-flights-revealed/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-27T12:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/284-emirates-airbus-a380-markus-mainka-_-shutterstock.jpg"
+      "title": "Training and Safety Tip: Listen to your airplane",
+      "description": "I knew the furnace in my condo was going to fail. One day, out of the blue, it just sounded different. It wasn’t alarming, or squeaky, or even particularly noisy. Just different. Naturally, the landlord thought I’d lost my mind. He couldn’t hear anything “wrong.”",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/training-and-safety-tip-listen-to-your-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-29T21:15:00Z",
+      "image": null
     },
     {
-      "title": "How Does The Simple Flying Flight Tracker Actually Know Where A Plane Is?",
-      "description": "Many airliners, when cruising, appear on a smartphone flight tracker screen as a smooth, continuous icon moving across a digital map. Most passengers assume this seamless display is driven by air traffic radar sweeping the skies or a direct satellite link constantly beaming video down to Earth. In…",
-      "url": "https://simpleflying.com/how-simple-flying-flight-tracker-knows-where-planes-are/",
+      "title": "United Airlines Brings Premium-Heavy Boeing 787-9 To 2 New Routes For The Holidays",
+      "description": "United Airlines is expanding the deployment of its premium-heavy Boeing 787-9 Dreamliner this winter, adding two more routes to the aircraft's schedule during the holiday travel period. The new configuration will operate between San Francisco International Airport (SFO) and Houston (IAH) before…",
+      "url": "https://simpleflying.com/united-airlines-premium-heavy-boeing-787-9-2-new-routes-holidays/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-09-27T12:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/simple-flying-flight.png"
+      "author": "Jack McGarity",
+      "published_at": "2026-09-29T21:05:49Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/united-airlines-boeing-787-9.jpg"
     },
     {
-      "title": "A Retired F-14 Tomcat's Ejection Seat Is Worth More Than Most Civilian Aircraft Engines",
-      "description": "A classic Martin-Baker GRU-7A ejection seat, the exact escape system once used by Grumman F-14 Tomcat crews was recently listed for sale for $35,000 on PicClick. The former US Navy jet's seat has gone viral with claims that the retired ejection seat is now worth more than most civilian airplane…",
-      "url": "https://simpleflying.com/f14-tomcat-ejection-seat-value-civilian-aircraft-engines/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-09-27T11:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/usnavy-20260914-185028.jpg"
-    },
-    {
-      "title": "Is It True That Airlines Are Making Extra-Legroom Economy The Smarter Buy In 2026?",
-      "description": "Travelers who want more comfort than Economy generally face a straightforward choice: accept a standard seat or pay considerably more for Premium Economy. However, one travel hack we'll cover in this article can help you save money. As Premium Economy fares often move away from standard Economy…",
-      "url": "https://simpleflying.com/true-airlines-making-extra-legroom-economy-smarter-buy-2026/",
+      "title": "Why Can’t The Boeing 737 MAX Be Powered By Any Other Engine Type?",
+      "description": "The Boeing 737 MAX is one of the most commercially important airliners ever built. The MAX version is the latest evolution of the Boeing 737 series, whose lineage stretches back to 1967. Over the decades, Boeing refined the aircraft while retaining its low-slung stance and compact geometry. When…",
+      "url": "https://simpleflying.com/boeing-737-max-not-powered-any-other-engine-type-why/",
       "source": "Simple Flying",
       "author": "Victoria Agronsky",
-      "published_at": "2026-09-27T10:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/smarter-buy-in-2026.png"
+      "published_at": "2026-09-29T20:15:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/why-can-t-the-boeing-737-max-be-powered-by-any-other-engine-type.jpg"
     },
     {
-      "title": "Why Southwest Airlines Is Moving Away From Point-To-Point Flying",
-      "description": "Southwest Airlines, the world's largest low-cost carrier and one of the largest airlines in the United States, has made headlines in recent times with several amendments to its current offerings. Most notably, the Dallas-based carrier announced that it would be removing its free checked baggage…",
-      "url": "https://simpleflying.com/southwest-airlines-moving-away-from-point-to-point-why/",
+      "title": "22 Business-Class Suites & 1st-Ever Premium Economy Coming To All Hawaiian Airlines A330s",
+      "description": "Hawaiian Airlines announced that it will begin fitting its Airbus A330 fleet with new Leihōkū Business Class suites. It will also be adding a premium economy section for the first time ever, called \"Premium Reserve.\" These enhancements are expected to roll out beginning in 2028.",
+      "url": "https://simpleflying.com/hawaiian-airlines-a330-business-class-suites-premium-economy/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-09-27T09:15:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/06/why-southwest-airlines-is-moving-away-from-point-to-point-flying.jpg"
+      "author": "Paul Thompson",
+      "published_at": "2026-09-29T20:03:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/hawaiian_a330_leihoku_suites_rendering_003.jpg"
     },
     {
-      "title": "2 Giant Pandas Fly 15 Hours Nonstop From China To Atlanta On FedEx Boeing 777F",
-      "description": "Two giant pandas have flown from China to the United States on board a FedEx Express Boeing 777F freighter, with the nonstop flight taking more than 15 hours. Ping Ping and Fu Shuang departed Chengdu in the early hours of Sunday morning and are due to arrive in Atlanta, where they will spend the…",
-      "url": "https://simpleflying.com/giant-pandas-fly-15-hours-china-atlanta-fedex-boeing-777f/",
+      "title": "Airbus A350F Makes First Flight",
+      "description": "Airbus’ next-generation A350F freighter, which the manufacturer confirmed to be under development in July 2021, has finally conducted its maiden flight. The aircraft, registered F-WXLD and referred to as MSN700 by Airbus, is the first of two test aircraft the manufacturer will use for a…",
+      "url": "https://www.flyingmag.com/airbus-a350f-makes-first-test-flight/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-29T20:00:00Z",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f6aa.png"
+    },
+    {
+      "title": "Southwest Airlines Cancels 6 Routes From This Major Airport: See Full List Now",
+      "description": "Between October and next May, Southwest Airlines plans scheduled flights to 121 airports. OAG data shows that 107 are domestic, whether within the Lower 48, Alaska, Hawaii, or US territories in the Caribbean. Service to Alaska materialized for the first time this year .",
+      "url": "https://simpleflying.com/southwest-airlines-cancels-6-routes-from-this-major-airport/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-09-27T07:16:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/fedex-panda-express-boeing-777f-on-the-apron-1.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-09-29T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/southwest-boeing-737-max-8-mock-up.jpg"
     },
     {
-      "title": "Props For A Purpose Acquires First Dedicated Aircraft",
-      "description": "Props For A Purpose , a U.S.-based nonprofit humanitarian aviation organization created in 2024, has acquired its first dedicated aircraft— a Tecnam P2012 Traveller. “Soaring to Serve” is the motto of the Christian faith-based organization that boasts a nationwide network of 500 pilots and other…",
-      "url": "https://www.flyingmag.com/props-for-a-purpose-acquires-first-dedicated-aircraft/",
+      "title": "Report Finds General Aviation Contributes $339B to U.S. Economy",
+      "description": "General aviation supports about 1.33 million jobs and contributes an estimated $339.2 billion to the U.S. economy, serving as a significant economic engine despite common perceptions that it is primarily a tax-supported hobby for the wealthy, according to a recent report by the American Association…",
+      "url": "https://www.flyingmag.com/report-finds-general-aviation-contributes-339b-to-u-s-economy/",
       "source": "Flying Magazine",
       "author": "Meg Godlewski",
-      "published_at": "2026-09-26T12:00:00Z",
+      "published_at": "2026-09-29T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Stunning: Alaska Airlines Unveils Lie-Flat 737 MAX 10 “Aurora Suites,” Boosts 787 With 46% Premium Seating",
+      "description": "Alaska Airlines is dramatically expanding its premium offering, unveiling its new Aurora experience for Boeing 787 Dreamliners and select Boeing 737 MAX 10 aircraft. Announced on September 29, 2026 , the new product will bring lie-flat suites to Alaska's widebody fleet and, for the first time, to…",
+      "url": "https://simpleflying.com/alaska-airlines-737-max-10-aurora-suites-787-premium-seating/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-09-29T18:03:26Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/alaska-737-10-max-aurora-suites-cabin_rendering_01.png"
+    },
+    {
+      "title": "The Hidden Landing-Fee Math That Makes The Embraer E195-E2 Cheaper Than The Airbus A220-300 Per Trip",
+      "description": "The Embraer E2 and the Airbus A220 are the two main players in the small narrowbody market. Within these families, it's the E195-E2 and A220-300 variants that have proven to be the most popular models, and they're quite competitive with one another. However, there's one benefit to the Embraer…",
+      "url": "https://simpleflying.com/hidden-landing-fee-makes-embraer-e195-e2-cheaper-airbus-a220-300-per-trip/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-09-29T18:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/hidden-landing-fee.png"
+    },
+    {
+      "title": "Skydivers Jump to the Rescue After Wisconsin Plane Crash",
+      "description": "Three skydivers in Wisconsin witnessed a small airplane perform an unscheduled off-airport landing in a corn field and literally jumped into action. The airplane in distress was identified as a Beechcraft 35-A33 Debonair. The skydivers told authorities they witnessed the small plane take off from…",
+      "url": "https://www.flyingmag.com/skydivers-jump-to-the-rescue-after-wisconsin-plane-crash/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-29T17:46:19Z",
+      "image": null
+    },
+    {
+      "title": "How Cabin Crew Rest & Sleep On Transoceanic Flights",
+      "description": "Ultra-long-haul flying has become one of the defining features of modern aviation, with flights now lasting 15, 17, and even 19 hours in total. However, while passengers generally focus on how to survive these journeys, the reality is that cabin crew must work, rest, and remain alert throughout the…",
+      "url": "https://simpleflying.com/how-do-cabin-crew-rest-and-sleep-on-transoceanic-flights/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-09-29T17:30:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/how-cabin-crew-rest-sleep-on-transoceanic-flights.jpg"
+    },
+    {
+      "title": "Cosmic One aims to decarbonize aviation",
+      "description": "For years, electric airplanes have faced one major problem: range. They can be quiet and simple to operate, but batteries limit how far they can fly.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/cosmic-one-aims-to-decarbonize-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-29T17:16:29Z",
+      "image": null
+    },
+    {
+      "title": "FAA Proposes Relaxing Part 135 and 91 Oxygen Mask Rules",
+      "description": "The FAA has proposed a new rule that would relax oxygen mask requirements for Part 135 and 91 operations, arguing that the changes would save operators millions of dollars annually without adversely affecting safety. In a notice of proposed rulemaking (NPRM) published last week, the agency said the…",
+      "url": "https://www.flyingmag.com/faa-propose-relaxed-part-135-91-oxygen-mask-rule/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-29T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA: Software Glitch Will Delay 737 Max 10 Certification",
+      "description": "FAA Administrator Bryan Bedford said Monday that the agency will delay certification of Boeing’s 737 Max 10 as it works to determine whether a newly reported software glitch “is a safety of flight issue or not.” Certification of the Max 10 was expected as soon as this month, but Bedford said that…",
+      "url": "https://www.flyingmag.com/software-glitch-boeing-737-max-10-delay-faa-says/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-29T15:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1973 Cessna 340 Is a Pressurized ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1973 Cessna 340. Few general aviation…",
+      "url": "https://www.flyingmag.com/this-1973-cessna-340-is-a-pressurized-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-09-29T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-multi-engine-piston-cessna-340-for-sale-602090-e785e6f5ccde0ef4-800X600-1.jpg?w=800"
+    },
+    {
+      "title": "Inheriting an In-Progress Student Pilot: How to Win Trust and Keep Momentum",
+      "description": "“Are you taking on any students?” That’s how the conversation usually begins when the partially trained client is looking for a new instructor. When the question is addressed to a CFI who has the space on their schedule to accommodate a new-to-them client, it’s often greeted enthusiastically—as it…",
+      "url": "https://www.flyingmag.com/inheriting-an-in-progress-student-pilot-how-to-win-trust-and-keep-momentum/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-29T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "DOT, Aviation Groups Ask Congress for $30B to Modernize Airspace",
+      "description": "U.S. Transportation Secretary Sean Duffy, FAA Administrator Bryan Bedford, and a coalition of nearly 60 aviation organizations have urged Congress to consider new legislation that would funnel an additional $30 billion toward modernizing key aviation systems and upgrading airport infrastructure.…",
+      "url": "https://www.flyingmag.com/dot-faa-ask-congress-30b-aviation-modernization/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-28T21:00:51Z",
+      "image": null
+    },
+    {
+      "title": "FAA Investigating Boeing 737 Max Glitch That Could Impact Newer Models",
+      "description": "The FAA is investigating whether a glitch stemming from a software update to the flight management computer (FMC) on Boeing 737 Max aircraft poses a safety concern for pilots, as the manufacturer works to resolve the potential issue. The glitch, which according to Aviation Week could incorrectly…",
+      "url": "https://www.flyingmag.com/faa-boeing-737-max-aircraft-software-glitch-vnav/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-09-28T17:30:00Z",
       "image": null
     },
     {
@@ -100,87 +199,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-25T22:38:00Z",
-      "image": null
-    },
-    {
-      "title": "How to Watch Airbus’ A350F Maiden Flight",
-      "description": "Aviation enthusiasts who have waited patiently for the maiden flight of Airbus ’ next-generation A350F freighter will have the opportunity to view it live. Airbus said Friday that it will broadcast the first flight live on X on September 29 at 4:20 a.m. EDT. The company noted that the milestone…",
-      "url": "https://www.flyingmag.com/airbus-a350f-freighter-first-flight-how-to-watch/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-25T19:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/resize-5.jpg?w=1024"
-    },
-    {
-      "title": "U.S. Senate Passes Aviation Mental Health Legislation",
-      "description": "The U.S. Senate on Friday unanimously passed two bipartisan bills that aim to address stigmas around mental health in aviation and clarify what medications pilots can take. The John A. Hauser Mental Health in Aviation Act (MHAA) would reduce barriers to seeking mental health treatment, accelerate…",
-      "url": "https://www.flyingmag.com/senate-passes-aviation-mental-health-legislation/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-25T18:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1953 Cessna 170B Is a Well-Preserved, Mid-20th Century ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1953 Cessna 170B. For a long time it…",
-      "url": "https://www.flyingmag.com/this-1953-cessna-170b-is-a-well-preserved-mid-20th-century-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-09-25T14:37:03Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/cessna2.jpg"
-    },
-    {
-      "title": "Sheltair Unveils $32,000 Aviation Scholarship Program",
-      "description": "Sheltair , the largest privately owned FBO network in the U.S., has been serving the needs of the aviation community for decades. Now it plans to help train future members through scholarships offered in honor of company founder Jerry Holland. After separating from the Air Force in 1963, Holland,…",
-      "url": "https://www.flyingmag.com/sheltair-unveils-32000-aviation-scholarship-program/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-25T13:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Watch Out for Airplane Solo Endorsement Traps",
-      "description": "One of the most common training misconceptions is the first solo usually takes place when the student pilot has logged approximately six hours of dual instruction. That may have been accurate back when most training was done in NORDO J-3 Cubs operating off turf runways. Today the airplanes and…",
-      "url": "https://www.flyingmag.com/watch-out-for-airplane-solo-endorsement-traps/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-25T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Emergency Autoland Certified for PC-12 Pro",
-      "description": "Pilatus on Thursday revealed that Garmin Emergency Autoland, which the manufacturer calls Safety Autoland, is now certified on the PC-12 Pro by the FAA and EASA. The single-engine turboprop family already owns a sparkling safety record. But the new Pro, unveiled in March 2025, will add another…",
-      "url": "https://www.flyingmag.com/pilatus-pc-12-garmin-emergency-autoland-cert/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-24T20:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Last Flying U.S. DC-8 Gets Permanent Home at Virginia Airport",
-      "description": "The last flying U.S.-registered Douglas DC-8, retired in 2025, will soon take on a new mission—engaging and inspiring students and members of the public at Lynchburg Regional Airport (KLYH) in Virginia. The venerable DC-8 was donated to Liberty University by North Carolina-based humanitarian relief…",
-      "url": "https://www.flyingmag.com/douglas-dc-8-lynchburg-airport-liberty-boeing/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-24T17:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/image_c8df9a.jpeg"
-    },
-    {
-      "title": "Bye Aerospace eFlyer 2 Completes First Flight",
-      "description": "Bye Aerospace on Thursday announced the successful first flight of the eFlyer 2, its all-electric aircraft. The flight marks a major milestone for the Colorado-based company and the future of electric training aircraft. According to company officials, the first flight signifies the launch of the…",
-      "url": "https://www.flyingmag.com/bye-aerospace-eflyer-2-completes-first-flight/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-24T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/bye_aerospace_first_flight_sizzle_reel_textless_16x9_v1.1.mp4"
-    },
-    {
-      "title": "Congress advances aviation medication, safety bills",
-      "description": "The House and Senate committees overseeing aviation advanced several bills to improve aviation safety during hearings on September 15 and 16, respectively.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/22/congress-advances-aviation-medication-safety-bills?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-22T20:37:50Z",
       "image": null
     }
   ]

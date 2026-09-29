@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:32:45.699511+00:00",
+  "generated_at": "2026-09-29T23:34:35.592500+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "First Airplane with Artificial Intelligence",
-      "url": "https://aviation.stackexchange.com/questions/115598/first-airplane-with-artificial-intelligence",
+      "title": "61.195 (b) and (c) Interpretation: In what scenario would (c)(1)(ii) apply?",
+      "url": "https://aviation.stackexchange.com/questions/115606/61-195-b-and-c-interpretation-in-what-scenario-would-c1ii-apply",
       "points": 0,
-      "num_comments": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790446467
+      "created_utc": 1790710586
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Are there any aircraft with a biplane tail but not a biplane wing?",
-      "url": "https://aviation.stackexchange.com/questions/115587/are-there-any-aircraft-with-a-biplane-tail-but-not-a-biplane-wing",
-      "points": 19,
-      "num_comments": 1,
+      "title": "ALISIO S2.2: Is This Mach 2.2 Aircraft Feasible?",
+      "url": "https://aviation.stackexchange.com/questions/115604/alisio-s2-2-is-this-mach-2-2-aircraft-feasible",
+      "points": -3,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789451201
+      "created_utc": 1790706985
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What is the maximum number of Mode S MSP contracts per single aircraft?",
-      "url": "https://aviation.stackexchange.com/questions/115596/what-is-the-maximum-number-of-mode-s-msp-contracts-per-single-aircraft",
-      "points": 0,
-      "num_comments": 0,
+      "title": "What regulatory structure allows the Pope to be in the cockpit of this Air France flight?",
+      "url": "https://aviation.stackexchange.com/questions/115601/what-regulatory-structure-allows-the-pope-to-be-in-the-cockpit-of-this-air-franc",
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790074401
+      "created_utc": 1790622075
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "A320 Circle to Land",
-      "url": "https://aviation.stackexchange.com/questions/115595/a320-circle-to-land",
-      "points": 1,
+      "title": "Custer Channel Wing Implementation (or rather, the lack thereof)",
+      "url": "https://aviation.stackexchange.com/questions/115600/custer-channel-wing-implementation-or-rather-the-lack-thereof",
+      "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1789982787
+      "created_utc": 1790572666
     }
   ]
 }
