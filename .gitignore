@@ -2,3 +2,7 @@
 .envy
 .env
 .envy
+*.log
+update_log.txt
+.push_retry_state
+__pycache__/
