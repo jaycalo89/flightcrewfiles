@@ -1,3 +1,4 @@
 news.json -diff
 videos-data.json -diff
 uap_news.json -diff
+*.sh text eol=lf
