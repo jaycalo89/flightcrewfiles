@@ -1,25 +1,106 @@
 {
-  "generated_at": "2026-09-30T17:38:09.288962+00:00",
+  "generated_at": "2026-10-01T19:14:28.255362+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 17,
   "articles": [
     {
-      "title": "5 Airlines With The World’s Newest Premium Economy Seats",
-      "description": "Premium economy has gone from a somewhat niche development to one of the industry’s most important revenue drivers. The cabin was first introduced in 1992 by EVA Air, which launched its Evergreen Deluxe class as a way to bridge the gap between economy class and business class. At the time, few…",
-      "url": "https://simpleflying.com/5-airlines-with-the-worlds-newest-premium-economy-seats/",
+      "title": "The $14 Billion Airport Being Built In The Middle Of Nowhere & Why Every Major Airline Wants In",
+      "description": "Australia is preparing to open its first major greenfield airport in more than half a century, and the project is already reshaping airline strategy long before the first commercial flight departs. Western Sydney International (Nancy-Bird Walton) Airport (WSI) is scheduled to open this month on a…",
+      "url": "https://simpleflying.com/14-billion-airport-middle-nowhere-every-major-airline-wants-in/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-09-30T17:30:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/5-airlines-with-the-world-s-newest-premium-economy-seats.jpg"
+      "author": "Victoria Agronsky",
+      "published_at": "2026-10-01T19:06:42Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/14-million.jpg"
     },
     {
-      "title": "Inside TSA's $781 Million 'Horizon 25' Plan Reshaping US Airport Checkpoints Through 2028",
-      "description": "This month marks 25 years since the September 11 attacks in the United States , which killed nearly 3,000 people. The tragedy led to major changes in the way airport security was handled across the country. On November 19, 2001, President George W. Bush signed the Aviation and Transportation…",
-      "url": "https://simpleflying.com/inside-tsa-781-million-horizon-25-plan-reshaping-us-airport-checkpoints-2028/",
+      "title": "Southwest Airlines' New #1 Busiest Airport Revealed 2026: Denver Loses Top Spot",
+      "description": "Denver International Airport (DEN) has lost the top spot for the busiest airport for the world's largest low-cost carrier, Southwest Airlines . The hybrid carrier, historically one of the largest operators at the Colorado airport, has seen the title of busiest base and airport go to Las Vegas .",
+      "url": "https://simpleflying.com/southwest-names-new-busiest-airport-denver-loses-top-spot/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-01T19:01:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/759-southwest-boeing-737-max-8-nestor-salgado-_-shutterstock.jpg"
+    },
+    {
+      "title": "Egypt's $4 Billion Bet To Bolt 40 Million Passengers Onto Cairo's Existing Airport",
+      "description": "Global air travel demand is expected to grow significantly over the coming decades. According to the International Air Transport Association's (IATA) latest Long-Term Demand Projections , global passenger demand is expected to more than double by 2050, reaching 20.8 trillion revenue passenger…",
+      "url": "https://simpleflying.com/egypt-4-billion-bet-bolt-40-million-passengers-cairo-existing-airport/",
       "source": "Simple Flying",
       "author": "Prachi Patel",
-      "published_at": "2026-09-30T17:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/ewr-photo-2-1.png"
+      "published_at": "2026-10-01T19:01:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/egypt-s-4-billion-bet-to-bolt-40-million-passengers-onto-cairo-s-existing-airport.jpg"
+    },
+    {
+      "title": "Minneapolis crowd celebrates Girls in Aviation Day",
+      "description": "The twelfth annual Girls in Aviation Day brought about 2,000 people to Flying Cloud Airport near Minneapolis on September 19.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/minneapolis-crowd-celebrates-girls-in-aviation-day?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-01T18:15:39Z",
+      "image": null
+    },
+    {
+      "title": "Here's How Emirates Actually Makes Money On Its Airbus A380: 15% Of Seats Generate Half The Revenue",
+      "description": "The Airbus A380 is often portrayed as the ultimate symbol of commercial aviation excess, a double-decker giant complete with onboard bars, shower spas, and hundreds of passengers crossing continents in a single flight. However, for Emirates, the world's largest A380 operator, the aircraft is less a…",
+      "url": "https://simpleflying.com/how-emirates-acually-makes-money-on-airbus-a380-15-percent-seats-generate-half-of-revenue/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-10-01T18:14:50Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/revenue-emirates.jpg"
+    },
+    {
+      "title": "F/A-XX Award Gives Boeing Control of 2 Next-Gen Fighter Programs",
+      "description": "With the Pentagon’s announcement this week that Boeing will develop the U.S. Navy’s F/A-XX carrier-based fighter, the manufacturer now faces pressure to deliver on two key next-generation fighter programs by the 2030s. Boeing in 2025 won a contract valued at over $20 billion for the U.S. Air…",
+      "url": "https://www.flyingmag.com/boeing-navy-fa-xx-f-47-2-next-gen-fighter-jets/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-01T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Coast Guard Searches for Missing Person After Medevac Helicopter Crash Kills 2",
+      "description": "The U.S. Coast Guard is searching for one person unaccounted for after a medevac helicopter carrying five people crashed shortly after takeoff from California’s Catalina Island on Wednesday night. “Four individuals were recovered from the water,” the Coast Guard said in a statement. “Two of the…",
+      "url": "https://www.flyingmag.com/coast-guard-searches-for-missing-person-after-medevac-helicopter-crash-kills-2/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-01T17:08:19Z",
+      "image": null
+    },
+    {
+      "title": "Simple Flying Podcast Episode 305: Alaska Airlines' New Premium Upgrades, flydubai Hijacking & More",
+      "description": "Simple Flying’s latest podcast is live and ready for you to enjoy! Hosted by Managing Editor Tom Boon and Senior Editor Channing Reid , the 305th episode is now available to listen to.",
+      "url": "https://simpleflying.com/podcast-305/",
+      "source": "Simple Flying",
+      "author": "Channing Reid",
+      "published_at": "2026-10-01T16:09:35Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/sf-podcast-cover.jpg"
+    },
+    {
+      "title": "This 2004 Cessna 680 Citation Sovereign Is an Executive-Class ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2004 Cessna 680 Citation Sovereign.…",
+      "url": "https://www.flyingmag.com/this-2004-cessna-680-citation-sovereign-is-an-executive-class-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-01T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-jet-cessna-680-citation-sovereign-for-sale-602093-375fed63cbc9b5d3-800X600-1.jpg?w=1024"
+    },
+    {
+      "title": "How to Become a Charter Pilot",
+      "description": "Charter pilots play an important role in the aviation industry. Instead of flying large planes to big airports with hundreds of people on board, these pilots are tasked with transporting individual customers to specific destinations. Many of the most important items for becoming a commercial pilot…",
+      "url": "https://www.flyingmag.com/how-to-become-a-charter-pilot/",
+      "source": "Flying Magazine",
+      "author": "John McDermott",
+      "published_at": "2026-10-01T12:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Certifies Garmin Autoland for Epic E1000 AX",
+      "description": "Epic Aircraft , the manufacturer of high-performance, single-engine turboprops, announced Wednesday that the FAA has certified Garmin Autoland for the E1000 AX. Autoland is designed to make flying safer in the event the pilot becomes incapacitated. One of the features of Autoland is that it does…",
+      "url": "https://www.flyingmag.com/faa-certifies-garmin-autoland-for-epic-e1000-ax/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-09-30T18:32:40Z",
+      "image": null
     },
     {
       "title": "AOPA Asks FAA to Reconsider Pulling Single-Pilot Citation Exemptions",
@@ -31,15 +112,6 @@
       "image": null
     },
     {
-      "title": "The 102-Seat American Airlines Jet Being Reconfigured To Carry 196 Passengers By 2027",
-      "description": "American Airlines is transforming one of the most unusual aircraft in its fleet. The carrier is removing the specialized interiors from its Airbus A321T transcontinental jets, which were configured with only 102 seats, and converting the remaining aircraft into much denser layouts carrying roughly…",
-      "url": "https://simpleflying.com/102-seat-american-airlines-jet-being-reconfigured-carry-196-passenger-2027/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-09-30T16:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/102-seat-american.png"
-    },
-    {
       "title": "Flydubai Jet Plunges Thousands of Feet During Pilot Altercation",
       "description": "An altercation between the two pilots of a Flydubai 737 Max 8 passenger jet headed from Dubai to Tel Aviv caused the aircraft to plunge more than 14,000 feet in under 30 seconds and divert to Tabuk Airport (OETB) in Saudi Arabia, according to multiple media reports. While details are still…",
       "url": "https://www.flyingmag.com/flydubai-pilot-stabbing-altitude-loss/",
@@ -47,15 +119,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-09-30T14:19:53Z",
       "image": null
-    },
-    {
-      "title": "Russia Quietly Turned Its Failed Boeing 777X Rival Into A Nuclear Doomsday Plane",
-      "description": "The Soviet Union developed the Ilyushin Il-96 quad-engined widebody aircraft as a flagship airliner for the declining country. Since then, the succeeding state of Russia has kept the program alive, but just barely. Instead of being a symbol of a world-leading aerospace sector, it can be seen as…",
-      "url": "https://simpleflying.com/russia-quietly-turned-boeing-777x-rival-nuclear-doomsday-plane/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-09-30T14:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/777x-rival.png"
     },
     {
       "title": "This 1979 Piper PA-28-201T Turbo Dakota Is a High-Flying ‘AircraftForSale’ Top Pick",
@@ -67,42 +130,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-piper-pa-28-201t-turbo-dakota-for-sale-602068-8d0f3dfb7542ad4e-800X600-1.jpg?w=800"
     },
     {
-      "title": "American Airlines Pots Big Asia Comeback: Could LAX–Singapore Revive Its Transpacific Fortunes?",
-      "description": "American Airlines could be about to make some big moves at LAX, with rumors swirling once again that the carrier could be considering nonstop international flights to Singapore. Competition is fierce in Los Angeles for trans-Pacific flights; however, could the Fort Worth carrier be looking at…",
-      "url": "https://simpleflying.com/video/american-airlines-plots-big-asia-comeback-could-lax-singapore-revive-its-transpacific-fortunes/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-09-30T12:31:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-singapore.jpg"
-    },
-    {
-      "title": "Airlines Urge FAA To Save Tiny US Island Airport Critical For Pacific Emergency Landings",
-      "description": "This article was updated on Wednesday, September 30, 2026, to include the latest on the FAA's ongoing review and comments from Boeing and Qantas. It was originally published on Monday, September 28, 2026.",
-      "url": "https://simpleflying.com/airlines-urge-faa-save-midway-atoll-airport-emergency-landings/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-30T11:22:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/mdy-midway-atoll-airport-approach-2.jpg"
-    },
-    {
-      "title": "IndiGo Slashes 11-Hour Nonstop A321XLR Flights To This European City: See Route Now",
-      "description": "Earlier this year, IndiGo revealed that it will end its partnership with Norse Atlantic, which takes effect soon. This deal involves leasing Boeing 787-9s so that India's largest operator could fly to Europe. It was a short-term stop-gap until IndiGo's Airbus A350-900s start to arrive in 2027.",
-      "url": "https://simpleflying.com/indigo-slashes-11-hour-nonstop-a321xlr-flights-to-this-european-city/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-09-30T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/untitled-design-36.jpg"
-    },
-    {
-      "title": "Breaking: \"Major Disaster Averted\" As flydubai Pilot Reportedly Tries To Hijack Boeing 737",
-      "description": "Last updated 10:00 AM EST on September 30, 2026 by Jake Hardiman.",
-      "url": "https://simpleflying.com/major-disaster-averted-as-flydubai-boeing-737-diverts/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-09-30T10:35:59Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/381-flydubai-boeing-737-max-8-melidis-alexandros-_-shutterstock.jpg"
-    },
-    {
       "title": "Training and Safety Tip: Listen to your airplane",
       "description": "I knew the furnace in my condo was going to fail. One day, out of the blue, it just sounded different. It wasn’t alarming, or squeaky, or even particularly noisy. Just different. Naturally, the landlord thought I’d lost my mind. He couldn’t hear anything “wrong.”",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/training-and-safety-tip-listen-to-your-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -112,48 +139,12 @@
       "image": null
     },
     {
-      "title": "Airbus A350F Makes First Flight",
-      "description": "Airbus’ next-generation A350F freighter, which the manufacturer confirmed to be under development in July 2021, has finally conducted its maiden flight. The aircraft, registered F-WXLD and referred to as MSN700 by Airbus, is the first of two test aircraft the manufacturer will use for a…",
-      "url": "https://www.flyingmag.com/airbus-a350f-makes-first-test-flight/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-29T20:00:00Z",
-      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f6aa.png"
-    },
-    {
-      "title": "Report Finds General Aviation Contributes $339B to U.S. Economy",
-      "description": "General aviation supports about 1.33 million jobs and contributes an estimated $339.2 billion to the U.S. economy, serving as a significant economic engine despite common perceptions that it is primarily a tax-supported hobby for the wealthy, according to a recent report by the American Association…",
-      "url": "https://www.flyingmag.com/report-finds-general-aviation-contributes-339b-to-u-s-economy/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-29T19:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Skydivers Jump to the Rescue After Wisconsin Plane Crash",
-      "description": "Three skydivers in Wisconsin witnessed a small airplane perform an unscheduled off-airport landing in a corn field and literally jumped into action. The airplane in distress was identified as a Beechcraft 35-A33 Debonair. The skydivers told authorities they witnessed the small plane take off from…",
-      "url": "https://www.flyingmag.com/skydivers-jump-to-the-rescue-after-wisconsin-plane-crash/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-29T17:46:19Z",
-      "image": null
-    },
-    {
       "title": "Cosmic One aims to decarbonize aviation",
       "description": "For years, electric airplanes have faced one major problem: range. They can be quiet and simple to operate, but batteries limit how far they can fly.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/cosmic-one-aims-to-decarbonize-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-29T17:16:29Z",
-      "image": null
-    },
-    {
-      "title": "FAA Proposes Relaxing Part 135 and 91 Oxygen Mask Rules",
-      "description": "The FAA has proposed a new rule that would relax oxygen mask requirements for Part 135 and 91 operations, arguing that the changes would save operators millions of dollars annually without adversely affecting safety. In a notice of proposed rulemaking (NPRM) published last week, the agency said the…",
-      "url": "https://www.flyingmag.com/faa-propose-relaxed-part-135-91-oxygen-mask-rule/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-29T17:00:00Z",
       "image": null
     },
     {
