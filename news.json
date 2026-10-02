@@ -1,34 +1,97 @@
 {
-  "generated_at": "2026-10-01T19:14:28.255362+00:00",
+  "generated_at": "2026-10-02T15:04:03.644983+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 20,
   "articles": [
     {
-      "title": "The $14 Billion Airport Being Built In The Middle Of Nowhere & Why Every Major Airline Wants In",
-      "description": "Australia is preparing to open its first major greenfield airport in more than half a century, and the project is already reshaping airline strategy long before the first commercial flight departs. Western Sydney International (Nancy-Bird Walton) Airport (WSI) is scheduled to open this month on a…",
-      "url": "https://simpleflying.com/14-billion-airport-middle-nowhere-every-major-airline-wants-in/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-01T19:06:42Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/14-million.jpg"
+      "title": "Patient’s Body Recovered From Catalina Island Medevac Crash",
+      "description": "Authorities have recovered the body of the patient aboard the medevac helicopter that crashed off Catalina Island on Wednesday night. The patient, identified as 45-year-old Catalina Hernandez, a resident of the island, was being transported to a Los Angeles-area hospital after experiencing an…",
+      "url": "https://www.flyingmag.com/patients-body-recovered-from-catalina-island-medevac-crash/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-02T15:00:00Z",
+      "image": null
     },
     {
-      "title": "Southwest Airlines' New #1 Busiest Airport Revealed 2026: Denver Loses Top Spot",
-      "description": "Denver International Airport (DEN) has lost the top spot for the busiest airport for the world's largest low-cost carrier, Southwest Airlines . The hybrid carrier, historically one of the largest operators at the Colorado airport, has seen the title of busiest base and airport go to Las Vegas .",
-      "url": "https://simpleflying.com/southwest-names-new-busiest-airport-denver-loses-top-spot/",
+      "title": "Searching For A Job? This Airline Just Fired Its CEO",
+      "description": "Thai Airways International has fired its Chief Executive Officer. The removal of Chai Eamsiri comes after horrendous baggage issues at Suvarnabhumi Airport (BKK). This crisis caused extended cancellations, stranded luggage and cargo disruption. Chai's tenure had previously been successful. He had…",
+      "url": "https://simpleflying.com/searching-for-a-job-this-airline-just-fired-its-ceo/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-01T19:01:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/759-southwest-boeing-737-max-8-nestor-salgado-_-shutterstock.jpg"
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-02T14:52:08Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/514-thai-airways-airbus-a330-300-kittikun-yoksap-_-shutterstock.jpg"
     },
     {
-      "title": "Egypt's $4 Billion Bet To Bolt 40 Million Passengers Onto Cairo's Existing Airport",
-      "description": "Global air travel demand is expected to grow significantly over the coming decades. According to the International Air Transport Association's (IATA) latest Long-Term Demand Projections , global passenger demand is expected to more than double by 2050, reaching 20.8 trillion revenue passenger…",
-      "url": "https://simpleflying.com/egypt-4-billion-bet-bolt-40-million-passengers-cairo-existing-airport/",
+      "title": "Here’s How Much Wider The Airbus A320neo’s Cabin Is Compared To The Boeing 737 MAX",
+      "description": "When it comes to widebody aircraft, Boeing's upcoming flagship, the 777X, has a significant advantage over Airbus' widebody flagship, the A350. However, with narrowbody aircraft, the European planemaker has the advantage with its Airbus A320 family of narrowbody aircraft being significantly wider…",
+      "url": "https://simpleflying.com/how-much-wider-is-airbus-a320neo-cabin-vs-boeing-737-max/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-10-02T14:47:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/a320neo.jpg"
+    },
+    {
+      "title": "The Spacious Sleeping Quarters Airbus A380 Crew Members Escape To On Long-Haul Flights",
+      "description": "Most of us have probably wondered at least once where the crew sleeps on a long-haul flight. Some journeys can last more than ten hours, and the cabin crew working those flights obviously can't spend all that time on their feet. They need time to rest too, so airlines carefully schedule crew shifts…",
+      "url": "https://simpleflying.com/spacious-sleeping-quarters-airbus-a380-crew-members-escape-long-haul-flights/",
       "source": "Simple Flying",
       "author": "Prachi Patel",
-      "published_at": "2026-10-01T19:01:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/egypt-s-4-billion-bet-to-bolt-40-million-passengers-onto-cairo-s-existing-airport.jpg"
+      "published_at": "2026-10-02T14:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-spacious-sleeping-quarters-airbus-a380-crew-members-can-escape-to-on-long-haul-flights.jpg"
+    },
+    {
+      "title": "‘Aviation Start’ Episode 4 Breaks Down How Contract Pilots Build $50,000 Months",
+      "description": "The fourth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, takes on one of the most talked-about and least understood ways to earn a living in the cockpit: contract corporate flying. “People believe you can go and make 50, 60, $70,000 a month,” said guest…",
+      "url": "https://www.flyingmag.com/aviation-start-episode-4-breaks-down-how-contract-pilots-build-50000-months/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-02T13:45:20Z",
+      "image": "https://www.youtube.com/embed/OjmkIxzJMBk"
+    },
+    {
+      "title": "Sip & Savor: Delta Air Lines SkyMiles Members Can Now Check Wine Cases For Free From 5 Airports",
+      "description": "Delta Air Lines is introducing a new baggage initiative, offering certain passengers the chance to transport a case of wine for free when flying back from certain vineyard destinations in the US state of California. The 'Golden State' is known for its winegrowing prowess, and it attracts beverage…",
+      "url": "https://simpleflying.com/delta-air-lines-skymiles-members-check-wine-cases-free-5-airports/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-02T13:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/124-delta-air-lines-boeing-737-900-markus-mainka-_-shutterstock.jpg"
+    },
+    {
+      "title": "British Airways Axes Airbus A380 Flights From Heathrow To 3 Cities: See Full List Now",
+      "description": "British Airways is one of ten scheduled operators of the Airbus A380, and the oneworld member has 12 airframes. You'll know that they're being retrofitted and reconfigured , with the total capacity falling from 469 seats to just 421. There will be many more seats in business class and fewer seats…",
+      "url": "https://simpleflying.com/british-airways-axes-airbus-a380-flights-from-heathrow-to-3-cities/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-02T11:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/british-airways-airbus-a380.jpg"
+    },
+    {
+      "title": "How Alaska Airlines Wants To Build America's Next Global Carrier",
+      "description": "Alaska Airlines already carries more than half of all passengers at Seattle-Tacoma International Airport (SEA), but its dominance is considerably weaker internationally. In 2025, Alaska Air Group accounted for 50.7% of all passengers at SEA and 56.4% of domestic traffic, compared with just 14.7% of…",
+      "url": "https://simpleflying.com/alaska-airlines-build-america-next-global-carrier/",
+      "source": "Simple Flying",
+      "author": "Nick Pisters",
+      "published_at": "2026-10-02T11:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/how-alaska-airlines-wants-to-build-america-s-next-global-carrier.jpg"
+    },
+    {
+      "title": "Virgin A350 Spotted On Flight Tracker Operating Rare NFL Charter To London Stansted",
+      "description": "Earlier today, a Virgin Atlantic Airbus A350-1000 landed at London Stansted Airport (STN) from Indianapolis International Airport (IND). While transatlantic traffic plays an important role in the carrier's day-to-day operations, its London base is not Stansted but Heathrow (LHR), and Indianapolis…",
+      "url": "https://simpleflying.com/virgin-atlantic-airbus-a350-indianapolis-london-stansted-nfl-charter/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-02T08:44:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/273-virgin-atlantic-airbus-a350-karolis-kavolelis-_-shutterstock.jpg"
+    },
+    {
+      "title": "AOPA Statement on Issuance of Eviction Notices at Aeroflex-Andover Airport",
+      "description": "ANDOVER, New Jersey—The Aircraft Owners and Pilots Association (AOPA) expressed disappointment at the issuance of eviction notices to tenants at Aeroflex-Andover Airport (12N) in Sussex County, New Jersey. The notices, forcing tenants to vacate by December 31, were issued by the New Jersey Forest…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/pr-aopa-statement-on-issuance-of-eviction-notices-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-02T02:12:06Z",
+      "image": null
     },
     {
       "title": "Minneapolis crowd celebrates Girls in Aviation Day",
@@ -38,15 +101,6 @@
       "author": null,
       "published_at": "2026-10-01T18:15:39Z",
       "image": null
-    },
-    {
-      "title": "Here's How Emirates Actually Makes Money On Its Airbus A380: 15% Of Seats Generate Half The Revenue",
-      "description": "The Airbus A380 is often portrayed as the ultimate symbol of commercial aviation excess, a double-decker giant complete with onboard bars, shower spas, and hundreds of passengers crossing continents in a single flight. However, for Emirates, the world's largest A380 operator, the aircraft is less a…",
-      "url": "https://simpleflying.com/how-emirates-acually-makes-money-on-airbus-a380-15-percent-seats-generate-half-of-revenue/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-10-01T18:14:50Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/revenue-emirates.jpg"
     },
     {
       "title": "F/A-XX Award Gives Boeing Control of 2 Next-Gen Fighter Programs",
@@ -65,15 +119,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-10-01T17:08:19Z",
       "image": null
-    },
-    {
-      "title": "Simple Flying Podcast Episode 305: Alaska Airlines' New Premium Upgrades, flydubai Hijacking & More",
-      "description": "Simple Flying’s latest podcast is live and ready for you to enjoy! Hosted by Managing Editor Tom Boon and Senior Editor Channing Reid , the 305th episode is now available to listen to.",
-      "url": "https://simpleflying.com/podcast-305/",
-      "source": "Simple Flying",
-      "author": "Channing Reid",
-      "published_at": "2026-10-01T16:09:35Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/sf-podcast-cover.jpg"
     },
     {
       "title": "This 2004 Cessna 680 Citation Sovereign Is an Executive-Class ‘AircraftForSale’ Top Pick",
@@ -110,24 +155,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-09-30T16:50:09Z",
       "image": null
-    },
-    {
-      "title": "Flydubai Jet Plunges Thousands of Feet During Pilot Altercation",
-      "description": "An altercation between the two pilots of a Flydubai 737 Max 8 passenger jet headed from Dubai to Tel Aviv caused the aircraft to plunge more than 14,000 feet in under 30 seconds and divert to Tabuk Airport (OETB) in Saudi Arabia, according to multiple media reports. While details are still…",
-      "url": "https://www.flyingmag.com/flydubai-pilot-stabbing-altitude-loss/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-30T14:19:53Z",
-      "image": null
-    },
-    {
-      "title": "This 1979 Piper PA-28-201T Turbo Dakota Is a High-Flying ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1979 Piper PA-28-201T Turbo Dakota.…",
-      "url": "https://www.flyingmag.com/this-1979-piper-pa-28-201t-turbo-dakota-is-a-high-flying-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-09-30T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-single-engine-piston-piper-pa-28-201t-turbo-dakota-for-sale-602068-8d0f3dfb7542ad4e-800X600-1.jpg?w=800"
     },
     {
       "title": "Training and Safety Tip: Listen to your airplane",

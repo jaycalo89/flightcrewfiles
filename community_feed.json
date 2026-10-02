@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:14:38.434662+00:00",
+  "generated_at": "2026-10-02T15:04:10.170130+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Visual Approach LFML 31R",
-      "url": "https://aviation.stackexchange.com/questions/115612/visual-approach-lfml-31r",
-      "points": 0,
-      "num_comments": 0,
+      "title": "How do commercial planes detect pressure changes for oxygen mask",
+      "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
+      "points": 1,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790850096
+      "created_utc": 1790921630
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "What regulatory structure allows the Pope to be in the cockpit of this Air France flight?",
-      "url": "https://aviation.stackexchange.com/questions/115601/what-regulatory-structure-allows-the-pope-to-be-in-the-cockpit-of-this-air-franc",
-      "points": 12,
-      "num_comments": 2,
+      "title": "How might the rudder of a Boeing 737 shear off during high speed dive?",
+      "url": "https://aviation.stackexchange.com/questions/115614/how-might-the-rudder-of-a-boeing-737-shear-off-during-high-speed-dive",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790622075
+      "created_utc": 1790884591
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Is thrust asymmetry on climb-out unrecoverable?",
-      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
-      "points": 4,
-      "num_comments": 1,
+      "title": "What regulatory structure allows the Pope to be in the cockpit of this Air France flight?",
+      "url": "https://aviation.stackexchange.com/questions/115601/what-regulatory-structure-allows-the-pope-to-be-in-the-cockpit-of-this-air-franc",
+      "points": 13,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790732205
+      "created_utc": 1790622075
     },
     {
       "title": "Starlink Aviation",
