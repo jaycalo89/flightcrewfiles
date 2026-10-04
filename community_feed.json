@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:04:10.170130+00:00",
+  "generated_at": "2026-10-04T19:29:14.132191+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "How do commercial planes detect pressure changes for oxygen mask",
       "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
-      "points": 1,
-      "num_comments": 1,
+      "points": 7,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
       "created_utc": 1790921630
     },
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "How might the rudder of a Boeing 737 shear off during high speed dive?",
-      "url": "https://aviation.stackexchange.com/questions/115614/how-might-the-rudder-of-a-boeing-737-shear-off-during-high-speed-dive",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Is thrust asymmetry on climb-out unrecoverable?",
+      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
+      "points": 5,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790884591
+      "created_utc": 1790732205
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Effect of flaps on Longitudinal stability",
-      "url": "https://aviation.stackexchange.com/questions/115610/effect-of-flaps-on-longitudinal-stability",
+      "title": "How might the rudder of a Boeing 737 shear off during high speed dive?",
+      "url": "https://aviation.stackexchange.com/questions/115614/how-might-the-rudder-of-a-boeing-737-shear-off-during-high-speed-dive",
       "points": 0,
-      "num_comments": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790784180
+      "created_utc": 1790884591
     }
   ]
 }

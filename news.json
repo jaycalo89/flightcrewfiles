@@ -1,8 +1,107 @@
 {
-  "generated_at": "2026-10-02T15:04:03.644983+00:00",
+  "generated_at": "2026-10-04T19:29:02.383312+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 20,
   "articles": [
+    {
+      "title": "How Alaska Airlines' 76-Seat Regional Jets Are Quietly Outflanking Southwest In San Diego",
+      "description": "A battle is brewing in America's finest city. Alaska Airlines , which forged its reputation decades ago by building up a large hub in the Pacific Northwest, has been boosting its presence in Southern California by adding more and more flights at San Diego International Airport (SAN). Historically,…",
+      "url": "https://simpleflying.com/how-alaska-airlines-76-seat-regional-jets-quietly-outflanking-southwest-san-diego/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-10-04T19:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/alaska-airlines-76-seat-regional-jets.png"
+    },
+    {
+      "title": "5 Largest Commercial Airports In The World By Number Of Runways",
+      "description": "A runway is the operational lifeblood of global commercial aviation. For international hub airports handling thousands of daily flight operations, raw runway capacity determines peak arrival throughput, airborne queuing, and ground taxi times. Land footprint often grabs headlines, as it's the…",
+      "url": "https://simpleflying.com/largest-commercial-airports-world-number-of-runways/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-04T18:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/763065164_2216449345591453_3538456114458057886_n.jpg"
+    },
+    {
+      "title": "Why The Boeing 747SP's Ultra-Long-Range Fuselage Design Will Be Nearly Impossible To Replicate In 2026",
+      "description": "The Boeing 747SP remains one of the most unusual aircraft ever produced because it combined two concepts that rarely coexist in commercial aviation - a dramatically shortened fuselage and ultra-long-range capability . While most aircraft variants become longer and carry more passengers over time,…",
+      "url": "https://simpleflying.com/boeing-747sp-fuselage-design-2026/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-10-04T17:27:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/pan_am_boeing_747sp_takeoff.jpg"
+    },
+    {
+      "title": "When American Airlines Mistakenly Flew A Non-ETOPS Airbus A321 To Hawaii",
+      "description": "Before 1985, passengers boarding a transoceanic flight could expect to fly in an aircraft with three or four engines. Given the vast distances these flights would cover without a diversion airport and the previously unreliable piston engine, regulators determined that airlines should not be allowed…",
+      "url": "https://simpleflying.com/when-american-airlines-flew-non-etops-airbus-a321-hawaii/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-10-04T17:08:07Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2362721621-1.jpg"
+    },
+    {
+      "title": "The Quiet Boeing 787-10 Upgrade That Just Made United Airlines' Fleet Math Rival The Airbus A350",
+      "description": "United Airlines ' largest Dreamliner has not necessarily been its most capable. The Boeing 787-10 offers more capacity than the Boeing 787-9, but its shorter range has historically limited where the airline can deploy it efficiently. Now, that constraint is beginning to ease. United Airlines is…",
+      "url": "https://simpleflying.com/quiet-boeing-787-10-upgrade-united-airlines-fleet-math-rival-airbus-a350/",
+      "source": "Simple Flying",
+      "author": "Viviana Tarnowska",
+      "published_at": "2026-10-04T16:01:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/quiet-boeing-787-10-upgrade.png"
+    },
+    {
+      "title": "Air Canada Begins 8-Hour Nonstop A321XLR Heathrow Flights In 2 Months: See Routes Now",
+      "description": "Air Canada is among the North American carriers that are putting their trust in the Airbus A321XLR when it comes to expanding their network of secondary transatlantic routes to and from Europe. In two months, the Montreal-based Canadian flag carrier and Star Alliance founding member will begin…",
+      "url": "https://simpleflying.com/air-canada-begins-8-hour-a321xlr-heathrow-flights-2-months/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-04T15:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/z63_4323_cropped.jpg"
+    },
+    {
+      "title": "The Only US Airline That Abandoned Its Namesake Hub & Kept The Brand Anyway",
+      "description": "Midway Airlines was incorporated in 1976 for a single purpose: to revive Chicago Midway International Airport (MDW), which had once been the busiest airport in the world before the major carriers abandoned it for O'Hare. The founders took the airport's name for the airline because reviving the…",
+      "url": "https://simpleflying.com/only-us-airline-abandoned-namesake-hub-kept-brand-anyway/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-10-04T14:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/namesake-hub.png"
+    },
+    {
+      "title": "A support system for safer aviation decisions",
+      "description": "A weather briefing is necessary, but it is just one input in the decision to launch. Airline crews have a dispatcher and a chief pilot backing up that call. Most general aviation pilots have neither. PlaneWX is the decision support system for GA, built around one loop on every flight: Brief.…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/02/a-support-system-for-safer-aviation-decisions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-02T22:04:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Breaks ATC Hiring Record, But More Work Remains",
+      "description": "The FAA said it onboarded more air traffic controller trainees in fiscal year 2026 (FY26) than in any year in the agency’s history, though the number of certified professional controllers (CPCs) remained hundreds short of headcount targets as of August. The agency set a goal of hiring 2,200 ATC…",
+      "url": "https://www.flyingmag.com/faa-breaks-atc-hiring-record-more-work-remains/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-02T20:30:00Z",
+      "image": null
+    },
+    {
+      "title": "This 2020 Diamond DA40 NG Is a Modern, Multi-Mission ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2020 Diamond DA40 NG. Diamond’s DA40…",
+      "url": "https://www.flyingmag.com/this-2020-diamond-da40-ng-is-a-modern-multi-mission-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-02T17:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/diamond2.webp"
+    },
+    {
+      "title": "NTSB: Amazon Cargo Jet Touched Down 3,750 Feet Past Runway Threshold",
+      "description": "National Transportation Safety Board investigators Thursday clarified the sequence of events involving the Amazon Prime Air cargo jet that overran Miami International Airport’s (KMIA) Runway 30 in early September, killing five people. Initial findings reveal that the airplane had little room to…",
+      "url": "https://www.flyingmag.com/ntsb-amazon-cargo-767-miami-airport-prelim/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-02T16:00:00Z",
+      "image": null
+    },
     {
       "title": "Patient’s Body Recovered From Catalina Island Medevac Crash",
       "description": "Authorities have recovered the body of the patient aboard the medevac helicopter that crashed off Catalina Island on Wednesday night. The patient, identified as 45-year-old Catalina Hernandez, a resident of the island, was being transported to a Los Angeles-area hospital after experiencing an…",
@@ -13,33 +112,6 @@
       "image": null
     },
     {
-      "title": "Searching For A Job? This Airline Just Fired Its CEO",
-      "description": "Thai Airways International has fired its Chief Executive Officer. The removal of Chai Eamsiri comes after horrendous baggage issues at Suvarnabhumi Airport (BKK). This crisis caused extended cancellations, stranded luggage and cargo disruption. Chai's tenure had previously been successful. He had…",
-      "url": "https://simpleflying.com/searching-for-a-job-this-airline-just-fired-its-ceo/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-02T14:52:08Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/514-thai-airways-airbus-a330-300-kittikun-yoksap-_-shutterstock.jpg"
-    },
-    {
-      "title": "Here’s How Much Wider The Airbus A320neo’s Cabin Is Compared To The Boeing 737 MAX",
-      "description": "When it comes to widebody aircraft, Boeing's upcoming flagship, the 777X, has a significant advantage over Airbus' widebody flagship, the A350. However, with narrowbody aircraft, the European planemaker has the advantage with its Airbus A320 family of narrowbody aircraft being significantly wider…",
-      "url": "https://simpleflying.com/how-much-wider-is-airbus-a320neo-cabin-vs-boeing-737-max/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-02T14:47:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/a320neo.jpg"
-    },
-    {
-      "title": "The Spacious Sleeping Quarters Airbus A380 Crew Members Escape To On Long-Haul Flights",
-      "description": "Most of us have probably wondered at least once where the crew sleeps on a long-haul flight. Some journeys can last more than ten hours, and the cabin crew working those flights obviously can't spend all that time on their feet. They need time to rest too, so airlines carefully schedule crew shifts…",
-      "url": "https://simpleflying.com/spacious-sleeping-quarters-airbus-a380-crew-members-escape-long-haul-flights/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-02T14:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-spacious-sleeping-quarters-airbus-a380-crew-members-can-escape-to-on-long-haul-flights.jpg"
-    },
-    {
       "title": "‘Aviation Start’ Episode 4 Breaks Down How Contract Pilots Build $50,000 Months",
       "description": "The fourth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, takes on one of the most talked-about and least understood ways to earn a living in the cockpit: contract corporate flying. “People believe you can go and make 50, 60, $70,000 a month,” said guest…",
       "url": "https://www.flyingmag.com/aviation-start-episode-4-breaks-down-how-contract-pilots-build-50000-months/",
@@ -47,42 +119,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-10-02T13:45:20Z",
       "image": "https://www.youtube.com/embed/OjmkIxzJMBk"
-    },
-    {
-      "title": "Sip & Savor: Delta Air Lines SkyMiles Members Can Now Check Wine Cases For Free From 5 Airports",
-      "description": "Delta Air Lines is introducing a new baggage initiative, offering certain passengers the chance to transport a case of wine for free when flying back from certain vineyard destinations in the US state of California. The 'Golden State' is known for its winegrowing prowess, and it attracts beverage…",
-      "url": "https://simpleflying.com/delta-air-lines-skymiles-members-check-wine-cases-free-5-airports/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-02T13:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/124-delta-air-lines-boeing-737-900-markus-mainka-_-shutterstock.jpg"
-    },
-    {
-      "title": "British Airways Axes Airbus A380 Flights From Heathrow To 3 Cities: See Full List Now",
-      "description": "British Airways is one of ten scheduled operators of the Airbus A380, and the oneworld member has 12 airframes. You'll know that they're being retrofitted and reconfigured , with the total capacity falling from 469 seats to just 421. There will be many more seats in business class and fewer seats…",
-      "url": "https://simpleflying.com/british-airways-axes-airbus-a380-flights-from-heathrow-to-3-cities/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-02T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/british-airways-airbus-a380.jpg"
-    },
-    {
-      "title": "How Alaska Airlines Wants To Build America's Next Global Carrier",
-      "description": "Alaska Airlines already carries more than half of all passengers at Seattle-Tacoma International Airport (SEA), but its dominance is considerably weaker internationally. In 2025, Alaska Air Group accounted for 50.7% of all passengers at SEA and 56.4% of domestic traffic, compared with just 14.7% of…",
-      "url": "https://simpleflying.com/alaska-airlines-build-america-next-global-carrier/",
-      "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-10-02T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/how-alaska-airlines-wants-to-build-america-s-next-global-carrier.jpg"
-    },
-    {
-      "title": "Virgin A350 Spotted On Flight Tracker Operating Rare NFL Charter To London Stansted",
-      "description": "Earlier today, a Virgin Atlantic Airbus A350-1000 landed at London Stansted Airport (STN) from Indianapolis International Airport (IND). While transatlantic traffic plays an important role in the carrier's day-to-day operations, its London base is not Stansted but Heathrow (LHR), and Indianapolis…",
-      "url": "https://simpleflying.com/virgin-atlantic-airbus-a350-indianapolis-london-stansted-nfl-charter/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-02T08:44:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/273-virgin-atlantic-airbus-a350-karolis-kavolelis-_-shutterstock.jpg"
     },
     {
       "title": "AOPA Statement on Issuance of Eviction Notices at Aeroflex-Andover Airport",
@@ -121,39 +157,12 @@
       "image": null
     },
     {
-      "title": "This 2004 Cessna 680 Citation Sovereign Is an Executive-Class ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2004 Cessna 680 Citation Sovereign.…",
-      "url": "https://www.flyingmag.com/this-2004-cessna-680-citation-sovereign-is-an-executive-class-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-01T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/09/aircraft-jet-cessna-680-citation-sovereign-for-sale-602093-375fed63cbc9b5d3-800X600-1.jpg?w=1024"
-    },
-    {
-      "title": "How to Become a Charter Pilot",
-      "description": "Charter pilots play an important role in the aviation industry. Instead of flying large planes to big airports with hundreds of people on board, these pilots are tasked with transporting individual customers to specific destinations. Many of the most important items for becoming a commercial pilot…",
-      "url": "https://www.flyingmag.com/how-to-become-a-charter-pilot/",
-      "source": "Flying Magazine",
-      "author": "John McDermott",
-      "published_at": "2026-10-01T12:00:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Certifies Garmin Autoland for Epic E1000 AX",
-      "description": "Epic Aircraft , the manufacturer of high-performance, single-engine turboprops, announced Wednesday that the FAA has certified Garmin Autoland for the E1000 AX. Autoland is designed to make flying safer in the event the pilot becomes incapacitated. One of the features of Autoland is that it does…",
-      "url": "https://www.flyingmag.com/faa-certifies-garmin-autoland-for-epic-e1000-ax/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-09-30T18:32:40Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Asks FAA to Reconsider Pulling Single-Pilot Citation Exemptions",
-      "description": "Pushback to the FAA’s sudden and unexpected move to halt single-pilot operations in certain models of Cessna Citation jets continued this week, with the Aircraft Owners and Pilots Association (AOPA) becoming the latest to urge the agency to rethink the decision. The FAA announced the change in a…",
-      "url": "https://www.flyingmag.com/aopa-faa-citation-single-pilot-exemptions/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-09-30T16:50:09Z",
+      "title": "AOPA Urges FAA to Reconsider Rescinding Single-Pilot Citation Exemptions",
+      "description": "WASHINGTON—The Aircraft Owners and Pilots Association (AOPA) expressed concern over the Federal Aviation Administration’s (FAA) decision to rescind single-pilot exemptions for some Cessna Citation models in a letter to FAA Administrator Bryan Bedford .",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/pr-aopa-urges-faa-to-reconsider-rescinding-single-pilot-citation-exemptions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-09-30T00:17:48Z",
       "image": null
     },
     {
@@ -172,15 +181,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-29T17:16:29Z",
-      "image": null
-    },
-    {
-      "title": "3 ways you may be sabotaging your aircraft insurance renewal",
-      "description": "When your aircraft insurance renewal notice arrives, it's tempting to set it aside for another day. After all, completing renewal questionnaires and gathering updated information isn't exactly at the top of most pilots' lists of favorite activities.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/25/3-ways-you-may-be-sabotaging-your-aircraft-insurance-renewal?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-25T22:38:00Z",
       "image": null
     }
   ]
