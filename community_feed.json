@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:29:14.132191+00:00",
+  "generated_at": "2026-10-05T10:00:36.005146+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "How do commercial planes detect pressure changes for oxygen mask",
-      "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
-      "points": 7,
-      "num_comments": 3,
+      "title": "Jet stream wind shear in high altitude manned balloon flight",
+      "url": "https://aviation.stackexchange.com/questions/115620/jet-stream-wind-shear-in-high-altitude-manned-balloon-flight",
+      "points": 3,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790921630
+      "created_utc": 1791139596
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Is thrust asymmetry on climb-out unrecoverable?",
-      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
-      "points": 5,
-      "num_comments": 2,
+      "title": "How do commercial planes detect pressure changes for oxygen mask",
+      "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
+      "points": 8,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790732205
+      "created_utc": 1790921630
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What regulatory structure allows the Pope to be in the cockpit of this Air France flight?",
-      "url": "https://aviation.stackexchange.com/questions/115601/what-regulatory-structure-allows-the-pope-to-be-in-the-cockpit-of-this-air-franc",
-      "points": 13,
+      "title": "Is thrust asymmetry on climb-out unrecoverable?",
+      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
+      "points": 5,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790622075
+      "created_utc": 1790732205
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "How might the rudder of a Boeing 737 shear off during high speed dive?",
-      "url": "https://aviation.stackexchange.com/questions/115614/how-might-the-rudder-of-a-boeing-737-shear-off-during-high-speed-dive",
-      "points": 0,
-      "num_comments": 0,
+      "title": "What regulatory structure allows the Pope to be in the cockpit of this Air France flight?",
+      "url": "https://aviation.stackexchange.com/questions/115601/what-regulatory-structure-allows-the-pope-to-be-in-the-cockpit-of-this-air-franc",
+      "points": 13,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790884591
+      "created_utc": 1790622075
     }
   ]
 }
