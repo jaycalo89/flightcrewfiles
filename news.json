@@ -1,75 +1,102 @@
 {
-  "generated_at": "2026-10-05T10:00:23.618523+00:00",
+  "generated_at": "2026-10-06T10:00:24.946929+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 20,
   "articles": [
     {
-      "title": "United Passengers Stuck Nearly 12 Hours On Rome Flight That Never Took Off, Given $175",
-      "description": "Passengers on a United Airlines flight from Washington to Rome spent nearly 12 hours waiting to take off on Friday, only for the flight to be canceled without ever leaving the ground. Transatlantic flight UA884 — operated by one of the airline's Boeing 777-200ER jets — encountered a series of…",
-      "url": "https://simpleflying.com/united-airlines-passengers-stuck-12-hours-rome-flight/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-05T09:37:04Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-airlines-boeing-777-200-at-dulles-international-airport.jpg"
-    },
-    {
-      "title": "7 Commercial Airports With Runways So Long They Were Originally Built To Handle Space Shuttles",
-      "description": "Commercial aviation enthusiasts often marvel at the extreme length of certain runways across the globe, but few realize that some of these massive strips of asphalt share a cosmic lineage. During the multi-decade run of the space shuttle program, NASA established a critical network of emergency…",
-      "url": "https://simpleflying.com/7-commerical-airports-runways-so-long-originally-built-to-handle-space-shuttles/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-05T09:30:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/7-commercial-airports-with-runways-so-long-they-were-originally-built-to-handle-space-shuttles.jpg"
-    },
-    {
-      "title": "Airbus Closes In On A350 & A321neo Order From Airline That Just Doubled Down On Boeing",
-      "description": "Biman Bangladesh Airlines is reportedly preparing to announce an order for ten Airbus twinjets, with both the narrowbody A321neo and the widebody A350 in its sights. Historically, Airbus planes have played a minimal role at the Bangladeshi flag carrier, and, today, its fleet is dominated by Boeing…",
-      "url": "https://simpleflying.com/airbus-biman-bangladesh-a350-a321neo-order-boeing/",
+      "title": "US Airlines Avoid DOT Fines Despite Selling Access To Over 700 Million Flight Records",
+      "description": "The US Department of Transportation (DOT) has concluded a multi-year review into data privacy practices at major US airlines, saying that it had \" identified no violations of applicable laws or departmental policies .\" This will see the airlines in question avoid financial penalties, despite more…",
+      "url": "https://simpleflying.com/us-airlines-avoid-dot-fines-700-million-flight-records/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-10-05T08:05:55Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1611849934_cropped.jpg"
+      "published_at": "2026-10-06T08:31:33Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1192210132_cropped.jpg"
     },
     {
-      "title": "The $4.9 Billion Problem That Made Boeing Dismantle A 777X Airframe Before Even Flying It",
-      "description": "Boeing has faced a lengthy and costly saga in attempting to roll out its latest widebody. Having launched the Boeing 777X program 13 years ago, the US manufacturer has suffered setback after setback. While certification now finally appears to be around the corner, efforts to mitigate the impact of…",
-      "url": "https://simpleflying.com/boeing-problem-dismantle-777x-airframe-before-flying/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-10-05T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-777xs-parked-2.jpg"
-    },
-    {
-      "title": "How Boeing's T-7A Was Built In 3 Years & Became The Blueprint To End The F-35 Era",
-      "description": "The popular online narrative that the Boeing T-7A Red Hawks' revolutionary development methodology spells the end of the F-35 is hyped and often rests on bad-faith arguments. It can be argued that the T-7A is one of the first combat aircraft built using new 'digital first' technologies.",
-      "url": "https://simpleflying.com/how-boeing-t-7a-built-3-years-became-blueprint-to-end-f-35/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-05T01:45:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/how-boeing-s-t-7a-was-built-in-3-years-became-the-blueprint-to-end-the-f-35-era.jpg"
-    },
-    {
-      "title": "Frontier Airlines Clears Plane After Man With Fake Boarding Pass Refuses To Leave",
-      "description": "Passengers on Frontier Airlines flight 1447 from Hartsfield-Jackson Atlanta International Airport (ATL) to San Francisco International Airport (SFO) were unexpectedly asked to leave their aircraft last week after a passenger became \"disruptive\" and initially refused to deplane. The incident…",
-      "url": "https://simpleflying.com/frontier-airlines-clears-plane-man-fake-boarding-pass-refuse-leave/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-05T01:39:09Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2384459443_cropped.jpg"
-    },
-    {
-      "title": "Why Delta Air Lines' Boneyard Boeing 747s Are Quietly Keeping UPS & Atlas Air Freighters In The Sky",
-      "description": "Delta Air Lines ferried its final Boeing 747-400 to the Arizona desert on January 3, 2018. At that time, aviation media framed the flight as the solemn funeral of American passenger jumbo service. Aircraft registration N674US touched down in the Sonoran Desert after decades of transpacific flying,…",
-      "url": "https://simpleflying.com/delta-air-lines-boneyard-boeing-747s-quietly-keep-ups-atlas-freighters-sky/",
+      "title": "5 Largest Airports In The World By Number Of Gates",
+      "description": "An airport's operational capacity is heavily dependent on its number of active passenger boarding gates . Contact gates determine how many aircraft can embark or disembark travelers via jet bridges, so airports need to make sure they have enough to keep up with demand. For passengers, a high gate…",
+      "url": "https://simpleflying.com/largest-airports-world-number-of-gates/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-10-05T00:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/delta-air-lines-boneyard-boeing-747s.png"
+      "published_at": "2026-10-06T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/largest-airports-in-the-world.png"
+    },
+    {
+      "title": "How Cabin Crew Rest & Sleep On The Airbus A350-1000",
+      "description": "On most ultra-long-haul flights, resting for cabin crew does not typically mean just grabbing an empty row and hoping nobody needs water or another snack. Widebody aircraft like the Airbus A350-1000 are designed to carry extra staff, so that the team can rotate through planned breaks, staying sharp…",
+      "url": "https://simpleflying.com/how-cabin-crew-rest-sleep-on-airbus-a350-1000/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-10-06T01:45:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/cabincrewa350.jpg"
+    },
+    {
+      "title": "Why EASA's 7,800-Cycle Inspection Order Just Rewrote Boeing 787 Maintenance Planning",
+      "description": "Any time an engine manufacturer spends over £1 billion to double or triple how long its powerplants can stay bolted to a wing, the commercial aviation world takes notice. For airlines operating the Boeing 787 Dreamliner , Rolls-Royce promised that its latest Trent 1000 durability upgrades would…",
+      "url": "https://simpleflying.com/easa-7800-cycle-inspection-order-rewrote-boeing-787-maintenance-planning/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-06T00:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/easa-s-7-800-cycle-inspection.png"
+    },
+    {
+      "title": "What It Costs To Run A Boeing 747 In 2026 Vs. A 777 Or An Airbus A350",
+      "description": "The Boeing 747 is no doubt an icon of the jet age. With its routes dating back to the 1960s, when it opened the door to intercontinental travel for the masses, the world’s first widebody jetliner remains widely in use across the globe all these years later. It is only a matter of time before its…",
+      "url": "https://simpleflying.com/cost-run-boeing-747-2026-777-airbus-a350/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-10-05T23:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-747-in-2026-vs-a-777.png"
+    },
+    {
+      "title": "In Photos: British Airways Unveils All-New Airbus A380 Interior With World’s Largest Business Class Cabin",
+      "description": "British Airways has revealed the completed interior design for its refurbished Airbus A380 , giving the superjumbo the largest business class cabin currently found on a commercial aircraft. The fleet is being transformed from nose to tail, with 106 Club Suites occupying the entire upper deck,…",
+      "url": "https://simpleflying.com/british-airways-unveils-airbus-a380-interior-largest-business-class-cabin/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-10-05T22:47:43Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-a380-landing-in-vancouver.jpg"
+    },
+    {
+      "title": "Boeing 777-9 Vs. Airbus A350-1000: 5 Key Differences Between The Big Twins",
+      "description": "With legendary four-engine flagships like the Boeing 747 and Airbus A380 gradually transitioning out of passenger fleets worldwide, the responsibility of connecting distant global hubs falls onto a new class of massive twin-engine widebodies. At the very top of this segment sit two competing…",
+      "url": "https://simpleflying.com/boeing-777-9-airbus-a350-1000-key-differences-big-twins/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-05T21:01:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-777-9-vs-airbus-a350-1000.png"
+    },
+    {
+      "title": "Epic Flight Academy Expands With New Location in Connecticut",
+      "description": "Epic Flight Academy, the largest Part 141 flight school in the U.S., is opening a new facility in Danbury, Connecticut, on October 17. The school is located at Danbury Municipal Airport (KDXR), approximately 20 miles northwest of Bridgeport. The airport is a class D facility with two runways—08/26…",
+      "url": "https://www.flyingmag.com/epic-flight-academy-expands-with-new-location-in-connecticut/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-05T19:30:00Z",
+      "image": null
+    },
+    {
+      "title": "This 2020 Cirrus SF50 G2+ Vision Jet Is an Ultra-Modern ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2020 Cirrus SF50 G2+ Vision Jet.…",
+      "url": "https://www.flyingmag.com/this-2020-cirrus-sf50-g2-vision-jet-is-an-ultra-modern-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-05T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/aircraft-jet-cirrus-sf50-g2-plus-for-sale-602111-b3e91a25b1f35dd2-800X600-1.jpg?w=800"
+    },
+    {
+      "title": "Mastering the Tailwheel Is the Ultimate Pilot Test",
+      "description": "Of course, you want to fly tailwheel. Let’s be honest, the airplanes look cool—after all, the best piston-engine fighters in World War II had tailwheels, and they looked like they were doing a million miles per hour (conservative estimate) just parked on the ramp. And there’s the snob appeal—how…",
+      "url": "https://www.flyingmag.com/mastering-the-tailwheel-is-the-ultimate-pilot-test/",
+      "source": "Flying Magazine",
+      "author": "Rick Durden",
+      "published_at": "2026-10-05T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "A support system for safer aviation decisions",
       "description": "A weather briefing is necessary, but it is just one input in the decision to launch. Airline crews have a dispatcher and a chief pilot backing up that call. Most general aviation pilots have neither. PlaneWX is the decision support system for GA, built around one loop on every flight: Brief.…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/02/a-support-system-for-safer-aviation-decisions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/02/a-support-system-for-safer-aviation-decisions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-02T22:04:00Z",
@@ -112,18 +139,9 @@
       "image": null
     },
     {
-      "title": "‘Aviation Start’ Episode 4 Breaks Down How Contract Pilots Build $50,000 Months",
-      "description": "The fourth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, takes on one of the most talked-about and least understood ways to earn a living in the cockpit: contract corporate flying. “People believe you can go and make 50, 60, $70,000 a month,” said guest…",
-      "url": "https://www.flyingmag.com/aviation-start-episode-4-breaks-down-how-contract-pilots-build-50000-months/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-02T13:45:20Z",
-      "image": "https://www.youtube.com/embed/OjmkIxzJMBk"
-    },
-    {
       "title": "AOPA Statement on Issuance of Eviction Notices at Aeroflex-Andover Airport",
       "description": "ANDOVER, New Jersey—The Aircraft Owners and Pilots Association (AOPA) expressed disappointment at the issuance of eviction notices to tenants at Aeroflex-Andover Airport (12N) in Sussex County, New Jersey. The notices, forcing tenants to vacate by December 31, were issued by the New Jersey Forest…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/01/pr-aopa-statement-on-issuance-of-eviction-notices-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/pr-aopa-statement-on-issuance-of-eviction-notices-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-02T02:12:06Z",
@@ -132,34 +150,16 @@
     {
       "title": "Minneapolis crowd celebrates Girls in Aviation Day",
       "description": "The twelfth annual Girls in Aviation Day brought about 2,000 people to Flying Cloud Airport near Minneapolis on September 19.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/01/minneapolis-crowd-celebrates-girls-in-aviation-day?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/minneapolis-crowd-celebrates-girls-in-aviation-day?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-01T18:15:39Z",
       "image": null
     },
     {
-      "title": "F/A-XX Award Gives Boeing Control of 2 Next-Gen Fighter Programs",
-      "description": "With the Pentagon’s announcement this week that Boeing will develop the U.S. Navy’s F/A-XX carrier-based fighter, the manufacturer now faces pressure to deliver on two key next-generation fighter programs by the 2030s. Boeing in 2025 won a contract valued at over $20 billion for the U.S. Air…",
-      "url": "https://www.flyingmag.com/boeing-navy-fa-xx-f-47-2-next-gen-fighter-jets/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-01T18:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Coast Guard Searches for Missing Person After Medevac Helicopter Crash Kills 2",
-      "description": "The U.S. Coast Guard is searching for one person unaccounted for after a medevac helicopter carrying five people crashed shortly after takeoff from California’s Catalina Island on Wednesday night. “Four individuals were recovered from the water,” the Coast Guard said in a statement. “Two of the…",
-      "url": "https://www.flyingmag.com/coast-guard-searches-for-missing-person-after-medevac-helicopter-crash-kills-2/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-01T17:08:19Z",
-      "image": null
-    },
-    {
       "title": "AOPA Urges FAA to Reconsider Rescinding Single-Pilot Citation Exemptions",
       "description": "WASHINGTON—The Aircraft Owners and Pilots Association (AOPA) expressed concern over the Federal Aviation Administration’s (FAA) decision to rescind single-pilot exemptions for some Cessna Citation models in a letter to FAA Administrator Bryan Bedford .",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/29/pr-aopa-urges-faa-to-reconsider-rescinding-single-pilot-citation-exemptions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/pr-aopa-urges-faa-to-reconsider-rescinding-single-pilot-citation-exemptions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-30T00:17:48Z",
@@ -168,7 +168,7 @@
     {
       "title": "Training and Safety Tip: Listen to your airplane",
       "description": "I knew the furnace in my condo was going to fail. One day, out of the blue, it just sounded different. It wasn’t alarming, or squeaky, or even particularly noisy. Just different. Naturally, the landlord thought I’d lost my mind. He couldn’t hear anything “wrong.”",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/29/training-and-safety-tip-listen-to-your-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/training-and-safety-tip-listen-to-your-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-29T21:15:00Z",
@@ -177,7 +177,7 @@
     {
       "title": "Cosmic One aims to decarbonize aviation",
       "description": "For years, electric airplanes have faced one major problem: range. They can be quiet and simple to operate, but batteries limit how far they can fly.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/september/29/cosmic-one-aims-to-decarbonize-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/cosmic-one-aims-to-decarbonize-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-09-29T17:16:29Z",
