@@ -1,97 +1,169 @@
 {
-  "generated_at": "2026-10-06T10:00:24.946929+00:00",
+  "generated_at": "2026-10-08T10:00:16.981964+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 21,
   "articles": [
     {
-      "title": "US Airlines Avoid DOT Fines Despite Selling Access To Over 700 Million Flight Records",
-      "description": "The US Department of Transportation (DOT) has concluded a multi-year review into data privacy practices at major US airlines, saying that it had \" identified no violations of applicable laws or departmental policies .\" This will see the airlines in question avoid financial penalties, despite more…",
-      "url": "https://simpleflying.com/us-airlines-avoid-dot-fines-700-million-flight-records/",
+      "title": "How Southwest Airlines' 'Trip For Pay' Model Pushes Senior Boeing 737 Captains Past $450,000 In 2026",
+      "description": "Southwest Airlines pilots have long been among the highest-paid aviators in the United States , but the airline's latest compensation figures show just how lucrative working for the airline has become. Under the 2024 SWAPA contract, year 12 first officers are earning roughly $255 (€222) per hour…",
+      "url": "https://simpleflying.com/how-southwest-airlines-trip-pay-model-pushes-senior-boeing-737-captains-past-450000-2026/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-06T08:31:33Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1192210132_cropped.jpg"
+      "author": "Josh Eyre",
+      "published_at": "2026-10-08T09:15:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/southwest-airlines.jpg"
     },
     {
-      "title": "5 Largest Airports In The World By Number Of Gates",
-      "description": "An airport's operational capacity is heavily dependent on its number of active passenger boarding gates . Contact gates determine how many aircraft can embark or disembark travelers via jet bridges, so airports need to make sure they have enough to keep up with demand. For passengers, a high gate…",
-      "url": "https://simpleflying.com/largest-airports-world-number-of-gates/",
+      "title": "\"Only 2 Potties\": American Airlines 777 Diverts After Toilets Fail On 11-Hour Transatlantic Flight",
+      "description": "An American Airlines Boeing 777 operating a transatlantic flight from Madrid to Dallas was forced to divert to New York on Tuesday after six of its eight lavatories stopped working, leaving just two available for the 287 people on board. The crew of flight AA37 declared a pan-pan on approach to New…",
+      "url": "https://simpleflying.com/american-airlines-boeing-777-diverts-toilets-fail-transatlantic-flight/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-10-08T08:37:30Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/375-american-airlines-boeing-777-200-austin-deppe-_-shutterstock.jpg"
+    },
+    {
+      "title": "Emirates May Convert Its Entire 35-Aircraft Boeing 787 Order Into More 777X Jets",
+      "description": "Emirates was launched in October 1985 with a $10 million seed investment. Its first flights relied on two wet-leased aircraft from Pakistan International Airlines, an Airbus A300 and a Boeing 737, alongside two Boeing 727s gifted by Dubai’s Royal Family. The airline has since grown into a major…",
+      "url": "https://simpleflying.com/emirates-convert-35-boeing-787-order-more-777x-jets/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-08T08:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/entire-35-aircraft.png"
+    },
+    {
+      "title": "How Porter Airlines Is Building Montreal's 2nd Airport Without Repeating A $30 Billion Disaster",
+      "description": "Montreal has spent half a century living with the consequences of one of aviation's most infamous planning mistakes. When Mirabel Airport opened in 1975, it was envisioned as the future of Canadian aviation, a massive international gateway capable of handling tens of millions of passengers and…",
+      "url": "https://simpleflying.com/how-porter-airlines-is-building-montreals-2nd-airport-without-repeating-a-30-billion-disaster/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-10-08T01:46:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/porter-airlines.jpg"
+    },
+    {
+      "title": "Here's How Qantas Is Choreographing The End Of Its Boeing 737 Era Without Grounding Pilots",
+      "description": "Spending AUD 12.8 billion on a fleet overhaul is Qantas ' way of making sure it is ready to take on the next generation of flight. In the meantime, the Australian flag carrier expects to find itself in an unusual operational position: possessing a temporary surplus of mainline Boeing 737 captains…",
+      "url": "https://simpleflying.com/how-qantas-choreographing-end-boeing-737-era-without-grounding-pilots/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-10-06T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/largest-airports-in-the-world.png"
+      "published_at": "2026-10-08T00:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/qantas-is-choreographing.png"
     },
     {
-      "title": "How Cabin Crew Rest & Sleep On The Airbus A350-1000",
-      "description": "On most ultra-long-haul flights, resting for cabin crew does not typically mean just grabbing an empty row and hoping nobody needs water or another snack. Widebody aircraft like the Airbus A350-1000 are designed to carry extra staff, so that the team can rotate through planned breaks, staying sharp…",
-      "url": "https://simpleflying.com/how-cabin-crew-rest-sleep-on-airbus-a350-1000/",
+      "title": "Alaska Airlines Testing An East Coast Fix With Breeze Airways",
+      "description": "Alaska Airlines has quietly begun selling selected Breeze Airways flights, an unusual tie-up that looks far more significant on a route map than it currently is in practice. Alaska has confirmed to Cranky Flier that it has an interline agreement with Breeze, but the initial test is limited to…",
+      "url": "https://simpleflying.com/alaska-airlines-testing-east-coast-fix-breeze-airways/",
       "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-10-06T01:45:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/cabincrewa350.jpg"
+      "author": "Paul Hartley",
+      "published_at": "2026-10-07T21:33:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2269341831-1.jpg"
     },
     {
-      "title": "Why EASA's 7,800-Cycle Inspection Order Just Rewrote Boeing 787 Maintenance Planning",
-      "description": "Any time an engine manufacturer spends over £1 billion to double or triple how long its powerplants can stay bolted to a wing, the commercial aviation world takes notice. For airlines operating the Boeing 787 Dreamliner , Rolls-Royce promised that its latest Trent 1000 durability upgrades would…",
-      "url": "https://simpleflying.com/easa-7800-cycle-inspection-order-rewrote-boeing-787-maintenance-planning/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-06T00:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/easa-s-7-800-cycle-inspection.png"
-    },
-    {
-      "title": "What It Costs To Run A Boeing 747 In 2026 Vs. A 777 Or An Airbus A350",
-      "description": "The Boeing 747 is no doubt an icon of the jet age. With its routes dating back to the 1960s, when it opened the door to intercontinental travel for the masses, the world’s first widebody jetliner remains widely in use across the globe all these years later. It is only a matter of time before its…",
-      "url": "https://simpleflying.com/cost-run-boeing-747-2026-777-airbus-a350/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-10-05T23:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-747-in-2026-vs-a-777.png"
-    },
-    {
-      "title": "In Photos: British Airways Unveils All-New Airbus A380 Interior With World’s Largest Business Class Cabin",
-      "description": "British Airways has revealed the completed interior design for its refurbished Airbus A380 , giving the superjumbo the largest business class cabin currently found on a commercial aircraft. The fleet is being transformed from nose to tail, with 106 Club Suites occupying the entire upper deck,…",
-      "url": "https://simpleflying.com/british-airways-unveils-airbus-a380-interior-largest-business-class-cabin/",
+      "title": "5 Reasons Why Private Jets Almost Always Cruise Above Airline Traffic",
+      "description": "Private jets often cruise above the traffic used by commercial airlines, but the reason is not simply that business aviation has access to a higher layer of sky. The aircraft themselves are optimized for a different mission. A Gulfstream G650, for example, can climb to an initial cruise altitude of…",
+      "url": "https://simpleflying.com/reasons-why-private-jets-almost-always-cruise-above-airline-traffic/",
       "source": "Simple Flying",
       "author": "Jack McGarity",
-      "published_at": "2026-10-05T22:47:43Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/british-airways-a380-landing-in-vancouver.jpg"
+      "published_at": "2026-10-07T21:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/5-reasons-why-private-jets.png"
     },
     {
-      "title": "Boeing 777-9 Vs. Airbus A350-1000: 5 Key Differences Between The Big Twins",
-      "description": "With legendary four-engine flagships like the Boeing 747 and Airbus A380 gradually transitioning out of passenger fleets worldwide, the responsibility of connecting distant global hubs falls onto a new class of massive twin-engine widebodies. At the very top of this segment sit two competing…",
-      "url": "https://simpleflying.com/boeing-777-9-airbus-a350-1000-key-differences-big-twins/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-05T21:01:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/boeing-777-9-vs-airbus-a350-1000.png"
-    },
-    {
-      "title": "Epic Flight Academy Expands With New Location in Connecticut",
-      "description": "Epic Flight Academy, the largest Part 141 flight school in the U.S., is opening a new facility in Danbury, Connecticut, on October 17. The school is located at Danbury Municipal Airport (KDXR), approximately 20 miles northwest of Bridgeport. The airport is a class D facility with two runways—08/26…",
-      "url": "https://www.flyingmag.com/epic-flight-academy-expands-with-new-location-in-connecticut/",
+      "title": "NTSB: TV News Helicopter Descended Rapidly Before Fatal Crash",
+      "description": "The Airbus AS-350 B2 helicopter that fatally crashed in a neighborhood of Los Angeles in September was descending rapidly before striking a metal storage container, according to the National Transportation Safety Board’s investigation preliminary report . The accident occurred September 15 around…",
+      "url": "https://www.flyingmag.com/ntsb-news-helicopter-prelim-investigation-report/",
       "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-05T19:30:00Z",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-07T20:30:00Z",
       "image": null
     },
     {
-      "title": "This 2020 Cirrus SF50 G2+ Vision Jet Is an Ultra-Modern ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2020 Cirrus SF50 G2+ Vision Jet.…",
-      "url": "https://www.flyingmag.com/this-2020-cirrus-sf50-g2-vision-jet-is-an-ultra-modern-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-05T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/aircraft-jet-cirrus-sf50-g2-plus-for-sale-602111-b3e91a25b1f35dd2-800X600-1.jpg?w=800"
+      "title": "2nd Life: Frontier Airlines Due For Delivery Of 1st Ex-Spirit Airbus A321neo",
+      "description": "Frontier Airlines is preparing to take delivery of its first aircraft formerly operated by Spirit Airlines , with Airbus A321neo N731NK set to become N814FR, according to Planespotters.net . The 2024-built A321neo was withdrawn after Spirit ceased operations in May and was ferried from Marana to…",
+      "url": "https://simpleflying.com/frontier-airlines-due-delivery-1st-ex-spirit-airbus-a321neo/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-07T20:12:49Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/frontier_airlines_centered_1920x1080.jpg"
     },
     {
-      "title": "Mastering the Tailwheel Is the Ultimate Pilot Test",
-      "description": "Of course, you want to fly tailwheel. Let’s be honest, the airplanes look cool—after all, the best piston-engine fighters in World War II had tailwheels, and they looked like they were doing a million miles per hour (conservative estimate) just parked on the ramp. And there’s the snob appeal—how…",
-      "url": "https://www.flyingmag.com/mastering-the-tailwheel-is-the-ultimate-pilot-test/",
+      "title": "Only 37% Full: Alaska Airlines' 11 Emptiest Routes From Seattle Revealed",
+      "description": "Everyone knows that Seattle-Tacoma International Airport (SEA) is by far Alaska Airlines' primary hub. Cirium Diio data shows that the one world member currently has 303 daily nonstop departures (double for total movements). It accounts for 52.6% of the airport's total scheduled passenger activity.",
+      "url": "https://simpleflying.com/only-37pc-full-alaska-airlines-11-emptiest-routes-from-seattle-revealed/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-07T19:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/alaska_787_rainier_1920x1080.jpg"
+    },
+    {
+      "title": "Tecnam Introduces FAR 23 Trainer for U.S. Flight Schools",
+      "description": "Tecnam, one of the leading manufacturers in the light sport category, has officially launched a FAR 23-certified aircraft aimed at U.S. flight schools. The Tecnam P2008JC NG is a Rotax-powered, high-wing design with the capability of taking pilots from private certification up through commercial in…",
+      "url": "https://www.flyingmag.com/tecnam-introduces-far-23-trainer-for-u-s-flight-schools/",
       "source": "Flying Magazine",
-      "author": "Rick Durden",
-      "published_at": "2026-10-05T12:00:00Z",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-07T18:42:34Z",
+      "image": null
+    },
+    {
+      "title": "3 Phoenix Airports to Test Runway Safety System for Ground Vehicles",
+      "description": "The City of Phoenix Aviation Department plans to study the introduction of runway safety technology for ground vehicles that could help prevent accidents such as the fatal runway collision between an Air Canada CRJ-900 and airport fire truck at LaGuardia Airport (KLGA) in March. That accident,…",
+      "url": "https://www.flyingmag.com/3-phoenix-airports-test-surf-a-runway-safety/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-07T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA revises proposed Alaska airspace overhaul",
+      "description": "The FAA is proposing changing the floor of controlled airspace over Alaska to make services more widely available to pilots flying under instrument flight rules.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-07T17:21:29Z",
+      "image": null
+    },
+    {
+      "title": "Jeppesen Brings AI Agents to ForeFlight",
+      "description": "Jeppesen ForeFlight is the latest aviation company to introduce an artificial intelligence-powered platform as the industry seeks to incorporate more AI into various aspects of flight and operations management. Jeppesen on Monday unveiled three AI agents within its Airflow “aviation operating…",
+      "url": "https://www.flyingmag.com/jeppesen-ai-agents-foreflight-airflow/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-07T16:06:02Z",
+      "image": null
+    },
+    {
+      "title": "This 2003 Dassault Falcon 2000 Is a Transatlantic ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2003 Dassault Falcon 2000 .…",
+      "url": "https://www.flyingmag.com/this-2003-dassault-falcon-2000-is-a-transatlantic-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-07T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-06-at-12.53.03-PM.jpg?w=1024"
+    },
+    {
+      "title": "Pilots Must Embrace the ‘What-If’ Philosophy",
+      "description": "The phone rang unexpectedly one day. The voice on the other end was 97 years old. “Verlyn, how are you doing?” It was Lyle Hamel. More than 35 years had passed since he had instructed me, yet he still remembered me. That was the kind of person he was. He cared about people long after they left his…",
+      "url": "https://www.flyingmag.com/pilots-must-embrace-the-what-if-philosophy/",
+      "source": "Flying Magazine",
+      "author": "Veryln Benson",
+      "published_at": "2026-10-07T12:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Aircraft Maintenance: Night flight preparations",
+      "description": "The arrival of fall brings cooler temperatures, shorter days, and the changing of the clocks, inevitably leading to more time flying at night. It pays to ensure that you and your aircraft are well prepared before launching into the dark skies.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-06T22:02:49Z",
+      "image": null
+    },
+    {
+      "title": "EASA grounds all Elixir aircraft",
+      "description": "The European Union Aviation Safety Agency grounded all Elixir aircraft effective October 3 after two company pilots died in an accident involving the two-seat French trainer.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-06T16:52:50Z",
+      "image": null
     },
     {
       "title": "A support system for safer aviation decisions",
@@ -100,42 +172,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-02T22:04:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Breaks ATC Hiring Record, But More Work Remains",
-      "description": "The FAA said it onboarded more air traffic controller trainees in fiscal year 2026 (FY26) than in any year in the agency’s history, though the number of certified professional controllers (CPCs) remained hundreds short of headcount targets as of August. The agency set a goal of hiring 2,200 ATC…",
-      "url": "https://www.flyingmag.com/faa-breaks-atc-hiring-record-more-work-remains/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-02T20:30:00Z",
-      "image": null
-    },
-    {
-      "title": "This 2020 Diamond DA40 NG Is a Modern, Multi-Mission ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2020 Diamond DA40 NG. Diamond’s DA40…",
-      "url": "https://www.flyingmag.com/this-2020-diamond-da40-ng-is-a-modern-multi-mission-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-02T17:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/diamond2.webp"
-    },
-    {
-      "title": "NTSB: Amazon Cargo Jet Touched Down 3,750 Feet Past Runway Threshold",
-      "description": "National Transportation Safety Board investigators Thursday clarified the sequence of events involving the Amazon Prime Air cargo jet that overran Miami International Airport’s (KMIA) Runway 30 in early September, killing five people. Initial findings reveal that the airplane had little room to…",
-      "url": "https://www.flyingmag.com/ntsb-amazon-cargo-767-miami-airport-prelim/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-02T16:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Patient’s Body Recovered From Catalina Island Medevac Crash",
-      "description": "Authorities have recovered the body of the patient aboard the medevac helicopter that crashed off Catalina Island on Wednesday night. The patient, identified as 45-year-old Catalina Hernandez, a resident of the island, was being transported to a Los Angeles-area hospital after experiencing an…",
-      "url": "https://www.flyingmag.com/patients-body-recovered-from-catalina-island-medevac-crash/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-02T15:00:00Z",
       "image": null
     },
     {
@@ -154,33 +190,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-01T18:15:39Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Urges FAA to Reconsider Rescinding Single-Pilot Citation Exemptions",
-      "description": "WASHINGTON—The Aircraft Owners and Pilots Association (AOPA) expressed concern over the Federal Aviation Administration’s (FAA) decision to rescind single-pilot exemptions for some Cessna Citation models in a letter to FAA Administrator Bryan Bedford .",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/pr-aopa-urges-faa-to-reconsider-rescinding-single-pilot-citation-exemptions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-30T00:17:48Z",
-      "image": null
-    },
-    {
-      "title": "Training and Safety Tip: Listen to your airplane",
-      "description": "I knew the furnace in my condo was going to fail. One day, out of the blue, it just sounded different. It wasn’t alarming, or squeaky, or even particularly noisy. Just different. Naturally, the landlord thought I’d lost my mind. He couldn’t hear anything “wrong.”",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/training-and-safety-tip-listen-to-your-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-29T21:15:00Z",
-      "image": null
-    },
-    {
-      "title": "Cosmic One aims to decarbonize aviation",
-      "description": "For years, electric airplanes have faced one major problem: range. They can be quiet and simple to operate, but batteries limit how far they can fly.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/september/29/cosmic-one-aims-to-decarbonize-aviation?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-09-29T17:16:29Z",
       "image": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:00:30.129359+00:00",
+  "generated_at": "2026-10-08T10:00:31.581156+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
       "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
-      "points": 2,
-      "num_comments": 1,
+      "points": 9,
+      "num_comments": 4,
       "source": "Aviation Stack Exchange",
       "created_utc": 1791217644
     },
@@ -33,7 +33,7 @@
     {
       "title": "Jet stream wind shear in high altitude manned balloon flight",
       "url": "https://aviation.stackexchange.com/questions/115620/jet-stream-wind-shear-in-high-altitude-manned-balloon-flight",
-      "points": 8,
+      "points": 11,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1791139596
@@ -65,7 +65,7 @@
     {
       "title": "Is thrust asymmetry on climb-out unrecoverable?",
       "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
-      "points": 5,
+      "points": 6,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1790732205
