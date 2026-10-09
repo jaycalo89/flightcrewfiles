@@ -1,70 +1,124 @@
 {
-  "generated_at": "2026-10-08T10:00:16.981964+00:00",
+  "generated_at": "2026-10-09T10:00:17.786301+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 21,
+  "count": 22,
   "articles": [
     {
-      "title": "How Southwest Airlines' 'Trip For Pay' Model Pushes Senior Boeing 737 Captains Past $450,000 In 2026",
-      "description": "Southwest Airlines pilots have long been among the highest-paid aviators in the United States , but the airline's latest compensation figures show just how lucrative working for the airline has become. Under the 2024 SWAPA contract, year 12 first officers are earning roughly $255 (€222) per hour…",
-      "url": "https://simpleflying.com/how-southwest-airlines-trip-pay-model-pushes-senior-boeing-737-captains-past-450000-2026/",
+      "title": "Report: Southwest Airlines Is Strongly Considering Buying New & Used Boeing 787 Dreamliners",
+      "description": "For decades, Southwest Airlines has been a beacon of domestic and short-haul international flying in the United States, with its blue-clad aircraft from the Boeing 737 series of narrowbody twinjets whisking passengers away for low fares. Now, however, reports are suggesting that it may be about to…",
+      "url": "https://simpleflying.com/southwest-airlines-strongly-considering-buying-new-used-boeing-787-dreamliners/",
       "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-10-08T09:15:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/southwest-airlines.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-09T08:08:08Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/d8tqruducaag5xy.jpg"
     },
     {
-      "title": "\"Only 2 Potties\": American Airlines 777 Diverts After Toilets Fail On 11-Hour Transatlantic Flight",
-      "description": "An American Airlines Boeing 777 operating a transatlantic flight from Madrid to Dallas was forced to divert to New York on Tuesday after six of its eight lavatories stopped working, leaving just two available for the 287 people on board. The crew of flight AA37 declared a pan-pan on approach to New…",
-      "url": "https://simpleflying.com/american-airlines-boeing-777-diverts-toilets-fail-transatlantic-flight/",
+      "title": "5 Perks That Push A Pilot's Pay Far Beyond The Hourly Rate",
+      "description": "If you ask pilots what they earn, they will likely quote an hourly rate. That figure varies widely, from a modest compensation for a flight instructor to a very high amount for a senior widebody captain, but it is only one part of the compensation story. Wrapped around it is a layer of guarantees,…",
+      "url": "https://simpleflying.com/perks-push-pilots-pay-far-beyond-hourly-rate/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-08T08:37:30Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/375-american-airlines-boeing-777-200-austin-deppe-_-shutterstock.jpg"
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-10-09T08:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/push-a-pilot-s-pay-far-beyond-the-hourly-rate.png"
     },
     {
-      "title": "Emirates May Convert Its Entire 35-Aircraft Boeing 787 Order Into More 777X Jets",
-      "description": "Emirates was launched in October 1985 with a $10 million seed investment. Its first flights relied on two wet-leased aircraft from Pakistan International Airlines, an Airbus A300 and a Boeing 737, alongside two Boeing 727s gifted by Dubai’s Royal Family. The airline has since grown into a major…",
-      "url": "https://simpleflying.com/emirates-convert-35-boeing-787-order-more-777x-jets/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-08T08:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/entire-35-aircraft.png"
-    },
-    {
-      "title": "How Porter Airlines Is Building Montreal's 2nd Airport Without Repeating A $30 Billion Disaster",
-      "description": "Montreal has spent half a century living with the consequences of one of aviation's most infamous planning mistakes. When Mirabel Airport opened in 1975, it was envisioned as the future of Canadian aviation, a massive international gateway capable of handling tens of millions of passengers and…",
-      "url": "https://simpleflying.com/how-porter-airlines-is-building-montreals-2nd-airport-without-repeating-a-30-billion-disaster/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-10-08T01:46:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/porter-airlines.jpg"
-    },
-    {
-      "title": "Here's How Qantas Is Choreographing The End Of Its Boeing 737 Era Without Grounding Pilots",
-      "description": "Spending AUD 12.8 billion on a fleet overhaul is Qantas ' way of making sure it is ready to take on the next generation of flight. In the meantime, the Australian flag carrier expects to find itself in an unusual operational position: possessing a temporary surplus of mainline Boeing 737 captains…",
-      "url": "https://simpleflying.com/how-qantas-choreographing-end-boeing-737-era-without-grounding-pilots/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-08T00:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/qantas-is-choreographing.png"
-    },
-    {
-      "title": "Alaska Airlines Testing An East Coast Fix With Breeze Airways",
-      "description": "Alaska Airlines has quietly begun selling selected Breeze Airways flights, an unusual tie-up that looks far more significant on a route map than it currently is in practice. Alaska has confirmed to Cranky Flier that it has an interline agreement with Breeze, but the initial test is limited to…",
-      "url": "https://simpleflying.com/alaska-airlines-testing-east-coast-fix-breeze-airways/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-07T21:33:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2269341831-1.jpg"
-    },
-    {
-      "title": "5 Reasons Why Private Jets Almost Always Cruise Above Airline Traffic",
-      "description": "Private jets often cruise above the traffic used by commercial airlines, but the reason is not simply that business aviation has access to a higher layer of sky. The aircraft themselves are optimized for a different mission. A Gulfstream G650, for example, can climb to an initial cruise altitude of…",
-      "url": "https://simpleflying.com/reasons-why-private-jets-almost-always-cruise-above-airline-traffic/",
+      "title": "Ryanair's Longest Nonstop Routes With The Boeing 737 MAX In 2026",
+      "description": "Ryanair has built its brand to be synonymous with ultra-low-cost flying throughout Europe. At the heart of Ryanair’s modernization strategy in 2026 is the Boeing 737 MAX , powering both its dense short-haul network and its slightly longer leisure routes across Europe. The MAX enables Ryanair to…",
+      "url": "https://simpleflying.com/ryanair-longest-nonstop-routes-with-boeing-737-max-in-2026/",
       "source": "Simple Flying",
       "author": "Jack McGarity",
-      "published_at": "2026-10-07T21:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/5-reasons-why-private-jets.png"
+      "published_at": "2026-10-09T07:21:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/longestroutes.jpg"
+    },
+    {
+      "title": "Lufthansa Group To Grow Boeing 737 Fleet By Securing 20 MAX 10s",
+      "description": "Lufthansa Group is expanding its Boeing 737 MAX commitment by exercising options for 20 MAX 10 aircraft, taking its total firm order volume for the family to 60 aircraft. The group's supervisory board approved the purchase, converting part of the options secured in its 2023 Boeing agreement into…",
+      "url": "https://simpleflying.com/video/lufthansa-group-to-grow-boeing-737-fleet-by-securing-20-max-10s/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-10-09T06:11:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/lufthansa-737-10.jpg"
+    },
+    {
+      "title": "Why American Airlines Cut Boeing 777-300ER Crews From 13 To 11 Before Adding 70 Flagship Suites",
+      "description": "American Airlines has just completed the first example of one of the most dramatic cabin overhauls in its history. Its refreshed Boeing 777-300ER , a full retrofit conducted under its much-vaunted 'Project Olympus,' has 70 enclosed Flagship Suite business class seats, 44 premium economy seats and…",
+      "url": "https://simpleflying.com/why-american-airlines-cut-boeing-777-300er-crews-13-11-adding-70-flagship-suites/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-08T23:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-airlines-cut-boeing-777-300er-crews.png"
+    },
+    {
+      "title": "How 18 New L3Harris Satellites Will Change What F-35 & B-21 Pilots See In The Cockpit",
+      "description": "On September 24, the Space Development Agency confirmed that L3Harris' Tracking Layer Tranche 3 (TRKT3) program satellite network will move forward to connect next-gen American military systems, especially stealth aircraft, via commercial satellite internet. The 18 new infrared tracking satellites…",
+      "url": "https://simpleflying.com/18-new-l3harris-satellites-change-f-35-b-21-pilots-see-cockpit/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-10-08T22:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/f-35-b-21-pilots.png"
+    },
+    {
+      "title": "Bringing the airport to the community",
+      "description": "On October 3, Maryland’s Frederick Municipal Airport hosted the Frederick Festival of Flight for the fourth time.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-08T21:45:22Z",
+      "image": null
+    },
+    {
+      "title": "Airlines Suspend Flights To Riyadh After Terrorist Attack Destroys Saudia Airbus A320",
+      "description": "Airlines are suspending flights to Saudi Arabia's capital after a fresh Houthi missile attack on Riyadh's King Khalid International Airport (RUH) on Thursday, left a Saudia aircraft badly damaged by fire. The Iran-backed group claimed responsibility for targeting the airport with a ballistic…",
+      "url": "https://simpleflying.com/airlines-suspend-flights-riyadh-attack-destroys-saudia-airbus-a320/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-08T20:54:25Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2356238963-1.jpg"
+    },
+    {
+      "title": "October surprise: FAA does not care what your hangar costs",
+      "description": "The FAA on October 7 effectively declared open season on hangar rent gouging, siding with a Denver FBO in a Part 13 complaint that the agency decided without publicly available evidence to support claims the 82-percent rent hike is \"fair and reasonable\" to pilots.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-08T17:32:05Z",
+      "image": null
+    },
+    {
+      "title": "Man Arrested After Allegedly Stealing Tug at John Wayne Airport",
+      "description": "An unusual and potentially dangerous situation unfolded Tuesday evening at John Wayne Airport (KSNA) in California. Airport police services arrested a Delta Air Lines passenger who breached a gate, stole an Alaska Airlines tug, crashed it, and then attempted to commandeer an American Airlines…",
+      "url": "https://www.flyingmag.com/man-arrested-stolen-tug-john-wayne-airport/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-08T16:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Northrop Grumman’s Talon Blue Conducts First Autonomous Flight",
+      "description": "Northrop Grumman’s YFQ-48A Talon Blue, a candidate for a production contract under the U.S. Army’s Collaborative Combat Aircraft ( CCA ) program, completed its first fully autonomous flight, the manufacturer announced Saturday. The flight, which took place in Mojave, California, included autonomous…",
+      "url": "https://www.flyingmag.com/northrop-grumman-talon-blue-autonomous-flight/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-08T15:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Food Truck Fly-In Returns to San Martin Airport",
+      "description": "If your travels take you south of San Jose, California, on October 17, you may want to pay a visit to San Martin Airport (E16) for the Food Truck Fly-In . The annual event is organized by the South County Airport Pilots Association (SCAPA), a chapter of the California Pilots Association. Admission…",
+      "url": "https://www.flyingmag.com/food-truck-fly-in-returns-to-san-martin-airport/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-08T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/FTFI-26-e1791399889449.jpg?w=1024"
+    },
+    {
+      "title": "This 1974 Cessna A185F Skywagon Is an Off-Grid-Ready ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1974 Cessna A185F Skywagon. Few…",
+      "url": "https://www.flyingmag.com/this-1974-cessna-a185f-skywagon-is-an-off-grid-ready-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-08T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-07-at-10.20.04-AM.jpg?w=1024"
     },
     {
       "title": "NTSB: TV News Helicopter Descended Rapidly Before Fatal Crash",
@@ -74,24 +128,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-10-07T20:30:00Z",
       "image": null
-    },
-    {
-      "title": "2nd Life: Frontier Airlines Due For Delivery Of 1st Ex-Spirit Airbus A321neo",
-      "description": "Frontier Airlines is preparing to take delivery of its first aircraft formerly operated by Spirit Airlines , with Airbus A321neo N731NK set to become N814FR, according to Planespotters.net . The 2024-built A321neo was withdrawn after Spirit ceased operations in May and was ferried from Marana to…",
-      "url": "https://simpleflying.com/frontier-airlines-due-delivery-1st-ex-spirit-airbus-a321neo/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-07T20:12:49Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/frontier_airlines_centered_1920x1080.jpg"
-    },
-    {
-      "title": "Only 37% Full: Alaska Airlines' 11 Emptiest Routes From Seattle Revealed",
-      "description": "Everyone knows that Seattle-Tacoma International Airport (SEA) is by far Alaska Airlines' primary hub. Cirium Diio data shows that the one world member currently has 303 daily nonstop departures (double for total movements). It accounts for 52.6% of the airport's total scheduled passenger activity.",
-      "url": "https://simpleflying.com/only-37pc-full-alaska-airlines-11-emptiest-routes-from-seattle-revealed/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-07T19:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/alaska_787_rainier_1920x1080.jpg"
     },
     {
       "title": "Tecnam Introduces FAR 23 Trainer for U.S. Flight Schools",
@@ -121,8 +157,8 @@
       "image": null
     },
     {
-      "title": "Jeppesen Brings AI Agents to ForeFlight",
-      "description": "Jeppesen ForeFlight is the latest aviation company to introduce an artificial intelligence-powered platform as the industry seeks to incorporate more AI into various aspects of flight and operations management. Jeppesen on Monday unveiled three AI agents within its Airflow “aviation operating…",
+      "title": "Jeppesen ForeFlight Brings AI Agents to Airflow",
+      "description": "Jeppesen ForeFlight is the latest aviation company to introduce an artificial intelligence-powered platform as the industry seeks to incorporate more AI into various aspects of flight and operations management. Jeppesen ForeFlight on Monday unveiled three AI agents within its Airflow “aviation…",
       "url": "https://www.flyingmag.com/jeppesen-ai-agents-foreflight-airflow/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
@@ -137,15 +173,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-10-07T14:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-06-at-12.53.03-PM.jpg?w=1024"
-    },
-    {
-      "title": "Pilots Must Embrace the ‘What-If’ Philosophy",
-      "description": "The phone rang unexpectedly one day. The voice on the other end was 97 years old. “Verlyn, how are you doing?” It was Lyle Hamel. More than 35 years had passed since he had instructed me, yet he still remembered me. That was the kind of person he was. He cared about people long after they left his…",
-      "url": "https://www.flyingmag.com/pilots-must-embrace-the-what-if-philosophy/",
-      "source": "Flying Magazine",
-      "author": "Veryln Benson",
-      "published_at": "2026-10-07T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "Aircraft Maintenance: Night flight preparations",
@@ -172,24 +199,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-02T22:04:00Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Statement on Issuance of Eviction Notices at Aeroflex-Andover Airport",
-      "description": "ANDOVER, New Jersey—The Aircraft Owners and Pilots Association (AOPA) expressed disappointment at the issuance of eviction notices to tenants at Aeroflex-Andover Airport (12N) in Sussex County, New Jersey. The notices, forcing tenants to vacate by December 31, were issued by the New Jersey Forest…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/pr-aopa-statement-on-issuance-of-eviction-notices-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-02T02:12:06Z",
-      "image": null
-    },
-    {
-      "title": "Minneapolis crowd celebrates Girls in Aviation Day",
-      "description": "The twelfth annual Girls in Aviation Day brought about 2,000 people to Flying Cloud Airport near Minneapolis on September 19.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/01/minneapolis-crowd-celebrates-girls-in-aviation-day?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-01T18:15:39Z",
       "image": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T10:00:31.581156+00:00",
+  "generated_at": "2026-10-09T10:00:29.501925+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
-      "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
-      "points": 9,
-      "num_comments": 4,
+      "title": "Deleting a required hold on a Localizer",
+      "url": "https://aviation.stackexchange.com/questions/115631/deleting-a-required-hold-on-a-localizer",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791217644
+      "created_utc": 1791471693
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Jet stream wind shear in high altitude manned balloon flight",
-      "url": "https://aviation.stackexchange.com/questions/115620/jet-stream-wind-shear-in-high-altitude-manned-balloon-flight",
-      "points": 11,
-      "num_comments": 1,
+      "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
+      "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
+      "points": 10,
+      "num_comments": 4,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791139596
+      "created_utc": 1791217644
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is thrust asymmetry on climb-out unrecoverable?",
-      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
-      "points": 6,
-      "num_comments": 2,
+      "title": "Jet stream wind shear in high altitude manned balloon flight",
+      "url": "https://aviation.stackexchange.com/questions/115620/jet-stream-wind-shear-in-high-altitude-manned-balloon-flight",
+      "points": 11,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790732205
+      "created_utc": 1791139596
     }
   ]
 }
