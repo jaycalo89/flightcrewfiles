@@ -1,61 +1,115 @@
 {
-  "generated_at": "2026-10-09T10:00:17.786301+00:00",
+  "generated_at": "2026-10-10T10:00:19.416946+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 22,
   "articles": [
     {
-      "title": "Report: Southwest Airlines Is Strongly Considering Buying New & Used Boeing 787 Dreamliners",
-      "description": "For decades, Southwest Airlines has been a beacon of domestic and short-haul international flying in the United States, with its blue-clad aircraft from the Boeing 737 series of narrowbody twinjets whisking passengers away for low fares. Now, however, reports are suggesting that it may be about to…",
-      "url": "https://simpleflying.com/southwest-airlines-strongly-considering-buying-new-used-boeing-787-dreamliners/",
+      "title": "The Real Reason Why Allegiant Air Still Flies To So Many Secondary Airports",
+      "description": "Where others have failed, Allegiant Air still stands strong as an ultra-low-cost carrier. Operating out of secondary hubs like Orlando Sanford International Airport (SFB) or St. Pete–Clearwater International Airport (PIE), many often assume the airline operates there for one important reason:…",
+      "url": "https://simpleflying.com/allegiant-air-secondary-airports-strategy/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-09T08:08:08Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/d8tqruducaag5xy.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-10T08:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/the-real-reason-why-allegiant-air-still-flies-to-so-many-secondary-airports.jpg"
     },
     {
-      "title": "5 Perks That Push A Pilot's Pay Far Beyond The Hourly Rate",
-      "description": "If you ask pilots what they earn, they will likely quote an hourly rate. That figure varies widely, from a modest compensation for a flight instructor to a very high amount for a senior widebody captain, but it is only one part of the compensation story. Wrapped around it is a layer of guarantees,…",
-      "url": "https://simpleflying.com/perks-push-pilots-pay-far-beyond-hourly-rate/",
+      "title": "\"Right Landing Gear On Fire\": Smoke Stops Southwest Boeing 737 Before Las Vegas Takeoff",
+      "description": "A Southwest Airlines Boeing 737 suffered an apparent landing gear fire in Las Vegas on Friday afternoon after smoke was spotted coming from its right main landing gear while it taxied for departure. The narrowbody returned to the gate at Harry Reid International Airport (LAS) after the crew of…",
+      "url": "https://simpleflying.com/southwest-airlines-boeing-737-landing-gear-fire-las-vegas/",
       "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-10-09T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/push-a-pilot-s-pay-far-beyond-the-hourly-rate.png"
+      "author": "Luke Bodell",
+      "published_at": "2026-10-10T07:56:05Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/244-southwest-airlines-boeing-737-700-avi-johnson-_-shutterstock-2.jpg"
     },
     {
-      "title": "Ryanair's Longest Nonstop Routes With The Boeing 737 MAX In 2026",
-      "description": "Ryanair has built its brand to be synonymous with ultra-low-cost flying throughout Europe. At the heart of Ryanair’s modernization strategy in 2026 is the Boeing 737 MAX , powering both its dense short-haul network and its slightly longer leisure routes across Europe. The MAX enables Ryanair to…",
-      "url": "https://simpleflying.com/ryanair-longest-nonstop-routes-with-boeing-737-max-in-2026/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-10-09T07:21:38Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/longestroutes.jpg"
-    },
-    {
-      "title": "Lufthansa Group To Grow Boeing 737 Fleet By Securing 20 MAX 10s",
-      "description": "Lufthansa Group is expanding its Boeing 737 MAX commitment by exercising options for 20 MAX 10 aircraft, taking its total firm order volume for the family to 60 aircraft. The group's supervisory board approved the purchase, converting part of the options secured in its 2023 Boeing agreement into…",
-      "url": "https://simpleflying.com/video/lufthansa-group-to-grow-boeing-737-fleet-by-securing-20-max-10s/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-10-09T06:11:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/lufthansa-737-10.jpg"
-    },
-    {
-      "title": "Why American Airlines Cut Boeing 777-300ER Crews From 13 To 11 Before Adding 70 Flagship Suites",
-      "description": "American Airlines has just completed the first example of one of the most dramatic cabin overhauls in its history. Its refreshed Boeing 777-300ER , a full retrofit conducted under its much-vaunted 'Project Olympus,' has 70 enclosed Flagship Suite business class seats, 44 premium economy seats and…",
-      "url": "https://simpleflying.com/why-american-airlines-cut-boeing-777-300er-crews-13-11-adding-70-flagship-suites/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-08T23:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/american-airlines-cut-boeing-777-300er-crews.png"
-    },
-    {
-      "title": "How 18 New L3Harris Satellites Will Change What F-35 & B-21 Pilots See In The Cockpit",
-      "description": "On September 24, the Space Development Agency confirmed that L3Harris' Tracking Layer Tranche 3 (TRKT3) program satellite network will move forward to connect next-gen American military systems, especially stealth aircraft, via commercial satellite internet. The 18 new infrared tracking satellites…",
-      "url": "https://simpleflying.com/18-new-l3harris-satellites-change-f-35-b-21-pilots-see-cockpit/",
+      "title": "5 Reasons Why American Airlines Is Gutting Out First Class From Its Largest Aircraft",
+      "description": "American Airlines has officially introduced its retrofitted Boeing 777-300ER that completely eliminates its traditional first class cabin, signaling a permanent strategic shift for the carrier. The refreshed widebody completed its inaugural flight from New York to Buenos Aires on September 2,…",
+      "url": "https://simpleflying.com/reasons-american-airlines-gutting-first-class-largest-aircraft/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-08T22:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/f-35-b-21-pilots.png"
+      "published_at": "2026-10-10T05:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/5-reasons-why-american-airlines.png"
+    },
+    {
+      "title": "Simple Flying Podcast Episode 306: Delta Air Lines Passenger Breaches Airport Security, Air France Unlocks New 2027 US Routes",
+      "description": "Simple Flying’s latest podcast is live and ready for you to enjoy! Hosted by Senior Editor Channing Reid , the 306th episode is now available to listen to.",
+      "url": "https://simpleflying.com/podcast-306/",
+      "source": "Simple Flying",
+      "author": "Channing Reid",
+      "published_at": "2026-10-10T03:26:48Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/sf-podcast-cover.jpg"
+    },
+    {
+      "title": "28-Year-Old Volaris Passenger Found Dead In Seat After Flight Lands In Chiapas",
+      "description": "After departing Tijuana International Airport (TIJ) just before midnight, Volaris flight 3358 touched down at Tapachula Airport (TAP) a little after 5:00 AM on Wednesday, but, tragically, one of the passengers aboard had passed away enroute. A 28-year-old woman named Abidai López Solís was found…",
+      "url": "https://simpleflying.com/28-year-old-volaris-passenger-dead-flight-lands-chiapas/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-10-10T03:22:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/volaris-airbus-a320-at-los-angeles-airport-lax-in-the-usa.jpg"
+    },
+    {
+      "title": "Why Boeing's 1,000 Moses Lake Mechanics Are Being Sent To Build The Next Jets They May Have To Rework",
+      "description": "Over six years, Grant County International Airport in Moses Lake, Washington, operated as a sprawling parallel manufacturing hub, rescuing hundreds of grounded airframes through intensive post-production modifications. Pulling a four-figure workforce out of this Eastern Washington facility also…",
+      "url": "https://simpleflying.com/boeing-1000-moses-lake-mechanics-sent-build-next-jets-rework/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-10T01:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-s-1-000-moses-lake-mechanics.png"
+    },
+    {
+      "title": "Where Are The World's Largest Military Transport Aircraft Right Now?",
+      "description": "The Antonov An-225 was the largest aircraft ever built, and it was destroyed at Hostomel Airport in February 2022. That leaves its smaller sibling, the An-124 Ruslan, as the largest military transport aircraft in service, followed by the Lockheed C-5M Super Galaxy, the Xi'an Y-20, and the Boeing…",
+      "url": "https://simpleflying.com/worlds-largest-military-transport-aircraft-tracked/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-10-10T00:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/world-s-largest-military-transport-aircraft.png"
+    },
+    {
+      "title": "Airlines Are Accepting Brand-New Airbus A321neos Knowing They'll Be Grounded 9 Days Within 2 Years",
+      "description": "Airlines taking delivery of brand-new Airbus A321neos valued at over $130 million are making a decision that would have been unthinkable a decade ago. Carriers are actively receiving factory-fresh narrowbodies from assembly lines in Toulouse, Hamburg, Mobile, and Tianjin while fully aware that each…",
+      "url": "https://simpleflying.com/airlines-are-accepting-brand-new-airbus-a321neos-knowing-theyll-be-grounded-9-days-within-2-years/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-09T23:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/airlines-are-accepting-brand-new-airbus-a321neos-knowing-they-ll-be-grounded-9-days-within-2-years.jpg"
+    },
+    {
+      "title": "This 1911 Wright Model B Is a Meticulously Crafted, Historical ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1911 Wright Model B replica. We often…",
+      "url": "https://www.flyingmag.com/this-1911-wright-model-b-is-a-meticulously-crafted-historical-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-09T19:15:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot_20261009_124623_Chrome.jpg"
+    },
+    {
+      "title": "NTSB: Misfueling Led to Cessna 421 Crash",
+      "description": "The only good that comes out of aviation accidents is that learning can take place. The National Transportation Safety Board ( NTSB) investigation into the August crash of a Cessna 421 near Fulton, Kentucky, has concluded in its final report that the aircraft lost power in flight due to the…",
+      "url": "https://www.flyingmag.com/ntsb-misfueling-led-to-cessna-421-crash/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-09T16:00:00Z",
+      "image": null
+    },
+    {
+      "title": "STEM Next Flight Crew Opens Applications for 2027 Youth Ambassadors",
+      "description": "Are you a teen between the ages of 13-18 who benefited from out-of-school STEM experiences? Would you like to encourage more of your peers to participate in STEM? If so, the STEM Next Flight Crew may have a place for you. The STEM Next Flight Crew is a national youth leadership program designed for…",
+      "url": "https://www.flyingmag.com/stem-next-flight-crew-opens-applications-for-2027-youth-ambassadors/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-09T14:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Simpler Way to Fly: How Modern Cockpits Are Changing Aviation",
+      "description": "My heart leapt out of my chest when Chris Caputo—the pilot who flew me on Beta Technologies ’ all-electric Alia CX300 in June—said two simple words. “Your controls.” I visited Beta’s Burlington, Vermont, facilities to cover the manufacturer’s inaugural media day. Fortunately, a quick look around…",
+      "url": "https://www.flyingmag.com/simpler-way-to-fly-how-modern-cockpits-are-changing-aviation/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-09T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "Bringing the airport to the community",
@@ -65,15 +119,6 @@
       "author": null,
       "published_at": "2026-10-08T21:45:22Z",
       "image": null
-    },
-    {
-      "title": "Airlines Suspend Flights To Riyadh After Terrorist Attack Destroys Saudia Airbus A320",
-      "description": "Airlines are suspending flights to Saudi Arabia's capital after a fresh Houthi missile attack on Riyadh's King Khalid International Airport (RUH) on Thursday, left a Saudia aircraft badly damaged by fire. The Iran-backed group claimed responsibility for targeting the airport with a ballistic…",
-      "url": "https://simpleflying.com/airlines-suspend-flights-riyadh-attack-destroys-saudia-airbus-a320/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-08T20:54:25Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2356238963-1.jpg"
     },
     {
       "title": "October surprise: FAA does not care what your hangar costs",
@@ -130,24 +175,6 @@
       "image": null
     },
     {
-      "title": "Tecnam Introduces FAR 23 Trainer for U.S. Flight Schools",
-      "description": "Tecnam, one of the leading manufacturers in the light sport category, has officially launched a FAR 23-certified aircraft aimed at U.S. flight schools. The Tecnam P2008JC NG is a Rotax-powered, high-wing design with the capability of taking pilots from private certification up through commercial in…",
-      "url": "https://www.flyingmag.com/tecnam-introduces-far-23-trainer-for-u-s-flight-schools/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-07T18:42:34Z",
-      "image": null
-    },
-    {
-      "title": "3 Phoenix Airports to Test Runway Safety System for Ground Vehicles",
-      "description": "The City of Phoenix Aviation Department plans to study the introduction of runway safety technology for ground vehicles that could help prevent accidents such as the fatal runway collision between an Air Canada CRJ-900 and airport fire truck at LaGuardia Airport (KLGA) in March. That accident,…",
-      "url": "https://www.flyingmag.com/3-phoenix-airports-test-surf-a-runway-safety/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-07T18:00:00Z",
-      "image": null
-    },
-    {
       "title": "FAA revises proposed Alaska airspace overhaul",
       "description": "The FAA is proposing changing the floor of controlled airspace over Alaska to make services more widely available to pilots flying under instrument flight rules.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -155,24 +182,6 @@
       "author": null,
       "published_at": "2026-10-07T17:21:29Z",
       "image": null
-    },
-    {
-      "title": "Jeppesen ForeFlight Brings AI Agents to Airflow",
-      "description": "Jeppesen ForeFlight is the latest aviation company to introduce an artificial intelligence-powered platform as the industry seeks to incorporate more AI into various aspects of flight and operations management. Jeppesen ForeFlight on Monday unveiled three AI agents within its Airflow “aviation…",
-      "url": "https://www.flyingmag.com/jeppesen-ai-agents-foreflight-airflow/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-07T16:06:02Z",
-      "image": null
-    },
-    {
-      "title": "This 2003 Dassault Falcon 2000 Is a Transatlantic ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2003 Dassault Falcon 2000 .…",
-      "url": "https://www.flyingmag.com/this-2003-dassault-falcon-2000-is-a-transatlantic-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-07T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-06-at-12.53.03-PM.jpg?w=1024"
     },
     {
       "title": "Aircraft Maintenance: Night flight preparations",
@@ -190,15 +199,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-06T16:52:50Z",
-      "image": null
-    },
-    {
-      "title": "A support system for safer aviation decisions",
-      "description": "A weather briefing is necessary, but it is just one input in the decision to launch. Airline crews have a dispatcher and a chief pilot backing up that call. Most general aviation pilots have neither. PlaneWX is the decision support system for GA, built around one loop on every flight: Brief.…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/02/a-support-system-for-safer-aviation-decisions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-02T22:04:00Z",
       "image": null
     }
   ]

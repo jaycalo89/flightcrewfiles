@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T10:00:29.548571+00:00",
+  "generated_at": "2026-10-10T10:00:24.948798+00:00",
   "query": "RSS: The Black Vault, UFOs: Scientific Research, Mystery Wire, Live Science",
-  "count": 7,
+  "count": 6,
   "articles": [
     {
       "title": "OpenAI claims we've entered the AGI era — has GPT-6 Astra really demonstrated general intelligence?",
@@ -56,15 +56,6 @@
       "author": "John Greenewald",
       "published_at": "2025-10-28T17:04:54Z",
       "image": "https://www.theblackvault.com/casefiles/wp-content/uploads/2025/10/2025-10-27_14-07-17.jpg"
-    },
-    {
-      "title": "More documents leak from the BAASS AAWSAP CAPELLA data warehouse",
-      "description": "What was CAPELLA? The CAPELLA data warehouse was a collection of a number of internationally sourced databases, compiled by Bigelow Aerospace Advanced Space Studies (BAASS), the contractor for the Advanced Aerospace Weapon System Applications Program (AAWSAP), in the timeframe 2008-2010. The…",
-      "url": "https://ufos-scientificresearch.blogspot.com/2025/10/more-documents-leak-from-baass-aawsap.html",
-      "source": "UFOs: Scientific Research",
-      "author": "Keith Basterfield",
-      "published_at": "2025-10-09T22:13:00Z",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd0yiiAutr-GG9h3DuBr9hiLXhDuIa-l1_UNLm8HYDowOE8VTOV6Ji2ED4Fujh93_tguR9yCfXCgws0-TPSdjn_bv0BPMiSPDTk2cr_UM9dUMVJlk_0uKEECTtyuMaGHPzGRoTcDEjkItfa3Qi5HpRzYs5OqoOB2hO_NqSHGpth2O5XMjRanbj5CmHE5U/s320/10%20month%20BAASS.png"
     }
   ]
 }
