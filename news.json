@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-10-10T10:00:19.416946+00:00",
+  "generated_at": "2026-10-11T18:46:01.817903+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 21,
   "articles": [
     {
-      "title": "The Real Reason Why Allegiant Air Still Flies To So Many Secondary Airports",
-      "description": "Where others have failed, Allegiant Air still stands strong as an ultra-low-cost carrier. Operating out of secondary hubs like Orlando Sanford International Airport (SFB) or St. Pete–Clearwater International Airport (PIE), many often assume the airline operates there for one important reason:…",
-      "url": "https://simpleflying.com/allegiant-air-secondary-airports-strategy/",
+      "title": "More Cargo Capacity: Alaska Airlines To Retire Boeing 737-700 Fleet By Next Year",
+      "description": "Alaska Airlines is preparing to phase out its Boeing 737-700 passenger fleet by 2027 to make room for larger aircraft that can carry more passengers and cargo. The transition matters in remote Arctic areas, where air travel is essential to connect isolated communities and transport goods. Replacing…",
+      "url": "https://simpleflying.com/alaska-air-lines-retire-boeing-737-700-fleet-2027/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-10T08:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/the-real-reason-why-allegiant-air-still-flies-to-so-many-secondary-airports.jpg"
+      "author": "Victoria Agronsky",
+      "published_at": "2026-10-11T18:39:28Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2640590967_cropped.jpg"
     },
     {
-      "title": "\"Right Landing Gear On Fire\": Smoke Stops Southwest Boeing 737 Before Las Vegas Takeoff",
-      "description": "A Southwest Airlines Boeing 737 suffered an apparent landing gear fire in Las Vegas on Friday afternoon after smoke was spotted coming from its right main landing gear while it taxied for departure. The narrowbody returned to the gate at Harry Reid International Airport (LAS) after the crew of…",
-      "url": "https://simpleflying.com/southwest-airlines-boeing-737-landing-gear-fire-las-vegas/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-10T07:56:05Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/244-southwest-airlines-boeing-737-700-avi-johnson-_-shutterstock-2.jpg"
-    },
-    {
-      "title": "5 Reasons Why American Airlines Is Gutting Out First Class From Its Largest Aircraft",
-      "description": "American Airlines has officially introduced its retrofitted Boeing 777-300ER that completely eliminates its traditional first class cabin, signaling a permanent strategic shift for the carrier. The refreshed widebody completed its inaugural flight from New York to Buenos Aires on September 2,…",
-      "url": "https://simpleflying.com/reasons-american-airlines-gutting-first-class-largest-aircraft/",
+      "title": "Why 27 Grounded Trainer Jets In North Wales Threaten The UK's Entire Fast-Jet Pilot Pipeline",
+      "description": "Following a crash on September 23, the Royal Air Force (RAF) grounded its entire fleet of BAE Hawk T2 planes. The 27-strong flightline of light jets now sits idle at RAF Valley in North Wales. This has brought the pipeline of fast-jet pilot trainees to a halt. As it stands now, none of the student…",
+      "url": "https://simpleflying.com/27-grounded-trainer-jets-north-wales-threaten-uk-entire-fast-jet-pilot-pipeline/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-10T05:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/5-reasons-why-american-airlines.png"
+      "published_at": "2026-10-11T18:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/27-grounded-trainer-jets.png"
     },
     {
-      "title": "Simple Flying Podcast Episode 306: Delta Air Lines Passenger Breaches Airport Security, Air France Unlocks New 2027 US Routes",
-      "description": "Simple Flying’s latest podcast is live and ready for you to enjoy! Hosted by Senior Editor Channing Reid , the 306th episode is now available to listen to.",
-      "url": "https://simpleflying.com/podcast-306/",
-      "source": "Simple Flying",
-      "author": "Channing Reid",
-      "published_at": "2026-10-10T03:26:48Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/sf-podcast-cover.jpg"
-    },
-    {
-      "title": "28-Year-Old Volaris Passenger Found Dead In Seat After Flight Lands In Chiapas",
-      "description": "After departing Tijuana International Airport (TIJ) just before midnight, Volaris flight 3358 touched down at Tapachula Airport (TAP) a little after 5:00 AM on Wednesday, but, tragically, one of the passengers aboard had passed away enroute. A 28-year-old woman named Abidai López Solís was found…",
-      "url": "https://simpleflying.com/28-year-old-volaris-passenger-dead-flight-lands-chiapas/",
+      "title": "The Aircraft Replacing The F-16 Falcon",
+      "description": "Since the late 1970s, General Dynamics’ (later Lockheed Martin’s ) F-16 Fighting Falcon has been a workhorse light fighter for the United States and many allies. Its fundamental design and systems are from a time when all-digital cockpits, networked data links, and stealth technology were all…",
+      "url": "https://simpleflying.com/the-aircraft-replacing-the-f-16-falcon/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-10T03:22:56Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/volaris-airbus-a320-at-los-angeles-airport-lax-in-the-usa.jpg"
+      "published_at": "2026-10-11T17:30:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/f-16-fighter-jets-appeared-in-ukrainian-skies-in-august-2024.avif"
     },
     {
-      "title": "Why Boeing's 1,000 Moses Lake Mechanics Are Being Sent To Build The Next Jets They May Have To Rework",
-      "description": "Over six years, Grant County International Airport in Moses Lake, Washington, operated as a sprawling parallel manufacturing hub, rescuing hundreds of grounded airframes through intensive post-production modifications. Pulling a four-figure workforce out of this Eastern Washington facility also…",
-      "url": "https://simpleflying.com/boeing-1000-moses-lake-mechanics-sent-build-next-jets-rework/",
+      "title": "5 Things To Know About Boeing's $20 Billion US Navy Next-Generation Fighter Contract",
+      "description": "Despite chronic delivery problems in its defense division, Boeing was officially awarded the contract for the US Navy's first sixth-generation fighter, the F/A-XX. The Pentagon announced on September 29 that Boeing won the highly contested full-scale engineering and manufacturing development…",
+      "url": "https://simpleflying.com/things-know-boeing-20-billion-us-navy-next-generation-fighter-contract/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-10T01:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-s-1-000-moses-lake-mechanics.png"
+      "author": "Luke Diaz",
+      "published_at": "2026-10-11T14:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/5-things-to-know-about-boeing-s-20-billion-us-navy-next-generation-fighter-contract.jpg"
     },
     {
-      "title": "Where Are The World's Largest Military Transport Aircraft Right Now?",
-      "description": "The Antonov An-225 was the largest aircraft ever built, and it was destroyed at Hostomel Airport in February 2022. That leaves its smaller sibling, the An-124 Ruslan, as the largest military transport aircraft in service, followed by the Lockheed C-5M Super Galaxy, the Xi'an Y-20, and the Boeing…",
-      "url": "https://simpleflying.com/worlds-largest-military-transport-aircraft-tracked/",
+      "title": "Etihad Airways Launches Incredible 24 New Routes: See Full List Now",
+      "description": "We are just weeks away from seeing a new connection between the Middle East and Alberta, Canada, as Etihad Airways prepares to launch a new route between Abu Dhabi International Airport (AUH) and Calgary International Airport (YYC) . Earlier this year, the airline also launched flights to Charlotte…",
+      "url": "https://simpleflying.com/etihad-airways-launches-24-new-routes/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-11T12:56:53Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2390224277_cropped.jpg"
+    },
+    {
+      "title": "These Are The Airlines With The World's Longest Legroom In Economy In 2026",
+      "description": "The average economy seat pitch has fallen from roughly 35 inches (89 cm) in the 1970s to around 30 today, and no regulator sets a minimum anywhere. The FAA requires that an aircraft be evacuated within 90 seconds, which caps total seat count, but the rules say nothing about how far apart those…",
+      "url": "https://simpleflying.com/airlines-worlds-longest-economy-legroom-2026/",
       "source": "Simple Flying",
       "author": "Brandon Shaw",
-      "published_at": "2026-10-10T00:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/world-s-largest-military-transport-aircraft.png"
+      "published_at": "2026-10-11T11:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-world-s-longest-legroom.png"
     },
     {
-      "title": "Airlines Are Accepting Brand-New Airbus A321neos Knowing They'll Be Grounded 9 Days Within 2 Years",
-      "description": "Airlines taking delivery of brand-new Airbus A321neos valued at over $130 million are making a decision that would have been unthinkable a decade ago. Carriers are actively receiving factory-fresh narrowbodies from assembly lines in Toulouse, Hamburg, Mobile, and Tianjin while fully aware that each…",
-      "url": "https://simpleflying.com/airlines-are-accepting-brand-new-airbus-a321neos-knowing-theyll-be-grounded-9-days-within-2-years/",
+      "title": "The Aircraft Lockheed Built That Was So Fast Even The Pilots Who Flew It Don't Fully Understand How It Worked",
+      "description": "To this day, the Lockheed SR-71 Blackbird remains the fastest crewed, air-breathing aircraft ever to enter service. The aerodynamics of the plane and the unique titanium alloy that Skunk Works crafted it from were crucial elements and enabled this incredible plane to fly as fast as it did, but its…",
+      "url": "https://simpleflying.com/aircraft-lockheed-built-so-fast-even-pilots-dont-fully-understand-worked/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-09T23:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/airlines-are-accepting-brand-new-airbus-a321neos-knowing-they-ll-be-grounded-9-days-within-2-years.jpg"
+      "author": "Luke Diaz",
+      "published_at": "2026-10-11T09:15:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/the-aircraft-lockheed-built-that-was-so-fast-even-the-pilots-who-flew-it-don-t-fully-understand-how-it-worked.jpg"
+    },
+    {
+      "title": "On Our Radar: August’s Aviation Picks From FLYING Magazine",
+      "description": "Here is a collection of editor-recommended aviation products and services that are worth a closer look. From practical tools to thoughtful solutions, this is what caught our eye in the August Issue 973 of the FLYING print edition. This Article First Appeared in FLYING Magazine If you're not already…",
+      "url": "https://www.flyingmag.com/on-our-radar-augusts-aviation-picks-from-flying-magazine/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-10T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "This 1911 Wright Model B Is a Meticulously Crafted, Historical ‘AircraftForSale’ Top Pick",
@@ -114,7 +114,7 @@
     {
       "title": "Bringing the airport to the community",
       "description": "On October 3, Maryland’s Frederick Municipal Airport hosted the Frederick Festival of Flight for the fourth time.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-08T21:45:22Z",
@@ -123,7 +123,7 @@
     {
       "title": "October surprise: FAA does not care what your hangar costs",
       "description": "The FAA on October 7 effectively declared open season on hangar rent gouging, siding with a Denver FBO in a Part 13 complaint that the agency decided without publicly available evidence to support claims the 82-percent rent hike is \"fair and reasonable\" to pilots.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-08T17:32:05Z",
@@ -166,18 +166,9 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-07-at-10.20.04-AM.jpg?w=1024"
     },
     {
-      "title": "NTSB: TV News Helicopter Descended Rapidly Before Fatal Crash",
-      "description": "The Airbus AS-350 B2 helicopter that fatally crashed in a neighborhood of Los Angeles in September was descending rapidly before striking a metal storage container, according to the National Transportation Safety Board’s investigation preliminary report . The accident occurred September 15 around…",
-      "url": "https://www.flyingmag.com/ntsb-news-helicopter-prelim-investigation-report/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-07T20:30:00Z",
-      "image": null
-    },
-    {
       "title": "FAA revises proposed Alaska airspace overhaul",
       "description": "The FAA is proposing changing the floor of controlled airspace over Alaska to make services more widely available to pilots flying under instrument flight rules.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-07T17:21:29Z",
@@ -186,7 +177,7 @@
     {
       "title": "Aircraft Maintenance: Night flight preparations",
       "description": "The arrival of fall brings cooler temperatures, shorter days, and the changing of the clocks, inevitably leading to more time flying at night. It pays to ensure that you and your aircraft are well prepared before launching into the dark skies.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-06T22:02:49Z",
@@ -195,7 +186,7 @@
     {
       "title": "EASA grounds all Elixir aircraft",
       "description": "The European Union Aviation Safety Agency grounded all Elixir aircraft effective October 3 after two company pilots died in an accident involving the two-seat French trainer.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-06T16:52:50Z",
