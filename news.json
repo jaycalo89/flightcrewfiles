@@ -1,70 +1,106 @@
 {
-  "generated_at": "2026-10-11T18:46:01.817903+00:00",
+  "generated_at": "2026-10-12T21:06:20.776354+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 21,
+  "count": 22,
   "articles": [
     {
-      "title": "More Cargo Capacity: Alaska Airlines To Retire Boeing 737-700 Fleet By Next Year",
-      "description": "Alaska Airlines is preparing to phase out its Boeing 737-700 passenger fleet by 2027 to make room for larger aircraft that can carry more passengers and cargo. The transition matters in remote Arctic areas, where air travel is essential to connect isolated communities and transport goods. Replacing…",
-      "url": "https://simpleflying.com/alaska-air-lines-retire-boeing-737-700-fleet-2027/",
+      "title": "Airbus A350 Vs. Boeing 787 Dreamliner: Which Has The Quieter Cabin?",
+      "description": "The Airbus A350 and the Boeing 787 Dreamliner are two of the defining long-haul aircraft of the modern era, and both were designed with passenger comfort as an important part of their appeal . That includes the sound inside the cabin, where even small reductions can make a noticeable difference…",
+      "url": "https://simpleflying.com/airbus-a350-900-vs-boeing-787-9-quieter-cabin/",
       "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-11T18:39:28Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2640590967_cropped.jpg"
+      "author": "Steven Walker",
+      "published_at": "2026-10-12T21:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-787-9-miles-20261006-132517.jpg"
     },
     {
-      "title": "Why 27 Grounded Trainer Jets In North Wales Threaten The UK's Entire Fast-Jet Pilot Pipeline",
-      "description": "Following a crash on September 23, the Royal Air Force (RAF) grounded its entire fleet of BAE Hawk T2 planes. The 27-strong flightline of light jets now sits idle at RAF Valley in North Wales. This has brought the pipeline of fast-jet pilot trainees to a halt. As it stands now, none of the student…",
-      "url": "https://simpleflying.com/27-grounded-trainer-jets-north-wales-threaten-uk-entire-fast-jet-pilot-pipeline/",
+      "title": "Southwest Airlines Now Planning To Build Lounge At Orlando International Airport",
+      "description": "Southwest Airlines is planning for a lounge at Orlando International Airport (MCO) that would add another major airport to the airline’s emerging premium offering, although the project has not yet been formally announced by the carrier. Airport planning documents identify dedicated airline club…",
+      "url": "https://simpleflying.com/southwest-airlines-planning-build-lounge-orlando-international-airport/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-10-12T20:46:50Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-real-reason-why-southwest-airlines-is-trying-to-get-rid-of-its-boeing-737ngs-as-quickly-as-possible.jpg"
+    },
+    {
+      "title": "Alaska Airlines Cancels 11 International Routes: See Full List Now",
+      "description": "Alaska Airlines is the United States' sixth-largest international operator by flights. In 2026, OAG data shows that it has an average of 43 daily services, primarily, of course, to Canada and Mexico. Currently, the international arena accounts for only 3% of the oneworld member's total activity.",
+      "url": "https://simpleflying.com/alaska-airlines-cancels-11-international-nonstop-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-12T20:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/066-alaska-airlines-boeing-737-900-ian-dewar-photography_-shutterstock.jpg"
+    },
+    {
+      "title": "Breeze Airways Launches 7 New International Nonstop Routes: See List Now",
+      "description": "From October onward, Breeze Airways will launch seven new international routes. When they all take off, 13 links beyond the United States border will exist, including five from Tampa International Airport (TPA). That's the only Florida airport from which Breeze currently operates internationally.",
+      "url": "https://simpleflying.com/breeze-airways-launches-7-new-international-nonstop-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-12T19:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/copy-of-35-breeze-airways-airbus-a220-robin-guess-_-shutterstock.jpg"
+    },
+    {
+      "title": "Why American Airlines' 2nd-Largest Hub Is Betting The Next Decade On A Runway That Behaves Like A Connected Device",
+      "description": "It's difficult to overstate just how much of a titan American Airlines is within the domestic US market. DFW is, of course, a powerhouse that nearly rivals Delta's legendary Atlanta hub, but the carrier has also grown Charlotte Douglas International Airport (CLT), a hub inherited from the US…",
+      "url": "https://simpleflying.com/american-airlines-2nd-largest-hub-betting-next-decade-runway-behaves-connected-device/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-10-12T19:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/whyame_1.JPG"
+    },
+    {
+      "title": "United Airlines' 11 Longest Nonstop Boeing 737 MAX Routes In 2026",
+      "description": "United Airlines is pushing its Boeing 737 MAX fleet to new limits, deploying the narrowbody aircraft on nonstop flights exceeding 3,300 miles (5,311 km). From Alaska to the Atlantic , the MAX 8 and MAX 9 have become increasingly important to the carrier's long-distance network, supporting routes…",
+      "url": "https://simpleflying.com/united-airlines-longest-737-max-flights-2026/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-12T18:06:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united_737_centered_1920x1080.jpg"
+    },
+    {
+      "title": "The Airlines With The World’s Longest Legroom In Economy In 2026",
+      "description": "Flying in basic economy is not always a pleasant experience, as many find it cramped and uncomfortable due to small seats and not enough space between rows in the densest section of the plane. As such, when it comes to booking your next flight in the back of the jet, especially for a long-haul…",
+      "url": "https://simpleflying.com/airlines-with-worlds-longest-legroom-economy-seats-in-2026/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-11T18:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/27-grounded-trainer-jets.png"
+      "published_at": "2026-10-12T17:30:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/longest-legroom.jpg"
     },
     {
-      "title": "The Aircraft Replacing The F-16 Falcon",
-      "description": "Since the late 1970s, General Dynamics’ (later Lockheed Martin’s ) F-16 Fighting Falcon has been a workhorse light fighter for the United States and many allies. Its fundamental design and systems are from a time when all-digital cockpits, networked data links, and stealth technology were all…",
-      "url": "https://simpleflying.com/the-aircraft-replacing-the-f-16-falcon/",
+      "title": "Frontier & Southwest Airlines Allow 24-Inch Carry-Ons, But TSA's New CT Scanners Leave Half An Inch To Spare",
+      "description": "Air travelers flying with larger carry-on bags are facing a new practical constraint at US airport security checkpoints. Frontier Airlines and Southwest Airlines both allow cabin bags measuring up to 24 by 16 by 10 inches (61 by 41 by 25 cm), while the newer computed tomography, or CT, scanners…",
+      "url": "https://simpleflying.com/frontier-southwest-airlines-allow-24-inch-carry-ons-tsa-new-ct-scanners-hald-inch-spare/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-11T17:30:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/f-16-fighter-jets-appeared-in-ukrainian-skies-in-august-2024.avif"
+      "author": "Jack McGarity",
+      "published_at": "2026-10-12T17:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-allow-24.png"
     },
     {
-      "title": "5 Things To Know About Boeing's $20 Billion US Navy Next-Generation Fighter Contract",
-      "description": "Despite chronic delivery problems in its defense division, Boeing was officially awarded the contract for the US Navy's first sixth-generation fighter, the F/A-XX. The Pentagon announced on September 29 that Boeing won the highly contested full-scale engineering and manufacturing development…",
-      "url": "https://simpleflying.com/things-know-boeing-20-billion-us-navy-next-generation-fighter-contract/",
+      "title": "Amsterdam-Bound United Airlines Boeing 767 Diverts To St. John's Amid Alleged Engine Shutdown",
+      "description": "In the early hours of this morning, a United Airlines Boeing 767 operating flight UA-946 was forced to divert to St. John's International Airport (YYT) in Newfoundland, Canada. This aircraft had taken off from Washington Dulles International Airport (IAD) and was en route to Amsterdam Airport…",
+      "url": "https://simpleflying.com/united-airlines-boeing-767-engine-shutdown-st-johns-diversion/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-11T14:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/5-things-to-know-about-boeing-s-20-billion-us-navy-next-generation-fighter-contract.jpg"
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-12T16:24:40Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/323-united-airlines-boeing-767-400-michael-derrer-fuchs-_-shutterstock.jpg"
     },
     {
-      "title": "Etihad Airways Launches Incredible 24 New Routes: See Full List Now",
-      "description": "We are just weeks away from seeing a new connection between the Middle East and Alberta, Canada, as Etihad Airways prepares to launch a new route between Abu Dhabi International Airport (AUH) and Calgary International Airport (YYC) . Earlier this year, the airline also launched flights to Charlotte…",
-      "url": "https://simpleflying.com/etihad-airways-launches-24-new-routes/",
+      "title": "The Rise & Fall Of The Boeing 747 At The Big 3 US Legacy Carriers",
+      "description": "The Boeing 747 once represented the ultimate expression of American airline ambition. American Airlines , United Airlines , and Delta Air Lines all operated the jumbo jet, but their relationships with it followed very different paths. American moved away from the type relatively early, United kept…",
+      "url": "https://simpleflying.com/rise-fall-boeing-747-big-3-us-legacy-carriers/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-11T12:56:53Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2390224277_cropped.jpg"
+      "author": "Jack McGarity",
+      "published_at": "2026-10-12T16:00:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-747.png"
     },
     {
-      "title": "These Are The Airlines With The World's Longest Legroom In Economy In 2026",
-      "description": "The average economy seat pitch has fallen from roughly 35 inches (89 cm) in the 1970s to around 30 today, and no regulator sets a minimum anywhere. The FAA requires that an aircraft be evacuated within 90 seconds, which caps total seat count, but the rules say nothing about how far apart those…",
-      "url": "https://simpleflying.com/airlines-worlds-longest-economy-legroom-2026/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-10-11T11:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-world-s-longest-legroom.png"
-    },
-    {
-      "title": "The Aircraft Lockheed Built That Was So Fast Even The Pilots Who Flew It Don't Fully Understand How It Worked",
-      "description": "To this day, the Lockheed SR-71 Blackbird remains the fastest crewed, air-breathing aircraft ever to enter service. The aerodynamics of the plane and the unique titanium alloy that Skunk Works crafted it from were crucial elements and enabled this incredible plane to fly as fast as it did, but its…",
-      "url": "https://simpleflying.com/aircraft-lockheed-built-so-fast-even-pilots-dont-fully-understand-worked/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-11T09:15:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/the-aircraft-lockheed-built-that-was-so-fast-even-the-pilots-who-flew-it-don-t-fully-understand-how-it-worked.jpg"
+      "title": "This 1990 SOCATA TB-20 Trinidad Is a Glass-Panel-Upgraded ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1990 SOCATA TB-20 Trinidad. Combining…",
+      "url": "https://www.flyingmag.com/this-1990-socata-tb-20-trinidad-is-a-glass-panel-upgraded-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-12T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-1.50.49-PM.jpg?w=1024"
     },
     {
       "title": "On Our Radar: August’s Aviation Picks From FLYING Magazine",
@@ -114,7 +150,7 @@
     {
       "title": "Bringing the airport to the community",
       "description": "On October 3, Maryland’s Frederick Municipal Airport hosted the Frederick Festival of Flight for the fourth time.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-08T21:45:22Z",
@@ -123,52 +159,25 @@
     {
       "title": "October surprise: FAA does not care what your hangar costs",
       "description": "The FAA on October 7 effectively declared open season on hangar rent gouging, siding with a Denver FBO in a Part 13 complaint that the agency decided without publicly available evidence to support claims the 82-percent rent hike is \"fair and reasonable\" to pilots.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-08T17:32:05Z",
       "image": null
     },
     {
-      "title": "Man Arrested After Allegedly Stealing Tug at John Wayne Airport",
-      "description": "An unusual and potentially dangerous situation unfolded Tuesday evening at John Wayne Airport (KSNA) in California. Airport police services arrested a Delta Air Lines passenger who breached a gate, stole an Alaska Airlines tug, crashed it, and then attempted to commandeer an American Airlines…",
-      "url": "https://www.flyingmag.com/man-arrested-stolen-tug-john-wayne-airport/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-08T16:00:00Z",
+      "title": "Burke Lakefront Stakeholders Urge Airport Investment at Cleveland City Council Hearing",
+      "description": "CLEVELAND—The Lakefront Airport Preservation Partnership (LAPP)—a coalition made up of local businesses, schools, and pilots in Cleveland, as well as national aviation organizations—laid out plans for future investments and opportunities at Burke Lakefront Airport to the Cleveland City Council’s…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/pr-burke-lakefront-stakeholders-urge-airport-investment-at-cleveland-city-council-hearing?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-08T00:59:00Z",
       "image": null
-    },
-    {
-      "title": "Northrop Grumman’s Talon Blue Conducts First Autonomous Flight",
-      "description": "Northrop Grumman’s YFQ-48A Talon Blue, a candidate for a production contract under the U.S. Army’s Collaborative Combat Aircraft ( CCA ) program, completed its first fully autonomous flight, the manufacturer announced Saturday. The flight, which took place in Mojave, California, included autonomous…",
-      "url": "https://www.flyingmag.com/northrop-grumman-talon-blue-autonomous-flight/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-08T15:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Food Truck Fly-In Returns to San Martin Airport",
-      "description": "If your travels take you south of San Jose, California, on October 17, you may want to pay a visit to San Martin Airport (E16) for the Food Truck Fly-In . The annual event is organized by the South County Airport Pilots Association (SCAPA), a chapter of the California Pilots Association. Admission…",
-      "url": "https://www.flyingmag.com/food-truck-fly-in-returns-to-san-martin-airport/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-08T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/FTFI-26-e1791399889449.jpg?w=1024"
-    },
-    {
-      "title": "This 1974 Cessna A185F Skywagon Is an Off-Grid-Ready ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1974 Cessna A185F Skywagon. Few…",
-      "url": "https://www.flyingmag.com/this-1974-cessna-a185f-skywagon-is-an-off-grid-ready-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-08T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-07-at-10.20.04-AM.jpg?w=1024"
     },
     {
       "title": "FAA revises proposed Alaska airspace overhaul",
       "description": "The FAA is proposing changing the floor of controlled airspace over Alaska to make services more widely available to pilots flying under instrument flight rules.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-07T17:21:29Z",
@@ -177,7 +186,7 @@
     {
       "title": "Aircraft Maintenance: Night flight preparations",
       "description": "The arrival of fall brings cooler temperatures, shorter days, and the changing of the clocks, inevitably leading to more time flying at night. It pays to ensure that you and your aircraft are well prepared before launching into the dark skies.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-06T22:02:49Z",
@@ -186,7 +195,7 @@
     {
       "title": "EASA grounds all Elixir aircraft",
       "description": "The European Union Aviation Safety Agency grounded all Elixir aircraft effective October 3 after two company pilots died in an accident involving the two-seat French trainer.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-06T16:52:50Z",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:46:09.750916+00:00",
+  "generated_at": "2026-10-12T21:06:27.285903+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
       "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
-      "points": 10,
-      "num_comments": 5,
+      "points": 9,
+      "num_comments": 4,
       "source": "Aviation Stack Exchange",
       "created_utc": 1791217644
     },
@@ -34,7 +34,7 @@
       "title": "Deleting a required hold on a Localizer",
       "url": "https://aviation.stackexchange.com/questions/115631/deleting-a-required-hold-on-a-localizer",
       "points": 0,
-      "num_comments": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1791471693
     },
