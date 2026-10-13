@@ -1,204 +1,96 @@
 {
-  "generated_at": "2026-10-12T21:06:20.776354+00:00",
+  "generated_at": "2026-10-13T21:46:54.034492+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 10,
   "articles": [
     {
-      "title": "Airbus A350 Vs. Boeing 787 Dreamliner: Which Has The Quieter Cabin?",
-      "description": "The Airbus A350 and the Boeing 787 Dreamliner are two of the defining long-haul aircraft of the modern era, and both were designed with passenger comfort as an important part of their appeal . That includes the sound inside the cabin, where even small reductions can make a noticeable difference…",
-      "url": "https://simpleflying.com/airbus-a350-900-vs-boeing-787-9-quieter-cabin/",
+      "title": "Delta Air Lines' Major New 18-Hour Ultra-Long Nonstop Route: See Flights Now",
+      "description": "Delta Air Lines is inching closer and closer to announcing a new nonstop service to Asia . Rumours have been swirling for weeks that the SkyTeam carrier will debut in Singapore Changi Airport (SIN), with the airline likely to begin flying from Los Angeles International Airport (LAX) or…",
+      "url": "https://simpleflying.com/delta-air-lines-major-new-18-hour-route/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-10-12T21:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-787-9-miles-20261006-132517.jpg"
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-13T21:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-delta-air-lines-1791703198636-1.jpg"
     },
     {
-      "title": "Southwest Airlines Now Planning To Build Lounge At Orlando International Airport",
-      "description": "Southwest Airlines is planning for a lounge at Orlando International Airport (MCO) that would add another major airport to the airline’s emerging premium offering, although the project has not yet been formally announced by the carrier. Airport planning documents identify dedicated airline club…",
-      "url": "https://simpleflying.com/southwest-airlines-planning-build-lounge-orlando-international-airport/",
+      "title": "WestJet Cancels 10 Routes To The US: See Affected Flights Now",
+      "description": "Canada's second-largest airline by fleet size and passenger numbers, WestJet has shaved ten routes from its US network this year, as the airline continues to re-evaluate travel demand in its southern neighbor. The airline has suggested that the drop in demand for travel to America stems not only…",
+      "url": "https://simpleflying.com/westjet-cancels-10-routes-to-the-us-see-affected-flights-now/",
       "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-10-12T20:46:50Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-real-reason-why-southwest-airlines-is-trying-to-get-rid-of-its-boeing-737ngs-as-quickly-as-possible.jpg"
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-13T20:01:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet-boeing-737-max-8-above-toronto.jpg"
     },
     {
-      "title": "Alaska Airlines Cancels 11 International Routes: See Full List Now",
-      "description": "Alaska Airlines is the United States' sixth-largest international operator by flights. In 2026, OAG data shows that it has an average of 43 daily services, primarily, of course, to Canada and Mexico. Currently, the international arena accounts for only 3% of the oneworld member's total activity.",
-      "url": "https://simpleflying.com/alaska-airlines-cancels-11-international-nonstop-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-12T20:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/066-alaska-airlines-boeing-737-900-ian-dewar-photography_-shutterstock.jpg"
-    },
-    {
-      "title": "Breeze Airways Launches 7 New International Nonstop Routes: See List Now",
-      "description": "From October onward, Breeze Airways will launch seven new international routes. When they all take off, 13 links beyond the United States border will exist, including five from Tampa International Airport (TPA). That's the only Florida airport from which Breeze currently operates internationally.",
-      "url": "https://simpleflying.com/breeze-airways-launches-7-new-international-nonstop-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-12T19:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/copy-of-35-breeze-airways-airbus-a220-robin-guess-_-shutterstock.jpg"
-    },
-    {
-      "title": "Why American Airlines' 2nd-Largest Hub Is Betting The Next Decade On A Runway That Behaves Like A Connected Device",
-      "description": "It's difficult to overstate just how much of a titan American Airlines is within the domestic US market. DFW is, of course, a powerhouse that nearly rivals Delta's legendary Atlanta hub, but the carrier has also grown Charlotte Douglas International Airport (CLT), a hub inherited from the US…",
-      "url": "https://simpleflying.com/american-airlines-2nd-largest-hub-betting-next-decade-runway-behaves-connected-device/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-10-12T19:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/whyame_1.JPG"
-    },
-    {
-      "title": "United Airlines' 11 Longest Nonstop Boeing 737 MAX Routes In 2026",
-      "description": "United Airlines is pushing its Boeing 737 MAX fleet to new limits, deploying the narrowbody aircraft on nonstop flights exceeding 3,300 miles (5,311 km). From Alaska to the Atlantic , the MAX 8 and MAX 9 have become increasingly important to the carrier's long-distance network, supporting routes…",
-      "url": "https://simpleflying.com/united-airlines-longest-737-max-flights-2026/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-12T18:06:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united_737_centered_1920x1080.jpg"
-    },
-    {
-      "title": "The Airlines With The World’s Longest Legroom In Economy In 2026",
-      "description": "Flying in basic economy is not always a pleasant experience, as many find it cramped and uncomfortable due to small seats and not enough space between rows in the densest section of the plane. As such, when it comes to booking your next flight in the back of the jet, especially for a long-haul…",
-      "url": "https://simpleflying.com/airlines-with-worlds-longest-legroom-economy-seats-in-2026/",
+      "title": "American Airlines' 1959 Boeing 707 Debut: How The Jet Age Went Coast To Coast",
+      "description": "The 'Jet Age' officially began on January 25, 1959, when an American Airlines Boeing 707 raced from Los Angeles to New York in just a few hours for the first time. The historic flight was heralded for effectively shrinking the nation in half as it slashed the travel time down by 50% over propeller…",
+      "url": "https://simpleflying.com/american-airlines-1959-boeing-707-debut-coast-coast/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-12T17:30:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/01/longest-legroom.jpg"
+      "published_at": "2026-10-13T20:01:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american-airlines-1959-boeing-707.png"
     },
     {
-      "title": "Frontier & Southwest Airlines Allow 24-Inch Carry-Ons, But TSA's New CT Scanners Leave Half An Inch To Spare",
-      "description": "Air travelers flying with larger carry-on bags are facing a new practical constraint at US airport security checkpoints. Frontier Airlines and Southwest Airlines both allow cabin bags measuring up to 24 by 16 by 10 inches (61 by 41 by 25 cm), while the newer computed tomography, or CT, scanners…",
-      "url": "https://simpleflying.com/frontier-southwest-airlines-allow-24-inch-carry-ons-tsa-new-ct-scanners-hald-inch-spare/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-10-12T17:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-allow-24.png"
-    },
-    {
-      "title": "Amsterdam-Bound United Airlines Boeing 767 Diverts To St. John's Amid Alleged Engine Shutdown",
-      "description": "In the early hours of this morning, a United Airlines Boeing 767 operating flight UA-946 was forced to divert to St. John's International Airport (YYT) in Newfoundland, Canada. This aircraft had taken off from Washington Dulles International Airport (IAD) and was en route to Amsterdam Airport…",
-      "url": "https://simpleflying.com/united-airlines-boeing-767-engine-shutdown-st-johns-diversion/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-12T16:24:40Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/323-united-airlines-boeing-767-400-michael-derrer-fuchs-_-shutterstock.jpg"
-    },
-    {
-      "title": "The Rise & Fall Of The Boeing 747 At The Big 3 US Legacy Carriers",
-      "description": "The Boeing 747 once represented the ultimate expression of American airline ambition. American Airlines , United Airlines , and Delta Air Lines all operated the jumbo jet, but their relationships with it followed very different paths. American moved away from the type relatively early, United kept…",
-      "url": "https://simpleflying.com/rise-fall-boeing-747-big-3-us-legacy-carriers/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-10-12T16:00:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-747.png"
-    },
-    {
-      "title": "This 1990 SOCATA TB-20 Trinidad Is a Glass-Panel-Upgraded ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1990 SOCATA TB-20 Trinidad. Combining…",
-      "url": "https://www.flyingmag.com/this-1990-socata-tb-20-trinidad-is-a-glass-panel-upgraded-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-12T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-1.50.49-PM.jpg?w=1024"
-    },
-    {
-      "title": "On Our Radar: August’s Aviation Picks From FLYING Magazine",
-      "description": "Here is a collection of editor-recommended aviation products and services that are worth a closer look. From practical tools to thoughtful solutions, this is what caught our eye in the August Issue 973 of the FLYING print edition. This Article First Appeared in FLYING Magazine If you're not already…",
-      "url": "https://www.flyingmag.com/on-our-radar-augusts-aviation-picks-from-flying-magazine/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-10T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "This 1911 Wright Model B Is a Meticulously Crafted, Historical ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1911 Wright Model B replica. We often…",
-      "url": "https://www.flyingmag.com/this-1911-wright-model-b-is-a-meticulously-crafted-historical-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-09T19:15:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot_20261009_124623_Chrome.jpg"
-    },
-    {
-      "title": "NTSB: Misfueling Led to Cessna 421 Crash",
-      "description": "The only good that comes out of aviation accidents is that learning can take place. The National Transportation Safety Board ( NTSB) investigation into the August crash of a Cessna 421 near Fulton, Kentucky, has concluded in its final report that the aircraft lost power in flight due to the…",
-      "url": "https://www.flyingmag.com/ntsb-misfueling-led-to-cessna-421-crash/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-09T16:00:00Z",
-      "image": null
-    },
-    {
-      "title": "STEM Next Flight Crew Opens Applications for 2027 Youth Ambassadors",
-      "description": "Are you a teen between the ages of 13-18 who benefited from out-of-school STEM experiences? Would you like to encourage more of your peers to participate in STEM? If so, the STEM Next Flight Crew may have a place for you. The STEM Next Flight Crew is a national youth leadership program designed for…",
-      "url": "https://www.flyingmag.com/stem-next-flight-crew-opens-applications-for-2027-youth-ambassadors/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-09T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Simpler Way to Fly: How Modern Cockpits Are Changing Aviation",
-      "description": "My heart leapt out of my chest when Chris Caputo—the pilot who flew me on Beta Technologies ’ all-electric Alia CX300 in June—said two simple words. “Your controls.” I visited Beta’s Burlington, Vermont, facilities to cover the manufacturer’s inaugural media day. Fortunately, a quick look around…",
-      "url": "https://www.flyingmag.com/simpler-way-to-fly-how-modern-cockpits-are-changing-aviation/",
+      "title": "AOPA, Lawmakers Fight Tenant Evictions at Andover-Aeroflex Airport",
+      "description": "The Aircraft Owners and Pilots Association is fighting the sudden eviction of tenants from Aeroflex-Andover Airport (12N) in New Jersey, one of only two general aviation facilities in Sussex County. AOPA said Monday that its representatives last week met with senior advisers to New Jersey Governor…",
+      "url": "https://www.flyingmag.com/aopa-lawmakers-tenant-evictions-andover-airport/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-10-09T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Bringing the airport to the community",
-      "description": "On October 3, Maryland’s Frederick Municipal Airport hosted the Frederick Festival of Flight for the fourth time.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-08T21:45:22Z",
+      "published_at": "2026-10-13T19:30:00Z",
       "image": null
     },
     {
-      "title": "October surprise: FAA does not care what your hangar costs",
-      "description": "The FAA on October 7 effectively declared open season on hangar rent gouging, siding with a Denver FBO in a Part 13 complaint that the agency decided without publicly available evidence to support claims the 82-percent rent hike is \"fair and reasonable\" to pilots.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/faa-does-not-care-what-your-hangar-costs?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-08T17:32:05Z",
-      "image": null
+      "title": "Bomb Threat Forces Isolation Of Delta A330 At Tel Aviv Airport",
+      "description": "A Delta Air Lines Airbus A330neo was isolated at Israel’s Ben Gurion International Airport (TLV) earlier today after an anonymous bomb threat claimed an explosive device was located in the aircraft’s cargo hold. The flight, DL234, had arrived from New York John F. Kennedy International Airport…",
+      "url": "https://simpleflying.com/bomb-threat-delta-a330-isolation-tel-aviv-airport/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-10-13T18:27:44Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/04/delta-a330neo-shutterstock_2538300979-1.jpg"
     },
     {
-      "title": "Burke Lakefront Stakeholders Urge Airport Investment at Cleveland City Council Hearing",
-      "description": "CLEVELAND—The Lakefront Airport Preservation Partnership (LAPP)—a coalition made up of local businesses, schools, and pilots in Cleveland, as well as national aviation organizations—laid out plans for future investments and opportunities at Burke Lakefront Airport to the Cleveland City Council’s…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/pr-burke-lakefront-stakeholders-urge-airport-investment-at-cleveland-city-council-hearing?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-08T00:59:00Z",
-      "image": null
+      "title": "American Airlines Cancels All Flights To 3 Destinations: See Full List Now",
+      "description": "Fort Worth-based American Airlines has axed three destinations from its route map this calendar year, with the airline fully withdrawing from one domestic destination and two international gateways. The airline canceled its services to Doha Hamad International Airport (DOH) in March, two months…",
+      "url": "https://simpleflying.com/american-airlines-cancels-all-flights-to-3-destinations/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-13T18:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/american-airlines-boeing-787-9.jpg"
     },
     {
-      "title": "FAA revises proposed Alaska airspace overhaul",
-      "description": "The FAA is proposing changing the floor of controlled airspace over Alaska to make services more widely available to pilots flying under instrument flight rules.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/07/faa-revises-proposed-alaska-airspace-overhaul?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-07T17:21:29Z",
-      "image": null
+      "title": "Only 63 Miles: Southwest Airlines' 15 New Ultra-Short Routes In 2026",
+      "description": "Southwest Airlines is the world's fourth-largest airline for flights in 2026. On a typical day, 3,937 movements (takeoffs and landings combined) are available, up by nearly 1% year-on-year. However, the hybrid operator's activity in 2023 and 2024 was higher.",
+      "url": "https://simpleflying.com/only-63-miles-southwest-airlines-15-new-ultra-short-routes-in-2026/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-13T17:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-737-touches-down-at-san-diego-international.jpg"
     },
     {
-      "title": "Aircraft Maintenance: Night flight preparations",
-      "description": "The arrival of fall brings cooler temperatures, shorter days, and the changing of the clocks, inevitably leading to more time flying at night. It pays to ensure that you and your aircraft are well prepared before launching into the dark skies.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/aircraft-maintenance-night-flight-preparations?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-06T22:02:49Z",
-      "image": null
+      "title": "Flight Forced To U-Turn Over Israel’s Strict New Pilot Rules",
+      "description": "On October 12, an Ethiopian Airlines cargo Boeing 737 took off on a flight from Addis Ababa’s Bole International Airport (ADD) to Tel Aviv’s Ben Gurion Airport (TLV). After a short flight, it returned to Addis Ababa because the jet had an Indonesian pilot onboard.",
+      "url": "https://simpleflying.com/israel-pilot-rules-force-ethiopian-airlines-diversion/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-13T16:45:43Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-boeing-737-800sf-ethiopian-airlines-1791909323668.jpg"
     },
     {
-      "title": "EASA grounds all Elixir aircraft",
-      "description": "The European Union Aviation Safety Agency grounded all Elixir aircraft effective October 3 after two company pilots died in an accident involving the two-seat French trainer.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/06/easa-grounds-all-elixir-aircraft?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-06T16:52:50Z",
+      "title": "This 2017 Diamond DA62 Is a Fully Equipped ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2017 Diamond DA62. Blending the…",
+      "url": "https://www.flyingmag.com/this-2017-diamond-da62-is-a-fully-equipped-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-13T15:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-9.53.29-AM.png?w=1024"
+    },
+    {
+      "title": "Deciphering Weather for Solo Flight",
+      "description": "The learner said he was supposed to do his first solo flight that day. He had the airplane reserved from 9 a.m. to 11 a.m. He was supposed to be at the flight school by 8:30 a.m. but was a little late because it was a foggy morning. The local weather broadcasters and traffic reporters were warning…",
+      "url": "https://www.flyingmag.com/deciphering-weather-for-solo-flight/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-13T14:30:00Z",
       "image": null
     }
   ]
