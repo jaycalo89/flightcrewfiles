@@ -1,96 +1,150 @@
 {
-  "generated_at": "2026-10-13T21:46:54.034492+00:00",
+  "generated_at": "2026-10-15T17:57:27.009021+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 10,
+  "count": 16,
   "articles": [
     {
-      "title": "Delta Air Lines' Major New 18-Hour Ultra-Long Nonstop Route: See Flights Now",
-      "description": "Delta Air Lines is inching closer and closer to announcing a new nonstop service to Asia . Rumours have been swirling for weeks that the SkyTeam carrier will debut in Singapore Changi Airport (SIN), with the airline likely to begin flying from Los Angeles International Airport (LAX) or…",
-      "url": "https://simpleflying.com/delta-air-lines-major-new-18-hour-route/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-13T21:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-delta-air-lines-1791703198636-1.jpg"
-    },
-    {
-      "title": "WestJet Cancels 10 Routes To The US: See Affected Flights Now",
-      "description": "Canada's second-largest airline by fleet size and passenger numbers, WestJet has shaved ten routes from its US network this year, as the airline continues to re-evaluate travel demand in its southern neighbor. The airline has suggested that the drop in demand for travel to America stems not only…",
-      "url": "https://simpleflying.com/westjet-cancels-10-routes-to-the-us-see-affected-flights-now/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-13T20:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet-boeing-737-max-8-above-toronto.jpg"
-    },
-    {
-      "title": "American Airlines' 1959 Boeing 707 Debut: How The Jet Age Went Coast To Coast",
-      "description": "The 'Jet Age' officially began on January 25, 1959, when an American Airlines Boeing 707 raced from Los Angeles to New York in just a few hours for the first time. The historic flight was heralded for effectively shrinking the nation in half as it slashed the travel time down by 50% over propeller…",
-      "url": "https://simpleflying.com/american-airlines-1959-boeing-707-debut-coast-coast/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-13T20:01:14Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american-airlines-1959-boeing-707.png"
-    },
-    {
-      "title": "AOPA, Lawmakers Fight Tenant Evictions at Andover-Aeroflex Airport",
-      "description": "The Aircraft Owners and Pilots Association is fighting the sudden eviction of tenants from Aeroflex-Andover Airport (12N) in New Jersey, one of only two general aviation facilities in Sussex County. AOPA said Monday that its representatives last week met with senior advisers to New Jersey Governor…",
-      "url": "https://www.flyingmag.com/aopa-lawmakers-tenant-evictions-andover-airport/",
+      "title": "FAA Certifies Gogo Galileo HDX for Citation Longitude and Latitude",
+      "description": "Textron Aviation said Thursday that the FAA has certified Gogo’s Galileo HDX low-Earth orbit connectivity solution for factory-new Cessna Citation Longitude and Citation Latitude business jets. Citation Longitude and Latitude models delivered starting in 2028 will be eligible for no-charge…",
+      "url": "https://www.flyingmag.com/faa-certifies-gogo-citation-longitude-latitude/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-10-13T19:30:00Z",
+      "published_at": "2026-10-15T17:00:00Z",
       "image": null
     },
     {
-      "title": "Bomb Threat Forces Isolation Of Delta A330 At Tel Aviv Airport",
-      "description": "A Delta Air Lines Airbus A330neo was isolated at Israel’s Ben Gurion International Airport (TLV) earlier today after an anonymous bomb threat claimed an explosive device was located in the aircraft’s cargo hold. The flight, DL234, had arrived from New York John F. Kennedy International Airport…",
-      "url": "https://simpleflying.com/bomb-threat-delta-a330-isolation-tel-aviv-airport/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-13T18:27:44Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/04/delta-a330neo-shutterstock_2538300979-1.jpg"
-    },
-    {
-      "title": "American Airlines Cancels All Flights To 3 Destinations: See Full List Now",
-      "description": "Fort Worth-based American Airlines has axed three destinations from its route map this calendar year, with the airline fully withdrawing from one domestic destination and two international gateways. The airline canceled its services to Doha Hamad International Airport (DOH) in March, two months…",
-      "url": "https://simpleflying.com/american-airlines-cancels-all-flights-to-3-destinations/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-13T18:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/american-airlines-boeing-787-9.jpg"
-    },
-    {
-      "title": "Only 63 Miles: Southwest Airlines' 15 New Ultra-Short Routes In 2026",
-      "description": "Southwest Airlines is the world's fourth-largest airline for flights in 2026. On a typical day, 3,937 movements (takeoffs and landings combined) are available, up by nearly 1% year-on-year. However, the hybrid operator's activity in 2023 and 2024 was higher.",
-      "url": "https://simpleflying.com/only-63-miles-southwest-airlines-15-new-ultra-short-routes-in-2026/",
+      "title": "Air Canada Reveals New 8-Hour Airbus A321XLR Route To Europe: See Map Now",
+      "description": "On October 14, Air Canada unexpectedly announced another transatlantic route to Europe. Revealed a considerable 11 months ahead of the launch, the Star Alliance member will fly from Montreal to Seville. It'll be the first time that North America has had flights to the European city.",
+      "url": "https://simpleflying.com/air-canada-reveals-new-8-hour-airbus-a321xlr-route-to-europe/",
       "source": "Simple Flying",
       "author": "James Pearson",
-      "published_at": "2026-10-13T17:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-737-touches-down-at-san-diego-international.jpg"
+      "published_at": "2026-10-15T16:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/the-real-reason-why-air-canada-s-new-airbus-a321xlr-couldn-t-hold-down-its-most-important-transatlantic-route.jpg"
     },
     {
-      "title": "Flight Forced To U-Turn Over Israel’s Strict New Pilot Rules",
-      "description": "On October 12, an Ethiopian Airlines cargo Boeing 737 took off on a flight from Addis Ababa’s Bole International Airport (ADD) to Tel Aviv’s Ben Gurion Airport (TLV). After a short flight, it returned to Addis Ababa because the jet had an Indonesian pilot onboard.",
-      "url": "https://simpleflying.com/israel-pilot-rules-force-ethiopian-airlines-diversion/",
+      "title": "FAA Reinstates Flight Deck Training for ATCs",
+      "description": "Air traffic controllers will soon be able to apply for jumpseat access to commercial, general aviation, and military aircraft in order to improve their understanding of the interplay between ATC instructions and the flight deck. The FAA on Wednesday announced the reinstatement of its Flight Deck…",
+      "url": "https://www.flyingmag.com/faa-atc-air-traffic-control-flight-deck-training/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-15T16:00:00Z",
+      "image": null
+    },
+    {
+      "title": "You Can Now Easily See If You Have Starlink If Flying With This US Airline",
+      "description": "United Airlines launched its Starlink WiFi Tracker on Thursday, allowing passengers to learn if their flight will have the capability installed. You can also see whether Starlink is available through pre-flight emails, text notifications, and the flight status page in the United app. Onboard, you…",
+      "url": "https://simpleflying.com/united-airlines-makes-finding-starlink-flights-easier/",
       "source": "Simple Flying",
       "author": "Louis Hardiman",
-      "published_at": "2026-10-13T16:45:43Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-boeing-737-800sf-ethiopian-airlines-1791909323668.jpg"
+      "published_at": "2026-10-15T15:47:54Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/321-united-airlines-boeing-737-max-9-wenjie-zheng-_-shutterstock.jpg"
     },
     {
-      "title": "This 2017 Diamond DA62 Is a Fully Equipped ‘AircraftForSale’ Top Pick",
-      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2017 Diamond DA62. Blending the…",
-      "url": "https://www.flyingmag.com/this-2017-diamond-da62-is-a-fully-equipped-aircraftforsale-top-pick/",
+      "title": "Emirates Launches 8 New Airbus A350 Routes From Dubai: See Full List Now",
+      "description": "Emirates is expanding its Airbus A350 network with eight additional route deployments from Dubai International Airport (DXB) between October and March 2027. The latest expansion covers destinations across Europe, Africa, Asia, the Indian Ocean, and North America, including a new route to Helsinki…",
+      "url": "https://simpleflying.com/emirates-launches-8-new-a350-routes/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-15T15:09:48Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/emirates_a350_no_windsock_1920x1080.jpg"
+    },
+    {
+      "title": "5 Ways Flight Attendants Can Tell First-Time Flyers Are Onboard",
+      "description": "Flying for the first time can be nerve-wracking and overwhelming. There is so much to think about when you get to the airport, from the processes before you finally board the aircraft to figuring out what to do during boarding. From finding your seat and following the seatbelt sign to stowing your…",
+      "url": "https://simpleflying.com/5-ways-flight-attendants-tell-first-time-flyers-onboard/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-10-15T15:01:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/5-ways-flight-attendants.png"
+    },
+    {
+      "title": "This 2001 Piper PA-34-220T Seneca V Is a Well-Kept ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2001 Piper PA-34-220T Seneca V. Few…",
+      "url": "https://www.flyingmag.com/this-2001-piper-pa-34-220t-seneca-v-is-a-well-kept-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "FLYING Staff",
-      "published_at": "2026-10-13T15:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-13-at-9.53.29-AM.png?w=1024"
+      "published_at": "2026-10-15T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-15-at-9.32.03-AM-edited.png?w=1024"
     },
     {
-      "title": "Deciphering Weather for Solo Flight",
-      "description": "The learner said he was supposed to do his first solo flight that day. He had the airplane reserved from 9 a.m. to 11 a.m. He was supposed to be at the flight school by 8:30 a.m. but was a little late because it was a foggy morning. The local weather broadcasters and traffic reporters were warning…",
-      "url": "https://www.flyingmag.com/deciphering-weather-for-solo-flight/",
+      "title": "More Than 2,500 Aircraft Now Equipped With Garmin Autoland",
+      "description": "Integrated flight deck provider Garmin said Wednesday that its Autoland system is now equipped on more than 2,500 aircraft, marking a new milestone for the technology that was initially certified less than seven years ago in May 2020. The Robert J. Collier Trophy-winning technology is the world’s…",
+      "url": "https://www.flyingmag.com/2500-aircraft-equipped-with-garmin-autoland/",
       "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-13T14:30:00Z",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-15T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Southwest Airlines Eyes Boeing 787s: 4 US Cities Most Likely To Get Long-Haul Flights",
+      "description": "Southwest Airlines has been changing dramatically recently, moving it further and further away from its low-cost carrier roots to become a self-styled hybrid operator. It has been doing things that it either could not previously do due to legacy systems or otherwise, or which it decided not to…",
+      "url": "https://simpleflying.com/video/southwest-airlines-eyes-boeing-787s-4-us-cities-most-likely-to-get-long-haul-flights/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-10-15T12:23:14Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-787-ops-s.jpg"
+    },
+    {
+      "title": "‘The Schiff Show’ launches unique aviation educational cruise",
+      "description": "The Schiff Show is reimagining aviation education by offering pilots, mechanics, and aviation enthusiasts a weeklong cruise that combines aviation seminars with a vacation on the Mexican Riviera.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-15T00:54:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Grounds Elixir Trainers",
+      "description": "An FAA airworthiness directive grounding two-seat, single-engine Elixir trainers took effect Wednesday. The agency issued the AD on Tuesday following a fatal accident during a production test flight involving the Elixir earlier this month. The airplane, marketed primarily for training, is…",
+      "url": "https://www.flyingmag.com/faa-airworthiness-directive-elixir-trainers/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-14T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Must Pause Use of AI-Based SMART ATC System, Lawmakers Say",
+      "description": "A group of 25 lawmakers has urged the FAA and U.S. Department of Transportation to pause its use of the AI-based Strategic Management of Airspace, Routes and Trajectories (SMART) system until officials provide more details on how it works and how it will be integrated into air traffic control.…",
+      "url": "https://www.flyingmag.com/faa-urged-to-pause-ai-smart-atc-system/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-14T16:12:36Z",
+      "image": null
+    },
+    {
+      "title": "This 2023 Cessna 182T Skylane Is a Travel-Ready ‘AircraftForSale’ Top Pick",
+      "description": "Every day, the team at Aircraft For Sale chooses an airplane that catches our attention because it is unique, a good deal, or has other qualities we find interesting. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2023 Cessna 182T Skylane. Melding…",
+      "url": "https://www.flyingmag.com/this-2023-cessna-182t-skylane-is-a-travel-ready-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-14T14:15:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-9.44.10-AM.png?w=1024"
+    },
+    {
+      "title": "AOPA Concerned About New Proposed Falcon Field Landing Fees",
+      "description": "MESA, Ariz.—The Aircraft Owners and Pilots Association (AOPA) expressed serious concerns about the city of Mesa’s revised landing fee proposal for general aviation aircraft at Falcon Field.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-14T00:31:35Z",
+      "image": null
+    },
+    {
+      "title": "AOPA Meets with New Jersey Governor’s Office on Future of Aeroflex-Andover Airport",
+      "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) met with several senior advisors to New Jersey Gov. Mikie Sherrill on October 8 to express concern about the push from the New Jersey Department of Environmental Protection (NJDEP) to evict tenants at Aeroflex-Andover Airport.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-13T01:06:04Z",
+      "image": null
+    },
+    {
+      "title": "Bringing the airport to the community",
+      "description": "On October 3, Maryland’s Frederick Municipal Airport hosted the Frederick Festival of Flight for the fourth time.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/08/bringing-the-airport-to-the-community?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-08T21:45:22Z",
       "image": null
     }
   ]

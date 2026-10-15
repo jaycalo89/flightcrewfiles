@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:47:00.521218+00:00",
+  "generated_at": "2026-10-15T17:57:33.257073+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -34,7 +34,7 @@
       "title": "Deleting a required hold on a Localizer",
       "url": "https://aviation.stackexchange.com/questions/115631/deleting-a-required-hold-on-a-localizer",
       "points": 0,
-      "num_comments": 1,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1791471693
     },
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "How do commercial planes detect pressure changes for oxygen mask",
-      "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
-      "points": 9,
-      "num_comments": 3,
+      "title": "Is thrust asymmetry on climb-out unrecoverable?",
+      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790921630
+      "created_utc": 1790732205
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Jet stream wind shear in high altitude manned balloon flight",
-      "url": "https://aviation.stackexchange.com/questions/115620/jet-stream-wind-shear-in-high-altitude-manned-balloon-flight",
-      "points": 11,
-      "num_comments": 1,
+      "title": "How do commercial planes detect pressure changes for oxygen mask",
+      "url": "https://aviation.stackexchange.com/questions/115615/how-do-commercial-planes-detect-pressure-changes-for-oxygen-mask",
+      "points": 9,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791139596
+      "created_utc": 1790921630
     }
   ]
 }
