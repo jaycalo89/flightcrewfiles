@@ -1,88 +1,61 @@
 {
-  "generated_at": "2026-10-17T14:35:42.582580+00:00",
+  "generated_at": "2026-10-18T13:47:03.812376+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 22,
+  "count": 19,
   "articles": [
     {
-      "title": "Why Lufthansa's Retired Boeing 747-400s Could Land At This Dutch Airport But Not Take Off",
-      "description": "It has been more than five decades since the Boeing 747 entered commercial service and almost five years since the last example rolled out of the US planemaker's Everett factory. The aircraft, widely known as the “Queen of the Skies,” is now a rare sight as airlines retire the four-engine jet for…",
-      "url": "https://simpleflying.com/lufthansa-retired-boeing-747-400s-land-dutch-airport-not-take-off/",
+      "title": "The Striking Differences Flight Attendants Notice Working On A Mainline Aircraft Vs. A Regional Jet",
+      "description": "All flight attendants basically have the same duties, no matter what aircraft or where they are in the world. They are responsible for keeping passengers safe and sound during flights and providing onboard service. Safety is always first, and the crew is trained to deal with emergencies such as…",
+      "url": "https://simpleflying.com/striking-differences-flight-attendants-notice-mainline-aircraft-regional-jet/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-17T14:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/retired-boeing-747-400s.png"
+      "author": "Patricia Green",
+      "published_at": "2026-10-18T13:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/striking-differences-flight-attendants.png"
     },
     {
-      "title": "5 Items TSA Confiscates Most At US Airport Checkpoints",
-      "description": "The Transportation Security Administration (TSA) screens roughly 3.3 million carry-on bags every day, and officers say the overwhelming majority of prohibited items they find belong to travelers who simply forgot something was packed. The agency also does not technically confiscate most of what it…",
-      "url": "https://simpleflying.com/5-items-tsa-confiscates-most-us-airport-checkpoints/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-10-17T13:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/5-items-tsa-confiscates-most-at-us-airport-checkpoints.jpg"
-    },
-    {
-      "title": "KLM Reveals Its First 5 Routes For Brand-New Airbus A350s",
-      "description": "Dutch flag carrier KLM Royal Dutch Airlines has revealed the first five routes on which it plans to deploy its brand-new Airbus A350-900s from its hub at Amsterdam Schiphol. The SkyTeam member plans to put the type into service on October 30, which, according AeroRoutes, is a week later than had…",
-      "url": "https://simpleflying.com/video/klm-reveals-its-first-5-routes-for-brand-new-airbus-a350s/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-10-17T12:28:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/klm-a350-routes.jpg"
-    },
-    {
-      "title": "Boeing 737 MAX Vs. COMAC C919: How These Homegrown Airliners Stack Up In 2026",
-      "description": "The Boeing 737 MAX and Comac C919 should be direct rivals. They are both future-facing narrowbody airliners that have become a figurehead for the US and China, respectively. Both jets even use the same engine family: the CFM International LEAP (-1B for the 737 MAX and -1C for the C919).",
-      "url": "https://simpleflying.com/boeing-737-max-comac-c919-homegrown-airlines-stack-up-2026/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-17T12:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-737-max-vs-comac-c919-how-these-homegrown-airliners-stack-up-in-2026.jpg"
-    },
-    {
-      "title": "US Drops Mexican Airline Restrictions A Year After Blocking 13 Mexico City Routes",
-      "description": "The US Department Of Transportation (DOT) has lifted restrictions that prevented Mexican airlines from launching new US routes from Mexico City's two international airports, almost a year after it blocked 13 routes operated or planned by Aeromexico , Volaris and Viva Aerobus . The decision took…",
-      "url": "https://simpleflying.com/us-drops-mexican-airline-restrictions-mexico-city-routes/",
+      "title": "American Airlines Passengers Evacuate Onto Runway After Cabin Haze Forces Emergency Landing",
+      "description": "Passengers on an American Eagle flight to Philadelphia evacuated onto the runway at Lambert St Louis International Airport (STL) on Saturday after their aircraft made an emergency landing shortly after takeoff. Flight AA5089 — operated by American Airlines subsidiary PSA Airlines — turned back…",
+      "url": "https://simpleflying.com/american-airlines-passengers-evacuate-st-louis-runway-odor-emergency-landing/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-10-17T11:53:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/523-aeromexico-boeing-737-max-8-markus-mainka-_-shutterstock.jpg"
+      "published_at": "2026-10-18T12:42:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american-eagle-bombardier-crj900-operated-by-psa-airlines.jpg"
     },
     {
-      "title": "How Many Aircraft Does The US Navy Have In 2026?",
-      "description": "A single figure hardly does justice in summing up the vast and diverse inventory of the Department of the Navy. As the world's second-largest Air Force, the combined Fleet of the US Navy and Marine Corps amounts to over 3,800 airframes. Out of that total between the two service branches, the USN…",
-      "url": "https://simpleflying.com/how-many-aircraft-us-navy-2026/",
+      "title": "Why Qantas Quietly Killed Its Nonstop Perth-London Flight In 2026",
+      "description": "On March 25 2018, the Australian flag carrier Qantas wrote aviation history by becoming the first airline to commence direct non-stop flights between Australia and Europe with a route from Perth International Airport (PER) to London Heathrow Airport (LHR). This historic event marked the first time…",
+      "url": "https://simpleflying.com/why-did-qantas-quietly-kill-its-nonstop-perth-london-flight-in-2026/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-17T11:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-many-aircraft-does-the-us-navy-have-in-2026.jpg"
+      "author": "Nick Pisters",
+      "published_at": "2026-10-18T09:15:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/nonstop-flight.jpg"
     },
     {
-      "title": "Why Boeing May Restart A C-17 Globemaster Production Line It Shut Down 11 Years Ago",
-      "description": "Currently, there is something of an apparent paradox. The United States is by a massive margin the world's foremost expeditionary military power . It operates numerous military bases around the world, including in the Middle East, Europe, and the Western Pacific.",
-      "url": "https://simpleflying.com/why-boeing-restart-c-17-globemaster-production-line-it-shut-down-11-years-ago/",
+      "title": "LATAM Boeing 767 Drops 23,000 Feet As Oxygen Masks Deploy In Midair Emergency",
+      "description": "Passengers onboard a recent LATAM flight from Lima to São Paulo experienced a sudden drop in altitude when the Boeing 767-300 descended 23,000 feet during an emergency descent. This was reportedly due to a sudden loss of cabin pressure, resulting in the oxygen masks deploying in the cabin.",
+      "url": "https://simpleflying.com/latam-boeing-767-oxygen-masks-midair-emergency/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-18T07:42:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-767-300-latam-1792306198584-1.jpg"
+    },
+    {
+      "title": "The Trent XWB-97 Has 4.5 Million Flight Hours Before The GE9X Carries Its First Pound Of Freight",
+      "description": "The economic dynamics of the freighter industry are somewhat different from those of the passenger airline industry . Fuel efficiency remains important to cargo operators, but the economics of freighters place an unusually strong emphasis on aircraft acquisition cost, utilization, payload, and…",
+      "url": "https://simpleflying.com/trent-xwb-97-4-million-flight-hours-before-ge9x-first-pound-freight/",
       "source": "Simple Flying",
       "author": "Aaron Spray",
-      "published_at": "2026-10-17T09:15:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/restart-a-c-17.jpg"
+      "published_at": "2026-10-18T07:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-trent-xwb-97-has-4-5-million-flight-hours-before-the-ge9x-carries-its-first-pound-of-freight.jpg"
     },
     {
-      "title": "8 Largest Airline Loyalty Programs In The World By Disclosed Member Count",
-      "description": "Airline Loyalty Programs have evolved far beyond frequent-flyer schemes designed simply to reward passengers for taking more flights. Today, they are major commercial businesses that connect airlines with credit-card companies, hotels, retailers, car-rental firms, and other everyday brands. A…",
-      "url": "https://simpleflying.com/largest-airline-loyalty-programs-disclosed-member-count/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-17T08:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/deltaskymiles-20260921-154131.jpg"
-    },
-    {
-      "title": "Boeing 737 MAX 10 Could Be Certified Next Week, But Airlines May Refuse Jets Over Software Glitch",
-      "description": "The Boeing 737 MAX 10 could receive its long-awaited certification from the Federal Aviation Administration ( FAA ) as soon as next week, following a successful final type certification board meeting (TCBM) on Friday. The largest variant of the 737 MAX family was originally supposed to enter…",
-      "url": "https://simpleflying.com/boeing-737-max-10-certified-next-week-airlines-software-glitch/",
+      "title": "Woman Trapped In United 737 MAX Lavatory At 35,000 Feet Forces Emergency Descent",
+      "description": "A United Airlines Boeing 737 MAX 8 flying from Seattle to Newark initiated an emergency diversion to Chicago on Tuesday after a 69-year-old passenger became trapped inside a lavatory. The woman got stuck in the rear lavatory while the aircraft cruised at 35,000 feet as flight attendants tried…",
+      "url": "https://simpleflying.com/woman-trapped-united-airlines-737-max-lavatory-emergency-descent/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-10-17T07:52:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2558252015_cropped.jpg"
+      "published_at": "2026-10-18T05:02:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/349-united-airlines-boeing-737-max-8-harrisonkim1-_-shutterstock.jpg"
     },
     {
       "title": "FAA, Air Traffic Controllers Reach Deal for 2.8 Percent Pay Raise",
@@ -114,7 +87,7 @@
     {
       "title": "FAA limits VFR operations at Centennial Airport",
       "description": "The FAA ordered the sudden prohibition of touch-and-goes, restrictions on parallel departures, and limitations on pattern work at Centennial Airport , near Denver, around the first weekend of October.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-16T00:48:00Z",
@@ -123,7 +96,7 @@
     {
       "title": "Eviction notices threaten Aeroflex-Andover Airport",
       "description": "The New Jersey Forest Fire Service has issued eviction notices to tenants at Aeroflex-Andover Airport , requiring them to vacate by December 31, and plans to demolish the airport’s historic hangars, prompting AOPA to meet with gubernatorial staff to contest the decision.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-16T00:14:00Z",
@@ -132,7 +105,7 @@
     {
       "title": "Little airport, big impact",
       "description": "This is the story of how my small, grassroots pilots association took its aviation scholarship program from a small drop-in-the-bucket contribution to an $18,000 offering, thanks to a revamped airport open house, generous sponsors, and the coming together of the south Santa Clara County,…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T21:46:45Z",
@@ -141,7 +114,7 @@
     {
       "title": "City revises Falcon Field landing fee proposal, AOPA concerned",
       "description": "The city of Mesa, Arizona, released a revised landing fee proposal and a long-sought justification for the fees months after its original plan approved by the City Council led to several FAA Part 13 complaints and a federal lawsuit.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T21:41:16Z",
@@ -177,7 +150,7 @@
     {
       "title": "‘The Schiff Show’ launches unique aviation educational cruise",
       "description": "The Schiff Show is reimagining aviation education by offering pilots, mechanics, and aviation enthusiasts a weeklong cruise that combines aviation seminars with a vacation on the Mexican Riviera.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T00:54:00Z",
@@ -186,7 +159,7 @@
     {
       "title": "AOPA Concerned About New Proposed Falcon Field Landing Fees",
       "description": "MESA, Ariz.—The Aircraft Owners and Pilots Association (AOPA) expressed serious concerns about the city of Mesa’s revised landing fee proposal for general aviation aircraft at Falcon Field.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-14T00:31:35Z",
@@ -195,7 +168,7 @@
     {
       "title": "AOPA Meets with New Jersey Governor’s Office on Future of Aeroflex-Andover Airport",
       "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) met with several senior advisors to New Jersey Gov. Mikie Sherrill on October 8 to express concern about the push from the New Jersey Department of Environmental Protection (NJDEP) to evict tenants at Aeroflex-Andover Airport.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-13T01:06:04Z",
