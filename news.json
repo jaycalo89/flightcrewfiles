@@ -1,61 +1,79 @@
 {
-  "generated_at": "2026-10-18T13:47:03.812376+00:00",
+  "generated_at": "2026-10-19T13:58:54.332292+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 19,
   "articles": [
     {
-      "title": "The Striking Differences Flight Attendants Notice Working On A Mainline Aircraft Vs. A Regional Jet",
-      "description": "All flight attendants basically have the same duties, no matter what aircraft or where they are in the world. They are responsible for keeping passengers safe and sound during flights and providing onboard service. Safety is always first, and the crew is trained to deal with emergencies such as…",
-      "url": "https://simpleflying.com/striking-differences-flight-attendants-notice-mainline-aircraft-regional-jet/",
+      "title": "The US Navy Retired Its Most Capable Submarine-Hunting Aircraft & Replaced It With A Step Backward",
+      "description": "During the intense years of the Cold War, the Soviet Union was expanding its fleet of nuclear-powered submarines, presenting a threat to US Navy (USN) carrier strike groups. In response, the S-3 Viking was designed and produced to take on this subsea challenge. The aircraft not only met the…",
+      "url": "https://simpleflying.com/us-navy-retired-submarine-hunting-aircraft-replaced-backward/",
       "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-10-18T13:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/striking-differences-flight-attendants.png"
+      "author": "Christian P. Martin",
+      "published_at": "2026-10-19T13:31:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/viking.jpg"
     },
     {
-      "title": "American Airlines Passengers Evacuate Onto Runway After Cabin Haze Forces Emergency Landing",
-      "description": "Passengers on an American Eagle flight to Philadelphia evacuated onto the runway at Lambert St Louis International Airport (STL) on Saturday after their aircraft made an emergency landing shortly after takeoff. Flight AA5089 — operated by American Airlines subsidiary PSA Airlines — turned back…",
-      "url": "https://simpleflying.com/american-airlines-passengers-evacuate-st-louis-runway-odor-emergency-landing/",
+      "title": "Wizz Air Cancels All Flights To 20 Destinations: See Full List Now",
+      "description": "Wizz Air plays a growing role in European air travel. In October 2026, OAG data shows that the ultra-low-cost carrier's various units collectively have 1,162 daily movements on average. Activity has risen by a substantial 20% compared to the same month last year.",
+      "url": "https://simpleflying.com/wizz-air-cancels-all-flights-to-20-destinations/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-19T13:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/wizz-air-aircraft-mock-up.jpg"
+    },
+    {
+      "title": "Could Boeing Really Develop A 787 Ultra-Long-Haul Variant?",
+      "description": "Ultra-long-haul commercial aviation is where widebody aircraft performance meets its limits, pushing twin-engine airframes across oceanic sectors that exceed 16 hours of continuous flight. Despite the widespread global success of the Boeing 787 Dreamliner family across standard point-to-point…",
+      "url": "https://simpleflying.com/boeing-really-develop-787-ulr/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-19T13:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/could-boeing-really-develop-a-787-ultra-long-haul-variant.jpg"
+    },
+    {
+      "title": "65,000 More United Airlines Flyers A Day Can Now Preorder Food On Shorter Flights",
+      "description": "In the early years of commercial aviation, food and drink were all part of the pageantry of taking a flight. While catering plays less of a role today, it is still an important aspect to many passengers, with some preferring to choose their meals on the fly (quite literally!), while others favor…",
+      "url": "https://simpleflying.com/united-airlines-expands-meal-preordering-service/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-19T12:52:58Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/007-united-airlines-airbus-737max-angel-dibilio-_-shutterstock.jpg"
+    },
+    {
+      "title": "Why The Douglas DC-8 Outlasted The Boeing 707 By Decades",
+      "description": "When Samaritan’s Purse retired its McDonnell Douglas DC-8 freighter N782SP after a final humanitarian mission to Jamaica in late 2025 , aviation lost more than just another aging cargo aircraft. The retirement marked the near-complete end of the first-generation jetliner era, a period when…",
+      "url": "https://simpleflying.com/douglas-dc-8-outlast-boeing-707-decades-why/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-10-19T12:15:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/why-the-douglas-dc-8-outlasted-the-boeing-707-by-decades.jpg"
+    },
+    {
+      "title": "Why On Earth Is EgyptAir Flying An A330 Daily To UK's 19th Busiest Airport?",
+      "description": "Egyptair is the second-largest airline in Africa, primarily based on fleet size and annual passenger volume, behind Ethiopian Airlines. The airline has a long history of flying to the United Kingdom , dating back roughly seven decades (when its predecessors, such as Misrair and United Arab…",
+      "url": "https://simpleflying.com/egyptair-flying-a330-daily-to-uks-19th-busiest-airport/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-19T12:13:37Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1913185087_cropped.jpg"
+    },
+    {
+      "title": "I Explored Emirates' New Frankfurt Airport Lounge: Serving The Best Airside Views",
+      "description": "Emirates has operated a lounge at Frankfurt Airport (FRA) for many years. It was located in Terminal 2, which closed earlier this year. When the airline moved to Terminal 3, it had the opportunity to open a new facility. Rather than replicating the old lounge, Emirates used this new space to launch…",
+      "url": "https://simpleflying.com/review-emirates-new-frankfurt-airport-lounge/",
+      "source": "Simple Flying",
+      "author": "Tom Boon",
+      "published_at": "2026-10-19T11:18:59Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/03-first-impressions-layout-04.jpg"
+    },
+    {
+      "title": "Singapore Airlines Launches New 8-Hour Long-Haul Route In 1 Month: See Map Now",
+      "description": "Singapore Airlines will begin flying to Sydney's new Western Sydney Airport (WSI) on November 23, less than a month after the airport officially opens to passengers. The Star Alliance carrier will operate a daily Airbus A350-900 service from its Singapore Changi Airport (SIN) hub, covering 3,886…",
+      "url": "https://simpleflying.com/singapore-airlines-launches-new-8-hour-route-1-month/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-10-18T12:42:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american-eagle-bombardier-crj900-operated-by-psa-airlines.jpg"
-    },
-    {
-      "title": "Why Qantas Quietly Killed Its Nonstop Perth-London Flight In 2026",
-      "description": "On March 25 2018, the Australian flag carrier Qantas wrote aviation history by becoming the first airline to commence direct non-stop flights between Australia and Europe with a route from Perth International Airport (PER) to London Heathrow Airport (LHR). This historic event marked the first time…",
-      "url": "https://simpleflying.com/why-did-qantas-quietly-kill-its-nonstop-perth-london-flight-in-2026/",
-      "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-10-18T09:15:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/nonstop-flight.jpg"
-    },
-    {
-      "title": "LATAM Boeing 767 Drops 23,000 Feet As Oxygen Masks Deploy In Midair Emergency",
-      "description": "Passengers onboard a recent LATAM flight from Lima to São Paulo experienced a sudden drop in altitude when the Boeing 767-300 descended 23,000 feet during an emergency descent. This was reportedly due to a sudden loss of cabin pressure, resulting in the oxygen masks deploying in the cabin.",
-      "url": "https://simpleflying.com/latam-boeing-767-oxygen-masks-midair-emergency/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-18T07:42:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-767-300-latam-1792306198584-1.jpg"
-    },
-    {
-      "title": "The Trent XWB-97 Has 4.5 Million Flight Hours Before The GE9X Carries Its First Pound Of Freight",
-      "description": "The economic dynamics of the freighter industry are somewhat different from those of the passenger airline industry . Fuel efficiency remains important to cargo operators, but the economics of freighters place an unusually strong emphasis on aircraft acquisition cost, utilization, payload, and…",
-      "url": "https://simpleflying.com/trent-xwb-97-4-million-flight-hours-before-ge9x-first-pound-freight/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-18T07:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-trent-xwb-97-has-4-5-million-flight-hours-before-the-ge9x-carries-its-first-pound-of-freight.jpg"
-    },
-    {
-      "title": "Woman Trapped In United 737 MAX Lavatory At 35,000 Feet Forces Emergency Descent",
-      "description": "A United Airlines Boeing 737 MAX 8 flying from Seattle to Newark initiated an emergency diversion to Chicago on Tuesday after a 69-year-old passenger became trapped inside a lavatory. The woman got stuck in the rear lavatory while the aircraft cruised at 35,000 feet as flight attendants tried…",
-      "url": "https://simpleflying.com/woman-trapped-united-airlines-737-max-lavatory-emergency-descent/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-18T05:02:06Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/349-united-airlines-boeing-737-max-8-harrisonkim1-_-shutterstock.jpg"
+      "published_at": "2026-10-19T11:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-singapore-airlines-1792382896326.jpg"
     },
     {
       "title": "FAA, Air Traffic Controllers Reach Deal for 2.8 Percent Pay Raise",
@@ -87,7 +105,7 @@
     {
       "title": "FAA limits VFR operations at Centennial Airport",
       "description": "The FAA ordered the sudden prohibition of touch-and-goes, restrictions on parallel departures, and limitations on pattern work at Centennial Airport , near Denver, around the first weekend of October.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-16T00:48:00Z",
@@ -96,7 +114,7 @@
     {
       "title": "Eviction notices threaten Aeroflex-Andover Airport",
       "description": "The New Jersey Forest Fire Service has issued eviction notices to tenants at Aeroflex-Andover Airport , requiring them to vacate by December 31, and plans to demolish the airport’s historic hangars, prompting AOPA to meet with gubernatorial staff to contest the decision.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-16T00:14:00Z",
@@ -105,7 +123,7 @@
     {
       "title": "Little airport, big impact",
       "description": "This is the story of how my small, grassroots pilots association took its aviation scholarship program from a small drop-in-the-bucket contribution to an $18,000 offering, thanks to a revamped airport open house, generous sponsors, and the coming together of the south Santa Clara County,…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T21:46:45Z",
@@ -114,7 +132,7 @@
     {
       "title": "City revises Falcon Field landing fee proposal, AOPA concerned",
       "description": "The city of Mesa, Arizona, released a revised landing fee proposal and a long-sought justification for the fees months after its original plan approved by the City Council led to several FAA Part 13 complaints and a federal lawsuit.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T21:41:16Z",
@@ -130,27 +148,9 @@
       "image": null
     },
     {
-      "title": "Unsure If You’re Fit to Fly? FAA’s MedGuide Can Help",
-      "description": "The FAA’s Office of Aerospace Medicine this month introduced an online tool that can tell pilots and Air Traffic Control Specialists which medications are considered acceptable for use while performing flight or safety-related duties, partially addressing a longstanding information gap. The agency…",
-      "url": "https://www.flyingmag.com/unsure-if-fit-to-fly-faa-medguide-can-help/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-15T19:00:00Z",
-      "image": null
-    },
-    {
-      "title": "FAA Certifies Gogo Galileo HDX for Citation Longitude and Latitude",
-      "description": "Textron Aviation said Thursday that the FAA has certified Gogo’s Galileo HDX low-Earth orbit connectivity solution for factory-new Cessna Citation Longitude and Citation Latitude business jets. Citation Longitude and Latitude models delivered starting in 2028 will be eligible for no-charge…",
-      "url": "https://www.flyingmag.com/faa-certifies-gogo-citation-longitude-latitude/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-15T17:00:00Z",
-      "image": null
-    },
-    {
       "title": "‘The Schiff Show’ launches unique aviation educational cruise",
       "description": "The Schiff Show is reimagining aviation education by offering pilots, mechanics, and aviation enthusiasts a weeklong cruise that combines aviation seminars with a vacation on the Mexican Riviera.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-15T00:54:00Z",
@@ -159,7 +159,7 @@
     {
       "title": "AOPA Concerned About New Proposed Falcon Field Landing Fees",
       "description": "MESA, Ariz.—The Aircraft Owners and Pilots Association (AOPA) expressed serious concerns about the city of Mesa’s revised landing fee proposal for general aviation aircraft at Falcon Field.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-14T00:31:35Z",
@@ -168,7 +168,7 @@
     {
       "title": "AOPA Meets with New Jersey Governor’s Office on Future of Aeroflex-Andover Airport",
       "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) met with several senior advisors to New Jersey Gov. Mikie Sherrill on October 8 to express concern about the push from the New Jersey Department of Environmental Protection (NJDEP) to evict tenants at Aeroflex-Andover Airport.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-13T01:06:04Z",
