@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:59:03.507364+00:00",
+  "generated_at": "2026-10-20T18:05:49.691960+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Deleting a required hold on a Localizer",
-      "url": "https://aviation.stackexchange.com/questions/115631/deleting-a-required-hold-on-a-localizer",
-      "points": 0,
+      "title": "Is thrust asymmetry on climb-out unrecoverable?",
+      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
+      "points": 6,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791471693
+      "created_utc": 1790732205
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Is thrust asymmetry on climb-out unrecoverable?",
-      "url": "https://aviation.stackexchange.com/questions/115608/is-thrust-asymmetry-on-climb-out-unrecoverable",
-      "points": 6,
+      "title": "Deleting a required hold on a Localizer",
+      "url": "https://aviation.stackexchange.com/questions/115631/deleting-a-required-hold-on-a-localizer",
+      "points": 0,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1790732205
+      "created_utc": 1791471693
     }
   ]
 }

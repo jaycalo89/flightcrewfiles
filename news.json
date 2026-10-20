@@ -1,178 +1,133 @@
 {
-  "generated_at": "2026-10-19T13:58:54.332292+00:00",
+  "generated_at": "2026-10-20T18:05:39.611574+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 14,
   "articles": [
     {
-      "title": "The US Navy Retired Its Most Capable Submarine-Hunting Aircraft & Replaced It With A Step Backward",
-      "description": "During the intense years of the Cold War, the Soviet Union was expanding its fleet of nuclear-powered submarines, presenting a threat to US Navy (USN) carrier strike groups. In response, the S-3 Viking was designed and produced to take on this subsea challenge. The aircraft not only met the…",
-      "url": "https://simpleflying.com/us-navy-retired-submarine-hunting-aircraft-replaced-backward/",
+      "title": "WestJet Sold 27 Boeing 737-700s But Will Keep Flying 17 Of Them As The MAX 10 Slips",
+      "description": "The first wave of exit of the Boeing 737-700 Next Generation airliners is beginning for Canada's WestJet despite the delayed arrival of the upcoming 737 MAX 10 that will succeed the veteran narrowbodies. The 27-strong fleet will be phased out in a sale-and-leaseback deal with New York-based FTAI…",
+      "url": "https://simpleflying.com/westjet-sold-27-boeing-737-700-keep-flying-17-them-max-10-slips/",
       "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-10-19T13:31:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/viking.jpg"
+      "author": "Luke Diaz",
+      "published_at": "2026-10-20T18:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet-sold-27-boeing-737-700.png"
     },
     {
-      "title": "Wizz Air Cancels All Flights To 20 Destinations: See Full List Now",
-      "description": "Wizz Air plays a growing role in European air travel. In October 2026, OAG data shows that the ultra-low-cost carrier's various units collectively have 1,162 daily movements on average. Activity has risen by a substantial 20% compared to the same month last year.",
-      "url": "https://simpleflying.com/wizz-air-cancels-all-flights-to-20-destinations/",
+      "title": "2 Days, 2 New US Cities: Lufthansa Adds Phoenix Airbus A350 Service In Record-Breaking Route Expansion",
+      "description": "Lufthansa is expanding its US network for summer 2027, announcing nonstop flights between Munich Airport (MUC) and Phoenix Sky Harbor International Airport (PHX) just one day after revealing a new Frankfurt Airport (FRA) – Columbus International Airport (CMH) route. However, unlike the Boeing 787-9…",
+      "url": "https://simpleflying.com/lufthansa-phoenix-787-dreamliner-service/",
       "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-19T13:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/wizz-air-aircraft-mock-up.jpg"
+      "author": "Victoria Agronsky",
+      "published_at": "2026-10-20T17:57:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-lufthansa-1792516483215.jpg"
     },
     {
-      "title": "Could Boeing Really Develop A 787 Ultra-Long-Haul Variant?",
-      "description": "Ultra-long-haul commercial aviation is where widebody aircraft performance meets its limits, pushing twin-engine airframes across oceanic sectors that exceed 16 hours of continuous flight. Despite the widespread global success of the Boeing 787 Dreamliner family across standard point-to-point…",
-      "url": "https://simpleflying.com/boeing-really-develop-787-ulr/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-19T13:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/could-boeing-really-develop-a-787-ultra-long-haul-variant.jpg"
-    },
-    {
-      "title": "65,000 More United Airlines Flyers A Day Can Now Preorder Food On Shorter Flights",
-      "description": "In the early years of commercial aviation, food and drink were all part of the pageantry of taking a flight. While catering plays less of a role today, it is still an important aspect to many passengers, with some preferring to choose their meals on the fly (quite literally!), while others favor…",
-      "url": "https://simpleflying.com/united-airlines-expands-meal-preordering-service/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-19T12:52:58Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/007-united-airlines-airbus-737max-angel-dibilio-_-shutterstock.jpg"
-    },
-    {
-      "title": "Why The Douglas DC-8 Outlasted The Boeing 707 By Decades",
-      "description": "When Samaritan’s Purse retired its McDonnell Douglas DC-8 freighter N782SP after a final humanitarian mission to Jamaica in late 2025 , aviation lost more than just another aging cargo aircraft. The retirement marked the near-complete end of the first-generation jetliner era, a period when…",
-      "url": "https://simpleflying.com/douglas-dc-8-outlast-boeing-707-decades-why/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-10-19T12:15:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/why-the-douglas-dc-8-outlasted-the-boeing-707-by-decades.jpg"
-    },
-    {
-      "title": "Why On Earth Is EgyptAir Flying An A330 Daily To UK's 19th Busiest Airport?",
-      "description": "Egyptair is the second-largest airline in Africa, primarily based on fleet size and annual passenger volume, behind Ethiopian Airlines. The airline has a long history of flying to the United Kingdom , dating back roughly seven decades (when its predecessors, such as Misrair and United Arab…",
-      "url": "https://simpleflying.com/egyptair-flying-a330-daily-to-uks-19th-busiest-airport/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-19T12:13:37Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1913185087_cropped.jpg"
-    },
-    {
-      "title": "I Explored Emirates' New Frankfurt Airport Lounge: Serving The Best Airside Views",
-      "description": "Emirates has operated a lounge at Frankfurt Airport (FRA) for many years. It was located in Terminal 2, which closed earlier this year. When the airline moved to Terminal 3, it had the opportunity to open a new facility. Rather than replicating the old lounge, Emirates used this new space to launch…",
-      "url": "https://simpleflying.com/review-emirates-new-frankfurt-airport-lounge/",
-      "source": "Simple Flying",
-      "author": "Tom Boon",
-      "published_at": "2026-10-19T11:18:59Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/03-first-impressions-layout-04.jpg"
-    },
-    {
-      "title": "Singapore Airlines Launches New 8-Hour Long-Haul Route In 1 Month: See Map Now",
-      "description": "Singapore Airlines will begin flying to Sydney's new Western Sydney Airport (WSI) on November 23, less than a month after the airport officially opens to passengers. The Star Alliance carrier will operate a daily Airbus A350-900 service from its Singapore Changi Airport (SIN) hub, covering 3,886…",
-      "url": "https://simpleflying.com/singapore-airlines-launches-new-8-hour-route-1-month/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-19T11:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-singapore-airlines-1792382896326.jpg"
-    },
-    {
-      "title": "FAA, Air Traffic Controllers Reach Deal for 2.8 Percent Pay Raise",
-      "description": "FAA air traffic controllers will get a 2.8 percent raise under a new agreement worked out by the Trump administration and the National Air Traffic Controllers Association. U.S. Transportation Secretary Sean Duffy said Friday that the increase is tied to workplace reforms, as required by an act of…",
-      "url": "https://www.flyingmag.com/dot-air-traffic-controllers-reach-deal-for-2-8-percent-pay-raise/",
-      "source": "Flying Magazine",
-      "author": "Zach Vasile",
-      "published_at": "2026-10-16T21:37:04Z",
-      "image": null
-    },
-    {
-      "title": "This 1987 Beechcraft Bonanza A36 Is a Modernized ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1987 Beechcraft Bonanza A36. On…",
-      "url": "https://www.flyingmag.com/this-1987-beechcraft-bonanza-a36-is-a-modernized-aircraftforsale-top-pick/",
+      "title": "This 1946 Cessna 140 Is a Polished, Practical, Antique ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1946 Cessna 140. Cessna’s postwar…",
+      "url": "https://www.flyingmag.com/this-1946-cessna-140-is-a-polished-practical-antique-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "Jonathan Welsh",
-      "published_at": "2026-10-16T17:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot_20261016_101424_Chrome.jpg"
+      "published_at": "2026-10-20T17:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261019_223814.png?w=1024"
     },
     {
-      "title": "Report: FAA Seeks Ownership Stake in ATC Contractor ASI",
-      "description": "The FAA is reportedly pursuing an unprecedented move to support its multibillion-dollar modernization of the nation’s aging air traffic control system. According to Politico , which cited an internal FAA document, the agency has a term sheet for an equity stake in Air Space Intelligence (ASI) and…",
-      "url": "https://www.flyingmag.com/faa-seeks-ownership-stake-atc-contractor-asi/",
+      "title": "The Night Chicago Destroyed Meigs Field: The 2003 Runway Bulldozing Explained",
+      "description": "Merrill C. Meigs Field Airport was a single-runway airport in Chicago on Northerly Island, an artificial peninsula in Lake Michigan. The airport operated between 1948 and 2003 and was built to serve general aviation after the Second World War. In the 1950s, it became the busiest single-strip…",
+      "url": "https://simpleflying.com/night-chicago-destoryed-meigs-field-2003-runway-bulldoxing-explained/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-10-20T16:01:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/2003-runway-bulldozing.png"
+    },
+    {
+      "title": "LATAM Airbus A320 Evacuated On Runway After Huge Flames Erupt From Engine",
+      "description": "A LATAM Airlines Perú Airbus A320 was taken out of service after flames erupted around its left engine while it was preparing to depart Lima for Piura, Peru, on October 19. The incident occurred at Jorge Chávez International Airport (LIM) before takeoff, and videos shared online showed fire and…",
+      "url": "https://simpleflying.com/latam-a320-evacuated-flames-engine-takeoff/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-10-20T15:03:07Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/673-latam-airbus-a320-miguel-lagoa-_-shutterstock.jpg"
+    },
+    {
+      "title": "The Longest Flights Operated By US Airlines In 2026",
+      "description": "The longest flight operated by US airlines in 2026 is not the one scheduled to take the most time. United Airlines holds the distance record connecting some US cities with Australia and Singapore, exceeding 15 hours of flight, though the longest flight by distance is not the longest one by time…",
+      "url": "https://simpleflying.com/longest-flights-operated-us-airlines-2026/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-10-20T15:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/operated-by-us-airlines.png"
+    },
+    {
+      "title": "Is Your Aircraft Airworthy?",
+      "description": "Any time there is a general aviation incident, such as an unscheduled off-airport landing or an accident that could truly be called a crash, you’re going to hear someone go off about how unsafe small airplanes are due to poor maintenance. Usually this comes from casual observers who “have a buddy”…",
+      "url": "https://www.flyingmag.com/is-your-aircraft-airworthy/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-20T15:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Aer Lingus Cancels All Flights To 5 Destinations: See Full List Now",
+      "description": "Ireland’s flag carrier, Aer Lingus , started operations nine decades ago with a single aircraft and one route. Within its first year, the airline rapidly expanded its network across the Irish Sea. Today, the International Airlines Group carrier operates a fleet of 64 aircraft, comprising both…",
+      "url": "https://simpleflying.com/aer-lingus-cancels-all-flights-5-destinations/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-20T14:29:02Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2178000917_cropped.jpg"
+    },
+    {
+      "title": "Alaska Airlines Adds 2 New Long-Haul Nonstop Routes: See Schedules Now",
+      "description": "Alaska Airlines' move towards becoming a global carrier continues apace. Not long after the one world member disclosed more about its long-haul ambition , two new routes from the carrier's Seattle-Tacoma International Airport (SEA) hub have been announced.",
+      "url": "https://simpleflying.com/alaska-airlines-adds-2-new-long-haul-nonstop-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-20T14:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/hawaiian-airlines-a330-200-mock-up.jpg"
+    },
+    {
+      "title": "The Most Superior Business Class Seats On US-To-Asia Flights In 2026",
+      "description": "Determining which business class products are the best is as much a matter of subjective and personal preference as it is something objective and quantifiable. Readers may have their own very different rankings of leading business class products influenced by their own preferences, weightings, and…",
+      "url": "https://simpleflying.com/best-business-class-seats-us-asia-flights-2026/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-10-20T13:00:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/japan-airlines-business-class.png"
+    },
+    {
+      "title": "National Aviation Hall of Fame Announces Class of 2027",
+      "description": "The National Aviation Hall of Fame on Monday announced its Class of 2027 inductees at the National Business Aviation Association Business Aviation Convention Exhibition (NBAA-BACE) in Las Vegas, with this year’s group of six honorees including aerospace engineers, an inventor, an air racer, and an…",
+      "url": "https://www.flyingmag.com/national-aviation-hall-of-fame-announces-class-of-2027/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-20T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/J-Bob-Balaram-e1792419168364.png?w=721"
+    },
+    {
+      "title": "NBAA to Launch Member-Exclusive Platform for Business Aviation Insights",
+      "description": "The National Business Aviation Association on Monday said it plans to launch a new business aviation intelligence service exclusive to its members in early 2027. NBAA said the quarterly insights for aircraft owners, operators and the businesses that serve them will be “exclusive, unique, and…",
+      "url": "https://www.flyingmag.com/nbaa-member-exclusive-business-aviation-insights/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-10-16T15:46:10Z",
+      "published_at": "2026-10-19T19:30:00Z",
       "image": null
     },
     {
-      "title": "FAA limits VFR operations at Centennial Airport",
-      "description": "The FAA ordered the sudden prohibition of touch-and-goes, restrictions on parallel departures, and limitations on pattern work at Centennial Airport , near Denver, around the first weekend of October.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-16T00:48:00Z",
-      "image": null
-    },
-    {
-      "title": "Eviction notices threaten Aeroflex-Andover Airport",
-      "description": "The New Jersey Forest Fire Service has issued eviction notices to tenants at Aeroflex-Andover Airport , requiring them to vacate by December 31, and plans to demolish the airport’s historic hangars, prompting AOPA to meet with gubernatorial staff to contest the decision.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-16T00:14:00Z",
-      "image": null
-    },
-    {
-      "title": "Little airport, big impact",
-      "description": "This is the story of how my small, grassroots pilots association took its aviation scholarship program from a small drop-in-the-bucket contribution to an $18,000 offering, thanks to a revamped airport open house, generous sponsors, and the coming together of the south Santa Clara County,…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-15T21:46:45Z",
-      "image": null
-    },
-    {
-      "title": "City revises Falcon Field landing fee proposal, AOPA concerned",
-      "description": "The city of Mesa, Arizona, released a revised landing fee proposal and a long-sought justification for the fees months after its original plan approved by the City Council led to several FAA Part 13 complaints and a federal lawsuit.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-15T21:41:16Z",
-      "image": null
-    },
-    {
-      "title": "‘Aviation Start’ Episode 5 Maps Every Path Into Air Traffic Control",
-      "description": "The fifth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, turns from the cockpit to the radar scope. Larkins’ guest is Marcus Miller, an air traffic controller at an FAA en route center who has built a following on social media as “PropHatCat,” explaining…",
-      "url": "https://www.flyingmag.com/aviation-start-episode-5-maps-every-path-into-air-traffic-control/",
+      "title": "Gen3 Cessna Citation Light Jets Surpass 1,220 Flight Hours",
+      "description": "Textron Aviation on Monday said its Cessna Citation CJ4 Gen3, CJ3 Gen3, and M2 Gen3 test articles have racked up a combined 1,220 flight hours as the three light business jets advance toward FAA certification in 2026 and 2027. Among other upgrades, the next-generation Citation light jets will…",
+      "url": "https://www.flyingmag.com/gen3-cessna-citation-jets-1220-flight-test-hours/",
       "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-15T20:11:47Z",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-19T17:30:00Z",
       "image": null
     },
     {
-      "title": "‘The Schiff Show’ launches unique aviation educational cruise",
-      "description": "The Schiff Show is reimagining aviation education by offering pilots, mechanics, and aviation enthusiasts a weeklong cruise that combines aviation seminars with a vacation on the Mexican Riviera.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-15T00:54:00Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Concerned About New Proposed Falcon Field Landing Fees",
-      "description": "MESA, Ariz.—The Aircraft Owners and Pilots Association (AOPA) expressed serious concerns about the city of Mesa’s revised landing fee proposal for general aviation aircraft at Falcon Field.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/13/pr-aopa-concerned-about-new-proposed-falcon-field-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-14T00:31:35Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Meets with New Jersey Governor’s Office on Future of Aeroflex-Andover Airport",
-      "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) met with several senior advisors to New Jersey Gov. Mikie Sherrill on October 8 to express concern about the push from the New Jersey Department of Environmental Protection (NJDEP) to evict tenants at Aeroflex-Andover Airport.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/12/pr-aopa-meets-with-new-jersey-governors-office-on-future-of-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-13T01:06:04Z",
-      "image": null
+      "title": "This 2006 Piper PA-32R-301T Saratoga II HP Is a Speedy, People-Moving ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2006 Piper Saratoga II HP. When…",
+      "url": "https://www.flyingmag.com/this-2006-piper-pa-32r-301t-saratoga-ii-hp-is-a-speedy-people-moving-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-19T15:15:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261019_104031.jpg?w=1024"
     }
   ]
 }
