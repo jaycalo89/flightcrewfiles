@@ -6,3 +6,4 @@
 update_log.txt
 .push_retry_state
 __pycache__/
+.env.save
