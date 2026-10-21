@@ -1,25 +1,115 @@
 {
-  "generated_at": "2026-10-20T18:05:39.611574+00:00",
+  "generated_at": "2026-10-21T15:16:28.650383+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 14,
+  "count": 22,
   "articles": [
     {
-      "title": "WestJet Sold 27 Boeing 737-700s But Will Keep Flying 17 Of Them As The MAX 10 Slips",
-      "description": "The first wave of exit of the Boeing 737-700 Next Generation airliners is beginning for Canada's WestJet despite the delayed arrival of the upcoming 737 MAX 10 that will succeed the veteran narrowbodies. The 27-strong fleet will be phased out in a sale-and-leaseback deal with New York-based FTAI…",
-      "url": "https://simpleflying.com/westjet-sold-27-boeing-737-700-keep-flying-17-them-max-10-slips/",
+      "title": "Typhoon Champi Threatens Asian Hubs With Flight Cuts: Military Aviation Also Hit",
+      "description": "In the coming days, Typhoon Champi is expected to approach the coasts of eastern Asia. The tropical storm, which is described by such publications as the South China Morning Post as being the strongest of the year , is currently heading towards Taiwan and mainland China. Elsewhere in the region, it…",
+      "url": "https://simpleflying.com/typhoon-champi-aviation-impact/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-20T18:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet-sold-27-boeing-737-700.png"
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-21T13:15:23Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1308111463_cropped.jpg"
     },
     {
-      "title": "2 Days, 2 New US Cities: Lufthansa Adds Phoenix Airbus A350 Service In Record-Breaking Route Expansion",
-      "description": "Lufthansa is expanding its US network for summer 2027, announcing nonstop flights between Munich Airport (MUC) and Phoenix Sky Harbor International Airport (PHX) just one day after revealing a new Frankfurt Airport (FRA) – Columbus International Airport (CMH) route. However, unlike the Boeing 787-9…",
-      "url": "https://simpleflying.com/lufthansa-phoenix-787-dreamliner-service/",
+      "title": "Sim Lab: The Importance of Pilots Being ‘Mission Ready’",
+      "description": "For the last two decades, Cirrus Aircraft has been at the forefront of bringing new technology to the cockpit. One of its latest offerings is Mission Ready—a training and safety program specifically for SR owners to experience in a flight simulator environment. The program, launched in March, lives…",
+      "url": "https://www.flyingmag.com/sim-lab-the-importance-of-pilots-being-mission-ready/",
+      "source": "Flying Magazine",
+      "author": "Sean Siff",
+      "published_at": "2026-10-21T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Air Canada's Leisure Airline Is Getting Seatback Screens, Recline & Free WiFi On Its Boeing 737 MAX 8s",
+      "description": "Leisure carriers will typically be the first to strip away passenger comforts to compress operating costs, relying on bare-bones seating and personal device streaming to keep overhead down. Air Canada has decided that this is not a necessity, deploying Boeing 737 MAX 8 aircraft into its leisure…",
+      "url": "https://simpleflying.com/air-canada-leisure-airline-seatback-screens-recline-free-wifi-boeing-737-max-8s/",
       "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-20T17:57:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-lufthansa-1792516483215.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-21T11:30:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-boeing-737-max-8-air-canada-rouge-1791527688066.jpg"
+    },
+    {
+      "title": "Is Singapore Airlines Better Than Cathay Pacific?",
+      "description": "In this video, we'll compare Singapore Airlines and Cathay Pacific's Premium Economy cabins, looking at everything from seats and baggage allowances to onboard service, fleet differences, and passenger experience to see where each airline stands.",
+      "url": "https://simpleflying.com/video/is-singapore-airlines-better-than-cathay-pacific/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-10-21T11:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/77_lh_singapore-airlines-cathay-pacific-which-premium-economy-is-superior_h_site-copy.jpg"
+    },
+    {
+      "title": "Air Force Invests $3.5M in Natilus’ Blended-Wing Body Aircraft",
+      "description": "The U.S. Air Force is ramping up its interest and investment in novel, blended-wing body (BWB) aircraft to address capability gaps in the Indo-Pacific. The BWB is an offshoot of the tailless, all-wing aircraft concept, or flying wing, which dates back to the early days of aviation. The architecture…",
+      "url": "https://www.flyingmag.com/air-force-3-5m-natilus-blended-wing-body/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-21T11:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Finally: Boeing 737 MAX 10 Attains FAA Type Certification",
+      "description": "Boeing has officially secured Federal Aviation Administration type certification for its long-delayed 737 MAX 10 aircraft, marking a major milestone for the American planemaker as it pushes forward to bring the largest member of its best-selling narrowbody family into commercial service. Coming in…",
+      "url": "https://simpleflying.com/video/finally-boeing-737-max-10-attains-faa-type-certification/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-10-21T10:53:00Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/max10cert.jpg"
+    },
+    {
+      "title": "How Airbus Is Quietly Turning The A220 Into A Widebody-Comfort Jet For 8-Hour Transatlantic Routes",
+      "description": "When Airbus and 3M announced a new long-term agreement covering advanced thermal and acoustic insulation for the Airbus A220 on June 23, 2026, the news appeared to be a routine supplier contract. In reality, it reflected a broader strategy that has been developing for years. As the A220 takes on…",
+      "url": "https://simpleflying.com/how-airbus-turning-a220-widebody-comfort-jet-8-hour-transatlantic-routes/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-10-21T10:36:49Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/widebody-comfort-jet.jpg"
+    },
+    {
+      "title": "Qatar Airways Reveals Major New 15-Hour Nonstop Long-Haul Route: See Map Now",
+      "description": "Qatar Airways has revealed that it will fly from its Doha Hamad International Airport (DOH) hub to Australia's new Western Sydney International (WSI). There are currently no indications that another Gulf giant will join the one world member in WSI.",
+      "url": "https://simpleflying.com/qatar-airways-reveals-major-new-15-hour-nonstop-long-haul-route/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-21T10:00:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/qatar-airways-777-300er-approach-joao-fachetti-1.jpg"
+    },
+    {
+      "title": "Aeromexico Set To Reveal Which US Cities Are Getting New Nonstop Flights To Mexico City",
+      "description": "Aeromexico is reportedly preparing to announce a raft of new routes to the US from its main hub at Mexico City Benito Juárez International Airport (MEX). The news comes off the back of the US Department of Transportation dropping restrictions put in place this time last year that prevented airlines…",
+      "url": "https://simpleflying.com/aeromexico-new-us-routes-mexico-city/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-21T09:36:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/035-aeromexico-boeing-737-max-8-fabbox-_-shutterstock.jpg"
+    },
+    {
+      "title": "7 Airlines With Some Of The World's Most Luxurious Business Class Seats",
+      "description": "Modern business class is all about the wider experience. Airlines get carried away with lounges, priority security and boarding, high-end dining, and more. However, when all is said and done, the seat itself remains the hinge of a business class experience.",
+      "url": "https://simpleflying.com/7-airlines-with-worlds-most-luxurious-business-class-seats-2026/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-21T09:15:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/7-airlines-with-the-world-s-most-luxurious-business-class-seats-in-2026-1.jpg"
+    },
+    {
+      "title": "NBAA leans into business aviation intelligence",
+      "description": "The National Business Aviation Association (NBAA) and Rolland Vincent Associates (RVA) announced a partnership designed to provide NBAA members subscription-based, actionable intelligence to support better business aviation decisions.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/nbaa-leans-into-business-aviation-intelligence?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-21T01:08:18Z",
+      "image": null
+    },
+    {
+      "title": "Honeywell projects continued business aviation growth",
+      "description": "Honeywell released its latest business aviation forecast, and despite global unrest and rising oil prices, the outlook is positive. Honeywell expects aircraft utilization and deliveries to increase.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/honeywell-projects-continued-business-aviation-growth?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-21T00:06:00Z",
+      "image": null
     },
     {
       "title": "This 1946 Cessna 140 Is a Polished, Practical, Antique ‘AircraftForSale’ Top Pick",
@@ -31,33 +121,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261019_223814.png?w=1024"
     },
     {
-      "title": "The Night Chicago Destroyed Meigs Field: The 2003 Runway Bulldozing Explained",
-      "description": "Merrill C. Meigs Field Airport was a single-runway airport in Chicago on Northerly Island, an artificial peninsula in Lake Michigan. The airport operated between 1948 and 2003 and was built to serve general aviation after the Second World War. In the 1950s, it became the busiest single-strip…",
-      "url": "https://simpleflying.com/night-chicago-destoryed-meigs-field-2003-runway-bulldoxing-explained/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-20T16:01:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/2003-runway-bulldozing.png"
-    },
-    {
-      "title": "LATAM Airbus A320 Evacuated On Runway After Huge Flames Erupt From Engine",
-      "description": "A LATAM Airlines Perú Airbus A320 was taken out of service after flames erupted around its left engine while it was preparing to depart Lima for Piura, Peru, on October 19. The incident occurred at Jorge Chávez International Airport (LIM) before takeoff, and videos shared online showed fire and…",
-      "url": "https://simpleflying.com/latam-a320-evacuated-flames-engine-takeoff/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-10-20T15:03:07Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/673-latam-airbus-a320-miguel-lagoa-_-shutterstock.jpg"
-    },
-    {
-      "title": "The Longest Flights Operated By US Airlines In 2026",
-      "description": "The longest flight operated by US airlines in 2026 is not the one scheduled to take the most time. United Airlines holds the distance record connecting some US cities with Australia and Singapore, exceeding 15 hours of flight, though the longest flight by distance is not the longest one by time…",
-      "url": "https://simpleflying.com/longest-flights-operated-us-airlines-2026/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-10-20T15:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/operated-by-us-airlines.png"
-    },
-    {
       "title": "Is Your Aircraft Airworthy?",
       "description": "Any time there is a general aviation incident, such as an unscheduled off-airport landing or an accident that could truly be called a crash, you’re going to hear someone go off about how unsafe small airplanes are due to poor maintenance. Usually this comes from casual observers who “have a buddy”…",
       "url": "https://www.flyingmag.com/is-your-aircraft-airworthy/",
@@ -65,33 +128,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-10-20T15:00:00Z",
       "image": null
-    },
-    {
-      "title": "Aer Lingus Cancels All Flights To 5 Destinations: See Full List Now",
-      "description": "Ireland’s flag carrier, Aer Lingus , started operations nine decades ago with a single aircraft and one route. Within its first year, the airline rapidly expanded its network across the Irish Sea. Today, the International Airlines Group carrier operates a fleet of 64 aircraft, comprising both…",
-      "url": "https://simpleflying.com/aer-lingus-cancels-all-flights-5-destinations/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-20T14:29:02Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2178000917_cropped.jpg"
-    },
-    {
-      "title": "Alaska Airlines Adds 2 New Long-Haul Nonstop Routes: See Schedules Now",
-      "description": "Alaska Airlines' move towards becoming a global carrier continues apace. Not long after the one world member disclosed more about its long-haul ambition , two new routes from the carrier's Seattle-Tacoma International Airport (SEA) hub have been announced.",
-      "url": "https://simpleflying.com/alaska-airlines-adds-2-new-long-haul-nonstop-routes/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-20T14:00:16Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/hawaiian-airlines-a330-200-mock-up.jpg"
-    },
-    {
-      "title": "The Most Superior Business Class Seats On US-To-Asia Flights In 2026",
-      "description": "Determining which business class products are the best is as much a matter of subjective and personal preference as it is something objective and quantifiable. Readers may have their own very different rankings of leading business class products influenced by their own preferences, weightings, and…",
-      "url": "https://simpleflying.com/best-business-class-seats-us-asia-flights-2026/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-20T13:00:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/japan-airlines-business-class.png"
     },
     {
       "title": "National Aviation Hall of Fame Announces Class of 2027",
@@ -121,13 +157,49 @@
       "image": null
     },
     {
-      "title": "This 2006 Piper PA-32R-301T Saratoga II HP Is a Speedy, People-Moving ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2006 Piper Saratoga II HP. When…",
-      "url": "https://www.flyingmag.com/this-2006-piper-pa-32r-301t-saratoga-ii-hp-is-a-speedy-people-moving-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-19T15:15:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261019_104031.jpg?w=1024"
+      "title": "FAA limits VFR operations at Centennial Airport",
+      "description": "The FAA ordered the sudden prohibition of touch-and-goes, restrictions on parallel departures, and limitations on pattern work at Centennial Airport , near Denver, around the first weekend of October.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/faa-limits-vfr-operations-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-16T00:48:00Z",
+      "image": null
+    },
+    {
+      "title": "Eviction notices threaten Aeroflex-Andover Airport",
+      "description": "The New Jersey Forest Fire Service has issued eviction notices to tenants at Aeroflex-Andover Airport , requiring them to vacate by December 31, and plans to demolish the airport’s historic hangars, prompting AOPA to meet with gubernatorial staff to contest the decision.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/eviction-notices-threaten-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-16T00:14:00Z",
+      "image": null
+    },
+    {
+      "title": "Little airport, big impact",
+      "description": "This is the story of how my small, grassroots pilots association took its aviation scholarship program from a small drop-in-the-bucket contribution to an $18,000 offering, thanks to a revamped airport open house, generous sponsors, and the coming together of the south Santa Clara County,…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/little-airport-big-impact?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-15T21:46:45Z",
+      "image": null
+    },
+    {
+      "title": "City revises Falcon Field landing fee proposal, AOPA concerned",
+      "description": "The city of Mesa, Arizona, released a revised landing fee proposal and a long-sought justification for the fees months after its original plan approved by the City Council led to several FAA Part 13 complaints and a federal lawsuit.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/15/city-revises-falcon-field-landing-fee-proposal-aopa-concerned?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-15T21:41:16Z",
+      "image": null
+    },
+    {
+      "title": "‘The Schiff Show’ launches unique aviation educational cruise",
+      "description": "The Schiff Show is reimagining aviation education by offering pilots, mechanics, and aviation enthusiasts a weeklong cruise that combines aviation seminars with a vacation on the Mexican Riviera.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/14/the-schiff-show-launches-unique-aviation-educational-cruise?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-15T00:54:00Z",
+      "image": null
     }
   ]
 }
