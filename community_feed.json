@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:16:40.299542+00:00",
+  "generated_at": "2026-10-22T13:48:06.012032+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
-      "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Does Raymer's Empty-weight fraction include operators items?",
+      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
+      "points": 3,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792580299
+      "created_utc": 1792589574
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "can i get an explanation on the fire detection system on an aircraft's engine and how it works",
-      "url": "https://aviation.stackexchange.com/questions/116644/can-i-get-an-explanation-on-the-fire-detection-system-on-an-aircrafts-engine-an",
-      "points": -1,
+      "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
+      "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
+      "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792558495
+      "created_utc": 1792580299
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Do the new MOSAIC rules allow Sport Pilots to operate a light twin?",
-      "url": "https://aviation.stackexchange.com/questions/116639/do-the-new-mosaic-rules-allow-sport-pilots-to-operate-a-light-twin",
-      "points": 1,
-      "num_comments": 1,
+      "title": "can i get an explanation on the fire detection system on an aircraft's engine and how it works",
+      "url": "https://aviation.stackexchange.com/questions/116644/can-i-get-an-explanation-on-the-fire-detection-system-on-an-aircrafts-engine-an",
+      "points": -1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792257436
+      "created_utc": 1792558495
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
-      "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
-      "points": 9,
-      "num_comments": 4,
+      "title": "Do the new MOSAIC rules allow Sport Pilots to operate a light twin?",
+      "url": "https://aviation.stackexchange.com/questions/116639/do-the-new-mosaic-rules-allow-sport-pilots-to-operate-a-light-twin",
+      "points": 1,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791217644
+      "created_utc": 1792257436
     }
   ]
 }
