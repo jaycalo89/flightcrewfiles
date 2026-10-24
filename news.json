@@ -1,97 +1,88 @@
 {
-  "generated_at": "2026-10-23T10:01:00.277473+00:00",
+  "generated_at": "2026-10-24T10:00:33.523532+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 15,
   "articles": [
     {
-      "title": "“Threatening”: American Airlines Flight Turns Back To Miami After Man Allegedly Rushes Crew",
-      "description": "On Thursday night, passengers flying on the evening American Airlines service from Miami International Airport (MIA) to Cheddi Jagan International Airport (GEO) in Georgetown, Guyana, were delayed after their flight had to return to its Florida origin. The reason for the diversion was disruptive…",
-      "url": "https://simpleflying.com/american-airlines-flight-turns-back-miami-man-allegedly-rushes-crew/",
+      "title": "What Are The Benefits Of Flying On Emirates’ Airbus A380?",
+      "description": "For many travelers, the Airbus A380 has become more than just another aircraft type. Even as airlines around the world have retired the superjumbo, Emirates has continued to operate the world’s largest A380 fleet and position it as a defining part of its long-haul product. This has led to a common…",
+      "url": "https://simpleflying.com/benefits-of-flying-on-emirates-airbus-a380/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-10-23T09:23:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/084-american-airlines-boeing737-max-8-markus-mainka-_-shutterstock.jpg"
+      "published_at": "2026-10-24T09:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/benefits.jpg"
     },
     {
-      "title": "How Much Do F-35 Pilots Earn Compared To F-22 Pilots In 2026?",
-      "description": "All United States Air Force fighter jet pilots are required to be commissioned officers. This is also true of the US Navy, the Marine Corps, and many US allies (such as the Royal Air Force). The main exception is the Army, where helicopter pilots may be warrant officers. Fighter pilots operate with…",
-      "url": "https://simpleflying.com/how-much-f-35-pilots-earn-compared-to-f-22-pilots-2026/",
+      "title": "The Aircraft Set To Replace The World’s 1st Partial Double-Deck Jetliner",
+      "description": "There are few aircraft as iconic as the Boeing 747 , which is lovingly known by many as the 'Queen of the Skies.' For many people around the world, the aircraft is tied to a memory: a dream holiday, a first flight, a journey to a different continent, or even the spark that shaped a lifelong passion…",
+      "url": "https://simpleflying.com/aircraft-set-to-replace-worlds-1st-partial-double-deck-jetliner/",
       "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-23T09:15:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/how-much-do-f-35-pilots-earn-compared-to-f-22-pilots-in-2026.jpg"
+      "author": "Nick Pisters",
+      "published_at": "2026-10-24T01:45:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/replacement.jpg"
     },
     {
-      "title": "How Airbus' Influence Prompted Rolls-Royce's Shift From Developing Shared Engines To Exclusive Powerplants",
-      "description": "In the 120 years since Rolls-Royce was originally founded, the company has navigated numerous Industrial eras and is one of the most well-known names in both the aerospace and automotive industries. Yet, that legacy was put in jeopardy due to the severe technical setbacks that came with the engine…",
-      "url": "https://simpleflying.com/airbus-influence-rolls-royce-shift-developing-shared-engines-exclusive-powerplants/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-23T08:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-airbus-influence-prompted-rolls-royce-s-shift-from-developing-shared-engines-to-exclusive-powerplants.jpg"
-    },
-    {
-      "title": "United Airlines Adds 4 New Routes From 2 Hubs For Spring 2027",
-      "description": "United Airlines is set to add four new routes this coming spring, expanding its reach from San Francisco International Airport (SFO) with three new services and an extra route to Bermuda from Chicago O'Hare International Airport (ORD). United will operate three of these four services with its…",
-      "url": "https://simpleflying.com/united-airlines-adds-4-new-routes-2-hubs-spring-2027/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-23T07:12:33Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-airlines-boeing-737-max-8-1-1.jpg"
-    },
-    {
-      "title": "Allegiant Air’s Longest Nonstop Routes With The Boeing 737 MAX In 2027",
-      "description": "Allegiant Air's longest scheduled Boeing 737 MAX 8 services in January 2027 will stretch more than 1,500 miles (2,414 km) across the United States, connecting Florida with destinations in the Upper Midwest and the Northeast. For an airline known for linking smaller markets with leisure…",
-      "url": "https://simpleflying.com/allegiant-air-longest-737-max-flights/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-10-23T05:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/allegiant-air-s-longest-nonstop.png"
-    },
-    {
-      "title": "The Striking Differences Between American Airlines’ New Flagship Cabin & United’s Polaris Business Class",
-      "description": "American Airlines and United Airlines spent the past two years building the most expensive business class cabins either carrier has ever flown, marketing them as distinct flagship products, and placing them head-to-head on the same transatlantic routes. Both selected the same seat from the same…",
-      "url": "https://simpleflying.com/the-striking-differences-between-american-airlines-new-flagship-cabin-uniteds-polaris-business-class/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-10-23T01:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/striking-differences.png"
-    },
-    {
-      "title": "10 Marathon Routes That Are The Boeing 777-300ER's Longest In 2026",
-      "description": "The Boeing 777 is hardly the newest or most capable long-range airliner in service today, but it remains a reliable workhorse for airlines worldwide. With over 2,000 examples delivered, the 777 is the most popular widebody program ever, and it's still a popular machine for long-haul and…",
-      "url": "https://simpleflying.com/10-marathon-routes-boeing-777-300er-longest-2026/",
+      "title": "Did Airbus Really Trim Sidewall Panels To Squeeze 10-Abreast Economy Into The A350-1000?",
+      "description": "The Airbus A350 is an excellent aircraft that is both wonderfully capable and extremely fuel-efficient. The type was designed to render the Boeing 777, a major thorn in Airbus' side during the 2000s, obsolete. The A350-900 has become Airbus' most successful widebody aircraft ever, while the…",
+      "url": "https://simpleflying.com/airbus-really-trim-sidewall-panels-squeeze-10-abrest-economy-a350-1000/",
       "source": "Simple Flying",
       "author": "Daniel S Osipov",
-      "published_at": "2026-10-23T00:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/10-marathon-routes-that-are-the-boeing-777-s-longest-in-2026.jpg"
+      "published_at": "2026-10-24T00:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/sidewall-panels.png"
     },
     {
-      "title": "6 Airlines Offering Lie-Flat Economy Sleep Products For A Fraction Of Business Class",
-      "description": "In November, Air New Zealand is set to launch Skynests on its Auckland to New York route. Economy class passengers will be able to book six bunk-style pods for a four-hour session. The cost, according to Yahoo , will be $495 per session. However, Skynest is far from the first time that economy…",
-      "url": "https://simpleflying.com/airlines-offering-lie-flat-economy-sleep-products-fraction-business-class/",
+      "title": "Why Analysts Say Boeing's 787 Target Of 10 A Month Still Won't Make Real Money",
+      "description": "Boeing is in the midst of efforts to boost production of its best-selling passenger widebody. Having delivered approximately seven 787 Dreamliners per month in 2025, plans are to push this to ten come the end of this year. While an increase of roughly a third, the truth is the ramp-up is unlikely…",
+      "url": "https://simpleflying.com/analysts-say-boeing-787-target-10-month-wont-make-real-money/",
       "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-22T23:04:10Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/lie-flat-economy.jpg"
+      "author": "Josh Lamb",
+      "published_at": "2026-10-23T22:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/why-analysts-say-boeing-s-787-target-of-10-a-month-still-won-t-make-real-money.jpg"
     },
     {
-      "title": "The World’s Shortest Scheduled Flight Can Take Just 53 Seconds",
-      "description": "32 minutes is all it takes to travel between North Carolina's two largest cities, Raleigh and Charlotte onboard American Airlines . For a key connecting market for Raleigh–Durham International Airport (RDU), Charlotte Douglas International Airport (CLT) serves over 525,000 passengers annually . At…",
-      "url": "https://simpleflying.com/world-shortest-flight-53-seconds/",
-      "source": "Simple Flying",
-      "author": "Ethan Qualle",
-      "published_at": "2026-10-22T23:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shortest-flight.png"
+      "title": "Who can fly my airplane?",
+      "description": "One of the most common reasons aircraft insurance claims are denied is because the pilot operating the aircraft did not meet the requirements outlined in the insurance policy.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/23/who-can-fly-my-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-23T19:05:00Z",
+      "image": null
     },
     {
-      "title": "How Cabin Crew Will Rest & Sleep On Long Boeing 777X Flights",
-      "description": "The Boeing 777X , like most widebody long-haul aircraft, has crew rest areas for the pilots and cabin crew. These are important so that they can try and get some sleep on long sectors, reducing fatigue and ensuring alertness and safety during flights. These special areas are hidden away from the…",
-      "url": "https://simpleflying.com/how-will-cabin-crew-rest-sleep-on-long-boeing-777x-flights/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-10-22T22:04:45Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/777x-1-1.jpg"
+      "title": "This 1984 Piper PA-60-700P Aerostar Is a Rare, Famously Fast ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1984 Piper PA-60-700P Aerostar.…",
+      "url": "https://www.flyingmag.com/this-1984-piper-pa-60-700p-aerostar-is-a-rare-famously-fast-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-23T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261023_102213.jpg?w=1024"
+    },
+    {
+      "title": "FAA Weighs Restoring Citation Single-Pilot Operations",
+      "description": "The FAA is reportedly open to exploring ways to restore single-pilot operations in legacy Cessna Citation models after the agency halted them in September and rescinded exemptions. “We believe that there’s some compelling data that might provide a path to allowing single-pilot operations with some…",
+      "url": "https://www.flyingmag.com/faa-weighs-restoring-citation-single-pilot-ops/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-23T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Meeting Aviation Where It Happens",
+      "description": "Aviation does not happen in one place anymore. It happens at Oshkosh , where thousands of people gather around flight lines, forums, aircraft displays, and evening conversations that stretch well past sunset. I know I had plenty of these at Camp Scholler. It happens in hangars and flight schools,…",
+      "url": "https://www.flyingmag.com/meeting-aviation-where-it-happens/",
+      "source": "Flying Magazine",
+      "author": "Ryan Ewing",
+      "published_at": "2026-10-23T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "AOPA Air Safety Institute Releases Accident Case Study on Deadly Utah Backcountry Crash",
+      "description": "FREDERICK, Md., October 22, 2026—The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released \" Accident Case Study: Death Near Dark Canyon .\" The video examines a 2012 crash in the Utah backcountry that killed three pilots, one of whom survived the impact but had no way to…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/22/pr-aopa-air-safety-institute-releases-accident-case-study-on-deadly-utah-backcountry-crash?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-23T01:29:03Z",
+      "image": null
     },
     {
       "title": "This 1964 Piper PA-24-250 Comanche Is a Fast, Graceful ‘AircraftForSale’ Top Pick",
@@ -112,48 +103,39 @@
       "image": null
     },
     {
-      "title": "The Pilot Picasso: Turning Flight Tracks Into Works of Art",
-      "description": "Remember the first time you did laps in the pattern and couldn’t wait to see the track on the screen of your tablet at the end of the flight? If you flew well, you had a multilayered racetrack pattern of green. Benjamin Glasgow McDaniel III, from Bentonville, Arkansas, has taken flight tracks to a…",
-      "url": "https://www.flyingmag.com/the-pilot-picasso-turning-flight-tracks-into-works-of-art/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-22T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/mona-lisa.jpg?w=750"
+      "title": "eFlyer 2 completes first flight",
+      "description": "Bye Aerospace's electric eFlyer 2 completed its first flight in September, marking another step in a program that has been under development for roughly a decade. The company says the two-seat trainer could cut flight school operating costs by as much as 80 percent.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/22/eflyer-2-completes-first-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-22T08:00:00Z",
+      "image": null
     },
     {
-      "title": "See These 6 Legendary Aircraft at EAA Aviation Museum",
-      "description": "The Experimental Aircraft Association Aviation Museum in Oshkosh, Wisconsin, has introduced six new aircraft for visitors looking to turn back the clock and admire aviation history. The aircraft, which include a pair of historic replicas, a restored ultralight hang glider, and three World War…",
-      "url": "https://www.flyingmag.com/6-legendary-aircraft-display-eaa-aviation-museum/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-22T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261012-Douglas-World-Cruiser.jpg?w=1024"
+      "title": "Maverick takes on flight school paperwork",
+      "description": "For flight instructors, keeping track of what a student has completed and what still needs to be done isn't always straightforward, especially when records are spread across multiple systems.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/21/maverick-takes-on-flight-school-paperwork?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-21T08:00:00Z",
+      "image": null
     },
     {
-      "title": "Students Build Van’s RV-12iS Aircraft",
-      "description": "Students in New Hampshire’s largest school district have built their second fully functional aircraft as part of an innovative aviation program. Earlier in October, the students from Manchester School of Technology (MST) unveiled their Van’s RV-12iS recreational airplane near the Aviation Museum of…",
-      "url": "https://www.flyingmag.com/students-build-vans-rv-12is-aircraft/",
-      "source": "Flying Magazine",
-      "author": "Matt Leighton",
-      "published_at": "2026-10-22T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/842786136_1454929573480216_8050648967885984628_n.jpg?w=1024"
+      "title": "NBAA leans into business aviation intelligence",
+      "description": "The National Business Aviation Association (NBAA) and Rolland Vincent Associates (RVA) announced a partnership designed to provide NBAA members subscription-based, actionable intelligence to support better business aviation decisions.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/nbaa-leans-into-business-aviation-intelligence?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-21T01:08:18Z",
+      "image": null
     },
     {
-      "title": "This 2022 Daher TBM 960 Is a Scorchingly Fast ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2022 Daher TBM 960. One thing many…",
-      "url": "https://www.flyingmag.com/this-2022-daher-tbm-960-is-a-scorchingly-fast-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-21T18:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261021_085648_6f87e6.png?w=1024"
-    },
-    {
-      "title": "Honeywell Aerospace Launches JetWave X for Business Aviation",
-      "description": "Honeywell Aerospace on Tuesday launched its next-generation in-flight connectivity platform for business aviation . The company said JetWave X, an upgrade to its JetWave satellite communications system that arrived in 2017, has entered service and is now available for order. Customers can contact…",
-      "url": "https://www.flyingmag.com/honeywell-aerospace-jetwave-x-business-aviation/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-21T17:00:00Z",
+      "title": "Honeywell projects continued business aviation growth",
+      "description": "Honeywell released its latest business aviation forecast, and despite global unrest and rising oil prices, the outlook is positive. Honeywell expects aircraft utilization and deliveries to increase.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/honeywell-projects-continued-business-aviation-growth?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-21T00:06:00Z",
       "image": null
     }
   ]
