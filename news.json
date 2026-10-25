@@ -1,43 +1,79 @@
 {
-  "generated_at": "2026-10-24T10:00:33.523532+00:00",
+  "generated_at": "2026-10-25T10:00:36.941578+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 15,
+  "count": 18,
   "articles": [
     {
-      "title": "What Are The Benefits Of Flying On Emirates’ Airbus A380?",
-      "description": "For many travelers, the Airbus A380 has become more than just another aircraft type. Even as airlines around the world have retired the superjumbo, Emirates has continued to operate the world’s largest A380 fleet and position it as a defining part of its long-haul product. This has led to a common…",
-      "url": "https://simpleflying.com/benefits-of-flying-on-emirates-airbus-a380/",
+      "title": "SAS Flight From JFK Turns Back Over Atlantic, Passengers Left To Find Hotels After Midnight",
+      "description": "Hundreds of passengers on an SAS flight from New York JFK Airport (JFK) to Copenhagen Airport (CPH) were left stranded at Newark Liberty International Airport (EWR) well past midnight after their aircraft turned back over the Atlantic due to a technical issue. Passengers were left without new…",
+      "url": "https://simpleflying.com/sas-flight-jfk-turns-back-atlantic-passengers-find-hotels-midnight/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-24T09:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/benefits.jpg"
+      "author": "Luke Bodell",
+      "published_at": "2026-10-25T06:26:05Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a330-300-scandinavian-airlines-sas-1792908774280.jpg"
     },
     {
-      "title": "The Aircraft Set To Replace The World’s 1st Partial Double-Deck Jetliner",
-      "description": "There are few aircraft as iconic as the Boeing 747 , which is lovingly known by many as the 'Queen of the Skies.' For many people around the world, the aircraft is tied to a memory: a dream holiday, a first flight, a journey to a different continent, or even the spark that shaped a lifelong passion…",
-      "url": "https://simpleflying.com/aircraft-set-to-replace-worlds-1st-partial-double-deck-jetliner/",
+      "title": "How Airlines Got Away With Only Paying Flight Attendants Once The Boarding Door Closed",
+      "description": "It's long been known that flight attendants in the US have not been paid for boarding and other duties on the ground, a reality that has always been heavily debated. Flying has become more stressful, flights are busier than ever, and often flights have the minimum crew needed, putting additional…",
+      "url": "https://simpleflying.com/airlines-got-away-only-paying-flight-attendants-once-boarding-door-closed/",
       "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-10-24T01:45:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/12/replacement.jpg"
+      "author": "Patricia Green",
+      "published_at": "2026-10-25T04:01:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-airlines-got-away-with-only-paying-flight-attendants-once-the-boarding-door-closed.jpg"
     },
     {
-      "title": "Did Airbus Really Trim Sidewall Panels To Squeeze 10-Abreast Economy Into The A350-1000?",
-      "description": "The Airbus A350 is an excellent aircraft that is both wonderfully capable and extremely fuel-efficient. The type was designed to render the Boeing 777, a major thorn in Airbus' side during the 2000s, obsolete. The A350-900 has become Airbus' most successful widebody aircraft ever, while the…",
-      "url": "https://simpleflying.com/airbus-really-trim-sidewall-panels-squeeze-10-abrest-economy-a350-1000/",
+      "title": "Sydney’s New $14 Billion Airport Officially Opens As First Jetstar Flight Takes Off",
+      "description": "Sunday 25 October marks a special day for Sydneysiders, with the historic opening of a second Sydney international airport. Western Sydney International (Nancy-Bird Walton) Airport (WSI) opens to passenger flights today, after a $14 billion build and development from scratch.",
+      "url": "https://simpleflying.com/western-sydney-international-airport-opens-first-jetstar-flight/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-25T03:54:42Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/western-sydney-international-airport-plane-arrival-1.jpg"
+    },
+    {
+      "title": "Why The A350-1000 Is Gaining The Popularity Airbus Wished It Would A Decade Ago",
+      "description": "Airbus spent most of the last decade watching its largest twinjet play second fiddle to an aircraft that had not yet carried a single paying passenger. The Airbus A350-1000 entered service with Qatar Airways in 2018, yet for years it lived in the shadow of the Boeing 777-300ER and, later, the…",
+      "url": "https://simpleflying.com/airbus-a350-1000-popularity-airbus-wished-decade-ago/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-10-25T00:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/a350-1000-1.png"
+    },
+    {
+      "title": "How Qatar Airways Is Rebalancing Its US East Coast Flying After American Airlines Quit Doha",
+      "description": "The airline industry is going through a difficult and unpredictable time right now. Middle Eastern airlines, which have emerged over the past two decades as some of the world's largest and best international carriers, are most affected by the ongoing war in Iran. Their hubs were previously known as…",
+      "url": "https://simpleflying.com/how-qatar-airways-rebalancing-us-east-coast-flying-american-airlines-quit-doha/",
       "source": "Simple Flying",
       "author": "Daniel S Osipov",
-      "published_at": "2026-10-24T00:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/sidewall-panels.png"
+      "published_at": "2026-10-24T23:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-qatar-airways-is-rebalancing-its-us-east-coast-flying-after-american-airlines-quit-doha.jpg"
     },
     {
-      "title": "Why Analysts Say Boeing's 787 Target Of 10 A Month Still Won't Make Real Money",
-      "description": "Boeing is in the midst of efforts to boost production of its best-selling passenger widebody. Having delivered approximately seven 787 Dreamliners per month in 2025, plans are to push this to ten come the end of this year. While an increase of roughly a third, the truth is the ramp-up is unlikely…",
-      "url": "https://simpleflying.com/analysts-say-boeing-787-target-10-month-wont-make-real-money/",
+      "title": "Boeing 737 MAX Cockpit: What Pilots See & Do On Every Flight",
+      "description": "Taking the first steps onto the flight deck of a Boeing 737 MAX can trigger a powerful sense of familiarity for pilots transitioning from the trusted Next-Generation (NG) series. The familiar overhead panel layout, iconic yokes, and throttle quadrant seem largely unchanged. However, this visual…",
+      "url": "https://simpleflying.com/boeing-737-max-cockpit-pilots-see-do-every-flight/",
       "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-10-23T22:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/why-analysts-say-boeing-s-787-target-of-10-a-month-still-won-t-make-real-money.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-24T22:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-737-max-cockpit-what-pilots-see-do-on-every-flight.jpg"
+    },
+    {
+      "title": "Reports: United Airlines Planning To Open New Crew Bases In Dallas/Fort Worth & Sacramento",
+      "description": "United Airlines is reportedly opening two new crew bases, and the locations may come as a surprise to a lot of people. The chosen locations of Dallas/Fort Worth International Airport (DFW) and Sacramento International Airport (SMF) will bring the airline's total number of bases to 21. The two new…",
+      "url": "https://simpleflying.com/united-airlines-planning-open-new-crew-bases-dallas-fort-worth-sacramento/",
+      "source": "Simple Flying",
+      "author": "Paul Thompson",
+      "published_at": "2026-10-24T20:27:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-at-dfw.jpg"
+    },
+    {
+      "title": "Business Aviation Demand is Outpacing Supply—What It Means for 2027",
+      "description": "The “defining question” facing the business aviation industry is “no longer who can provide an aircraft but who can secure and coordinate the capacity around it, from delivery slots, crews, hangars, and maintenance to a seamless passenger experience.” That is according to McKinsey & Company, which…",
+      "url": "https://www.flyingmag.com/mckinsey-business-aviation-demand-supply-2027/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-24T12:00:00Z",
+      "image": null
     },
     {
       "title": "Who can fly my airplane?",
@@ -92,15 +128,6 @@
       "author": "Jonathan Welsh",
       "published_at": "2026-10-22T18:31:11Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261021_162847.jpg?w=1024"
-    },
-    {
-      "title": "First Fully Outfitted G400 Takes Flight",
-      "description": "Gulfstream has announced the first fully outfitted test aircraft in its next-generation G400 program completed its maiden flight, moving the large-cabin jet closer to certification. The manufacturer Monday said the test article took off from Dallas Love Field (KDAL) in Texas and flew for about 2…",
-      "url": "https://www.flyingmag.com/outfitted-gulfstream-g400-jet-first-test-flight/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-22T16:00:00Z",
-      "image": null
     },
     {
       "title": "eFlyer 2 completes first flight",

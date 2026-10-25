@@ -1,8 +1,17 @@
 {
-  "generated_at": "2026-10-24T10:00:39.218168+00:00",
+  "generated_at": "2026-10-25T10:00:51.714386+00:00",
   "query": "RSS: The Black Vault, UFOs: Scientific Research, Mystery Wire, Live Science",
-  "count": 5,
+  "count": 6,
   "articles": [
+    {
+      "title": "What happened when humans encountered Gigantopithecus?",
+      "description": "At nearly 10 feet (3 meters) tall and around 500 pounds (230 kilograms), Gigantopithecus was the largest primate that ever lived. Foraging across the dense tropical forests of Southeast Asia between 2 million and 200,000 years ago, the giant ape may have shared the habitat with new arrivals —…",
+      "url": "https://www.livescience.com/archaeology/what-happened-when-humans-encountered-gigantopithecus",
+      "source": "Live Science",
+      "author": "Owen Jarus",
+      "published_at": "2026-10-25T09:00:00Z",
+      "image": "https://cdn.mos.cms.futurecdn.net/5Lg54wCRa3q3iKcyn2oMiL-1920-80.jpg"
+    },
     {
       "title": "Academic funding for UAP research",
       "description": "Two pieces of funding to support academic research into UAP, have been revealed in recent times. The first is a donation to the University of Albany; and the second is a proposal by the state of New Jersey in the USA to establish an academic Center for the Study of UAP. Both lines of funding are…",

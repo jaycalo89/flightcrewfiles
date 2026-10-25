@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:00:43.384947+00:00",
+  "generated_at": "2026-10-25T10:00:55.627183+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,7 +17,7 @@
     {
       "title": "Does Raymer's Empty-weight fraction include operators items?",
       "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
-      "points": 3,
+      "points": 4,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1792589574
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Do the new MOSAIC rules allow Sport Pilots to operate a light twin?",
-      "url": "https://aviation.stackexchange.com/questions/116639/do-the-new-mosaic-rules-allow-sport-pilots-to-operate-a-light-twin",
-      "points": 1,
-      "num_comments": 1,
+      "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
+      "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
+      "points": 9,
+      "num_comments": 4,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792257436
+      "created_utc": 1791217644
     }
   ]
 }
