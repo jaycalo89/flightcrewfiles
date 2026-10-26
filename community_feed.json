@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:00:55.627183+00:00",
+  "generated_at": "2026-10-26T14:28:49.998065+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Does Raymer's Empty-weight fraction include operators items?",
-      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
-      "points": 4,
-      "num_comments": 2,
+      "title": "I have an interview for an Air Navigation Systems Technician position. What are the main topics I need to study?",
+      "url": "https://aviation.stackexchange.com/questions/116659/i-have-an-interview-for-an-air-navigation-systems-technician-position-what-are",
+      "points": -5,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792589574
+      "created_utc": 1792922594
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -34,7 +34,7 @@
       "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
       "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
       "points": 0,
-      "num_comments": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1792580299
     },
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "can i get an explanation on the fire detection system on an aircraft's engine and how it works",
-      "url": "https://aviation.stackexchange.com/questions/116644/can-i-get-an-explanation-on-the-fire-detection-system-on-an-aircrafts-engine-an",
-      "points": -2,
-      "num_comments": 0,
+      "title": "Does Raymer's Empty-weight fraction include operators items?",
+      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
+      "points": 4,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792558495
+      "created_utc": 1792589574
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Why are EMP or high-power microwave warheads not used in modern air-to-air missiles?",
-      "url": "https://aviation.stackexchange.com/questions/115622/why-are-emp-or-high-power-microwave-warheads-not-used-in-modern-air-to-air-missi",
-      "points": 9,
-      "num_comments": 4,
+      "title": "can i get an explanation on the fire detection system on an aircraft's engine and how it works",
+      "url": "https://aviation.stackexchange.com/questions/116644/can-i-get-an-explanation-on-the-fire-detection-system-on-an-aircrafts-engine-an",
+      "points": -3,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1791217644
+      "created_utc": 1792558495
     }
   ]
 }

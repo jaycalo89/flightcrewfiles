@@ -1,70 +1,124 @@
 {
-  "generated_at": "2026-10-25T10:00:36.941578+00:00",
+  "generated_at": "2026-10-26T14:28:38.134064+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 23,
   "articles": [
     {
-      "title": "SAS Flight From JFK Turns Back Over Atlantic, Passengers Left To Find Hotels After Midnight",
-      "description": "Hundreds of passengers on an SAS flight from New York JFK Airport (JFK) to Copenhagen Airport (CPH) were left stranded at Newark Liberty International Airport (EWR) well past midnight after their aircraft turned back over the Atlantic due to a technical issue. Passengers were left without new…",
-      "url": "https://simpleflying.com/sas-flight-jfk-turns-back-atlantic-passengers-find-hotels-midnight/",
+      "title": "Western Sydney International Airport Is Now Open, But Sydney Is Still Planning A $3 Billion Terminal Overhaul",
+      "description": "Sydney has officially become a two-airport city, thanks to the opening of Western Sydney International (Nancy-Bird Walton) Airport (WSI) on Sunday. Despite the milestone, the city has not slowed plans for a multibillion-dollar expansion at its established aviation hub. In August, the Australian…",
+      "url": "https://simpleflying.com/western-sydney-open-sydney-planning-3-billion-terminal-overhaul/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-25T06:26:05Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a330-300-scandinavian-airlines-sas-1792908774280.jpg"
+      "author": "Jasper Yu-Dawidowicz",
+      "published_at": "2026-10-26T14:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/3-billion-terminal-overhaul-1.png"
     },
     {
-      "title": "How Airlines Got Away With Only Paying Flight Attendants Once The Boarding Door Closed",
-      "description": "It's long been known that flight attendants in the US have not been paid for boarding and other duties on the ground, a reality that has always been heavily debated. Flying has become more stressful, flights are busier than ever, and often flights have the minimum crew needed, putting additional…",
-      "url": "https://simpleflying.com/airlines-got-away-only-paying-flight-attendants-once-boarding-door-closed/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-10-25T04:01:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-airlines-got-away-with-only-paying-flight-attendants-once-the-boarding-door-closed.jpg"
+      "title": "A Pilot’s Guide to Year-End Tax Planning",
+      "description": "Every pilot knows that overlooking a checklist item can create complications down the line, often when there are fewer options to address them. Tax planning works much the same way. Strategies that can make a meaningful difference in your tax bill, such as funding an account, harvesting a loss, or…",
+      "url": "https://www.flyingmag.com/a-pilots-guide-to-year-end-tax-planning/",
+      "source": "Flying Magazine",
+      "author": "Matt Herr",
+      "published_at": "2026-10-26T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
     },
     {
-      "title": "Sydney’s New $14 Billion Airport Officially Opens As First Jetstar Flight Takes Off",
-      "description": "Sunday 25 October marks a special day for Sydneysiders, with the historic opening of a second Sydney international airport. Western Sydney International (Nancy-Bird Walton) Airport (WSI) opens to passenger flights today, after a $14 billion build and development from scratch.",
-      "url": "https://simpleflying.com/western-sydney-international-airport-opens-first-jetstar-flight/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-25T03:54:42Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/western-sydney-international-airport-plane-arrival-1.jpg"
-    },
-    {
-      "title": "Why The A350-1000 Is Gaining The Popularity Airbus Wished It Would A Decade Ago",
-      "description": "Airbus spent most of the last decade watching its largest twinjet play second fiddle to an aircraft that had not yet carried a single paying passenger. The Airbus A350-1000 entered service with Qatar Airways in 2018, yet for years it lived in the shadow of the Boeing 777-300ER and, later, the…",
-      "url": "https://simpleflying.com/airbus-a350-1000-popularity-airbus-wished-decade-ago/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-10-25T00:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/a350-1000-1.png"
-    },
-    {
-      "title": "How Qatar Airways Is Rebalancing Its US East Coast Flying After American Airlines Quit Doha",
-      "description": "The airline industry is going through a difficult and unpredictable time right now. Middle Eastern airlines, which have emerged over the past two decades as some of the world's largest and best international carriers, are most affected by the ongoing war in Iran. Their hubs were previously known as…",
-      "url": "https://simpleflying.com/how-qatar-airways-rebalancing-us-east-coast-flying-american-airlines-quit-doha/",
+      "title": "How The Boeing 737's Seating Configuration Differs Across US Airlines In 2026",
+      "description": "The Boeing 737 isn't the world's most common airliner anymore; that would be the Airbus A320 instead. Within the US, however, the 737 reigns supreme, as it is the most common aircraft type operated within the country. Eight passenger airlines operate almost 2,500 737s, which means that there's a…",
+      "url": "https://simpleflying.com/how-boeing-737-seating-configuration-differs-us-airlines-2026/",
       "source": "Simple Flying",
       "author": "Daniel S Osipov",
-      "published_at": "2026-10-24T23:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/how-qatar-airways-is-rebalancing-its-us-east-coast-flying-after-american-airlines-quit-doha.jpg"
+      "published_at": "2026-10-26T13:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-737-s-seating-configuration.png"
     },
     {
-      "title": "Boeing 737 MAX Cockpit: What Pilots See & Do On Every Flight",
-      "description": "Taking the first steps onto the flight deck of a Boeing 737 MAX can trigger a powerful sense of familiarity for pilots transitioning from the trusted Next-Generation (NG) series. The familiar overhead panel layout, iconic yokes, and throttle quadrant seem largely unchanged. However, this visual…",
-      "url": "https://simpleflying.com/boeing-737-max-cockpit-pilots-see-do-every-flight/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-24T22:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-737-max-cockpit-what-pilots-see-do-on-every-flight.jpg"
+      "title": "This 1967 Mooney M20F Executive 21 Is a Fast, Fuel-Sipping ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1967 Mooney M20F Executive 21. Mooney…",
+      "url": "https://www.flyingmag.com/this-1967-mooney-m20f-executive-21-is-a-fast-fuel-sipping-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-26T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261023_111846.jpg?w=1024"
     },
     {
-      "title": "Reports: United Airlines Planning To Open New Crew Bases In Dallas/Fort Worth & Sacramento",
-      "description": "United Airlines is reportedly opening two new crew bases, and the locations may come as a surprise to a lot of people. The chosen locations of Dallas/Fort Worth International Airport (DFW) and Sacramento International Airport (SMF) will bring the airline's total number of bases to 21. The two new…",
-      "url": "https://simpleflying.com/united-airlines-planning-open-new-crew-bases-dallas-fort-worth-sacramento/",
+      "title": "Finnair Launches Record-Breaking New 24-Hour Direct Flights: See Map Now",
+      "description": "The Northern Hemisphere winter season has officially begun, and airlines have switched to their winter schedules. We are seeing several interesting developments this season, and one that cannot be overlooked is Finnair 's brand- new route to Australia . Yesterday, October 25, the airline launched a…",
+      "url": "https://simpleflying.com/finnair-launches-record-breaking-24-hour-flights/",
       "source": "Simple Flying",
-      "author": "Paul Thompson",
-      "published_at": "2026-10-24T20:27:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-at-dfw.jpg"
+      "author": "Prachi Patel",
+      "published_at": "2026-10-26T12:54:04Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2392252995_cropped.jpg"
+    },
+    {
+      "title": "Six Of Eight Lavatories Fail On American Airlines Boeing 777",
+      "description": "An American Airlines Boeing 777 operating a transatlantic flight from Madrid to Dallas was forced to divert to New York in early October after six of its eight lavatories stopped working, leaving just two available for the 287 people on board.",
+      "url": "https://simpleflying.com/video/six-of-eight-lavatories-fail-on-american-airlines-boeing-777/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-10-26T12:29:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/777-american-toilet-malfunction.jpg"
+    },
+    {
+      "title": "Chasing History in the T-6 ‘Pilot Maker’",
+      "description": "One snowy weekend morning in January, I was casually browsing my grandfather’s World War II logbook, accompanied by a tall mug of coffee. Watching recently posted YouTube videos of F4U Corsairs being restored planted the seed of an idea. My basic plan was to search the internet for all known…",
+      "url": "https://www.flyingmag.com/chasing-history-in-the-t-6-pilot-maker/",
+      "source": "Flying Magazine",
+      "author": "Sean Siff",
+      "published_at": "2026-10-26T12:00:00Z",
+      "image": "https://www.youtube.com/embed/GtN4O6p57ZE"
+    },
+    {
+      "title": "Why Delta Has To Wait Until 2031 For Its Boeing 787s",
+      "description": "In this video, we'll examine Delta's surprising Boeing 787-10 order, why its delivery timeline complicates the airline's fleet plans, and how the Dreamliner could reshape its long-haul network in the 2030s.",
+      "url": "https://simpleflying.com/video/why-delta-has-to-wait-until-2031-for-its-boeing-787s/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-10-26T11:00:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/87_lh_delta-air-lines-ordered-30-boeing-787-10s-wont-receive-single-one-2031_h_site-copy.jpg"
+    },
+    {
+      "title": "Air France Cancels All Flights To 7 International Destinations: See Full List Now",
+      "description": "For obvious reasons, Air France is France's largest operator. OAG data shows that the SkyTeam member has 24% of the nation's flights in 2026. Its share jumps to 37% for total Paris activity and 58% at its Paris Charles De Gaulle Airport (CDG) hub.",
+      "url": "https://simpleflying.com/air-france-cancels-all-flights-to-7-international-destinations/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-26T11:00:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/05/air-france-s-7-most-frequent-boeing-777-200er-routes.jpg"
+    },
+    {
+      "title": "The SR-71 Blackbird Was Never Built To Exceed Mach 3.3, According To Its Record Pilot",
+      "description": "The Lockheed SR-71 Blackbird remains one of the most remarkable aircraft ever built. Designed to conduct strategic reconnaissance over hostile territory during the Cold War, the Mach 3-capable spy plane combined extraordinary speed, high-altitude flight, and advanced technology to gather…",
+      "url": "https://simpleflying.com/sr-71-blackbird-never-built-exceed-mach-3-3-record-pilot/",
+      "source": "Simple Flying",
+      "author": "Christian P. Martin",
+      "published_at": "2026-10-26T11:00:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/sr-71-blackbird-cover-image.png"
+    },
+    {
+      "title": "How Much Money Do Boeing 777X Test Pilots Earn In 2026?",
+      "description": "The flight test crew guiding the Boeing 777X through its lengthy certification campaign occupies one of the most demanding jobs in commercial aviation. Unlike traditional airline pilots, Boeing’s flight-test crews are tasked with pushing an unfinished aircraft into extreme operating conditions,…",
+      "url": "https://simpleflying.com/how-much-boeing-777x-test-pilots-earn-2026/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-10-26T10:31:13Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/777x-money.jpg"
+    },
+    {
+      "title": "Singapore Airlines Launches New 16-Hour Route Today: See Map Now",
+      "description": "Singapore Airlines is set to launch its first flight to Madrid today, October 26, more than two decades after last serving the Spanish capital. Flight SQ388 is scheduled to leave Singapore Changi Airport (SIN) at 11:30 PM local time and arrive at Madrid Barajas Airport (MAD) at 8:50 AM on Tuesday,…",
+      "url": "https://simpleflying.com/singapore-airlines-launches-new-16-hour-route-today/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-10-26T10:27:12Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-singapore-airlines-1793007962912.jpg"
+    },
+    {
+      "title": "Southwest Airlines Sued By Flight Attendant Over Failing To Accommodate Severe Pet Allergy",
+      "description": "A Southwest Airlines flight attendant is suing the low-cost carrier for alleged discrimination against her in violation of the Americans with Disabilities Act. Lisa Diane Patterson claims that her employer refused to accommodate her severe allergy, according to the suit filed as 'Patterson v.…",
+      "url": "https://simpleflying.com/southwest-airlines-sued-flight-attendant-failing-accomodate-severe-pet-allergy/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-10-26T09:57:42Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-boeing-737-700.jpg"
     },
     {
       "title": "Business Aviation Demand is Outpacing Supply—What It Means for 2027",
@@ -119,15 +173,6 @@
       "author": null,
       "published_at": "2026-10-23T01:29:03Z",
       "image": null
-    },
-    {
-      "title": "This 1964 Piper PA-24-250 Comanche Is a Fast, Graceful ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1964 Piper PA-24-250 Comanche. When…",
-      "url": "https://www.flyingmag.com/this-1964-piper-pa-24-250-comanche-is-a-fast-graceful-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-22T18:31:11Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261021_162847.jpg?w=1024"
     },
     {
       "title": "eFlyer 2 completes first flight",
