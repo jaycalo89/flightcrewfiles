@@ -1,16 +1,70 @@
 {
-  "generated_at": "2026-10-26T14:28:38.134064+00:00",
+  "generated_at": "2026-10-27T15:02:21.151875+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 17,
   "articles": [
     {
-      "title": "Western Sydney International Airport Is Now Open, But Sydney Is Still Planning A $3 Billion Terminal Overhaul",
-      "description": "Sydney has officially become a two-airport city, thanks to the opening of Western Sydney International (Nancy-Bird Walton) Airport (WSI) on Sunday. Despite the milestone, the city has not slowed plans for a multibillion-dollar expansion at its established aviation hub. In August, the Australian…",
-      "url": "https://simpleflying.com/western-sydney-open-sydney-planning-3-billion-terminal-overhaul/",
+      "title": "An Airbus A319, An ATR 72 & A Deserted Airport: My Journey Through Myanmar During A Civil War",
+      "description": "Myanmar Airways International (MAI) is a privately owned full-service carrier of Myanmar (Burma), based in Yangon (Rangoon) in southern Myanmar. It is Myanmar's primary airline, offering international flights from its southern Yangon and northern Mandalay hubs. I flew with MAI in September and…",
+      "url": "https://simpleflying.com/myanmar-airlines-flight-review/",
       "source": "Simple Flying",
-      "author": "Jasper Yu-Dawidowicz",
-      "published_at": "2026-10-26T14:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/3-billion-terminal-overhaul-1.png"
+      "author": "Aaron Spray",
+      "published_at": "2026-10-27T14:44:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/myanmar-airways-flight-review-2.png"
+    },
+    {
+      "title": "Airbus Boosts A320neo Order Book With New European Flag Carrier Deal",
+      "description": "Airbus has shaken hands with Faroese flag carrier Atlantic Airways on a firm order for another two examples of the multinational European planemaker's popular A320neo narrowbody twinjet. The airline is already familiar with the type, which it flies alongside older examples of the…",
+      "url": "https://simpleflying.com/atlantic-airways-airbus-a320neo-order/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-27T14:36:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/atlantic_airways_airbus_a320n_oy-rck_-_2_cropped.jpg"
+    },
+    {
+      "title": "This 1980 Beechcraft Baron 58 Is a Swift, Modified ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1980 Beechcraft Baron 58. Pilots love…",
+      "url": "https://www.flyingmag.com/this-1980-beechcraft-baron-58-is-a-swift-modified-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-27T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261026_140811.jpg?w=1024"
+    },
+    {
+      "title": "Flydubai Cancels All Flights To 24 Destinations: See Full List Now",
+      "description": "This year has been challenging for airlines, particularly those based in the Gulf, due to the ongoing conflict in the Middle East. Dubai-based flydubai has also been affected. According to aviation analytics company Cirium , the airline's overall capacity is down by 20% compared to last year.",
+      "url": "https://simpleflying.com/flydubai-cancels-all-flights-to-24-destinations/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-27T12:27:51Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/381-flydubai-boeing-737-max-8-melidis-alexandros-_-shutterstock.jpg"
+    },
+    {
+      "title": "Iran Air Attempts Unprecedented Boeing 747 Overhaul Amid Sanctions",
+      "description": "Keeping its fleet going tends to be a challenging undertaking for Iran Air at the best of times, with the carrier forced to rely on older aircraft due to Western sanctions. This year, the commercial aviation sector in Iran as a whole has been hit hard, with the country having had to come to terms…",
+      "url": "https://simpleflying.com/iran-air-boeing-747-maintenance-work/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-10-27T10:57:28Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/2010-06-15_16-19-50_tabriz_-_tehran_cropped.jpg"
+    },
+    {
+      "title": "The Hidden Math Behind Only 1 US Airline Ordering The World's Most Efficient Single-Aisle Aircraft",
+      "description": "The Embraer E195-E2 entered service in 2019 and spent six years without a single American customer. Embraer's backlog at the end of June 2025 held 190 of them, destined almost entirely for airlines outside the United States, in a market where the manufacturer dominates regional flying with the…",
+      "url": "https://simpleflying.com/hidden-math-1-us-airline-ordering-world-most-efficient-single-aisle-aircraft/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-10-27T08:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-hidden-math-behind-only-1-us-airline-ordering-the-world-s-most-efficient-single-aisle-aircraft.jpg"
+    },
+    {
+      "title": "Pilot Breaks Down Fixed-Wing Aircraft Landing at NYC Heliport",
+      "description": "Downtown Manhattan’s piers and barges were not designed to accommodate airplanes. They are the domain of helicopters, whose vertical capabilities counteract the limited space. But according to Electra CEO Marc Allen, Monday morning marked the “first time that a fixed-wing airplane has landed” at…",
+      "url": "https://www.flyingmag.com/pilot-electra-fixed-wing-aircraft-nyc-heliport/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-26T18:28:44Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Landing.mp4"
     },
     {
       "title": "A Pilot’s Guide to Year-End Tax Planning",
@@ -22,15 +76,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
     },
     {
-      "title": "How The Boeing 737's Seating Configuration Differs Across US Airlines In 2026",
-      "description": "The Boeing 737 isn't the world's most common airliner anymore; that would be the Airbus A320 instead. Within the US, however, the 737 reigns supreme, as it is the most common aircraft type operated within the country. Eight passenger airlines operate almost 2,500 737s, which means that there's a…",
-      "url": "https://simpleflying.com/how-boeing-737-seating-configuration-differs-us-airlines-2026/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-10-26T13:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-737-s-seating-configuration.png"
-    },
-    {
       "title": "This 1967 Mooney M20F Executive 21 Is a Fast, Fuel-Sipping ‘AircraftForSale’ Top Pick",
       "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1967 Mooney M20F Executive 21. Mooney…",
       "url": "https://www.flyingmag.com/this-1967-mooney-m20f-executive-21-is-a-fast-fuel-sipping-aircraftforsale-top-pick/",
@@ -40,24 +85,6 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261023_111846.jpg?w=1024"
     },
     {
-      "title": "Finnair Launches Record-Breaking New 24-Hour Direct Flights: See Map Now",
-      "description": "The Northern Hemisphere winter season has officially begun, and airlines have switched to their winter schedules. We are seeing several interesting developments this season, and one that cannot be overlooked is Finnair 's brand- new route to Australia . Yesterday, October 25, the airline launched a…",
-      "url": "https://simpleflying.com/finnair-launches-record-breaking-24-hour-flights/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-26T12:54:04Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2392252995_cropped.jpg"
-    },
-    {
-      "title": "Six Of Eight Lavatories Fail On American Airlines Boeing 777",
-      "description": "An American Airlines Boeing 777 operating a transatlantic flight from Madrid to Dallas was forced to divert to New York in early October after six of its eight lavatories stopped working, leaving just two available for the 287 people on board.",
-      "url": "https://simpleflying.com/video/six-of-eight-lavatories-fail-on-american-airlines-boeing-777/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-10-26T12:29:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/777-american-toilet-malfunction.jpg"
-    },
-    {
       "title": "Chasing History in the T-6 ‘Pilot Maker’",
       "description": "One snowy weekend morning in January, I was casually browsing my grandfather’s World War II logbook, accompanied by a tall mug of coffee. Watching recently posted YouTube videos of F4U Corsairs being restored planted the seed of an idea. My basic plan was to search the internet for all known…",
       "url": "https://www.flyingmag.com/chasing-history-in-the-t-6-pilot-maker/",
@@ -65,60 +92,6 @@
       "author": "Sean Siff",
       "published_at": "2026-10-26T12:00:00Z",
       "image": "https://www.youtube.com/embed/GtN4O6p57ZE"
-    },
-    {
-      "title": "Why Delta Has To Wait Until 2031 For Its Boeing 787s",
-      "description": "In this video, we'll examine Delta's surprising Boeing 787-10 order, why its delivery timeline complicates the airline's fleet plans, and how the Dreamliner could reshape its long-haul network in the 2030s.",
-      "url": "https://simpleflying.com/video/why-delta-has-to-wait-until-2031-for-its-boeing-787s/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-10-26T11:00:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/87_lh_delta-air-lines-ordered-30-boeing-787-10s-wont-receive-single-one-2031_h_site-copy.jpg"
-    },
-    {
-      "title": "Air France Cancels All Flights To 7 International Destinations: See Full List Now",
-      "description": "For obvious reasons, Air France is France's largest operator. OAG data shows that the SkyTeam member has 24% of the nation's flights in 2026. Its share jumps to 37% for total Paris activity and 58% at its Paris Charles De Gaulle Airport (CDG) hub.",
-      "url": "https://simpleflying.com/air-france-cancels-all-flights-to-7-international-destinations/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-26T11:00:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/05/air-france-s-7-most-frequent-boeing-777-200er-routes.jpg"
-    },
-    {
-      "title": "The SR-71 Blackbird Was Never Built To Exceed Mach 3.3, According To Its Record Pilot",
-      "description": "The Lockheed SR-71 Blackbird remains one of the most remarkable aircraft ever built. Designed to conduct strategic reconnaissance over hostile territory during the Cold War, the Mach 3-capable spy plane combined extraordinary speed, high-altitude flight, and advanced technology to gather…",
-      "url": "https://simpleflying.com/sr-71-blackbird-never-built-exceed-mach-3-3-record-pilot/",
-      "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-10-26T11:00:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/sr-71-blackbird-cover-image.png"
-    },
-    {
-      "title": "How Much Money Do Boeing 777X Test Pilots Earn In 2026?",
-      "description": "The flight test crew guiding the Boeing 777X through its lengthy certification campaign occupies one of the most demanding jobs in commercial aviation. Unlike traditional airline pilots, Boeing’s flight-test crews are tasked with pushing an unfinished aircraft into extreme operating conditions,…",
-      "url": "https://simpleflying.com/how-much-boeing-777x-test-pilots-earn-2026/",
-      "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-10-26T10:31:13Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/05/777x-money.jpg"
-    },
-    {
-      "title": "Singapore Airlines Launches New 16-Hour Route Today: See Map Now",
-      "description": "Singapore Airlines is set to launch its first flight to Madrid today, October 26, more than two decades after last serving the Spanish capital. Flight SQ388 is scheduled to leave Singapore Changi Airport (SIN) at 11:30 PM local time and arrive at Madrid Barajas Airport (MAD) at 8:50 AM on Tuesday,…",
-      "url": "https://simpleflying.com/singapore-airlines-launches-new-16-hour-route-today/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-26T10:27:12Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-airbus-a350-900-singapore-airlines-1793007962912.jpg"
-    },
-    {
-      "title": "Southwest Airlines Sued By Flight Attendant Over Failing To Accommodate Severe Pet Allergy",
-      "description": "A Southwest Airlines flight attendant is suing the low-cost carrier for alleged discrimination against her in violation of the Americans with Disabilities Act. Lisa Diane Patterson claims that her employer refused to accommodate her severe allergy, according to the suit filed as 'Patterson v.…",
-      "url": "https://simpleflying.com/southwest-airlines-sued-flight-attendant-failing-accomodate-severe-pet-allergy/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-26T09:57:42Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/southwest-airlines-boeing-737-700.jpg"
     },
     {
       "title": "Business Aviation Demand is Outpacing Supply—What It Means for 2027",
@@ -137,33 +110,6 @@
       "author": null,
       "published_at": "2026-10-23T19:05:00Z",
       "image": null
-    },
-    {
-      "title": "This 1984 Piper PA-60-700P Aerostar Is a Rare, Famously Fast ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1984 Piper PA-60-700P Aerostar.…",
-      "url": "https://www.flyingmag.com/this-1984-piper-pa-60-700p-aerostar-is-a-rare-famously-fast-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-23T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261023_102213.jpg?w=1024"
-    },
-    {
-      "title": "FAA Weighs Restoring Citation Single-Pilot Operations",
-      "description": "The FAA is reportedly open to exploring ways to restore single-pilot operations in legacy Cessna Citation models after the agency halted them in September and rescinded exemptions. “We believe that there’s some compelling data that might provide a path to allowing single-pilot operations with some…",
-      "url": "https://www.flyingmag.com/faa-weighs-restoring-citation-single-pilot-ops/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-23T13:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Meeting Aviation Where It Happens",
-      "description": "Aviation does not happen in one place anymore. It happens at Oshkosh , where thousands of people gather around flight lines, forums, aircraft displays, and evening conversations that stretch well past sunset. I know I had plenty of these at Camp Scholler. It happens in hangars and flight schools,…",
-      "url": "https://www.flyingmag.com/meeting-aviation-where-it-happens/",
-      "source": "Flying Magazine",
-      "author": "Ryan Ewing",
-      "published_at": "2026-10-23T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "AOPA Air Safety Institute Releases Accident Case Study on Deadly Utah Backcountry Crash",
