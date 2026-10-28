@@ -1,25 +1,97 @@
 {
-  "generated_at": "2026-10-27T15:02:21.151875+00:00",
+  "generated_at": "2026-10-28T10:00:23.807973+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 16,
   "articles": [
     {
-      "title": "An Airbus A319, An ATR 72 & A Deserted Airport: My Journey Through Myanmar During A Civil War",
-      "description": "Myanmar Airways International (MAI) is a privately owned full-service carrier of Myanmar (Burma), based in Yangon (Rangoon) in southern Myanmar. It is Myanmar's primary airline, offering international flights from its southern Yangon and northern Mandalay hubs. I flew with MAI in September and…",
-      "url": "https://simpleflying.com/myanmar-airlines-flight-review/",
+      "title": "Why Delta Air Lines Broke A Decade Of Airbus Widebody Loyalty To Give Boeing 1 Order",
+      "description": "Delta Air Lines sent shockwaves across the commercial aviation sector earlier this year by announcing a firm order for 30 Boeing 787-10 Dreamliners , accompanied by options for up to 30 more. The order brings with it the carrier's first direct procurement of the modern widebody family, ending an…",
+      "url": "https://simpleflying.com/delta-air-lines-broke-decade-airbus-widebody-loyalty-to-give-boeing-1-order/",
       "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-27T14:44:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/myanmar-airways-flight-review-2.png"
+      "author": "Jacob Johnson",
+      "published_at": "2026-10-28T09:15:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/delta-air-lines-broke-a-decade-of-airbus-widebody-loyalty-to-give-boeing-1-order.jpg"
     },
     {
-      "title": "Airbus Boosts A320neo Order Book With New European Flag Carrier Deal",
-      "description": "Airbus has shaken hands with Faroese flag carrier Atlantic Airways on a firm order for another two examples of the multinational European planemaker's popular A320neo narrowbody twinjet. The airline is already familiar with the type, which it flies alongside older examples of the…",
-      "url": "https://simpleflying.com/atlantic-airways-airbus-a320neo-order/",
+      "title": "Three Atlas Air Boeing 747s Sport Giant Mustaches On Their Noses For Movember",
+      "description": "In a world where twinjets are the dominant force, Atlas Air is a rare oasis of four-engine aircraft, with the US-based cargo and charter specialist still flying both the Boeing 747-400 and the 747-8F. These double-decker widebodies are recognizable enough in their own right, but three of them have…",
+      "url": "https://simpleflying.com/atlas-air-boeing-747-mustache-nose-movember/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-10-27T14:36:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/atlantic_airways_airbus_a320n_oy-rck_-_2_cropped.jpg"
+      "published_at": "2026-10-28T08:58:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1670432422_cropped.jpg"
+    },
+    {
+      "title": "Boeing Admits It Will Miss 500-Jet 737 MAX Delivery Target As It Can’t Build Enough Wings",
+      "description": "Boeing has confirmed it will fall short of its target of delivering around 500 737 MAX jets this year, as problems with wing production at its Renton, Washington, factory continue to limit output. The company is still struggling to stabilize production at 47 aircraft per month, with CEO Kelly…",
+      "url": "https://simpleflying.com/boeing-miss-737-max-delivery-target-wing-production/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-10-28T07:13:32Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/a-boeing-737-max-in-production-at-renton-factory.jpg"
+    },
+    {
+      "title": "Pan Am's Past Revivals Ran 1996-1998, 1998-2004 & 2010-2014, But This One Is Still Waiting On The FAA",
+      "description": "The airline industry in the US today hardly looks anything like what it did 60 years ago. American, Delta, and United Airlines now operate massive long-haul networks, while many carriers have merged. Several notable airlines have also gone out of business, and one of the saddest liquidations came…",
+      "url": "https://simpleflying.com/pan-am-past-revivals-one-waiting-faa/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-10-27T23:01:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/pan-am-s-past-revivals-ran.png"
+    },
+    {
+      "title": "The Most Flights A Flight Attendant Can Work In A Single Day",
+      "description": "Flight attendants often work multiple legs or sectors in a day, which may be returning to base, before a layover, or as part of a multi-leg trip. Long-haul flight attendants generally only work on one sector per day due to much longer flights, whereas those who are scheduled for shorter flights…",
+      "url": "https://simpleflying.com/most-flights-flight-attendant-work-single-day/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-10-27T21:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/most-flights-a-flight-attendant.png"
+    },
+    {
+      "title": "What to Expect When You Are Buying an Airplane",
+      "description": "BROUGHT TO YOU BY FLYING FINANCE As I started writing this article in mid-October, the FLYING Finance countdown for year-end bonus depreciation sat at 77 days. I must step around the fact that Christmas is even closer and focus on a conversation I had earlier this year with the Daher TBM team in…",
+      "url": "https://www.flyingmag.com/what-to-expect-when-you-are-buying-an-airplane/",
+      "source": "Flying Magazine",
+      "author": "Tripp Thurston",
+      "published_at": "2026-10-27T20:32:01Z",
+      "image": null
+    },
+    {
+      "title": "Breeze Airways Launches 31 New Nonstop Routes: See Full List Now",
+      "description": "Breeze Airways is set to add more than 30 new routes across the United States and internationally as the airline continues to expand its reach and provide more nonstop flights between smaller markets. The airline's approach is to provide easy, low-cost flights between smaller cities and avoid large…",
+      "url": "https://simpleflying.com/breeze-launches-31-new-nonstop-routes/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-10-27T19:53:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/breeze-airways-airbus-a220-300-las-vegas.jpg"
+    },
+    {
+      "title": "Allegiant Air Cancels All Flights To 4 Destinations: See Full List Now",
+      "description": "Allegiant Air's scheduled operations are exclusively domestic. Between November 2026 and next May, Cirium Diio data shows that the ultra-low-cost carrier's airframes will be seen in 123 airports across the country, with many, of course, being secondary or tiny . Orlando Sanford will have the most…",
+      "url": "https://simpleflying.com/allegiant-air-cancels-all-flights-to-4-destinations/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-10-27T19:30:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/123119_planes-050-1.jpg"
+    },
+    {
+      "title": "NTSB Cites Lack of Situational Awareness in Medevac Accident",
+      "description": "The National Transportation Safety Board has highlighted a lack of situational awareness during a night takeoff from a rooftop helipad as a causal factor in the May 13 crash of a medevac helicopter in Dallas. The Bell 407, flown by Air Evac Lifeteam, had a crew of three on board when the accident…",
+      "url": "https://www.flyingmag.com/ntsb-cites-lack-of-situational-awareness-in-medevac-accident/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-27T17:30:00Z",
+      "image": null
+    },
+    {
+      "title": "Kodiak Developer Launches New GA Aircraft Project",
+      "description": "A founder of companies that have developed popular amateur-built and turboprop aircraft is setting off on a new mission to develop a highly capable utility aircraft for the general aviation market. Tom Hamilton has spent five decades designing aircraft, according to his biography on the website of…",
+      "url": "https://www.flyingmag.com/kodiak-developer-new-ga-aircraft-reach-ac6/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-27T15:30:00Z",
+      "image": null
     },
     {
       "title": "This 1980 Beechcraft Baron 58 Is a Swift, Modified ‘AircraftForSale’ Top Pick",
@@ -29,33 +101,6 @@
       "author": "Jonathan Welsh",
       "published_at": "2026-10-27T14:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261026_140811.jpg?w=1024"
-    },
-    {
-      "title": "Flydubai Cancels All Flights To 24 Destinations: See Full List Now",
-      "description": "This year has been challenging for airlines, particularly those based in the Gulf, due to the ongoing conflict in the Middle East. Dubai-based flydubai has also been affected. According to aviation analytics company Cirium , the airline's overall capacity is down by 20% compared to last year.",
-      "url": "https://simpleflying.com/flydubai-cancels-all-flights-to-24-destinations/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-27T12:27:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/381-flydubai-boeing-737-max-8-melidis-alexandros-_-shutterstock.jpg"
-    },
-    {
-      "title": "Iran Air Attempts Unprecedented Boeing 747 Overhaul Amid Sanctions",
-      "description": "Keeping its fleet going tends to be a challenging undertaking for Iran Air at the best of times, with the carrier forced to rely on older aircraft due to Western sanctions. This year, the commercial aviation sector in Iran as a whole has been hit hard, with the country having had to come to terms…",
-      "url": "https://simpleflying.com/iran-air-boeing-747-maintenance-work/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-27T10:57:28Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/2010-06-15_16-19-50_tabriz_-_tehran_cropped.jpg"
-    },
-    {
-      "title": "The Hidden Math Behind Only 1 US Airline Ordering The World's Most Efficient Single-Aisle Aircraft",
-      "description": "The Embraer E195-E2 entered service in 2019 and spent six years without a single American customer. Embraer's backlog at the end of June 2025 held 190 of them, destined almost entirely for airlines outside the United States, in a market where the manufacturer dominates regional flying with the…",
-      "url": "https://simpleflying.com/hidden-math-1-us-airline-ordering-world-most-efficient-single-aisle-aircraft/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-10-27T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/the-hidden-math-behind-only-1-us-airline-ordering-the-world-s-most-efficient-single-aisle-aircraft.jpg"
     },
     {
       "title": "Pilot Breaks Down Fixed-Wing Aircraft Landing at NYC Heliport",
@@ -74,33 +119,6 @@
       "author": "Matt Herr",
       "published_at": "2026-10-26T14:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
-    },
-    {
-      "title": "This 1967 Mooney M20F Executive 21 Is a Fast, Fuel-Sipping ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1967 Mooney M20F Executive 21. Mooney…",
-      "url": "https://www.flyingmag.com/this-1967-mooney-m20f-executive-21-is-a-fast-fuel-sipping-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-26T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261023_111846.jpg?w=1024"
-    },
-    {
-      "title": "Chasing History in the T-6 ‘Pilot Maker’",
-      "description": "One snowy weekend morning in January, I was casually browsing my grandfather’s World War II logbook, accompanied by a tall mug of coffee. Watching recently posted YouTube videos of F4U Corsairs being restored planted the seed of an idea. My basic plan was to search the internet for all known…",
-      "url": "https://www.flyingmag.com/chasing-history-in-the-t-6-pilot-maker/",
-      "source": "Flying Magazine",
-      "author": "Sean Siff",
-      "published_at": "2026-10-26T12:00:00Z",
-      "image": "https://www.youtube.com/embed/GtN4O6p57ZE"
-    },
-    {
-      "title": "Business Aviation Demand is Outpacing Supply—What It Means for 2027",
-      "description": "The “defining question” facing the business aviation industry is “no longer who can provide an aircraft but who can secure and coordinate the capacity around it, from delivery slots, crews, hangars, and maintenance to a seamless passenger experience.” That is according to McKinsey & Company, which…",
-      "url": "https://www.flyingmag.com/mckinsey-business-aviation-demand-supply-2027/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-24T12:00:00Z",
-      "image": null
     },
     {
       "title": "Who can fly my airplane?",
@@ -127,33 +145,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-22T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Maverick takes on flight school paperwork",
-      "description": "For flight instructors, keeping track of what a student has completed and what still needs to be done isn't always straightforward, especially when records are spread across multiple systems.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/21/maverick-takes-on-flight-school-paperwork?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-21T08:00:00Z",
-      "image": null
-    },
-    {
-      "title": "NBAA leans into business aviation intelligence",
-      "description": "The National Business Aviation Association (NBAA) and Rolland Vincent Associates (RVA) announced a partnership designed to provide NBAA members subscription-based, actionable intelligence to support better business aviation decisions.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/nbaa-leans-into-business-aviation-intelligence?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-21T01:08:18Z",
-      "image": null
-    },
-    {
-      "title": "Honeywell projects continued business aviation growth",
-      "description": "Honeywell released its latest business aviation forecast, and despite global unrest and rising oil prices, the outlook is positive. Honeywell expects aircraft utilization and deliveries to increase.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/20/honeywell-projects-continued-business-aviation-growth?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-21T00:06:00Z",
       "image": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:02:27.993735+00:00",
+  "generated_at": "2026-10-28T10:00:35.094545+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,8 +15,8 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Why might Airbus have perceived that passengers would have a preference for four engines? (A340)",
-      "url": "https://aviation.stackexchange.com/questions/116666/why-might-airbus-have-perceived-that-passengers-would-have-a-preference-for-four",
+      "title": "Is it known why Airbus perceived that passengers would have a preference for four engines? (A340)",
+      "url": "https://aviation.stackexchange.com/questions/116666/is-it-known-why-airbus-perceived-that-passengers-would-have-a-preference-for-fou",
       "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
@@ -33,7 +33,7 @@
     {
       "title": "What is the current state of Markham Airport? (CNU8)",
       "url": "https://aviation.stackexchange.com/questions/116665/what-is-the-current-state-of-markham-airport-cnu8",
-      "points": 3,
+      "points": 4,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
       "created_utc": 1793050356
