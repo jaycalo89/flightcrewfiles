@@ -1,52 +1,133 @@
 {
-  "generated_at": "2026-10-28T10:00:23.807973+00:00",
+  "generated_at": "2026-10-29T10:00:17.128026+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 16,
+  "count": 18,
   "articles": [
     {
-      "title": "Why Delta Air Lines Broke A Decade Of Airbus Widebody Loyalty To Give Boeing 1 Order",
-      "description": "Delta Air Lines sent shockwaves across the commercial aviation sector earlier this year by announcing a firm order for 30 Boeing 787-10 Dreamliners , accompanied by options for up to 30 more. The order brings with it the carrier's first direct procurement of the modern widebody family, ending an…",
-      "url": "https://simpleflying.com/delta-air-lines-broke-decade-airbus-widebody-loyalty-to-give-boeing-1-order/",
+      "title": "How Much Does A Boeing 747 Engine Cost?",
+      "description": "The cost of a Boeing 747 engine is one of the most significant financial considerations for any operator of this iconic aircraft. As the 747 has transitioned from a passenger mainstay to a specialist cargo favorite, the market for its powerplants has split into two distinct tiers: the legacy…",
+      "url": "https://simpleflying.com/how-much-does-a-boeing-747-engine-cost/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-10-28T09:15:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/delta-air-lines-broke-a-decade-of-airbus-widebody-loyalty-to-give-boeing-1-order.jpg"
+      "published_at": "2026-10-29T09:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/how-much-does-a-boeing-747-engine-cost.jpg"
     },
     {
-      "title": "Three Atlas Air Boeing 747s Sport Giant Mustaches On Their Noses For Movember",
-      "description": "In a world where twinjets are the dominant force, Atlas Air is a rare oasis of four-engine aircraft, with the US-based cargo and charter specialist still flying both the Boeing 747-400 and the 747-8F. These double-decker widebodies are recognizable enough in their own right, but three of them have…",
-      "url": "https://simpleflying.com/atlas-air-boeing-747-mustache-nose-movember/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-10-28T08:58:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_1670432422_cropped.jpg"
-    },
-    {
-      "title": "Boeing Admits It Will Miss 500-Jet 737 MAX Delivery Target As It Can’t Build Enough Wings",
-      "description": "Boeing has confirmed it will fall short of its target of delivering around 500 737 MAX jets this year, as problems with wing production at its Renton, Washington, factory continue to limit output. The company is still struggling to stabilize production at 47 aircraft per month, with CEO Kelly…",
-      "url": "https://simpleflying.com/boeing-miss-737-max-delivery-target-wing-production/",
+      "title": "United Airlines Eyes 2 Central Asian Countries That No US Carrier Has Ever Served",
+      "description": "United Airlines is considering Uzbekistan and Kazakhstan as possible future destinations, with CEO Scott Kirby revealing that the airline's head of network planning visited both countries this year. No US airline has ever operated scheduled passenger flights to either country.",
+      "url": "https://simpleflying.com/united-airlines-eyes-flights-uzbekistan-kazakhstan/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-10-28T07:13:32Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/a-boeing-737-max-in-production-at-renton-factory.jpg"
+      "published_at": "2026-10-29T08:24:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-boeing-787-9-united-airlines-1793254352124.jpg"
     },
     {
-      "title": "Pan Am's Past Revivals Ran 1996-1998, 1998-2004 & 2010-2014, But This One Is Still Waiting On The FAA",
-      "description": "The airline industry in the US today hardly looks anything like what it did 60 years ago. American, Delta, and United Airlines now operate massive long-haul networks, while many carriers have merged. Several notable airlines have also gone out of business, and one of the saddest liquidations came…",
-      "url": "https://simpleflying.com/pan-am-past-revivals-one-waiting-faa/",
+      "title": "The Airline With The World's Largest Boeing 777 Operation In 2026",
+      "description": "The world's largest Boeing 777 fleet by a significant margin belongs to Emirates. This Middle Eastern carrier owns 145 777s, according to Planespotters.net . This 777 fleet is broken up into 777-200LR, 777-300ER, and 777F, while the carrier has now retired its 777-300. The 777 is also far ahead of…",
+      "url": "https://simpleflying.com/airline-worlds-largest-boeing-777-operation-2026/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-10-27T23:01:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/pan-am-s-past-revivals-ran.png"
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-29T08:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-777-operation.png"
     },
     {
-      "title": "The Most Flights A Flight Attendant Can Work In A Single Day",
-      "description": "Flight attendants often work multiple legs or sectors in a day, which may be returning to base, before a layover, or as part of a multi-leg trip. Long-haul flight attendants generally only work on one sector per day due to much longer flights, whereas those who are scheduled for shorter flights…",
-      "url": "https://simpleflying.com/most-flights-flight-attendant-work-single-day/",
+      "title": "Delta Air Lines Onboards 66 New Pilots: A Quarter Came From Spirit Airlines",
+      "description": "Delta Air Lines just welcomed a new cadre of pilots that featured a large number of former Spirit Airlines aviators. The standout statistic among the 66 aviators who were brought on board on October 20 is that 16 were former Spirit air crew.",
+      "url": "https://simpleflying.com/delta-air-lines-onboards-66-new-pilots-quarter-spirit/",
       "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-10-27T21:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/most-flights-a-flight-attendant.png"
+      "author": "Luke Diaz",
+      "published_at": "2026-10-29T04:01:27Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/835-delta-air-lines-airbus-a220-delta.jpg"
+    },
+    {
+      "title": "United Airlines’ Longest Nonstop Routes With The Boeing 737 MAX In Winter 2027",
+      "description": "United Airlines continues to demonstrate how modern narrowbody aircraft can connect distant destinations without requiring larger, widebody aircraft. The Boeing 737 MAX plays an important role in this strategy, offering the range and efficiency needed for longer domestic and international services…",
+      "url": "https://simpleflying.com/united-airlines-longest-boeing-737-max-flights-2027/",
+      "source": "Simple Flying",
+      "author": "Steven Walker",
+      "published_at": "2026-10-28T23:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-airlines-longest-nonstop-routes-1.png"
+    },
+    {
+      "title": "WestJet Boeing 737 MAX 8 Damaged After Colliding With Catering Truck In Toronto",
+      "description": "A WestJet aircraft collided with a catering truck at Toronto Pearson International Airport (YYZ) on Tuesday evening. Footage of the incident circulated on social media, initially accompanied by claims that the aircraft was taxiing to its gate following a flight. However, the airline and authorities…",
+      "url": "https://simpleflying.com/westjet-boeing-737-max-8-damaged-colliding-catering-truck-toronto/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-28T22:01:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet_varied_skyline_1920x1080.jpg"
+    },
+    {
+      "title": "Sun Country Cancels All Flights To 25 Destinations: See Full List Now",
+      "description": "Minneapolis-St. Paul International Airport (MSP)-based ultra-low-cost carrier Sun Country Airlines has been cutting back its flights in recent months. The reductions came after its merger with Allegiant Air was finalized in May. Apparently, the airline experienced higher-than-expected pilot…",
+      "url": "https://simpleflying.com/sun-country-cancels-all-flights-to-25-destinations/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-10-28T18:52:41Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2704559739_cropped.jpg"
+    },
+    {
+      "title": "Boeing Expects Cargo Traffic To Double As Emissions Regulations Cut Freighter Options",
+      "description": "Boeing has delivered its 2026 World Air Cargo Forecast. It expects air cargo traffic to double over the next two decades, with the global cargo fleet set to reach 4,000 planes by 2045. Time-sensitive sectors such as advanced manufacturing, e-commerce, and AI hardware have driven this growth.…",
+      "url": "https://simpleflying.com/boeing-expects-cargo-traffic-to-double-as-emissions-regulations-cut-freighter-options/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-10-28T18:16:22Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-freighter-family_cropped.jpg"
+    },
+    {
+      "title": "How Long Should a Flight Lesson Be for a Student Pilot?",
+      "description": "Question: How long should a flight lesson be for a pre-solo student pilot? I just started flying at a Part 61 flight school , and my CFI has me on the ground for about 15 minutes at the beginning and end of each lesson, and then we’re in the air for about an hour, sometimes a bit more. That doesn’t…",
+      "url": "https://www.flyingmag.com/how-long-should-a-flight-lesson-be-for-a-student-pilot/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-28T18:00:00Z",
+      "image": null
+    },
+    {
+      "title": "JetBlue Cancels All Flights To 4 International Destinations: See Full List Now",
+      "description": "JetBlue Airways has withdrawn four international destinations during 2026, ending flights to Antigua, Belize City, Bonaire and Tulum. All four destinations were previously served from John F. Kennedy International Airport (JFK). The cancellations affect routes launched as recently as 2024 , as well…",
+      "url": "https://simpleflying.com/jetblue-cancels-all-flights-to-4-international-destinations/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-10-28T17:38:31Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/jetblue_blueprint_ii_1920x1080.jpg"
+    },
+    {
+      "title": "Virgin Galactic Flies First Delta-Class Spaceplane, Plots Return in 2027",
+      "description": "Virgin Galactic, which offers high-flying commercial tours using suborbital spaceplanes, is preparing its first “Delta-class” vehicle for service in early 2027. The company said Wednesday that the spaceplane, named Apeiron , will be delivered from its factory in Arizona to its operations base at…",
+      "url": "https://www.flyingmag.com/virgin-galactic-flies-1st-spaceplane-2027-return/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-28T17:11:20Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/image_100790.jpeg?w=1024"
+    },
+    {
+      "title": "This 1967 Beechcraft A23-24 Musketeer Super III Is a Low-Time, Pleasantly Surprising ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1967 Beechcraft A23-24 Musketeer…",
+      "url": "https://www.flyingmag.com/this-1967-beechcraft-a23-24-musketeer-super-iii-is-a-low-time-pleasantly-surprising-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-10-28T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261027_103221_8f1661.jpg?w=1024"
+    },
+    {
+      "title": "FAA Proposes Criteria for Embraer E195-E2 Automated Takeoff System",
+      "description": "The FAA has proposed criteria for certifying a novel automated takeoff system on Embraer ’s narrowbody E195-E2. The Brazilian manufacturer in 2021 applied for a type certification modification to add the Embraer Enhanced Takeoff System (E2TS), which it bills as the first automated setup for…",
+      "url": "https://www.flyingmag.com/faa-criteria-embraer-e195-e2-automated-takeoff/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-28T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Next-Generation Traffic Control in the National Airspace System",
+      "description": "In 1935, a group of U.S. airlines joined forces to establish what is considered by many to be the first standardized air traffic control system. Nearly a century later, the ATC system is primed for a revolution prompted by the influx of small uncrewed aerial vehicles (UAVs), or drones, which are…",
+      "url": "https://www.flyingmag.com/next-generation-traffic-control-in-the-national-airspace-system/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-28T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "What to Expect When You Are Buying an Airplane",
@@ -58,24 +139,6 @@
       "image": null
     },
     {
-      "title": "Breeze Airways Launches 31 New Nonstop Routes: See Full List Now",
-      "description": "Breeze Airways is set to add more than 30 new routes across the United States and internationally as the airline continues to expand its reach and provide more nonstop flights between smaller markets. The airline's approach is to provide easy, low-cost flights between smaller cities and avoid large…",
-      "url": "https://simpleflying.com/breeze-launches-31-new-nonstop-routes/",
-      "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-10-27T19:53:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/breeze-airways-airbus-a220-300-las-vegas.jpg"
-    },
-    {
-      "title": "Allegiant Air Cancels All Flights To 4 Destinations: See Full List Now",
-      "description": "Allegiant Air's scheduled operations are exclusively domestic. Between November 2026 and next May, Cirium Diio data shows that the ultra-low-cost carrier's airframes will be seen in 123 airports across the country, with many, of course, being secondary or tiny . Orlando Sanford will have the most…",
-      "url": "https://simpleflying.com/allegiant-air-cancels-all-flights-to-4-destinations/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-10-27T19:30:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/123119_planes-050-1.jpg"
-    },
-    {
       "title": "NTSB Cites Lack of Situational Awareness in Medevac Accident",
       "description": "The National Transportation Safety Board has highlighted a lack of situational awareness during a night takeoff from a rooftop helipad as a causal factor in the May 13 crash of a medevac helicopter in Dallas. The Bell 407, flown by Air Evac Lifeteam, had a crew of three on board when the accident…",
       "url": "https://www.flyingmag.com/ntsb-cites-lack-of-situational-awareness-in-medevac-accident/",
@@ -83,42 +146,6 @@
       "author": "Meg Godlewski",
       "published_at": "2026-10-27T17:30:00Z",
       "image": null
-    },
-    {
-      "title": "Kodiak Developer Launches New GA Aircraft Project",
-      "description": "A founder of companies that have developed popular amateur-built and turboprop aircraft is setting off on a new mission to develop a highly capable utility aircraft for the general aviation market. Tom Hamilton has spent five decades designing aircraft, according to his biography on the website of…",
-      "url": "https://www.flyingmag.com/kodiak-developer-new-ga-aircraft-reach-ac6/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-27T15:30:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1980 Beechcraft Baron 58 Is a Swift, Modified ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1980 Beechcraft Baron 58. Pilots love…",
-      "url": "https://www.flyingmag.com/this-1980-beechcraft-baron-58-is-a-swift-modified-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-10-27T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261026_140811.jpg?w=1024"
-    },
-    {
-      "title": "Pilot Breaks Down Fixed-Wing Aircraft Landing at NYC Heliport",
-      "description": "Downtown Manhattan’s piers and barges were not designed to accommodate airplanes. They are the domain of helicopters, whose vertical capabilities counteract the limited space. But according to Electra CEO Marc Allen, Monday morning marked the “first time that a fixed-wing airplane has landed” at…",
-      "url": "https://www.flyingmag.com/pilot-electra-fixed-wing-aircraft-nyc-heliport/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-26T18:28:44Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Landing.mp4"
-    },
-    {
-      "title": "A Pilot’s Guide to Year-End Tax Planning",
-      "description": "Every pilot knows that overlooking a checklist item can create complications down the line, often when there are fewer options to address them. Tax planning works much the same way. Strategies that can make a meaningful difference in your tax bill, such as funding an account, harvesting a loss, or…",
-      "url": "https://www.flyingmag.com/a-pilots-guide-to-year-end-tax-planning/",
-      "source": "Flying Magazine",
-      "author": "Matt Herr",
-      "published_at": "2026-10-26T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/06/Allworth_Banner_2.jpeg?w=1024"
     },
     {
       "title": "Who can fly my airplane?",
@@ -136,15 +163,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-10-23T01:29:03Z",
-      "image": null
-    },
-    {
-      "title": "eFlyer 2 completes first flight",
-      "description": "Bye Aerospace's electric eFlyer 2 completed its first flight in September, marking another step in a program that has been under development for roughly a decade. The company says the two-seat trainer could cut flight school operating costs by as much as 80 percent.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/22/eflyer-2-completes-first-flight?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-22T08:00:00Z",
       "image": null
     }
   ]
