@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:00:25.321003+00:00",
+  "generated_at": "2026-10-31T10:00:34.930319+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Is it known why Airbus perceived that passengers would have a preference for four engines? (A340)",
       "url": "https://aviation.stackexchange.com/questions/116666/is-it-known-why-airbus-perceived-that-passengers-would-have-a-preference-for-fou",
-      "points": 4,
-      "num_comments": 1,
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
       "created_utc": 1793051452
     },
@@ -33,7 +33,7 @@
     {
       "title": "What is the current state of Markham Airport? (CNU8)",
       "url": "https://aviation.stackexchange.com/questions/116665/what-is-the-current-state-of-markham-airport-cnu8",
-      "points": 6,
+      "points": 10,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
       "created_utc": 1793050356
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
-      "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
-      "points": 0,
-      "num_comments": 1,
+      "title": "Does Raymer's Empty-weight fraction include operators items?",
+      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
+      "points": 4,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792580299
+      "created_utc": 1792589574
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Does Raymer's Empty-weight fraction include operators items?",
-      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
-      "points": 4,
-      "num_comments": 2,
+      "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
+      "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
+      "points": 0,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792589574
+      "created_utc": 1792580299
     }
   ]
 }

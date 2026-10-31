@@ -1,169 +1,160 @@
 {
-  "generated_at": "2026-10-29T10:00:17.128026+00:00",
+  "generated_at": "2026-10-31T10:00:26.912000+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 18,
+  "count": 17,
   "articles": [
     {
-      "title": "How Much Does A Boeing 747 Engine Cost?",
-      "description": "The cost of a Boeing 747 engine is one of the most significant financial considerations for any operator of this iconic aircraft. As the 747 has transitioned from a passenger mainstay to a specialist cargo favorite, the market for its powerplants has split into two distinct tiers: the legacy…",
-      "url": "https://simpleflying.com/how-much-does-a-boeing-747-engine-cost/",
+      "title": "The Airlines With The World’s Widest Economy Seats In 2026",
+      "description": "Most mainline economy class seats have a seat width of around 17 to 18 inches (43-45 cm), with many US-based carrier widebody seats being closer to 17 inches. A few airlines go over 18 inches, up to as much as 19 inches (48.26 cm) on select aircraft types. At the other end of the spectrum, airlines…",
+      "url": "https://simpleflying.com/airlines-with-worlds-widest-economy-seats-in-2026/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-10-29T09:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/how-much-does-a-boeing-747-engine-cost.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-10-31T09:15:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/world-widest.jpg"
     },
     {
-      "title": "United Airlines Eyes 2 Central Asian Countries That No US Carrier Has Ever Served",
-      "description": "United Airlines is considering Uzbekistan and Kazakhstan as possible future destinations, with CEO Scott Kirby revealing that the airline's head of network planning visited both countries this year. No US airline has ever operated scheduled passenger flights to either country.",
-      "url": "https://simpleflying.com/united-airlines-eyes-flights-uzbekistan-kazakhstan/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-10-29T08:24:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/simpleflying-boeing-787-9-united-airlines-1793254352124.jpg"
-    },
-    {
-      "title": "The Airline With The World's Largest Boeing 777 Operation In 2026",
-      "description": "The world's largest Boeing 777 fleet by a significant margin belongs to Emirates. This Middle Eastern carrier owns 145 777s, according to Planespotters.net . This 777 fleet is broken up into 777-200LR, 777-300ER, and 777F, while the carrier has now retired its 777-300. The 777 is also far ahead of…",
-      "url": "https://simpleflying.com/airline-worlds-largest-boeing-777-operation-2026/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-29T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-777-operation.png"
-    },
-    {
-      "title": "Delta Air Lines Onboards 66 New Pilots: A Quarter Came From Spirit Airlines",
-      "description": "Delta Air Lines just welcomed a new cadre of pilots that featured a large number of former Spirit Airlines aviators. The standout statistic among the 66 aviators who were brought on board on October 20 is that 16 were former Spirit air crew.",
-      "url": "https://simpleflying.com/delta-air-lines-onboards-66-new-pilots-quarter-spirit/",
+      "title": "Over 30 Years Old: Lufthansa Is Still Flying Some Of The World's 1st Airbus A321s",
+      "description": "Lufthansa was not only the launch customer for the Airbus A321, the first aircraft to receive it, but it also turns up on the Frankfurt or Munich departure board today. Delivered in 1994, tail number D-AIRA 'Finkenwerder' and five other A321-100s of the same vintage have become the carrier's six…",
+      "url": "https://simpleflying.com/lufthansa-still-flying-some-worlds-1st-airbus-a321s/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-29T04:01:27Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/835-delta-air-lines-airbus-a220-delta.jpg"
+      "published_at": "2026-10-31T08:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/30-years-old.png"
     },
     {
-      "title": "United Airlines’ Longest Nonstop Routes With The Boeing 737 MAX In Winter 2027",
-      "description": "United Airlines continues to demonstrate how modern narrowbody aircraft can connect distant destinations without requiring larger, widebody aircraft. The Boeing 737 MAX plays an important role in this strategy, offering the range and efficiency needed for longer domestic and international services…",
-      "url": "https://simpleflying.com/united-airlines-longest-boeing-737-max-flights-2027/",
+      "title": "Why The World's Original Boeing 787s Were Up To 22,000 Lbs Heavier Than The Ones Built Now",
+      "description": "The Boeing 787 Dreamliner is now the world's best-selling widebody jet of all time, but there is a major difference between the aircraft that roll out of the factory doors today and the one that pioneered the host of innovative technologies packed inside. As the first clean-sheet design in decades,…",
+      "url": "https://simpleflying.com/why-worlds-original-boeing-787s-22000-lbs-heavier-ones-built-now/",
       "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-10-28T23:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/united-airlines-longest-nonstop-routes-1.png"
+      "author": "Luke Diaz",
+      "published_at": "2026-10-31T05:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/heavy.png"
     },
     {
-      "title": "WestJet Boeing 737 MAX 8 Damaged After Colliding With Catering Truck In Toronto",
-      "description": "A WestJet aircraft collided with a catering truck at Toronto Pearson International Airport (YYZ) on Tuesday evening. Footage of the incident circulated on social media, initially accompanied by claims that the aircraft was taxiing to its gate following a flight. However, the airline and authorities…",
-      "url": "https://simpleflying.com/westjet-boeing-737-max-8-damaged-colliding-catering-truck-toronto/",
+      "title": "Why The Airbus A321XLR Is Being Parked At JetBlue & Wizz Air, But Kept By Iberia & Qantas",
+      "description": "The Airbus A321XLR was one of the most highly anticipated aircraft types to come out in recent years, given its small size, low operating costs, and excellent range. Airbus had already made a long-range narrowbody with the A321LR, but the A321XLR is essentially an improved version of the same…",
+      "url": "https://simpleflying.com/airbus-a321xlr-parked-jetblue-wizz-air-kept-iberia-qantas/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-10-31T00:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/airbus-a321xlr-1.png"
+    },
+    {
+      "title": "Alaska Airlines Is Betting On Seatback Screens For Only A Fraction Of Seats On Its Transcon Boeing 737 MAX 10s",
+      "description": "Anticipating the debut of its first Boeing 737 MAX 10 , Alaska Airlines has announced its new in-flight entertainment (IFE) design, which will starkly divide the experience in the front of the cabin from the back of the jet. Only the two most expensive cabins get screens, which works out to roughly…",
+      "url": "https://simpleflying.com/alaska-airlines-betting-seatback-screen-fraction-seats-transcon-boeing-737-max-10s/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-10-30T22:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/alaska-airlines-is-betting-on-seatback-screens-for-only-a-fraction-of-seats-on-its-transcon-boeing-737-max-10s.jpg"
+    },
+    {
+      "title": "American Airlines Takes Delivery Of 4 New Airbus A321neos In One Week",
+      "description": "American Airlines is accelerating its fleet modernization, taking delivery of four new Airbus aircraft in just seven days. The arrivals comprise three A321neos and one A321XLR , with the latter, registered N311NY, scheduled to arrive on Friday, according to Thomas Beam . The deliveries expand…",
+      "url": "https://simpleflying.com/american-airlines-delivery-4-new-airbus-a321neo-family-one-week/",
       "source": "Simple Flying",
       "author": "Paul Hartley",
-      "published_at": "2026-10-28T22:01:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/westjet_varied_skyline_1920x1080.jpg"
+      "published_at": "2026-10-30T21:34:55Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american_airlines_a321neo_bright_1920x1080.jpg"
     },
     {
-      "title": "Sun Country Cancels All Flights To 25 Destinations: See Full List Now",
-      "description": "Minneapolis-St. Paul International Airport (MSP)-based ultra-low-cost carrier Sun Country Airlines has been cutting back its flights in recent months. The reductions came after its merger with Allegiant Air was finalized in May. Apparently, the airline experienced higher-than-expected pilot…",
-      "url": "https://simpleflying.com/sun-country-cancels-all-flights-to-25-destinations/",
-      "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-10-28T18:52:41Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/shutterstock_2704559739_cropped.jpg"
-    },
-    {
-      "title": "Boeing Expects Cargo Traffic To Double As Emissions Regulations Cut Freighter Options",
-      "description": "Boeing has delivered its 2026 World Air Cargo Forecast. It expects air cargo traffic to double over the next two decades, with the global cargo fleet set to reach 4,000 planes by 2045. Time-sensitive sectors such as advanced manufacturing, e-commerce, and AI hardware have driven this growth.…",
-      "url": "https://simpleflying.com/boeing-expects-cargo-traffic-to-double-as-emissions-regulations-cut-freighter-options/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-10-28T18:16:22Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-freighter-family_cropped.jpg"
-    },
-    {
-      "title": "How Long Should a Flight Lesson Be for a Student Pilot?",
-      "description": "Question: How long should a flight lesson be for a pre-solo student pilot? I just started flying at a Part 61 flight school , and my CFI has me on the ground for about 15 minutes at the beginning and end of each lesson, and then we’re in the air for about an hour, sometimes a bit more. That doesn’t…",
-      "url": "https://www.flyingmag.com/how-long-should-a-flight-lesson-be-for-a-student-pilot/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-28T18:00:00Z",
+      "title": "Three ways to get more from your flight simulator",
+      "description": "A flight simulator can help you log time, stay current, and keep training on bad-weather days. But it offers more than a substitute for the airplane. By letting you control conditions, introduce challenging scenarios, and pause to analyze what happens, a simulator creates practice opportunities…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/30/three-ways-to-get-more-from-your-flight-simulator?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-30T21:32:00Z",
       "image": null
     },
     {
-      "title": "JetBlue Cancels All Flights To 4 International Destinations: See Full List Now",
-      "description": "JetBlue Airways has withdrawn four international destinations during 2026, ending flights to Antigua, Belize City, Bonaire and Tulum. All four destinations were previously served from John F. Kennedy International Airport (JFK). The cancellations affect routes launched as recently as 2024 , as well…",
-      "url": "https://simpleflying.com/jetblue-cancels-all-flights-to-4-international-destinations/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-28T17:38:31Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/jetblue_blueprint_ii_1920x1080.jpg"
-    },
-    {
-      "title": "Virgin Galactic Flies First Delta-Class Spaceplane, Plots Return in 2027",
-      "description": "Virgin Galactic, which offers high-flying commercial tours using suborbital spaceplanes, is preparing its first “Delta-class” vehicle for service in early 2027. The company said Wednesday that the spaceplane, named Apeiron , will be delivered from its factory in Arizona to its operations base at…",
-      "url": "https://www.flyingmag.com/virgin-galactic-flies-1st-spaceplane-2027-return/",
+      "title": "2 Electric Aircraft Land in Tampa as Florida Plots Aerial Highway Network",
+      "description": "A pair of electric aircraft prototypes landed on the runway at Tampa International Airport (KTPA) on Friday as Florida looks to evaluate a planned aerial highway network. According to FlightAware , Joby Aviation’s electric vertical takeoff and landing (eVTOL) prototype registered N545JX took off…",
+      "url": "https://www.flyingmag.com/2-electric-aircraft-land-at-tampa-international/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-10-28T17:11:20Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/image_100790.jpeg?w=1024"
+      "published_at": "2026-10-30T19:34:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/img-8b0ad9b1-da1f-427d-8f36-969bb0057a6f_7cc7bb.png?w=1024"
     },
     {
-      "title": "This 1967 Beechcraft A23-24 Musketeer Super III Is a Low-Time, Pleasantly Surprising ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1967 Beechcraft A23-24 Musketeer…",
-      "url": "https://www.flyingmag.com/this-1967-beechcraft-a23-24-musketeer-super-iii-is-a-low-time-pleasantly-surprising-aircraftforsale-top-pick/",
+      "title": "This 1949 Hiller UH-12A Is a Classic, Distinctively Designed ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYING M ag.com daily. Today’s Top Pick is a 1949 Hiller UH-12A. If the Hiller…",
+      "url": "https://www.flyingmag.com/this-1949-hiller-uh-12a-is-a-classic-distinctively-designed-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "Jonathan Welsh",
-      "published_at": "2026-10-28T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261027_103221_8f1661.jpg?w=1024"
+      "published_at": "2026-10-30T16:15:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/20261029_201448.jpg?w=892"
     },
     {
-      "title": "FAA Proposes Criteria for Embraer E195-E2 Automated Takeoff System",
-      "description": "The FAA has proposed criteria for certifying a novel automated takeoff system on Embraer ’s narrowbody E195-E2. The Brazilian manufacturer in 2021 applied for a type certification modification to add the Embraer Enhanced Takeoff System (E2TS), which it bills as the first automated setup for…",
-      "url": "https://www.flyingmag.com/faa-criteria-embraer-e195-e2-automated-takeoff/",
+      "title": "3 Dead After Midair Helicopter Collision in Oregon",
+      "description": "Authorities are investigating a midair collision of two helicopters near McMinnville Municipal Airport (KMMV) in Oregon that killed three people. According to the Yamhill County Sheriff’s Department, at approximately 2:10 p.m. PDT on Thursday, witnesses notified law enforcement that two helicopters…",
+      "url": "https://www.flyingmag.com/3-dead-after-midair-helicopter-collision-in-oregon/",
       "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-28T13:00:00Z",
+      "author": "Meg Godlewski",
+      "published_at": "2026-10-30T14:15:00Z",
       "image": null
     },
     {
-      "title": "Next-Generation Traffic Control in the National Airspace System",
-      "description": "In 1935, a group of U.S. airlines joined forces to establish what is considered by many to be the first standardized air traffic control system. Nearly a century later, the ATC system is primed for a revolution prompted by the influx of small uncrewed aerial vehicles (UAVs), or drones, which are…",
-      "url": "https://www.flyingmag.com/next-generation-traffic-control-in-the-national-airspace-system/",
+      "title": "Hal Shevers Was the Force Behind Sporty’s Pilot Shop",
+      "description": "This issue’s theme is “The Greats,” which is rather daunting. I think any of us could fill pages with names of genuine aviation heroes. I’ve been blessed to actually know a few, such as Barry Schiff, Clay Lacy, Bob Hoover, Neil Armstrong, Joe Kittinger and (drumroll) Jimmy Doolittle. And there’s no…",
+      "url": "https://www.flyingmag.com/hal-shevers-was-the-force-behind-sportys-pilot-shop/",
       "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-28T12:00:00Z",
+      "author": "Martha Lunken",
+      "published_at": "2026-10-30T12:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "What to Expect When You Are Buying an Airplane",
-      "description": "BROUGHT TO YOU BY FLYING FINANCE As I started writing this article in mid-October, the FLYING Finance countdown for year-end bonus depreciation sat at 77 days. I must step around the fact that Christmas is even closer and focus on a conversation I had earlier this year with the Daher TBM team in…",
-      "url": "https://www.flyingmag.com/what-to-expect-when-you-are-buying-an-airplane/",
-      "source": "Flying Magazine",
-      "author": "Tripp Thurston",
-      "published_at": "2026-10-27T20:32:01Z",
-      "image": null
-    },
-    {
-      "title": "NTSB Cites Lack of Situational Awareness in Medevac Accident",
-      "description": "The National Transportation Safety Board has highlighted a lack of situational awareness during a night takeoff from a rooftop helipad as a causal factor in the May 13 crash of a medevac helicopter in Dallas. The Bell 407, flown by Air Evac Lifeteam, had a crew of three on board when the accident…",
-      "url": "https://www.flyingmag.com/ntsb-cites-lack-of-situational-awareness-in-medevac-accident/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-10-27T17:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Who can fly my airplane?",
-      "description": "One of the most common reasons aircraft insurance claims are denied is because the pilot operating the aircraft did not meet the requirements outlined in the insurance policy.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/23/who-can-fly-my-airplane?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "title": "Michigan airport scraps GA landing fees",
+      "description": "The Manistee Blacker Airport Authority has reversed course on the $10 landing fee adopted in August for light general aviation aircraft at Michigan’s Manistee County/Blacker Airport .",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/michigan-airport-scraps-ga-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-23T19:05:00Z",
+      "published_at": "2026-10-29T20:32:48Z",
       "image": null
     },
     {
-      "title": "AOPA Air Safety Institute Releases Accident Case Study on Deadly Utah Backcountry Crash",
-      "description": "FREDERICK, Md., October 22, 2026—The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released \" Accident Case Study: Death Near Dark Canyon .\" The video examines a 2012 crash in the Utah backcountry that killed three pilots, one of whom survived the impact but had no way to…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/22/pr-aopa-air-safety-institute-releases-accident-case-study-on-deadly-utah-backcountry-crash?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "title": "Tenants drop lawsuit after FAA upholds hangar rate hike",
+      "description": "Tenants at Centennial Airport in Denver have dropped their lawsuit against Denver jetCenter after the FAA upheld the FBO’s 82-percent increase in hangar rent, which took effect in April.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/tenants-drop-lawsuit-after-faa-upholds-hangar-rate-hike?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-23T01:29:03Z",
+      "published_at": "2026-10-29T20:27:33Z",
       "image": null
+    },
+    {
+      "title": "NORAD warns Florida pilots of busy VIP TFR season",
+      "description": "The North American Aerospace Defense Command (NORAD) led a multiagency presentation for the general aviation community in South Florida ahead of what it expects to be a busy winter season. The message: \"Check your notams.\"",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/norad-warns-florida-pilots-of-busy-vip-tfr-season?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-10-29T20:04:33Z",
+      "image": null
+    },
+    {
+      "title": "Coming in 2027: What GA Pilots Should Know About Mobile Clearance",
+      "description": "By early 2027, general and business aviation pilots across the U.S. will be able to shift routine requests from voice radio to a digital format via flight plan service provider applications such as ForeFlight and Garmin. The FAA has previously said Mobile Clearance —a digital tool it has been…",
+      "url": "https://www.flyingmag.com/coming-2027-ga-pilots-faa-mobile-clearance-tool/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-29T17:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-29-124218.png?w=1024"
+    },
+    {
+      "title": "‘Aviation Start’ Episode 6 Shows How to Build an Aviation Business Right Out of College",
+      "description": "The sixth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, looks at a path into the industry that doesn’t run through a flight department or an airline: starting your own aviation business. Guest Ethan O’Rourke is the founder of DZZY Films, a…",
+      "url": "https://www.flyingmag.com/aviation-start-episode-6-shows-how-to-build-an-aviation-business-right-out-of-college/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-10-29T16:20:24Z",
+      "image": null
+    },
+    {
+      "title": "NTSB Warns GA Pilots of Fatal Injury Risk From Outdated, Faulty Restraints",
+      "description": "The National Transportation Safety Board on Wednesday issued a new safety alert urging general aviation pilots and owners to inspect and replace certain seat restraints in order to lower the risk of injury or death during aviation accidents. Among the NTSB ’s findings is that pilots may unknowingly…",
+      "url": "https://www.flyingmag.com/ntsb-ga-pilots-fatal-injury-risk-seat-restraints/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-10-29T15:31:26Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/image_751bd0.jpeg"
     }
   ]
 }
