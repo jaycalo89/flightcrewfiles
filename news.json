@@ -1,61 +1,88 @@
 {
-  "generated_at": "2026-10-31T10:00:26.912000+00:00",
+  "generated_at": "2026-11-01T13:45:34.929789+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 17,
+  "count": 19,
   "articles": [
     {
-      "title": "The Airlines With The World’s Widest Economy Seats In 2026",
-      "description": "Most mainline economy class seats have a seat width of around 17 to 18 inches (43-45 cm), with many US-based carrier widebody seats being closer to 17 inches. A few airlines go over 18 inches, up to as much as 19 inches (48.26 cm) on select aircraft types. At the other end of the spectrum, airlines…",
-      "url": "https://simpleflying.com/airlines-with-worlds-widest-economy-seats-in-2026/",
+      "title": "United Airlines CEO Defends Charging Non-Frequent Flyers $70 To Avoid The Middle Seat",
+      "description": "Per a New York Times report, the cost of avoiding the middle seat on a United flight was $70 for a non-frequent flyer. The ‘Times reporter confronted the airline CEO about this.",
+      "url": "https://simpleflying.com/video/united-airlines-ceo-defends-charging-non-frequent-flyers-70-to-avoid-the-middle-seat/",
       "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-10-31T09:15:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/world-widest.jpg"
+      "author": "Chris Loh",
+      "published_at": "2026-11-01T13:31:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/unied-kirby-middle-seat.jpg"
     },
     {
-      "title": "Over 30 Years Old: Lufthansa Is Still Flying Some Of The World's 1st Airbus A321s",
-      "description": "Lufthansa was not only the launch customer for the Airbus A321, the first aircraft to receive it, but it also turns up on the Frankfurt or Munich departure board today. Delivered in 1994, tail number D-AIRA 'Finkenwerder' and five other A321-100s of the same vintage have become the carrier's six…",
-      "url": "https://simpleflying.com/lufthansa-still-flying-some-worlds-1st-airbus-a321s/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-10-31T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/30-years-old.png"
-    },
-    {
-      "title": "Why The World's Original Boeing 787s Were Up To 22,000 Lbs Heavier Than The Ones Built Now",
-      "description": "The Boeing 787 Dreamliner is now the world's best-selling widebody jet of all time, but there is a major difference between the aircraft that roll out of the factory doors today and the one that pioneered the host of innovative technologies packed inside. As the first clean-sheet design in decades,…",
-      "url": "https://simpleflying.com/why-worlds-original-boeing-787s-22000-lbs-heavier-ones-built-now/",
+      "title": "F-22 Raptor Pilots: What It Takes To Fly America’s Top Stealth Fighter",
+      "description": "It can take 15 or 16 months before a US Air Force pilot is even considered to fly the service's premier air superiority platform, the F-22 Raptor. As the world's first fifth-generation fighter, the angular stealth jet was designed to be built by the Skunk Works division of Lockheed Martin to defeat…",
+      "url": "https://simpleflying.com/f-22-what-takes-fly-americas-top-stealth-fighter/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-31T05:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/heavy.png"
+      "published_at": "2026-11-01T13:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/f-22-raptor-pilots-what-it-takes-to-fly-america-s-top-stealth-fighter.jpg"
     },
     {
-      "title": "Why The Airbus A321XLR Is Being Parked At JetBlue & Wizz Air, But Kept By Iberia & Qantas",
-      "description": "The Airbus A321XLR was one of the most highly anticipated aircraft types to come out in recent years, given its small size, low operating costs, and excellent range. Airbus had already made a long-range narrowbody with the A321LR, but the A321XLR is essentially an improved version of the same…",
-      "url": "https://simpleflying.com/airbus-a321xlr-parked-jetblue-wizz-air-kept-iberia-qantas/",
+      "title": "Older Than Their Owners: How 1970s Aircraft Still Power America’s Private Fleet",
+      "description": "Most cars on the road today were built within the past 30 years, because driving a 1980s or 1970s car is immensely different from driving a modern one. Instead, it's mainly the special vehicles from this era that are still around. Similarly, there are some aging cargo planes and ancient airliners…",
+      "url": "https://simpleflying.com/how-1970s-aircraft-still-power-america-private-fleet/",
       "source": "Simple Flying",
       "author": "Daniel S Osipov",
-      "published_at": "2026-10-31T00:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/airbus-a321xlr-1.png"
+      "published_at": "2026-11-01T12:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/older-than-their-owners.png"
     },
     {
-      "title": "Alaska Airlines Is Betting On Seatback Screens For Only A Fraction Of Seats On Its Transcon Boeing 737 MAX 10s",
-      "description": "Anticipating the debut of its first Boeing 737 MAX 10 , Alaska Airlines has announced its new in-flight entertainment (IFE) design, which will starkly divide the experience in the front of the cabin from the back of the jet. Only the two most expensive cabins get screens, which works out to roughly…",
-      "url": "https://simpleflying.com/alaska-airlines-betting-seatback-screen-fraction-seats-transcon-boeing-737-max-10s/",
+      "title": "Why Delta Air Lines Doesn’t Want Blended Winglets On Most Aircraft Anymore",
+      "description": "By now, it is well understood that winglets are a worthwhile investment for airlines operating aircraft in the passenger aviation industry. Although the efficiency gains of such wingtip devices may seem marginal at first glance, in the race to design and build the most fuel-efficient commercial…",
+      "url": "https://simpleflying.com/why-delta-air-lines-doesnt-want-blended-winglets-on-most-aircraft-anymore/",
+      "source": "Simple Flying",
+      "author": "Simple Flying Staff",
+      "published_at": "2026-11-01T10:15:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/delta-air-lines-boeing-737-800-salt-lake-city.jpg"
+    },
+    {
+      "title": "United Boeing 757 Declares Mayday As Fuel Runs Low After Aborted Landing At San Francisco",
+      "description": "A United Airlines Boeing 757 declared a Mayday on Friday morning due to low fuel after aborting its landing at San Francisco International Airport (SFO) and going around. The aircraft — operating flight UA1023 from Boston Logan International Airport (BOS) — was on final approach to Runway 28R when…",
+      "url": "https://simpleflying.com/united-airlines-boeing-757-mayday-low-fuel-san-francisco/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-01T08:06:16Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-boeing-757-200-at-sfo.jpg"
+    },
+    {
+      "title": "How Much Do Helicopter Pilots Earn Compared To Airline Pilots In 2026?",
+      "description": "The Bureau of Labor Statistics reported a median annual wage of $232,140 for airline pilots , copilots, and flight engineers in May 2025, and $123,220 for commercial pilots. Those two figures are routinely compared as an airline-versus-helicopter comparison. They are not one. The BLS publishes no…",
+      "url": "https://simpleflying.com/how-much-do-helicopter-pilots-earn-compared-to-airline-pilots-in-2026/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-01T08:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/helicopter-pilots-earn-compared-to-airline-pilots.png"
+    },
+    {
+      "title": "Fleet Strategy: How Delta Air Lines Became The Only US Carrier Operating Airbus' Newest Widebodies",
+      "description": "Delta Air Lines has achieved something its biggest domestic competitors once appeared equally capable of doing: building a long-haul fleet around Airbus' newest widebody aircraft . While American Airlines and United Airlines have moved in different directions, Delta has become the only US carrier…",
+      "url": "https://simpleflying.com/delta-air-lines-only-us-carrier-operating-airbus-newest-widebodies/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-11-01T04:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/fleet-strategy-how-delta-air-lines-became-the-only-us-carrier-operating-airbus-newest-widebodies.jpg"
+    },
+    {
+      "title": "The World’s Largest Air Forces By Number Of Pilots",
+      "description": "According to the World Population Review, American air dominance remains at the top of the stack 30 years after the Iron Curtain fell during the Cold War . As countries deal with declining birth rates, changing finances, and the introduction of pilot-optional aircraft, fighter cockpits around the…",
+      "url": "https://simpleflying.com/worlds-largest-air-forces-by-number-of-pilots/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-10-30T22:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/alaska-airlines-is-betting-on-seatback-screens-for-only-a-fraction-of-seats-on-its-transcon-boeing-737-max-10s.jpg"
+      "published_at": "2026-11-01T01:45:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/largest.jpg"
     },
     {
-      "title": "American Airlines Takes Delivery Of 4 New Airbus A321neos In One Week",
-      "description": "American Airlines is accelerating its fleet modernization, taking delivery of four new Airbus aircraft in just seven days. The arrivals comprise three A321neos and one A321XLR , with the latter, registered N311NY, scheduled to arrive on Friday, according to Thomas Beam . The deliveries expand…",
-      "url": "https://simpleflying.com/american-airlines-delivery-4-new-airbus-a321neo-family-one-week/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-10-30T21:34:55Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/american_airlines_a321neo_bright_1920x1080.jpg"
+      "title": "Logging the Hours That Matter Most: The Faces of Angel Flight Northeast",
+      "description": "For millions of Americans, living in rural areas means access to healthcare can be a challenge, especially for those living with rare conditions. Getting to and from appointments or seeing specialists can be an all day ordeal or even take days. When Calvin Hamm was a baby, he started experiencing…",
+      "url": "https://www.flyingmag.com/logging-the-hours-that-matter-most-the-faces-of-angel-flight-northeast/",
+      "source": "Flying Magazine",
+      "author": "Matt Leighton",
+      "published_at": "2026-10-31T12:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/IMG_3184.jpeg?w=1024"
     },
     {
       "title": "Three ways to get more from your flight simulator",
@@ -63,7 +90,7 @@
       "url": "https://www.aopa.org/news-and-media/all-news/2026/october/30/three-ways-to-get-more-from-your-flight-simulator?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-30T21:32:00Z",
+      "published_at": "2026-10-30T22:32:00Z",
       "image": null
     },
     {
@@ -108,7 +135,7 @@
       "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/michigan-airport-scraps-ga-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-29T20:32:48Z",
+      "published_at": "2026-10-29T21:32:48Z",
       "image": null
     },
     {
@@ -117,7 +144,7 @@
       "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/tenants-drop-lawsuit-after-faa-upholds-hangar-rate-hike?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-29T20:27:33Z",
+      "published_at": "2026-10-29T21:27:33Z",
       "image": null
     },
     {
@@ -126,7 +153,7 @@
       "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/norad-warns-florida-pilots-of-busy-vip-tfr-season?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-10-29T20:04:33Z",
+      "published_at": "2026-10-29T21:04:33Z",
       "image": null
     },
     {
@@ -146,15 +173,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-10-29T16:20:24Z",
       "image": null
-    },
-    {
-      "title": "NTSB Warns GA Pilots of Fatal Injury Risk From Outdated, Faulty Restraints",
-      "description": "The National Transportation Safety Board on Wednesday issued a new safety alert urging general aviation pilots and owners to inspect and replace certain seat restraints in order to lower the risk of injury or death during aviation accidents. Among the NTSB ’s findings is that pilots may unknowingly…",
-      "url": "https://www.flyingmag.com/ntsb-ga-pilots-fatal-injury-risk-seat-restraints/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-29T15:31:26Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/image_751bd0.jpeg"
     }
   ]
 }

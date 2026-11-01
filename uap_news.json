@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31T10:00:30.825133+00:00",
+  "generated_at": "2026-11-01T13:45:39.179610+00:00",
   "query": "RSS: The Black Vault, UFOs: Scientific Research, Mystery Wire, Live Science",
-  "count": 5,
+  "count": 4,
   "articles": [
     {
       "title": "What happened when humans encountered Gigantopithecus?",
@@ -37,15 +37,6 @@
       "source": "UFOs: Scientific Research",
       "author": "Keith Basterfield",
       "published_at": "2025-12-06T09:14:00Z",
-      "image": null
-    },
-    {
-      "title": "The latest SOL Foundation symposium",
-      "description": "The SOL Foundation The latest SOL Foundation gathering took place between 24-27 October 2025, on the shores of Lake Maggiore, in northern Italy. The concept of a European event was to highlight the fact that the phenomenon is a global one, and not limited to the United States, where it has…",
-      "url": "https://ufos-scientificresearch.blogspot.com/2025/11/the-latest-sol-foundation-symposium.html",
-      "source": "UFOs: Scientific Research",
-      "author": "Keith Basterfield",
-      "published_at": "2025-11-01T06:34:00Z",
       "image": null
     }
   ]
