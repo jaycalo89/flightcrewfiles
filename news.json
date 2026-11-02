@@ -1,79 +1,70 @@
 {
-  "generated_at": "2026-11-01T13:45:34.929789+00:00",
+  "generated_at": "2026-11-02T13:23:55.932267+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 17,
   "articles": [
     {
-      "title": "United Airlines CEO Defends Charging Non-Frequent Flyers $70 To Avoid The Middle Seat",
-      "description": "Per a New York Times report, the cost of avoiding the middle seat on a United flight was $70 for a non-frequent flyer. The ‘Times reporter confronted the airline CEO about this.",
-      "url": "https://simpleflying.com/video/united-airlines-ceo-defends-charging-non-frequent-flyers-70-to-avoid-the-middle-seat/",
+      "title": "Air India Cancels All Flights To 8 Destinations: See Full List Now",
+      "description": "Air India is India's second-largest airline in terms of scheduled flights and seat capacity (after IndiGo), and its largest international carrier. Like other airlines, it has been making changes to its domestic and international networks. Simple Flying took a look at the airline’s latest scheduled…",
+      "url": "https://simpleflying.com/air-india-cancels-all-flights-to-8-destinations-see-full-list-now/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-01T13:31:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/unied-kirby-middle-seat.jpg"
+      "author": "Prachi Patel",
+      "published_at": "2026-11-02T12:49:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/729-air-india-boeing-787-vytautas-kielaitis-_-shutterstock.jpg"
     },
     {
-      "title": "F-22 Raptor Pilots: What It Takes To Fly America’s Top Stealth Fighter",
-      "description": "It can take 15 or 16 months before a US Air Force pilot is even considered to fly the service's premier air superiority platform, the F-22 Raptor. As the world's first fifth-generation fighter, the angular stealth jet was designed to be built by the Skunk Works division of Lockheed Martin to defeat…",
-      "url": "https://simpleflying.com/f-22-what-takes-fly-americas-top-stealth-fighter/",
+      "title": "Why The Airbus A380 Failed As A Cargo Plane",
+      "description": "In this video, we'll examine why Airbus believed the A380F would become the future of air freight, why major cargo airlines abandoned the program before it even entered service, and why the industry ultimately chose smaller twin-engine freighters instead of the world's largest aircraft.",
+      "url": "https://simpleflying.com/video/why-the-airbus-a380-failed-as-a-cargo-plane/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-01T13:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/f-22-raptor-pilots-what-it-takes-to-fly-america-s-top-stealth-fighter.jpg"
+      "author": "SF Staff",
+      "published_at": "2026-11-02T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/79_lh_why-worlds-largest-commerical-aircraft-failed-freighter-even-though-airbus-plotted-sucess_h_site-copy.jpg"
     },
     {
-      "title": "Older Than Their Owners: How 1970s Aircraft Still Power America’s Private Fleet",
-      "description": "Most cars on the road today were built within the past 30 years, because driving a 1980s or 1970s car is immensely different from driving a modern one. Instead, it's mainly the special vehicles from this era that are still around. Similarly, there are some aging cargo planes and ancient airliners…",
-      "url": "https://simpleflying.com/how-1970s-aircraft-still-power-america-private-fleet/",
+      "title": "Boeing Cleared To Sell Parts & Jets To Belarus Despite Fears They’ll End Up In Russia",
+      "description": "Boeing has officially been cleared to resume direct business with Belarusian flag carrier Belavia, which flies 12 aircraft from the US planemaker. The airline had been placed under sanctions by the US, but these were initially eased back in September of 2025. Now the US has gone a step further…",
+      "url": "https://simpleflying.com/boeing-cleared-sell-parts-jets-belarus-belavia-despite-russia/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-01T12:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/older-than-their-owners.png"
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-02T09:18:59Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2541708097_cropped.jpg"
     },
     {
-      "title": "Why Delta Air Lines Doesn’t Want Blended Winglets On Most Aircraft Anymore",
-      "description": "By now, it is well understood that winglets are a worthwhile investment for airlines operating aircraft in the passenger aviation industry. Although the efficiency gains of such wingtip devices may seem marginal at first glance, in the race to design and build the most fuel-efficient commercial…",
-      "url": "https://simpleflying.com/why-delta-air-lines-doesnt-want-blended-winglets-on-most-aircraft-anymore/",
+      "title": "Boeing 747 Cockpit: How Flying The Queen Of The Skies Differs From Modern Jets",
+      "description": "The Boeing 747 is instantly recognizable for its distinctive upper deck, enormous wingspan, and four-engine configuration. Yet some of its most significant changes have taken place behind the cockpit door. Across successive generations, the aircraft’s flight deck evolved from an instrument-heavy…",
+      "url": "https://simpleflying.com/boeing-747-cockpit-flying-queen-skies-differs-modern-jets/",
       "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-11-01T10:15:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/delta-air-lines-boeing-737-800-salt-lake-city.jpg"
+      "author": "Emma Kraeger",
+      "published_at": "2026-11-02T09:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/boeing-747-cockpit-how-flying-the-queen-of-the-skies-differs-from-modern-jets.jpg"
+    },
+    {
+      "title": "Breaking: Learjet 60 With 9 People Onboard Fatally Nose Dives In Missile-Like Crash Near Mar-A-Lago",
+      "description": "This article was updated on Monday, November 2, 2026, to include the latest details on the aftermath of the crash. It was originally published on Sunday, November 1, 2026.",
+      "url": "https://simpleflying.com/learjet-60-fatally-crashes-missile-like-crash-mar-a-lago/",
+      "source": "Simple Flying",
+      "author": "Victoria Agronsky",
+      "published_at": "2026-11-02T08:38:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/n722bd.jpg"
     },
     {
       "title": "United Boeing 757 Declares Mayday As Fuel Runs Low After Aborted Landing At San Francisco",
-      "description": "A United Airlines Boeing 757 declared a Mayday on Friday morning due to low fuel after aborting its landing at San Francisco International Airport (SFO) and going around. The aircraft — operating flight UA1023 from Boston Logan International Airport (BOS) — was on final approach to Runway 28R when…",
+      "description": "This article was updated on Monday, November 2, 2026, to include additional information on unstable approaches and go-around maneuvers. It was originally published on Sunday, November 1, 2026.",
       "url": "https://simpleflying.com/united-airlines-boeing-757-mayday-low-fuel-san-francisco/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-11-01T08:06:16Z",
+      "published_at": "2026-11-02T07:11:52Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-boeing-757-200-at-sfo.jpg"
     },
     {
-      "title": "How Much Do Helicopter Pilots Earn Compared To Airline Pilots In 2026?",
-      "description": "The Bureau of Labor Statistics reported a median annual wage of $232,140 for airline pilots , copilots, and flight engineers in May 2025, and $123,220 for commercial pilots. Those two figures are routinely compared as an airline-versus-helicopter comparison. They are not one. The BLS publishes no…",
-      "url": "https://simpleflying.com/how-much-do-helicopter-pilots-earn-compared-to-airline-pilots-in-2026/",
+      "title": "6 Airlines Offering Lifetime Elite Status Without Flying A Million Miles",
+      "description": "For many frequent flyers in the United States, lifetime elite status is associated with the so-called 'Million Miler' programs offered by large US airlines such as United Airlines , Delta Air Lines, and American Airlines . These programs reward passengers who have accumulated at least one million…",
+      "url": "https://simpleflying.com/airlines-offering-lifetime-elite-status-without-flying-million-miles/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-01T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/helicopter-pilots-earn-compared-to-airline-pilots.png"
-    },
-    {
-      "title": "Fleet Strategy: How Delta Air Lines Became The Only US Carrier Operating Airbus' Newest Widebodies",
-      "description": "Delta Air Lines has achieved something its biggest domestic competitors once appeared equally capable of doing: building a long-haul fleet around Airbus' newest widebody aircraft . While American Airlines and United Airlines have moved in different directions, Delta has become the only US carrier…",
-      "url": "https://simpleflying.com/delta-air-lines-only-us-carrier-operating-airbus-newest-widebodies/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-11-01T04:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/fleet-strategy-how-delta-air-lines-became-the-only-us-carrier-operating-airbus-newest-widebodies.jpg"
-    },
-    {
-      "title": "The World’s Largest Air Forces By Number Of Pilots",
-      "description": "According to the World Population Review, American air dominance remains at the top of the stack 30 years after the Iron Curtain fell during the Cold War . As countries deal with declining birth rates, changing finances, and the introduction of pilot-optional aircraft, fighter cockpits around the…",
-      "url": "https://simpleflying.com/worlds-largest-air-forces-by-number-of-pilots/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-01T01:45:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/largest.jpg"
+      "author": "Nick Pisters",
+      "published_at": "2026-11-02T06:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/a380-redeployment-20261026-195229.jpg"
     },
     {
       "title": "Logging the Hours That Matter Most: The Faces of Angel Flight Northeast",
@@ -164,15 +155,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-10-29T17:30:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/Screenshot-2026-10-29-124218.png?w=1024"
-    },
-    {
-      "title": "‘Aviation Start’ Episode 6 Shows How to Build an Aviation Business Right Out of College",
-      "description": "The sixth episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, looks at a path into the industry that doesn’t run through a flight department or an airline: starting your own aviation business. Guest Ethan O’Rourke is the founder of DZZY Films, a…",
-      "url": "https://www.flyingmag.com/aviation-start-episode-6-shows-how-to-build-an-aviation-business-right-out-of-college/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-10-29T16:20:24Z",
-      "image": null
     }
   ]
 }

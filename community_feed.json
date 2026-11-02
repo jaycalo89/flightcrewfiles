@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:45:39.760060+00:00",
+  "generated_at": "2026-11-02T13:24:02.118785+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Is it known why Airbus perceived that passengers would have a preference for four engines? (A340)",
-      "url": "https://aviation.stackexchange.com/questions/116666/is-it-known-why-airbus-perceived-that-passengers-would-have-a-preference-for-fou",
-      "points": 6,
+      "title": "How do pilots flying the Boeing 737 (NG, MAX etc) retract the speed brake lever after landing?",
+      "url": "https://aviation.stackexchange.com/questions/116673/how-do-pilots-flying-the-boeing-737-ng-max-etc-retract-the-speed-brake-lever",
+      "points": 3,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1793051452
+      "created_utc": 1793547893
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "What is the current state of Markham Airport? (CNU8)",
-      "url": "https://aviation.stackexchange.com/questions/116665/what-is-the-current-state-of-markham-airport-cnu8",
-      "points": 11,
-      "num_comments": 1,
+      "title": "Is it known why Airbus perceived that passengers would have a preference for four engines? (A340)",
+      "url": "https://aviation.stackexchange.com/questions/116666/is-it-known-why-airbus-perceived-that-passengers-would-have-a-preference-for-fou",
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1793050356
+      "created_utc": 1793051452
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Does Raymer's Empty-weight fraction include operators items?",
-      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
-      "points": 4,
-      "num_comments": 2,
+      "title": "What is the current state of Markham Airport? (CNU8)",
+      "url": "https://aviation.stackexchange.com/questions/116665/what-is-the-current-state-of-markham-airport-cnu8",
+      "points": 11,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792589574
+      "created_utc": 1793050356
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "What does 6/6YR, 8/6YR mean in Aircraft Maintenance?",
-      "url": "https://aviation.stackexchange.com/questions/116645/what-does-6-6yr-8-6yr-mean-in-aircraft-maintenance",
-      "points": 0,
-      "num_comments": 1,
+      "title": "Does Raymer's Empty-weight fraction include operators items?",
+      "url": "https://aviation.stackexchange.com/questions/116646/does-raymers-empty-weight-fraction-include-operators-items",
+      "points": 4,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1792580299
+      "created_utc": 1792589574
     }
   ]
 }
