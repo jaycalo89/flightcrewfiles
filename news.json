@@ -1,133 +1,142 @@
 {
-  "generated_at": "2026-11-03T14:29:58.375588+00:00",
+  "generated_at": "2026-11-05T14:29:18.894900+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 19,
   "articles": [
     {
-      "title": "Multiple European Flights Hit By Bomb Threats In Single Day",
-      "description": "At least six flights traveling to destinations in Europe are said to have faced bomb threats on Tuesday, just a day after a Wizz Air flight from London Luton Airport (LTN) to Sofia (SOF) had to divert to Budapest (BUD) on Monday. For the most part, the flights in question were able to continue to…",
-      "url": "https://simpleflying.com/multiple-separate-european-flights-face-bomb-threats/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-03T14:06:02Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2615320705_cropped.jpg"
-    },
-    {
-      "title": "Delta Air Lines Launches 4 New Nonstop Airbus A350 Routes: See Full List Now",
-      "description": "Delta Air Lines is preparing to expand its Airbus A350-900 network with four new route deployments between December 2026 and May 2027. The additions include new nonstop services to Manila and Riyadh , alongside the resumption of flights to Tel Aviv and an aircraft upgrade on its Athens route. The…",
-      "url": "https://simpleflying.com/delta-launches-4-new-nonstop-routes/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-11-03T14:05:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/841-delta-air-lines-airbus-a350-oleh-yatskiv-_-shutterstock.jpg"
-    },
-    {
-      "title": "This 1978 Grumman American AA-5B Tiger Is an Innovative, Efficient ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1978 Grumman American AA-5B Tiger.…",
-      "url": "https://www.flyingmag.com/this-1978-grumman-american-aa-5b-tiger-is-an-innovative-efficient-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-03T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261101_214331_ba6a3a.jpg?w=1024"
-    },
-    {
-      "title": "Boeing Predicts China’s Airliner Fleet Will Double To Almost 10,000",
-      "description": "2026 has been a largely positive year for Boeing as far as its Chinese prospects are concerned, with improving diplomatic relations between the US and China paving the way for the American planemaker to land several major orders and continue deliveries. Going forward, China is certainly a market…",
-      "url": "https://simpleflying.com/boeing-china-market-projection/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-03T12:51:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/440-air-china-boeing-737-800-kittikun-yoksap-_-shutterstock.jpg"
-    },
-    {
-      "title": "British Airways Axes 6 Boeing 787 Routes From Heathrow: See Full List Now",
-      "description": "All of British Airways' Boeing 787s are currently deployed from London Heathrow Airport (LHR), although 787-10s will eventually operate from London Gatwick. In 2026, the oneworld member pulled the so-called Dreamliner, to use the manufacturer's moniker, from five routes from LHR , with a sixth…",
-      "url": "https://simpleflying.com/british-airways-axes-6-boeing-787-routes-from-heathrow/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-03T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/111-british-airways-boeing-787-10-robin-guess-_-shutterstock.jpg"
-    },
-    {
-      "title": "United Airlines Threw Away A Damaged 25-Year Airbus A320, But Repaired A Fuselage-Wrinkled Boeing 767 Much Older",
-      "description": "On May 16, 2026, a catering truck at Washington Ronald Reagan National Airport (DCA) hit N470UA, a 25-year-old Airbus A320-200 operated by United Airlines . The vehicle struck the plane's rear fuselage and caused severe damage, enough that it was deemed too expensive to repair. This aircraft had,…",
-      "url": "https://simpleflying.com/united-airlines-threw-away-damaged-25-year-old-airbus-a320-repaired-fueselage-wrinkled-boeing-767-older/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-03T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-threw-away-a-damaged-25-year-airbus-a320-but-repaired-a-fuselage-wrinkled-boeing-767-much-older.jpg"
-    },
-    {
-      "title": "Here's What Emirates' 56-Seat Premium Economy Cabin Offers That Singapore Airlines Structurally Cannot Match",
-      "description": "Emirates is internationally recognized for its superb standard of premium economy. The carrier placed second in the last Skytrax classification for the category, one place above Singapore Airlines. Aboard the airline's massive Airbus A380s, passengers have 56 seats to choose from, an enormous…",
-      "url": "https://simpleflying.com/emirates-56-seat-premium-economy-cabin-offer-that-singapore-airlines-structurally-cannot-match/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-11-03T10:15:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/emirates-56-seat-premium.jpg"
-    },
-    {
-      "title": "Why Ultra-Long-Haul Flights Still Need 4 Pilots In The Cockpit For Takeoff",
-      "description": "Even in the 21st century, flying an ultra-long-haul commercial jetliner halfway around the globe cannot be completed by one or even two pilots. Despite how far technology has come with the advent of fly-by-wire and advanced autopilot, there are still four pilots required to fly the longest 17-or…",
-      "url": "https://simpleflying.com/ultra-long-haul-flights-still-need-4-pilots-cockpit-takeoff/",
+      "title": "Air Canada Ordered 8 Airbus A350-1000s To Fly Nonstop Where Its Boeing 777-300ERs Cannot",
+      "description": "Air Canada has gone all in on the extra-long widebody Airbus A350-1000 , with an order for eight examples that will begin to arrive in 2030. The introduction of the A350-1000 marks a monumental shift for the airline, breaking a decades-long reliance on Boeing 777-300ERs for its long-haul…",
+      "url": "https://simpleflying.com/air-canada-ordered-8-airbus-a350-1000s-fly-nonstop-boeing-777-300ers-cannot/",
       "source": "Simple Flying",
       "author": "Luke Diaz",
-      "published_at": "2026-11-03T09:52:32Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/ultra-long-haul-flights.jpg"
+      "published_at": "2026-11-05T14:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/8-airbus-a350-1000s.png"
     },
     {
-      "title": "US Tennis Star Slams United After ‘Canceled’ Flight Suddenly Takes Off With Her Bags",
-      "description": "American tennis star Jessica Pegula took to social media on Monday night after her United Airlines flight was canceled and then 'uncanceled,' before abruptly leaving without her, but with her bags still on board. Given the use of 'we' and 'us' in her post, it seems that Pegula was not the only…",
-      "url": "https://simpleflying.com/united-airlines-jessica-pegula-canceled-flight-bags/",
+      "title": "Emirates Boss Names 3 US Cities That Could Land Their First Nonstop Flights To Dubai",
+      "description": "Emirates is eyeing three new US cities for nonstop flights to Dubai, potentially expanding its network beyond the 12 American airports it serves today. President Sir Tim Clark named Denver, Detroit, and Philadelphia as possible destinations during a conference in late-October.",
+      "url": "https://simpleflying.com/video/emirates-boss-names-3-us-cities-that-could-land-their-first-nonstop-flights-to-dubai/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-03T09:05:38Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/005-united-airlines-airbus-a321-robinguess-_-shutterstock.jpg"
+      "author": "Chris Loh",
+      "published_at": "2026-11-05T13:27:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/emirates-us-destinations.jpg"
     },
     {
-      "title": "Florida Learjet Crash: What We Know (And Don’t Know) So Far",
-      "description": "The National Transportation Safety Board on Monday conducted its first news briefing following the fatal crash of a Learjet in Florida on Sunday, which killed all nine occupants. NTSB member Tom Chapman and investigator-in-charge Timothy Monville shared what the agency knows so far about the…",
-      "url": "https://www.flyingmag.com/florida-learjet-crash-what-we-know-so-far-ntsb/",
+      "title": "British Airways Has Axed 8 Major A380 Routes From Heathrow: See Full List Now",
+      "description": "British Airways is one of ten scheduled users of the Airbus A380. Mainly due to airframes being taken out of service to be retrofitted with just 421 seats, Cirium Diio shows that the carrier now only has the sixth-highest number of double-decker flights. Last November, it was second.",
+      "url": "https://simpleflying.com/british-airways-has-axed-8-major-a380-routes-from-heathrow/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-11-05T12:05:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-a380-mock-up.jpg"
+    },
+    {
+      "title": "The Aircraft Set To Replace The Most Beloved Aircraft In The Sky In 2026",
+      "description": "As the end of the era of quatjets approaches on the horizon, carriers around the world are still reworking fleet strategies to replace iconic aircraft like Airbus A380. The superjumbo still tops the charts as one of the most popular planes in the sky for its sheer scale as much as the features that…",
+      "url": "https://simpleflying.com/aircraft-set-replace-most-beloved-aircraft-sky-2026/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-05T12:00:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/beloved-aircraft.png"
+    },
+    {
+      "title": "Why The Boeing 787's Wings Are Under FAA Scrutiny",
+      "description": "In this video, we'll examine why some Boeing 787s now require repetitive wing inspections, what happened during early production, why flight length suddenly matters more than total flying time, and why regulators believe a mathematical formula offers better protection than traditional maintenance…",
+      "url": "https://simpleflying.com/video/why-the-boeing-787-s-wings-are-under-faa-scrutiny/",
+      "source": "Simple Flying",
+      "author": "SF Staff",
+      "published_at": "2026-11-05T12:00:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/80_lh_why-boeing-787-operators-face-repeating-wing-inspection-bill-tied-flight-length_h_site-copy.jpg"
+    },
+    {
+      "title": "Why United Airlines' Unusual Boeing 767-400ER Seats With 43 Inches Of Pitch Aren't For Passengers",
+      "description": "United Airlines operates some of the most unusual economy seats in the industry, and passengers lucky enough to find them can enjoy an experience that rivals premium economy. Hidden toward the back of the carrier's Boeing 767 aircraft are four seats offering an impressive 43 inches of pitch,…",
+      "url": "https://simpleflying.com/united-airlines-boeing-767-400er-seats-43-inches-pitch-arent-passengers/",
+      "source": "Simple Flying",
+      "author": "Jasper Yu-Dawidowicz",
+      "published_at": "2026-11-05T09:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-unusual-boeing-767-400er-seats.png"
+    },
+    {
+      "title": "1 Dead, 2 Injured in Helicopter Crash Near Miami Executive",
+      "description": "Updated Wednesday, November 4, at 4:07 p.m. EST. One person was reported dead and two others injured after a helicopter crashed into Biscayne Bay near Miami Executive Airport (KTMB) in Florida on Wednesday morning. The U.S. Coast Guard’s Southeast district, which is based in Miami, said in a post…",
+      "url": "https://www.flyingmag.com/1-dead-2-injured-helicopter-crash-miami-florida/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-02T21:33:16Z",
+      "published_at": "2026-11-04T18:58:32Z",
       "image": null
     },
     {
-      "title": "Canadian Kitbuilder Murphy Aircraft Shuts Down",
-      "description": "Canadian kit manufacturer Murphy Aviation is reportedly insolvent and has sold off its physical assets, including manufacturing equipment. Canadian Aviator was first to report the manufacturer’s insolvency last week, quoting Sam Garandza, general manager of Able Auctions, as saying that “everything…",
-      "url": "https://www.flyingmag.com/canadian-kitbuilder-murphy-aircraft-shuts-down/",
+      "title": "FAA Faces Audit of Helicopter Tour Oversight",
+      "description": "The U.S. Transportation’s Office of Inspector General (OIG) plans to audit the FAA’s safety oversight of aerial helicopter tours this month. According to an announcement Tuesday, the audit will focus in part on the FAA’s awareness of a “loophole” that permits certain helicopter flights to be…",
+      "url": "https://www.flyingmag.com/faa-faces-oig-audit-commercial-helicopter-tours/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-02T18:57:16Z",
+      "published_at": "2026-11-04T17:00:00Z",
       "image": null
     },
     {
-      "title": "This 1974 Beechcraft Baron B55 Is a Refreshed, Well-Equipped ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1974 Beechcraft Baron B55. For…",
-      "url": "https://www.flyingmag.com/this-1974-beechcraft-baron-b55-is-a-refreshed-well-equipped-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-02T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/baron1.webp?w=1024"
-    },
-    {
-      "title": "9 Killed in Learjet Crash in Florida",
-      "description": "A business jet carrying nine people crashed into a South Florida neighborhood on Sunday, narrowly missing homes and cars on a busy street. Car dash cams caught the image of the Learjet 60 as it nose-dived into the ground and exploded in flames in Palm Beach County. It appears part of the jet’s…",
-      "url": "https://www.flyingmag.com/9-killed-in-learjet-crash-in-florida/",
+      "title": "Epic Flight Academy Awards $135K in Aviation Scholarships to High School Students",
+      "description": "Sixteen high school students heading to Epic Flight Academy next year received a boost from the school’s aviation scholarship program, which awarded a total of $135,000 to prospective pilots and aircraft mechanics. The King Air Nation Foundation also contributed a $5,000 pilot scholarship. “The…",
+      "url": "https://www.flyingmag.com/epic-flight-academy-awards-135k-in-aviation-scholarships-to-high-school-students/",
       "source": "Flying Magazine",
       "author": "Meg Godlewski",
-      "published_at": "2026-11-02T13:47:32Z",
+      "published_at": "2026-11-04T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/2026-scholarship-winners.png?w=819"
+    },
+    {
+      "title": "This 1990 Piper PA-46 Malibu Mirage Is an Updated, Travel-Ready ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1990 Piper PA-46 Malibu Mirage. For…",
+      "url": "https://www.flyingmag.com/this-1990-piper-pa-46-malibu-mirage-is-an-updated-travel-ready-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-04T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261103_112152.jpg?w=1024"
+    },
+    {
+      "title": "How Do You Prevent Water in Your Aircraft Fuel Tanks?",
+      "description": "Question: A guy at my airport just told me a story about losing power on takeoff in his airplane because there was water in the fuel. We’ve had a lot of rain lately, and his airplane is kept outside. He didn’t get hurt because he had enough runway ahead of him. After the fact, he sumped his tanks…",
+      "url": "https://www.flyingmag.com/how-do-you-prevent-water-in-your-aircraft-fuel-tanks/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-04T14:00:00Z",
       "image": null
     },
     {
-      "title": "Logging the Hours That Matter Most: The Faces of Angel Flight Northeast",
-      "description": "For millions of Americans, living in rural areas means access to healthcare can be a challenge, especially for those living with rare conditions. Getting to and from appointments or seeing specialists can be an all day ordeal or even take days. When Calvin Hamm was a baby, he started experiencing…",
-      "url": "https://www.flyingmag.com/logging-the-hours-that-matter-most-the-faces-of-angel-flight-northeast/",
+      "title": "Aircraft Maintenance: Excessive oil consumption",
+      "description": "Aircraft engines are designed to consume oil, but if every fuel stop has you reaching for another quart, it pays to know where all those so-called “dead dinosaurs” are going.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/03/aircraft-maintenance-excessive-oil-consumption?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-03T23:51:36Z",
+      "image": null
+    },
+    {
+      "title": "NTSB Recovers Parts of Crashed Learjet’s Elevator",
+      "description": "The National Transportation Safety Board said Tuesday that investigators recovered the “majority” of the left elevator of the Learjet 60 that fatally crashed in Palm Beach County, Florida. NTSB member Tom Chapman believes the recovered components are evidence that “at least some” parts of the…",
+      "url": "https://www.flyingmag.com/ntsb-recovers-parts-of-crashed-learjet-elevator/",
       "source": "Flying Magazine",
-      "author": "Matt Leighton",
-      "published_at": "2026-10-31T12:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/IMG_3184.jpeg?w=1024"
+      "author": "Jack Daleo",
+      "published_at": "2026-11-03T21:54:25Z",
+      "image": null
+    },
+    {
+      "title": "Wanted: One airplane, preferably mine",
+      "description": "I decided I need an airplane. The only thing standing between me and aircraft ownership is the smallest but most inconvenient detail: money. So naturally, I've been exploring all my options.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/03/wanted-one-airplane-preferably-mine?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-03T21:53:00Z",
+      "image": null
+    },
+    {
+      "title": "Captain, Passengers of Crashed Learjet Identified",
+      "description": "The captain of a Learjet 60 and seven passengers who died after the airplane entered a nosedive and crashed in Palm Beach County, Florida, on Sunday have been identified. The National Transportation Safety Board during its initial news briefing Monday declined to answer questions about the victims’…",
+      "url": "https://www.flyingmag.com/captain-passengers-identified-crashed-learjet/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-03T19:22:41Z",
+      "image": null
     },
     {
       "title": "Three ways to get more from your flight simulator",
@@ -137,15 +146,6 @@
       "author": null,
       "published_at": "2026-10-30T22:32:00Z",
       "image": null
-    },
-    {
-      "title": "2 Electric Aircraft Land in Tampa as Florida Plots Aerial Highway Network",
-      "description": "A pair of electric aircraft prototypes landed on the runway at Tampa International Airport (KTPA) on Friday as Florida looks to evaluate a planned aerial highway network. According to FlightAware , Joby Aviation’s electric vertical takeoff and landing (eVTOL) prototype registered N545JX took off…",
-      "url": "https://www.flyingmag.com/2-electric-aircraft-land-at-tampa-international/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-10-30T19:34:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/10/img-8b0ad9b1-da1f-427d-8f36-969bb0057a6f_7cc7bb.png?w=1024"
     },
     {
       "title": "Michigan airport scraps GA landing fees",
