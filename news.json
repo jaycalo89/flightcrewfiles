@@ -1,106 +1,160 @@
 {
-  "generated_at": "2026-11-05T14:29:18.894900+00:00",
+  "generated_at": "2026-11-07T15:06:27.335805+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 19,
   "articles": [
     {
-      "title": "Air Canada Ordered 8 Airbus A350-1000s To Fly Nonstop Where Its Boeing 777-300ERs Cannot",
-      "description": "Air Canada has gone all in on the extra-long widebody Airbus A350-1000 , with an order for eight examples that will begin to arrive in 2030. The introduction of the A350-1000 marks a monumental shift for the airline, breaking a decades-long reliance on Boeing 777-300ERs for its long-haul…",
-      "url": "https://simpleflying.com/air-canada-ordered-8-airbus-a350-1000s-fly-nonstop-boeing-777-300ers-cannot/",
+      "title": "How Much Does An Airbus A350 Rolls-Royce Trent XWB Engine Cost?",
+      "description": "A single Rolls-Royce Trent XWB carries a list price of approximately $25 million, which places it below the General Electric GE90 at $30 million and the GE9X at $42 million. Reported contractual figures on some Airbus A350 orders have run toward $35 million per engine. Neither number is what an…",
+      "url": "https://simpleflying.com/how-much-does-an-airbus-a350-rolls-royce-trent-xwb-engine-cost/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-05T14:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/8-airbus-a350-1000s.png"
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-07T15:01:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/how-the-rolls-royce-trent-xwb-s-extreme-bypass-ratio-creates-problems-no-other-jet-engine-faces-20261102-180201.jpeg"
     },
     {
-      "title": "Emirates Boss Names 3 US Cities That Could Land Their First Nonstop Flights To Dubai",
-      "description": "Emirates is eyeing three new US cities for nonstop flights to Dubai, potentially expanding its network beyond the 12 American airports it serves today. President Sir Tim Clark named Denver, Detroit, and Philadelphia as possible destinations during a conference in late-October.",
-      "url": "https://simpleflying.com/video/emirates-boss-names-3-us-cities-that-could-land-their-first-nonstop-flights-to-dubai/",
+      "title": "Lawsuits Accuse 7 US Airlines Of Colluding To Raise Fares By Sharing Pricing Data",
+      "description": "Seven major US airlines — including the 'Big Four' American Airlines , Delta Air Lines , Southwest Airlines and United Airlines — have been accused of sharing confidential pricing data to avoid undercutting each other. Two proposed class action lawsuits claim the arrangement has helped keep…",
+      "url": "https://simpleflying.com/lawsuits-accuse-us-airlines-colluding-raise-fares/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-07T14:35:01Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/photo-of-united-delta-and-american-airlines-passenger-planes-on-the-airfield-in-phoenix.jpg"
+    },
+    {
+      "title": "Boeing Cleared To Sell Parts & Jets To Belarus Despite Fears They’ll End Up In Russia",
+      "description": "Boeing has officially been cleared to resume direct business with Belarusian flag carrier Belavia, which flies 12 aircraft from the US planemaker.",
+      "url": "https://simpleflying.com/video/boeing-cleared-to-sell-parts-jets-to-belarus-despite-fears-they-ll-end-up-in-russia/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-11-05T13:27:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/emirates-us-destinations.jpg"
+      "published_at": "2026-11-07T13:28:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-belarus.jpg"
     },
     {
-      "title": "British Airways Has Axed 8 Major A380 Routes From Heathrow: See Full List Now",
-      "description": "British Airways is one of ten scheduled users of the Airbus A380. Mainly due to airframes being taken out of service to be retrofitted with just 421 seats, Cirium Diio shows that the carrier now only has the sixth-highest number of double-decker flights. Last November, it was second.",
-      "url": "https://simpleflying.com/british-airways-has-axed-8-major-a380-routes-from-heathrow/",
+      "title": "Iberia Cancels All Flights To 6 International Destinations: See Full List Now",
+      "description": "Iberia is one of Spain's largest airlines and the biggest carrier operating out of Madrid Barajas Airport (MAD). Since the beginning of this year, it has added several destinations to its network, including new transatlantic routes and shorter international connections.",
+      "url": "https://simpleflying.com/iberia-cancels-all-flights-to-6-international-destinations/",
       "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-05T12:05:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-a380-mock-up.jpg"
+      "author": "Prachi Patel",
+      "published_at": "2026-11-07T13:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2400014825-1.jpg"
     },
     {
-      "title": "The Aircraft Set To Replace The Most Beloved Aircraft In The Sky In 2026",
-      "description": "As the end of the era of quatjets approaches on the horizon, carriers around the world are still reworking fleet strategies to replace iconic aircraft like Airbus A380. The superjumbo still tops the charts as one of the most popular planes in the sky for its sheer scale as much as the features that…",
-      "url": "https://simpleflying.com/aircraft-set-replace-most-beloved-aircraft-sky-2026/",
+      "title": "10 US Airport Projects Replacing Regional Gates With Mainline Jet Capacity",
+      "description": "The modern aviation industry is facing a trend that can affect nearly any airline at any commercial airport. Larger aircraft are becoming increasingly dominant at airports across the United States, from congested hubs such as Newark Liberty International Airport to smaller regional gateways.",
+      "url": "https://simpleflying.com/us-airports-replacing-regional-jet-gates/",
       "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-05T12:00:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/beloved-aircraft.png"
+      "author": "Ethan Qualle",
+      "published_at": "2026-11-07T09:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/washington-dulles-expansion-20261102-173753.png"
     },
     {
-      "title": "Why The Boeing 787's Wings Are Under FAA Scrutiny",
-      "description": "In this video, we'll examine why some Boeing 787s now require repetitive wing inspections, what happened during early production, why flight length suddenly matters more than total flying time, and why regulators believe a mathematical formula offers better protection than traditional maintenance…",
-      "url": "https://simpleflying.com/video/why-the-boeing-787-s-wings-are-under-faa-scrutiny/",
+      "title": "NTSB: Missed Inspections Let Storm-Damaged Southwest 737 MAX Fly 44 Times Before Dutch Roll Accident",
+      "description": "A Southwest Airlines Boeing 737 MAX flew 44 times with undetected storm damage to its tail after missing a post-storm inspection, then later passing a flawed maintenance test. On May 25, 2024, the aircraft experienced a Dutch roll event — classified as an accident due to the substantial damage to…",
+      "url": "https://simpleflying.com/ntsb-missed-inspections-southwest-boeing-737-max-dutch-roll/",
       "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-11-05T12:00:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/80_lh_why-boeing-787-operators-face-repeating-wing-inspection-bill-tied-flight-length_h_site-copy.jpg"
+      "author": "Luke Bodell",
+      "published_at": "2026-11-07T06:15:35Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-airlines-boeing-737-max-8-close-up.jpg"
     },
     {
-      "title": "Why United Airlines' Unusual Boeing 767-400ER Seats With 43 Inches Of Pitch Aren't For Passengers",
-      "description": "United Airlines operates some of the most unusual economy seats in the industry, and passengers lucky enough to find them can enjoy an experience that rivals premium economy. Hidden toward the back of the carrier's Boeing 767 aircraft are four seats offering an impressive 43 inches of pitch,…",
-      "url": "https://simpleflying.com/united-airlines-boeing-767-400er-seats-43-inches-pitch-arent-passengers/",
+      "title": "Qantas Is Training 360+ Pilots & 1,200 Cabin Crew For Just 12 Airbus A350-1000ULRs",
+      "description": "Qantas will train more than 360 pilots and 1,200 cabin crew to operate 12 aircraft. The figure comes from the airline's own announcement, which states both groups will be trained by the time the twelfth Airbus A350-1000ULR arrives. That works out to 30 pilots and 100 cabin crew per airframe,…",
+      "url": "https://simpleflying.com/qantas-training-360-pilots-1200-cabin-crew-12-airbus-a350-1000ulrs/",
       "source": "Simple Flying",
-      "author": "Jasper Yu-Dawidowicz",
-      "published_at": "2026-11-05T09:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-unusual-boeing-767-400er-seats.png"
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-07T06:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qantas-is-training-360-pilots-1-200-cabin-crew-for-just-12-airbus-a350-1000ulrs.jpg"
     },
     {
-      "title": "1 Dead, 2 Injured in Helicopter Crash Near Miami Executive",
-      "description": "Updated Wednesday, November 4, at 4:07 p.m. EST. One person was reported dead and two others injured after a helicopter crashed into Biscayne Bay near Miami Executive Airport (KTMB) in Florida on Wednesday morning. The U.S. Coast Guard’s Southeast district, which is based in Miami, said in a post…",
-      "url": "https://www.flyingmag.com/1-dead-2-injured-helicopter-crash-miami-florida/",
+      "title": "6 Airlines Offering Premium Economy On Flights Shorter Than 6 Hours",
+      "description": "What do passengers expect from a modern airline cabin? Long-haul widebodies typically feature dedicated multi-cabin layouts, while short-haul regional hops stick to strict two-class narrowbodies. However, evolving passenger expectations and fleet-utilization strategies have disrupted that boundary.…",
+      "url": "https://simpleflying.com/6-airlines-premium-economy-flights-shorter-6-hours/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-11-07T05:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/6-airlines-offering-premium-economy.png"
+    },
+    {
+      "title": "2,000th Bell 407 Helicopter Delivered to Canadian Operator",
+      "description": "Textron Aviation subsidiary Bell Textron is celebrating its 2,000th delivery of the Bell 407 helicopter. The milestone delivery, a Bell 407GXi , went to White Saddle Air Services, a family-owned and operated helicopter company based in the Cariboo Chilcotin region of British Columbia. According to…",
+      "url": "https://www.flyingmag.com/2000th-bell-407-helicopter-delivery-milestone/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-04T18:58:32Z",
+      "published_at": "2026-11-06T20:30:00Z",
       "image": null
     },
     {
-      "title": "FAA Faces Audit of Helicopter Tour Oversight",
-      "description": "The U.S. Transportation’s Office of Inspector General (OIG) plans to audit the FAA’s safety oversight of aerial helicopter tours this month. According to an announcement Tuesday, the audit will focus in part on the FAA’s awareness of a “loophole” that permits certain helicopter flights to be…",
-      "url": "https://www.flyingmag.com/faa-faces-oig-audit-commercial-helicopter-tours/",
+      "title": "Portion of Learjet’s Engine Recovered, NTSB Says",
+      "description": "The National Transportation Safety Board said investigators have recovered a portion of one engine from the Learjet 60 that crashed in Palm Beach County on Sunday, killing nine people. In an investigative update Thursday, the NTSB said it found the part during its excavation of the jet’s crash site…",
+      "url": "https://www.flyingmag.com/crashed-learjet-60-engine-portion-recovered-ntsb/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-04T17:00:00Z",
+      "published_at": "2026-11-06T19:17:10Z",
       "image": null
     },
     {
-      "title": "Epic Flight Academy Awards $135K in Aviation Scholarships to High School Students",
-      "description": "Sixteen high school students heading to Epic Flight Academy next year received a boost from the school’s aviation scholarship program, which awarded a total of $135,000 to prospective pilots and aircraft mechanics. The King Air Nation Foundation also contributed a $5,000 pilot scholarship. “The…",
-      "url": "https://www.flyingmag.com/epic-flight-academy-awards-135k-in-aviation-scholarships-to-high-school-students/",
+      "title": "Emergency Repairs Close Boeing Field Control Tower, Restricting Air Traffic",
+      "description": "The need for emergency maintenance on the air traffic control tower at King County International Airport-Boeing Field (KBFI) in Seattle means several weeks of reduced operational capacity for the busy facility. According to the Federal Aviation Administration air traffic facilities are required to…",
+      "url": "https://www.flyingmag.com/emergency-repairs-close-boeing-field-control-tower-restricting-air-traffic/",
       "source": "Flying Magazine",
       "author": "Meg Godlewski",
-      "published_at": "2026-11-04T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/2026-scholarship-winners.png?w=819"
+      "published_at": "2026-11-06T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/Boeing-Field_5759-rotated.jpeg?w=768"
     },
     {
-      "title": "This 1990 Piper PA-46 Malibu Mirage Is an Updated, Travel-Ready ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1990 Piper PA-46 Malibu Mirage. For…",
-      "url": "https://www.flyingmag.com/this-1990-piper-pa-46-malibu-mirage-is-an-updated-travel-ready-aircraftforsale-top-pick/",
+      "title": "This 2019 Cirrus SF50 G2+ Vision Jet Is a Quiet, Quick ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2019 Cirrus SF50 G2+ Vision Jet.…",
+      "url": "https://www.flyingmag.com/this-2019-cirrus-sf50-g2-vision-jet-is-a-quiet-quick-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "Jonathan Welsh",
-      "published_at": "2026-11-04T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261103_112152.jpg?w=1024"
+      "published_at": "2026-11-06T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261105_081946.jpg?w=1024"
     },
     {
-      "title": "How Do You Prevent Water in Your Aircraft Fuel Tanks?",
-      "description": "Question: A guy at my airport just told me a story about losing power on takeoff in his airplane because there was water in the fuel. We’ve had a lot of rain lately, and his airplane is kept outside. He didn’t get hurt because he had enough runway ahead of him. After the fact, he sumped his tanks…",
-      "url": "https://www.flyingmag.com/how-do-you-prevent-water-in-your-aircraft-fuel-tanks/",
+      "title": "Mentors Are the Lifeline of Flight",
+      "description": "There are two things no one tells you when you enter the world of aviation. First, you don’t know what you don’t know. Second, there will be moments when the frustration is so overwhelming that you’ll wonder whether it’s worth continuing. Nearly every pilot encounters obstacles along the…",
+      "url": "https://www.flyingmag.com/mentors-are-the-lifeline-of-flight/",
       "source": "Flying Magazine",
       "author": "Meg Godlewski",
-      "published_at": "2026-11-04T14:00:00Z",
+      "published_at": "2026-11-06T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "What We Know About the X-70 Fractal, NASA’s Newest X-Plane",
+      "description": "NASA on Wednesday unveiled its latest X-plane program, which the space agency said is designed to accelerate experimental testing of advanced and emerging aviation technologies. Unveiled Wednesday during the UP.Summit at NASA’s Kennedy Space Center in Florida, the X-70 Fractal will make its first…",
+      "url": "https://www.flyingmag.com/what-we-know-x70-fractal-nasa-newest-x-plane/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-06T13:00:00Z",
       "image": null
+    },
+    {
+      "title": "Electra completes fixed-wing landing at Lower Manhattan heliport",
+      "description": "Electra has successfully performed a takeoff and landing with its EL2 Goldfinch aircraft at the Downtown Skyport in New York. The milestone, achieved on October 26, marks what Electra believes to be the first time an aircraft without vertical-lift capability has ever landed at the heliport.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/05/electra-completes-fixed-wing-landing-at-lower-manhattan-heliport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-06T01:23:20Z",
+      "image": null
+    },
+    {
+      "title": "Axis Jet Gains FAA Approval for Part 135 Pilot Development Program",
+      "description": "Axis Jet , a Northern California private aviation company, has received FAA approval for a Part 135 pilot development program aimed at training and advancing commercial pilots internally. Matt Bosco, co-founder of Axis Jet, described the program as a structured opportunity for pilots earlier in…",
+      "url": "https://www.flyingmag.com/axis-jet-gains-faa-approval-for-part-135-pilot-development-program/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-05T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Joby, Orlando International Airport Inaugurate Air Taxi Vertipad",
+      "description": "Orlando International Airport (KMCO) this week inaugurated what the Greater Orlando Aviation Authority (GOAA) and Florida Department of Transportation (FDOT) described as a first-of-its-kind site for evaluating electric air taxis. GOAA, which operates Orlando International, said Thursday that the…",
+      "url": "https://www.flyingmag.com/joby-orlando-international-airport-air-taxi-demo/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-05T19:00:00Z",
+      "image": "https://www.youtube.com/embed/4kFDULY5M0U"
     },
     {
       "title": "Aircraft Maintenance: Excessive oil consumption",
@@ -112,66 +166,12 @@
       "image": null
     },
     {
-      "title": "NTSB Recovers Parts of Crashed Learjet’s Elevator",
-      "description": "The National Transportation Safety Board said Tuesday that investigators recovered the “majority” of the left elevator of the Learjet 60 that fatally crashed in Palm Beach County, Florida. NTSB member Tom Chapman believes the recovered components are evidence that “at least some” parts of the…",
-      "url": "https://www.flyingmag.com/ntsb-recovers-parts-of-crashed-learjet-elevator/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-03T21:54:25Z",
-      "image": null
-    },
-    {
       "title": "Wanted: One airplane, preferably mine",
       "description": "I decided I need an airplane. The only thing standing between me and aircraft ownership is the smallest but most inconvenient detail: money. So naturally, I've been exploring all my options.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/03/wanted-one-airplane-preferably-mine?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-03T21:53:00Z",
-      "image": null
-    },
-    {
-      "title": "Captain, Passengers of Crashed Learjet Identified",
-      "description": "The captain of a Learjet 60 and seven passengers who died after the airplane entered a nosedive and crashed in Palm Beach County, Florida, on Sunday have been identified. The National Transportation Safety Board during its initial news briefing Monday declined to answer questions about the victims’…",
-      "url": "https://www.flyingmag.com/captain-passengers-identified-crashed-learjet/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-03T19:22:41Z",
-      "image": null
-    },
-    {
-      "title": "Three ways to get more from your flight simulator",
-      "description": "A flight simulator can help you log time, stay current, and keep training on bad-weather days. But it offers more than a substitute for the airplane. By letting you control conditions, introduce challenging scenarios, and pause to analyze what happens, a simulator creates practice opportunities…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/30/three-ways-to-get-more-from-your-flight-simulator?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-30T22:32:00Z",
-      "image": null
-    },
-    {
-      "title": "Michigan airport scraps GA landing fees",
-      "description": "The Manistee Blacker Airport Authority has reversed course on the $10 landing fee adopted in August for light general aviation aircraft at Michigan’s Manistee County/Blacker Airport .",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/michigan-airport-scraps-ga-landing-fees?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-29T21:32:48Z",
-      "image": null
-    },
-    {
-      "title": "Tenants drop lawsuit after FAA upholds hangar rate hike",
-      "description": "Tenants at Centennial Airport in Denver have dropped their lawsuit against Denver jetCenter after the FAA upheld the FBO’s 82-percent increase in hangar rent, which took effect in April.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/tenants-drop-lawsuit-after-faa-upholds-hangar-rate-hike?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-29T21:27:33Z",
-      "image": null
-    },
-    {
-      "title": "NORAD warns Florida pilots of busy VIP TFR season",
-      "description": "The North American Aerospace Defense Command (NORAD) led a multiagency presentation for the general aviation community in South Florida ahead of what it expects to be a busy winter season. The message: \"Check your notams.\"",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/october/29/norad-warns-florida-pilots-of-busy-vip-tfr-season?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-10-29T21:04:33Z",
       "image": null
     }
   ]
