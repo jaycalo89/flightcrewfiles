@@ -1,79 +1,79 @@
 {
-  "generated_at": "2026-11-07T15:06:27.335805+00:00",
+  "generated_at": "2026-11-08T16:51:57.357169+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 19,
   "articles": [
     {
-      "title": "How Much Does An Airbus A350 Rolls-Royce Trent XWB Engine Cost?",
-      "description": "A single Rolls-Royce Trent XWB carries a list price of approximately $25 million, which places it below the General Electric GE90 at $30 million and the GE9X at $42 million. Reported contractual figures on some Airbus A350 orders have run toward $35 million per engine. Neither number is what an…",
-      "url": "https://simpleflying.com/how-much-does-an-airbus-a350-rolls-royce-trent-xwb-engine-cost/",
+      "title": "Why Some Boeing 787-9s Offer First Class While Others Stop At Business",
+      "description": "More than 50 airlines operate the Boeing 787-9 Dreamliner , and the overwhelming majority stop at business class. Nothing about the airframe requires a first class cabin or prevents one, which makes its presence a configuration decision rather than an aircraft property. British Airways fits eight…",
+      "url": "https://simpleflying.com/why-some-boeing-787-9-offer-first-class-others-stop-business/",
       "source": "Simple Flying",
       "author": "Brandon Shaw",
-      "published_at": "2026-11-07T15:01:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/how-the-rolls-royce-trent-xwb-s-extreme-bypass-ratio-creates-problems-no-other-jet-engine-faces-20261102-180201.jpeg"
+      "published_at": "2026-11-08T15:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-787-9s.png"
     },
     {
-      "title": "Lawsuits Accuse 7 US Airlines Of Colluding To Raise Fares By Sharing Pricing Data",
-      "description": "Seven major US airlines — including the 'Big Four' American Airlines , Delta Air Lines , Southwest Airlines and United Airlines — have been accused of sharing confidential pricing data to avoid undercutting each other. Two proposed class action lawsuits claim the arrangement has helped keep…",
-      "url": "https://simpleflying.com/lawsuits-accuse-us-airlines-colluding-raise-fares/",
+      "title": "Why The US Is Worried About Canada & Europe's Aircraft Manufacturing Talks",
+      "description": "Is the United States worried about Canada building Swedish Saab JAS 39 Gripen fighter jets in Canada? Sort of. In this article, we will explain why the Gripen is no competitor to the F-35A and why the US doesn't really care if Canada acquires the Gripen so long as it's in addition to the F-35A. We…",
+      "url": "https://simpleflying.com/why-the-us-worried-about-canada-europe-aircraft-manufacturing-talks/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-07T14:35:01Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/photo-of-united-delta-and-american-airlines-passenger-planes-on-the-airfield-in-phoenix.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-11-08T14:53:27Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/why-the-us-is-worried-about-canada-europe-s-aircraft-manufacturing-talks.jpg"
     },
     {
-      "title": "Boeing Cleared To Sell Parts & Jets To Belarus Despite Fears They’ll End Up In Russia",
-      "description": "Boeing has officially been cleared to resume direct business with Belarusian flag carrier Belavia, which flies 12 aircraft from the US planemaker.",
-      "url": "https://simpleflying.com/video/boeing-cleared-to-sell-parts-jets-to-belarus-despite-fears-they-ll-end-up-in-russia/",
+      "title": "5 Airbus A321XLR Routes Replacing Widebody Aircraft",
+      "description": "The Airbus A321XLR is changing the economics of long-haul flying by allowing airlines to operate routes that once required larger twin-aisle aircraft with a single-aisle jet. With a published range of up to 4,700 nautical miles (8,704 kilometers), the aircraft can connect cities across the Atlantic…",
+      "url": "https://simpleflying.com/5-airbus-a321xlr-routes-replacing-widebody-aircraft/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-07T13:28:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-belarus.jpg"
+      "author": "Jack McGarity",
+      "published_at": "2026-11-08T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/5-airbus-a321xlr.png"
     },
     {
-      "title": "Iberia Cancels All Flights To 6 International Destinations: See Full List Now",
-      "description": "Iberia is one of Spain's largest airlines and the biggest carrier operating out of Madrid Barajas Airport (MAD). Since the beginning of this year, it has added several destinations to its network, including new transatlantic routes and shorter international connections.",
-      "url": "https://simpleflying.com/iberia-cancels-all-flights-to-6-international-destinations/",
+      "title": "The 5.5-Degree Rule That Now Governs Every 737 MAX Takeoff After Boeing's MCAS Rewrite",
+      "description": "Most people will remember the two fatal crashes involving Boeing 737 MAX aircraft: Lion Air flight 610 in 2018 and Ethiopian Airlines flight 302 in 2019. These accidents exposed a flight-control system that, at the time, was largely unknown outside Boeing’s engineering community: the Maneuvering…",
+      "url": "https://simpleflying.com/5-degree-rule-that-now-governs-every-737-max-takeoff-boeing-mcas-rewrite/",
       "source": "Simple Flying",
       "author": "Prachi Patel",
-      "published_at": "2026-11-07T13:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2400014825-1.jpg"
-    },
-    {
-      "title": "10 US Airport Projects Replacing Regional Gates With Mainline Jet Capacity",
-      "description": "The modern aviation industry is facing a trend that can affect nearly any airline at any commercial airport. Larger aircraft are becoming increasingly dominant at airports across the United States, from congested hubs such as Newark Liberty International Airport to smaller regional gateways.",
-      "url": "https://simpleflying.com/us-airports-replacing-regional-jet-gates/",
-      "source": "Simple Flying",
-      "author": "Ethan Qualle",
-      "published_at": "2026-11-07T09:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/washington-dulles-expansion-20261102-173753.png"
+      "published_at": "2026-11-08T10:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-5-degree-rule.jpg"
     },
     {
       "title": "NTSB: Missed Inspections Let Storm-Damaged Southwest 737 MAX Fly 44 Times Before Dutch Roll Accident",
-      "description": "A Southwest Airlines Boeing 737 MAX flew 44 times with undetected storm damage to its tail after missing a post-storm inspection, then later passing a flawed maintenance test. On May 25, 2024, the aircraft experienced a Dutch roll event — classified as an accident due to the substantial damage to…",
+      "description": "This article was updated on Sunday, November 8, 2026, to include a statement from Southwest Airlines and details of its safety changes. It was originally published on Saturday, November 7, 2026.",
       "url": "https://simpleflying.com/ntsb-missed-inspections-southwest-boeing-737-max-dutch-roll/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-11-07T06:15:35Z",
+      "published_at": "2026-11-08T09:01:57Z",
       "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-airlines-boeing-737-max-8-close-up.jpg"
     },
     {
-      "title": "Qantas Is Training 360+ Pilots & 1,200 Cabin Crew For Just 12 Airbus A350-1000ULRs",
-      "description": "Qantas will train more than 360 pilots and 1,200 cabin crew to operate 12 aircraft. The figure comes from the airline's own announcement, which states both groups will be trained by the time the twelfth Airbus A350-1000ULR arrives. That works out to 30 pilots and 100 cabin crew per airframe,…",
-      "url": "https://simpleflying.com/qantas-training-360-pilots-1200-cabin-crew-12-airbus-a350-1000ulrs/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-07T06:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qantas-is-training-360-pilots-1-200-cabin-crew-for-just-12-airbus-a350-1000ulrs.jpg"
-    },
-    {
-      "title": "6 Airlines Offering Premium Economy On Flights Shorter Than 6 Hours",
-      "description": "What do passengers expect from a modern airline cabin? Long-haul widebodies typically feature dedicated multi-cabin layouts, while short-haul regional hops stick to strict two-class narrowbodies. However, evolving passenger expectations and fleet-utilization strategies have disrupted that boundary.…",
-      "url": "https://simpleflying.com/6-airlines-premium-economy-flights-shorter-6-hours/",
+      "title": "Airline Legroom Ranked: The US Carriers With The Most Economy Seat Pitch",
+      "description": "Two major US airlines can fly the same Airbus A320 airframe on the very same transcontinental route, but passengers in standard economy on one carrier can get up to 32 inches (81 cm) of seat pitch while those on the other are squeezed into 28 inches (71 cm). The true size of the aircraft is…",
+      "url": "https://simpleflying.com/us-carriers-most-economy-seat-pitch/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-11-07T05:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/6-airlines-offering-premium-economy.png"
+      "published_at": "2026-11-08T09:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/jetblue_coreexperience_passengers-touchscreen.jpg"
+    },
+    {
+      "title": "United 737 Jet Blast Reportedly Flips Cessna At John Wayne Airport, But Officials Blame Wind",
+      "description": "A Cessna 172 Skyhawk carrying two people overturned at Orange County's John Wayne Airport (SNA) on Saturday afternoon, with air traffic control (ATC) audio indicating it may have been caught in the jet blast of a United Airlines Boeing 737. While an airport spokesperson has blamed the incident on…",
+      "url": "https://simpleflying.com/united-737-jet-blast-flips-cessna-john-wayne-airport-wind/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-08T07:54:10Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-boeing-737-max-8-taxiing.jpg"
+    },
+    {
+      "title": "The Evolution Of Airplane Window Design",
+      "description": "Boarding a plane today means stepping into a highly structured, carefully designed world. Regardless of whether we are crammed into the last row of economy or stretching out in a first class suite, our human eyes always instinctively gravitate toward the exact same feature: the window. That small,…",
+      "url": "https://simpleflying.com/evolution-airplane-window-design/",
+      "source": "Simple Flying",
+      "author": "Alejandro Nuñez Vicente",
+      "published_at": "2026-11-08T06:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/this-is-why-plane-windows-are-round.jpg"
     },
     {
       "title": "2,000th Bell 407 Helicopter Delivered to Canadian Operator",
