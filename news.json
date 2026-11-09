@@ -1,79 +1,106 @@
 {
-  "generated_at": "2026-11-08T16:51:57.357169+00:00",
+  "generated_at": "2026-11-09T14:59:10.175839+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 19,
+  "count": 20,
   "articles": [
     {
-      "title": "Why Some Boeing 787-9s Offer First Class While Others Stop At Business",
-      "description": "More than 50 airlines operate the Boeing 787-9 Dreamliner , and the overwhelming majority stop at business class. Nothing about the airframe requires a first class cabin or prevents one, which makes its presence a configuration decision rather than an aircraft property. British Airways fits eight…",
-      "url": "https://simpleflying.com/why-some-boeing-787-9-offer-first-class-others-stop-business/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-08T15:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-787-9s.png"
-    },
-    {
-      "title": "Why The US Is Worried About Canada & Europe's Aircraft Manufacturing Talks",
-      "description": "Is the United States worried about Canada building Swedish Saab JAS 39 Gripen fighter jets in Canada? Sort of. In this article, we will explain why the Gripen is no competitor to the F-35A and why the US doesn't really care if Canada acquires the Gripen so long as it's in addition to the F-35A. We…",
-      "url": "https://simpleflying.com/why-the-us-worried-about-canada-europe-aircraft-manufacturing-talks/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-11-08T14:53:27Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/why-the-us-is-worried-about-canada-europe-s-aircraft-manufacturing-talks.jpg"
-    },
-    {
-      "title": "5 Airbus A321XLR Routes Replacing Widebody Aircraft",
-      "description": "The Airbus A321XLR is changing the economics of long-haul flying by allowing airlines to operate routes that once required larger twin-aisle aircraft with a single-aisle jet. With a published range of up to 4,700 nautical miles (8,704 kilometers), the aircraft can connect cities across the Atlantic…",
-      "url": "https://simpleflying.com/5-airbus-a321xlr-routes-replacing-widebody-aircraft/",
+      "title": "Delta Air Lines, United Airlines & JetBlue Now Sell The Business Class Seat Without The Business Class Deal",
+      "description": "You can now buy a business class seat without buying the full package traditionally associated with business class. Delta Air Lines , United Airlines , and JetBlue Airways have introduced lower-priced premium fares that preserve the physical seat while separating benefits once bundled into the…",
+      "url": "https://simpleflying.com/delta-air-lines-united-airlines-now-sell-business-class-set-without-business-class-deal/",
       "source": "Simple Flying",
       "author": "Jack McGarity",
-      "published_at": "2026-11-08T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/5-airbus-a321xlr.png"
+      "published_at": "2026-11-09T14:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/business-class-seat.png"
     },
     {
-      "title": "The 5.5-Degree Rule That Now Governs Every 737 MAX Takeoff After Boeing's MCAS Rewrite",
-      "description": "Most people will remember the two fatal crashes involving Boeing 737 MAX aircraft: Lion Air flight 610 in 2018 and Ethiopian Airlines flight 302 in 2019. These accidents exposed a flight-control system that, at the time, was largely unknown outside Boeing’s engineering community: the Maneuvering…",
-      "url": "https://simpleflying.com/5-degree-rule-that-now-governs-every-737-max-takeoff-boeing-mcas-rewrite/",
+      "title": "Amazon Prime Air Delivery Drone Joins Museum of Flight Exhibit",
+      "description": "The Museum of Flight in Seattle has added a prototype of the Amazon Prime Air MK30 delivery drone to its uncrewed aerial vehicle (UAV) collection , showcasing the technology behind the company’s autonomous delivery program launched in October 2023. Using drones for delivery was 10 years in the…",
+      "url": "https://www.flyingmag.com/amazon-prime-air-delivery-drone-joins-museum-of-flight-exhibit/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-09T14:00:00Z",
+      "image": null
+    },
+    {
+      "title": "United Airlines Opens First New Concourse In 20 Years At Washington Dulles Airport",
+      "description": "It's no secret that United Airlines is by far the dominant operator at Washington Dulles International Airport (IAD). According to data from Cirium , an aviation analytics company, the US 'big three' legacy carrier and Star Alliance founding member accounts for 7,830 of the 10,336 flights that are…",
+      "url": "https://simpleflying.com/united-airlines-new-concourse-washington-dulles/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-11-08T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/5-5-degree-rule.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-09T13:56:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/019-united-airlines-boeing-757-200-michael-derrer-fuchs-gingchen-_-shutterstock.jpg"
     },
     {
-      "title": "NTSB: Missed Inspections Let Storm-Damaged Southwest 737 MAX Fly 44 Times Before Dutch Roll Accident",
-      "description": "This article was updated on Sunday, November 8, 2026, to include a statement from Southwest Airlines and details of its safety changes. It was originally published on Saturday, November 7, 2026.",
-      "url": "https://simpleflying.com/ntsb-missed-inspections-southwest-boeing-737-max-dutch-roll/",
+      "title": "\"An Irredeemable Nuisance\": Why This Journalist Believes All Airplanes Shouldn't Have Windows",
+      "description": "Some believe that cabin windows are an \"irredeemable nuisance\" that render commercial flying heavier, more expensive, and less efficient. Instead of viewing the traditional oval window as an irreplaceable passenger perk, he posited that cutting roughly 100 holes into a pressurized metal or…",
+      "url": "https://simpleflying.com/video/an-irredeemable-nuisance-why-this-journalist-believes-all-airplanes-shouldn-t-have-windows/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-11-09T13:31:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/no-windows.jpg"
+    },
+    {
+      "title": "Rare Red Dornier Airplane Is Worth a Stop and Stare",
+      "description": "“What is that?”—and variations of the question—were heard repeatedly in the Vintage Aircraft area at EAA AirVenture 2025 whenever visitors caught sight of N841RS, a striking red 1961 Dornier Do 28-A-1. One of only 60 built and just one of two currently in the U.S., the rare aircraft drew plenty of…",
+      "url": "https://www.flyingmag.com/rare-red-dornier-airplane-is-worth-a-stop-and-stare/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-09T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "German Union Demands Government Transparency Over Emirates' Proposed Berlin Flights",
+      "description": "Emirates' ongoing battle to establish flights from its main hub at Dubai International Airport (DXB) in the UAE to Berlin Brandenburg Airport (BER) in Germany has just taken another interesting turn. Specifically, the Unabhängige Flugbegleiter Organisation (Independent Flight Attendants'…",
+      "url": "https://simpleflying.com/german-union-demands-disclosure-emirates-berlin-traffic-rights/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-09T12:55:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/851-emirates-airbus-a380-wael-alreweie-_-shutterstock.jpg"
+    },
+    {
+      "title": "Singapore Airlines Cancels This 14-Hour A380 Nonstop Route: See Map Now",
+      "description": "Singapore Airlines has scrapped plans to bring the Airbus A380 back to Frankfurt Airport (FRA) next summer, meaning the superjumbo will remain absent from Germany's busiest airport until at least late October 2027. The aircraft has not been scheduled to Frankfurt since the winter season began on…",
+      "url": "https://simpleflying.com/singapore-airlines-cancels-this-14-hour-a380-route/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-11-08T09:01:57Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-airlines-boeing-737-max-8-close-up.jpg"
+      "published_at": "2026-11-09T12:19:58Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/singapore-airlines-a380-landing-at-frankfurt-airport-1.jpg"
     },
     {
-      "title": "Airline Legroom Ranked: The US Carriers With The Most Economy Seat Pitch",
-      "description": "Two major US airlines can fly the same Airbus A320 airframe on the very same transcontinental route, but passengers in standard economy on one carrier can get up to 32 inches (81 cm) of seat pitch while those on the other are squeezed into 28 inches (71 cm). The true size of the aircraft is…",
-      "url": "https://simpleflying.com/us-carriers-most-economy-seat-pitch/",
+      "title": "Rolls-Royce Is Developing an Engine That Could Shake Up Airbus and Boeing",
+      "description": "In this video, we'll look at how Rolls-Royce's UltraFan 30 could challenge the CFM and Pratt & Whitney duopoly, why its massive geared fan could deliver a major efficiency improvement, and why CFM's radical open-fan RISE program could ultimately determine whether Rolls-Royce's $4 billion bet pays…",
+      "url": "https://simpleflying.com/video/rolls-royce-is-developing-an-engine-that-could-shake-up-airbus-and-boeing/",
       "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-11-08T09:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/jetblue_coreexperience_passengers-touchscreen.jpg"
+      "author": "SF Staff",
+      "published_at": "2026-11-09T12:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/81_lh_90-inch-fan-rolls-royce-thinks-break-cfm-pratt-whitney-narrowbody-duopoly_h_site-copy.jpg"
     },
     {
-      "title": "United 737 Jet Blast Reportedly Flips Cessna At John Wayne Airport, But Officials Blame Wind",
-      "description": "A Cessna 172 Skyhawk carrying two people overturned at Orange County's John Wayne Airport (SNA) on Saturday afternoon, with air traffic control (ATC) audio indicating it may have been caught in the jet blast of a United Airlines Boeing 737. While an airport spokesperson has blamed the incident on…",
-      "url": "https://simpleflying.com/united-737-jet-blast-flips-cessna-john-wayne-airport-wind/",
+      "title": "The World's 5 Best & Worst Airline Mergers Based On Market Value",
+      "description": "Airline mergers are almost invariably presented as opportunities to create stronger businesses, combining networks, reducing costs, and attracting more customers. Yet the results could hardly be more different. Since acquiring Northwest Airlines in 2008 , Delta Air Lines has increased its market…",
+      "url": "https://simpleflying.com/worlds-5-best-worst-airline-mergers-market-value/",
       "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-08T07:54:10Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/united-airlines-boeing-737-max-8-taxiing.jpg"
+      "author": "Paul Hartley",
+      "published_at": "2026-11-09T12:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/5-best-worst-airline-mergers.png"
     },
     {
-      "title": "The Evolution Of Airplane Window Design",
-      "description": "Boarding a plane today means stepping into a highly structured, carefully designed world. Regardless of whether we are crammed into the last row of economy or stretching out in a first class suite, our human eyes always instinctively gravitate toward the exact same feature: the window. That small,…",
-      "url": "https://simpleflying.com/evolution-airplane-window-design/",
+      "title": "The Airlines With The World’s Most High-Density Economy Cabins In 2026",
+      "description": "The topic of highly dense aircraft seating can be separated into narrowbody aircraft and widebody aircraft. The vast majority of low-cost and ultra-low-cost carriers overwhelmingly use the Boeing 737 and the Airbus A320 families. These aircraft are designed to seat six abreast, and there is…",
+      "url": "https://simpleflying.com/airlines-with-worlds-most-high-density-economy-cabins-in-2026/",
       "source": "Simple Flying",
-      "author": "Alejandro Nuñez Vicente",
-      "published_at": "2026-11-08T06:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/09/this-is-why-plane-windows-are-round.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-11-09T10:46:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/most-high-density.jpg"
+    },
+    {
+      "title": "Lufthansa 747 “Very Close To An Accident” In Miami As American Airlines 787 Turns Into Its Path",
+      "description": "Last week, a Lufthansa Boeing 747-8 taxiing at Miami International Airport (MIA) had to make a sudden stop on its way to the runway after an American Airlines Boeing 787-8 turned into its path. The situation reportedly arose after the Dreamliner's crew failed to hold short of the taxiway to allow…",
+      "url": "https://simpleflying.com/lufthansa-boeing-747-american-airlines-787-miami-close-accident/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-09T09:33:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/lufthansa_-retro_livery-_boeing_747-830-_d-abyt_-23922618159-_cropped.jpg"
     },
     {
       "title": "2,000th Bell 407 Helicopter Delivered to Canadian Operator",
@@ -137,24 +164,6 @@
       "author": null,
       "published_at": "2026-11-06T01:23:20Z",
       "image": null
-    },
-    {
-      "title": "Axis Jet Gains FAA Approval for Part 135 Pilot Development Program",
-      "description": "Axis Jet , a Northern California private aviation company, has received FAA approval for a Part 135 pilot development program aimed at training and advancing commercial pilots internally. Matt Bosco, co-founder of Axis Jet, described the program as a structured opportunity for pilots earlier in…",
-      "url": "https://www.flyingmag.com/axis-jet-gains-faa-approval-for-part-135-pilot-development-program/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-05T20:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Joby, Orlando International Airport Inaugurate Air Taxi Vertipad",
-      "description": "Orlando International Airport (KMCO) this week inaugurated what the Greater Orlando Aviation Authority (GOAA) and Florida Department of Transportation (FDOT) described as a first-of-its-kind site for evaluating electric air taxis. GOAA, which operates Orlando International, said Thursday that the…",
-      "url": "https://www.flyingmag.com/joby-orlando-international-airport-air-taxi-demo/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-05T19:00:00Z",
-      "image": "https://www.youtube.com/embed/4kFDULY5M0U"
     },
     {
       "title": "Aircraft Maintenance: Excessive oil consumption",
