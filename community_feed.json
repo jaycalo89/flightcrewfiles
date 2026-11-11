@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:59:14.823974+00:00",
+  "generated_at": "2026-11-11T14:23:41.539391+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "Why do Landing Field requirement charts look the way they are?",
-      "url": "https://aviation.stackexchange.com/questions/116691/why-do-landing-field-requirement-charts-look-the-way-they-are",
-      "points": 2,
+      "title": "What brought about the end of rear-engine airliners?",
+      "url": "https://aviation.stackexchange.com/questions/116695/what-brought-about-the-end-of-rear-engine-airliners",
+      "points": 0,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794217583
+      "created_utc": 1794363727
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Douglas DC-4 Wing Shape",
-      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
-      "points": 1,
-      "num_comments": 2,
+      "title": "High Level Requirements Test Case Design for Automated Testing as per DO 178C",
+      "url": "https://aviation.stackexchange.com/questions/116693/high-level-requirements-test-case-design-for-automated-testing-as-per-do-178c",
+      "points": -1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794117658
+      "created_utc": 1794290096
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "how much does it cost to refurbish a cessna 150?",
-      "url": "https://aviation.stackexchange.com/questions/116684/how-much-does-it-cost-to-refurbish-a-cessna-150",
-      "points": -3,
-      "num_comments": 0,
+      "title": "Douglas DC-4 Wing Shape",
+      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
+      "points": 5,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794067454
+      "created_utc": 1794117658
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Does an airfoil with a flat bottom still produce downwards airflow at the end?",
-      "url": "https://aviation.stackexchange.com/questions/116676/does-an-airfoil-with-a-flat-bottom-still-produce-downwards-airflow-at-the-end",
-      "points": 5,
-      "num_comments": 2,
+      "title": "Why do Landing Field requirement charts look the way they are?",
+      "url": "https://aviation.stackexchange.com/questions/116691/why-do-landing-field-requirement-charts-look-the-way-they-are",
+      "points": 2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1793645792
+      "created_utc": 1794217583
     }
   ]
 }

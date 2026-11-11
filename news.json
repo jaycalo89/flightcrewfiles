@@ -1,159 +1,177 @@
 {
-  "generated_at": "2026-11-09T14:59:10.175839+00:00",
+  "generated_at": "2026-11-11T14:23:36.029863+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 22,
   "articles": [
     {
-      "title": "Delta Air Lines, United Airlines & JetBlue Now Sell The Business Class Seat Without The Business Class Deal",
-      "description": "You can now buy a business class seat without buying the full package traditionally associated with business class. Delta Air Lines , United Airlines , and JetBlue Airways have introduced lower-priced premium fares that preserve the physical seat while separating benefits once bundled into the…",
-      "url": "https://simpleflying.com/delta-air-lines-united-airlines-now-sell-business-class-set-without-business-class-deal/",
+      "title": "British Airways Suddenly Cancels 5 Routes From This London Airport: See Full List Now",
+      "description": "Think of British Airways , and you probably picture widebody aircraft flying across the Atlantic from London Heathrow. However, beyond its long-haul operations, the UK flag carrier has also developed a substantial short-haul leisure network serving destinations across the UK and Europe.",
+      "url": "https://simpleflying.com/british-airways-cancels-5-routes-from-this-london-airport/",
       "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-11-09T14:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/business-class-seat.png"
+      "author": "Prachi Patel",
+      "published_at": "2026-11-11T14:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_543677035_cropped.jpg"
     },
     {
-      "title": "Amazon Prime Air Delivery Drone Joins Museum of Flight Exhibit",
-      "description": "The Museum of Flight in Seattle has added a prototype of the Amazon Prime Air MK30 delivery drone to its uncrewed aerial vehicle (UAV) collection , showcasing the technology behind the company’s autonomous delivery program launched in October 2023. Using drones for delivery was 10 years in the…",
-      "url": "https://www.flyingmag.com/amazon-prime-air-delivery-drone-joins-museum-of-flight-exhibit/",
+      "title": "Slate Aviation Adding Starlink to All-Bombardier Fleet",
+      "description": "Slate Aviation, which offers ultra-large cabin private travel between South Florida, New York, and Nantucket, said Tuesday that it plans to upgrade its all-Bombardier fleet from Gogo’s Avance L5 Wi-Fi to SpaceX’s Starlink. The installations will begin in December, and Starlink will be aboard all of…",
+      "url": "https://www.flyingmag.com/slate-aviation-starlink-all-bombardier-fleet/",
       "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-09T14:00:00Z",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-11T14:00:00Z",
       "image": null
     },
     {
-      "title": "United Airlines Opens First New Concourse In 20 Years At Washington Dulles Airport",
-      "description": "It's no secret that United Airlines is by far the dominant operator at Washington Dulles International Airport (IAD). According to data from Cirium , an aviation analytics company, the US 'big three' legacy carrier and Star Alliance founding member accounts for 7,830 of the 10,336 flights that are…",
-      "url": "https://simpleflying.com/united-airlines-new-concourse-washington-dulles/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-09T13:56:34Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/019-united-airlines-boeing-757-200-michael-derrer-fuchs-gingchen-_-shutterstock.jpg"
-    },
-    {
-      "title": "\"An Irredeemable Nuisance\": Why This Journalist Believes All Airplanes Shouldn't Have Windows",
-      "description": "Some believe that cabin windows are an \"irredeemable nuisance\" that render commercial flying heavier, more expensive, and less efficient. Instead of viewing the traditional oval window as an irreplaceable passenger perk, he posited that cutting roughly 100 holes into a pressurized metal or…",
-      "url": "https://simpleflying.com/video/an-irredeemable-nuisance-why-this-journalist-believes-all-airplanes-shouldn-t-have-windows/",
+      "title": "Alaska Airlines To Launch 8-Hour Flights From Anchorage To Tokyo",
+      "description": "Alaska Airlines is preparing to launch a new nonstop route between Ted Stevens Anchorage International and Tokyo Narita on May 13th, 2027.",
+      "url": "https://simpleflying.com/video/alaska-airlines-to-launch-8-hour-flights-from-anchorage-to-tokyo/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-11-09T13:31:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/no-windows.jpg"
+      "published_at": "2026-11-11T13:28:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/737-max-alaska-tokyo.jpg"
     },
     {
-      "title": "Rare Red Dornier Airplane Is Worth a Stop and Stare",
-      "description": "“What is that?”—and variations of the question—were heard repeatedly in the Vintage Aircraft area at EAA AirVenture 2025 whenever visitors caught sight of N841RS, a striking red 1961 Dornier Do 28-A-1. One of only 60 built and just one of two currently in the U.S., the rare aircraft drew plenty of…",
-      "url": "https://www.flyingmag.com/rare-red-dornier-airplane-is-worth-a-stop-and-stare/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-09T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "German Union Demands Government Transparency Over Emirates' Proposed Berlin Flights",
-      "description": "Emirates' ongoing battle to establish flights from its main hub at Dubai International Airport (DXB) in the UAE to Berlin Brandenburg Airport (BER) in Germany has just taken another interesting turn. Specifically, the Unabhängige Flugbegleiter Organisation (Independent Flight Attendants'…",
-      "url": "https://simpleflying.com/german-union-demands-disclosure-emirates-berlin-traffic-rights/",
+      "title": "British Airways Unveils 7 New International Routes: See Full List Now",
+      "description": "British Airways has disclosed five new or returning routes. Not only are they from London Heathrow and London City, but also from Edinburgh and Glasgow. BA mainline and BA CityFlyer will operate them.",
+      "url": "https://simpleflying.com/british-airways-unveils-7-new-international-routes-see-full-list-now/",
       "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-09T12:55:15Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/851-emirates-airbus-a380-wael-alreweie-_-shutterstock.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-11-11T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/british-airways-boeing-787-9-on-a-runway-at-heathrow.jpg"
     },
     {
-      "title": "Singapore Airlines Cancels This 14-Hour A380 Nonstop Route: See Map Now",
-      "description": "Singapore Airlines has scrapped plans to bring the Airbus A380 back to Frankfurt Airport (FRA) next summer, meaning the superjumbo will remain absent from Germany's busiest airport until at least late October 2027. The aircraft has not been scheduled to Frankfurt since the winter season began on…",
-      "url": "https://simpleflying.com/singapore-airlines-cancels-this-14-hour-a380-route/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-09T12:19:58Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/singapore-airlines-a380-landing-at-frankfurt-airport-1.jpg"
-    },
-    {
-      "title": "Rolls-Royce Is Developing an Engine That Could Shake Up Airbus and Boeing",
-      "description": "In this video, we'll look at how Rolls-Royce's UltraFan 30 could challenge the CFM and Pratt & Whitney duopoly, why its massive geared fan could deliver a major efficiency improvement, and why CFM's radical open-fan RISE program could ultimately determine whether Rolls-Royce's $4 billion bet pays…",
-      "url": "https://simpleflying.com/video/rolls-royce-is-developing-an-engine-that-could-shake-up-airbus-and-boeing/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-11-09T12:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/81_lh_90-inch-fan-rolls-royce-thinks-break-cfm-pratt-whitney-narrowbody-duopoly_h_site-copy.jpg"
-    },
-    {
-      "title": "The World's 5 Best & Worst Airline Mergers Based On Market Value",
-      "description": "Airline mergers are almost invariably presented as opportunities to create stronger businesses, combining networks, reducing costs, and attracting more customers. Yet the results could hardly be more different. Since acquiring Northwest Airlines in 2008 , Delta Air Lines has increased its market…",
-      "url": "https://simpleflying.com/worlds-5-best-worst-airline-mergers-market-value/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-11-09T12:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/5-best-worst-airline-mergers.png"
-    },
-    {
-      "title": "The Airlines With The World’s Most High-Density Economy Cabins In 2026",
-      "description": "The topic of highly dense aircraft seating can be separated into narrowbody aircraft and widebody aircraft. The vast majority of low-cost and ultra-low-cost carriers overwhelmingly use the Boeing 737 and the Airbus A320 families. These aircraft are designed to seat six abreast, and there is…",
-      "url": "https://simpleflying.com/airlines-with-worlds-most-high-density-economy-cabins-in-2026/",
+      "title": "The Runway Grooves That Help Commercial Jets Stop During Heavy Rain",
+      "description": "The United States helped to pioneer runway grooving in an attempt to improve aircraft traction and water drainage. NASA's Wallops research runway carried out almost 200 braking tests with a McDonnell Douglas F-4D Phantom II fighter and a four-engine Convair 990 airliner.",
+      "url": "https://simpleflying.com/runway-grooves-help-commercial-jets-stop-heavy-rain/",
       "source": "Simple Flying",
       "author": "Aaron Spray",
-      "published_at": "2026-11-09T10:46:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/most-high-density.jpg"
+      "published_at": "2026-11-11T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/the-runway-grooves.jpg"
     },
     {
-      "title": "Lufthansa 747 “Very Close To An Accident” In Miami As American Airlines 787 Turns Into Its Path",
-      "description": "Last week, a Lufthansa Boeing 747-8 taxiing at Miami International Airport (MIA) had to make a sudden stop on its way to the runway after an American Airlines Boeing 787-8 turned into its path. The situation reportedly arose after the Dreamliner's crew failed to hold short of the taxiway to allow…",
-      "url": "https://simpleflying.com/lufthansa-boeing-747-american-airlines-787-miami-close-accident/",
+      "title": "Back From The Desert: How 190 Airbus A380s Became Airlines' Most Valuable Asset In 2026",
+      "description": "The Airbus A380 is a unique aircraft in many ways, and is one of commercial aviation's greatest success stories, beloved by passengers worldwide. At the same time, it is also one of the largest commercial failures in modern aviation, especially for its manufacturer Airbus .",
+      "url": "https://simpleflying.com/190-airbus-a380s-airlines-valuable-asset-2026/",
+      "source": "Simple Flying",
+      "author": "Nick Pisters",
+      "published_at": "2026-11-11T11:16:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/a380-value.jpg"
+    },
+    {
+      "title": "Diverted Alaska Airlines Passengers Sleep On Red Cross Cots As Carrier Won't Cover Hotels",
+      "description": "This article was updated on Wednesday, November 11, 2026, to include further details on Alaska Airlines' other flights from Dallas/Fort Worth. It was originally published on Wednesday, November 11, 2026.",
+      "url": "https://simpleflying.com/alaska-airlines-yakima-diversion-red-cross-cots-no-hotels/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-11T11:09:30Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/alaska-airlines-boeing-737-900er-on-the-runway.jpg"
+    },
+    {
+      "title": "The Highest Paid International Flight Attendants' Ranks & Their Average 2026 Salaries",
+      "description": "Flight attendant pay in 2026 varies widely by rank, seniority, region, and carrier, but the top of the ladder is where the real money is. At major US airlines, entry-level cabin crew typically start around $25–$40 per hour, while senior international flight attendants can push base earnings toward…",
+      "url": "https://simpleflying.com/highest-paid-international-flight-attendants-ranks-and-average-salaries/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-11-11T10:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/average-2026-salaries.jpg"
+    },
+    {
+      "title": "United CEO Blames FAA For O’Hare’s Notorious Taxi Times, Says It's Like \"Driving To Milwaukee\"",
+      "description": "Scott Kirby, the Chief Executive Officer of United Airlines , has taken aim at the US Federal Aviation Administration, whose understaffing he blames for long taxi times at its hub at Chicago O'Hare International Airport (ORD). Kirby believes that getting the airport's air traffic control towers…",
+      "url": "https://simpleflying.com/united-ceo-scott-kirby-blames-faa-ohare-taxi-times/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-11-09T09:33:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/lufthansa_-retro_livery-_boeing_747-830-_d-abyt_-23922618159-_cropped.jpg"
+      "published_at": "2026-11-11T09:55:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/015-united-airlines-boeing-737-900-markus-mainka-_-shutterstock.jpg"
     },
     {
-      "title": "2,000th Bell 407 Helicopter Delivered to Canadian Operator",
-      "description": "Textron Aviation subsidiary Bell Textron is celebrating its 2,000th delivery of the Bell 407 helicopter. The milestone delivery, a Bell 407GXi , went to White Saddle Air Services, a family-owned and operated helicopter company based in the Cariboo Chilcotin region of British Columbia. According to…",
-      "url": "https://www.flyingmag.com/2000th-bell-407-helicopter-delivery-milestone/",
+      "title": "Is It True That Airlines Intentionally Use Cabin Lighting & Meal Timing To Fight Long-Haul Jet Lag?",
+      "description": "Jet lag has never been easy to deal with and has always been an unexpected side effect of long-haul travel. With new aircraft and upgraded technology, the effects of jet lag can be somewhat diminished. But can airlines fight jet lag with cabin lighting and changing meal times, and does it actually…",
+      "url": "https://simpleflying.com/true-airlines-intentionally-use-cabin-lighting-meal-timing-fight-long-haul-jet-lag/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-11-11T09:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/meal-timing.png"
+    },
+    {
+      "title": "Singapore Airlines Becomes The 1st Airline To Reveal A Full Boeing 777-9 Seat Map",
+      "description": "As the Boeing 777X series of widebody twinjets edges ever closer to finally receiving its long-awaited certification, one of the main questions surrounding the aircraft is how airlines will configure it. With the popular stretched 777-9 model in particular being longer and wider than most other…",
+      "url": "https://simpleflying.com/singapore-airlines-1st-boeing-777x-seat-map/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-11T09:00:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1794306198606_cropped.jpg"
+    },
+    {
+      "title": "It’s Official: Airbus A350-1000ULR Breaks Distance Record",
+      "description": "There is a new long-range leader in commercial aviation. Airbus said Monday that its A350-1000ULR (ultra-long range) officially broke the Guinness World Record for longest flight distance by a commercial airliner. The jet covered 12,503 nm during a 24-hour, 24-minute test flight in July. Airbus…",
+      "url": "https://www.flyingmag.com/official-airbus-a350-1000ulr-distance-record/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-06T20:30:00Z",
+      "published_at": "2026-11-10T18:50:25Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/image.png?w=1024"
+    },
+    {
+      "title": "ATP Flight School Adds Classes at Dayton International",
+      "description": "ATP Flight School is bringing its professional training programs to the city widely considered to be the birthplace of aviation. The training provider said Tuesday that it is now scheduling class dates at Dayton International Airport (KDAY) in Ohio and offering introductory flights to aspiring…",
+      "url": "https://www.flyingmag.com/atp-flight-school-dayton-international-airport/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-10T17:30:00Z",
       "image": null
     },
     {
-      "title": "Portion of Learjet’s Engine Recovered, NTSB Says",
-      "description": "The National Transportation Safety Board said investigators have recovered a portion of one engine from the Learjet 60 that crashed in Palm Beach County on Sunday, killing nine people. In an investigative update Thursday, the NTSB said it found the part during its excavation of the jet’s crash site…",
-      "url": "https://www.flyingmag.com/crashed-learjet-60-engine-portion-recovered-ntsb/",
+      "title": "FAA’s SMART AI System Now Active at All 22 ARTCCs",
+      "description": "Pilots across the country may now receive routing and schedule recommendations from air traffic control (ATC) that were informed by an AI-powered system. The FAA told FLYING on Tuesday that its new Strategic Management of Airspace, Routes and Trajectories (SMART) platform is now active in the…",
+      "url": "https://www.flyingmag.com/faa-smart-ai-now-active-at-22-artccs-nationwide/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-06T19:17:10Z",
+      "published_at": "2026-11-10T16:30:00Z",
       "image": null
     },
     {
-      "title": "Emergency Repairs Close Boeing Field Control Tower, Restricting Air Traffic",
-      "description": "The need for emergency maintenance on the air traffic control tower at King County International Airport-Boeing Field (KBFI) in Seattle means several weeks of reduced operational capacity for the busy facility. According to the Federal Aviation Administration air traffic facilities are required to…",
-      "url": "https://www.flyingmag.com/emergency-repairs-close-boeing-field-control-tower-restricting-air-traffic/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-06T16:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/Boeing-Field_5759-rotated.jpeg?w=768"
-    },
-    {
-      "title": "This 2019 Cirrus SF50 G2+ Vision Jet Is a Quiet, Quick ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2019 Cirrus SF50 G2+ Vision Jet.…",
-      "url": "https://www.flyingmag.com/this-2019-cirrus-sf50-g2-vision-jet-is-a-quiet-quick-aircraftforsale-top-pick/",
+      "title": "This 2002 Cirrus SR22 G1 Is a Game-Changing ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2002 Cirrus SR22 G1. When I think…",
+      "url": "https://www.flyingmag.com/this-2002-cirrus-sr22-g1-is-a-game-changing-aircraftforsale-top-pick/",
       "source": "Flying Magazine",
       "author": "Jonathan Welsh",
-      "published_at": "2026-11-06T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261105_081946.jpg?w=1024"
+      "published_at": "2026-11-10T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/SR1.webp?w=1024"
     },
     {
-      "title": "Mentors Are the Lifeline of Flight",
-      "description": "There are two things no one tells you when you enter the world of aviation. First, you don’t know what you don’t know. Second, there will be moments when the frustration is so overwhelming that you’ll wonder whether it’s worth continuing. Nearly every pilot encounters obstacles along the…",
-      "url": "https://www.flyingmag.com/mentors-are-the-lifeline-of-flight/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-06T14:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "What We Know About the X-70 Fractal, NASA’s Newest X-Plane",
-      "description": "NASA on Wednesday unveiled its latest X-plane program, which the space agency said is designed to accelerate experimental testing of advanced and emerging aviation technologies. Unveiled Wednesday during the UP.Summit at NASA’s Kennedy Space Center in Florida, the X-70 Fractal will make its first…",
-      "url": "https://www.flyingmag.com/what-we-know-x70-fractal-nasa-newest-x-plane/",
+      "title": "Electric Aircraft to Follow Planned PC-12 Regional Service in Florida",
+      "description": "Future Flight Global (FFG), which intends to operate an upcoming network of commercial electric and eVTOL (electric vertical takeoff and landing) aircraft routes, will soon begin laying the groundwork for zero-emission air service in Florida. The prospective operator said Monday that it plans to…",
+      "url": "https://www.flyingmag.com/electric-aircraft-pc12-regional-service-florida/",
       "source": "Flying Magazine",
       "author": "Jack Daleo",
-      "published_at": "2026-11-06T13:00:00Z",
+      "published_at": "2026-11-10T14:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Black Box and Parts of Crashed Learjet’s Wings, Engines Recovered",
+      "description": "National Transportation Safety Board investigators have now recovered several key components from the Learjet 60 that crashed near Greenacres, Florida, on November 1, killing all nine occupants. The NTSB said last week that it recovered pieces of the jet’s left elevator and a portion of one engine…",
+      "url": "https://www.flyingmag.com/learjet-wings-engines-flight-deck-parts-found/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-10T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Cessna 172 Pilot Describes Airplane Overturning at John Wayne Airport",
+      "description": "The pilot of a Cessna 172 Skyhawk said he was “struck by a sudden jet blast” that caused his aircraft to pitch forward and overturn completely at John Wayne Airport (KSNA) in California. The incident took place Saturday at approximately 2:40 p.m. PST, according to a report shared with FLYING by the…",
+      "url": "https://www.flyingmag.com/cessna-172-pilot-overturned-john-wayne-airport/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-09T21:30:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/C172-overturns-KSNA.mp4"
+    },
+    {
+      "title": "Boeing to Cut Commercial Division Workforce by 5 Percent",
+      "description": "Boeing is reducing its Commercial Airplanes division workforce by roughly 5 percent and slowing aircraft production, division president and CEO Stephanie Pope announced Monday. According to the Seattle Times , employees were notified in an email and told of the reduction in staff that would be…",
+      "url": "https://www.flyingmag.com/boeing-to-cut-commercial-division-workforce-by-5-percent/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-09T20:30:00Z",
       "image": null
     },
     {
@@ -166,21 +184,21 @@
       "image": null
     },
     {
-      "title": "Aircraft Maintenance: Excessive oil consumption",
-      "description": "Aircraft engines are designed to consume oil, but if every fuel stop has you reaching for another quart, it pays to know where all those so-called “dead dinosaurs” are going.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/03/aircraft-maintenance-excessive-oil-consumption?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "title": "Aviation Is Hiring: AOPA Launches Career Expo in Phoenix",
+      "description": "PHOENIX—The Aircraft Owners and Pilots Association (AOPA) will host its first Aviation Career Expo on November 13 and 14 at the Hyatt Regency Phoenix, connecting job seekers with airlines, manufacturers, flight schools, and aviation service providers.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/05/pr-aviation-is-hiring-aopa-launches-career-expo-in-phoenix?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-11-03T23:51:36Z",
+      "published_at": "2026-11-05T20:34:00Z",
       "image": null
     },
     {
-      "title": "Wanted: One airplane, preferably mine",
-      "description": "I decided I need an airplane. The only thing standing between me and aircraft ownership is the smallest but most inconvenient detail: money. So naturally, I've been exploring all my options.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/03/wanted-one-airplane-preferably-mine?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "title": "AOPA Air Safety Institute Releases Early Analysis of Learjet Crash in Florida",
+      "description": "FREDERICK, Md.— The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released a new Early Analysis video examining the November 1 crash of a Learjet 60 in Palm Beach County, Florida, that claimed nine lives.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/04/pr-aopa-air-safety-institute-releases-early-analysis-of-learjet-crash-in-florida?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
-      "published_at": "2026-11-03T21:53:00Z",
+      "published_at": "2026-11-04T20:41:00Z",
       "image": null
     }
   ]
