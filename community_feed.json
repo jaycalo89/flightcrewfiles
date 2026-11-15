@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:23:41.539391+00:00",
+  "generated_at": "2026-11-15T13:41:23.398124+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What brought about the end of rear-engine airliners?",
-      "url": "https://aviation.stackexchange.com/questions/116695/what-brought-about-the-end-of-rear-engine-airliners",
-      "points": 0,
-      "num_comments": 0,
+      "title": "Can I give a FAA logbook endorsement to someone I gave a military examination to prior to being certified as a CFI?",
+      "url": "https://aviation.stackexchange.com/questions/116699/can-i-give-a-faa-logbook-endorsement-to-someone-i-gave-a-military-examination-to",
+      "points": 3,
+      "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794363727
+      "created_utc": 1794692890
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "High Level Requirements Test Case Design for Automated Testing as per DO 178C",
-      "url": "https://aviation.stackexchange.com/questions/116693/high-level-requirements-test-case-design-for-automated-testing-as-per-do-178c",
-      "points": -1,
+      "title": "What's your biggest challenge while managing permits, crew documents and aircraft approvals for international charter flights?",
+      "url": "https://aviation.stackexchange.com/questions/116700/whats-your-biggest-challenge-while-managing-permits-crew-documents-and-aircraf",
+      "points": -4,
       "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794290096
+      "created_utc": 1794704774
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Douglas DC-4 Wing Shape",
-      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
-      "points": 5,
-      "num_comments": 2,
+      "title": "What does “RVR is not reported” mean?",
+      "url": "https://aviation.stackexchange.com/questions/116696/what-does-rvr-is-not-reported-mean",
+      "points": 2,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794117658
+      "created_utc": 1794409475
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Why do Landing Field requirement charts look the way they are?",
-      "url": "https://aviation.stackexchange.com/questions/116691/why-do-landing-field-requirement-charts-look-the-way-they-are",
-      "points": 2,
-      "num_comments": 0,
+      "title": "Douglas DC-4 Wing Shape",
+      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
+      "points": 5,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794217583
+      "created_utc": 1794117658
     }
   ]
 }
