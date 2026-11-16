@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:41:23.398124+00:00",
+  "generated_at": "2026-11-16T12:18:42.537471+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -17,8 +17,8 @@
     {
       "title": "Can I give a FAA logbook endorsement to someone I gave a military examination to prior to being certified as a CFI?",
       "url": "https://aviation.stackexchange.com/questions/116699/can-i-give-a-faa-logbook-endorsement-to-someone-i-gave-a-military-examination-to",
-      "points": 3,
-      "num_comments": 1,
+      "points": 5,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
       "created_utc": 1794692890
     },
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "What's your biggest challenge while managing permits, crew documents and aircraft approvals for international charter flights?",
-      "url": "https://aviation.stackexchange.com/questions/116700/whats-your-biggest-challenge-while-managing-permits-crew-documents-and-aircraf",
-      "points": -4,
-      "num_comments": 0,
+      "title": "Douglas DC-4 Wing Shape",
+      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794704774
+      "created_utc": 1794117658
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Douglas DC-4 Wing Shape",
-      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
-      "points": 5,
-      "num_comments": 2,
+      "title": "What brought about the end of rear-engine airliners?",
+      "url": "https://aviation.stackexchange.com/questions/116695/what-brought-about-the-end-of-rear-engine-airliners",
+      "points": 1,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794117658
+      "created_utc": 1794363727
     }
   ]
 }

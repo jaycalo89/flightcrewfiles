@@ -1,88 +1,79 @@
 {
-  "generated_at": "2026-11-15T13:41:17.799543+00:00",
+  "generated_at": "2026-11-16T12:18:36.452794+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 19,
   "articles": [
     {
-      "title": "Dozens Of Boeing 787s Face Checks Over Fuel Tanks That Could Ignite When Hit By Lightning",
-      "description": "The Federal Aviation Administration has ordered inspections of certain Boeing 787 Dreamliners, warning that sealant defects could create a spark inside the tank during a lightning strike, potentially triggering a fuel tank explosion. The airworthiness directive will take effect next month and…",
-      "url": "https://simpleflying.com/video/dozens-of-boeing-787s-face-checks-over-fuel-tanks-that-could-ignite-when-hit-by-lightning/",
+      "title": "Ryanair Cancels All Flights In Europe On Christmas Day",
+      "description": "Christmas Day is fast approaching. On that festive day, airlines around the world will collectively cut 16% of flights, with Europe especially affected (-37%). Generally, it is much more common for carriers to scale back activity significantly than to cut flights completely.",
+      "url": "https://simpleflying.com/ryanair-cancels-all-flights-in-europe-on-christmas-day/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-15T13:27:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/787-fuel-tank.jpg"
+      "author": "James Pearson",
+      "published_at": "2026-11-16T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/close-up-of-ryanair-boeing-737-800-aircraft-enhanced_cropped.jpg"
     },
     {
-      "title": "The 2-Hour Rest Rule Ultra-Long-Haul Airbus A350 Pilots Have Before Landing",
-      "description": "Ultra-long-haul flights are built around a rule written backward from the landing. Federal regulations governing augmented operations require that the pilot who will fly the aircraft during landing must have two consecutive hours of in-flight rest available during the second half of the flight duty…",
-      "url": "https://simpleflying.com/2-hour-rest-rule-ultra-long-haul-airbus-a350-pilots-have-before-landing/",
+      "title": "How Boeing Saved the A380, But Airbus Could End It",
+      "description": "In this video, we'll look at why the A380 made an unexpected comeback, how delays to the Boeing 777X effectively placed it on life support, and why the Airbus A350-1000ULR represents the long-term shift that could finally make the world's largest passenger aircraft unnecessary.",
+      "url": "https://simpleflying.com/video/how-boeing-saved-the-a380-but-airbus-could-end-it/",
       "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-15T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/ltra-long-haul-airbus.png"
+      "author": "SF Staff",
+      "published_at": "2026-11-16T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/83_lh_boeing-777x-delay-airbus-a380-life-support-a350-1000ulr-kills-it_h_site-copy.jpg"
     },
     {
-      "title": "Spool Up Vs. Turn & Burn: Which Takeoff Concept Is More Effective?",
-      "description": "Every takeoff begins with a carefully managed increase in engine power, but the way an aircraft starts moving can vary. In a static takeoff, the aircraft remains stationary while the engines are brought to the required stabilization setting before the takeoff roll begins. A rolling takeoff,…",
-      "url": "https://simpleflying.com/spool-up-turn-burn-takeoff-concept-more-effective/",
+      "title": "5 Airlines With The World's Best Economy Seats For Long-Haul Flights",
+      "description": "Each year, the aviation industry group Skytrax holds a vote and publishes the results for its World Airline Awards. One category is Best Economy Class Airline Seats . In 2025, the ranking from fifth to first was Qatar Airways, Singapore Airlines , Korean Air, Cathay Pacific Airways, and Japan…",
+      "url": "https://simpleflying.com/airlines-with-the-worlds-best-economy-seats-for-long-haul-flights/",
       "source": "Simple Flying",
-      "author": "Emma Kraeger",
-      "published_at": "2026-11-15T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/spool-up-vs-turn-burn-1.png"
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-16T11:08:56Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/03/worlds-best.jpg"
     },
     {
-      "title": "Why United Airlines Flies Its Boeing 787-9 Dreamliners On Domestic Routes",
-      "description": "The Boeing 787-9 Dreamliner is engineered and purpose-built to conquer vast oceanic expanses, connecting distant continents on ultra-long-range intercontinental missions. In actuality, travelers booking domestic flights across the United States frequently encounter this twin-aisle flagship…",
-      "url": "https://simpleflying.com/why-united-airlines-flies-boeing-787-9-domestic-routes/",
+      "title": "This Airline's Premium Economy Has 4 More Inches Of Legroom Than Award-Winning Emirates & Qantas",
+      "description": "Premium economy has become one of the fastest-growing products in commercial aviation, offering passengers a middle ground between increasingly cramped economy seating and the significantly higher cost of business class. Airlines often compete by adding upgraded meals, improved entertainment…",
+      "url": "https://simpleflying.com/airline-premium-economy-4-more-inches-legroom-award-winning-emirates-and-qantas/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-16T10:46:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/premium-economy-1.jpg"
+    },
+    {
+      "title": "Delta’s Amazon Wi-Fi At Risk Of Delay As Boeing-Lockheed Rocket Failure Destroys 40 Satellites",
+      "description": "Delta Air Lines ' high-speed WiFi rollout plans have hit another potential hurdle following the inflight failure of a United Launch Alliance rocket on Sunday. The Vulcan rocket experienced what ULA, a joint venture between Boeing and Lockheed Martin, is calling an 'anomaly' shortly after its launch…",
+      "url": "https://simpleflying.com/delta-amazon-leo-wifi-delay-risk-boeing-lockheed-rocket-failure/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-16T09:00:09Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/127-delta-air-lines-boeing-757-300-markus-mainka-_-shutterstock.jpg"
+    },
+    {
+      "title": "The 2 Airlines Forming The Largest Carrier Over The Pacific Operate Superjumbo Aircraft That Are Drastically Different",
+      "description": "At the end of this year, Korean Air is expected to absorb Asiana Airlines' fleet of six Airbus A380s , adding them to its fleet of five. This will create one of the largest fleets of Superjumbos over the Pacific. That said, one of Asiana's superjumbos appears parked, and it's unclear whether it is…",
+      "url": "https://simpleflying.com/2-airlines-forming-largest-carrier-pacific-superjumbo-aircraft-drastically-different/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-11-16T06:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/2-airlines-forming.png"
+    },
+    {
+      "title": "How Qantas Used The Boeing 747SP To Conquer Wellington's Notoriously Short Runway",
+      "description": "Long before modern ultra-long-range twin-engine airframes like the Airbus A321XLR dominated global networks or even existed at all, airlines had to rely on radical structural modifications to connect thin, high-yield city pairs separated by massive distances. This guide examines the history,…",
+      "url": "https://simpleflying.com/how-qantas-used-boeing-747sp-conquer-wellington-short-runway/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-11-15T11:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/787-9-dreamliners.png"
+      "published_at": "2026-11-16T04:30:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/conquer-wellington.jpg"
     },
     {
-      "title": "Why Airlines Don’t Want First Class Anymore",
-      "description": "In recent years, travellers have noticed a subtle yet significant shift in the configuration of aircraft cabins. Once a hallmark of luxury and exclusivity, first class sections are quietly disappearing from the fleets of many major airlines. These changes have sparked curiosity among both frequent…",
-      "url": "https://simpleflying.com/why-airlines-dont-want-first-class/",
+      "title": "What A 2nd Captain Adds To The Cost Of American Airlines' 16-Hour JFK-Delhi Flight",
+      "description": "American Airlines , United Airlines , and Air India fly the nonstop ultra-long-haul route between John F. Kennedy International Airport (JFK) and Indira Gandhi International Airport (DEL) in India. The route is just long enough to trigger regulations in both the US and India to require a…",
+      "url": "https://simpleflying.com/what-a-2nd-captain-adds-to-the-cost-of-american-airlines-16-hour-jfk-delhi-flight/",
       "source": "Simple Flying",
-      "author": "Josh Eyre",
-      "published_at": "2026-11-15T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/09/firstclass-269079-1-1-1.jpg"
-    },
-    {
-      "title": "How The Boeing 737 MAX 10 Is Growing First Class On US Airlines",
-      "description": "The Boeing 737 MAX 10 is now certified, and airlines will soon begin taking delivery of the aircraft. WestJet should be the launch operator of the aircraft in early 2027, while Alaska Airlines and United Airlines will take delivery of their first examples shortly afterwards. Delta Air Lines is…",
-      "url": "https://simpleflying.com/how-boeing-737-max-10-growing-first-class-flying-us/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-15T08:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-737-max-10.png"
-    },
-    {
-      "title": "‘Somebody Hit Us’: UPS Boeing 767 Collides With Copa 737 In Miami After Taxiing Too Far",
-      "description": "A UPS Airlines Boeing 767 freighter and a Copa Airlines Boeing 737 collided while taxiing at Miami International Airport (MIA) on Saturday night. According to the Federal Aviation Administration (FAA), the wingtip of the Copa passenger jet struck the nose of the 767 as the cargo aircraft taxied for…",
-      "url": "https://simpleflying.com/ups-boeing-767-collides-copa-737-miami-airport-taxiway/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-15T06:48:04Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/ups-airlines-boeing-767-on-the-runway.jpg"
-    },
-    {
-      "title": "Emirates Is Stripping Its Airbus A380s To 'Bare Metal' While Qantas Retires Its Superjumbos 4 Years Early",
-      "description": "While much of the airline industry is moving away from the Airbus A380, Emirates is taking a very different approach, stripping its Superjumbos back to bare metal and investing billions in rebuilding their interiors. The strategy reflects the aircraft's continued value on high-demand international…",
-      "url": "https://simpleflying.com/emirates-stripping-airbus-a380s-bare-metal-qantas-retires-superjumbos-4-years-early/",
-      "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-11-15T05:30:01Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/cover-pic-1.png"
-    },
-    {
-      "title": "How Much Do Boeing 737 MAX Pilots Actually Earn At US Carriers In 2026?",
-      "description": "Airlines around the world are navigating complex network strategies and intense pilot recruitment demands, so the compensation attached to flying these advanced narrowbody airframes has become a focal point for flight crews, industry analysts, and prospective aviators alike. One of those aircraft…",
-      "url": "https://simpleflying.com/how-much-boeing-737-max-pilots-earn-us-carriers/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-11-14T22:30:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-united-airlines-stopped-trusting-boeing-s-timeline-bet-180-jets-on-airbus-instead.jpg"
+      "author": "Aaron Spray",
+      "published_at": "2026-11-16T03:00:28Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/2nd-captain-adds.png"
     },
     {
       "title": "‘Air Space Is Reopened’: FAA Lifts Nationwide Ground Stop",
@@ -105,7 +96,7 @@
     {
       "title": "What flight competition teaches future commercial pilots",
       "description": "Collegiate flight competition provides student pilots with opportunities to apply aviation knowledge, refine flying skills, and develop the professionalism needed throughout their careers. For California Aeronautical University (CAU), it has also become a way to reinforce many of the same…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/13/what-flight-competition-teaches-future-commercial-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/november/13/what-flight-competition-teaches-future-commercial-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-13T20:10:00Z",
@@ -159,7 +150,7 @@
     {
       "title": "FAA deploys digital ATC towers in Florida, Alaska",
       "description": "The FAA announced November 6 that digital air traffic control towers are now operational at two airports—with five more on the way.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/12/faa-deploys-digital-atc-towers-in-florida-alaska?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/november/12/faa-deploys-digital-atc-towers-in-florida-alaska?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-13T01:55:07Z",
@@ -168,7 +159,7 @@
     {
       "title": "Researcher requests pilot fatigue reports",
       "description": "A pilot and doctoral candidate at Liberty University is seeking survey responses from fellow pilots who have flown an hour or more in the last 30 days, research intended to better understand how low workload during cruise flight affects alertness.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/12/researcher-requests-pilot-fatigue-reports?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/november/12/researcher-requests-pilot-fatigue-reports?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-13T00:07:40Z",
@@ -177,7 +168,7 @@
     {
       "title": "FAA demands receipts from Washington state",
       "description": "The FAA in October gave Washington state officials a November 30 deadline to produce records supporting the state's assertion that aviation fuel tax proceeds are not being illegally diverted away from airports. In another move welcomed by AOPA, the agency ruled that a ground lease moratorium…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/12/faa-demands-receipts-from-washington-state?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://aopa.org/news-and-media/all-news/2026/november/12/faa-demands-receipts-from-washington-state?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-12T23:46:46Z",
