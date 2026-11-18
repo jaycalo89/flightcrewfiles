@@ -1,16 +1,97 @@
 {
-  "generated_at": "2026-11-17T14:37:20.959075+00:00",
+  "generated_at": "2026-11-18T15:44:22.278782+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 15,
   "articles": [
     {
-      "title": "Lufthansa Ditches Huge 509-Seat Airbus A380: Final 4 Routes Revealed",
-      "description": "Lufthansa is one of the few airlines that continue to operate the Airbus A380 . According to ch-aviation , the German flag carrier currently has a fleet of eight A380-800s and plans to keep the aircraft in service well into the 2030s.",
-      "url": "https://simpleflying.com/lufthansa-ditches-huge-509-seat-a380/",
+      "title": "17 Aircraft Spotted In GTA 6’s Trailers, From Boeing 747s To Biplanes",
+      "description": "13 years after the launch of its predecessor, Grand Theft Auto VI is launching on November 19, with the title going down in history as one of the most eagerly awaited video games of all time. Rockstar's open-world extravaganza is set in a fictionalized version of the US state of Florida , and,…",
+      "url": "https://simpleflying.com/gta-6-trailers-aircraft-boeing-747-biplane/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-11-17T14:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/simpleflying-airbus-a380-lufthansa_cropped.jpg"
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-18T15:15:48Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/download-1-1.jpg"
+    },
+    {
+      "title": "What Do Historical Aircraft Registration Letters Mean?",
+      "description": "Question: I know “N” in an aircraft registration stands for North America. What do the “C” and “X” in the designations “NC” and “NX” mean in older airplanes? And why were the numbers so big and under the wings instead of on the fuselage like on modern airplanes? Answer: You’re right. The “N” in the…",
+      "url": "https://www.flyingmag.com/what-do-historical-aircraft-registration-letters-mean/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-18T15:00:00Z",
+      "image": null
+    },
+    {
+      "title": "45-Minute Immigration Queues & $25 Airport Meals: My Experience Flying Through Vietnam's Overcrowded Airport",
+      "description": "Vietnam's Ho Chi Minh International Airport (officially Tan Son Nhat International Airport ) is the airport serving Ho Chi Minh City (Saigon) and southern Vietnam. Its passenger volume has grown to the point where it is considerably over capacity, and the international terminal is struggling.",
+      "url": "https://simpleflying.com/review-ho-chi-minh-airport-why-vietnam-is-replacing-it/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-11-18T14:41:28Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/overcrowded-tan-son-nhat-airport-1.png"
+    },
+    {
+      "title": "NTSB: Missed Inspections Let Storm-Damaged Southwest 737 MAX Fly 44 Times Before Dutch Roll Accident",
+      "description": "A Southwest Airlines Boeing 737 MAX flew 44 times with undetected storm damage to its tail after missing a post-storm inspection, then later passing a flawed maintenance test.",
+      "url": "https://simpleflying.com/video/ntsb-missed-inspections-let-storm-damaged-southwest-737-max-fly-44-times-before-dutch-roll-accident/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-11-18T13:25:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-dutch-roll-ntsb.jpg"
+    },
+    {
+      "title": "British Airways Launches Major New 24-Hour Route In 7 Weeks: See Map Now",
+      "description": "British Airways will finally reintroduce service to Melbourne in early January. Melbourne is the capital of the Australian state of Victoria and is now the nation's second most populous city based on the significant urban area population. It is also Australia's fastest-growing state capital by…",
+      "url": "https://simpleflying.com/british-airways-launches-major-24-hour-route-in-7-weeks/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-11-18T12:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-787-9-short-final-mock-up.jpg"
+    },
+    {
+      "title": "Inside Singapore Airlines' Stunning NEW Boeing 777-9 Cabins!",
+      "description": "Tom Boon of Simple Flying heads to Singapore for the unveiling of Singapore Airlines’ next-generation cabins. From its all-new First Class suites featuring the largest double bed in commercial aviation to redesigned Business Class seats with sliding privacy doors, this video explores the upgrades…",
+      "url": "https://simpleflying.com/video/inside-singapore-airlines-stunning-new-boeing-777-9-cabins/",
+      "source": "Simple Flying",
+      "author": "Tom Boon",
+      "published_at": "2026-11-18T12:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/99_lh_singapore-airlines-seat-reveal-copy.jpg"
+    },
+    {
+      "title": "The Subtle Signs That Give 1st Time First Class Passengers Away, According To Cabin Crew",
+      "description": "Most of us don't have the luxury of affording a first class or business class airfare, but we can still dream of turning left instead of turning right at the aircraft door. There is a huge difference between regular frequent premium class passengers and those who are upgraded or traveling in first…",
+      "url": "https://simpleflying.com/signs-first-time-first-class-passengers-cabin-crew/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-11-18T12:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/the-subtle-signs-that-give-1st-time-first-class-passengers-away-according-to-cabin-crew.jpg"
+    },
+    {
+      "title": "More than an airport",
+      "description": "A new book by a local historian details the history of an airport created by the same California city that, decades later, fought to secure FAA consent to close it.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/17/more-than-an-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-17T21:01:58Z",
+      "image": null
+    },
+    {
+      "title": "AI Transcriptions Are Coming to ForeFlight Mobile",
+      "description": "Jeppesen ForeFlight said Tuesday that it began the process of integrating artificial intelligence capabilities into ForeFlight Mobile. The electronic flight bag provider in September transitioned from paper to fully digital flight charts. Now, it is revamping its flagship mobile platform for GA…",
+      "url": "https://www.flyingmag.com/ai-atc-transcriptions-jeppesen-foreflight-mobile/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-17T21:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1974 Beechcraft V35B Bonanza Is a Sleek, Dashing ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1974 Beechcraft V35B Bonanza. When…",
+      "url": "https://www.flyingmag.com/this-1974-beechcraft-v35b-bonanza-is-a-sleek-dashing-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-17T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-8.07.05-AM.png?w=1024"
     },
     {
       "title": "How CFIs Can Handle Uncomfortable Cockpit Conversations",
@@ -22,123 +103,6 @@
       "image": null
     },
     {
-      "title": "Stuck In The Mud: Lagos-Bound British Airways Boeing 787-10 Veers Off Taxiway In London",
-      "description": "A British Airways Boeing 787-10 Dreamliner has suffered a taxiway excursion at London Heathrow Airport (LHR). The widebody twinjet airliner had pushed back from its gate at the West London facility's satellite terminal 5C, and it was on its way to runway 27L ahead of its planned departure to…",
-      "url": "https://simpleflying.com/british-airways-787-10-stuck-mud-off-taxiway-heathrow/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-17T13:47:40Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2498213411-enhanced-1794920738596_cropped.jpg"
-    },
-    {
-      "title": "Why Allegiant Air Broke Boeing Loyalty For Nearly 10 Years For Exclusive Airbus Operations But Decided To Go Back",
-      "description": "Allegiant Air surprised the aviation industry in January 2022 when it announced an order for 50 brand-new Boeing 737 MAX aircraft, with options for another 50. The Las Vegas-based leisure carrier had spent much of the previous decade moving away from Boeing-lineage aircraft, completing its…",
-      "url": "https://simpleflying.com/allegiant-air-broke-boeing-loyalty-10-years-exclusive-airbus-ops-go-back/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-11-17T13:33:43Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/exclusive-airbus-operations.png"
-    },
-    {
-      "title": "United Airlines Pilots Refuse ATC Direction To Fly Through “The Worst Part” Of A Severe Thunderstorm",
-      "description": "United Airlines pilots scheduled to operate a nonstop flight from San Antonio International Airport to Washington Dulles International reportedly refused to accept the air traffic control's proposed routing to the US capital, after they identified that the route would take them directly through a…",
-      "url": "https://simpleflying.com/video/united-airlines-pilots-refuse-atc-direction-to-fly-through-the-worst-part-of-a-severe-thunderstorm/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-17T13:26:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/pilot-refuse-atc-united.jpg"
-    },
-    {
-      "title": "Beyond Eurobusiness: Lufthansa Puts 4-Abreast Premium Business Seats On 6 Airbus A320s",
-      "description": "Lufthansa has revealed its plans to fit select Airbus A320-200 narrowbody twinjets with wider business class recliners that are laid out four-abreast in a 2-2 setup. This marks a notable step forward for the Cologne-based Star Alliance founding member, which, like many of its fellow European flag…",
-      "url": "https://simpleflying.com/lufthansa-premium-business-seat-6-airbus-a320/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-17T12:36:37Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2731429617-golden-1794917064591_cropped.jpg"
-    },
-    {
-      "title": "How Much A Private Jet Flight Actually Costs Per Hour In 2026",
-      "description": "For most travelers, private aviation remains one of the biggest mysteries in air travel. Most airline passengers can easily compare economy, business, and first-class fares online, but private jet charter pricing often appears far less transparent. Ask ten people how much it costs to charter a…",
-      "url": "https://simpleflying.com/how-much-private-jet-flight-cost-per-hour-2026/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-11-17T10:45:09Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/06/how-much-a-private-jet-flight-actually-costs-per-hour-in-2026.jpg"
-    },
-    {
-      "title": "Why Don’t Any US Airlines Fly Nonstop To Thailand?",
-      "description": "Thailand is one of the world's most popular tourist destinations, welcoming over 35 million international visitors in 2024. The largest source markets for visitors to Thailand include China and India. Still, the country is slowly growing in popularity among US travelers looking to explore its…",
-      "url": "https://simpleflying.com/why-dont-us-airlines-fly-to-thailand-nonstop-today/",
-      "source": "Simple Flying",
-      "author": "Steven Walker",
-      "published_at": "2026-11-17T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/08/planes.jpg"
-    },
-    {
-      "title": "United Passengers Spent Up To 8 Hours Stuck On Chicago O’Hare Tarmac During FAA Ground Stop",
-      "description": "As US aviation came to a stop on Friday afternoon amid the longest nationwide ground stop since the 9/11 terror attacks in September 2001, passengers on flights around the country faced lengthy delays on the tarmac as airlines awaited a resolution. In some of the more extreme cases, reports have…",
-      "url": "https://simpleflying.com/united-airlines-passengers-stuck-chicago-ohare-tarmac-8-hours-faa-ground-stop/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-17T09:14:54Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/012-united-airlines-boeing-737-700-nathan-klemstein-_-shutterstock.jpg"
-    },
-    {
-      "title": "I Flew With An On-Time Award-Winning Airline, But Its Overcrowded Hub Let It Down",
-      "description": "In early November, I flew with Philippine Airlines (PAL), the flag carrier of the Philippines, from Guam to Tan Son Nhat International Airport (Ho Chi Minh City) in Vietnam (Saigon). This was not the first time I had flown with the airline. In 2024, I flew from Brisbane to Bali via Manila.…",
-      "url": "https://simpleflying.com/flight-review-philippine-airlines/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-11-17T09:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2692165897.png"
-    },
-    {
-      "title": "FAA Investigating Ground Collision Between UPS 767 and Copa 737 at Miami",
-      "description": "Authorities are investigating the Saturday night ground collision between a UPS 767 and a Copa Airlines Boeing 737-800NG at Miami International Airport (KMIA). The accident happened at approximately 9:15 p.m. EST as the aircraft were on intersecting taxiways. According to the FAA, two people aboard…",
-      "url": "https://www.flyingmag.com/faa-investigating-ground-collision-between-ups-767-and-copa-737-at-miami/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-16T16:26:39Z",
-      "image": null
-    },
-    {
-      "title": "This 1975 Cessna 185F Skywagon Is an Updated, Go-Anywhere ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1975 Cessna A185F Skywagon. As…",
-      "url": "https://www.flyingmag.com/this-1975-cessna-185f-skywagon-is-an-updated-go-anywhere-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-16T14:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261115_225839-e1794838794123.jpg?w=1024"
-    },
-    {
-      "title": "Hangar Files: Boeing Stearman",
-      "description": "There is a lot to love about a Stearman. The World War II-era trainer, developed during aviation’s golden age, has the exposed radial engine, flying wires, and taildragger stance that come to mind when someone says “biplane.” Because of its widespread use training pilots in multiple branches of the…",
-      "url": "https://www.flyingmag.com/hangar-files-boeing-stearman/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-16T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "‘Air Space Is Reopened’: FAA Lifts Nationwide Ground Stop",
-      "description": "The FAA has lifted the sweeping, nationwide ground stop that halted virtually all commercial air traffic in the U.S. Friday evening. “The FAA Command Center nationwide ground stop has been cancelled” reads an advisory from the agency’s Air Traffic Control System Command Center published at 8:19…",
-      "url": "https://www.flyingmag.com/air-space-is-reopened-faa-lifts-nationwide-ground-stop/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-11-14T02:00:41Z",
-      "image": null
-    },
-    {
-      "title": "FAA Orders National Ground Stop",
-      "description": "The FAA has ordered a national ground stop due to “extraordinary circumstances and for reasons of safety.” It is the second time since the 9/11 attacks that the agency has ordered a ground stop at all airports. The previous instance was in January 2023 following the failure of the Notices to Airmen…",
-      "url": "https://www.flyingmag.com/faa-orders-national-ground-stop-all-airports/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-13T21:14:29Z",
-      "image": null
-    },
-    {
       "title": "What flight competition teaches future commercial pilots",
       "description": "Collegiate flight competition provides student pilots with opportunities to apply aviation knowledge, refine flying skills, and develop the professionalism needed throughout their careers. For California Aeronautical University (CAU), it has also become a way to reinforce many of the same…",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/13/what-flight-competition-teaches-future-commercial-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -146,15 +110,6 @@
       "author": null,
       "published_at": "2026-11-13T20:10:00Z",
       "image": null
-    },
-    {
-      "title": "FAA Seeks to Reduce Midair Collision Risk at KDJT",
-      "description": "The FAA is proposing to expand the boundaries of Class C airspace surrounding Donald J. Trump International Airport (KDJT) in Florida to reduce the potential for midair collisions in the terminal area. The agency in a notice of proposed rulemaking (NPRM) recommended expanding the vertical limits…",
-      "url": "https://www.flyingmag.com/faa-midair-collision-trump-international-airport/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-13T20:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/image_909f3c.png?w=1024"
     },
     {
       "title": "FAA deploys digital ATC towers in Florida, Alaska",
