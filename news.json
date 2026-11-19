@@ -1,16 +1,133 @@
 {
-  "generated_at": "2026-11-18T15:44:22.278782+00:00",
+  "generated_at": "2026-11-19T16:12:24.430159+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 15,
+  "count": 20,
   "articles": [
     {
-      "title": "17 Aircraft Spotted In GTA 6’s Trailers, From Boeing 747s To Biplanes",
-      "description": "13 years after the launch of its predecessor, Grand Theft Auto VI is launching on November 19, with the title going down in history as one of the most eagerly awaited video games of all time. Rockstar's open-world extravaganza is set in a fictionalized version of the US state of Florida , and,…",
-      "url": "https://simpleflying.com/gta-6-trailers-aircraft-boeing-747-biplane/",
+      "title": "710 Pounds Of Linemen: Frontier Airlines Signs 2 College Football Stars To Launch First Class",
+      "description": "Frontier Airlines has signed a name, image and likeness (NIL) partnership with Juan Gaston and Jahzare Jackson, who are University of Georgia offensive linemen. These college football giants are promoting the airline's new 2-2 configuration first class product.",
+      "url": "https://simpleflying.com/frontier-airlines-first-class-nil-deal-college-football-linemen/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-19T16:01:23Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/frontiernil.jpg"
+    },
+    {
+      "title": "Boeing Vs. Airbus Cockpits: How Yokes & Sidesticks Change The Way Pilots Fly",
+      "description": "Airbus and Boeing had the same technology available and reached opposite conclusions about what to do with it. The A320 introduced a digital fly-by-wire system to a commercial airliner for the first time, and with the mechanical linkage removed, a control column was no longer technically necessary.…",
+      "url": "https://simpleflying.com/boeing-airbus-cockpits-yokes-sidesticks-change-pilots-fly/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-19T16:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-vs-airbus-cockpits-how-yokes-sidesticks-change-the-way-pilots-fly.jpg"
+    },
+    {
+      "title": "This 1948 Luscombe 8F Is a Practical, Vintage ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1948 Luscombe 8F. Antique…",
+      "url": "https://www.flyingmag.com/this-1948-luscombe-8f-is-a-practical-vintage-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-19T15:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261118_211809.jpg?w=1024"
+    },
+    {
+      "title": "‘Aviation Start’ Episode 7 Maps the Path to Becoming a Corporate Flight Attendant",
+      "description": "The seventh episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, heads to the cabin. In partnership with NBAA, FLYING Magazine was able to record this episode on location at the NBAA Business Aviation Convention & Exhibition (NBAA-BACE) in Las Vegas. It is the…",
+      "url": "https://www.flyingmag.com/aviation-start-episode-7-maps-the-path-to-becoming-a-corporate-flight-attendant/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-11-19T14:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Too Heavy For Its Own Wings!? Why The Boeing 737-900ER's Takeoff Roll Is So Long",
+      "description": "The Boeing 737-900ER was designed to solve a specific problem for airlines. Boeing needed a narrowbody aircraft capable of carrying nearly as many passengers as a Boeing 757 while remaining within the operating economics and fleet commonality of the long-running 737 family.",
+      "url": "https://simpleflying.com/video/too-heavy-for-its-own-wings-why-the-boeing-737-900er-s-takeoff-roll-is-so-long/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-11-19T13:28:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/737-900er-heavy-wings.jpg"
+    },
+    {
+      "title": "End Of An Era: 50-Year-Old Boeing 747 Hotel In Stockholm Is Being Scrapped After 16 Years",
+      "description": "There are various things that can happen to an aircraft when it ceases flying for good. While many are simply scrapped straight away, others are kept by airlines as training resources or sources of spare parts. Some, however, go on to be repurposed, with the Jumbo Stay hotel at Stockholm Arlanda…",
+      "url": "https://simpleflying.com/boeing-747-hotel-stockholm-scrapped-50-year-old-jumbo-stay/",
       "source": "Simple Flying",
       "author": "Jake Hardiman",
-      "published_at": "2026-11-18T15:15:48Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/download-1-1.jpg"
+      "published_at": "2026-11-19T13:01:41Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/jumbo_hostel_3904221452-enhanced-1795091105420-golden_cropped.jpg"
+    },
+    {
+      "title": "18 Hours In The Air: Qatar Airways Relaunches Massive Route In Only 3 Weeks",
+      "description": "On December 8, Qatar Airways will finally lift off for Canberra. The one world member last flew to the capital of Australia in March 2020, when the war in Iran forced it to stop. Multiple carriers continue to suspend routes to the Gulf because of the war.",
+      "url": "https://simpleflying.com/18-hours-in-the-air-qatar-airways-relaunches-massive-route-in-only-3-weeks/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-11-19T12:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qatar-airways-777-300er-approach-joao-fachetti-1.jpg"
+    },
+    {
+      "title": "Boeing 777X Pilots Have To Manually Extend The Wingtips Before Takeoff But Not Fold Up After Landing",
+      "description": "One of the Boeing 777X's most famous new features is its folding wingtips. They're roughly 11 feet (3.5 meters) wide each and are designed to be folded up whilst on the ground, allowing the aircraft to use the same airport facilities as older 777 models. They extend before takeoff and remain fully…",
+      "url": "https://simpleflying.com/boeing-777x-pilots-manually-extend-wingtips-before-takeoff-but-not-fold-up-after-landing/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-11-19T12:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-777x-pilots-have-to-manually-extend-the-wingtips-before-takeoff-but-not-fold-up-after-landing.jpg"
+    },
+    {
+      "title": "Why The Airbus A350 Can Fly Late-Night Slots At London Heathrow That Ground Competing Widebodies",
+      "description": "London Heathrow (LHR) is one of the busiest international airports in the world , yet it is also one of the most tightly regulated when it comes to aircraft noise. Despite handling 83.9 million passengers and 474,029 aircraft movements in 2024, Heathrow remains legally capped at 480,000 annual air…",
+      "url": "https://simpleflying.com/why-airbus-a350-fly-late-night-slots-london-heathrow-that-ground-competing-widebodies/",
+      "source": "Simple Flying",
+      "author": "Josh Eyre",
+      "published_at": "2026-11-19T10:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-the-airbus-a350-can-fly-late-night-slots-at-london-heathrow-that-ground-competing-widebodies.jpg"
+    },
+    {
+      "title": "AOPA Applauds New Jersey Airport Eviction Pause",
+      "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) applauds the New Jersey Department of Environmental Protection (DEP) for pausing evictions at Aeroflex-Andover Airport for six months.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/18/pr-aopa-applauds-new-jersey-airport-eviction-pause?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-18T22:27:18Z",
+      "image": null
+    },
+    {
+      "title": "New Report Highlights Continued Aviation Safety Concerns at Reagan National",
+      "description": "Certain aviation safety hazards that the FAA and U.S. Army failed to adequately assess before the January 2025 midair collision near Ronald Reagan Washington National Airport (KDCA) remain almost two years later, according to a new report . The collision between an Army Black Hawk helicopter and…",
+      "url": "https://www.flyingmag.com/report-aviation-safety-concerns-reagan-airport/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-18T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Buying an Aircraft Before Year-End? Get Your Documents, Taxes, and Pre-Approval in Order",
+      "description": "Budget season is here and the year-end rush is on. Kimsey Bell and Jackson Moore explain what to sort out with your accountant, what lenders need to see, and why a pre-approval comes first. By Tripp Thurston , with Kimsey Bell and Jackson Moore KEY TAKEAWAYS : Know how you’re paid and how your…",
+      "url": "https://www.flyingmag.com/buying-an-aircraft-before-year-end-get-your-documents-taxes-and-pre-approval-in-order/",
+      "source": "Flying Magazine",
+      "author": "Tripp Thurston",
+      "published_at": "2026-11-18T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "Paragon Flight Training Earns FAA’s First AC ODA Approval",
+      "description": "Paragon Flight Training has become the nation’s first flight school to earn Airman Certification Organization Designation Authorization (AC ODA) from the FAA. According to Chris Schoensee, president of the Fort Myers, Florida-based company, the designation allows Paragon Flight Training to offer…",
+      "url": "https://www.flyingmag.com/paragon-flight-training-earns-faas-first-ac-oda-approval/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-18T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 2006 Diamond Aircraft DA40-180 Is a Modern, Versatile ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2006 Diamond Aircraft DA40-180. In…",
+      "url": "https://www.flyingmag.com/this-2006-diamond-aircraft-da40-180-is-a-modern-versatile-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-18T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261117_231415.jpg?w=1024"
     },
     {
       "title": "What Do Historical Aircraft Registration Letters Mean?",
@@ -22,84 +139,12 @@
       "image": null
     },
     {
-      "title": "45-Minute Immigration Queues & $25 Airport Meals: My Experience Flying Through Vietnam's Overcrowded Airport",
-      "description": "Vietnam's Ho Chi Minh International Airport (officially Tan Son Nhat International Airport ) is the airport serving Ho Chi Minh City (Saigon) and southern Vietnam. Its passenger volume has grown to the point where it is considerably over capacity, and the international terminal is struggling.",
-      "url": "https://simpleflying.com/review-ho-chi-minh-airport-why-vietnam-is-replacing-it/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-11-18T14:41:28Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/overcrowded-tan-son-nhat-airport-1.png"
-    },
-    {
-      "title": "NTSB: Missed Inspections Let Storm-Damaged Southwest 737 MAX Fly 44 Times Before Dutch Roll Accident",
-      "description": "A Southwest Airlines Boeing 737 MAX flew 44 times with undetected storm damage to its tail after missing a post-storm inspection, then later passing a flawed maintenance test.",
-      "url": "https://simpleflying.com/video/ntsb-missed-inspections-let-storm-damaged-southwest-737-max-fly-44-times-before-dutch-roll-accident/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-18T13:25:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-dutch-roll-ntsb.jpg"
-    },
-    {
-      "title": "British Airways Launches Major New 24-Hour Route In 7 Weeks: See Map Now",
-      "description": "British Airways will finally reintroduce service to Melbourne in early January. Melbourne is the capital of the Australian state of Victoria and is now the nation's second most populous city based on the significant urban area population. It is also Australia's fastest-growing state capital by…",
-      "url": "https://simpleflying.com/british-airways-launches-major-24-hour-route-in-7-weeks/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-18T12:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-787-9-short-final-mock-up.jpg"
-    },
-    {
-      "title": "Inside Singapore Airlines' Stunning NEW Boeing 777-9 Cabins!",
-      "description": "Tom Boon of Simple Flying heads to Singapore for the unveiling of Singapore Airlines’ next-generation cabins. From its all-new First Class suites featuring the largest double bed in commercial aviation to redesigned Business Class seats with sliding privacy doors, this video explores the upgrades…",
-      "url": "https://simpleflying.com/video/inside-singapore-airlines-stunning-new-boeing-777-9-cabins/",
-      "source": "Simple Flying",
-      "author": "Tom Boon",
-      "published_at": "2026-11-18T12:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/99_lh_singapore-airlines-seat-reveal-copy.jpg"
-    },
-    {
-      "title": "The Subtle Signs That Give 1st Time First Class Passengers Away, According To Cabin Crew",
-      "description": "Most of us don't have the luxury of affording a first class or business class airfare, but we can still dream of turning left instead of turning right at the aircraft door. There is a huge difference between regular frequent premium class passengers and those who are upgraded or traveling in first…",
-      "url": "https://simpleflying.com/signs-first-time-first-class-passengers-cabin-crew/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-11-18T12:01:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/the-subtle-signs-that-give-1st-time-first-class-passengers-away-according-to-cabin-crew.jpg"
-    },
-    {
       "title": "More than an airport",
       "description": "A new book by a local historian details the history of an airport created by the same California city that, decades later, fought to secure FAA consent to close it.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/17/more-than-an-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-17T21:01:58Z",
-      "image": null
-    },
-    {
-      "title": "AI Transcriptions Are Coming to ForeFlight Mobile",
-      "description": "Jeppesen ForeFlight said Tuesday that it began the process of integrating artificial intelligence capabilities into ForeFlight Mobile. The electronic flight bag provider in September transitioned from paper to fully digital flight charts. Now, it is revamping its flagship mobile platform for GA…",
-      "url": "https://www.flyingmag.com/ai-atc-transcriptions-jeppesen-foreflight-mobile/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-17T21:00:00Z",
-      "image": null
-    },
-    {
-      "title": "This 1974 Beechcraft V35B Bonanza Is a Sleek, Dashing ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1974 Beechcraft V35B Bonanza. When…",
-      "url": "https://www.flyingmag.com/this-1974-beechcraft-v35b-bonanza-is-a-sleek-dashing-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-17T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-at-8.07.05-AM.png?w=1024"
-    },
-    {
-      "title": "How CFIs Can Handle Uncomfortable Cockpit Conversations",
-      "description": "There are certain conversations no flight instructor wants to have with a client, or the client wants to have with the CFI . One of them is the hygiene conversation. That cockpit is cramped, and the person sitting next to you is putting out some funk that makes your eyes water. It’s unpleasant and…",
-      "url": "https://www.flyingmag.com/how-cfis-can-handle-uncomfortable-cockpit-conversations/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-17T14:00:00Z",
       "image": null
     },
     {
