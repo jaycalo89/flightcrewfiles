@@ -1,16 +1,124 @@
 {
-  "generated_at": "2026-11-20T14:31:27.146808+00:00",
+  "generated_at": "2026-11-21T13:45:21.709347+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 20,
   "articles": [
     {
-      "title": "Cathay Pacific Orders 14 More Airbus Jets As Its A330-900neo Commitment Grows To 41",
-      "description": "European aircraft manufacturer Airbus revealed on Wednesday, November 11th that Hong Kong-based Cathay Pacific increased its order for A330-900neo and A321 aircraft. The airline confirmed the addition of 14 more airframes, including 11 A330s, bringing its total commitment for the widebody type to…",
-      "url": "https://simpleflying.com/video/cathay-pacific-orders-14-more-airbus-jets-as-its-a330-900neo-commitment-grows-to-41/",
+      "title": "Global Airlines Ordered Into Liquidation: What’s Next For Its Lone Airbus A380?",
+      "description": "Global Airlines has been forced into compulsory liquidation through something called a winding-up order. This order was given on November 4 and was confirmed in official public record about one week later.",
+      "url": "https://simpleflying.com/video/global-airlines-ordered-into-liquidation-what-s-next-for-its-lone-airbus-a380/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-11-20T13:34:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/cathay-more-a330neo.jpg"
+      "published_at": "2026-11-21T13:30:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/global-airline-liquidation.jpg"
+    },
+    {
+      "title": "20 Hours: Emirates' 11 Ultra-Long Airbus A380 Routes Revealed",
+      "description": "Emirates, the world's largest operator of the Airbus A380 and Boeing 777-300ER, has a wide range of international routes. Its operations from one of the world's busiest international airports, Dubai International Airport (DXB), stretch to all six continents. The airline operates several…",
+      "url": "https://simpleflying.com/20-hours-emirates-11-ultra-long-airbus-a380-routes/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-11-21T13:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/854-emirates-airbus-a380-masooduk-_-shutterstock.jpg"
+    },
+    {
+      "title": "Bedford: FAA Exploring AI for Space Launches, Certification",
+      "description": "The head of the FAA said Thursday that the agency is exploring the use of artificial intelligence in a variety of new ways, from monitoring spaceflight activity to certifying novel aviation technology. Administrator Bryan Bedford, speaking at a Honeywell Aerospace summit in Washington, D.C., said…",
+      "url": "https://www.flyingmag.com/bedford-faa-exploring-ai-for-space-launches-cert/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-21T13:00:00Z",
+      "image": null
+    },
+    {
+      "title": "The 30 Finished Boeing 777-9s Parked In Washington That No Airline Wants To Fly",
+      "description": "The Boeing 777X is finally beginning to look like a real aircraft rather than an endless certification project, with the 777-9 having been busy with its planned certification testing and Boeing still targeting first deliveries in 2027. By the summer of 2026, the test fleet had accumulated more than…",
+      "url": "https://simpleflying.com/30-unfinshed-boeing-777-9s-parked-in-washington-no-airline-wants-fly/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-21T10:16:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/boeing-777-9s-parked.png"
+    },
+    {
+      "title": "Lufthansa Ordered The Airbus A350-1000 In 2023 & Got It Before The Boeing 777-9 It Ordered In 2013",
+      "description": "Lufthansa is set to be the launch customer for the upcoming Boeing 777-9. The problem, however, is that it was scheduled to enter service in 2020. The entry-into-service date for the 777-9 has been pushed back several times, and the aircraft has become one of the most delayed projects in commercial…",
+      "url": "https://simpleflying.com/lufthansa-ordered-airbus-a350-1000-2023-before-boeing-777-9-ordered-2013/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-11-21T09:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/lufthansa-ordered-the-airbus-a350-1000-in-2023-got-it-before-the-boeing-777-9-it-ordered-in-2013-1.jpg"
+    },
+    {
+      "title": "American Airlines Turns Back 10-Hour Flight To Buenos Aires After Lavatory Overflows",
+      "description": "An American Airlines Boeing 777 flying from Dallas/Fort Worth to Buenos Aires returned to its departure airport on Friday night after a lavatory overflowed on board. Flight AA997 — operated by a 26-year-old 777-200ER — turned back over the Gulf of Mexico and landed at Dallas/Fort Worth…",
+      "url": "https://simpleflying.com/american-airlines-buenos-aires-flight-lavatory-overflow/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-21T07:48:53Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american-airlines-boeing-777-200er-flying.jpg"
+    },
+    {
+      "title": "The Manufacturing Decision Boeing Was Forced To Make When It Developed The 737 MAX",
+      "description": "In August 2011, Boeing officially launched its 737 MAX program after American Airlines made the historic decision to split its once all-Boeing fleet and buy 50% of its next-generation narrowbodies from Airbus. AA was facing rising fuel expenses and operating an aging fleet of roughly 300 McDonnell…",
+      "url": "https://simpleflying.com/themanufacturingdecisionboeingwasforcedtomakewhenitdevelopedthe737max/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-21T06:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/manufacturing-decision-1.png"
+    },
+    {
+      "title": "Experience matters in aviation insurance",
+      "description": "Owning and flying an aircraft comes with plenty of decisions you look forward to making. Choosing aviation insurance probably isn't high on that list. But the broker you choose can make a meaningful difference in how well your aircraft, your liability exposures, and your financial investment are…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/experience-matters-in-aviation-insurance?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-21T04:05:00Z",
+      "image": null
+    },
+    {
+      "title": "Why Virgin Atlantic Is Targeting The 40 RAF Pilots Keeping Britain's F-35 Fleet Flyable",
+      "description": "The United Kingdom only has around four dozen trained F-35B fighter jet pilots and around 150 Eurofighter Typhoon fighter jet pilots. Losing even a handful of these hard-to-replace pilots to commercial airlines is painful. They are targeted by British airlines, with Virgin Atlantic directly…",
+      "url": "https://simpleflying.com/why-virgin-atlantic-targeting-the-40-raf-pilots-britain-f-35-fleet-flyable/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-11-21T02:45:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-virgin-atlantic-is-targeting-the-40-raf-pilots-keeping-britain-s-f-35-fleet-flyable.jpg"
+    },
+    {
+      "title": "Personalized gifts for pilots",
+      "description": "Whether you are celebrating a birthday, a milestone, or a holiday, personalized aviation-themed gifts will remind the pilots in your life of the special moments, accomplishments, and flights they’ve experienced.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/personalized-gifts-for-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-20T23:20:34Z",
+      "image": null
+    },
+    {
+      "title": "FAA Zeroing In On Cause of ATC System Failure, Plans to Provide Update",
+      "description": "Federal officials this week plan to reveal the root cause of the communications and radar failure that prompted the longest nationwide ground stop since the 9/11 attacks. Reuters reported Thursday that FAA Administrator Bryan Bedford said U.S. Transportation Secretary Sean Duffy would soon brief…",
+      "url": "https://www.flyingmag.com/faa-root-cause-atc-system-failure-plans-update/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-20T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1979 Cessna 421C Golden Eagle Is a Built-for-Speed ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1979 Cessna 421C Golden Eagle. In…",
+      "url": "https://www.flyingmag.com/this-1979-cessna-421c-golden-eagle-is-a-built-for-speed-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-20T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261120_065445.jpg?w=787"
+    },
+    {
+      "title": "Bay Area Flight Operations Normalize After Severe Storm Disruptions",
+      "description": "Airline traffic is normalizing in the San Francisco Bay Area following heavy rain and high winds that disrupted operations at San Francisco International Airport (KSFO) and across the region. According to the FlightAware misery map Thursday afternoon, the airport had 595 delayed and eight canceled…",
+      "url": "https://www.flyingmag.com/bay-area-flight-operations-normalize-after-severe-storm-disruptions/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-20T15:00:00Z",
+      "image": null
     },
     {
       "title": "Surviving Aircraft Emergencies: ‘If There Is a Doubt, There Is No Doubt’",
@@ -22,85 +130,13 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Jet2 Launches 18 New Routes In Only 4 Weeks: See All Flights Now",
-      "description": "Jet2 is the fourth-largest airline serving the UK by flights and seats for sale this year. Formally called Jet2.com, the leisure operator has 14 bases across the country, with London Gatwick being the most recent addition back in March 2025 .",
-      "url": "https://simpleflying.com/jet2-launches-18-new-routes-in-4-weeks-see-all-flights-now/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-20T12:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/jet2-airbus-a321neo-takeoff-enhanced_cropped-1.jpg"
-    },
-    {
-      "title": "Why You Almost Never See Another Plane From The Window At 35,000 Feet",
-      "description": "The assumption behind the question is that aircraft at cruise are spread across enormous distances, and that is not what the regulations require. Between 29,000 (FL290) and 41,000 feet (FL410), the band where most long-haul flights cruise, the minimum vertical separation is 1,000 feet (305 meters).…",
-      "url": "https://simpleflying.com/why-almost-never-see-plane-window/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-20T12:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/img_4845-1.jpg"
-    },
-    {
-      "title": "Why Qantas Is Moving Away From the Boeing 737",
-      "description": "In this video, we'll look at how Qantas is managing one of its biggest fleet transitions, why hundreds of pilots could temporarily find themselves without enough flying hours, and how the airline plans to retire its Boeing 737s without disrupting Australia's domestic aviation network.",
-      "url": "https://simpleflying.com/video/why-qantas-is-moving-away-from-the-boeing-737/",
-      "source": "Simple Flying",
-      "author": "SF Staff",
-      "published_at": "2026-11-20T12:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/85_lh_how-qantas-choreographing-end-boeing-737-era-without-grounding-pilots_h_site-copy.jpg"
-    },
-    {
-      "title": "Short_Singapore Airlines Seat Reveal_V_Social",
-      "description": "wisely | Allora Empire Art | Shutterstock | Simple Flying",
-      "url": "https://simpleflying.com/video/inside-singapore-airlines-new-business-class/",
-      "source": "Simple Flying",
-      "author": "Simple Flying Staff",
-      "published_at": "2026-11-20T11:56:01Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/new-business-class.png"
-    },
-    {
-      "title": "Why The Airbus A350-1000 Is The Only Jet That Can Fly Sydney To London Nonstop",
-      "description": "Qantas is gearing up to launch the world’s longest-ever commercial service between Sydney and London At 9,188 nautical miles (10,573 miles or 17,016 km) and scheduled to exceed 20 hours, the nonstop journey linking the Australian city and English capital will far outdo anything attempted by an…",
-      "url": "https://simpleflying.com/why-airbus-a350-1000-jet-fly-sydney-london-nonstop/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-11-20T11:04:57Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/london-nonstop-20261120-110150.jpg"
-    },
-    {
-      "title": "How Many Miles Per Gallon Does An Airbus A380 Get Per Passenger Compared To An A320?",
-      "description": "The Airbus A380 burns approximately 4,600 gallons (17,400 L) of fuel per hour. The Airbus A320 burns approximately 750 gallons (3,000 L). Framed as raw fuel consumption, the A380 uses roughly six times as much fuel as the A320, which is not a surprising difference, given that one is a…",
-      "url": "https://simpleflying.com/how-many-miles-per-gallon-does-an-airbus-a380-get-per-passenger-compared-to-an-a320/",
-      "source": "Simple Flying",
-      "author": "Brandon Shaw",
-      "published_at": "2026-11-20T10:50:51Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/239-singapore-airlines-airbus-a380-jeang-herng-_-shutterstock.jpg"
-    },
-    {
-      "title": "Why United Airlines Doesn't Want Its Airbus A320s Anymore",
-      "description": "Many US airlines are now modernizing their fleet by switching to more efficient and sustainable jets. United is not an exception and is currently accelerating a fleet modernization that will soon make one of its most familiar workhorses, the A320, a rare sight in its livery. But why this jet?",
-      "url": "https://simpleflying.com/why-united-airlines-doesnt-want-its-airbus-a320-fleet-anymore/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-11-20T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/shutterstock_2639483453_cropped.jpg"
-    },
-    {
-      "title": "The C-130J Flies With 3 Crew Until Aeromedical Missions Typically Add 2 Flight Nurses & 3 Medical Technicians",
-      "description": "Military operations depend on more than getting troops and equipment to the battlefield; they also require a way to bring the wounded out. For decades, the Lockheed Martin C-130 Hercules has fulfilled that role, combining tactical transport capabilities with the ability to evacuate injured…",
-      "url": "https://simpleflying.com/c-130j-flies-3-crew-aeromedical-missions-typically-add-flight-nurses-3-medical-technicians/",
-      "source": "Simple Flying",
-      "author": "Christian P. Martin",
-      "published_at": "2026-11-20T09:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/the-c-130j-flies-with-3-crew-until-aeromedical-missions-typically-add-2-flight-nurses-3-medical-technicians.jpg"
-    },
-    {
-      "title": "Empty ATC Tower At Hollywood Burbank Airport Leaves Pilots To Clear Own Takeoffs & Landings",
-      "description": "This article was updated on Friday, November 20, 2026, to include a response from the FAA on the tower closures. It was originally published on Thursday, November 19, 2026.",
-      "url": "https://simpleflying.com/hollywood-burbank-airport-empty-atc-tower-pilots-takeoffs-landings/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-20T06:45:26Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/southwest-airlines-boeing-737-at-hollywood-burbank-airport.jpg"
+      "title": "AOPA Welcomes Return of Touch-and-Goes, Parallel Departures at Centennial Airport",
+      "description": "CENTENNIAL, Colorado—The Aircraft Owners and Pilots Association (AOPA) welcomes the FAA's decision to resume parallel runway departures and touch-and-goes at Centennial Airport, near Denver. The decision ends nearly two months of restrictions that disrupted flight training and other operations at…",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/pr-aopa-welcomes-return-of-touch-and-goes-parallel-departures-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-20T10:31:00Z",
+      "image": null
     },
     {
       "title": "Hangar evictions paused at Aeroflex-Andover Airport",
@@ -121,22 +157,13 @@
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/IMG_1928.jpg?w=1024"
     },
     {
-      "title": "This 1948 Luscombe 8F Is a Practical, Vintage ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1948 Luscombe 8F. Antique…",
-      "url": "https://www.flyingmag.com/this-1948-luscombe-8f-is-a-practical-vintage-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-19T15:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261118_211809.jpg?w=1024"
-    },
-    {
-      "title": "‘Aviation Start’ Episode 7 Maps the Path to Becoming a Corporate Flight Attendant",
-      "description": "The seventh episode of Aviation Start , FLYING’s career-focused video podcast hosted by Jamail Larkins, heads to the cabin. In partnership with NBAA, FLYING Magazine was able to record this episode on location at the NBAA Business Aviation Convention & Exhibition (NBAA-BACE) in Las Vegas. It is the…",
-      "url": "https://www.flyingmag.com/aviation-start-episode-7-maps-the-path-to-becoming-a-corporate-flight-attendant/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-11-19T14:00:00Z",
-      "image": "https://www.youtube.com/embed/sO1nsZZPMQQ"
+      "title": "AOPA Air Safety Institute Highlights Continued General Aviation Safety Improvements in 36th Richard G. McSpadden Report",
+      "description": "FREDERICK, Md.—The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released its 36th Richard G. McSpadden Report , covering general aviation accidents during calendar year 2024, the most recent year for which full data are available.",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/19/pr-aopa-air-safety-institute-highlights-continued-general-aviation-safety-improvements-in-36th?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "source": "AOPA",
+      "author": null,
+      "published_at": "2026-11-19T10:27:00Z",
+      "image": null
     },
     {
       "title": "AOPA Applauds New Jersey Airport Eviction Pause",
@@ -148,39 +175,12 @@
       "image": null
     },
     {
-      "title": "New Report Highlights Continued Aviation Safety Concerns at Reagan National",
-      "description": "Certain aviation safety hazards that the FAA and U.S. Army failed to adequately assess before the January 2025 midair collision near Ronald Reagan Washington National Airport (KDCA) remain almost two years later, according to a new report . The collision between an Army Black Hawk helicopter and…",
-      "url": "https://www.flyingmag.com/report-aviation-safety-concerns-reagan-airport/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-18T20:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Buying an Aircraft Before Year-End? Get Your Documents, Taxes, and Pre-Approval in Order",
-      "description": "Budget season is here and the year-end rush is on. Kimsey Bell and Jackson Moore explain what to sort out with your accountant, what lenders need to see, and why a pre-approval comes first. By Tripp Thurston , with Kimsey Bell and Jackson Moore KEY TAKEAWAYS : Know how you’re paid and how your…",
-      "url": "https://www.flyingmag.com/buying-an-aircraft-before-year-end-get-your-documents-taxes-and-pre-approval-in-order/",
-      "source": "Flying Magazine",
-      "author": "Tripp Thurston",
-      "published_at": "2026-11-18T19:00:00Z",
-      "image": null
-    },
-    {
       "title": "More than an airport",
       "description": "A new book by a local historian details the history of an airport created by the same California city that, decades later, fought to secure FAA consent to close it.",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/17/more-than-an-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-17T21:01:58Z",
-      "image": null
-    },
-    {
-      "title": "What flight competition teaches future commercial pilots",
-      "description": "Collegiate flight competition provides student pilots with opportunities to apply aviation knowledge, refine flying skills, and develop the professionalism needed throughout their careers. For California Aeronautical University (CAU), it has also become a way to reinforce many of the same…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/13/what-flight-competition-teaches-future-commercial-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-13T20:10:00Z",
       "image": null
     }
   ]
