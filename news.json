@@ -1,25 +1,79 @@
 {
-  "generated_at": "2026-11-21T13:45:21.709347+00:00",
+  "generated_at": "2026-11-22T13:28:05.391662+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 21,
   "articles": [
     {
-      "title": "Global Airlines Ordered Into Liquidation: What’s Next For Its Lone Airbus A380?",
-      "description": "Global Airlines has been forced into compulsory liquidation through something called a winding-up order. This order was given on November 4 and was confirmed in official public record about one week later.",
-      "url": "https://simpleflying.com/video/global-airlines-ordered-into-liquidation-what-s-next-for-its-lone-airbus-a380/",
+      "title": "Here's How Much A Boeing 737 MAX 8 Earns An Airline On A Single Day Of Flying",
+      "description": "In 2019, Boeing 737 MAX 8 operators were losing approximately $150,000 per aircraft per day in revenue. Today, each 737 MAX 8 generates around $200,000 per day, although airlines don't publish specifics, and revenue varies widely depending on how a carrier uses the aircraft.",
+      "url": "https://simpleflying.com/how-much-boeing-737-max-8-earns-airline-single-day-flying/",
       "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-21T13:30:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/global-airline-liquidation.jpg"
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-22T13:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795113812150.png"
     },
     {
-      "title": "20 Hours: Emirates' 11 Ultra-Long Airbus A380 Routes Revealed",
-      "description": "Emirates, the world's largest operator of the Airbus A380 and Boeing 777-300ER, has a wide range of international routes. Its operations from one of the world's busiest international airports, Dubai International Airport (DXB), stretch to all six continents. The airline operates several…",
-      "url": "https://simpleflying.com/20-hours-emirates-11-ultra-long-airbus-a380-routes/",
+      "title": "Airbus Now Has 3 Final Assembly Lines In Alabama & Only One Of Them Builds A220s",
+      "description": "At its manufacturing campus in Mobile, Alabama, Airbus now operates three final assembly lines, two dedicated to the A320 Family and only one building the A220, following the October 13, 2025 inauguration of its second A320 final assembly line. That two-to-one split is a key point of note in the…",
+      "url": "https://simpleflying.com/airbus-3-final-assembly-lines-alabama-only-one-builds-a220s/",
       "source": "Simple Flying",
-      "author": "Aaron Bailey",
-      "published_at": "2026-11-21T13:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/854-emirates-airbus-a380-masooduk-_-shutterstock.jpg"
+      "author": "Jacob Johnson",
+      "published_at": "2026-11-22T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795112286317.png"
+    },
+    {
+      "title": "Qatar-Gifted 747 Air Force One Claims 2 Records On 15-Hour Nonstop Flight From China",
+      "description": "This article was updated on Sunday, November 22, 2026, to include context on the record claims and the aircraft's outbound trip. It was originally published on Saturday, November 21, 2026.",
+      "url": "https://simpleflying.com/qatar-boeing-747-air-force-one-15-hour-nonstop-flight-records/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-11-22T10:48:32Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/vc-25b-air-force-one-boeing-747-close-up-with-donald-trump.jpg"
+    },
+    {
+      "title": "Alaska Airlines Crew Reportedly Too Shaken To Fly After ICE Arrests On Seattle Jet Bridge",
+      "description": "An Alaska Airlines pilot reportedly walked away from his aircraft during boarding on Saturday morning after US Immigration and Customs Enforcement (ICE) officers arrested two passengers on a Seattle jet bridge. Two flight attendants were also said to be so overwhelmed by the incident that they…",
+      "url": "https://simpleflying.com/alaska-airlines-crew-shaken-ice-arrests-seattle-jet-bridge/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-22T05:54:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/alaska-airlines-boeing-737-max-8-in-seattle.jpg"
+    },
+    {
+      "title": "Why United & American Airlines Are Fighting Over The Future Of Chicago O’Hare",
+      "description": "At Chicago O'Hare International Airport (ORD), a bitter turf war between United Airlines and American Airlines has escalated from lobbying into courtroom battles, aggressive schedule expansions, and federal intervention. Clashes over gate redistributions, including United's late-2025 gains and…",
+      "url": "https://simpleflying.com/united-airlines-american-airlines/chicago-o-hare/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-11-22T05:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/vs.jpg"
+    },
+    {
+      "title": "Why Airlines Accept The Airbus A321XLR's Heavier 101.5-Tonne Maximum Takeoff Weight On Flights Shorter Than An Hour",
+      "description": "The Airbus A321XLR has helped open a new chapter in long-and-thin aviation. As the latest variant to appear in the Airbus A320 family, the XLR — or Extra Long Range — has taken the crown as the longest-range commercial narrowbody. Simply put, it has provided operators with arguably the best means…",
+      "url": "https://simpleflying.com/airlines-accept-airbus-a321xlr-heavier-101-tonne-maximum-takeoff-weight-flights-shorter-hour/",
+      "source": "Simple Flying",
+      "author": "Josh Lamb",
+      "published_at": "2026-11-22T02:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/101-5-tonne-maximum-takeoff.png"
+    },
+    {
+      "title": "The True Cost Airbus Charges For An A330neo Compared With Boeing's 787-9 Dreamliner",
+      "description": "The Airbus A330-900 (A330neo) and the Boeing 787-9 Dreamliner are very close competitors. On the face of it, the 787-9 has a much larger order book (1,493 vs 511), has a noticeably higher market value, and is a cleansheet aircraft. This could be interpreted as suggesting the 787-9 has a cost…",
+      "url": "https://simpleflying.com/true-cost-airbus-charges-a330neo-compared-boeing-787-9-dreamliner/",
+      "source": "Simple Flying",
+      "author": "Aaron Spray",
+      "published_at": "2026-11-22T01:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795178269710.jpg"
+    },
+    {
+      "title": "Why Delta Air Lines Quietly Added ETOPS Certification To Its Boeing 737-900ERs Even Though They Don't Fly Transatlantic & Pacific Legs",
+      "description": "In 2011, Delta Air Lines announced an order for 100 Boeing 737-900ERs , the largest variant of the 737 family. It later ordered another 20 units in 2015 and another 10 in 2017, bringing its total to 130, and the airline acquired another 33 second-hand aircraft after COVID. They first started…",
+      "url": "https://simpleflying.com/why-delta-air-lines-quietly-added-etops-boeing-737-900ers-dont-fly-transatlantic-pacific-legs/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-11-21T23:00:17Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/why-delta-air-lines-quietly-added-etops-certification-to-its-boeing-737-900ers.jpg"
     },
     {
       "title": "Bedford: FAA Exploring AI for Space Launches, Certification",
@@ -31,42 +85,6 @@
       "image": null
     },
     {
-      "title": "The 30 Finished Boeing 777-9s Parked In Washington That No Airline Wants To Fly",
-      "description": "The Boeing 777X is finally beginning to look like a real aircraft rather than an endless certification project, with the 777-9 having been busy with its planned certification testing and Boeing still targeting first deliveries in 2027. By the summer of 2026, the test fleet had accumulated more than…",
-      "url": "https://simpleflying.com/30-unfinshed-boeing-777-9s-parked-in-washington-no-airline-wants-fly/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-21T10:16:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/08/boeing-777-9s-parked.png"
-    },
-    {
-      "title": "Lufthansa Ordered The Airbus A350-1000 In 2023 & Got It Before The Boeing 777-9 It Ordered In 2013",
-      "description": "Lufthansa is set to be the launch customer for the upcoming Boeing 777-9. The problem, however, is that it was scheduled to enter service in 2020. The entry-into-service date for the 777-9 has been pushed back several times, and the aircraft has become one of the most delayed projects in commercial…",
-      "url": "https://simpleflying.com/lufthansa-ordered-airbus-a350-1000-2023-before-boeing-777-9-ordered-2013/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-21T09:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/lufthansa-ordered-the-airbus-a350-1000-in-2023-got-it-before-the-boeing-777-9-it-ordered-in-2013-1.jpg"
-    },
-    {
-      "title": "American Airlines Turns Back 10-Hour Flight To Buenos Aires After Lavatory Overflows",
-      "description": "An American Airlines Boeing 777 flying from Dallas/Fort Worth to Buenos Aires returned to its departure airport on Friday night after a lavatory overflowed on board. Flight AA997 — operated by a 26-year-old 777-200ER — turned back over the Gulf of Mexico and landed at Dallas/Fort Worth…",
-      "url": "https://simpleflying.com/american-airlines-buenos-aires-flight-lavatory-overflow/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-21T07:48:53Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american-airlines-boeing-777-200er-flying.jpg"
-    },
-    {
-      "title": "The Manufacturing Decision Boeing Was Forced To Make When It Developed The 737 MAX",
-      "description": "In August 2011, Boeing officially launched its 737 MAX program after American Airlines made the historic decision to split its once all-Boeing fleet and buy 50% of its next-generation narrowbodies from Airbus. AA was facing rising fuel expenses and operating an aging fleet of roughly 300 McDonnell…",
-      "url": "https://simpleflying.com/themanufacturingdecisionboeingwasforcedtomakewhenitdevelopedthe737max/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-21T06:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/manufacturing-decision-1.png"
-    },
-    {
       "title": "Experience matters in aviation insurance",
       "description": "Owning and flying an aircraft comes with plenty of decisions you look forward to making. Choosing aviation insurance probably isn't high on that list. But the broker you choose can make a meaningful difference in how well your aircraft, your liability exposures, and your financial investment are…",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/experience-matters-in-aviation-insurance?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -74,15 +92,6 @@
       "author": null,
       "published_at": "2026-11-21T04:05:00Z",
       "image": null
-    },
-    {
-      "title": "Why Virgin Atlantic Is Targeting The 40 RAF Pilots Keeping Britain's F-35 Fleet Flyable",
-      "description": "The United Kingdom only has around four dozen trained F-35B fighter jet pilots and around 150 Eurofighter Typhoon fighter jet pilots. Losing even a handful of these hard-to-replace pilots to commercial airlines is painful. They are targeted by British airlines, with Virgin Atlantic directly…",
-      "url": "https://simpleflying.com/why-virgin-atlantic-targeting-the-40-raf-pilots-britain-f-35-fleet-flyable/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-11-21T02:45:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/why-virgin-atlantic-is-targeting-the-40-raf-pilots-keeping-britain-s-f-35-fleet-flyable.jpg"
     },
     {
       "title": "Personalized gifts for pilots",
