@@ -1,79 +1,115 @@
 {
-  "generated_at": "2026-11-22T13:28:05.391662+00:00",
+  "generated_at": "2026-11-23T17:15:00.584934+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 21,
+  "count": 23,
   "articles": [
     {
-      "title": "Here's How Much A Boeing 737 MAX 8 Earns An Airline On A Single Day Of Flying",
-      "description": "In 2019, Boeing 737 MAX 8 operators were losing approximately $150,000 per aircraft per day in revenue. Today, each 737 MAX 8 generates around $200,000 per day, although airlines don't publish specifics, and revenue varies widely depending on how a carrier uses the aircraft.",
-      "url": "https://simpleflying.com/how-much-boeing-737-max-8-earns-airline-single-day-flying/",
-      "source": "Simple Flying",
-      "author": "Louis Hardiman",
-      "published_at": "2026-11-22T13:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795113812150.png"
-    },
-    {
-      "title": "Airbus Now Has 3 Final Assembly Lines In Alabama & Only One Of Them Builds A220s",
-      "description": "At its manufacturing campus in Mobile, Alabama, Airbus now operates three final assembly lines, two dedicated to the A320 Family and only one building the A220, following the October 13, 2025 inauguration of its second A320 final assembly line. That two-to-one split is a key point of note in the…",
-      "url": "https://simpleflying.com/airbus-3-final-assembly-lines-alabama-only-one-builds-a220s/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-11-22T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795112286317.png"
-    },
-    {
-      "title": "Qatar-Gifted 747 Air Force One Claims 2 Records On 15-Hour Nonstop Flight From China",
-      "description": "This article was updated on Sunday, November 22, 2026, to include context on the record claims and the aircraft's outbound trip. It was originally published on Saturday, November 21, 2026.",
-      "url": "https://simpleflying.com/qatar-boeing-747-air-force-one-15-hour-nonstop-flight-records/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-11-22T10:48:32Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/vc-25b-air-force-one-boeing-747-close-up-with-donald-trump.jpg"
-    },
-    {
-      "title": "Alaska Airlines Crew Reportedly Too Shaken To Fly After ICE Arrests On Seattle Jet Bridge",
-      "description": "An Alaska Airlines pilot reportedly walked away from his aircraft during boarding on Saturday morning after US Immigration and Customs Enforcement (ICE) officers arrested two passengers on a Seattle jet bridge. Two flight attendants were also said to be so overwhelmed by the incident that they…",
-      "url": "https://simpleflying.com/alaska-airlines-crew-shaken-ice-arrests-seattle-jet-bridge/",
+      "title": "Alaska Airlines Pulls 2 Nonstop Routes After Only 1 Year: See List Now",
+      "description": "Alaska Airlines has dropped two routes from Hollywood Burbank Airport (BUR) barely a year after launching them. In a recent schedule update, the Seattle-based carrier removed all future flights between Burbank and Eugene Airport (EUG) and Redmond Municipal Airport (RDM) in Central Oregon.",
+      "url": "https://simpleflying.com/alaska-airlines-pulls-2-nonstop-routes-after-1-year/",
       "source": "Simple Flying",
       "author": "Luke Bodell",
-      "published_at": "2026-11-22T05:54:38Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/alaska-airlines-boeing-737-max-8-in-seattle.jpg"
+      "published_at": "2026-11-23T17:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/alaska-airlines-plane-landing-at-burbank-airport.jpg"
     },
     {
-      "title": "Why United & American Airlines Are Fighting Over The Future Of Chicago O’Hare",
-      "description": "At Chicago O'Hare International Airport (ORD), a bitter turf war between United Airlines and American Airlines has escalated from lobbying into courtroom battles, aggressive schedule expansions, and federal intervention. Clashes over gate redistributions, including United's late-2025 gains and…",
-      "url": "https://simpleflying.com/united-airlines-american-airlines/chicago-o-hare/",
-      "source": "Simple Flying",
-      "author": "Jacob Johnson",
-      "published_at": "2026-11-22T05:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/02/vs.jpg"
-    },
-    {
-      "title": "Why Airlines Accept The Airbus A321XLR's Heavier 101.5-Tonne Maximum Takeoff Weight On Flights Shorter Than An Hour",
-      "description": "The Airbus A321XLR has helped open a new chapter in long-and-thin aviation. As the latest variant to appear in the Airbus A320 family, the XLR — or Extra Long Range — has taken the crown as the longest-range commercial narrowbody. Simply put, it has provided operators with arguably the best means…",
-      "url": "https://simpleflying.com/airlines-accept-airbus-a321xlr-heavier-101-tonne-maximum-takeoff-weight-flights-shorter-hour/",
-      "source": "Simple Flying",
-      "author": "Josh Lamb",
-      "published_at": "2026-11-22T02:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/101-5-tonne-maximum-takeoff.png"
-    },
-    {
-      "title": "The True Cost Airbus Charges For An A330neo Compared With Boeing's 787-9 Dreamliner",
-      "description": "The Airbus A330-900 (A330neo) and the Boeing 787-9 Dreamliner are very close competitors. On the face of it, the 787-9 has a much larger order book (1,493 vs 511), has a noticeably higher market value, and is a cleansheet aircraft. This could be interpreted as suggesting the 787-9 has a cost…",
-      "url": "https://simpleflying.com/true-cost-airbus-charges-a330neo-compared-boeing-787-9-dreamliner/",
+      "title": "We Tracked The World’s Oldest Airbus A380 For A Week",
+      "description": "Emirates is generally said to have the oldest Airbus A380-800 Superjumbo remaining in service today . While that is defensible when measured from MSN sequence and year of manufacture, it is not without its challengers. Airbus is (still) flying its first Superjumbo, built as a testbed, and Qantas'…",
+      "url": "https://simpleflying.com/tracked-world-oldest-airbus-a380-week/",
       "source": "Simple Flying",
       "author": "Aaron Spray",
-      "published_at": "2026-11-22T01:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795178269710.jpg"
+      "published_at": "2026-11-23T17:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/world-s-oldest-airbus-a380.png"
     },
     {
-      "title": "Why Delta Air Lines Quietly Added ETOPS Certification To Its Boeing 737-900ERs Even Though They Don't Fly Transatlantic & Pacific Legs",
-      "description": "In 2011, Delta Air Lines announced an order for 100 Boeing 737-900ERs , the largest variant of the 737 family. It later ordered another 20 units in 2015 and another 10 in 2017, bringing its total to 130, and the airline acquired another 33 second-hand aircraft after COVID. They first started…",
-      "url": "https://simpleflying.com/why-delta-air-lines-quietly-added-etops-boeing-737-900ers-dont-fly-transatlantic-pacific-legs/",
+      "title": "American Airlines Is Turning Leather From Its Retired MD-80 Seats Into 200,000-Mile Jackets",
+      "description": "Included in this year's Cyber Week drop for AAdvantage® members is the Alpha Industries MA-1 Flight Jacket. This garment is made from reclaimed leather from the airline's most iconic aircraft, celebrating its 100th anniversary of flight. One of the jets included is American Airlines' McDonnell…",
+      "url": "https://simpleflying.com/american-airlines-is-turning-leather-from-its-retired-md-80-seats-into-200000-mile-jackets/",
       "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-21T23:00:17Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/why-delta-air-lines-quietly-added-etops-certification-to-its-boeing-737-900ers.jpg"
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-23T16:18:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american_airlines_md-80_n983tw_13836950834-enhanced-1795447619505.jpg"
+    },
+    {
+      "title": "Here’s How Much A Business Class Ticket On Emirates' Boeing 777-300ER Actually Costs In 2026",
+      "description": "The Boeing 777-300ER is by far the most numerous 777 variant in the Emirates fleet, with 116 aircraft of the type owned by the airline. As a result, the jet is used to fly to a vast number of destinations at an incredibly high frequency. It will achieve around 5.7 billion available seat miles in…",
+      "url": "https://simpleflying.com/how-much-business-class-ticket-emirates-boeing-777-300er-actually-costs-2026/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-23T16:01:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/ek.png"
+    },
+    {
+      "title": "This 1977 Piper PA-32R-300 Lance Is a Spacious, Comfortable, Forgiving ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1977 Piper PA-32R-300 Lance. During…",
+      "url": "https://www.flyingmag.com/this-1977-piper-pa-32r-300-lance-is-a-spacious-comfortable-forgiving-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-23T16:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261122_192831.jpg?w=1024"
+    },
+    {
+      "title": "NTSB Blames Improper Maintenance in Fatal Cessna Grand Caravan Crash",
+      "description": "The National Transportation Safety Board has cited improper maintenance as a causal factor in the crash of a Cessna 208B that killed two pilots during a training flight in Hawaii in December 2024. According to the NTSB final report released Friday, the pilot of the Grand Caravan reported a control…",
+      "url": "https://www.flyingmag.com/ntsb-blames-improper-maintenance-in-fatal-cessna-grand-caravan-crash/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-23T15:08:54Z",
+      "image": null
+    },
+    {
+      "title": "How Much Does A Boeing 777-300ER Cost To Operate Per Hour?",
+      "description": "Boeing’s 777-300ER entered service in 2004 and is still the backbone of many long-haul fleets, but the cost of flying one is harder to pin down than its age suggests. Published estimates for a mid-life aircraft range from about $18,000 an hour to the mid-$20,000s. Most of that gap comes from two…",
+      "url": "https://simpleflying.com/how-much-does-a-boeing-777-300er-cost-to-operate-per-hour/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-23T14:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795113347088.png"
+    },
+    {
+      "title": "Luxury US Startup Bets Big On 10 Airbus A220s With A Private Suite And Just 54 Seats",
+      "description": "Airbus has confirmed Florida-based luxury airline startup Magnifica Air as the mystery buyer of ten ACJ220-300s, the corporate/private jet version of the A220-300. The carrier plans to equip each jet with just 54 seats, including a private suite. This is FAR less than the roughly 150 seats in a…",
+      "url": "https://simpleflying.com/video/luxury-us-startup-bets-big-on-10-airbus-a220s-with-a-private-suite-and-just-54-seats/",
+      "source": "Simple Flying",
+      "author": "Chris Loh",
+      "published_at": "2026-11-23T13:31:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/magnifica-a220.jpg"
+    },
+    {
+      "title": "Pilots Need to Break the Dive-for-the-Runway Habit",
+      "description": "The ILS has been going well. The bases are reported to be at DA and ragged. This is one of those maybe-so-or-maybe-not-getting-in approaches. On top of that, you really need to go to the bathroom, so you hope that you won’t have to go missed. Hmm…wonder how many descent below minimums crashes…",
+      "url": "https://www.flyingmag.com/pilots-need-to-break-the-dive-for-the-runway-habit/",
+      "source": "Flying Magazine",
+      "author": "Rick Durden",
+      "published_at": "2026-11-23T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
+    },
+    {
+      "title": "Qantas Cancels 3 International Boeing 787 Routes: See Full List Now",
+      "description": "Australia's flag carrier has ended three Boeing 787-9 Dreamliner routes this year as it adjusts its network to meet market demand. This has seen Qantas' Dreamliners, which have become a backbone of the carrier's long-haul network, be redeployed on alternate routes. Three city pairs now no longer…",
+      "url": "https://simpleflying.com/qantas-cancels-3-international-boeing-787-routes/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-11-23T12:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/881-qantas-boeing-787-9-the-global-guy-_-shutterstock.jpg"
+    },
+    {
+      "title": "Qatar Airways Adds 1st Ever Airbus A321LR Routes: See Map Now",
+      "description": "Qatar Airways has not received its first Airbus A321LR yet. The latest information is that it'll be delivered at the end of 2026, which is just a few weeks away. Given this, the one world member has disclosed its first two routes on the new variant.",
+      "url": "https://simpleflying.com/qatar-airways-adds-1st-ever-airbus-a321lr-routes/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-11-23T12:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qatar-airways-airbus-a321lr-mock-up.jpg"
+    },
+    {
+      "title": "The Boeing 737 NG Fuel Saver That Was First Introduced As A Retrofit, But Became A Factory Option On Later Builds",
+      "description": "The tall blended winglets on the 737 Next Generation became one of the narrowbody’s most recognizable features, but the design did not originate at Boeing. Aviation Partners developed it for business jets, and the two companies formed a joint venture to bring it to Boeing aircraft. Boeing then…",
+      "url": "https://simpleflying.com/the-boeing-737-ng-fuel-saver-that-was-first-introduced-as-a-retrofit-but-became-a-factory-option-on-later-builds/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-23T12:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795115521834.jpg"
     },
     {
       "title": "Bedford: FAA Exploring AI for Space Launches, Certification",
@@ -130,15 +166,6 @@
       "image": null
     },
     {
-      "title": "Surviving Aircraft Emergencies: ‘If There Is a Doubt, There Is No Doubt’",
-      "description": "After more than 50 years as a pilot—flying everything from Air Force fighters to civilian aircraft—I have learned that aviation is unforgiving of hesitation. Pilots devote countless hours to mastering navigation systems, studying weather, refining landing techniques, and learning new technologies.…",
-      "url": "https://www.flyingmag.com/surviving-aircraft-emergencies-if-there-is-a-doubt-there-is-no-doubt/",
-      "source": "Flying Magazine",
-      "author": "John Barry",
-      "published_at": "2026-11-20T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
       "title": "AOPA Welcomes Return of Touch-and-Goes, Parallel Departures at Centennial Airport",
       "description": "CENTENNIAL, Colorado—The Aircraft Owners and Pilots Association (AOPA) welcomes the FAA's decision to resume parallel runway departures and touch-and-goes at Centennial Airport, near Denver. The decision ends nearly two months of restrictions that disrupted flight training and other operations at…",
       "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/pr-aopa-welcomes-return-of-touch-and-goes-parallel-departures-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
@@ -155,15 +182,6 @@
       "author": null,
       "published_at": "2026-11-20T01:21:22Z",
       "image": null
-    },
-    {
-      "title": "How Extended Reality Could Help Shape Pilot Training",
-      "description": "In July, the FAA released new guidance on extended reality training technology, creating the first framework for its eventual integration into pilot training. Stephanie Fussell, a scientist at Aptima who contributed to that guidance through her work with the FAA, International Civil Aviation…",
-      "url": "https://www.flyingmag.com/how-extended-reality-could-help-shape-pilot-training/",
-      "source": "Flying Magazine",
-      "author": "Zach Vasile",
-      "published_at": "2026-11-19T20:11:02Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/IMG_1928.jpg?w=1024"
     },
     {
       "title": "AOPA Air Safety Institute Highlights Continued General Aviation Safety Improvements in 36th Richard G. McSpadden Report",
