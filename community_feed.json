@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T17:15:05.503117+00:00",
+  "generated_at": "2026-11-24T20:28:58.776275+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Detailed Architecture of a multi-stage axial compressor",
-      "url": "https://aviation.stackexchange.com/questions/116707/detailed-architecture-of-a-multi-stage-axial-compressor",
-      "points": -2,
-      "num_comments": 0,
+      "title": "Can I give a FAA logbook endorsement to someone I gave a military examination to prior to being certified as a CFI?",
+      "url": "https://aviation.stackexchange.com/questions/116699/can-i-give-a-faa-logbook-endorsement-to-someone-i-gave-a-military-examination-to",
+      "points": 7,
+      "num_comments": 3,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1795205552
+      "created_utc": 1794692890
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Can I give a FAA logbook endorsement to someone I gave a military examination to prior to being certified as a CFI?",
-      "url": "https://aviation.stackexchange.com/questions/116699/can-i-give-a-faa-logbook-endorsement-to-someone-i-gave-a-military-examination-to",
-      "points": 7,
-      "num_comments": 3,
+      "title": "Douglas DC-4 Wing Shape",
+      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
+      "points": 6,
+      "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794692890
+      "created_utc": 1794117658
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Douglas DC-4 Wing Shape",
-      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
-      "points": 6,
-      "num_comments": 2,
+      "title": "Why do Landing Field requirement charts look the way they are?",
+      "url": "https://aviation.stackexchange.com/questions/116691/why-do-landing-field-requirement-charts-look-the-way-they-are",
+      "points": 4,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794117658
+      "created_utc": 1794217583
     }
   ]
 }
