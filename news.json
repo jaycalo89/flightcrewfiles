@@ -1,34 +1,88 @@
 {
-  "generated_at": "2026-11-24T20:28:49.750552+00:00",
+  "generated_at": "2026-11-25T13:59:27.034344+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 20,
+  "count": 23,
   "articles": [
     {
-      "title": "How The Airbus A350 Survives Environmental Stress During The Longest Flights In The World",
-      "description": "Before entering commercial service, the Airbus A350 had to prove it could withstand some of the harshest conditions on Earth. Airbus needed to establish how its engines, systems, and structure would respond to extreme temperatures and demanding operating conditions. From the freezing Canadian…",
-      "url": "https://simpleflying.com/airbus-a350-survives-environmental-stress-longest-flights-world/",
+      "title": "United Airlines Pushes Back Airbus A321neo Coastliner Debut To “Early 2027”",
+      "description": "United Airlines' Airbus A321neo Coastliner is NOW set to enter regular scheduled service early next year. The airline had hoped to debut this new aircraft by the end of this year, but, after facing delivery delays from European aircraft manufacturer Airbus, the planes will not operate regular…",
+      "url": "https://simpleflying.com/video/united-airlines-pushes-back-airbus-a321neo-coastliner-debut-to-early-2027/",
       "source": "Simple Flying",
-      "author": "Viviana Tarnowska",
-      "published_at": "2026-11-24T20:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/121-delta-air-lines-airbus-a350-angel-dibilio-_-shutterstock.jpg"
+      "author": "Chris Loh",
+      "published_at": "2026-11-25T13:27:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/coastliner-delay.jpg"
     },
     {
-      "title": "FAA Bans Line Up And Wait Operations “Forever,” With Even More Delays Expected",
-      "description": "The Federal Aviation Administration ( FAA ) has introduced stricter requirements for Line Up and Wait (LUAW) operations at airports across the United States, effective November 24, 2026. The new rules require a dedicated air traffic control supervisor to oversee these operations, potentially…",
-      "url": "https://simpleflying.com/faa-line-up-wait-operations-forever-delays/",
-      "source": "Simple Flying",
-      "author": "Victoria Agronsky",
-      "published_at": "2026-11-24T19:09:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_1524086102_cropped.jpg"
+      "title": "On Our Radar: September’s Aviation Picks From FLYING Magazine",
+      "description": "Here is a collection of editor-recommended aviation products and services that are worth a closer look. From practical tools to thoughtful solutions, this is what caught our eye in the September Issue 974 of the FLYING print edition. This Article First Appeared in FLYING Magazine If you're not…",
+      "url": "https://www.flyingmag.com/on-our-radar-septembers-aviation-picks-from-flying-magazine/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-11-25T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
-      "title": "Here's How Much Of A Flight Airline Pilots Actually Hand-Fly",
-      "description": "On a typical commercial flight, airline pilots only spend a small proportion of their time physically controlling the aircraft . Pilots normally hand-fly takeoff and part of the initial climb, while the autopilot handles most of the flight until approach. According to a 2026 report by the…",
-      "url": "https://simpleflying.com/how-much-flight-airline-pilots-actually-hand-fly/",
+      "title": "Emirates Axes 14 Airbus A350 Routes From Dubai: See Full List Now",
+      "description": "Emirates is one of approximately 45 operators of the Airbus A350. Registered A6-EXA, the Gulf giant's first A350-900 was delivered on November 25, 2024, two years to the day before this article was written. Ch-aviation shows that the airline now has 31 examples of the Airbus twinjet.",
+      "url": "https://simpleflying.com/emirates-axes-14-airbus-a350-routes-from-dubai/",
       "source": "Simple Flying",
-      "author": "Nick Pisters",
-      "published_at": "2026-11-24T18:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/flight-airline-pilots.png"
+      "author": "James Pearson",
+      "published_at": "2026-11-25T12:10:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/emirates_a350_no_windsock_1920x1080.jpg"
+    },
+    {
+      "title": "In The Air & On The Ground: How Premium Demand Has Rewritten Airline Operations",
+      "description": "Surging demand for premium airfare has forced global airlines to rewrite how they operate both inside the cabin and at the airport terminal. Customer demand passed a decisive juncture when Delta Air Lines reported that it made more 2025 Q4 revenue from premium-cabin sales than from main cabin fares…",
+      "url": "https://simpleflying.com/premium-demand-rewritten-airline-operations/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-25T12:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795114604445.png"
+    },
+    {
+      "title": "5 Aircraft That Pilots Say Are The Most Technologically Advanced",
+      "description": "From enormous airliners to business and fighter jets the cutting-edge aerospace technology of 2026 is pushing the limits of automation, aerodynamics, and more. Across these platforms, the theme is a move toward enhanced situational awareness and reduced pilot fatigue through automation that acts as…",
+      "url": "https://simpleflying.com/5-aircraft-pilots-say-are-most-technologically-advanced/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-25T10:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/technologically-advanced.jpg"
+    },
+    {
+      "title": "Why British Airways Decided To Replace Its Longstanding Quadjet Fleet With Large Twin-Engine Airbus A350-1000s",
+      "description": "While the passenger Boeing 747-400 is most closely associated with Lufthansa today, it had long been British Airways that was the world's largest operator of this aircraft, the most successful variant of the iconic 747. At one point, British Airways operated 57 747-400s, and these planes flew all…",
+      "url": "https://simpleflying.com/why-british-airways-decided-replace-longstanding-quadjet-fleet-large-twin-engine-airbus-a350s/",
+      "source": "Simple Flying",
+      "author": "Daniel S Osipov",
+      "published_at": "2026-11-25T09:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/airline-economics.jpg"
+    },
+    {
+      "title": "Malaysia Airlines Picks Boeing Over Airbus For Its First 787 Dreamliners To Replace A350s",
+      "description": "Malaysia Airlines has put pen to paper with US planemaker Boeing on a deal for up to 16 aircraft for the manufacturer's 787-10 Dreamliner widebody twinjet aircraft. This consists of 10 firm orders and another six options, with deliveries of these stretched 787s set to take place from 2032 to 2035.…",
+      "url": "https://simpleflying.com/malaysia-airlines-picks-boeing-over-airbus-787-10-dreamliners-replace-a350s/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-25T08:51:11Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/simpleflying-boeing-787-10-malaysia-airlines-1795594451259.jpg"
+    },
+    {
+      "title": "Boston-Bound British Airways 787-10 Declares Emergency Over Second Oil Leak In 10 Days",
+      "description": "A British Airways Boeing 787-10 Dreamliner declared an emergency over the North Atlantic on Tuesday night after reporting an engine oil leak. The aircraft (G-ZBLC) was operating flight BA239 from London Heathrow Airport (LHR) when it squawked 7700 more than four hours into the flight.",
+      "url": "https://simpleflying.com/british-airways-boeing-787-10-boston-emergency-second-oil-leak-10-days/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-25T06:57:09Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-boeing-787-10-being-towed-on-runway.jpg"
+    },
+    {
+      "title": "US Army Moves To Restart Washington DC Helicopter Training Flights 2 Years After Deadly Crash",
+      "description": "The US Army is moving to resume helicopter training flights in airspace near Ronald Reagan Washington National Airport (DCA) as soon as the week of December 6, according to a recent report by Politico . That timeline comes less than two years after the January 29, 2025 midair collision between an…",
+      "url": "https://simpleflying.com/us-army-restart-washington-dc-helicopter-training-flights-2-years-crash/",
+      "source": "Simple Flying",
+      "author": "Jack McGarity",
+      "published_at": "2026-11-25T02:13:22Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2024/08/artboard-16_9-51.jpg"
     },
     {
       "title": "This 1972 Cessna Citation 500 SP Eagle Is a Modified, Updated ‘AircraftForSale’ Top Pick",
@@ -38,24 +92,6 @@
       "author": "Jonathan Welsh",
       "published_at": "2026-11-24T17:30:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261123_164033.jpg?w=1024"
-    },
-    {
-      "title": "Why This Airport's Thanksgiving Curb Is A 2-Lane Bypass Expected To Last Until 2030",
-      "description": "Spokane International Airport (GEG) is now midway through its Terminal Renovation & Expansion (TREX) program , which includes expanded concourses and modernized concession spaces. But before passengers can enjoy the significantly enlarged and improved terminal, aspects of the airport experience are…",
-      "url": "https://simpleflying.com/airport-thanksgiving-curb-2-lane-bypass-expected-last-2030/",
-      "source": "Simple Flying",
-      "author": "Aaron Spray",
-      "published_at": "2026-11-24T17:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_2774013783.jpeg"
-    },
-    {
-      "title": "Breeze Airways Adds 6 New Cities & 9 Routes: See Full List Now",
-      "description": "Breeze Airways is preparing to introduce six destinations to its growing network, with nine nonstop routes launching between December 2026 and July 2027. The additions include Boston, Buffalo, Latrobe, St. Thomas, Montego Bay, and Santo Domingo. Four were included in the airline's October network…",
-      "url": "https://simpleflying.com/breeze-airways-launches-6-new-cities-9-routes/",
-      "source": "Simple Flying",
-      "author": "Paul Hartley",
-      "published_at": "2026-11-24T16:50:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/breeze_airways_1920x1080-1.jpg"
     },
     {
       "title": "Army Asks to Resume DCA Helicopter Training Flights",
@@ -96,7 +132,7 @@
     {
       "title": "FAA lifts Centennial Airport operations restrictions",
       "description": "The FAA has approved a plan to mitigate safety concerns that prompted the agency to prohibit parallel runway departures, most pattern work, and touch-and-goes at Centennial Airport near Denver for nearly two months.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/23/faa-lifts-centennial-airport-operations-restrictions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/23/faa-lifts-centennial-airport-operations-restrictions?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-24T01:45:31Z",
@@ -105,7 +141,7 @@
     {
       "title": "Vigilance protects airports",
       "description": "As long as there have been airports, there has been pressure to build homes nearby. As recent cases in Colorado and Idaho demonstrate, early intervention is key to halting, redirecting, or at least mitigating incompatible real estate development.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/23/vigilance-protects-airports?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/23/vigilance-protects-airports?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-24T01:36:52Z",
@@ -123,7 +159,7 @@
     {
       "title": "Experience matters in aviation insurance",
       "description": "Owning and flying an aircraft comes with plenty of decisions you look forward to making. Choosing aviation insurance probably isn't high on that list. But the broker you choose can make a meaningful difference in how well your aircraft, your liability exposures, and your financial investment are…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/20/experience-matters-in-aviation-insurance?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/experience-matters-in-aviation-insurance?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-21T04:05:00Z",
@@ -132,7 +168,7 @@
     {
       "title": "Personalized gifts for pilots",
       "description": "Whether you are celebrating a birthday, a milestone, or a holiday, personalized aviation-themed gifts will remind the pilots in your life of the special moments, accomplishments, and flights they’ve experienced.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/20/personalized-gifts-for-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/personalized-gifts-for-pilots?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-20T23:20:34Z",
@@ -141,7 +177,7 @@
     {
       "title": "AOPA Welcomes Return of Touch-and-Goes, Parallel Departures at Centennial Airport",
       "description": "CENTENNIAL, Colorado—The Aircraft Owners and Pilots Association (AOPA) welcomes the FAA's decision to resume parallel runway departures and touch-and-goes at Centennial Airport, near Denver. The decision ends nearly two months of restrictions that disrupted flight training and other operations at…",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/20/pr-aopa-welcomes-return-of-touch-and-goes-parallel-departures-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/pr-aopa-welcomes-return-of-touch-and-goes-parallel-departures-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-20T10:31:00Z",
@@ -150,7 +186,7 @@
     {
       "title": "Hangar evictions paused at Aeroflex-Andover Airport",
       "description": "The New Jersey Department of Environmental Protection (DEP) is pausing planned evictions for hangar tenants at Aeroflex-Andover Airport in New Jersey for six months.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/19/hangar-evictions-paused-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/19/hangar-evictions-paused-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-20T01:21:22Z",
@@ -159,7 +195,7 @@
     {
       "title": "AOPA Air Safety Institute Highlights Continued General Aviation Safety Improvements in 36th Richard G. McSpadden Report",
       "description": "FREDERICK, Md.—The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released its 36th Richard G. McSpadden Report , covering general aviation accidents during calendar year 2024, the most recent year for which full data are available.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/19/pr-aopa-air-safety-institute-highlights-continued-general-aviation-safety-improvements-in-36th?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/19/pr-aopa-air-safety-institute-highlights-continued-general-aviation-safety-improvements-in-36th?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-19T10:27:00Z",
@@ -168,19 +204,10 @@
     {
       "title": "AOPA Applauds New Jersey Airport Eviction Pause",
       "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) applauds the New Jersey Department of Environmental Protection (DEP) for pausing evictions at Aeroflex-Andover Airport for six months.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/18/pr-aopa-applauds-new-jersey-airport-eviction-pause?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
+      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/18/pr-aopa-applauds-new-jersey-airport-eviction-pause?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-18T22:27:18Z",
-      "image": null
-    },
-    {
-      "title": "More than an airport",
-      "description": "A new book by a local historian details the history of an airport created by the same California city that, decades later, fought to secure FAA consent to close it.",
-      "url": "https://aopa.org/news-and-media/all-news/2026/november/17/more-than-an-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-17T21:01:58Z",
       "image": null
     }
   ]
