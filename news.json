@@ -1,16 +1,151 @@
 {
-  "generated_at": "2026-11-25T13:59:27.034344+00:00",
+  "generated_at": "2026-11-26T15:22:21.671982+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
   "count": 23,
   "articles": [
     {
-      "title": "United Airlines Pushes Back Airbus A321neo Coastliner Debut To “Early 2027”",
-      "description": "United Airlines' Airbus A321neo Coastliner is NOW set to enter regular scheduled service early next year. The airline had hoped to debut this new aircraft by the end of this year, but, after facing delivery delays from European aircraft manufacturer Airbus, the planes will not operate regular…",
-      "url": "https://simpleflying.com/video/united-airlines-pushes-back-airbus-a321neo-coastliner-debut-to-early-2027/",
+      "title": "Western Global Boeing 747 Stuck In Soft Ground Closes Tokyo Runway For 14 Hours",
+      "description": "On Wednesday evening, a Western Global Airlines Boeing 747-400 Freighter suffered a runway excursion while turning around ahead of its planned departure from Yokota Air Base (OKO) in Western Tokyo. The cargo-carrying quadjet was set to fly to Naha Airport (OKA) in Okinawa Prefecture, but, as a…",
+      "url": "https://simpleflying.com/western-global-boeing-747-runway-excursion-tokyo/",
+      "source": "Simple Flying",
+      "author": "Jake Hardiman",
+      "published_at": "2026-11-26T15:05:38Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_1782394025-golden_cropped.jpg"
+    },
+    {
+      "title": "Why Southwest Airlines Is Adding More Flights At Harry Reid International Airport",
+      "description": "Southwest Airlines is rolling out its largest-ever expansion at Harry Reid International Airport (LAS) after Spirit Airlines shut down on May 2, removing a major low-cost competitor that had flown nearly 2% of US domestic seats. Within days of Spirit's exit, Southwest moved quickly to lend a hand…",
+      "url": "https://simpleflying.com/why-southwest-airlines-adding-more-flights-harry-reid-international-airport/",
+      "source": "Simple Flying",
+      "author": "Jacob Johnson",
+      "published_at": "2026-11-26T14:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795373309416.png"
+    },
+    {
+      "title": "KLM Axes All Flights To This UK Airport: See Map Now",
+      "description": "The United Kingdom is one of KLM 's largest markets. The Dutch flag carrier serves nearly 20 destinations across the market and offers around 70 daily flights. In April this year, the airline expanded its network to include a rather unusual destination, Jersey , on a seasonal basis.",
+      "url": "https://simpleflying.com/klm-axes-all-flights-to-this-uk-airport/",
+      "source": "Simple Flying",
+      "author": "Prachi Patel",
+      "published_at": "2026-11-26T14:00:06Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_376643494_cropped.jpg"
+    },
+    {
+      "title": "This 2016 Cirrus SR22T-G5 GTS Is a Well-Equipped, Low-Time ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 2016 Cirrus SR22T-G5 GTS. The Cirrus…",
+      "url": "https://www.flyingmag.com/this-2016-cirrus-sr22t-g5-gts-is-a-well-equipped-low-time-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-26T14:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261125_130719.jpg?w=1024"
+    },
+    {
+      "title": "18 Hours In The Air: Qatar Airways Relaunches Massive Route Soon!",
+      "description": "On December 8th, Qatar Airways will finally lift off for Canberra. The oneworld member last flew to the capital of Australia in March, when the war in Iran forced it to stop.",
+      "url": "https://simpleflying.com/video/18-hours-in-the-air-qatar-airways-relaunches-massive-route-soon/",
       "source": "Simple Flying",
       "author": "Chris Loh",
-      "published_at": "2026-11-25T13:27:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/coastliner-delay.jpg"
+      "published_at": "2026-11-26T13:33:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qatar-canberra.jpg"
+    },
+    {
+      "title": "Virgin Atlantic Ends All Flights To 2 Countries: See Full list Now",
+      "description": "Virgin Atlantic is the UK's second-largest long-haul operator. The SkyTeam member's schedule submission to OAG shows that the airline plans to fly to 14 countries in the first half of 2027. Gone are Saudi Arabia and the United Arab Emirates, although things might not be quite this simple.",
+      "url": "https://simpleflying.com/virgin-atlantic-ends-all-flights-to-2-countries/",
+      "source": "Simple Flying",
+      "author": "James Pearson",
+      "published_at": "2026-11-26T12:10:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/shutterstock_2739406075-1.jpg"
+    },
+    {
+      "title": "How Much Does A Boeing 787-9 Cost Compared To The Airbus A350-900?",
+      "description": "Ask what a Boeing 787-9 Dreamliner costs and you will get different answers. The price changes between the number on the price list and the number the airline actually paid. And they are rarely close. That gap is why the question of how much a Boeing 787-9 costs compared with an Airbus A350-900 is…",
+      "url": "https://simpleflying.com/boeing-787-9-airbus-a350-900-cost-compared/",
+      "source": "Simple Flying",
+      "author": "Antonio Di Trapani",
+      "published_at": "2026-11-26T12:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-787-9-miles.jpg"
+    },
+    {
+      "title": "Why The Boeing 777X’s New Cabin Architecture Will Be Such A Game Changer For Airlines",
+      "description": "The promise of the Boeing 777X is a revolution in efficiency for long-haul and high-traffic airlines, but it will also change the game for passenger comfort at the same time. It will be the largest twinjet in history, and, thanks to its massive wingspan and gigantic engines, the plane will far…",
+      "url": "https://simpleflying.com/boeing-777x-new-cabin-architecture-game-changer-for-airlines/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-26T10:15:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-boeing-777x-s-unique-cabin-design-that-sets-it-apart-from-others.jpg"
+    },
+    {
+      "title": "Hundreds Of New Embraer Jets Headed To US Airlines Caught Up In Trump's 10% Tariff Plan",
+      "description": "The Trump administration has proposed a 10% tariff on aircraft imported from Brazil, potentially adding hundreds of millions of dollars to the cost of Embraer jets ordered by US airlines. The proposed duty would apply to several categories of finished aircraft, including airplanes and helicopters,…",
+      "url": "https://simpleflying.com/embraer-jets-us-airlines-trump-10-percent-tariff-plan/",
+      "source": "Simple Flying",
+      "author": "Luke Bodell",
+      "published_at": "2026-11-26T09:33:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american-eagle-embraer-erj175.jpg"
+    },
+    {
+      "title": "The Aircraft Replacing The Boeing 767-300ER On United Airlines’ Chicago O’Hare To London Heathrow Route",
+      "description": "United Airlines still uses the elderly twinjet for three daily round-trips between Chicago O'Hare and London Heathrow, despite the fact that its fleet of Boeing 767-300ERs has been in service for an average of almost 30 years. United's Midwest hub is still noticeably next in line as it launches its…",
+      "url": "https://simpleflying.com/aircraft-replacing-boeing-767-300er-united-airlines-chicago-ohare-london-heathrow-route/",
+      "source": "Simple Flying",
+      "author": "Luke Diaz",
+      "published_at": "2026-11-26T09:01:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795374108077.png"
+    },
+    {
+      "title": "What Flight Attendants Do The Second The Boarding Door Closes That Passengers Never See",
+      "description": "The aim of any flight attendant, cabin crew, or flight crew member, every time we board an aircraft, is to ensure a safe and efficient flight. Although flight attendants are seen as service providers, they are actually onboard to handle issues when a flight does not go according to plan. They are…",
+      "url": "https://simpleflying.com/what-flight-attendants-do-door-closes/",
+      "source": "Simple Flying",
+      "author": "Patricia Green",
+      "published_at": "2026-11-26T08:56:21Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/average-2026-salaries.jpg"
+    },
+    {
+      "title": "Embraer Responds to Proposed 10% Duty on Brazilian Aircraft",
+      "description": "Embraer said Tuesday that it is analyzing a 10 percent duty on finished aircraft from Brazil proposed by President Donald Trump’s administration, a measure that could potentially have significant effects on the manufacturer’s business. Aircraft are currently exempt from a 25 percent tariff on…",
+      "url": "https://www.flyingmag.com/embraer-proposed-10-percent-aircraft-tariff/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-25T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "FAA Issues AD Affecting 152 U.S.-Registered Bell 429 Helicopters",
+      "description": "The FAA on Tuesday issued a new airworthiness directive (AD) covering an estimated 152 U.S.-registered Bell 429 twin-engine helicopters to address an unsafe condition with the tail rotor pitch link assembly on certain models. If unaddressed, the condition could lead to a loss of control, the agency…",
+      "url": "https://www.flyingmag.com/faa-issues-ad-for-152-us-bell-429-helicopters/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-25T19:00:00Z",
+      "image": null
+    },
+    {
+      "title": "This 1973 Cessna 177B Cardinal Is a Graceful, Underrated ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1973 Cessna 177B Cardinal. After a…",
+      "url": "https://www.flyingmag.com/this-1973-cessna-177b-cardinal-is-a-graceful-underrated-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-25T18:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261124_1204460.jpg?w=1024"
+    },
+    {
+      "title": "‘Microsoft Flight Simulator 2024’ Introduces Global Jet Add-On",
+      "description": "Microsoft Flight Simulator 2024 owners can now download a version of the Bombardier Global 6000 from the popular video game’s marketplace as a paid add-on. Developed by MSFS2024 partner IniBuilds and referred to simply as the “Global Jet,” the latest aircraft in the game’s “Exclusive Series” will…",
+      "url": "https://www.flyingmag.com/microsoft-flight-simulator-2024-global-6000-jet/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-25T17:00:00Z",
+      "image": null
+    },
+    {
+      "title": "6 Killed, Including 2 Children, in Cessna 210 Crash Off Mississippi Coast",
+      "description": "Six people, including two children, died Tuesday afternoon when a Cessna 210 crashed into the Gulf of Mexico off the coast of Mississippi between Pascagoula and Horn Island, authorities said. According to information from FlightAware.com and Flightradar24.com, the aircraft took off from New Orleans…",
+      "url": "https://www.flyingmag.com/6-killed-including-2-children-in-cessna-210-crash-off-mississippi-coast/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-25T16:00:00Z",
+      "image": null
     },
     {
       "title": "On Our Radar: September’s Aviation Picks From FLYING Magazine",
@@ -20,114 +155,6 @@
       "author": "FLYING Staff",
       "published_at": "2026-11-25T13:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
-    },
-    {
-      "title": "Emirates Axes 14 Airbus A350 Routes From Dubai: See Full List Now",
-      "description": "Emirates is one of approximately 45 operators of the Airbus A350. Registered A6-EXA, the Gulf giant's first A350-900 was delivered on November 25, 2024, two years to the day before this article was written. Ch-aviation shows that the airline now has 31 examples of the Airbus twinjet.",
-      "url": "https://simpleflying.com/emirates-axes-14-airbus-a350-routes-from-dubai/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-25T12:10:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/10/emirates_a350_no_windsock_1920x1080.jpg"
-    },
-    {
-      "title": "In The Air & On The Ground: How Premium Demand Has Rewritten Airline Operations",
-      "description": "Surging demand for premium airfare has forced global airlines to rewrite how they operate both inside the cabin and at the airport terminal. Customer demand passed a decisive juncture when Delta Air Lines reported that it made more 2025 Q4 revenue from premium-cabin sales than from main cabin fares…",
-      "url": "https://simpleflying.com/premium-demand-rewritten-airline-operations/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-25T12:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795114604445.png"
-    },
-    {
-      "title": "5 Aircraft That Pilots Say Are The Most Technologically Advanced",
-      "description": "From enormous airliners to business and fighter jets the cutting-edge aerospace technology of 2026 is pushing the limits of automation, aerodynamics, and more. Across these platforms, the theme is a move toward enhanced situational awareness and reduced pilot fatigue through automation that acts as…",
-      "url": "https://simpleflying.com/5-aircraft-pilots-say-are-most-technologically-advanced/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-25T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/technologically-advanced.jpg"
-    },
-    {
-      "title": "Why British Airways Decided To Replace Its Longstanding Quadjet Fleet With Large Twin-Engine Airbus A350-1000s",
-      "description": "While the passenger Boeing 747-400 is most closely associated with Lufthansa today, it had long been British Airways that was the world's largest operator of this aircraft, the most successful variant of the iconic 747. At one point, British Airways operated 57 747-400s, and these planes flew all…",
-      "url": "https://simpleflying.com/why-british-airways-decided-replace-longstanding-quadjet-fleet-large-twin-engine-airbus-a350s/",
-      "source": "Simple Flying",
-      "author": "Daniel S Osipov",
-      "published_at": "2026-11-25T09:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/airline-economics.jpg"
-    },
-    {
-      "title": "Malaysia Airlines Picks Boeing Over Airbus For Its First 787 Dreamliners To Replace A350s",
-      "description": "Malaysia Airlines has put pen to paper with US planemaker Boeing on a deal for up to 16 aircraft for the manufacturer's 787-10 Dreamliner widebody twinjet aircraft. This consists of 10 firm orders and another six options, with deliveries of these stretched 787s set to take place from 2032 to 2035.…",
-      "url": "https://simpleflying.com/malaysia-airlines-picks-boeing-over-airbus-787-10-dreamliners-replace-a350s/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-25T08:51:11Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/simpleflying-boeing-787-10-malaysia-airlines-1795594451259.jpg"
-    },
-    {
-      "title": "Boston-Bound British Airways 787-10 Declares Emergency Over Second Oil Leak In 10 Days",
-      "description": "A British Airways Boeing 787-10 Dreamliner declared an emergency over the North Atlantic on Tuesday night after reporting an engine oil leak. The aircraft (G-ZBLC) was operating flight BA239 from London Heathrow Airport (LHR) when it squawked 7700 more than four hours into the flight.",
-      "url": "https://simpleflying.com/british-airways-boeing-787-10-boston-emergency-second-oil-leak-10-days/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-25T06:57:09Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/british-airways-boeing-787-10-being-towed-on-runway.jpg"
-    },
-    {
-      "title": "US Army Moves To Restart Washington DC Helicopter Training Flights 2 Years After Deadly Crash",
-      "description": "The US Army is moving to resume helicopter training flights in airspace near Ronald Reagan Washington National Airport (DCA) as soon as the week of December 6, according to a recent report by Politico . That timeline comes less than two years after the January 29, 2025 midair collision between an…",
-      "url": "https://simpleflying.com/us-army-restart-washington-dc-helicopter-training-flights-2-years-crash/",
-      "source": "Simple Flying",
-      "author": "Jack McGarity",
-      "published_at": "2026-11-25T02:13:22Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2024/08/artboard-16_9-51.jpg"
-    },
-    {
-      "title": "This 1972 Cessna Citation 500 SP Eagle Is a Modified, Updated ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1972 Cessna Citation 500 SP Eagle.…",
-      "url": "https://www.flyingmag.com/this-1972-cessna-citation-500-sp-eagle-is-a-modified-updated-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-24T17:30:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261123_164033.jpg?w=1024"
-    },
-    {
-      "title": "Army Asks to Resume DCA Helicopter Training Flights",
-      "description": "Representative Don Beyer (D-Va.) said Monday that the U.S. Army has contacted the FAA about the resumption of helicopter training flights near Ronald Reagan Washington National Airport (KDCA), which have been banned since May 2025 as a safety precaution. The restriction is one of many implemented…",
-      "url": "https://www.flyingmag.com/army-asks-resume-dca-helicopter-training-flights/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-24T16:30:00Z",
-      "image": null
-    },
-    {
-      "title": "Why Aircraft Performance Skills Belong in Early Flight Lessons",
-      "description": "“My other CFI doesn’t make me do this.” This is a phrase that can make a flight instructor cringe, especially when the task the learner allegedly has never done before is something that probably should have been taught as part of a primary lesson. An example of this is using information from the…",
-      "url": "https://www.flyingmag.com/why-aircraft-performance-skills-belong-in-early-flight-lessons/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-24T15:00:00Z",
-      "image": null
-    },
-    {
-      "title": "California Coastal Airports Prepare for Storm Flooding Ahead of Thanksgiving Travel",
-      "description": "Airports along the California coast are bracing for potential flooding as heavy rain and unusually high king tides threaten low-lying transit hubs through Thanksgiving Day. The National Weather Service (NWS) predicts the king tides will be approximately 2.7 feet higher than normal high tide,…",
-      "url": "https://www.flyingmag.com/california-coastal-airports-prepare-for-storm-flooding-ahead-of-thanksgiving-travel/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-24T14:00:00Z",
-      "image": null
-    },
-    {
-      "title": "Opinion: Mesa’s Landing Fees Should Concern Every Pilot",
-      "description": "A student pilot learning to land doesn’t do it once. She does it 10 times in an hour, 10 more the next day, and dozens more before her instructor will sign her off to solo. Every one of those landings is a repetition, and repetition is the only way anyone has ever learned to put an airplane on a…",
-      "url": "https://www.flyingmag.com/opinion-mesas-landing-fees-should-concern-every-pilot/",
-      "source": "Flying Magazine",
-      "author": "Patrick Arnzen",
-      "published_at": "2026-11-24T13:00:00Z",
-      "image": null
     },
     {
       "title": "FAA lifts Centennial Airport operations restrictions",
@@ -145,15 +172,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-24T01:36:52Z",
-      "image": null
-    },
-    {
-      "title": "Aviation Industry Would Settle for Less Than Trump’s $50B ATC Request",
-      "description": "More than 60 powerful aviation organizations Monday urged Congress to allocate further funding for air traffic control (ATC) modernization, but their request fell about $20 billion short of what President Donald Trump’s administration is asking for. The Modern Skies Coalition—which represents…",
-      "url": "https://www.flyingmag.com/aviation-groups-less-than-trump-50b-atc-request/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-23T18:30:00Z",
       "image": null
     },
     {
@@ -190,24 +208,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-20T01:21:22Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Air Safety Institute Highlights Continued General Aviation Safety Improvements in 36th Richard G. McSpadden Report",
-      "description": "FREDERICK, Md.—The Aircraft Owners and Pilots Association Air Safety Institute (ASI) has released its 36th Richard G. McSpadden Report , covering general aviation accidents during calendar year 2024, the most recent year for which full data are available.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/19/pr-aopa-air-safety-institute-highlights-continued-general-aviation-safety-improvements-in-36th?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-19T10:27:00Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Applauds New Jersey Airport Eviction Pause",
-      "description": "ANDOVER, N.J.—The Aircraft Owners and Pilots Association (AOPA) applauds the New Jersey Department of Environmental Protection (DEP) for pausing evictions at Aeroflex-Andover Airport for six months.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/18/pr-aopa-applauds-new-jersey-airport-eviction-pause?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-18T22:27:18Z",
       "image": null
     }
   ]
