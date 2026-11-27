@@ -1,34 +1,133 @@
 {
-  "generated_at": "2026-11-26T15:22:21.671982+00:00",
+  "generated_at": "2026-11-27T21:54:50.571711+00:00",
   "query": "RSS: Aviation Week, Simple Flying, FlightGlobal, The Aviation Herald, AOPA, Flying Magazine",
-  "count": 23,
+  "count": 21,
   "articles": [
     {
-      "title": "Western Global Boeing 747 Stuck In Soft Ground Closes Tokyo Runway For 14 Hours",
-      "description": "On Wednesday evening, a Western Global Airlines Boeing 747-400 Freighter suffered a runway excursion while turning around ahead of its planned departure from Yokota Air Base (OKO) in Western Tokyo. The cargo-carrying quadjet was set to fly to Naha Airport (OKA) in Okinawa Prefecture, but, as a…",
-      "url": "https://simpleflying.com/western-global-boeing-747-runway-excursion-tokyo/",
-      "source": "Simple Flying",
-      "author": "Jake Hardiman",
-      "published_at": "2026-11-26T15:05:38Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_1782394025-golden_cropped.jpg"
-    },
-    {
-      "title": "Why Southwest Airlines Is Adding More Flights At Harry Reid International Airport",
-      "description": "Southwest Airlines is rolling out its largest-ever expansion at Harry Reid International Airport (LAS) after Spirit Airlines shut down on May 2, removing a major low-cost competitor that had flown nearly 2% of US domestic seats. Within days of Spirit's exit, Southwest moved quickly to lend a hand…",
-      "url": "https://simpleflying.com/why-southwest-airlines-adding-more-flights-harry-reid-international-airport/",
+      "title": "Why Cargolux Won Approval To Fly Boeing 747 Freighters To An Airport Most Flyers Have Never Heard Of",
+      "description": "On November 17, 2026, Uzbekistan's civil aviation authority granted Luxembourg-based Cargolux Airlines a permit to operate scheduled cargo flights to Navoi International Airpor t (NVI) with Boeing 747F freighters. The surprise is that a major widebody cargo carrier, operating a 30-aircraft fleet of…",
+      "url": "https://simpleflying.com/cargolux-approval-fly-boeing-747-freighters-airport-most-flyers-never-heard-of/",
       "source": "Simple Flying",
       "author": "Jacob Johnson",
-      "published_at": "2026-11-26T14:00:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795373309416.png"
+      "published_at": "2026-11-27T21:00:19Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/cargolux-747-8f.png"
     },
     {
-      "title": "KLM Axes All Flights To This UK Airport: See Map Now",
-      "description": "The United Kingdom is one of KLM 's largest markets. The Dutch flag carrier serves nearly 20 destinations across the market and offers around 70 daily flights. In April this year, the airline expanded its network to include a rather unusual destination, Jersey , on a seasonal basis.",
-      "url": "https://simpleflying.com/klm-axes-all-flights-to-this-uk-airport/",
+      "title": "Is Lufthansa Really Hiring 1,000 Pilots By 2033 While Cutting 1,000 Hub Jobs?",
+      "description": "Lufthansa has made headlines in recent weeks for multiple potential moves that would impact its workforce. On the one hand, proposed cuts could eat into its workforce at its two key hubs, Frankfurt Main Airport (FRA) and Munich Airport (MUC). On the other, an offer has been tabled that would…",
+      "url": "https://simpleflying.com/lufthansa-really-hiring-1000-pilots-2033-cutting-1000-hub-jobs/",
       "source": "Simple Flying",
-      "author": "Prachi Patel",
-      "published_at": "2026-11-26T14:00:06Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/shutterstock_376643494_cropped.jpg"
+      "author": "Josh Lamb",
+      "published_at": "2026-11-27T20:01:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/lufthansa-airbus-a320-200.png"
+    },
+    {
+      "title": "Leonardo Drops Hint of New Agusta-Branded Helicopter",
+      "description": "Leonardo Helicopters on Friday teased what appears to be a new helicopter being developed by its Agusta brand. The manufacturer shared a short video on its social media accounts that depicts the rotorcraft cloaked in shadows. The video appears to show a helicopter with a four-bladed main rotor and…",
+      "url": "https://www.flyingmag.com/leonardo-drops-hint-of-new-agusta-branded-helicopter/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-27T20:00:00Z",
+      "image": null
+    },
+    {
+      "title": "The Engineering Tricks Boeing Had To Come Up With To Fit Bigger Fans Under A 1960s Wing",
+      "description": "During the 1960s, Boeing introduced several aircraft that would transform commercial aviation, including the 727, 737, and 747. The Boeing 737 , which made its first flight in April 1967, was designed for short-haul operations and would eventually become one of the best-selling commercial aircraft…",
+      "url": "https://simpleflying.com/engineering-tricks-boeing-come-up-with-fit-bigger-fans-1960s-wing/",
+      "source": "Simple Flying",
+      "author": "Viviana Tarnowska",
+      "published_at": "2026-11-27T19:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795371265874.png"
+    },
+    {
+      "title": "5 Airlines Flying Rolls-Royce Trent 1000 Boeing 787s In 2026, Yet 3 Are Moving New Deliveries To GEnx",
+      "description": "The Boeing 787 Dreamliner is central to several major airlines’ long-haul fleets, with Rolls-Royce's Trent 1000 serving as one of its two available engine options. However, the relationship between the engine manufacturer and major customers has changed over the years. The biggest fleets are not…",
+      "url": "https://simpleflying.com/5-airlines-flying-rolls-royce-trent-1000-boeing-787s-2026-3-moving-new-deliveries-genx/",
+      "source": "Simple Flying",
+      "author": "Christian P. Martin",
+      "published_at": "2026-11-27T18:00:18Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/main-image.jpg"
+    },
+    {
+      "title": "Alaska Airlines Working With Multiple Agencies To Reduce Law Enforcement After ICE Arrests",
+      "description": "Dozens of airport workers at Seattle-Tacoma International Airport (SEA) marched to Alaska Airlines headquarters on Tuesday, demanding the carrier call for US Immigration and Customs Enforcement (ICE) to be removed from the airport. This comes as the employees and airport workers demand greater…",
+      "url": "https://simpleflying.com/alaska-airlines-working-multiple-agencies-reduce-law-enforcement-ice-arrests/",
+      "source": "Simple Flying",
+      "author": "Aaron Bailey",
+      "published_at": "2026-11-27T18:00:10Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/aircraft-at-gate-at-seattle-airport.jpg"
+    },
+    {
+      "title": "Here's What Airline Maintenance Technicians Really Earn In 2026",
+      "description": "Airline maintenance technicians are among the best-paid workers in the skilled trades. At several of the largest US airlines, base pay at the top of the scale now passes $60 an hour, before premiums for licenses, shift work, and seniority are added. That puts experienced airline technicians well…",
+      "url": "https://simpleflying.com/airline-maintenance-technicians-really-earn-2026/",
+      "source": "Simple Flying",
+      "author": "Brandon Shaw",
+      "published_at": "2026-11-27T17:01:20Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795115254464.jpg"
+    },
+    {
+      "title": "Woman Killed By Spinning Propeller at Alaska Airport",
+      "description": "An Alaska woman was killed when she walked into the spinning propeller of an aircraft. It happened at Big Lake Airport (PAGQ), approximately 20 miles north of Anchorage. According to a news release from the Alaska Department of Public Safety, the woman has been identified as 38-year-old Christina…",
+      "url": "https://www.flyingmag.com/woman-killed-by-spinning-propeller-at-alaska-airport/",
+      "source": "Flying Magazine",
+      "author": "Meg Godlewski",
+      "published_at": "2026-11-27T16:54:30Z",
+      "image": null
+    },
+    {
+      "title": "This 1981 Cessna 185 Skywagon Is a Thoughtfully Modified ‘AircraftForSale’ Top Pick",
+      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1981 Cessna 185 Skywagon. Cessna’s…",
+      "url": "https://www.flyingmag.com/this-1981-cessna-185-skywagon-is-a-thoughtfully-modified-aircraftforsale-top-pick/",
+      "source": "Flying Magazine",
+      "author": "Jonathan Welsh",
+      "published_at": "2026-11-27T16:50:49Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261125_151626.jpg?w=1024"
+    },
+    {
+      "title": "FedEx Jet Overruns Miami Runway, No Injuries Reported",
+      "description": "A Boeing MD-11 freighter operating as FedEx Flight 910 overran the runway at Miami International Airport (KMIA) on Wednesday evening, marking the second runway excursion at the airport since September. The FAA and Miami-Dade Sheriff’s Office said there were no reports of injuries to the flight crew…",
+      "url": "https://www.flyingmag.com/fedex-cargo-jet-miami-airport-runway-excursion/",
+      "source": "Flying Magazine",
+      "author": "Jack Daleo",
+      "published_at": "2026-11-27T16:44:14Z",
+      "image": null
+    },
+    {
+      "title": "‘Aviation Start’ Episode 8 Maps the Path From Enlisted Mechanic to Vice President of Maintenance",
+      "description": "The eighth episode of Aviation Start, FLYING’s career-focused video podcast hosted by Jamail Larkins, was recorded live at the 2026 NBAA Business Aviation Convention and Exhibition in Las Vegas, and it takes on the job Larkins calls the most in-demand in the aviation ecosystem: aircraft…",
+      "url": "https://www.flyingmag.com/aviation-start-episode-8-maps-the-path-from-enlisted-mechanic-to-vice-president-of-maintenance/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-11-27T16:25:09Z",
+      "image": "https://www.youtube.com/embed/Y8e1-AtYrGU"
+    },
+    {
+      "title": "Norse Atlantic Files For Bankruptcy After Lessors Terminate Leases On Its 12 Boeing 787s",
+      "description": "Norse Atlantic Airways' Norwegian operating subsidiary is filing for bankruptcy after the airline failed to secure sufficient emergency financing. The announcement came earlier today, just hours after the carrier confirmed that it had received lease termination notices covering all 12 of its Boeing…",
+      "url": "https://simpleflying.com/norse-atlantic-files-bankruptcy-boeing-787/",
+      "source": "Simple Flying",
+      "author": "Paul Hartley",
+      "published_at": "2026-11-27T16:09:15Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/norse_787_cleaned_1920x1080.jpg"
+    },
+    {
+      "title": "How Munich Airport Clears A Runway Of Snow In Just 30 Minutes With 175 Vehicles",
+      "description": "With 170 vehicles and 540 personnel available for winter operations, Munich Airport (MUC) is equipped to clear each runway of snow within 30 minutes. These crews remain on standby around the clock from early November to mid-April, covering the months with the highest risk of heavy snow.",
+      "url": "https://simpleflying.com/munich-airport-winter-snow-clearing-175-vehicles/",
+      "source": "Simple Flying",
+      "author": "Louis Hardiman",
+      "published_at": "2026-11-27T16:07:34Z",
+      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/_atf2694-enhanced-1795794400624.jpg"
+    },
+    {
+      "title": "The Ultimate Pilot Holiday Gift Guide 2026",
+      "description": "From hours logged in the cockpit to adventures beyond the airport, FLYING’s holiday gift guide has something for every kind of pilot and every stage of the aviation journey. This year’s picks span travel gear, training tools, hangar equipment, lifestyle gifts, and finds for the next generation of…",
+      "url": "https://www.flyingmag.com/the-ultimate-pilot-holiday-gift-guide-2027/",
+      "source": "Flying Magazine",
+      "author": "FLYING Staff",
+      "published_at": "2026-11-27T13:00:00Z",
+      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "This 2016 Cirrus SR22T-G5 GTS Is a Well-Equipped, Low-Time ‘AircraftForSale’ Top Pick",
@@ -38,69 +137,6 @@
       "author": "Jonathan Welsh",
       "published_at": "2026-11-26T14:00:00Z",
       "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261125_130719.jpg?w=1024"
-    },
-    {
-      "title": "18 Hours In The Air: Qatar Airways Relaunches Massive Route Soon!",
-      "description": "On December 8th, Qatar Airways will finally lift off for Canberra. The oneworld member last flew to the capital of Australia in March, when the war in Iran forced it to stop.",
-      "url": "https://simpleflying.com/video/18-hours-in-the-air-qatar-airways-relaunches-massive-route-soon/",
-      "source": "Simple Flying",
-      "author": "Chris Loh",
-      "published_at": "2026-11-26T13:33:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/qatar-canberra.jpg"
-    },
-    {
-      "title": "Virgin Atlantic Ends All Flights To 2 Countries: See Full list Now",
-      "description": "Virgin Atlantic is the UK's second-largest long-haul operator. The SkyTeam member's schedule submission to OAG shows that the airline plans to fly to 14 countries in the first half of 2027. Gone are Saudi Arabia and the United Arab Emirates, although things might not be quite this simple.",
-      "url": "https://simpleflying.com/virgin-atlantic-ends-all-flights-to-2-countries/",
-      "source": "Simple Flying",
-      "author": "James Pearson",
-      "published_at": "2026-11-26T12:10:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/04/shutterstock_2739406075-1.jpg"
-    },
-    {
-      "title": "How Much Does A Boeing 787-9 Cost Compared To The Airbus A350-900?",
-      "description": "Ask what a Boeing 787-9 Dreamliner costs and you will get different answers. The price changes between the number on the price list and the number the airline actually paid. And they are rarely close. That gap is why the question of how much a Boeing 787-9 costs compared with an Airbus A350-900 is…",
-      "url": "https://simpleflying.com/boeing-787-9-airbus-a350-900-cost-compared/",
-      "source": "Simple Flying",
-      "author": "Antonio Di Trapani",
-      "published_at": "2026-11-26T12:00:19Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/boeing-787-9-miles.jpg"
-    },
-    {
-      "title": "Why The Boeing 777X’s New Cabin Architecture Will Be Such A Game Changer For Airlines",
-      "description": "The promise of the Boeing 777X is a revolution in efficiency for long-haul and high-traffic airlines, but it will also change the game for passenger comfort at the same time. It will be the largest twinjet in history, and, thanks to its massive wingspan and gigantic engines, the plane will far…",
-      "url": "https://simpleflying.com/boeing-777x-new-cabin-architecture-game-changer-for-airlines/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-26T10:15:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2025/11/the-boeing-777x-s-unique-cabin-design-that-sets-it-apart-from-others.jpg"
-    },
-    {
-      "title": "Hundreds Of New Embraer Jets Headed To US Airlines Caught Up In Trump's 10% Tariff Plan",
-      "description": "The Trump administration has proposed a 10% tariff on aircraft imported from Brazil, potentially adding hundreds of millions of dollars to the cost of Embraer jets ordered by US airlines. The proposed duty would apply to several categories of finished aircraft, including airplanes and helicopters,…",
-      "url": "https://simpleflying.com/embraer-jets-us-airlines-trump-10-percent-tariff-plan/",
-      "source": "Simple Flying",
-      "author": "Luke Bodell",
-      "published_at": "2026-11-26T09:33:20Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/american-eagle-embraer-erj175.jpg"
-    },
-    {
-      "title": "The Aircraft Replacing The Boeing 767-300ER On United Airlines’ Chicago O’Hare To London Heathrow Route",
-      "description": "United Airlines still uses the elderly twinjet for three daily round-trips between Chicago O'Hare and London Heathrow, despite the fact that its fleet of Boeing 767-300ERs has been in service for an average of almost 30 years. United's Midwest hub is still noticeably next in line as it launches its…",
-      "url": "https://simpleflying.com/aircraft-replacing-boeing-767-300er-united-airlines-chicago-ohare-london-heathrow-route/",
-      "source": "Simple Flying",
-      "author": "Luke Diaz",
-      "published_at": "2026-11-26T09:01:18Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/11/1795374108077.png"
-    },
-    {
-      "title": "What Flight Attendants Do The Second The Boarding Door Closes That Passengers Never See",
-      "description": "The aim of any flight attendant, cabin crew, or flight crew member, every time we board an aircraft, is to ensure a safe and efficient flight. Although flight attendants are seen as service providers, they are actually onboard to handle issues when a flight does not go according to plan. They are…",
-      "url": "https://simpleflying.com/what-flight-attendants-do-door-closes/",
-      "source": "Simple Flying",
-      "author": "Patricia Green",
-      "published_at": "2026-11-26T08:56:21Z",
-      "image": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2026/07/average-2026-salaries.jpg"
     },
     {
       "title": "Embraer Responds to Proposed 10% Duty on Brazilian Aircraft",
@@ -119,42 +155,6 @@
       "author": "Jack Daleo",
       "published_at": "2026-11-25T19:00:00Z",
       "image": null
-    },
-    {
-      "title": "This 1973 Cessna 177B Cardinal Is a Graceful, Underrated ‘AircraftForSale’ Top Pick",
-      "description": "Each day, the team at Aircraft For Sale picks an airplane that catches our attention because it is unique, represents a good deal, or has other interesting qualities. You can read Aircraft For Sale: Today’s Top Pick at FLYINGMag.com daily. Today’s Top Pick is a 1973 Cessna 177B Cardinal. After a…",
-      "url": "https://www.flyingmag.com/this-1973-cessna-177b-cardinal-is-a-graceful-underrated-aircraftforsale-top-pick/",
-      "source": "Flying Magazine",
-      "author": "Jonathan Welsh",
-      "published_at": "2026-11-25T18:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2026/11/20261124_1204460.jpg?w=1024"
-    },
-    {
-      "title": "‘Microsoft Flight Simulator 2024’ Introduces Global Jet Add-On",
-      "description": "Microsoft Flight Simulator 2024 owners can now download a version of the Bombardier Global 6000 from the popular video game’s marketplace as a paid add-on. Developed by MSFS2024 partner IniBuilds and referred to simply as the “Global Jet,” the latest aircraft in the game’s “Exclusive Series” will…",
-      "url": "https://www.flyingmag.com/microsoft-flight-simulator-2024-global-6000-jet/",
-      "source": "Flying Magazine",
-      "author": "Jack Daleo",
-      "published_at": "2026-11-25T17:00:00Z",
-      "image": null
-    },
-    {
-      "title": "6 Killed, Including 2 Children, in Cessna 210 Crash Off Mississippi Coast",
-      "description": "Six people, including two children, died Tuesday afternoon when a Cessna 210 crashed into the Gulf of Mexico off the coast of Mississippi between Pascagoula and Horn Island, authorities said. According to information from FlightAware.com and Flightradar24.com, the aircraft took off from New Orleans…",
-      "url": "https://www.flyingmag.com/6-killed-including-2-children-in-cessna-210-crash-off-mississippi-coast/",
-      "source": "Flying Magazine",
-      "author": "Meg Godlewski",
-      "published_at": "2026-11-25T16:00:00Z",
-      "image": null
-    },
-    {
-      "title": "On Our Radar: September’s Aviation Picks From FLYING Magazine",
-      "description": "Here is a collection of editor-recommended aviation products and services that are worth a closer look. From practical tools to thoughtful solutions, this is what caught our eye in the September Issue 974 of the FLYING print edition. This Article First Appeared in FLYING Magazine If you're not…",
-      "url": "https://www.flyingmag.com/on-our-radar-septembers-aviation-picks-from-flying-magazine/",
-      "source": "Flying Magazine",
-      "author": "FLYING Staff",
-      "published_at": "2026-11-25T13:00:00Z",
-      "image": "https://www.flyingmag.com/wp-content/uploads/2023/05/FLY0924.jpg?w=222"
     },
     {
       "title": "FAA lifts Centennial Airport operations restrictions",
@@ -190,24 +190,6 @@
       "source": "AOPA",
       "author": null,
       "published_at": "2026-11-20T23:20:34Z",
-      "image": null
-    },
-    {
-      "title": "AOPA Welcomes Return of Touch-and-Goes, Parallel Departures at Centennial Airport",
-      "description": "CENTENNIAL, Colorado—The Aircraft Owners and Pilots Association (AOPA) welcomes the FAA's decision to resume parallel runway departures and touch-and-goes at Centennial Airport, near Denver. The decision ends nearly two months of restrictions that disrupted flight training and other operations at…",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/20/pr-aopa-welcomes-return-of-touch-and-goes-parallel-departures-at-centennial-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-20T10:31:00Z",
-      "image": null
-    },
-    {
-      "title": "Hangar evictions paused at Aeroflex-Andover Airport",
-      "description": "The New Jersey Department of Environmental Protection (DEP) is pausing planned evictions for hangar tenants at Aeroflex-Andover Airport in New Jersey for six months.",
-      "url": "https://www.aopa.org/news-and-media/all-news/2026/november/19/hangar-evictions-paused-at-aeroflex-andover-airport?=utm_source=News&utm_medium=Content&utm_campaign=RSS",
-      "source": "AOPA",
-      "author": null,
-      "published_at": "2026-11-20T01:21:22Z",
       "image": null
     }
   ]

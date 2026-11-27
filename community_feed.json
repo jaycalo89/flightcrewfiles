@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:22:27.286840+00:00",
+  "generated_at": "2026-11-27T21:54:55.782094+00:00",
   "count": 8,
   "sources": [
     "Hacker News",
@@ -15,12 +15,12 @@
       "created_utc": 1593094607
     },
     {
-      "title": "What are flaps? Why do aircraft use flaps?",
-      "url": "https://aviation.stackexchange.com/questions/116709/what-are-flaps-why-do-aircraft-use-flaps",
-      "points": -1,
+      "title": "Is the exit velocity of contra rotating propellers quadruple the free stream speed?",
+      "url": "https://aviation.stackexchange.com/questions/116715/is-the-exit-velocity-of-contra-rotating-propellers-quadruple-the-free-stream-spe",
+      "points": 0,
       "num_comments": 1,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1795689026
+      "created_utc": 1795801408
     },
     {
       "title": "SFO near miss might have triggered aviation disaster",
@@ -31,12 +31,12 @@
       "created_utc": 1499747785
     },
     {
-      "title": "Are there any operational reasons to taxi an aircraft with the flaps extended or retracted?",
-      "url": "https://aviation.stackexchange.com/questions/116705/are-there-any-operational-reasons-to-taxi-an-aircraft-with-the-flaps-extended-or",
-      "points": 9,
-      "num_comments": 2,
+      "title": "What is the formula to calculate drag of a free wheeling propeller?",
+      "url": "https://aviation.stackexchange.com/questions/116714/what-is-the-formula-to-calculate-drag-of-a-free-wheeling-propeller",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1795113019
+      "created_utc": 1795801120
     },
     {
       "title": "Falsehoods programmers believe about aviation",
@@ -47,12 +47,12 @@
       "created_utc": 1749248433
     },
     {
-      "title": "Can I give a FAA logbook endorsement to someone I gave a military examination to prior to being certified as a CFI?",
-      "url": "https://aviation.stackexchange.com/questions/116699/can-i-give-a-faa-logbook-endorsement-to-someone-i-gave-a-military-examination-to",
-      "points": 7,
-      "num_comments": 3,
+      "title": "What's the most challenging part of being a flight dispatcher?",
+      "url": "https://aviation.stackexchange.com/questions/116713/whats-the-most-challenging-part-of-being-a-flight-dispatcher",
+      "points": 0,
+      "num_comments": 0,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794692890
+      "created_utc": 1795783708
     },
     {
       "title": "Starlink Aviation",
@@ -63,12 +63,12 @@
       "created_utc": 1666143646
     },
     {
-      "title": "Douglas DC-4 Wing Shape",
-      "url": "https://aviation.stackexchange.com/questions/116686/douglas-dc-4-wing-shape",
-      "points": 6,
+      "title": "What are flaps? Why do aircraft use flaps?",
+      "url": "https://aviation.stackexchange.com/questions/116709/what-are-flaps-why-do-aircraft-use-flaps",
+      "points": 0,
       "num_comments": 2,
       "source": "Aviation Stack Exchange",
-      "created_utc": 1794117658
+      "created_utc": 1795689026
     }
   ]
 }
